@@ -126,13 +126,11 @@ The most common severity levels are:
 7. 7 (Debug): Debug-level messages.
   
 The Syslog daemon can be configured to set "trap levels" which is the threshold for log message severity.
-Log messages with a severity level equal to or greater than the trap level will be logged,
-while messages with a lower severity level will be ignored.
 
 For example, if the trap level is set to 4 (Warning), the Syslog daemon will log all messages with a severity level of Warning, Error, Critical, Alert, and Emergency. However, messages with a severity level of Notice, Informational, and Debug will be ignored.
 
 The trap level can be set in the configuration file of the Syslog daemon, such as /etc/rsyslog.conf or /etc/syslog-ng.conf, depending on the Syslog daemon you are using.
 
-It's important to note that setting the trap level too high can cause important information to be ignored, and setting it too low can cause the log files to become too large and difficult to manage. The appropriate trap level will depend on the specific requirements of the organization and the type of information that needs to be logged.
-
-References
+It's important to note that setting the trap level too high can cause important information to be ignored,
+and setting it too low can cause the log files to become too large and difficult to manage.
+The appropriate trap level will depend on the specific requirements of the organization and the type of information that needs to be logged.
