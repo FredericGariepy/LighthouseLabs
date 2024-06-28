@@ -1,6 +1,11 @@
 # The Syslog Server
 The Syslog Server is also known as the *syslog collector or receiver*.
 
+###### Reminder Note
+> Syslog uses the User Datagram Protocol (UDP), port 514, to communicate.
+>
+> Syslog servers **do not send back an acknowledgment** of receipt of the messages
+
 Syslog messages are sent from the generating device to the collector.
 The **IP address of the destination syslog server must be configured on the device** itself,
 either by command-line or via a conf file. 
