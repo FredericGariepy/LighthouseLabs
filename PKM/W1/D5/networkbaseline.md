@@ -1,4 +1,10 @@
 # Network Baselines
+
+(cacti)[https://www.cacti.net/] includes a fully distributed and fault tolerant data collection framework.
+Cacti is a robust performance and fault management framework and a frontend to RRDTool - a Time Series Database (TSDB). It stores all of the necessary information to create performance management Graphs in either MariaDB or MySQL, and then leverages its various Data Collectors to populate RRDTool based TSDB with that performance data.
+Cacti is also a LAMP stack Web Application.
+
+
 common fields you will find in a network traffic chart:
 - bps:
 > (bps) bit per second.
