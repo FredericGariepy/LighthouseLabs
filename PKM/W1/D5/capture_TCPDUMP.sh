@@ -11,6 +11,8 @@ start_tcpdump() {
 stop_tcpdump() {
     # Kill the tcpdump process
     sudo kill $TCPDUMP_PID
+
+    # Here there should be added a check for the kill status of TCPDUMP_PID
 }
 
 # Main script execution
@@ -19,8 +21,8 @@ start_tcpdump
 
 # Execute your command here (replace with your actual command)
 echo "Executing command..."
-# Example command execution
-nmap -sS
+# Here there should be $1 = windows IP/subnet
+# Scan for $1
 
 # Stop tcpdump after command execution
 echo "Stopping tcpdump..."
