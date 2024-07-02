@@ -2,7 +2,9 @@
 
 # Function to start tcpdump in the background
 start_tcpdump() {
-    sudo tcpdump -i eth0 host <ip_address> -w capture.pcap  # The '&' ensures that tcdump PID is captured instead of bg PID
+    sudo tcpdump -i eth0 host <ip_address> -w capture.pcap 
+    # -i : interface -w: write 
+    # The '&' ensures that tcdump PID is captured instead of bg PID
     # Store the PID of the tcpdump process
     TCPDUMP_PID=$!
 }
