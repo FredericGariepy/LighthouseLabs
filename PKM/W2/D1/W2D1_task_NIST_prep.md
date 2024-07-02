@@ -117,7 +117,8 @@ In the database:
 
 Because this task involves an organization NOT at the federal level, trying to use Use NIS 800-60v2r1:
 > `https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-60v2r1.pdf`
-does not lend to any truly relatable information type.
+>
+> Federal categories doe not lend to any truly relatable information type.
 
 Based outputs of P12, P-13, information type in this scenario will be:
 
