@@ -28,7 +28,7 @@ encouraged to use these guidelines, as appropriate.
 | SIEM | Security information and event management (@Detect stage)|
 | SOAR | security orchestration, automation, and response (@Respond stage) |
 | SCRM | Supply chain risk management |
-
+| OBM | Office of Management and Budget Circular |
 
 
 
