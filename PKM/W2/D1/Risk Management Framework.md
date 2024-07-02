@@ -25,6 +25,7 @@
 | CIA | confidentiality, integrity, availability |
 | SIEM | Security information and event management (@Detect stage)|
 | SOAR | security orchestration, automation, and response (@Respond stage) |
+| SCRM | Supply chain risk management |
 
 Note on NIST.SP.800-37r2
 
@@ -35,6 +36,8 @@ an information system perspective and a common controls perspective.
 
 - Maximize the use of automation, wherever possible, to increase the speed,
 effectiveness, and efficiency of executing RMF steps.
+
+
 
 
 
