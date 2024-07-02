@@ -1,4 +1,5 @@
 # task
+[Jump to task response](##response)
 ## NIST RMF Quick Start Guide ( W2 | D1 )
 Access and review the resources and information available at [NIST’s Prepare Step page](https://csrc.nist.gov/Projects/risk-management/about-rmf/prepare-step) along with it's associated FAQ (with a focus on section 2 & 3).
 
@@ -41,5 +42,12 @@ perform the key preparation activties for the given scenario and identify the fo
 Now, review the Categorize Step page along with it's associated FAQ (with a focus on section 2 & 3).
 Then using what you learned make a categorization determination around the company's database server and the potential impact on the organization if it is compromised in anyway,
 be sure to address all elements of the CIA triad.
+___
+# -> Share your responses with your peers on discord!
+## response
 
--> Share your responses with your peers on discord!
+top 3 biggest risk:
+1. Data Breach.
+   Exposing the company's data: PII and Financial data. Loss of trust in the company.
+2. 
+
