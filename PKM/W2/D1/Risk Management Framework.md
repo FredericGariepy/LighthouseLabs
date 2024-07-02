@@ -10,7 +10,9 @@
 | Authorize | Senior official makes a risk-based decision to authorize the system (to operate) |
 | Monitor | Continuously monitor control implementation and risks to the system |
 
-[NIST.SP.800-37r2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf)
+The scope of this publication pertains to federal information systems: [NIST.SP.800-37r2 ](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf)
+State, local, and tribal governments, as well as private sector organizations are
+encouraged to use these guidelines, as appropriate.
 
 ## Glossary
 | Acronym | expansion |
@@ -27,15 +29,19 @@
 | SOAR | security orchestration, automation, and response (@Respond stage) |
 | SCRM | Supply chain risk management |
 
+
+
+
 Note on NIST.SP.800-37r2
 
 - RMF addresses security and privacy risk from two perspectives—
 an information system perspective and a common controls perspective.
 
-- RMF is purposefully designed to be technology neutral.
+- RMF policy and technology neutral, to facilitate upgrades to IT resources
 
 - Maximize the use of automation, wherever possible, to increase the speed,
 effectiveness, and efficiency of executing RMF steps.
+
 
 
 
