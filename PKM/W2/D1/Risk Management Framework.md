@@ -22,7 +22,9 @@
 | HVA | high value assets |
 | FISMA | Federal Information Security Modernization Act (FISMA) of 2014 |
 | POAM | plans of action and milestones |
-
+| CIA | confidentiality, integrity, availability |
+| SIEM | Security information and event management (@Detect stage)|
+| SOAR | security orchestration, automation, and response (@Respond stage) |
 
 Note on NIST.SP.800-37r2
 
