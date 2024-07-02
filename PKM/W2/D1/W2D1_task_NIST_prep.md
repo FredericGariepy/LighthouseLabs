@@ -1,5 +1,5 @@
+[Click here: Jump to task response](#response)
 # task
-[Jump to task response](#response)
 ## NIST RMF Quick Start Guide ( W2 | D1 )
 Access and review the resources and information available at [NIST’s Prepare Step page](https://csrc.nist.gov/Projects/risk-management/about-rmf/prepare-step) along with it's associated FAQ (with a focus on section 2 & 3).
 
