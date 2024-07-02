@@ -27,6 +27,7 @@ encouraged to use these guidelines, as appropriate.
 | SIEM | Security information and event management (@Detect stage)|
 | SOAR | security orchestration, automation, and response (@Respond stage) |
 | SCRM | Supply chain risk management |
+| CIS | Cybersecurity framework |
 
 ## Authoritative/Body/Publication Glossary
 | Acronym | description |
