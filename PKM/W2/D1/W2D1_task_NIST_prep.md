@@ -48,6 +48,14 @@ ___
 
 top 3 biggest risk:
 1. Data Breach.
-   Exposing the company's data: PII and Financial data. Loss of trust in the company.
-2. 
-
+   A Data breach would expose the company's data: PII and Financial data
+   and without security policy in place the breach may be very deep.
+   This would also lead to a loss of trust in the company.
+   Both of these negative effects would break the company's operations.
+2. [Insider threat](https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks)
+   Company has only 2 developers, and no security policy or procedures.
+   Insider threats can occur both intentionally and *un-intentionally**.
+   A majority of cybersecurity vulnerabilities are caused by humans.
+   Without security policy in place, backups may not be avaible to revert the organization to a working stage or recover. 
+4. 
+   
