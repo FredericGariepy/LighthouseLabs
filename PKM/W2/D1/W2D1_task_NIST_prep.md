@@ -35,21 +35,21 @@ The company currently has only two developers, no formal security policies or pr
 The information for your current user base of 200 people is stored on a server that is directly connected to the web servers for easy retrieval.
 
 After reviewing the NIST quick start guide FAQ related to the prepare step,
-perform the key preparation activties for the given scenario and identify the following:
+perform the key preparation activties for the given scenario and identify the following (Q1,Q2,Q3,Q4,Q5):
 
 1. The top 3 biggest risks to company security with explanations for your determination
 2. Security controls that could compensate for the company's major risks
 3. A strategy for implementing continous monitoring of company source code
 4. Identify the company's high value assets
-
-Now, review the Categorize Step page along with it's associated FAQ (with a focus on section 2 & 3).
-Then using what you learned make a categorization determination around the company's database server and the potential impact on the organization if it is compromised in anyway,
-be sure to address all elements of the CIA triad.
+5. Now, review the Categorize Step page along with it's associated FAQ (with a focus on section 2 & 3).
+   Then using what you learned make a categorization determination around the company's database server and the potential
+   impact on the organization if it is compromised in anyway,
+   be sure to address all elements of the CIA triad.
 ___
 # -> Share your responses with your peers on discord!
 ## response
 
-### top 3 biggest risk:
+### Q1. top 3 biggest risk:
 1. Data Breach:
    
    A Data breach would expose the company's data: PII and Financial data
@@ -75,7 +75,7 @@ ___
    open up the organization to threats.
    Without security measures, recovery of the organization's operations is unlikely.
    
-### Security controls that could compensate for the company's major risks
+### Q2. Security controls that could compensate for the company's major risks
 
 - Data controls:
   Encrypt data (using hashes), segreagate data (keep secrets isolated), use encryption key management systems (in AWS),
@@ -88,16 +88,16 @@ ___
 - Administrative controls:
   Data breach pollicies, to prevent, mitigate, recover from and disclose data breaches.
 
-### A strategy for implementing continous monitoring of company source code
+### Q3. A strategy for implementing continous monitoring of company source code
 
 Using GIT for version control. Establish a secure CI/CD pipeline and using third party security code scanners. Set-up tests to ensure security and functionality. Use a development enviroment and run tests before deployment.
 
-### Identify the company's high value assets
+### Q4. Identify the company's high value assets
 
 Database server containing PII and Financial data.
 AWS infratructure containing web servers and database.
 
-### Categorize Step : database server
+### Q5. Categorize Step : database server
 
 | Task | Title             | Description                                        |
 |-------|-------------------|----------------------------------------------------|
@@ -123,14 +123,14 @@ Based outputs of P12, P-13, information type in this scenario will be:
 
    *Security Category* = {(confidentiality, Moderate), (integrity, Low), (availability, Low)}
 
-Confidentiality
+- *Confidentiality*
 
 The confidentiality impact level is the effect of unauthorized disclosure of personally identifying information and financial data that an adversary could use to perform financial crimes and or crimes related to the use of gained personal identites. Loss of condidentiality will results in loss of public trust. Situation is exacerbated by the lack of security policies and measures. However, PII information stored is not likely to contain secrets such as SIN, SNN, Passport number, biometric data, and other highly sensitive PII, therefore confidentiality is important at a Moderate level.
 
-Integrity
+- *Integrity*
 
 When inforamtion is modified, destructed, a loss of integrity can be remediated by Data backups, security controlls, administrative resets. Though there is currently a lack of security policies and measures that would act to remediate a loss of integrity. Integrity is important but at a lower level.
 
-Availability
+- *Availability*
 
 Availability of the system and its data is crucial though at a lower impact level. The organization has 2 web servers to offer some reundancy to its 200 users. 
