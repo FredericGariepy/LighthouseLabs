@@ -14,7 +14,7 @@ The scope of this publication pertains to federal information systems: [NIST.SP.
 State, local, and tribal governments, as well as private sector organizations are
 encouraged to use these guidelines, as appropriate.
 
-## Glossary
+## Textual Glossary
 | Acronym | expansion |
 | -| -|
 | RMF | Risk Management Framework |
@@ -22,13 +22,21 @@ encouraged to use these guidelines, as appropriate.
 | PII | personally identifiable information |
 | OT | Operations Technology |
 | HVA | high value assets |
-| FISMA | Federal Information Security Modernization Act (FISMA) of 2014 |
 | POAM | plans of action and milestones |
 | CIA | confidentiality, integrity, availability |
 | SIEM | Security information and event management (@Detect stage)|
 | SOAR | security orchestration, automation, and response (@Respond stage) |
 | SCRM | Supply chain risk management |
+
+## Authoritative/Body/Publication Glossary
+| Acronym | description |
+| - |- | 
+| NIST | National Institute of Standards and Technology |
+| FISMA | Federal Information Security Modernization Act (FISMA) of 2014 |
 | OBM | Office of Management and Budget Circular |
+| ISO | International Organization for Standardization | 
+|IEC | International Electrotechnical Commission |
+| IEEE | Institute of Electrical and Electronics Engineers |
 
 
 
