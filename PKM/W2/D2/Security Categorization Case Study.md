@@ -139,3 +139,56 @@ Security management confidentiality is high as it can be leveraged to impact HVA
 #### System Data SIL - moderate
 System Integrity and Availability are moderate, as they both impact organization operations and can reasonably be assumed to have remediation strageies.
 > SC for Systems: {(confidentiality, low), (integrity, moderate), (availability, moderate)}
+
+## Task 5
+-> Use the National Vulnerability Database (NVD) to look up and assess the threat that the unpatched 2019 Windows Server
+(and the fact that Kevin has his Valentines Day exploit for the TitanFTP vulnerability found on these servers) are to CyberOpps and its assets.
+
+Steps taken to complete this task:
+> Go to `https://nvd.nist.gov/vuln/search`
+> 
+> Searching for `Windows Server 2019` is *too broad*!
+> Instead, narrowing down in our basic search with `TitanFTP 2019` will yeild narrower results
+>
+> This leads us to two Vulnerabilities CVE-2022-34006 and CVE-2022-34005. Both Vuln IDs relate to Microsoft SQL Express.
+
+#### Threat assesment 
+- [CVE-2022-34005](https://nvd.nist.gov/vuln/detail/CVE-2022-34005)
+
+  Base Score: 9.8 CRITICAL
+
+  Vector:  CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+  Remote Code Execution, enables attackers to take control of a system or application completely while acting **remotely**.
+
+- [CVE-2022-34006](https://nvd.nist.gov/vuln/detail/CVE-2022-34006)
+
+  Base Score: 7.8 HIGH
+
+  Vector:  CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+
+  Unprivileged Windows users to execute commands **locally**.
+
+
+
+
+Use the NVD (National Vulnerability Database) to look up information about the TitanFTP vulnerability affecting 2019 Windows Servers.
+Note down the severity, impact, and any potential exploits associated with this vulnerability.
+Assess Threat to CyberOpps:
+
+Evaluate how this vulnerability affects CyberOpps' assets, including:
+Confidentiality: Could attackers gain unauthorized access to sensitive information?
+Integrity: Could attackers modify data or configurations?
+Availability: Could attackers disrupt services or operations?
+Consider Kevin's Exploit Intentions:
+
+Understand Kevin's intent to exploit this vulnerability. This involves considering:
+The specific risk posed by Kevin's knowledge and intent.
+Potential motives behind exploiting the vulnerability (e.g., data theft, disruption of services).
+Mitigation and Response:
+
+Based on the assessment, recommend or implement mitigation strategies:
+Patch Management: Immediately apply patches or updates to mitigate the vulnerability.
+Network Segmentation: Isolate critical assets to minimize the impact of a potential breach.
+Monitoring and Detection: Implement robust monitoring to detect and respond to any exploitation attempts.
+
