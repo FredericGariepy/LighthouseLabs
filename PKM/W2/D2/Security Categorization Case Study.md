@@ -28,16 +28,24 @@ that can be exploited through TitanFTP.
 ___
 # > Share with Discord!
 ## response
-
+-> Please check the note bellow before proceeding 😸
 ### Note:
 > This text covers tasks 1 - 5
 > 
 > Given the information in the storyline, it is known that the high value asset (HVA) is high value programs.
+> 
 > However, the type of data and its relative value contained in the SQL Database is *unknown**.
+> 
 > The company *may* be developing its HVA in relation to medical, financial or personal data.
+>
+> In other words, data type contained in the SQL databse can be assumed to be personal and financial.
+> However, it is possible that client information is medical, if the company's HVA is related to medical programs.
+> 
+> The organization mission and goals are not revealed and the nature of the data type stored is unknown.
+> The following tasks were performed with this lack of information in mind.
 
 ### Task 1:
-Classify CyberOpps’ each **information asset** as one of the following:
+-> Classify CyberOpps’ each **information asset** as one of the following:
 
 (P) privacy - (M) medical - (IP) proprietary - (F) financial - (SM) security management - (S) systems
 
@@ -49,7 +57,7 @@ Classify CyberOpps’ each **information asset** as one of the following:
 - Security management : logs, network monitoring tools, firewalls
 
 ### Task 2
-Rank CyberOpps' information assets' importance as follows (from most important to least important, as listed below):
+-> Rank CyberOpps' information assets' importance as follows (from most important to least important, as listed below):
 
 (IP) Proprietary : programs, program structures
 (P)  Privacy : employee and or client PII 
@@ -59,7 +67,7 @@ Rank CyberOpps' information assets' importance as follows (from most important t
 (S)  System : server (vulnerable), virtual environment (development computers), network environment
 
 ### Task 3
-Use the SC equation (given below) to categorize the impact to CyberOpps if each asset were to be compromised:
+-> Use the SC equation (given below) to categorize the impact to CyberOpps if each asset were to be compromised:
 > SC information type = {(confidentiality, impact), (integrity, impact), (availability, impact)}
 
 - SC IP = {(confidentiality, high), (integrity, low), (availability, low)}
@@ -100,5 +108,34 @@ Use the SC equation (given below) to categorize the impact to CyberOpps if each 
 
 *Availability* : Availability of system assets is needed for operations. Downtime on servers, developer computers, network, environment would disrupt business activities, development processes. Assuming measures in place, such as back-ups, enviroment set-up documentation, available hardware, Loss of Availability could be remidiated, but disruptions may last and negatively effect organization operations.
 
+### task 4
+-> Create the SILs based on the SC equation results.
+Hey but wait, How to calculate SILs from SC?
+> 1. Identify the SC equation for each type of information asset.
+>    
+> 2. Evaluate the highest impact category (confidentiality, integrity, or availability) from the SC equation.
+>    
+> 3. Assign the SIL based on the highest impact identified:
+>    
+> e.g.
+> 
+> High (H) if any impact category is high. Moderate (M) if all impacts are moderate and no high impacts. Low (L) if all impacts are low.
+> 
+> SIL reflects the most significant potential impact of a compromise on C,I,A for each type of information asset.
 
 
+#### Intellectual Property SIL = High
+IP is HVA. Therefore, confidentiality of IP is high.
+> SC IP = {(confidentiality, high), (integrity, low), (availability, low)}
+
+#### Privacy, Medical, Financial Data SIL = Moderate
+Exact Data type contained about clients and employees in unconfirmed, liekly PII and financial informaiton, possibly client medical data type. Confidentiality is moderate as it is unknown, and could potentially be secured with hashing, data segregation, or other security controls.
+> SC for Data type: Privacy, Medical, Financial  = {(confidentiality, moderate), (integrity, low), (availability, low)}#
+
+#### Security management Data SIL - High
+Security management confidentiality is high as it can be leveraged to impact HVA's confidentiality.
+> SC for Security management = {(confidentiality, high), (integrity, low), (availability, low)}
+
+#### System Data SIL - moderate
+System Integrity and Availability are moderate, as they both impact organization operations and can reasonably be assumed to have remediation strageies.
+> SC for Systems: {(confidentiality, low), (integrity, moderate), (availability, moderate)}
