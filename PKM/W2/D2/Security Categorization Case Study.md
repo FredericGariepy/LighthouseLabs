@@ -25,6 +25,8 @@ Kevin knows that CyberOpps relies on
 an unpatched 2019 Windows server
 that can be exploited through TitanFTP.
 
+___
+# > Share with Discord!
 ## response
 
 ### Note:
