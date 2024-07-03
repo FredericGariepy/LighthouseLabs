@@ -9,10 +9,12 @@ RMF Publication: Risk Management Framework for Information Systems and Organizat
 2. Categorize
   > Use [Volume II: Appendices to Guide for Mapping Types of Information and Information Systems to Security Categories](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-60v2r1.pdf)
   >
-  > Give the information type Security Categories
+  > Give the information type Security Categories (SC)
   >
-  > These go from low, moderate, high across the CIA triad for each information type.
-  >
+  > SC go from low, moderate, high across the CIA triad for each information type.
+  > 
+  > SC for asset = {C:Level,I:Level, A:Level}
+  > 
   > Apply Tailoring if applicable.
   > 
   > Do RMF task C-1 through C-3
