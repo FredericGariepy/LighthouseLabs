@@ -1,3 +1,8 @@
+<!-- Hey fancy seeing you here -->
+###### Heya LHL cohort👋 right here is the response:
+➡️ [Click here: Jump to task response](#response) ⬅️
+🐜
+# task
 
 Your client, CyberOpps, is a small development company in Canada.
 
@@ -19,6 +24,7 @@ Kevin knows that CyberOpps relies on
 an unpatched 2019 Windows server
 that can be exploited through TitanFTP.
 
+## response
 
 Task 1:
 
