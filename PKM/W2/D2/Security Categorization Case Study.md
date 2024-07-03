@@ -2,7 +2,7 @@
 ###### Heya LHL cohort👋 right here is the response:
 ➡️ [Click here: Jump to task response](#response) ⬅️
 🐜
-# task
+# task - storyline
 
 Your client, CyberOpps, is a small development company in Canada.
 
@@ -26,6 +26,12 @@ that can be exploited through TitanFTP.
 
 ## response
 
+Note:
+Given the information in the storyline, it is known that the high value asset (HVA) is high value programs.
+However, the type of data and its relative value contained in the SQL Database is unknown.
+The company *may* be developing its HVA in relation to medical, financial or personal data.
+
+
 Task 1:
 
 Classify CyberOpps’ each information asset as one of the following: - (P) privacy - (M) medical - (IP) proprietary - (F) financial - (SM) security management - (S) systems
@@ -35,9 +41,6 @@ IP : programs, program structures, development environment
 Privacy: potential SQL Database of private employee and client information
 Financial : potential Database of private employee and client information
 medical : potential SQL Database of private employee and client information
-
-VULN : unpatched 2019 Windows server
-EXEC: TitanFTP
 
 Task 2 Rank CyberOpps' information assets' importance as follows (from most important to least important, as listed below):
 
