@@ -70,7 +70,10 @@ Use the SC equation (given below) to categorize the impact to CyberOpps if each 
 
 - SC for Data type: Privacy, Medical, Financial  = {(confidentiality, moderate), (integrity, low), (availability, low)}
 > Given the information so far, we do not know the organization mission or goals. Organization choses self-erasure over theft of HVA.
-> Data helf in SQL database holds importance, but it's relation or complimentation to HVA is unknwon.
+> 
+> Data held in SQL database holds importance, but it's relation or complimentation to HVA is unknwon.
+>
+> Data could be used to **reverse engineer HVA**, depending on its structure, labels, comments, and other information.
 
 *Confidentiality* : If compromised, personal, financial or medical data may lead to leak of PII, secrets, or critical information. Data may be used to reverse engineer HVA, depending on its form or nature. Though of high importance, loss of confidentiality is moderate due to measures in place for a typical development organizaiton.
 
