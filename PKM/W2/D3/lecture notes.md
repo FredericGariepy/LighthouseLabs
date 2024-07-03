@@ -19,10 +19,10 @@ IOC (Indicator of Compromise): These are artifacts observed on a network or in a
 ## IOA
 IOA (Indicator of Attack): These are signs that an attack is currently in progress. Unlike IOCs, which are more about the aftermath, IOAs focus on detecting the behaviors and tactics used by attackers during an active threat, such as unusual user activity or the use of tools to escalate privileges.
 
-# VA
+## VA
 VA (Vulnerability Assessment): This is the process of identifying, quantifying, and prioritizing the vulnerabilities in a system. It involves scanning systems to detect weaknesses that could be exploited by attackers, such as outdated software or misconfigured settings.
 
-# INTEL
+## INTEL
 INTEL (Cyber Threat Intelligence): This involves collecting, analyzing, and disseminating information about potential or current threats to an organization. It includes data on threat actors, their methods, and their motives, and helps organizations anticipate and mitigate cyber threats proactively.
 
 ## XDR
