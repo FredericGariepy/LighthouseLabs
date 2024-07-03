@@ -110,6 +110,7 @@ ___
 
 ### task 4
 -> Create the SILs based on the SC equation results.
+
 Hey but wait, How to calculate SILs from SC?
 > 1. Identify the SC equation for each type of information asset.
 >    
@@ -151,6 +152,8 @@ Steps taken to complete this task:
 > Instead, narrowing down in our basic search with `TitanFTP 2019` will yeild narrower results
 >
 > This leads us to two Vulnerabilities CVE-2022-34006 and CVE-2022-34005. Both Vuln IDs relate to Microsoft SQL Express.
+>
+> Then, asses the impact of the vulnerabilities onto the data owner's asssets.
 
 #### Threat assesment 
 - [CVE-2022-34005](https://nvd.nist.gov/vuln/detail/CVE-2022-34005)
@@ -159,7 +162,12 @@ Steps taken to complete this task:
 
   Vector:  CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
 
-  Remote Code Execution, enables attackers to take control of a system or application completely while acting **remotely**.
+  Exploit: Remote Code Execution, enables attackers to take control of a system or application completely while acting **remotely**.
+
+  *Assesment* : All of the assets are compromised including their respective CIA. Attacker can execute code **remotely** and take control of systems and or applications.
+  HVA, Data, Security Measures, Systems are all affected. 
+
+  *Recommendation* : Vendor, South River Technologies, recommends Upgrading a Legacy Installation. Alternatively, use diffrent FTP services.
 
 - [CVE-2022-34006](https://nvd.nist.gov/vuln/detail/CVE-2022-34006)
 
@@ -167,28 +175,8 @@ Steps taken to complete this task:
 
   Vector:  CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
 
-  Unprivileged Windows users to execute commands **locally**.
+  Exploit: Unprivileged Windows users to execute commands **locally** as NT AUTHORITY\SYSTEM, which is a built-in Windows account with the highest privileges on the operating system.
 
+  *Assesment* : Attacker must gain access to the local network. Some security controls may block this level of access. If attack is successfull, all of the assets are compromised including their respective CIA.  HVA, Data, Security Measures, Systems are all affected. 
 
-
-
-Use the NVD (National Vulnerability Database) to look up information about the TitanFTP vulnerability affecting 2019 Windows Servers.
-Note down the severity, impact, and any potential exploits associated with this vulnerability.
-Assess Threat to CyberOpps:
-
-Evaluate how this vulnerability affects CyberOpps' assets, including:
-Confidentiality: Could attackers gain unauthorized access to sensitive information?
-Integrity: Could attackers modify data or configurations?
-Availability: Could attackers disrupt services or operations?
-Consider Kevin's Exploit Intentions:
-
-Understand Kevin's intent to exploit this vulnerability. This involves considering:
-The specific risk posed by Kevin's knowledge and intent.
-Potential motives behind exploiting the vulnerability (e.g., data theft, disruption of services).
-Mitigation and Response:
-
-Based on the assessment, recommend or implement mitigation strategies:
-Patch Management: Immediately apply patches or updates to mitigate the vulnerability.
-Network Segmentation: Isolate critical assets to minimize the impact of a potential breach.
-Monitoring and Detection: Implement robust monitoring to detect and respond to any exploitation attempts.
-
+  *Recommendation* : Vendor, South River Technologies, recommends Upgrading a Legacy Installation. Alternatively, use diffrent FTP services.
