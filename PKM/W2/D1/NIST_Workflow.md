@@ -18,6 +18,16 @@ RMF Publication: Risk Management Framework for Information Systems and Organizat
   > Apply Tailoring if applicable.
   > 
   > Do RMF task C-1 through C-3
+  >
+  > Safety Integrity Level (SL)
+  > 
+  > Calculated as the highest value in the SC of an asset
+  >
+  > e.g. SIL for {C:high,I:low, A:low} = high
+  >
+  > e.g. SIL for {C:Moderate,I:Moderate, A:low} = Moderate
+  > 
+  > e.g. SIL for {C:low,I:Moderate, A:High} = High
 3. Select
 4. Implement
 5. Asses
