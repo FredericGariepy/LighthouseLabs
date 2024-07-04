@@ -49,7 +49,7 @@ The adversary is trying to move through your environment.
 [Remote Service](https://attack.mitre.org/techniques/T1021/)
 Adversaries may use Valid Accounts to log into a service that accepts remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.
 
-[ID  4624: An account was successfully logged on](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4624)
+Windows Event log [ID  4624: An account was successfully logged on](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4624)
 This is a highly valuable event since it documents each and every successful attempt to logon to the local computer regardless of logon type, location of the user or type of account.  You can tie this event to logoff events 4634 and 4647 using Logon ID.
 
 #### description (AI made):
@@ -70,7 +70,7 @@ MITRE ATT&CK: [Tactics > Persistence > Account Manipulation](https://attack.mitr
 Adversaries may manipulate accounts (create or modify accounts) to maintain and/or elevate access to victim systems.
 Related windows event: Windows Security Log Event ID 4720
 
-[4720: A user account was created](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4720)
+WIndows Event log [ID 4720: A user account was created](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4720)
 
 #### description (AI made):
 
