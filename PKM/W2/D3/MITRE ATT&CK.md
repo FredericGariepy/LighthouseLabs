@@ -18,4 +18,12 @@ here are the names of the categories:
 13. Exfiltration
 14. Impact
 
+Task workflow:
+
+[Find a Category technique](https://attack.mitre.org/) -> [Find a related windows event](https://www.socinvestigation.com/most-common-windows-event-ids-to-hunt-mind-map/) -> [explore the event](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
+
+MITRE ATT&CK: [Tactics > Persistence > Account Manipulation](https://attack.mitre.org/techniques/T1098/)
+Related 
+
+
 
