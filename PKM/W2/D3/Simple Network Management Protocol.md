@@ -5,6 +5,7 @@ GLossary
 | MIB | Management Information Base |
 | SMI | Structure of Management Information |
 | IoC | Indicators of Compromise |
+
 SNMP can help track for [IoCs](https://sec.cloudapps.cisco.com/security/center/resources/iocs.html#purpose)
 
 ## (SNMP) [Simple Network Management Protocol](https://www.paessler.com/it-explained/snmp)
