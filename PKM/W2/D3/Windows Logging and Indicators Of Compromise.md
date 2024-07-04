@@ -62,16 +62,25 @@ The event ties to logoff events 4634 and 4647 via Logon ID. Newer Windows versio
 
 ## Example 2
 ## Persistence (Account Manipulation) & Windows Security Log Event ID 4720 
-MITRE ATT&CK: [Tactics > Persistence > Account Manipulation](https://attack.mitre.org/techniques/T1098/)
-> Adversaries may manipulate accounts (reate or modify accounts) to maintain and/or elevate access to victim systems.
-Related windows event: Windows Security Log Event ID 4720
-> 
-[4720: A user account was created](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4720)
-> The user identified by Subject: created the user identified by New Account:.
-> Attributes show some of the properties that were set at the time the account was created.
-> Notice account is initially disabled.
+Persistence: The adversary is trying to maintain their foothold.
+> Persistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.
 
-Examples of 4720
+MITRE ATT&CK: [Tactics > Persistence > Account Manipulation](https://attack.mitre.org/techniques/T1098/)
+
+Adversaries may manipulate accounts (create or modify accounts) to maintain and/or elevate access to victim systems.
+Related windows event: Windows Security Log Event ID 4720
+
+[4720: A user account was created](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4720)
+
+#### description (AI made):
+
+Windows Security Log Event ID 4720 is crucial for security monitoring as it records the creation of user accounts.
+
+It captures comprehensive details, including the security ID, account name, and domain of both the creator and the new account.
+
+Attributes logged include SAM account name (SAM: Security Accounts Manager), display name, and user account control settings like 'Account Disabled' and 'Password Not Required'. This event is vital for tracking changes in user account management and detecting unauthorized account creations, applicable across Windows 7 to Windows Server 2022.
+
+Example of 4720 log
 ```
 A user account was created.
 
@@ -102,3 +111,4 @@ Additional Information:
 
    Privileges  ...
 ```
+
