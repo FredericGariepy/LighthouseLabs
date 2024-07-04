@@ -39,8 +39,8 @@ The categorization of event IDs represents a commensurate relationship to vulner
 ## response
 # 3 Examples of IoC with Event Log ID 😸
 - [Example 1](#example-1) Lateral Movement (Remote Service)
-- [Example 2](#example-2)
-
+- [Example 2](#example-2) Persistence (Account Manipulation)
+- [Example 3](#example-3)
 
 ## Example 1 
 ## Lateral Movement (Remote Service) & Windows Security Log Event ID 4624 
@@ -112,4 +112,90 @@ Additional Information:
 
    Privileges  ...
 ```
+## Example 3
+## Execution (Scheduled Task/Job) & Windows Security Log Event ID 4698
+[Execution](https://attack.mitre.org/tactics/TA0002/): The adversary is trying to run malicious code.
 
+[Scheduled Task/Job](https://attack.mitre.org/techniques/T1053/): Adversaries may abuse task scheduling functionality to facilitate initial or recurring execution of malicious code. 
+> Adversaries may use task scheduling to execute programs at system startup or on a scheduled basis for persistence. These mechanisms can also be abused to run a process under the context of a specified account (such as one with elevated permissions/privileges). Similar to System Binary Proxy Execution, adversaries have also abused task scheduling to potentially mask one-time execution under a trusted system process.
+
+[Scheduled Task/Job: Scheduled Task](https://attack.mitre.org/techniques/T1053/005/): Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code. 
+
+Detection: [Process](https://attack.mitre.org/datasources/DS0009/#Process%20Creation): Instances of computer programs that are being executed by at least one thread.
+> Processes have memory space for process executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures[1]
+- This detection focuses at the same time on EventIDs 4688 and 1 with process creation (SCHTASKS) and EventID 4698, 4702 for Scheduled Task creation/modification event log.
+
+Windows Security Log Event ID 4698:
+> The user indicated in Subject: just created a new scheduled task (Start menu\Accessories\System Tools\Task Scheduler) identified by Task Name:.
+> 
+> This is an important change control event.
+>
+> See related events for changes to Scheduled Tasks: 4699, 4700, 4701, 4702.
+
+#### decription (AI made)
+Windows Security Event ID 4698 logs the creation of a scheduled task on Windows systems. It captures details such as the user (Security ID, Account Name, and Domain), their logon session ID, and specifics of the task including its name and XML-based content defining its properties. This event is critical for change control and auditing purposes, providing insight into who created the task and its configuration. It's part of a series of events (4699, 4700, 4701, 4702) that collectively track changes to Scheduled Tasks, crucial for monitoring system and security integrity.
+
+Examples of 4698
+A scheduled task was created.
+```
+Subject:
+
+   Security ID:  WIN-R9H529RIO4Y\Administrator
+   Account Name:  Administrator
+   Account Domain:  WIN-R9H529RIO4Y
+   Logon ID:  0x192a4
+
+Task Information:
+
+Task Name:   \NiteWork
+Task Content:   <?xml version="1.0" encoding="UTF-16"?>
+<Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+<RegistrationInfo>
+   <Date>2007-12-14T13:46:47.34375</Date>
+   <Author>WIN-R9H529RIO4Y\Administrator</Author>
+</RegistrationInfo>
+<Triggers>
+   <CalendarTrigger>
+     <StartBoundary>2007-12-14T13:46:30.515625</StartBoundary>
+     <Enabled>true</Enabled>
+     <ScheduleByDay>
+       <DaysInterval>1</DaysInterval>
+     </ScheduleByDay>
+   </CalendarTrigger>
+</Triggers>
+<Principals>
+   <Principal id="Author">
+     <RunLevel>LeastPrivilege</RunLevel>
+     <UserId>WIN-R9H529RIO4Y\Administrator</UserId>
+     <LogonType>InteractiveToken</LogonType>
+   </Principal>
+</Principals>
+<Settings>
+   <IdleSettings>
+     <Duration>PT10M</Duration>
+     <WaitTimeout>PT1H</WaitTimeout>
+     <StopOnIdleEnd>true</StopOnIdleEnd>
+     <RestartOnIdle>false</RestartOnIdle>
+   </IdleSettings>
+   <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+   <DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>
+   <StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>
+   <AllowHardTerminate>true</AllowHardTerminate>
+   <StartWhenAvailable>false</StartWhenAvailable>
+   <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>
+   <AllowStartOnDemand>true</AllowStartOnDemand>
+   <Enabled>true</Enabled>
+   <Hidden>false</Hidden>
+   <RunOnlyIfIdle>false</RunOnlyIfIdle>
+   <WakeToRun>false</WakeToRun>
+   <ExecutionTimeLimit>P3D</ExecutionTimeLimit>
+   <Priority>7</Priority>
+</Settings>
+<Actions Context="Author">
+   <ShowMessage>
+     <Title>NiteWork</Title>
+     <Body>NiteWork has started</Body>
+   </ShowMessage>
+</Actions>
+</Task> :
+```
