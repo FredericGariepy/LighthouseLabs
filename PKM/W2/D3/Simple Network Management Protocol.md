@@ -5,6 +5,8 @@ GLossary
 | MIB | Management Information Base |
 | SMI | Structure of Management Information |
 
+SNMP can help track for [IoC](Cisco Security Indicators of Compromise)
+
 ## (SNMP) [Simple Network Management Protocol](https://www.paessler.com/it-explained/snmp)
 It is a protocol for management information transfer in networks,
 for use in LANs especially, depending on the chosen version.
