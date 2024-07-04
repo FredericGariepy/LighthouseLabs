@@ -4,8 +4,8 @@ GLossary
 | OID | Object Identifier |
 | MIB | Management Information Base |
 | SMI | Structure of Management Information |
-
-SNMP can help track for [IoC](Cisco Security Indicators of Compromise)
+| IoC | Indicators of Compromise |
+SNMP can help track for [IoCs](https://sec.cloudapps.cisco.com/security/center/resources/iocs.html#purpose)
 
 ## (SNMP) [Simple Network Management Protocol](https://www.paessler.com/it-explained/snmp)
 It is a protocol for management information transfer in networks,
