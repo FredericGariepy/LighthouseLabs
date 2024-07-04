@@ -33,7 +33,7 @@ The Windows Logging and Indicators of Compromise are used to identify patterns o
 The categorization of event IDs represents a commensurate relationship to vulnerabilities as shown in the MITRE ATT&CK matrix.
 
 # 3 Examples of IoC with Event Log ID
-## Account Manipulation & indows Security Log Event ID 4720 
+## Persistence (Account Manipulation) & Windows Security Log Event ID 4720 
 MITRE ATT&CK: [Tactics > Persistence > Account Manipulation](https://attack.mitre.org/techniques/T1098/)
 > Adversaries may manipulate accounts (reate or modify accounts) to maintain and/or elevate access to victim systems.
 Related windows event: Windows Security Log Event ID 4720
@@ -75,6 +75,22 @@ Additional Information:
    Privileges  ...
 ```
 
+
+## Lateral Movement (Remote Service) & Windows Security Log Event ID 4720 
+The adversary is trying to move through your environment.
+
+[Remote Service](https://attack.mitre.org/techniques/T1021/)
+Adversaries may use Valid Accounts to log into a service that accepts remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.
+
+[ID  4624: An account was successfully logged on](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4624)
+This is a highly valuable event since it documents each and every successful attempt to logon to the local computer regardless of logon type, location of the user or type of account.  You can tie this event to logoff events 4634 and 4647 using Logon ID.
+
+#### description (AI made):
+Windows Security Log Event ID 4624 records successful logons to a local computer, providing crucial information for security auditing.
+
+It includes details like logon type, process information, network information, and user account details.
+
+The event ties to logoff events 4634 and 4647 via Logon ID. Newer Windows versions add fields like Impersonation Level, Virtual Account, and Elevated Token. Logon Type indicates the logon method, ranging from interactive logons to remote and service logons. The event helps in tracking user activities and detecting potential security incidents, making it essential for system monitoring and auditing.
 
 
 
