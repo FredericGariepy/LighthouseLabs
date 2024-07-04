@@ -22,7 +22,6 @@ In total, there are 43 recommendations across all 13 baseline controls.
 
 ## task 
 Select five (baseline) controls that you believe would be the most important for a brand-new company.
-> I chose 1, 2 
 1. BC.1: Incident Response Plan - 3 recommendations
 2. BC.2: Automatically Patch Operating Systems and Applications - 2 recommendations
 3. BC.3: Enable Security Software - 2 recommendations
