@@ -4,6 +4,7 @@ GLossary
 | OID | Object Identifier |
 | MIB | Management Information Base |
 | SMI | Structure of Management Information |
+
 ## (SNMP) [Simple Network Management Protocol](https://www.paessler.com/it-explained/snmp)
 It is a protocol for management information transfer in networks,
 for use in LANs especially, depending on the chosen version.
@@ -55,6 +56,9 @@ This is the **most common** SNMP message that an SNMP manager sends out to reque
 5. **Trap(v2)**: Unsolicited message from agent to manager, triggered by specific conditions.
 6. **InformRequest**: Introduced in SNMPv2, confirms receipt of trap messages from agent.
 7. **Report**: SNMPv3 message used to report errors and provide error indications to applications.
+
+"You can compare OIDs to IP addresses and MIB files to DNS entries."
+-- [Source](https://blog.paessler.com/snmp-monitoring-via-oids-mibs?_gl=1%2Aqnmire%2A_gcl_au%2AMTc2NDk3NzM1MC4xNzE5NTcxMTM0%2A_ga%2AMTkwNTg3MTcuMTcxOTU3MTEzNA..%2A_ga_JG3ST477CK%2AMTcyMDEyOTUxNy41LjEuMTcyMDEyOTU0MC4wLjAuMTczMzQ4MzkzOQ..)
 
 OIDs uniquely identify managed objects that are defined in MIB files.
 
