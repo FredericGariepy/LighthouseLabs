@@ -5,7 +5,7 @@ Made with AI (ChatGpt 3.5)
 🐜
 # Windows Logging and Indicators Of Compromise (IoC)
 ## Task workflow:
-[Find a Category technique](https://attack.mitre.org/) -> [Find a related windows event](https://www.socinvestigation.com/most-common-windows-event-ids-to-hunt-mind-map/) -> [explore the event](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
+[Find a Category technique (For Windows)]([https://attack.mitre.org/](https://attack.mitre.org/matrices/enterprise/windows/)) -> [Find a related windows event](https://www.socinvestigation.com/most-common-windows-event-ids-to-hunt-mind-map/) -> [explore the event](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
 
 [MITRE ATT&CK](https://attack.mitre.org) here are the names of the categories:
 1. Reconnaissance
