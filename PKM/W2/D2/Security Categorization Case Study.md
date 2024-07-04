@@ -154,6 +154,8 @@ Steps taken to complete this task:
 > This leads us to two Vulnerabilities CVE-2022-34006 and CVE-2022-34005. Both Vuln IDs relate to Microsoft SQL Express.
 >
 > Then, asses the impact of the vulnerabilities onto the data owner's asssets.
+>
+> Using: [Common Vulnerability Scoring System Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)
 
 #### Threat assesment 
 - [CVE-2022-34005](https://nvd.nist.gov/vuln/detail/CVE-2022-34005)
@@ -168,6 +170,13 @@ Steps taken to complete this task:
   HVA, Data, Security Measures, Systems are all affected. 
 
   *Recommendation* : Vendor, South River Technologies, recommends Upgrading a Legacy Installation. Alternatively, use diffrent FTP services.
+
+Overall CVSS Score: 8.0
+
+CVSS v3.1 Vector:
+> AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:X/IR:X/AR:X/MAV:N/MAC:L/MPR:N/MUI:N/MS:X/MC:H/MI:L/MA:L
+
+Base Score Metrics
 
 - [CVE-2022-34006](https://nvd.nist.gov/vuln/detail/CVE-2022-34006)
 
