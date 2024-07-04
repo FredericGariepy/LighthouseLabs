@@ -1,4 +1,4 @@
-Made with AI (ChatGpt 3.5)
+Made *with* AI (ChatGpt 3.5)
 <!-- Hey fancy seeing you here -->
 ###### Heya LHL cohort👋 right here is the response:
 ➡️ [Click here: Jump to task response](#response) ⬅️
@@ -135,8 +135,7 @@ Windows Security Log Event ID 4698:
 #### decription (AI made)
 Windows Security Event ID 4698 logs the creation of a scheduled task on Windows systems. It captures details such as the user (Security ID, Account Name, and Domain), their logon session ID, and specifics of the task including its name and XML-based content defining its properties. This event is critical for change control and auditing purposes, providing insight into who created the task and its configuration. It's part of a series of events (4699, 4700, 4701, 4702) that collectively track changes to Scheduled Tasks, crucial for monitoring system and security integrity.
 
-Examples of 4698
-A scheduled task was created.
+Example of 4698: A scheduled task was created.
 ```
 Subject:
 
