@@ -12,7 +12,8 @@
 3. [Cyber security guidance for democratic institutions: artificial intelligence (ITSAP.00.135)](https://www.cyber.gc.ca/en/guidance/cyber-security-guidance-democratic-institutions-artificial-intelligence-itsap00135)
    > ITSAP - Awareness series	2024-06-25
    >
-   > 
+   > Phishing using AI and organization member PII extracted from other sources (SNS, online presence).
+   >   
 TSAP - Awareness series	2024-07-03
 Tips for backing up your information (ITSAP.40.002)	ITSAP - Awareness series	2024-06-27
 : artificial intelligence (ITSAP.00.135)	ITSAP - Awareness series	2024-06-25
