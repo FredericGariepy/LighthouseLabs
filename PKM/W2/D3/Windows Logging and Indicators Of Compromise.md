@@ -1,9 +1,9 @@
 Made with AI (ChatGpt 3.5)
-# Windows Logging and Indicators Of Compromise
+# Windows Logging and Indicators Of Compromise (IoC)
+## Task workflow:
+[Find a Category technique](https://attack.mitre.org/) -> [Find a related windows event](https://www.socinvestigation.com/most-common-windows-event-ids-to-hunt-mind-map/) -> [explore the event](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
 
-[MITRE ATT&CK Tour](https://attack.mitre.org)
-
-here are the names of the categories:
+[MITRE ATT&CK](https://attack.mitre.org) here are the names of the categories:
 1. Reconnaissance
 2. Resource Development
 3. Initial Access
@@ -25,20 +25,23 @@ Windows event Logs:
 
 image: [Image url](https://www.socinvestigation.com/wp-content/uploads/2021/11/f31ff3a9905b418680a4e722cc57b316-0001-1920x601.jpg)
 
+## Key Takeaways
+The Windows Logging and Indicators of Compromise are used to identify patterns of IoCs.
 
-## Task workflow:
-[Find a Category technique](https://attack.mitre.org/) -> [Find a related windows event](https://www.socinvestigation.com/most-common-windows-event-ids-to-hunt-mind-map/) -> [explore the event](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
+- IoCs are often categorized by event ID.
 
+The categorization of event IDs represents a commensurate relationship to vulnerabilities as shown in the MITRE ATT&CK matrix.
 
+# 3 Examples of IoC with Event Log ID
 ## Account Manipulation & indows Security Log Event ID 4720 
 MITRE ATT&CK: [Tactics > Persistence > Account Manipulation](https://attack.mitre.org/techniques/T1098/)
-> Adversaries may manipulate accounts to maintain and/or elevate access to victim systems.
+> Adversaries may manipulate accounts (reate or modify accounts) to maintain and/or elevate access to victim systems.
 Related windows event: Windows Security Log Event ID 4720
 > 
 [4720: A user account was created](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4720)
 > The user identified by Subject: created the user identified by New Account:.
 > Attributes show some of the properties that were set at the time the account was created.
->  Notice account is initially disabled.
+> Notice account is initially disabled.
 
 Examples of 4720
 ```
@@ -71,6 +74,8 @@ Additional Information:
 
    Privileges  ...
 ```
+
+
 
 
 
