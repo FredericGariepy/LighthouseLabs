@@ -50,6 +50,7 @@ The adversary is trying to move through your environment.
 Adversaries may use Valid Accounts to log into a service that accepts remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.
 
 Windows Event log [ID  4624: An account was successfully logged on](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4624)
+
 This is a highly valuable event since it documents each and every successful attempt to logon to the local computer regardless of logon type, location of the user or type of account.  You can tie this event to logoff events 4634 and 4647 using Logon ID.
 
 #### description (AI made):
