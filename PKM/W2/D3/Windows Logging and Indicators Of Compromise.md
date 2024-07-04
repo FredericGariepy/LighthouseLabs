@@ -43,7 +43,7 @@ The categorization of event IDs represents a commensurate relationship to vulner
 
 
 ## Example 1 
-## Lateral Movement (Remote Service) & Windows Security Log Event ID 4720 
+## Lateral Movement (Remote Service) & Windows Security Log Event ID 4624 
 The adversary is trying to move through your environment.
 
 [Remote Service](https://attack.mitre.org/techniques/T1021/)
