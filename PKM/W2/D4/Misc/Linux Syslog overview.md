@@ -3,26 +3,38 @@
 ## [Message components](https://en.wikipedia.org/wiki/Syslog)
 The information provided by the originator of a syslog message includes the facility code and the severity level. The syslog software adds information to the information header before passing the entry to the syslog receiver. Such components include an originator process ID, a timestamp, and the hostname or IP address of the device.
 
-Syslog Facility Codes
-| Facility code | Keyword    | Description                               |
-|---------------|------------|-------------------------------------------|
-| 0             | kern       | Kernel messages                           |
-| 1             | user       | User-level messages                       |
-| 2             | mail       | Mail system                               |
-| 3             | daemon     | System daemons                            |
-| 4             | auth       | Security/authentication messages         |
-| 5             | syslog     | Messages generated internally by syslogd  |
-| 6             | lpr        | Line printer subsystem                    |
-| 7             | news       | Network news subsystem                    |
-| 8             | uucp       | UUCP subsystem                            |
-| 9             | cron       | Cron subsystem                            |
-| 10            | authpriv   | Security/authentication messages         |
-| 11            | ftp        | FTP daemon                                |
-| 12            | ntp        | NTP subsystem                             |
-| 13            | security   | Log audit                                 |
-| 14            | console    | Log alert                                 |
-| 15            | solaris-cron | Scheduling daemon                       |
-| 16-23         | local0-7   | Locally used facilities (0-7)             |
+[table source RDC5424](https://datatracker.ietf.org/doc/html/rfc5424)
+
+Facility and Severity values are not normative but often used.  They
+   are described in the following tables for purely informational
+   purposes.  Facility values MUST be in the range of 0 to 23 inclusive.
+
+| Numerical Code | Facility                                   |
+|----------------|--------------------------------------------|
+| 0              | kernel messages                            |
+| 1              | user-level messages                        |
+| 2              | mail system                                |
+| 3              | system daemons                             |
+| 4              | security/authorization messages            |
+| 5              | messages generated internally by syslogd   |
+| 6              | line printer subsystem                     |
+| 7              | network news subsystem                     |
+| 8              | UUCP subsystem                             |
+| 9              | clock daemon                               |
+| 10             | security/authorization messages            |
+| 11             | FTP daemon                                 |
+| 12             | NTP subsystem                              |
+| 13             | log audit                                  |
+| 14             | log alert                                  |
+| 15             | clock daemon (note 2)                      |
+| 16             | local use 0 (local0)                       |
+| 17             | local use 1 (local1)                       |
+| 18             | local use 2 (local2)                       |
+| 19             | local use 3 (local3)                       |
+| 20             | local use 4 (local4)                       |
+| 21             | local use 5 (local5)                       |
+| 22             | local use 6 (local6)                       |
+| 23             | local use 7 (local7)                       |
 
 ## Syslog Severity Levels
 The meaning of severity levels other than Emergency and Debug are relative to the application.
