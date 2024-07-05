@@ -38,13 +38,18 @@ Facility and Severity values are not normative but often used.  They
 
 ## Syslog Severity Levels
 The meaning of severity levels other than Emergency and Debug are relative to the application.
-| Value | Severity    | Keyword   | Deprecated keywords | Description                                          | Condition                                           |
-|-------|-------------|-----------|---------------------|------------------------------------------------------|-----------------------------------------------------|
-| 0     | Emergency   | emerg     | panic               | System is unusable                                   | A panic condition.                                  |
-| 1     | Alert       | alert     |                     | Action must be taken immediately                     | A condition that should be corrected immediately, such as a corrupted system database. |
-| 2     | Critical    | crit      |                     | Critical conditions                                  | Hard device errors.                                 |
-| 3     | Error       | err       | error               | Error conditions                                     |                                                     |
-| 4     | Warning     | warning   | warn                | Warning conditions                                   |                                                     |
-| 5     | Notice      | notice    |                     | Normal but significant conditions                    | Conditions that are not error conditions, but that may require special handling. |
-| 6     | Informational | info   |                     | Informational messages                               | Confirmation that the program is working as expected. |
-| 7     | Debug       | debug     |                     | Debug-level messages                                 | Messages that contain information normally of use only when debugging a program. |
+
+Each message Priority also has a decimal Severity level indicator.
+   These are described in the following table along with their numerical
+   values.  Severity values MUST be in the range of 0 to 7 inclusive.
+
+| Numerical Code | Severity                               | Description                              |
+|----------------|----------------------------------------|------------------------------------------|
+| 0              | Emergency                              | System is unusable                       |
+| 1              | Alert                                  | Action must be taken immediately         |
+| 2              | Critical                               | Critical conditions                      |
+| 3              | Error                                  | Error conditions                         |
+| 4              | Warning                                | Warning conditions                       |
+| 5              | Notice                                 | Normal but significant condition         |
+| 6              | Informational                          | Informational messages                   |
+| 7              | Debug                                  | Debug-level messages                     |
