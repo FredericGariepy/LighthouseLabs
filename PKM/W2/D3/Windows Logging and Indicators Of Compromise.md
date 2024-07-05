@@ -113,13 +113,13 @@ Additional Information:
    Privileges  ...
 ```
 ## Example 3
-## Execution (Scheduled Task/Job) & Windows Security Log Event ID 4698
+## Execution (Scheduled Task) & Windows Security Log Event ID 4698
 [Execution](https://attack.mitre.org/tactics/TA0002/): The adversary is trying to run malicious code.
 
 [Scheduled Task/Job](https://attack.mitre.org/techniques/T1053/): Adversaries may abuse task scheduling functionality to facilitate initial or recurring execution of malicious code. 
 > Adversaries may use task scheduling to execute programs at system startup or on a scheduled basis for persistence. These mechanisms can also be abused to run a process under the context of a specified account (such as one with elevated permissions/privileges). Similar to System Binary Proxy Execution, adversaries have also abused task scheduling to potentially mask one-time execution under a trusted system process.
 
-[Scheduled Task/Job: Scheduled Task](https://attack.mitre.org/techniques/T1053/005/): Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code. 
+Scheduled Task/Job: [Scheduled Task](https://attack.mitre.org/techniques/T1053/005/): Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code. 
 
 Detection: [Process](https://attack.mitre.org/datasources/DS0009/#Process%20Creation): Instances of computer programs that are being executed by at least one thread.
 > Processes have memory space for process executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures[1]
