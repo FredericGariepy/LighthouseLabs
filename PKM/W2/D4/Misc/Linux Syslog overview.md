@@ -1,15 +1,6 @@
-[Source](https://en.wikipedia.org/wiki/Syslog)
-
-- **Log name**: Name of the event log to which events from different logging components will be written. Events are commonly logged for system, security, and applications.
-- **Event date/time**: Includes the date and time when the event occurred.
-- **Task category**: Identifies the type of recorded event log. Application developers can also define task categories to serve as extra information about the event.
-- **Event ID**: This Windows identification number helps network administrators uniquely identify a specific logged event.
-- **Source**: Name of the program or software causing the event log.
-- **Level**: Event level represents the severity of the recorded event log. These include information, error, verbose, warning, and critical.
-- **User**: Name of the user who logged onto the Windows computer when the event occurred.
-- **Computer**: Name of the computer logging the event.
-
+Overview of [Syslog message](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W1/D4/Syslog_msg.md%20Syslog%20Message)
 ## Message components
+[Source](https://en.wikipedia.org/wiki/Syslog)
 The information provided by the originator of a syslog message includes the facility code and the severity level. The syslog software adds information to the information header before passing the entry to the syslog receiver. Such components include an originator process ID, a timestamp, and the hostname or IP address of the device.
 
 Syslog Facility Codes
