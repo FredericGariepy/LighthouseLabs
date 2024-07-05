@@ -5,6 +5,8 @@ The information provided by the originator of a syslog message includes the faci
 
 [table source RDC5424](https://datatracker.ietf.org/doc/html/rfc5424)
 
+[text info source](https://www.paessler.com/it-explained/syslog)
+
 Facility and Severity values are not normative but often used.  They
    are described in the following tables for purely informational
    purposes.  Facility values MUST be in the range of 0 to 23 inclusive.
