@@ -1,4 +1,8 @@
-
+Made *with* AI (ChatGpt 3.5)
+<!-- Hey fancy seeing you here -->
+###### Heya LHL cohort👋 right here is the response:
+➡️ [Click here: Jump to task response](#response) ⬅️
+🐜
 ## task overview
 Report Template
 | Device | Sensor | Threshold | IoC |
@@ -23,6 +27,8 @@ PRTG is a sophisticated network monitoring tool which uses sensors on netowrk de
 Bellow are the walkthough of configuring sensors, and what they do.
 
 # Process Walkthrough
+*Let's be honest, this is the best tutorial:*
+
 Use auto-detection in PGRT, or,
 - [add_a_device manual](https://www.paessler.com/manuals/prtg/add_a_device)
 - [add_a_sensor manual](https://www.paessler.com/manuals/prtg/add_a_sensor)
