@@ -8,5 +8,7 @@ LDAP : Lightweight Directory Access Protocol
 
 [Netowrk Minner](https://www.netresec.com/?page=NetworkMiner) A wireshark alternative.
 
+"SNMP agents receive UDP requests on port 161. Requests sent from an SNMP manager may be sent from any port. Usually, it’s 161. Agents send traps via port 162. The SNMP manager also receives traps on port 162."
+> [source](https://www.paessler.com/it-explained/snmp)
 
 
