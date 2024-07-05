@@ -31,5 +31,4 @@ Use auto-detection in PGRT, or,
 | Device | Sensor | Threshold | Description | IoC |
 | ------ | ------ | --------- | ----------- | --- |
 | Linux  | HTTP   | Upper limit, checks for long execution times | Monitors a web server using HTTP. Shows if a website or a specific website element is reachable. |  Unusually long HTTP response times, indicating potential server-side issues or slow-downs that may be indicative of a denial-of-service (DoS) attack, resource exhaustion, or inefficiencies in web application processing.|
-
 | Linux  | PING   | Upper Error Limit (msec) 4000 / Upper Warning Limit (msec) 3500 | Monitors connectivity using ping. Shows if a device is reachable through the network using ping requests. | ping sensors alone might not detect sophisticated IoCs. 1. Network Reachability: Ping sensors can detect whether a host is reachable or not. Sudden unavailability of a host that was previously reachable might indicate a potential compromise or outage. 2. Latency Changes: An increase in latency for ping responses could indicate network congestion or abnormal behavior that might be caused by an IoC. |
