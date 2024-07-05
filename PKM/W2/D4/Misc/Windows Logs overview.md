@@ -9,27 +9,32 @@ The [Elements of a Windows Event Log](https://www.solarwinds.com/resources/it-gl
 - **User**: Name of the user who logged onto the Windows computer when the event occurred.
 - **Computer**: Name of the computer logging the event.
 
-
 What Types of Information Are Stored in Windows Event Log?
-Windows event logs store information about different events that occur within the system. The type of information stored varies based on the category of an event log. Data is recorded commonly for four Windows event log types:
 
-system
-application
-setup
-security
-Windows system event log includes information about incidents related to the Windows operating system. Similarly, the application event log provides some information about errors occurring within the installed software on the machine. The security event log contains data about security events on the system, while the setup log focuses more on installation-related events. The information stored in event logs allows system administrators to investigate different problems and diagnose them accordingly.
+-> application, security, setup, and system.
 
-Common Event Log Categories and Types
-Event logs are classified into four categories such as application, security, setup, and system. There's also a special category of event logs called forwarded events.
+The type of information stored varies based on the category of event, Windows has 4 event log types:
+- system
+> Windows system event log includes information about incidents related to the Windows operating system.
+> Windows system event log contains events related to the system and its components.
+> Failure to load the boot-start driver is an example of a system-level event.
+- application
+> application event log provides some information about errors occurring within the installed software on the machine
+> Events related to a software or an application hosted on a Windows computer get logged under the application event log.
+> For example, the problem in starting Microsoft PowerPoint comes under the Application log.
+- setup
+> setup log focuses more on installation-related events
+> The setup log contains events that occur during the installation of the Windows operating system. On domain controllers, this log will also record events related to Active Directory.
+- security
+> security event log contains data about security events on the system (dunh!)
+> : Security logs contain events related to the safety of the system. The event gets recorded via the Windows auditing process. Examples include failed and valid logins, file deletions, etc.
 
-System Log: Windows system event log contains events related to the system and its components. Failure to load the boot-start driver is an example of a system-level event.
-Application Log: Events related to a software or an application hosted on a Windows computer get logged under the application event log. For example, the problem in starting Microsoft PowerPoint comes under the Application log.
-Security: Security logs contain events related to the safety of the system. The event gets recorded via the Windows auditing process. Examples include failed and valid logins, file deletions, etc.
-Setup: The setup log contains events that occur during the installation of the Windows operating system. On domain controllers, this log will also record events related to Active Directory.
-
+There's also a special category of event logs called *forwarded events*.
 Forwarded Events: Contains event logs forwarded from other computers in the same network.
 
-Windows events are further divided into five different types:
+### Windows events are further divided into five different types:
+
+[CONTINUE edditing HERE... gn]
 
 Information: Indicates an application or service is operating well. For example, when Windows loads the network driver, the incident will be logged as an information event.
 Warning: Unimportant events hinting toward potential issues in the future. A warning event will get logged for a problem like low disk space.
