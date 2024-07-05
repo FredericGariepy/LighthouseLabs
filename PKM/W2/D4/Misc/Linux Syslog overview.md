@@ -1,4 +1,5 @@
-## Check Here for Overview of [Syslog message](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W1/D4/Syslog_msg.md%20Syslog%20Message)
+## Check Here for Overview of [Syslog message](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W1/D4/Syslog_msg.md)
+
 ## [Message components](https://en.wikipedia.org/wiki/Syslog)
 The information provided by the originator of a syslog message includes the facility code and the severity level. The syslog software adds information to the information header before passing the entry to the syslog receiver. Such components include an originator process ID, a timestamp, and the hostname or IP address of the device.
 
