@@ -18,10 +18,54 @@ Screen captures from Wireshark showing attack with explanations (Appendix A)
 
 ---
 
-Actual workflow
+Workflow
 
 1. Open PCAP.
-2. Apply filters from [Traffic anomally detection source](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D4/Traffic%20Anomaly%20Detection%20with%20Wireshark%20White%20Box.md)
+2. Add timestamp
+3. Overview, find signs of IoC.
+4. Apply filters from [Traffic anomally detection source](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D4/Traffic%20Anomaly%20Detection%20with%20Wireshark%20White%20Box.md)
+5. Correlate diplayed captures with nmap and or IoCs.
+
+
+## PCAP File : Cyber+BC+C2.4.3
+
+### First IoC, Sign of ARP scan
+> 46	2023-06-06 21:36:44.553028	VMware_9f:66:38		Broadcast		ARP	60	Who has 172.16.14.1? Tell 172.16.14.3
+
+#### Attacker profile 
+- Display filter: `eth.src == 00:50:56:9f:66:38 and arp`
+- Total display rows 1026. 
+- MAC SRC:  00:50:56:9f:66:38
+- MAC IP: 172.16.14.3
+- Likely commmand used `nmap -PR <victim IP>`
+
+#### Victim response:
+- Display filter: eth.dst == 00:50:56:9f:66:38 and arp
+- Total display rows 9.
+- victim responce: 172.16.14.53 is at 50:01:00:04:00:00
+- Attacker discovers 1 host.
+
+### Second IoC, sign of Port Scan
+> 569	2023-06-06 21:36:46.669280	172.16.14.3	46880	172.16.14.53	1025	TCP	60	46880 → 1025 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
+
+#### Attacker profile 
+- Display filter: `ip.src == 172.16.14.3 and tcp.flags.syn`
+- Total display rows 2037. 
+- MAC SRC:  00:50:56:9f:66:38
+- MAC IP: 172.16.14.3
+- Likely commmand used `nmap -sS <Vivtim IP>` ([Half-open scanning](https://nmap.org/book/man-port-scanning-techniques.html))
+
+#### Victim response:
+- Display filter: `ip.dst == 172.16.14.3 and tcp.flags.syn == 1 and tcp.flags.ack == 1`
+- Total display rows 14.
+- victim responce shows open port: 135,139, 445, 3389
+
+Reference in MITRE ATT&CK Framework:
+- Tactic: Discovery
+- Technique: [Network Service Scanning (T1046)](https://attack.mitre.org/techniques/T1046/)
+
+
+
 
 
 
