@@ -17,6 +17,7 @@ Workflow
 
 # PCAP File 1 : Cyber+BC+C2.4.3
 ### First IoC, Sign of ARP scan
+###### Wireshark packet summary of first ARP scan:
 > 46	2023-06-06 21:36:44.553028	VMware_9f:66:38		Broadcast		ARP	60	Who has 172.16.14.1? Tell 172.16.14.3
 
 #### Attacker profile 
@@ -33,6 +34,7 @@ Workflow
 - Attacker discovers 1 host.
 
 ### Second IoC, sign of Port Scan
+###### Wireshark packet summary of first Port scan:
 > 569	2023-06-06 21:36:46.669280	172.16.14.3	46880	172.16.14.53	1025	TCP	60	46880 → 1025 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
 
 #### Attacker profile 
@@ -85,6 +87,7 @@ User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/boo
 ```
 
 ### First IoC, Sign of ARP scan
+###### Wireshark packet summary of first ARP scan:
 > 2023-06-06 17:36:44.327281317	VMware_9f:66:38		Broadcast		ARP	60	Who has 172.16.14.1? Tell 172.16.14.3
 
 #### Attacker profile 
@@ -102,6 +105,7 @@ User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/boo
 > Difference between PCAP 1 & 2 are the victim host discovered by attacker (172.16.14.3)
 
 ### Second IoC, sign of Port Scan
+###### Wireshark packet summary of first Port scan:
 > 524	2023-06-06 17:36:46.443167278	172.16.14.3	46880	172.16.14.52	1025	TCP	60	46880 → 1025 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
 
 #### Attacker profile 
@@ -130,15 +134,15 @@ The adversary may then perform actions as the logged-on user.
 **RPD was SUCCESSFUL**, as there is COTP (Connection-Oriented Transport Protocol) CR (Connection Request) and CC (Connection Confirm)
 
 ### Fourth IoC, Remote Services: 
-
 - Display filter: `http`
 - Total display rows 18.
 - Port 80 is dedicated to unencryted HTTP
+
 MITRE ATT&CK : [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
 
 Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network. The weakness in the system can be a software bug, a temporary glitch, or a misconfiguration.
 
-GET requests to suspicious endpoints
+GET requests to suspicious endpoints:
 - /evox/about
 - /HNAP1
 > HNAP (Home Network Administration Protocol) is a protocol developed by Cisco for remote management of home networking devices.
