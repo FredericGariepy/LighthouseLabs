@@ -59,6 +59,7 @@ Reference in MITRE ATT&CK Framework:
 Reference in MITRE ATT&CK Framework:
 - Tactic: Remote Service
 - Technique: [Remote Services: Remote Desktop Protocol](https://attack.mitre.org/techniques/T1021/001/)
+
 Adversaries may use Valid Accounts to log into a computer using the Remote Desktop Protocol (RDP).
 The adversary may then perform actions as the logged-on user.
 
