@@ -69,7 +69,9 @@ RPD was unsuccesfull, as there is NO COTP (Connection-Oriented Transport Protoco
 
 ## Confirming Attacker is using NMAP
 - Display filter: `ip.src == 172.16.14.3 and tcp.dstport == 80 and ip.dst == 172.16.14.52`
+
 Following the TCP stream between attacker IP and victim IP on victim port 80:
+
 - Starting at display filter: `tcp.stream eq 2019`
 We can see that attacker IP is using Nmap in their POST request to victim's port 80
 ```
