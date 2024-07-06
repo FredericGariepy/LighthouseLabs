@@ -99,8 +99,25 @@ Reference in MITRE ATT&CK Framework:
 - Display filter: `ip.dst == 172.16.14.3 and tcp.flags.syn == 1 and tcp.flags.ack == 1`
 - Total display rows 32.
 - victim responce shows open port: 80, 3389, 9200
+
+### Third IoC, sign of Port Scan
+
+- Display filter: `ip.src == 172.16.14.3 and tcp.dstport == 80 and ip.dst == 172.16.14.52`
+Following the TCP stream between attacker IP and victim IP on victim port 80:
+- Starting at display filter: `tcp.stream eq 2019`
+We can see that attacker IP is using Nmap
+```
+POST /sdk HTTP/1.1
+Host: 172.16.14.52
+Connection: close
+Content-Length: 441
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+```
+
+
+
+
 <!--
 # References
-
 Gariepy, F. (2024). Understanding Network Security. Github. https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D4/Traffic%20Anomaly%20Detection%20with%20Wireshark%20White%20Box.md
 -->
