@@ -9,11 +9,11 @@ Download Wireshark pcap:
 5. [PCAP 2](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D5/Cyber%2BBC%2BC2.4.4.pcapng)
 ---
 Workflow
-1. Open PCAP.
-2. Add timestamp
-3. Overview, find signs of IoC.
+1. Open PCAP in Wireshark
+2. Set up collumns.
+3. Overview/glance👀, find signs of IoC.
 4. Apply filters from [Traffic anomally detection source](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D4/Traffic%20Anomaly%20Detection%20with%20Wireshark%20White%20Box.md)
-5. Correlate diplayed captures with nmap and or IoCs.
+5. research/correlate diplayed captures with nmap and or IoCs.
 
 # PCAP File 1 : Cyber+BC+C2.4.3
 ### First IoC, Sign of ARP scan
