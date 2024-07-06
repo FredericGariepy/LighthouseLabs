@@ -159,6 +159,10 @@ Adversaries may access data from cloud storage.
 - Potentially [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
 Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network. The weakness in the system can be a software bug, a temporary glitch, or a misconfiguration.
 
+Potential CVE:
+- [CVE-2023-20034](https://nvd.nist.gov/vuln/detail/CVE-2023-20034)
+> Vulnerability in the Elasticsearch database used in the of Cisco SD-WAN vManage software could allow an unauthenticated, remote attacker to access the Elasticsearch configuration database of an affected device with the privileges of the elasticsearch user.
+
 ---
 # Incident report
 ###### Date format (yyyy-mm-dd)
@@ -226,9 +230,15 @@ Attacker attempted to RDP connect on port 3389, unsucesfully.
 - Suspected Nmap/scan configuration: `nmap -PR <victim IP>`
 - List of NVD records apply to the attack:
 
- describe how they are related
-Screen captures from Wireshark showing attack with explanations (Appendix A)
+[Get /HNAP](#fourth-ioc-remote-services)
+- Home Network Administration Protocol is a protocol developed by Cisco for remote management of home networking devices.
+- Command injection vulnerability [CVE-2022-44808](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44808) through well-designed /HNAP1 requests.
+- Unsuccessful probe of this service was done by the attacker.
 
+Potential CVE:
+- [CVE-2023-20034](https://nvd.nist.gov/vuln/detail/CVE-2023-20034)
+> Vulnerability in the Elasticsearch database used in the of Cisco SD-WAN vManage software could allow an unauthenticated, remote attacker to access the Elasticsearch configuration database of an affected device with the privileges of the elasticsearch user.
+- Attacker did use Elasticsearch on victim port 9200.
 
 <!--
 # References
