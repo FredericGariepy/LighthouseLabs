@@ -55,7 +55,7 @@ Reference in MITRE ATT&CK Framework:
 
 ### Third IoC, Remote Services: Remote Desktop Protoco
 
-- Display filter: `copt || rdp `
+- Display filter: `rdp || cotp`
 - Total display rows 2.
 - Port 3389 is dedicated to Remote Desktop Protocol (RDP).
 Reference in MITRE ATT&CK Framework:
@@ -122,7 +122,7 @@ User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/boo
 
 ### Third IoC, Remote Services: Remote Desktop Protoco
 
-- Display filter: `copt || rdp `
+- Display filter: `rdp || cotp`
 - Total display rows 4.
 - Port 3389 is dedicated to Remote Desktop Protocol (RDP).
 
