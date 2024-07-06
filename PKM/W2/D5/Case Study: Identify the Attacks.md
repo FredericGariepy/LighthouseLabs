@@ -17,8 +17,8 @@ Workflow
 #### Attacker profile 
 - Display filter: `eth.src == 00:50:56:9f:66:38 and arp`
 - Total display rows 1026. 
-- MAC SRC:  00:50:56:9f:66:38
-- MAC IP: 172.16.14.3
+- MAC:  00:50:56:9f:66:38
+- IP: 172.16.14.3
 - Likely commmand used `nmap -PR <victim IP>`
 
 #### Victim response:
@@ -40,7 +40,7 @@ Workflow
 #### Victim response:
 - Display filter: `ip.dst == 172.16.14.3 and tcp.flags.syn == 1 and tcp.flags.ack == 1`
 - Total display rows 14.
-- victim responce shows open port: 135,139, 445, 3389
+- victim responce shows open port: 135, 139, 445, 3389.
 
 Reference in MITRE ATT&CK Framework:
 - Tactic: Discovery
@@ -81,8 +81,8 @@ User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/boo
 #### Attacker profile 
 - Display filter: `eth.src == 00:50:56:9f:66:38 and arp`
 - Total display rows 1026. 
-- MAC SRC:  00:50:56:9f:66:38
-- MAC IP: 172.16.14.3
+- MAC:  00:50:56:9f:66:38
+- IP: 172.16.14.3
 - Likely commmand used `nmap -PR <victim IP>`
 
 #### Victim response:
@@ -170,23 +170,47 @@ Attacker interacted with Elasticsearch in possible data exfiltration of cloud st
 
 On 2023-06-06 at 17:36,
 
-A machine (attacker) on the network scanned the network for victims.
-The attacker, found one machine and succesfully connected to it remotely.
+A machine (attacker) on the network scanned the network for hosts (victims).
+The attaker found one victim.
 
+The attacker, succesfully connected remotely to the victim using Remote Desktop Protocol.
+The attacker then looked for vulnerabilties on the victims' webserver, but was unsuccesful.
+The attacker sucesfully used Elasticsearch on the victim, potentially exfiltrating data from cloud services.
 
 4 hours later,
-2023-06-06 at 21:36, the same attacker, scanned the network for victims. 
-The attacker unsucessfully attempted to connect remotely to a machine it discovered on the network.
+2023-06-06 at 21:36, the same attacker, scanned the network for victims again. 
+The attacker found one new victim.
 
+The attacker unsucessfully attempted to connect remotely to the new victim.
 
+## Description of actual incident:
 
-Description of actual incident:
-172.16.14.53 & 172.16.14.53
+On 2023-06-06 at 17:36,
 
-What was discovered as a result of the scan:
+Attacker IP 172.16.14.3 made an nmap ARP scan on the network, found victim host 172.16.14.**52**.
 
-Attacker IP(s) :
-Attacker MAC(s :
+Attacker then performed an nmap port scan on the victim, ports found: 80, 3389, 9200.
+
+Attacker looked for vulnerable endpoints on victim's webserver at port 80, was unsucessfull as shown by victim's HTTP 404 reply.
+
+Attacker connected with RPD on port 3389, and was **SUCCESSFUL**, as shown by COTP's Attacker CR and Victim CC.
+
+Attacker used Elastic search sucesfully through request on victim's port 9200. Due to TLS.1v3, conversation is encrypted but conversations on 110 packets seems to indicate that data flowed succesfully.
+
+4 hours later, 
+
+Attacker IP 172.16.14.3 made an nmap ARP scan on the network, found victim host 172.16.14.**53**.
+
+Again, attacker made a port scan on the victim, found ports: 135, 139, 445, 3389.
+
+Attacker probed ports 135, 139, 445 unsucessfully.
+
+Attacker attempted to RDP connect on port 3389, unsucesfully.
+
+## What was discovered as a result of the scan:
+
+Attacker IP(s) : 172.16.14.3
+Attacker MAC : 00:50:56:9f:66:38
 Time of attack (first packet of attack)
 Packet number of first packet in attack
 Protocol(s) used in attack
