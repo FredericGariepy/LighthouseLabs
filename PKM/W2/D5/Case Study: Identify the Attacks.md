@@ -156,17 +156,29 @@ Adversaries may attempt to exploit a weakness in an Internet-facing host or syst
 
 ---
 # Incident report
-Report filed on 07.06.2024
+###### Date format (yyyy-mm-dd)
+Report filed on 2024-07-06.
 
-### Date of incident :
-Incident occured on 2023-06-06
+Incident occured on 2023-06-06.
 
-### Incident description:
+## Incident description:
 An adversary machine on the network found two hosts.
 The attacker succesfully connected to one machine through a remote desktop.
-Attacker interacted with Elasticsearch 
+Attacker interacted with Elasticsearch in possible data exfiltration of cloud storage data.
 
-Executive summary:
+## Executive summary:
+
+On 2023-06-06 at 17:36,
+
+A machine (attacker) on the network scanned the network for victims.
+The attacker, found one machine and succesfully connected to it remotely.
+
+
+4 hours later,
+2023-06-06 at 21:36, the same attacker, scanned the network for victims. 
+The attacker unsucessfully attempted to connect remotely to a machine it discovered on the network.
+
+
 
 Description of actual incident:
 172.16.14.53 & 172.16.14.53
