@@ -74,6 +74,7 @@ RPD was unsuccesfull, as there is NO COTP (Connection-Oriented Transport Protoco
 Following the TCP stream between attacker IP and victim IP on victim port 80:
 
 - Starting at display filter: `tcp.stream eq 2019`
+
 We can see that attacker IP is using Nmap in their POST request to victim's port 80
 ```
 POST /sdk HTTP/1.1
