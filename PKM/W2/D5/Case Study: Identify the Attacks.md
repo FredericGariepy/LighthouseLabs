@@ -235,7 +235,7 @@ Attacker attempted to RDP connect on port 3389, unsucesfully.
 - first packet of attack:
 > 2023-06-06 17:36:44.327281317 VMware_9f:66:38 Broadcast ARP 60 Who has 172.16.14.1? Tell 172.16.14.3
 - Time of attack: 2023-06-06 17:36:44.327281317
-- Packet number of first packet in attack: 43
+- Packet number of first packet in attack: 
 - Protocol(s) used in attack: ARP
 - Suspected Nmap/scan configuration: `nmap -PR <victim IP>`
 - List of NVD records apply to the attack:
