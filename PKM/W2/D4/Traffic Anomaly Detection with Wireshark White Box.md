@@ -10,19 +10,18 @@ Made *with* AI (ChatGPT 3.5)
 ## In Wireshark: nmap detection display filters
 
 ### Detect: TCP ACK SCAN (-sA) | TCP ACK port scan
-- display filter:
-  - `ip.dst == <Attacker IP> and tcp.flags.ack==1 and tcp.flags.reset == 1`
+- display filter: `ip.dst == <Attacker IP> and tcp.flags.ack==1 and tcp.flags.reset == 1`
+> Narrow down the IP DST to the attackers if possible, else take it out.
 - heuristics/Signs: Static IP SRC,DST. Dynamic port.
 <img src="https://github.com/FredericGariepy/LighthouseLabs/assets/96602008/afa0664d-fca5-46ad-b99c-6433df7afcd4" alt="image" width="300" height="200">
 
 ### Detect:  ARP scan (-PR) | network scan:
-- display filter:
-    - `eth.src == <Attacker MAC> and arp`
+- display filter: `eth.src == <Attacker MAC> and arp`
+> To find Attacker MAC, I first narrowed it down from other detections. Else, just use arp.
 - heuristics/Signs: Large arp volume, static MAC SRC, Dynamic & iterating IP info request.
 
 ### Detect an intense port scan:
-- display filter:
-    - `tcp.flags.syn==1 and tcp.flags.ack==0`
+- display filter: `tcp.flags.syn==1 and tcp.flags.ack==0`
 - high volume of SYN packets to different ports on the same host, often combined with other types of packets (e.g. ICMP, UDP)
 
 ## Part 1: Performing Endpoint Scan with Nmap:
