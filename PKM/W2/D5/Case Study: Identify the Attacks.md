@@ -218,12 +218,15 @@ Attacker attempted to RDP connect on port 3389, unsucesfully.
 
 - Attacker IP(s) : 172.16.14.3
 - Attacker MAC : 00:50:56:9f:66:38
-- Time of attack (first packet of attack):
+- first packet of attack:
 > 46	2023-06-06 21:36:44.553028	VMware_9f:66:38		Broadcast		ARP	60	Who has 172.16.14.1? Tell 172.16.14.3
+- Time of attack: 023-06-06 21:36:44.55302
 - Packet number of first packet in attack: 43
 - Protocol(s) used in attack: ARP
 - Suspected Nmap/scan configuration: `nmap -PR <victim IP>`
-- List any NVD records that may apply to the attack; describe how they are related
+- List of NVD records apply to the attack:
+
+ describe how they are related
 Screen captures from Wireshark showing attack with explanations (Appendix A)
 
 
