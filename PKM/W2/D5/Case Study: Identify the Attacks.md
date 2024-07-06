@@ -107,6 +107,9 @@ Following the TCP stream between attacker IP and victim IP on victim port 80:
 - Starting at display filter: `tcp.stream eq 2019`
 We can see that attacker IP is using Nmap
 ```
+Port 3389 is dedicated to Remote Desktop Protocol (RDP
+
+
 POST /sdk HTTP/1.1
 Host: 172.16.14.52
 Connection: close
