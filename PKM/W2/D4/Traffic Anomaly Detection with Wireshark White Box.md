@@ -211,3 +211,31 @@ Read data files from: /usr/bin/../share/nmap
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 108.45 seconds
 ```
+
+```bash
+# Scan a network to find hosts with Nmap
+nmap -sn 192.168.1.0/24
+
+# Scan a host to find open ports with Nmap
+nmap -p- 192.168.1.10
+
+# Scan a host to determine host OS information with Nmap
+nmap -O 192.168.1.10
+```
+
+## In Wireshark:
+
+### Detect a network scan:
+
+Apply the display filter: arp or icmp
+Look for a high volume of ARP or ICMP Echo Request packets.
+
+### Detect a port scan:
+
+Apply the display filter: tcp.flags.syn==1 and tcp.flags.ack==0
+Look for a high volume of SYN packets to different ports on the same host.
+
+### Detect an intense port scan:
+
+Apply the display filter: tcp.flags.syn==1 and tcp.flags.ack==0
+Look for a high volume of SYN packets to different ports on the same host, often combined with other types of packets (e.g., ICMP, UDP).
