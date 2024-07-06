@@ -1,3 +1,30 @@
+## Traffic Anomaly Detection with Wireshark Black Box
+### Table of Contents:
+- [nmap detection display filters](#in-wireshark-nmap-detection-display-filters)
+- [tcp flags to hex](#tcp-flags-to-hex)
+- [task command line](#part-1-performing-endpoint-scan-with-nmap)
+- [task command stdout](#in-practice-results)
+
+## In Wireshark: nmap detection display filters
+[nmap cheatsheet](https://stationx-public-download.s3.us-west-2.amazonaws.com/nmap_cheet_sheet_v7.pdf)
+
+Detect: TCP ACK SCAN (-sA) | TCP ACK port scan
+- display filter:
+  - `ip.dst == <Attacker IP> and tcp.flags.ack==1 and tcp.flags.reset == 1`
+- heuristics/Signs: Static IP SRC,DST. Dynamic port.
+
+
+Detect:  ARP scan (-PR) | network scan:
+- display filter:
+    - `eth.src == <Attacker MAC> and arp`
+- heuristics/Signs: Large arp volume, static MAC SRC, Dynamic & iterating IP info request.
+
+
+Detect an intense port scan:
+- display filter:
+    - `tcp.flags.syn==1 and tcp.flags.ack==0`
+- high volume of SYN packets to different ports on the same host, often combined with other types of packets (e.g. ICMP, UDP)
+
 ## Part 1: Performing Endpoint Scan with Nmap:
 ```bash
 # A network scan to discover hosts
@@ -13,7 +40,7 @@ nmap -O 192.168.1.10
 nmap -T4 -A -v 192.168.1.10
 ```
 
-## In practice
+## In practice, results
 ```bash
 ┌──(student㉿kali)-[~]
 └─$ ip a 
@@ -212,30 +239,18 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 108.45 seconds
 ```
 
-```bash
-# Scan a network to find hosts with Nmap
-nmap -sn 192.168.1.0/24
 
-# Scan a host to find open ports with Nmap
-nmap -p- 192.168.1.10
 
-# Scan a host to determine host OS information with Nmap
-nmap -O 192.168.1.10
-```
-
-## In Wireshark:
-
-### Detect a network scan:
-
-Apply the display filter: arp or icmp
-Look for a high volume of ARP or ICMP Echo Request packets.
-
-### Detect a port scan:
-
-Apply the display filter: tcp.flags.syn==1 and tcp.flags.ack==0
-Look for a high volume of SYN packets to different ports on the same host.
-
-### Detect an intense port scan:
-
-Apply the display filter: tcp.flags.syn==1 and tcp.flags.ack==0
-Look for a high volume of SYN packets to different ports on the same host, often combined with other types of packets (e.g., ICMP, UDP).
+## tcp flags to hex
+Taken from Johnny
+| TCP Flag | Hexadecimal | Description | Wireshark Filter Equivalent          |
+|----------|-------------|-------------|-------------------------------------|
+| flag | HEX | How to use HEX : `tcp.flags == HEX` | `tcp.flag == 0x10` | 
+| FIN      | 0x01        | Finish flag - indicates end of data transmission. | `tcp.flags.fin == 1`                |
+| SYN      | 0x02        | Synchronize flag - used to initiate a connection. | `tcp.flags.syn == 1`                |
+| RST      | 0x04        | Reset flag - resets the connection.   | `tcp.flags.reset == 1`              |
+| PSH      | 0x08        | Push flag - pushes buffered data to the receiving application. | `tcp.flags.push == 1`               |
+| ACK      | 0x10        | Acknowledgment flag - acknowledges receipt of data. | `tcp.flags.ack == 1`                |
+| URG      | 0x20        | Urgent flag - indicates urgent data. | `tcp.flags.urg == 1`                |
+| ECE      | 0x40        | ECN-Echo flag - used for explicit congestion notification. | `tcp.flags.ecn == 1`                |
+| CWR      | 0x80        | Congestion Window Reduced flag - indicates sender has reduced its congestion window. | `tcp.flags.cwr == 1`                |
