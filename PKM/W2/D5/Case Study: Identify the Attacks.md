@@ -27,7 +27,7 @@ Workflow
 5. Correlate diplayed captures with nmap and or IoCs.
 
 
-## PCAP File : Cyber+BC+C2.4.3
+## PCAP File 1 : Cyber+BC+C2.4.3
 
 ### First IoC, Sign of ARP scan
 > 46	2023-06-06 21:36:44.553028	VMware_9f:66:38		Broadcast		ARP	60	Who has 172.16.14.1? Tell 172.16.14.3
@@ -64,7 +64,7 @@ Reference in MITRE ATT&CK Framework:
 - Tactic: Discovery
 - Technique: [Network Service Scanning (T1046)](https://attack.mitre.org/techniques/T1046/)
 
-
+## PCAP File 2 : Cyber+BC+C2.4.4
 
 
 
