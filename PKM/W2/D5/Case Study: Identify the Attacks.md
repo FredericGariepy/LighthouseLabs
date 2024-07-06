@@ -145,6 +145,9 @@ Command injection vulnerability [CVE-2022-44808](https://cve.mitre.org/cgi-bin/c
 You can send data in the form of JSON documents to Elasticsearch using the API - [source](https://aws.amazon.com/what-is/elasticsearch/)
 
 MITRE ATT&CK :
+- Potentially [Exfiltration](https://attack.mitre.org/tactics/TA0010/)
+The adversary is trying to steal data.
+
 - Potentially [Data from Cloud Storage](https://attack.mitre.org/techniques/T1530/)
 Adversaries may access data from cloud storage.
 
@@ -153,12 +156,15 @@ Adversaries may attempt to exploit a weakness in an Internet-facing host or syst
 
 ---
 # Incident report
-07.06.2024
+Report filed on 07.06.2024
 
-### Date of incident : 2023-06-06
+### Date of incident :
+Incident occured on 2023-06-06
 
 ### Incident description:
-An adversary machine on the network found two hosts. The attacker succesfully connected to one machine through a remote desktop 
+An adversary machine on the network found two hosts.
+The attacker succesfully connected to one machine through a remote desktop.
+Attacker interacted with Elasticsearch 
 
 Executive summary:
 
