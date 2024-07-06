@@ -163,7 +163,9 @@ Incident occured on 2023-06-06.
 
 ## Incident description:
 An adversary machine on the network found two hosts.
-The attacker succesfully connected to one machine through a remote desktop.
+
+The attacker succesfully connected to one machine through remote desktop.
+
 Attacker interacted with Elasticsearch in possible data exfiltration of cloud storage data.
 
 ## Executive summary:
@@ -173,9 +175,9 @@ On 2023-06-06 at 17:36,
 A machine (attacker) on the network scanned the network for hosts (victims).
 The attaker found one victim.
 
-The attacker, succesfully connected remotely to the victim using Remote Desktop Protocol.
+The attacker, **succesfully** connected remotely to the victim using Remote Desktop Protocol.
 The attacker then looked for vulnerabilties on the victims' webserver, but was unsuccesful.
-The attacker sucesfully used Elasticsearch on the victim, potentially exfiltrating data from cloud services.
+The attacker sucesfully used Elasticsearch on the victim, **potentially exfiltrating data** from cloud services.
 
 4 hours later,
 2023-06-06 at 21:36, the same attacker, scanned the network for victims again. 
@@ -209,13 +211,14 @@ Attacker attempted to RDP connect on port 3389, unsucesfully.
 
 ## What was discovered as a result of the scan:
 
-Attacker IP(s) : 172.16.14.3
-Attacker MAC : 00:50:56:9f:66:38
-Time of attack (first packet of attack)
-Packet number of first packet in attack
-Protocol(s) used in attack
-Suspected Nmap/scan configuration
-List any NVD records that may apply to the attack; describe how they are related
+- Attacker IP(s) : 172.16.14.3
+- Attacker MAC : 00:50:56:9f:66:38
+- Time of attack (first packet of attack):
+> 46	2023-06-06 21:36:44.553028	VMware_9f:66:38		Broadcast		ARP	60	Who has 172.16.14.1? Tell 172.16.14.3
+- Packet number of first packet in attack: 43
+- Protocol(s) used in attack: ARP
+- Suspected Nmap/scan configuration: `nmap -PR <victim IP>`
+- List any NVD records that may apply to the attack; describe how they are related
 Screen captures from Wireshark showing attack with explanations (Appendix A)
 
 
