@@ -1,6 +1,6 @@
 ## Traffic Anomaly Detection with Wireshark Black Box
 ### Table of Contents:
-- [nmap detection display filters](#in-wireshark-nmap-detection-display-filters)
+- [nmap detection display filters](#in-wireshark-nmap-detection-display-filters) <- *that's the intresting part*
 - [tcp flags to hex](#tcp-flags-to-hex)
 - [task command line](#part-1-performing-endpoint-scan-with-nmap)
 - [task command stdout](#in-practice-results)
@@ -8,19 +8,18 @@
 ## In Wireshark: nmap detection display filters
 [nmap cheatsheet](https://stationx-public-download.s3.us-west-2.amazonaws.com/nmap_cheet_sheet_v7.pdf)
 
-Detect: TCP ACK SCAN (-sA) | TCP ACK port scan
+### Detect: TCP ACK SCAN (-sA) | TCP ACK port scan
 - display filter:
   - `ip.dst == <Attacker IP> and tcp.flags.ack==1 and tcp.flags.reset == 1`
 - heuristics/Signs: Static IP SRC,DST. Dynamic port.
+<img src="https://github.com/FredericGariepy/LighthouseLabs/assets/96602008/afa0664d-fca5-46ad-b99c-6433df7afcd4" alt="image" width="300" height="200">
 
-
-Detect:  ARP scan (-PR) | network scan:
+### Detect:  ARP scan (-PR) | network scan:
 - display filter:
     - `eth.src == <Attacker MAC> and arp`
 - heuristics/Signs: Large arp volume, static MAC SRC, Dynamic & iterating IP info request.
 
-
-Detect an intense port scan:
+### Detect an intense port scan:
 - display filter:
     - `tcp.flags.syn==1 and tcp.flags.ack==0`
 - high volume of SYN packets to different ports on the same host, often combined with other types of packets (e.g. ICMP, UDP)
