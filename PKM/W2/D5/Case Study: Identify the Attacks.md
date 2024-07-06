@@ -1,35 +1,14 @@
-
+Overview
 1. [PCAP file **1**](#pcap-file-1--cyberbcc243)
 2. [PCAP file **2**](#pcap-file-2--cyberbcc244)
-
-# Title of report
-
-Incident report 01001
-Date filed
-Date of incident (as reported)
-Incident description (as reported)
-Executive summary
-Description of actual incident
-What was discovered as a result of the scan
-Attacker IP(s)
-Attacker MAC(s)
-Time of attack (first packet of attack)
-Packet number of first packet in attack
-Protocol(s) used in attack
-Suspected Nmap/scan configuration
-List any NVD records that may apply to the attack; describe how they are related
-Screen captures from Wireshark showing attack with explanations (Appendix A)
-
+3. [Incident Report](#incident-report)
 ---
-
 Workflow
-
 1. Open PCAP.
 2. Add timestamp
 3. Overview, find signs of IoC.
 4. Apply filters from [Traffic anomally detection source](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D4/Traffic%20Anomaly%20Detection%20with%20Wireshark%20White%20Box.md)
 5. Correlate diplayed captures with nmap and or IoCs.
-
 
 # PCAP File 1 : Cyber+BC+C2.4.3
 ### First IoC, Sign of ARP scan
@@ -43,7 +22,7 @@ Workflow
 - Likely commmand used `nmap -PR <victim IP>`
 
 #### Victim response:
-- Display filter: eth.dst == 00:50:56:9f:66:38 and arp
+- Display filter: `eth.dst == 00:50:56:9f:66:38 and arp`
 - Total display rows 9.
 - victim responce: 172.16.14.53 is at 50:01:00:04:00:00
 - Attacker discovers 1 host.
@@ -66,6 +45,20 @@ Workflow
 Reference in MITRE ATT&CK Framework:
 - Tactic: Discovery
 - Technique: [Network Service Scanning (T1046)](https://attack.mitre.org/techniques/T1046/)
+
+### Third IoC, Remote Services: Remote Desktop Protoco
+
+- Display filter: `copt || rdp `
+- Total display rows 2.
+- Port 3389 is dedicated to Remote Desktop Protocol (RDP).
+Reference in MITRE ATT&CK Framework:
+- Tactic: Remote Service
+- Technique: [Remote Services: Remote Desktop Protocol](https://attack.mitre.org/techniques/T1021/001/)
+Adversaries may use Valid Accounts to log into a computer using the Remote Desktop Protocol (RDP).
+The adversary may then perform actions as the logged-on user.
+
+RPD was unsuccesfull, as there is NO COTP (Connection-Oriented Transport Protocol) CR (Connection Request) and CC (Connection Confirm)
+
 ---
 # PCAP File 2 : Cyber+BC+C2.4.4
 
@@ -116,14 +109,31 @@ User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/boo
 
 ### Third IoC, Remote Services: Remote Desktop Protoco
 
-- Display filter: `ip.src == 172.16.14.3 and tcp.dstport == 3389` or simply, `rdp`
-- Total display rows 2.
+- Display filter: `copt || rdp `
+- Total display rows 4.
 - Port 3389 is dedicated to Remote Desktop Protocol (RDP).
 MITRE ATT&CK : [Remote Services: Remote Desktop Protocol](https://attack.mitre.org/techniques/T1021/001/)
 Adversaries may use Valid Accounts to log into a computer using the Remote Desktop Protocol (RDP).
 The adversary may then perform actions as the logged-on user.
 
-### Fourth IoC, Remote Services: Remote Desktop Protoco
+**RPD was SUCCESSFUL**, as there is COTP (Connection-Oriented Transport Protocol) CR (Connection Request) and CC (Connection Confirm)
+
+### Fourth IoC, Remote Services: 
+
+- Display filter: `http`
+- Total display rows 18.
+- Port 80 is dedicated to unencryted HTTP
+MITRE ATT&CK : [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
+
+Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network. The weakness in the system can be a software bug, a temporary glitch, or a misconfiguration.
+
+GET requests to suspicious endpoints
+- /evox/about
+- /HNAP1
+> HNAP (Home Network Administration Protocol) is a protocol developed by Cisco for remote management of home networking devices.
+Command injection vulnerability [CVE-2022-44808](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44808) through well-designed /HNAP1 requests.
+
+### Fifth IoC, Remote Services: potentially exfiltration, API exploit, cloud storage
 
 - Display filter: `ip.src == 172.16.14.3 and tcp.dstport == 9200`
 - Port 9200 is dedicated to Elasticsearch.
@@ -140,6 +150,31 @@ Adversaries may access data from cloud storage.
 
 - Potentially [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
 Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network. The weakness in the system can be a software bug, a temporary glitch, or a misconfiguration.
+
+---
+# Incident report
+07.06.2024
+
+### Date of incident : 2023-06-06
+
+### Incident description:
+An adversary machine on the network found two hosts. The attacker succesfully connected to one machine through a remote desktop 
+
+Executive summary:
+
+Description of actual incident:
+172.16.14.53 & 172.16.14.53
+
+What was discovered as a result of the scan:
+
+Attacker IP(s) :
+Attacker MAC(s :
+Time of attack (first packet of attack)
+Packet number of first packet in attack
+Protocol(s) used in attack
+Suspected Nmap/scan configuration
+List any NVD records that may apply to the attack; describe how they are related
+Screen captures from Wireshark showing attack with explanations (Appendix A)
 
 
 <!--
