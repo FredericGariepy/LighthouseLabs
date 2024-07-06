@@ -68,6 +68,20 @@ Reference in MITRE ATT&CK Framework:
 - Technique: [Network Service Scanning (T1046)](https://attack.mitre.org/techniques/T1046/)
 ---
 # PCAP File 2 : Cyber+BC+C2.4.4
+
+## Confirming Attacker is using NMAP
+- Display filter: `ip.src == 172.16.14.3 and tcp.dstport == 80 and ip.dst == 172.16.14.52`
+Following the TCP stream between attacker IP and victim IP on victim port 80:
+- Starting at display filter: `tcp.stream eq 2019`
+We can see that attacker IP is using Nmap in their POST request to victim's port 80
+```
+POST /sdk HTTP/1.1
+Host: 172.16.14.52
+Connection: close
+Content-Length: 441
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+```
+
 ### First IoC, Sign of ARP scan
 > 2023-06-06 17:36:44.327281317	VMware_9f:66:38		Broadcast		ARP	60	Who has 172.16.14.1? Tell 172.16.14.3
 
@@ -100,24 +114,32 @@ Reference in MITRE ATT&CK Framework:
 - Total display rows 32.
 - victim responce shows open port: 80, 3389, 9200
 
-### Third IoC, sign of Port Scan
+### Third IoC, Remote Services: Remote Desktop Protoco
 
-- Display filter: `ip.src == 172.16.14.3 and tcp.dstport == 80 and ip.dst == 172.16.14.52`
-Following the TCP stream between attacker IP and victim IP on victim port 80:
-- Starting at display filter: `tcp.stream eq 2019`
-We can see that attacker IP is using Nmap
-```
-Port 3389 is dedicated to Remote Desktop Protocol (RDP
+- Display filter: `ip.src == 172.16.14.3 and tcp.dstport == 3389` or simply, `rdp`
+- Total display rows 2.
+- Port 3389 is dedicated to Remote Desktop Protocol (RDP).
+MITRE ATT&CK : [Remote Services: Remote Desktop Protocol](https://attack.mitre.org/techniques/T1021/001/)
+Adversaries may use Valid Accounts to log into a computer using the Remote Desktop Protocol (RDP).
+The adversary may then perform actions as the logged-on user.
 
+### Fourth IoC, Remote Services: Remote Desktop Protoco
 
-POST /sdk HTTP/1.1
-Host: 172.16.14.52
-Connection: close
-Content-Length: 441
-User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
-```
+- Display filter: `ip.src == 172.16.14.3 and tcp.dstport == 9200`
+- Port 9200 is dedicated to Elasticsearch.
+- Total displayed rows: 110
+> Elasticsearch is a distributed search and analytics engine built on Apache Lucene. 
+>
+> Most popular search engine and is commonly used for log analytics, full-text search, security intelligence, business analytics, and operational intelligence use cases.
 
+You can send data in the form of JSON documents to Elasticsearch using the API - [source](https://aws.amazon.com/what-is/elasticsearch/)
 
+MITRE ATT&CK :
+- Potentially [Data from Cloud Storage](https://attack.mitre.org/techniques/T1530/)
+Adversaries may access data from cloud storage.
+
+- Potentially [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
+Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network. The weakness in the system can be a software bug, a temporary glitch, or a misconfiguration.
 
 
 <!--
