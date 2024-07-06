@@ -4,9 +4,9 @@
 - [tcp flags to hex](#tcp-flags-to-hex)
 - [task command line](#part-1-performing-endpoint-scan-with-nmap)
 - [task command stdout](#in-practice-results)
+- [nmap cheatsheet](https://stationx-public-download.s3.us-west-2.amazonaws.com/nmap_cheet_sheet_v7.pdf)
 
 ## In Wireshark: nmap detection display filters
-[nmap cheatsheet](https://stationx-public-download.s3.us-west-2.amazonaws.com/nmap_cheet_sheet_v7.pdf)
 
 ### Detect: TCP ACK SCAN (-sA) | TCP ACK port scan
 - display filter:
