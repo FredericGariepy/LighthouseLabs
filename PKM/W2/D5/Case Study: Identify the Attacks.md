@@ -1,6 +1,6 @@
 
-[PCAP file **1**](#pcap-file-1--cyberbcc243)
-[PCAP file **2**](#pcap-file-2--cyberbcc244)
+1. [PCAP file **1**](#pcap-file-1--cyberbcc243)
+2. [PCAP file **2**](#pcap-file-2--cyberbcc244)
 
 # Title of report
 
