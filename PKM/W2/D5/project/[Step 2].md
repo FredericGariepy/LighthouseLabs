@@ -18,18 +18,11 @@ ___
 
 # Assets (*descending priority*)
 
+- Marketing (P)
+  - Microsoft Windows 11 Home 10.0.22631 22631
 
-- SQL database (S)
-  - On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
-  - > The Win 11 VM does not have an mySQL database installed. [fact source](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W2/D5/project/%5BSTEP%201%5D.md)
-
-- Internet Information Services (IIS) webserver (S)
-  - On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
-  - IIS Version 10.0
-
-- PRTG Network Monitor (SM)
-  - On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
-  - PRTG Probe 24.2.96.1315 | PRTG Server 24.2.96.1315
+- Sales (F) & (P)
+  - Microsoft Windows 11 Home 10.0.22631 22631
 
 - Developer Machines (IP)
   - Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish) 
@@ -40,14 +33,20 @@ ___
     | apache2      | *:80            |
     | mysqld       | 33060 \| 3306    |
 
-- Sales (F) (P)
-  - Microsoft Windows 11 Home 10.0.22631 22631
-
-- Marketing (P)
-  - Microsoft Windows 11 Home 10.0.22631 22631
-
 - Management functions (A)
   - Microsoft Windows 11 Home 10.0.22631 22631
+
+- PRTG Network Monitor (SM)
+  - On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
+  - PRTG Probe 24.2.96.1315 | PRTG Server 24.2.96.1315
+
+- SQL database (S)
+  - On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
+  - > The Win 11 VM does not have an mySQL database installed. [fact source](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W2/D5/project/%5BSTEP%201%5D.md)
+
+- Internet Information Services (IIS) webserver (S)
+  - On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
+  - IIS Version 10.0
 
 - IT & Test System (S)
   - Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
