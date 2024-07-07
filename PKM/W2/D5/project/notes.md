@@ -26,24 +26,34 @@
     - understand why you are recommending each sensor and alert threshold as you will have to justify your decisions.
 - recommend basic monitoring of logs, events, and SNMP for the scenario given in the case study.
 
-
-
-
 # Assets
-Windows Server, runs:
+- Windows Server, runs: (S) (SM)
+    - SQL database (S)
+    - Internet Information Services (IIS) webserver (S)
+      > used to exchange static and dynamic web content with internet user
+    - PRTG Network Monitor (SM)
 
-SQL database
-IIS webserver
-PRTG Network Monitor
-Linux:
+- Linux: (IP)
+    - Used by developers to create important proprietary intellectual property (IP) for the company
 
-Used by developers to create important proprietary intellectual property (IP) for the company
-Windows workstations:
+- Windows workstations: (P) (A)
+    - Sales (F) (P)
+    - Marketing (P)
+    - Management functions (A)
 
-Sales
-Marketing
-Management functions
-Kali
+- Kali: 
+    - Test systems (S)
+    - IT systems (S)
 
-Test systems
-IT systems
+The heads of the company have stated that all company information falls within the following classifications.
+They have further ranked the importance of each class of information from most important to least important as follows:
+
+1. Privacy (P)
+2. Proprietary (IP)
+3. Admin (A)
+4. Financial/accounting (F)
+5. Security Management (SM)
+6. Systems (S)
+
+Note
+> When completing your vulnerability and risk research and prioritization, you can use the OS/software versions found in your VirtualBox lab environment as those that are found in the Big Dog architecture.
