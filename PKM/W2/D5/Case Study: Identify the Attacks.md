@@ -25,7 +25,7 @@ Workflow
 - Total display rows 1026. 
 - MAC:  00:50:56:9f:66:38
 - IP: 172.16.14.3
-- Likely commmand used `nmap -PR <victim IP>`
+- Likely commmand used `nmap -PR <victim network/subnet>`
 
 #### Victim response:
 - Display filter: `eth.dst == 00:50:56:9f:66:38 and arp`
@@ -95,7 +95,7 @@ User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/boo
 - Total display rows 1026. 
 - MAC:  00:50:56:9f:66:38
 - IP: 172.16.14.3
-- Likely commmand used `nmap -PR <victim IP>`
+- Likely commmand used `nmap -PR <victim network/subnet>`
 
 #### Victim response:
 - Display filter: eth.dst == 00:50:56:9f:66:38 and arp
