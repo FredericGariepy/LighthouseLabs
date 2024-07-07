@@ -16,4 +16,21 @@ Goals:
 
 1. Assets + OS/Software versions
 
+# Assets
+- Windows Server, runs: (S) (SM)
+    - SQL database (S)
+    - Internet Information Services (IIS) webserver (S)
+      > used to exchange static and dynamic web content with internet user
+    - PRTG Network Monitor (SM)
 
+- Linux: (IP)
+    - Used by developers to create important proprietary intellectual property (IP) for the company
+
+- Windows workstations: (P) (A)
+    - Sales (F) (P)
+    - Marketing (P)
+    - Management functions (A)
+
+- Kali: 
+    - Test systems (S)
+    - IT systems (S)
