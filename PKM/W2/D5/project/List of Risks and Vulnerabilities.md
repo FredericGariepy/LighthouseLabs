@@ -17,11 +17,28 @@ Goals:
 1. Assets + OS/Software versions
 
 # Assets
-- Windows Server, runs: (S) (SM)
-    - SQL database (S)
+- ## Windows Server, runs: (S) (SM)
+    - ### Windows OS
+    - List listening ports, In Powershell: `netstat -ano | findstr "LISTENING"`
+    - In Powershell: `Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object Caption, Version, BuildNumber`
+        ```ps1
+        Caption                   Version    BuildNumber
+        -------                   -------    -----------
+        Microsoft Windows 11 Home 10.0.22631 22631
+        ```
+
+    - ### SQL database (S)
+    
+    In powershell: `Get-Service -Name *sql*` Returns nothing, hence the VM does not have an mySQL database installed.
     - Internet Information Services (IIS) webserver (S)
-      > used to exchange static and dynamic web content with internet user
-    - PRTG Network Monitor (SM)
+
+      In powershell `reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\InetStp" /v VersionString`
+      > IIS Version 10.0
+    - ### PRTG Network Monitor (SM)
+
+      In powershell `Get-Process PRTG* | Select-Object Name, FileVersion`
+      > PRTG Probe 24.2.96.1315
+      > PRTG Server 24.2.96.1315
 
 - Linux: (IP)
     - Used by developers to create important proprietary intellectual property (IP) for the company
