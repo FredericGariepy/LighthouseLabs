@@ -30,7 +30,7 @@ Goals:
     - ### SQL database (S)
     
     In powershell: `Get-Service -Name *sql*` Returns nothing, hence the VM does not have an mySQL database installed.
-    - Internet Information Services (IIS) webserver (S)
+    - ### Internet Information Services (IIS) webserver (S)
 
       In powershell `reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\InetStp" /v VersionString`
       > IIS Version 10.0
