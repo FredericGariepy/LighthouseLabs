@@ -40,8 +40,37 @@ Goals:
       > PRTG Probe 24.2.96.1315
       > PRTG Server 24.2.96.1315
 
-- Linux: (IP)
-    - Used by developers to create important proprietary intellectual property (IP) for the company
+- ## Linux: (IP)
+    - ### Linux OS:
+    - Terminal command: `cat /etc/os-release`
+        ```bash
+        PRETTY_NAME="Ubuntu 22.04.4 LTS"
+        NAME="Ubuntu"
+        VERSION_ID="22.04"
+        VERSION="22.04.4 LTS (Jammy Jellyfish)"
+        VERSION_CODENAME=jammy
+        ID=ubuntu
+        ID_LIKE=debian
+        HOME_URL="https://www.ubuntu.com/"
+        SUPPORT_URL="https://help.ubuntu.com/"
+        BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+        PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+        UBUNTU_CODENAME=jammy
+        ```
+        
+    - ### Services with LISTENING PORTS,
+    - In terminal: `sudo lsof -i -P -n | grep LISTEN`
+
+        ```bash
+        systemd-r  434 systemd-resolve   14u  IPv4  18091      0t0  TCP 127.0.0.53:53 (LISTEN)
+        cupsd      721            root    6u  IPv6  19991      0t0  TCP [::1]:631 (LISTEN)
+        cupsd      721            root    7u  IPv4  19992      0t0  TCP 127.0.0.1:631 (LISTEN)
+        apache2    726            root    4u  IPv6  21073      0t0  TCP *:80 (LISTEN)
+        apache2    728        www-data    4u  IPv6  21073      0t0  TCP *:80 (LISTEN)
+        apache2    729        www-data    4u  IPv6  21073      0t0  TCP *:80 (LISTEN)
+        mysqld     839           mysql   21u  IPv4  22788      0t0  TCP 127.0.0.1:33060 (LISTEN)
+        mysqld     839           mysql   24u  IPv4  22790      0t0  TCP 127.0.0.1:3306 (LISTEN)
+        ```
 
 - Windows workstations: (P) (A)
     - Sales (F) (P)
