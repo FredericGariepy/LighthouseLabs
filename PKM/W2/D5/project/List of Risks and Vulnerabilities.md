@@ -19,7 +19,7 @@ Goals:
 # Assets
 - ## Windows Server, runs: (S) (SM)
     - ### Windows OS
-    - List listening ports, In Powershell: `netstat -ano | findstr "LISTENING"`
+      List listening ports, In Powershell: `netstat -ano | findstr "LISTENING"`
     - In Powershell: `Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object Caption, Version, BuildNumber`
         ```ps1
         Caption                   Version    BuildNumber
@@ -29,7 +29,10 @@ Goals:
 
     - ### SQL database (S)
     
-    In powershell: `Get-Service -Name *sql*` Returns nothing, hence the VM does not have an mySQL database installed.
+    In powershell: `Get-Service -Name *sql*`
+  
+    Returns nothing, hence the VM does not have an mySQL database installed.
+  
     - ### Internet Information Services (IIS) webserver (S)
 
       In powershell `reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\InetStp" /v VersionString`
@@ -42,7 +45,7 @@ Goals:
 
 - ## Linux: (IP)
     - ### Linux OS:
-    - Terminal command: `cat /etc/os-release`
+      Terminal command: `cat /etc/os-release`
         ```bash
         PRETTY_NAME="Ubuntu 22.04.4 LTS"
         NAME="Ubuntu"
@@ -59,7 +62,7 @@ Goals:
         ```
         
     - ### Services with LISTENING PORTS,
-    - In terminal: `sudo lsof -i -P -n | grep LISTEN`
+      In terminal: `sudo lsof -i -P -n | grep LISTEN`
 
         ```bash
         systemd-r  434 systemd-resolve   14u  IPv4  18091      0t0  TCP 127.0.0.53:53 (LISTEN)
@@ -73,6 +76,15 @@ Goals:
         ```
 
 - Windows workstations: (P) (A)
+    ### Windows OS
+    - List listening ports, In Powershell: `netstat -ano | findstr "LISTENING"`
+    - In Powershell: `Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object Caption, Version, BuildNumber`
+        ```ps1
+        Caption                   Version    BuildNumber
+        -------                   -------    -----------
+        Microsoft Windows 11 Home 10.0.22631 22631
+        ```
+
     - Sales (F) (P)
     - Marketing (P)
     - Management functions (A)
