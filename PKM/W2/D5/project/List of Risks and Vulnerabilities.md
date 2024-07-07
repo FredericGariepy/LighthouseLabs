@@ -84,7 +84,12 @@ Goals:
         -------                   -------    -----------
         Microsoft Windows 11 Home 10.0.22631 22631
         ```
-
+    In Powershell:
+  ```ps1
+  netstat -ano | Select-String "LISTENING" | ForEach-Object { $parts = $_ -split '\s+'; if ($parts.Count -gt 1) { $proc = Get-Process -Id $parts[-1]; if ($proc) { "Service Name: $($proc.ProcessName), File Version: $($proc.FileVersionInfo.FileVersion)" } } }
+  ```
+  
+    However, No services besides generic services & afromentioned PRGT is running...
     - Sales (F) (P)
     - Marketing (P)
     - Management functions (A)
