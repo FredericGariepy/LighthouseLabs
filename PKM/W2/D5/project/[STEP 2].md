@@ -14,7 +14,8 @@ Goals:
 - Understood the process of discovering asset vulnerabilities and how to rate & prioritize risks
 
 
-1. Assets + OS/Software versions
+2. List labeled assets in descending priority, based on category.
+
 
 # Assets
 - ## Windows Server, runs: (S) (SM)
