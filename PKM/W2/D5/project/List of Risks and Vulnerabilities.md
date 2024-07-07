@@ -94,6 +94,47 @@ Goals:
     - Marketing (P)
     - Management functions (A)
 
-- Kali: 
+- ## Kali:
+    - ### Kali OS
+      Terminal command: `cat /etc/os-release`
+        ```bash
+        PRETTY_NAME="Kali GNU/Linux Rolling"
+        NAME="Kali GNU/Linux"
+        VERSION_ID="2024.2"
+        VERSION="2024.2"
+        VERSION_CODENAME=kali-rolling
+        ID=kali
+        ID_LIKE=debian
+        HOME_URL="https://www.kali.org/"
+        SUPPORT_URL="https://forums.kali.org/"
+        BUG_REPORT_URL="https://bugs.kali.org/"
+        ANSI_COLOR="1;31"
+        ```
+
+  - Find other services UP and LISTENING on open Port(s) [*Workflow*]
+    ```bash
+    1. 
+    └─$ sudo netstat -tuln | grep LISTEN
+    tcp        0      0 127.0.0.1:35619         0.0.0.0:*               LISTEN 
+    
+    2.
+    └─$ sudo lsof -i :35619 
+    COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+    container 714 root   10u  IPv4   8218      0t0  TCP localhost:35619 (LISTEN)
+    
+    3.
+    └─$ ps -p 714 -o command     
+    COMMAND
+    /usr/bin/containerd
+    
+    4.
+    └─$ containerd --version
+    containerd github.com/containerd/containerd 1.6.24~ds1 1.6.24~ds1-1
+    ```
+    github : https://github.com/containerd/containerd
+    
+    -> This seems to be the container on which the Kali Linux OS image is running on.
+    > containerd is an industry-standard container runtime with an emphasis on simplicity, robustness, and portability. It is available as a daemon for Linux and Windows, which can manage the complete container lifecycle of its host system: image transfer and storage, container execution and supervision, low-level storage and network attachments, etc.
+
     - Test systems (S)
     - IT systems (S)
