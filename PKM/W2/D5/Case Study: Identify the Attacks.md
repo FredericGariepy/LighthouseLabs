@@ -131,7 +131,7 @@ MITRE ATT&CK : [Remote Services: Remote Desktop Protocol](https://attack.mitre.o
 Adversaries may use Valid Accounts to log into a computer using the Remote Desktop Protocol (RDP).
 The adversary may then perform actions as the logged-on user.
 
-**RPD was SUCCESSFUL**, as there is COTP (Connection-Oriented Transport Protocol) CR (Connection Request) and CC (Connection Confirm)
+[**RPD was SUCCESSFUL**](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-rdpbcgr/023f1e69-cfe8-4ee6-9ee0-7e759fb4e4ee), as there is COTP (Connection-Oriented Transport Protocol) CR (Connection Request) and CC (Connection Confirm)
 
 ### Fourth IoC, Remote Services: 
 - Display filter: `http`
