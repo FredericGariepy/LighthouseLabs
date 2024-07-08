@@ -22,24 +22,37 @@ Questions/Answers to justify CIA impact levels:
 • What is the impact associated with the loss of availability of the information in the system?
 ___
 
-# Assets CIA
-Security Category = {(confidentiality, ), (integrity, ), (availability, )}
+# Informatio Asset: CIA
+Security Category = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 
-- Marketing (P)
-- Marketing SC = {(confidentiality, High), (integrity, impact), (availability, impact)}
+### Marketing (P)
 > Microsoft Windows 11 Home 10.0.22631 22631
+- Marketing SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
+  - Confidentiality: Leakage of PII could be used to cause severe harm to individuals and the organization.
+  - Integrity : Modification or destruction would cause serious harm to operations, but possibly redeemable/recoverable though database backups, data encryptions, data segregations.
+  - Availability: harm to operations, likely redeemable/recoverable, therefore limited impact.
 
-- Sales (F) & (P)
-  - Microsoft Windows 11 Home 10.0.22631 22631
 
-- Developer Machines (IP)
-  - Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish) 
-  - Services with LISTENING PORTS:
-    
-    | Service      | Port            |
-    |--------------|-----------------|
-    | apache2      | *:80            |
-    | mysqld       | 33060 \| 3306    |
+### Sales (F) & (P)
+> Microsoft Windows 11 Home 10.0.22631 22631
+- Sales SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
+  - Confidentiality: Leakage of PII & Financial data could be used to cause severe harm to individuals, the organization and other orgs.
+  - Integrity : Modification or destruction would cause serious harm to operations, but possibly redeemable/recoverable though database backups, data encryptions, data segregations.
+  - Availability: harm to operations, likely redeemable/recoverable, therefore limited impact.
+
+
+### Developer Machines (IP)
+> Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
+> Services with LISTENING PORTS:
+> | Service      | Port            |
+> |--------------|-----------------|
+> | apache2      | *:80            |
+> | mysqld       | 33060 \| 3306    |
+
+- Developer Machines  SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
+  - Confidentiality: Leakage of PI could be used to cause severe harm the organization and other orgs. Attackers could use information to further their attack on the organization or related third parties.
+  - Integrity : Modification or destruction would cause serious harm to operations, but possibly redeemable/recoverable through GIT, backups, secrets encryptions.
+  - Availability: harm to operations, likely redeemable/recoverable by use other work machines or OS images, therefore limited impact
 
 - Management functions (A)
   - Microsoft Windows 11 Home 10.0.22631 22631
