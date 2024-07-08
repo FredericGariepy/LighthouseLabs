@@ -204,6 +204,15 @@ ___
 -  SQL database SC = {(confidentiality, Low), (integrity, low), (availability, Moderate)}
 -  SQL database SIL = Moderate
 
+- | Sensor: [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)
+- | Description:  sensor monitors a database on a MySQL server and executes a query.
+- |	System : Microsoft Windows 11 Home, version 23H2, Sun Valley 3
+- | IoCs: [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)
+- | Associated	Rationale : Checks for the Integrity and Availability of the SQL database.
+- |	Priority (SIL) : Moderate
+- |	Thresholds / Assumptions : 
+
+
 - | Sensor:  [Ping](https://www.paessler.com/manuals/prtg/ping_sensor)
 - | Sensor:  [Port](https://www.paessler.com/manuals/prtg/port_sensor)
 - | Description: 
@@ -213,19 +222,6 @@ ___
 - |	Priority (SIL)
 - |	Thresholds / Assumptions
 
-Typically, management services over commonly used ports are used when password spraying. Commonly targeted services include the following:
-
-SSH (22/TCP)
-Telnet (23/TCP)
-FTP (21/TCP)
-NetBIOS / SMB / Samba (139/TCP & 445/TCP)
-LDAP (389/TCP)
-Kerberos (88/TCP)
-RDP / Terminal Services (3389/TCP)
-HTTP/HTTP Management Services (80/TCP & 443/TCP)
-MSSQL (1433/TCP)
-Oracle (1521/TCP)
-MySQL (3306/TCP)"
 
 
 - | Sensor: 
@@ -240,26 +236,28 @@ MySQL (3306/TCP)"
 > On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
 > 
 > IIS Version 10.0 | IIS webserver SIL = Moderate
+> 
+> IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
+>
+> IIS webserver SIL = Moderate
 
 - | Sensor: [FTP Sensor](https://www.paessler.com/manuals/prtg/ftp_sensor)
 - | Description: he FTP sensor monitors file servers via the File Transfer Protocol (FTP) and FTP over SSL (FTPS). Monitors specified FTP port request response time and status (accepted).
 - |	System:  Microsoft Windows 11 Home, version 23H2, Sun Valley 3
-- | IoCs: 
-- | Associated Rationale : 
-- |	Priority (SIL) : 
-- |	Thresholds / Assumptions :
+- | IoCs: [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048/)
+- | Associated Rationale : The IIS server can host FTP services which can be used for exfiltration of data.
+- |	Priority (SIL) : Moderate
+- |	Thresholds / Assumptions : Response time in msec. The Upper bound should indicate a unusual activity.
 
-  
 
 - | Sensor: [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
 - | Description: Motonitors IIS server via Windows Management Instrumentation (WMI). Sensor gives insights into the performance, availability, and usage of the IIS server.
 - |	System : Microsoft Windows 11 Home, 23H2: IS Version 10.0
 - | IoCs : [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/)
-- | Associated	Rationale : 
+- | Associated	Rationale : The IIS is a webserver, file share server. Such a server can be poisoned and distribute harm internally and externally of the organization. A baseline is important to monitor the activity of the organization.
 - |	Priority (SIL) : Moderate
-- |	Thresholds / Assumptions : The IIS server serves up the website. IIS server may be used for FTP
+- |	Thresholds / Assumptions : IIS sensor can monitor for bytes and Files (data) sent/received, http requests Get/Post, Status Up/Down, Users Known/Anonymous. It is a Very powerfull sensor which should be used to monitor important IIS operations by the organization.
   
-
 
 -  [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
 -  [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/)
