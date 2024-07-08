@@ -14,13 +14,44 @@ Workflow:
 # Assets
 - ## Windows Server, runs: (S) (SM)
     - ### Windows OS
-      List listening ports, In Powershell: `netstat -ano | findstr "LISTENING"`
-    - In Powershell: `Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object Caption, Version, BuildNumber`
+      In Powershell:
+    
+      `Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object Caption, Version, BuildNumber`
         ```ps1
         Caption                   Version    BuildNumber
         -------                   -------    -----------
         Microsoft Windows 11 Home 10.0.22631 22631
         ```
+    - ### Windows public-facing services  
+      List listening ports, In Powershell: `netstat -ano | findstr "LISTENING"`
+      
+      This will list services with listening ports and their PIDs:
+      > 4, 996, 772, 608, 2120, 748
+      
+      Use those PIDs in the following script:
+      
+      Powershell script to find version and name of services on open listening ports:
+      ```ps1
+      # Retrieve process details including service name, file version, and port for specified PIDs
+        Get-NetTCPConnection | Where-Object { $_.OwningProcess -in @(4, 996, 772, 608, 2120, 748) } | 
+            Group-Object OwningProcess | ForEach-Object {
+                $proc = Get-Process -Id $_.Name
+                $_.Group | Select-Object -First 1 | Select-Object @{Name="ProcessName";Expression={$proc.ProcessName}},
+                                                                 @{Name="FileVersion";Expression={$proc.FileVersionInfo.FileVersion}},
+                                                                 LocalPort, State }
+      ```
+      This will output the following table. Notice NO FileVersion, these are default services.
+      ```cmd
+        ProcessName FileVersion LocalPort  State
+        ----------- ----------- ---------  -----
+        services                    49669 Listen
+        spoolsv                     49668 Listen
+        wininit                     49665 Listen
+        lsass                       49664 Listen
+        System                        445 Listen
+        svchost                       135 Listen
+        ```
+
 
     - ### SQL database (S)
     
