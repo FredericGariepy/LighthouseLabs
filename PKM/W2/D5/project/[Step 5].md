@@ -56,21 +56,57 @@ ___
  
 ### Developer Machines (IP)
 > Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
+>
+> IT Developer Machines SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
+>
+> IT Developer Machines SIL = Moderate 
+>
 > Services with LISTENING PORTS:
 > | Service      | Port            |
 > |--------------|-----------------|
 > | apache2      | *:80            |
 > | mysqld       | 33060 \| 3306    |
 
+- | Sensor: [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)
+- | Description:  sensor monitors a database on a MySQL server and executes a query.
+- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
+- | IoCs: Check if query 
+- | Associated	Rationale : 
+- |	Priority (SIL) ; 
+- |	Thresholds / Assumptions :  (State Threshold Change)
+
+- | Sensor:
+- | Description:  sensor monitors a database on a MySQL server and executes a query.
+- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
+- | IoCs: Check if query 
+- | Associated	Rationale : 
+- |	Priority (SIL) ; 
+- |	Thresholds / Assumptions :
+- 
+
+
+
 > Developer Machines SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
 >
 >  Developer Machines SIL = High
 
-- | Sensor:
+### *default sensor
+- | Sensor: HTTP Load Time
+- | Description: Monitors the time it takes for the page to load.
+- |	System: Linux
+- | IoCs: Malicious Redirects, DDoS Attacks, Content Injection	Unexpected changes in load time can indicate anomalies or performance-related issues that could indicate a security breach or compromise.
+- | Associated	Rationale : Linux web server being internal and outward facing (Assumption)
+- |	Priority (SIL): Medium (SIL of high, see assumptions)
+- |	Thresholds / Assumptions: SIL based on the fact that *BIG DOG does NOT have a large Web Presence*, the Low impact on availability, higher chance of compromise. 
+
+
+
+
+- | Sensor: 
 - | Description: 
 - |	System
-- | IoCs
-- | Associated	Rationale
+- | IoCs: [Password spraying](https://attack.mitre.org/techniques/T1110/003/)
+- | Associated	Rationale: Password spraying "Commonly targeted services [...] MySQL (3306/TCP)" 
 - |	Priority (SIL)
 - |	Thresholds / Assumptions
 
@@ -120,7 +156,31 @@ ___
 -  SQL database SC = {(confidentiality, Low), (integrity, low), (availability, Moderate)}
 -  SQL database SIL = Moderate
 
-- | Sensor:
+- | Sensor:  [Ping](https://www.paessler.com/manuals/prtg/ping_sensor)
+- | Sensor:  [Port](https://www.paessler.com/manuals/prtg/port_sensor)
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
+
+Typically, management services over commonly used ports are used when password spraying. Commonly targeted services include the following:
+
+SSH (22/TCP)
+Telnet (23/TCP)
+FTP (21/TCP)
+NetBIOS / SMB / Samba (139/TCP & 445/TCP)
+LDAP (389/TCP)
+Kerberos (88/TCP)
+RDP / Terminal Services (3389/TCP)
+HTTP/HTTP Management Services (80/TCP & 443/TCP)
+MSSQL (1433/TCP)
+Oracle (1521/TCP)
+MySQL (3306/TCP)"
+
+
+- | Sensor: 
 - | Description: 
 - |	System
 - | IoCs
