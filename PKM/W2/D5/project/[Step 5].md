@@ -72,6 +72,8 @@ ___
 > IIS Version 10.0
 -  IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
 -  IIS webserver SIL = Moderate
+| Sensor	| Description |	System	| IoCs | Associated	Rationale |	Priority |	Thresholds / Assumptions |
+
 
 - [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
 
