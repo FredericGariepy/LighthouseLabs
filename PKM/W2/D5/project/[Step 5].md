@@ -23,6 +23,17 @@ ___
 - |	Priority (SIL)
 - |	Thresholds / Assumptions : Thresholds: Traffic In, Traffic Out : 0.03mbits Upper bound. Total Traffic 0.43mbits Upper Bound.
 
+
+- | Sensor: Antivirus
+- | Description: Status Sensor	Monitors antivirus software status.	All
+- |	System : All. Router Interface. 
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions :
+
+
+
 ## OS specific sensors
 
 ### Windows
