@@ -70,12 +70,17 @@ ___
 > On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
 > 
 > IIS Version 10.0
--  IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
+ IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
 -  IIS webserver SIL = Moderate
-| Sensor	| Description |	System	| IoCs | Associated	Rationale |	Priority |	Thresholds / Assumptions |
+- | Sensor: [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
+- | Description: sensor server via Windows Management Instrumentation (WMI
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
+  
 
-
-- [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
 
 -  [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
 -  [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/)
