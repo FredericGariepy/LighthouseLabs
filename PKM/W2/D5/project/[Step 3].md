@@ -23,7 +23,6 @@ Questions/Answers to justify CIA impact levels:
 ___
 
 # Information Assets: CIA
-Security Category = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 
 ### Marketing (P)
 > Microsoft Windows 11 Home 10.0.22631 22631
