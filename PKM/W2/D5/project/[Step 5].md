@@ -36,9 +36,9 @@ ___
 - | Description: Status Sensor	Monitors antivirus software status.	The WMI Security Center sensor monitors the security status of a Windows client system via Windows Management Instrumentation (WMI). It can monitor all security products that are controlled by Windows Security Center / Windows Action Center.
 - |	System : [Microsoft Windows 11 Home, Version 10.0.22631 Build 22631 | Known as: version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
 - | IoCs : [Impair Defenses: Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001/)
-- | Associated Rationale: Ensuring that antivirus 
+- | Associated Rationale: Ensuring that antivirus is Up to date and Running is enssential for the security of a Windows machine.
 - |	Priority (SIL) : High
-- |	Thresholds / Assumptions :
+- |	Thresholds / Assumptions: Statuses: Up (Running & Up To Date), Warning (Running & Out Of Date), Down (Not Running &  Out Of Date). 
 
 
 - | Sensor: [WMI Event Log Sensor](https://www.paessler.com/manuals/prtg/wmi_event_log_sensor)
@@ -241,14 +241,15 @@ MySQL (3306/TCP)"
 > 
 > IIS Version 10.0 | IIS webserver SIL = Moderate
 
-- | Sensor: FTP Sensor
-- | Description: Monitors FTP access and usage. Monitors specified TCP/IP port request response time and status (accepted).
-- |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
-- | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts.
-- | Associated	Rationale : Port 22 is used for remote ssh login to IT Systems machines. Having a baseline for accessibility will allow to spot spikes in unsual SSh attempts.
-Brute forcing attacks could occur since Test Systems might not be as a thoroughly configured (passwords, IDs, default settings) hence opening them up for attacks.
-- |	Priority (SIL) : Moderate SIL (low Integrity, low Availability)
-- |	Thresholds / Assumptions : Upper bound thresholds response time < 80ms. This sensor is likely used less often and so the baseline should be tigher in order notice disturbances. Test Services may contain key strategic informaiton for future planning of attackers. 
+- | Sensor: [FTP Sensor](https://www.paessler.com/manuals/prtg/ftp_sensor)
+- | Description: he FTP sensor monitors file servers via the File Transfer Protocol (FTP) and FTP over SSL (FTPS). Monitors specified FTP port request response time and status (accepted).
+- |	System:  Microsoft Windows 11 Home, version 23H2, Sun Valley 3
+- | IoCs: 
+- | Associated Rationale : 
+- |	Priority (SIL) : 
+- |	Thresholds / Assumptions :
+
+  
 
 - | Sensor: [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
 - | Description: Motonitors IIS server via Windows Management Instrumentation (WMI). Sensor gives insights into the performance, availability, and usage of the IIS server.
@@ -290,15 +291,7 @@ Brute forcing attacks could occur since Test Systems might not be as a thoroughl
 >
 > Test System SIL = Moderate
 
-- | Sensor:
-- | Description: 
-- |	System
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
-
-- | Sensor: SSH Sensor
+- | Sensor: SSH Sensor [Port Sensor](https://www.paessler.com/manuals/prtg/port_sensor)
 - | Description: Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).
 - |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
 - | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts.
@@ -335,6 +328,14 @@ IoC:
 - |	Priority (SIL)
 - |	Thresholds / Assumptions
 
+
+- | Sensor:
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
 ___
 
 
