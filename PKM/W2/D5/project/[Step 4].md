@@ -10,7 +10,7 @@ ___
 SIL = max(SC)
 ___
 ## assets
-# Information Assets: CIA
+# Information Assets: SIL
 
 ### Marketing (P)
 > Microsoft Windows 11 Home 10.0.22631 22631
