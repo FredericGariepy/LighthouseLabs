@@ -7,7 +7,11 @@ Workflow:
 6. Calculate(vuln + asset SIL) to get CVSS Scores
 ___
 5. Add related vulnerabilties.
-Aearch MITRE, CVE , NVD
+# Tools
+- [NIST NVD](https://nvd.nist.gov/vuln/search)
+- [CVSS](https://www.first.org/cvss/calculator/3.1)
+- [MITRE CVE & ATT&CK](https://attack.mitre.org/)
+- [Cyber Kill chain](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/Gaining_the_Advantage_Cyber_Kill_Chain.pdf)
 ___
 ## assets
 # Asset Vulnerabilities 
