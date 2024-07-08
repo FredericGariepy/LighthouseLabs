@@ -131,19 +131,15 @@ ___
 ### Internet Information Services (IIS) webserver (S)
 > On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
 > 
-> IIS Version 10.0
->
-> IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
->
-> IIS webserver SIL = Moderate
+> IIS Version 10.0 | IIS webserver SIL = Moderate
 
 - | Sensor: [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
 - | Description: Motonitors IIS server via Windows Management Instrumentation (WMI). Sensor gives insights into the performance, availability, and usage of the IIS server.
 - |	System : Microsoft Windows 11 Home, 23H2: IS Version 10.0
 - | IoCs : [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/)
-- | Associated	Rationale
+- | Associated	Rationale : 
 - |	Priority (SIL) : Moderate
-- |	Thresholds / Assumptions
+- |	Thresholds / Assumptions : The IIS server serves up the website. IIS server may be used for FTP
   
 
 
