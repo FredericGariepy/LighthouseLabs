@@ -13,10 +13,7 @@ Resources
 - [MITRE CVE & ATT&CK](https://attack.mitre.org/)
 - [Cyber Kill chain](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/Gaining_the_Advantage_Cyber_Kill_Chain.pdf)
 ___
-## Asset sensors
-
-
-Bandwidth Usage Sensor 	Monitors network bandwidth usage. 	All
+## Network Asset sensors
 
 - | Sensor: Bandwidth Usage Sensor [SNMP Traffic Sensor](https://www.paessler.com/manuals/prtg/snmp_traffic_sensor)
 - | Description: The SNMP Traffic sensor monitors traffic on a device via the Simple Network Management Protocol (SNMP). Monitors network bandwidth usage.
@@ -24,13 +21,36 @@ Bandwidth Usage Sensor 	Monitors network bandwidth usage. 	All
 - | IoCs
 - | Associated	Rationale
 - |	Priority (SIL)
-- |	Thresholds / Assumptions : Thresholds: Traffic In, Traffic Out : 0.03mbits Upper bound. Total Traffic 0.43mbits Upper Bound. T
+- |	Thresholds / Assumptions : Thresholds: Traffic In, Traffic Out : 0.03mbits Upper bound. Total Traffic 0.43mbits Upper Bound.
+
+## OS specific sensors
+
+### Windows
+Windows Event Log Sensor 	Monitors Windows event logs.
+
+- | Sensor: [WMI Event Log Sensor](https://www.paessler.com/manuals/prtg/wmi_event_log_sensor)
+- | Description: Monitors Windows event logs. The WMI Event Log sensor monitors a Windows log file via Windows Management Instrumentation (WMI).
+- |	System :[Microsoft Windows 11 Home, Version 10.0.22631 Build 22631 | Known as: version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
+- | IoCs: [Indicator Removal: Clear Windows Event Logs](https://attack.mitre.org/techniques/T1070/001/), [Brute Force](https://attack.mitre.org/techniques/T1110/)
+- | Associated	Rationale : Use the sensor to monitor event logs. 
+- |	Priority (SIL) : High. Event logs are the badrock of intrusion detection.
+- |	Thresholds / Assumptions : Narrow down to event down to any attribute (type, Event ID, user, message, etc). Additonally Set-up (trap) Task related to important events. Use event ID 104/1102 for Indicator Removal: Clear Windows Event Logs. Use Event ID 33205 for Brute Force attempts.
+
+  
+### Linux
+- | Sensor: [File Content Sensor](https://www.paessler.com/manuals/prtg/file_content_sensor)
+- | Description: Monitors changes to files and directories. The File Content sensor checks a text file (for example, a log file) for certain strings.
+- |	Systems : Kali GNU/Linux (debian) version 2024.2 (kali-rolling). Ubuntu Linux (debian) 22.04.4 LTS (Jammy Jellyfish).
+- | IoCs: [Indicator Removal: Clear Linux or Mac System Logs](https://attack.mitre.org/techniques/T1070/002/) ,
+- | Associated	Rationale :
+- |	Priority (SIL) : High.
+- |	Thresholds / Assumptions : 
 
 
-# Specific Asset Sensors
+## Specific Information Asset Sensors
 
 ### Marketing (P)
-> [Microsoft Windows 11 Home, Version 10.0.22631 Build 22631 | Known as: version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
+> Microsoft Windows 11, version 23H2, (Sun Valley 3)
 >
 > Marketing SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 >
