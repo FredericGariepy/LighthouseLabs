@@ -193,6 +193,15 @@ MySQL (3306/TCP)"
 > 
 > IIS Version 10.0 | IIS webserver SIL = Moderate
 
+- | Sensor: FTP Sensor
+- | Description: Monitors FTP access and usage. Monitors specified TCP/IP port request response time and status (accepted).
+- |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
+- | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts.
+- | Associated	Rationale : Port 22 is used for remote ssh login to IT Systems machines. Having a baseline for accessibility will allow to spot spikes in unsual SSh attempts.
+Brute forcing attacks could occur since Test Systems might not be as a thoroughly configured (passwords, IDs, default settings) hence opening them up for attacks.
+- |	Priority (SIL) : Moderate SIL (low Integrity, low Availability)
+- |	Thresholds / Assumptions : Upper bound thresholds response time < 80ms. This sensor is likely used less often and so the baseline should be tigher in order notice disturbances. Test Services may contain key strategic informaiton for future planning of attackers. 
+
 - | Sensor: [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
 - | Description: Motonitors IIS server via Windows Management Instrumentation (WMI). Sensor gives insights into the performance, availability, and usage of the IIS server.
 - |	System : Microsoft Windows 11 Home, 23H2: IS Version 10.0
@@ -240,6 +249,15 @@ MySQL (3306/TCP)"
 - | Associated	Rationale
 - |	Priority (SIL)
 - |	Thresholds / Assumptions
+
+- | Sensor: SSH Sensor
+- | Description: Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).
+- |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
+- | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts.
+- | Associated	Rationale : Port 22 is used for remote ssh login to IT Systems machines. Having a baseline for accessibility will allow to spot spikes in unsual SSh attempts.
+Brute forcing attacks could occur since Test Systems might not be as a thoroughly configured (passwords, IDs, default settings) hence opening them up for attacks.
+- |	Priority (SIL) : Moderate SIL (low Integrity, low Availability)
+- |	Thresholds / Assumptions : Upper bound thresholds response time < 80ms. This sensor is likely used less often and so the baseline should be tigher in order notice disturbances. Test Services may contain key strategic informaiton for future planning of attackers. 
 
 
 ### IT System (S)
