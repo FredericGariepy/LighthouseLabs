@@ -4,14 +4,12 @@
 3. Document additional findings and insights as you research for the risks and vulnerabilties (during the Tools Research and Documentation task),
 4. Finally create a report as per the provided template (in your final project Report on Risks & Vulnerabilities). Creating a report is the last step in the case study/ project.
 
-# Tools
+# Tools / Resource
 - [NIST NVD](https://nvd.nist.gov/vuln/search)
 - [CVSS](https://www.first.org/cvss/calculator/3.1)
 - [MITRE CVE & ATT&CK](https://attack.mitre.org/)
 - [Cyber Kill chain](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/Gaining_the_Advantage_Cyber_Kill_Chain.pdf)
 - [Windows event ID -to- MITRE ATT&CK](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D5/project/COPY%20mitre_v_eventIDs.md)
-
-# Resource
 - [Refresher : Indicators of compromise (IOCs)](https://www.fortinet.com/resources/cyberglossary/indicators-of-compromise#:~:text=What%20are%20indicators%20of%20compromise,or%20another%20breach%20in%20security.)
 - [PRTG Manual: Available Sensor Types](https://www.paessler.com/manuals/prtg/list_of_available_sensor_types)
 # Do's
