@@ -49,17 +49,28 @@ Security Category = {(confidentiality, High), (integrity, Moderate), (availabili
 > | apache2      | *:80            |
 > | mysqld       | 33060 \| 3306    |
 
-- Developer Machines  SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
+- Developer Machines SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
   - Confidentiality: Leakage of PI could be used to cause severe harm the organization and other orgs. Attackers could use information to further their attack on the organization or related third parties.
   - Integrity : Modification or destruction would cause serious harm to operations, but possibly redeemable/recoverable through GIT, backups, secrets encryptions.
-  - Availability: harm to operations, likely redeemable/recoverable by use other work machines or OS images, therefore limited impact
+  - Availability: harm to operations, likely redeemable/recoverable by use other work machines or OS images, therefore limited impact.
 
-- Management functions (A)
-  - Microsoft Windows 11 Home 10.0.22631 22631
 
-- PRTG Network Monitor (SM)
-  - On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
-  - PRTG Probe 24.2.96.1315 | PRTG Server 24.2.96.1315
+### Management functions (A)
+> Microsoft Windows 11 Home 10.0.22631 22631
+- Management SC = {(confidentiality, Moderate), (integrity, low), (availability, low)}
+  - Confidentiality: Leakage of administrative info could be used to cause severe harm to individuals and the organization. By allowing attackers to plan attacks by gain of organizational information such as: schedules, plans, projects, roles.
+  - Integrity : Modification or destruction would cause limited harm to operations, likely redeemable/recoverable through third party applications such as JIRA, Organizational leadership and management staff.
+  - Availability: harm to operations, likely redeemable/recoverable, therefore limited impact.
+
+
+### PRTG Network Monitor (SM)
+> On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
+> 
+> PRTG Probe 24.2.96.1315 | PRTG Server 24.2.96.1315
+- PRTG Network Monitor SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
+  - Confidentiality: Leakage of Security Management info could be used to cause severe harm to individuals and the organization. By allowing attackers to plan attacks by gain of organizational information such as: sensors, thresholds, IoC detections, endpoints, traps, ports.
+  - Integrity : Modification or destruction would cause serrious harm to operations ESPECIALLY if left un-noticed. Causing network monitor to be out-of-order/useless. Integrity harm is likely redeemable/recoverable through backup and restores.
+  - Availability: Serrious harm to operations, primary function of Network Monitoring is availability. Likely redeemable/recoverable through load balancing, backups and restores
 
 - SQL database (S)
   - On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
