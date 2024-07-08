@@ -22,7 +22,7 @@ Questions/Answers to justify CIA impact levels:
 • What is the impact associated with the loss of availability of the information in the system?
 ___
 
-# Informatio Asset: CIA
+# Information Assets: CIA
 Security Category = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 
 ### Marketing (P)
