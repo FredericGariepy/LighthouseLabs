@@ -1,6 +1,6 @@
 Workflow:
-1. [Assets](#assets)~~List assets, describe OS / software versions~~
-2. List labeled assets in descending priority, based on category.
+1. ~~List assets, describe OS / software versions~~
+2. [Assets](#assets) ~~List labeled assets in descending priority, based on category.~~
 3. Assign CIA value to asset
 4. Assign SIL value to asset
 5. Add related vulnerabilties (search MITRE, CVE , NVD)
