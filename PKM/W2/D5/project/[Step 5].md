@@ -73,6 +73,8 @@ ___
 -  IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
 -  IIS webserver SIL = Moderate
 
+- [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
+
 -  [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
 -  [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/)
 -  Denial of Service (DoS) Attacks
