@@ -1,7 +1,7 @@
 Workflow:
 1. ~~List assets, describe OS / software versions~~
 2. ~~List labeled assets in descending priority, based on category.~~
-3. [Assets](#assets) ~~Assign CIA value to asset~~
+3. [Assets](#information-assets-cia) ~~Assign CIA value to asset~~
 4. Assign SIL value to asset
 5. Add related vulnerabilties (search MITRE, CVE , NVD)
 6. Calculate(vuln + asset SIL) to get CVSS Scores
