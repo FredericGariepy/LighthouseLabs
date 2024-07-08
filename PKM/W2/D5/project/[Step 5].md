@@ -18,25 +18,28 @@ ___
 - | Sensor: Bandwidth Usage Sensor [SNMP Traffic Sensor](https://www.paessler.com/manuals/prtg/snmp_traffic_sensor)
 - | Description: The SNMP Traffic sensor monitors traffic on a device via the Simple Network Management Protocol (SNMP). Monitors network bandwidth usage.
 - |	System : All. Router Interface. 
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
+- | IoCs:[Network Denial of Service](https://attack.mitre.org/techniques/T1498/), [Exfiltration](https://attack.mitre.org/tactics/TA0010/)
+- | Associated Rationale: Network bandwith baselines is a vital sign of a network. Indicating potential DDoS attacks, Exfiltration of data and other unusal network events.
+- |	Priority (SIL): 
 - |	Thresholds / Assumptions : Thresholds: Traffic In, Traffic Out : 0.03mbits Upper bound. Total Traffic 0.43mbits Upper Bound.
 
 
-- | Sensor: Antivirus
-- | Description: Status Sensor	Monitors antivirus software status.	All
-- |	System : All. Router Interface. 
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions :
 
 
 
 ## OS specific sensors
 
 ### Windows
+
+
+- | Sensor: [WMI Security Center Sensor](https://www.paessler.com/manuals/prtg/wmi_security_center_sensor)
+- | Description: Status Sensor	Monitors antivirus software status.	The WMI Security Center sensor monitors the security status of a Windows client system via Windows Management Instrumentation (WMI). It can monitor all security products that are controlled by Windows Security Center / Windows Action Center.
+- |	System : [Microsoft Windows 11 Home, Version 10.0.22631 Build 22631 | Known as: version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
+- | IoCs : [Impair Defenses: Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001/)
+- | Associated Rationale: Ensuring that antivirus 
+- |	Priority (SIL) : High
+- |	Thresholds / Assumptions :
+
 
 - | Sensor: [WMI Event Log Sensor](https://www.paessler.com/manuals/prtg/wmi_event_log_sensor)
 - | Description: Monitors Windows event logs. The WMI Event Log sensor monitors a Windows log file via Windows Management Instrumentation (WMI).
