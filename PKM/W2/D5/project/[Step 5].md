@@ -152,6 +152,19 @@ ___
    - PRTG Sensor: Port Sensor, SNMP Traffic Sensor
    > IoC: Unusual number of connection attempts on multiple ports
   
+  Windows VM running services:
+  ```cmd
+   ProcessName FileVersion LocalPort  State
+    ----------- ----------- ---------  -----
+    services                    49669 Listen
+    spoolsv                     49668 Listen
+    wininit                     49665 Listen
+    lsass                       49664 Listen
+    System                        445 Listen
+    svchost                       135 Listen
+  ```
+
+  #### Recomendations:
 
 ### Test System (S)
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
