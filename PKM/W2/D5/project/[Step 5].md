@@ -26,14 +26,13 @@ ___
 ## OS specific sensors
 
 ### Windows
-Windows Event Log Sensor 	Monitors Windows event logs.
 
 - | Sensor: [WMI Event Log Sensor](https://www.paessler.com/manuals/prtg/wmi_event_log_sensor)
 - | Description: Monitors Windows event logs. The WMI Event Log sensor monitors a Windows log file via Windows Management Instrumentation (WMI).
 - |	System :[Microsoft Windows 11 Home, Version 10.0.22631 Build 22631 | Known as: version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
 - | IoCs: [Indicator Removal: Clear Windows Event Logs](https://attack.mitre.org/techniques/T1070/001/), [Brute Force](https://attack.mitre.org/techniques/T1110/)
 - | Associated	Rationale : Use the sensor to monitor event logs. 
-- |	Priority (SIL) : High. Event logs are the badrock of intrusion detection.
+- |	Priority (SIL) : High. Event logs are the bedrock of reconnaissance & intrusion detection.
 - |	Thresholds / Assumptions : Narrow down to event down to any attribute (type, Event ID, user, message, etc). Additonally Set-up (trap) Task related to important events. Use event ID 104/1102 for Indicator Removal: Clear Windows Event Logs. Use Event ID 33205 for Brute Force attempts.
 
   
@@ -42,9 +41,9 @@ Windows Event Log Sensor 	Monitors Windows event logs.
 - | Description: Monitors changes to files and directories. The File Content sensor checks a text file (for example, a log file) for certain strings.
 - |	Systems : Kali GNU/Linux (debian) version 2024.2 (kali-rolling). Ubuntu Linux (debian) 22.04.4 LTS (Jammy Jellyfish).
 - | IoCs: [Indicator Removal: Clear Linux or Mac System Logs](https://attack.mitre.org/techniques/T1070/002/) ,
-- | Associated	Rationale :
+- | Associated	Rationale: Logs are the bedrock of reconnaissance and intrusion detection. Linux machines on the network contain IP and System information data.
 - |	Priority (SIL) : High.
-- |	Thresholds / Assumptions : 
+- |	Thresholds / Assumptions : Monitoring of specific files will be in place, this can include syslog file, Access log files, application log files. 
 
 
 ## Specific Information Asset Sensors
