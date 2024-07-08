@@ -7,14 +7,8 @@ Workflow:
 6. Calculate(vuln + asset SIL) to get CVSS Scores
 ___
 
-2 List labeled assets in descending priority, based on category.
+1.5 Make data collected about Asset's OS/Software streamlined for step 2
 
-1. Privacy (P)
-2. Proprietary (IP)
-3. Admin (A)
-4. Financial/accounting (F)
-5. Security Management (SM)
-6. Systems (S)
 ---
 # Assets
 ## - Windows Server (S) (SM) - 
