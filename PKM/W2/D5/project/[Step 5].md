@@ -7,7 +7,7 @@ Workflow:
 6. Calculate(vuln + asset SIL) to get CVSS Scores
 ___
 5. Add related vulnerabilties.
-# Tools
+Resources
 - [NIST NVD](https://nvd.nist.gov/vuln/search)
 - [CVSS](https://www.first.org/cvss/calculator/3.1)
 - [MITRE CVE & ATT&CK](https://attack.mitre.org/)
