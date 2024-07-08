@@ -17,9 +17,9 @@ ___
 
 Questions/Answers to justify CIA impact levels:
 - How can a malicious adversary use the information to do [limited, serious, severe] harm to organizational operations, organizational assets, or individuals?
-• Would authorized disclosure or the dissemination of elements of the information type violate laws, Executive Orders, or organizational regulations?
-• What is the impact associated with unauthorized modification or destruction of the information or each unauthorized use of the information by the system?
-• What is the impact associated with the loss of availability of the information in the system?
+- Would authorized disclosure or the dissemination of elements of the information type violate laws, Executive Orders, or organizational regulations?
+- What is the impact associated with unauthorized modification or destruction of the information or each unauthorized use of the information by the system?
+- What is the impact associated with the loss of availability of the information in the system?
 ___
 
 # Information Assets: CIA
