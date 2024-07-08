@@ -17,15 +17,20 @@ ___
 # Asset Vulnerabilities 
 
 ### Marketing (P)
-> [Microsoft Windows 11 Home, version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
+> [Microsoft Windows 11 Home, Version 10.0.22631 Build 22631 | Known as: version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
 > 
 - Marketing SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 - Marketing SIL = High
+- https://attack.mitre.org/techniques/T1598/
+- https://attack.mitre.org/techniques/T1598/002/
+
 
 ### Sales (F) & (P)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 - Sales SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 - Sales SIL = High
+- https://attack.mitre.org/techniques/T1598/
+- https://attack.mitre.org/techniques/T1598/002/
  
 ### Developer Machines (IP)
 > Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
@@ -34,9 +39,10 @@ ___
 > |--------------|-----------------|
 > | apache2      | *:80            |
 > | mysqld       | 33060 \| 3306    |
-
 - Developer Machines SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
 - Developer Machines SIL = High
+- https://attack.mitre.org/techniques/T1190/
+- https://attack.mitre.org/techniques/T1489/
 
 ### Management functions (A)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
@@ -49,10 +55,12 @@ ___
 > PRTG Probe 24.2.96.1315 | PRTG Server 24.2.96.1315
 - PRTG Network Monitor SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
 - PRTG Network Monitor SIL = Moderate
+- https://attack.mitre.org/techniques/T1584/004/
+- https://attack.mitre.org/datasources/DS0015/
 
 
 ### SQL database (S)
-> On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
+> Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 > > The Win 11 VM does not have an mySQL database installed. [fact source](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W2/D5/project/%5BSTEP%201%5D.md)
 -  SQL database SC = {(confidentiality, Low), (integrity, low), (availability, Moderate)}
 -  SQL database SIL = Moderate
@@ -64,6 +72,8 @@ ___
 > IIS Version 10.0
 -  IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
 -  IIS webserver SIL = Moderate
+-  https://attack.mitre.org/techniques/T1190/
+-  
 
 ### Test System (S)
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
