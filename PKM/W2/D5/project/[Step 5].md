@@ -17,7 +17,8 @@ ___
 # Asset Vulnerabilities 
 
 ### Marketing (P)
-> Microsoft Windows 11 Home 10.0.22631 22631
+> [Microsoft Windows 11 Home, version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
+> 
 - Marketing SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 - Marketing SIL = High
 
