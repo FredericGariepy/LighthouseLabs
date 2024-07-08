@@ -85,3 +85,77 @@ ___
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
 -  IT System SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
 -  IT System SIL = Moderate
+
+
+___
+
+Denial of Service (DoS) Attacks
+
+PRTG Sensor: QoS (Quality of Service) Round Trip Sensor
+IoC: Sudden increase in network latency or packet loss
+
+
+Port Scanning and Unauthorized Access Attempts
+
+PRTG Sensor: Port Sensor, SNMP Traffic Sensor
+IoC: Unusual number of connection attempts on multiple ports
+
+
+Bandwidth Saturation (potential DDoS)
+
+PRTG Sensor: SNMP Traffic Sensor, NetFlow Sensor
+IoC: Sudden spike in network traffic volume
+
+
+Abnormal System Resource Usage
+
+PRTG Sensor: Windows CPU Load Sensor, Linux CPU Load Sensor
+IoC: Unusually high CPU or memory usage, which could indicate malware or cryptomining
+
+
+Unauthorized File System Changes
+
+PRTG Sensor: Folder Sensor
+IoC: Unexpected changes in critical system folders
+
+
+Suspicious Process Activity
+
+PRTG Sensor: Windows Process Sensor
+IoC: Appearance of unknown processes or unexpected behavior of known processes
+
+
+DNS Query Anomalies (potential DNS tunneling)
+
+PRTG Sensor: DNS Query Sensor
+IoC: Unusual volume or pattern of DNS queries
+
+
+SSL Certificate Issues
+
+PRTG Sensor: SSL Security Check Sensor
+IoC: Expired certificates, weak encryption, or untrusted CAs
+
+
+Email Server Anomalies
+
+PRTG Sensor: IMAP Sensor, POP3 Sensor
+IoC: Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns
+
+
+Database Performance Issues
+
+PRTG Sensor: Microsoft SQL Server Sensor
+IoC: Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts
+
+
+Unusual Network Connections
+
+PRTG Sensor: Ping Sensor, Port Sensor
+IoC: New connections to unfamiliar IP addresses or on unexpected ports
+
+
+Web Server Vulnerabilities
+
+PRTG Sensor: HTTP Advanced Sensor, HTTP Full Web Page Sensor
+IoC: Unusual response codes, increased error rates, or changes in response time
