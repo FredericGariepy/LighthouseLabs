@@ -13,8 +13,21 @@ Resources
 - [MITRE CVE & ATT&CK](https://attack.mitre.org/)
 - [Cyber Kill chain](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/Gaining_the_Advantage_Cyber_Kill_Chain.pdf)
 ___
-## assets
-# Asset Vulnerabilities 
+## Asset sensors
+
+
+Bandwidth Usage Sensor 	Monitors network bandwidth usage. 	All
+
+- | Sensor: Bandwidth Usage Sensor [SNMP Traffic Sensor](https://www.paessler.com/manuals/prtg/snmp_traffic_sensor)
+- | Description: The SNMP Traffic sensor monitors traffic on a device via the Simple Network Management Protocol (SNMP). Monitors network bandwidth usage.
+- |	System : All. Router Interface. 
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions : Thresholds: Traffic In, Traffic Out : 0.03mbits Upper bound. Total Traffic 0.43mbits Upper Bound. T
+
+
+# Specific Asset Sensors
 
 ### Marketing (P)
 > [Microsoft Windows 11 Home, Version 10.0.22631 Build 22631 | Known as: version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
