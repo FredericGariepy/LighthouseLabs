@@ -67,13 +67,15 @@ ___
 > | apache2      | *:80            |
 > | mysqld       | 33060 \| 3306    |
 
+
 - | Sensor: [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)
 - | Description:  sensor monitors a database on a MySQL server and executes a query.
 - |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
-- | IoCs: Check if query 
+- | IoCs: https://attack.mitre.org/techniques/T1210/
 - | Associated	Rationale : 
 - |	Priority (SIL) ; 
 - |	Thresholds / Assumptions :  (State Threshold Change)
+
 
 - | Sensor:
 - | Description:  sensor monitors a database on a MySQL server and executes a query.
