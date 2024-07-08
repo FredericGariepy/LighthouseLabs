@@ -2,15 +2,15 @@ Workflow:
 1. ~~List assets, describe OS / software versions~~
 2. ~~List labeled assets in descending priority, based on category.~~
 3. ~~Assign CIA value to asset~~
-4. [Assets](#assets) ~~Assign SIL value to asset~~
-5. Add related vulnerabilties (search MITRE, CVE , NVD)
+4. ~~Assign SIL value to asset~~
+5.  [Assets](#assets) ~~Add related vulnerabilties (search MITRE, CVE , NVD)~~
 6. Calculate(vuln + asset SIL) to get CVSS Scores
 ___
-4. Assign Safety integrity level [(SIL)](https://en.wikipedia.org/wiki/Safety_integrity_level) value to asset:
-SIL = max(SC)
+5. Add related vulnerabilties.
+Aearch MITRE, CVE , NVD
 ___
 ## assets
-# Information Assets: SIL
+# Asset Vulnerabilities 
 
 ### Marketing (P)
 > Microsoft Windows 11 Home 10.0.22631 22631
