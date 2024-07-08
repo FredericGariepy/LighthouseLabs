@@ -21,16 +21,16 @@ ___
 > 
 - Marketing SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 - Marketing SIL = High
-- https://attack.mitre.org/techniques/T1598/
-- https://attack.mitre.org/techniques/T1598/002/
+- [Phishing for Information](https://attack.mitre.org/techniques/T1598/)
+- [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
 
 
 ### Sales (F) & (P)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 - Sales SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 - Sales SIL = High
-- https://attack.mitre.org/techniques/T1598/
-- https://attack.mitre.org/techniques/T1598/002/
+- [Phishing for Information](https://attack.mitre.org/techniques/T1598/)
+- [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
  
 ### Developer Machines (IP)
 > Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
@@ -41,8 +41,8 @@ ___
 > | mysqld       | 33060 \| 3306    |
 - Developer Machines SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
 - Developer Machines SIL = High
-- https://attack.mitre.org/techniques/T1190/
-- https://attack.mitre.org/techniques/T1489/
+- [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
+- [Service Stop](https://attack.mitre.org/techniques/T1489/)
 
 ### Management functions (A)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
@@ -55,8 +55,8 @@ ___
 > PRTG Probe 24.2.96.1315 | PRTG Server 24.2.96.1315
 - PRTG Network Monitor SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
 - PRTG Network Monitor SIL = Moderate
-- https://attack.mitre.org/techniques/T1584/004/
-- https://attack.mitre.org/datasources/DS0015/
+- [Compromise Infrastructure: Server](https://attack.mitre.org/techniques/T1584/004/)
+- [Application Log](https://attack.mitre.org/datasources/DS0015/)
 
 
 ### SQL database (S)
@@ -72,8 +72,8 @@ ___
 > IIS Version 10.0
 -  IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
 -  IIS webserver SIL = Moderate
--  https://attack.mitre.org/techniques/T1190/
--  
+-  [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
+-  [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/)
 
 ### Test System (S)
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
