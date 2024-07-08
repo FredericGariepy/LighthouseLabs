@@ -23,7 +23,7 @@ ___
 - Marketing SIL = High
 
 ### Sales (F) & (P)
-> Microsoft Windows 11 Home 10.0.22631 22631
+> Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 - Sales SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
 - Sales SIL = High
  
@@ -39,12 +39,12 @@ ___
 - Developer Machines SIL = High
 
 ### Management functions (A)
-> Microsoft Windows 11 Home 10.0.22631 22631
+> Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 - Management SC = {(confidentiality, Moderate), (integrity, low), (availability, low)}
 - Management SIL = High
 
 ### PRTG Network Monitor (SM)
-> On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
+> Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 > 
 > PRTG Probe 24.2.96.1315 | PRTG Server 24.2.96.1315
 - PRTG Network Monitor SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
