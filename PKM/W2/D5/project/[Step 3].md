@@ -107,7 +107,3 @@ Security Category = {(confidentiality, High), (integrity, Moderate), (availabili
     - Confidentiality: Due to nature of IT System, serrious harm to the organization is possible, as Attackrs can gain information about network and device infrastructure, configurations and other IT system knowledge, to be used in guiding attacks.
     - Integrity : Modification or destruction would cause serrious harm to operations, as IT systems **are in deployment**. Integrity harm is likely redeemable/recoverable through backups, restores and resets. However, integrity harm will have a proportial impact to oganization's operations.
     - Availability: Loss of availability would cause serrious harm to operations, as IT systems **are in deployment**. Availability harm is likely redeemable/recoverable through backups, restores and resets. However, availability harm will have a proportial impact to oganization's operations.
-
-
- 
-    - 
