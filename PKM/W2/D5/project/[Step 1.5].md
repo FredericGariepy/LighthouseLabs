@@ -28,14 +28,10 @@ IIS Version 10.0
 #### Services with LISTENING PORTS:
 | Service      | Port            |
 |--------------|-----------------|
-| systemd-r    | 127.0.0.53:53   |
-| cupsd        | [::1]:631       |
-| cupsd        | 127.0.0.1:631   |
+| systemd-r    | 53   |
+| cupsd        | 631       |
 | apache2      | *:80            |
-| apache2      | *:80            |
-| apache2      | *:80            |
-| mysqld       | 127.0.0.1:33060 |
-| mysqld       | 127.0.0.1:3306  |
+| mysqld       | 33060 & 3306    |
 
 ## - Windows workstations: (P) (A) -
 #### Windows OS:
