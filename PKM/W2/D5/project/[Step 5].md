@@ -72,8 +72,16 @@ ___
 > IIS Version 10.0
 -  IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
 -  IIS webserver SIL = Moderate
+
 -  [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
 -  [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/)
+-  Denial of Service (DoS) Attacks
+   - PRTG Sensor: QoS (Quality of Service) Round Trip Sensor
+   > IoC: Sudden increase in network latency or packet loss
+- Port Scanning and Unauthorized Access Attempts
+   - PRTG Sensor: Port Sensor, SNMP Traffic Sensor
+   > IoC: Unusual number of connection attempts on multiple ports
+  
 
 ### Test System (S)
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
@@ -89,16 +97,10 @@ ___
 
 ___
 
-Denial of Service (DoS) Attacks
-
-PRTG Sensor: QoS (Quality of Service) Round Trip Sensor
-IoC: Sudden increase in network latency or packet loss
 
 
-Port Scanning and Unauthorized Access Attempts
 
-PRTG Sensor: Port Sensor, SNMP Traffic Sensor
-IoC: Unusual number of connection attempts on multiple ports
+
 
 
 Bandwidth Saturation (potential DDoS)
