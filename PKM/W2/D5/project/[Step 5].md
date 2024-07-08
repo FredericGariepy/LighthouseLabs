@@ -18,19 +18,41 @@ ___
 
 ### Marketing (P)
 > [Microsoft Windows 11 Home, Version 10.0.22631 Build 22631 | Known as: version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
-> 
-- Marketing SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
-- Marketing SIL = High
+>
+> Marketing SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
+>
+> Marketing SIL = High
+
+- | Sensor:
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
+
 - [Phishing for Information](https://attack.mitre.org/techniques/T1598/)
 - [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
 
 
 ### Sales (F) & (P)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
-- Sales SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
-- Sales SIL = High
+>
+> Sales SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
+>
+> Sales SIL = High
+
+- | Sensor:
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
+
 - [Phishing for Information](https://attack.mitre.org/techniques/T1598/)
 - [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
+
  
 ### Developer Machines (IP)
 > Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
@@ -39,22 +61,55 @@ ___
 > |--------------|-----------------|
 > | apache2      | *:80            |
 > | mysqld       | 33060 \| 3306    |
-- Developer Machines SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
-- Developer Machines SIL = High
+
+> Developer Machines SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
+>
+>  Developer Machines SIL = High
+
+- | Sensor:
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
+
+
 - [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
 - [Service Stop](https://attack.mitre.org/techniques/T1489/)
 
+
+
 ### Management functions (A)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
-- Management SC = {(confidentiality, Moderate), (integrity, low), (availability, low)}
-- Management SIL = High
+>
+> Management SC = {(confidentiality, Moderate), (integrity, low), (availability, low)}
+>
+> Management SIL = High
+- | Sensor:
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
+
 
 ### PRTG Network Monitor (SM)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 > 
 > PRTG Probe 24.2.96.1315 | PRTG Server 24.2.96.1315
-- PRTG Network Monitor SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
-- PRTG Network Monitor SIL = Moderate
+> PRTG Network Monitor SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
+>
+> PRTG Network Monitor SIL = Moderate
+- | Sensor:
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
+
 - [Compromise Infrastructure: Server](https://attack.mitre.org/techniques/T1584/004/)
 - [Application Log](https://attack.mitre.org/datasources/DS0015/)
 
@@ -65,13 +120,23 @@ ___
 -  SQL database SC = {(confidentiality, Low), (integrity, low), (availability, Moderate)}
 -  SQL database SIL = Moderate
 
+- | Sensor:
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
 
 ### Internet Information Services (IIS) webserver (S)
 > On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
 > 
 > IIS Version 10.0
- IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
--  IIS webserver SIL = Moderate
+>
+> IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
+>
+> IIS webserver SIL = Moderate
+
 - | Sensor: [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
 - | Description: sensor server via Windows Management Instrumentation (WMI
 - |	System
@@ -94,15 +159,34 @@ ___
 
 ### Test System (S)
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
--  Test System SC = {(confidentiality, Moderate), (integrity, low), (availability, low)}
--  Test System SIL = Moderate
+>
+> Test System SC = {(confidentiality, Moderate), (integrity, low), (availability, low)}
+>
+> Test System SIL = Moderate
+
+- | Sensor:
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
 
 
 ### IT System (S)
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
--  IT System SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
--  IT System SIL = Moderate
+>
+> IT System SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
+>
+> IT System SIL = Moderate
 
+- | Sensor:
+- | Description: 
+- |	System
+- | IoCs
+- | Associated	Rationale
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
 
 ___
 
