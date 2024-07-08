@@ -13,9 +13,11 @@ Goals:
 - Completed the research for case study Cat Scan II
 - Understood the process of discovering asset vulnerabilities and how to rate & prioritize risks
 
+---
 
 1. Assets + OS/Software versions
-
+> Find the OS and Software versions on each VM, make steps replicable.
+---
 # Assets
 - ## Windows Server, runs: (S) (SM)
     - ### Windows OS
