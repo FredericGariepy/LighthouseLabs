@@ -3,7 +3,7 @@ Workflow:
 2. ~~List labeled assets in descending priority, based on category.~~
 3. ~~Assign CIA value to asset~~
 4. ~~Assign SIL value to asset~~
-5.  [Assets](#assets) ~~Add related vulnerabilties (search MITRE, CVE , NVD)~~
+5.  [Assets](#assets) ~~Add related vulnerabilties (search MITRE, CVE , NVD)~~ Difficult part
 6. Calculate(vuln + asset SIL) to get CVSS Scores
 ___
 5. Add related vulnerabilties.
@@ -248,6 +248,18 @@ MySQL (3306/TCP)"
 > IT System SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
 >
 > IT System SIL = Moderate
+
+
+- | Sensor: SSH Sensor
+- | Description: Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).
+- |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
+- | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts.
+- | Associated	Rationale : Port 22 is used for remote ssh login to IT Systems machines. Having a baseline for accessibility will allow to spot spikes in unsual SSh attempts.
+- |	Priority (SIL) : Moderate SIL
+- |	Thresholds / Assumptions : Upper bound thresholds response time < 100ms. This sensor is 
+
+IoC: 
+
 
 - | Sensor:
 - | Description: 
