@@ -9,7 +9,8 @@ Date: 2024-07-08
 # Executive Summary:
 > A short, one or two paragraph summary explaining what you have done. Include information about the top five SILs and the sensors and thresholds you are monitoring or recommending.
 
-
+A total 17 Sensors types were added. The purpose of these is to enhace security, by monitoring for potential IoCs.
+Sensors 
 
 # Table of Sensors:
 1. Bandwidth Usage Sensor (SNMP Traffic Sensor)
@@ -197,5 +198,23 @@ Basic information (sensor context)
 
 # Discussion Section:
 > A discussion of each of the connections between the sensors, IoCs and thresholds.
+1. Bandwidth Usage Sensor (SNMP Traffic Sensor)
+> 
+2. Ping Sensor
+3. WMI Security Center Sensor
+4. WMI Event Log Sensor
+5. Folder Sensor (Sensitive folder sensor)
+6. File Content Sensor (Sensitive file sensor for Syslog)
+7. IMAP Sensor (Email sensor)
+8. MySQL v2 Sensor (Database Query Sensor)
+9. HTTP Apache ModStatus PerfStats Sensor
+10. SSH Sensor (Port Sensor)
+11. SSH Remote Ping Sensor
+12. System Health Sensor
+13. HTTP Load Time Sensor
+14. FTP Sensor
+15. Windows IIS Application Sensor
+16. Windows Process Sensor
+17. Packet Sniffer Sensor
 # Recommendation Section:
 > A recommendation section where you should recommend how the client might enhance the security of their systems (for example added sensors); you must cite industry best practices as you make your recommendations.
