@@ -1,5 +1,5 @@
-[RegEx tutorial](https://regexone.com/lesson/introduction_abcs)
-[Challenges](https://regexone.com/problem/matching_filenames?)
+1. [RegEx tutorial](https://regexone.com/lesson/introduction_abcs)
+2. [Challenges](https://regexone.com/problem/matching_filenames?)
 
 `\d` = ONE character from 0-9, ONE DIGIT
 > e.g. `\d\d` =  TWO characters from 0-9,  TWO DIGITs
