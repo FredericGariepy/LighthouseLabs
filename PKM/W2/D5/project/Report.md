@@ -5,7 +5,7 @@ Date: 2024-07-08
 2. [Table of sensors](#table-of-sensors)
 3. [Discussion section](#discussion-section)
 4. [Recommendation section](#recommendation-section)
-5. References
+5. [References](#references)
 
 # Executive Summary:
 > A short, one or two paragraph summary explaining what you have done. Include information about the top five SILs and the sensors and thresholds you are monitoring or recommending.
@@ -283,3 +283,4 @@ For windows, set up event-triggered task for specific [Windows Event IDs](https:
   37. Paessler AG. (n.d.). Windows IIS application sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor
   38. Paessler AG. (n.d.). Windows process sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/wmi_process_sensor#channels
   39. Paessler AG. (n.d.). Packet sniffer header sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/packet_sniffer_header_sensor
+  40. johnson E. (7.24). Mitre Att&ck and Potential Windows Event ID's. Retrieved July 8, 2024, from https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D5/project/COPY%20mitre_v_eventIDs.md
