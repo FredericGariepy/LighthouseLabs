@@ -129,7 +129,9 @@ Basic information (sensor context)
 Basic information (sensor context)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 > > The Win 11 VM does not have an mySQL database installed. [fact source](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W2/D5/project/%5BSTEP%201%5D.md)
+>
 > SQL database SC = {(confidentiality, Low), (integrity, low), (availability, Moderate)}
+>
 > SQL database SIL = Moderate
 
 | Sensor                                                  | Description                                                                                                           | System                                                | IoCs                                                                                                     | Associated Rationale                                                                                      | Priority (SIL) | Thresholds / Assumptions                                                   |
