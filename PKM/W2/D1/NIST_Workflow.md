@@ -19,7 +19,7 @@ RMF Publication: Risk Management Framework for Information Systems and Organizat
   > 
   > Do RMF task C-1 through C-3
   >
-  > Safety Integrity Level (SL)
+  > Safety **impact** Level (SL)
   > 
   > Calculated as the highest value in the SC of an asset
   >
