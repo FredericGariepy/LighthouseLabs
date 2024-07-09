@@ -8,7 +8,7 @@ Date: 2024-07-08
 
 [Video Presentation](https://youtu.be/lhUcoYOcGR0)
 
-1. [Executive Summar](#executive-summary)
+1. [Executive Summary](#executive-summary)
 2. [Table of sensors](#table-of-sensors)
 3. [Discussion section](#discussion-section)
 4. [Recommendation section](#recommendation-section)
