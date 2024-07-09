@@ -10,7 +10,10 @@ Date: 2024-07-08
 > A short, one or two paragraph summary explaining what you have done. Include information about the top five SILs and the sensors and thresholds you are monitoring or recommending.
 
 A total 17 Sensors *types* were added. The purpose of these is to enhace security, by monitoring for potential IoCs.
-Most sensors monitor for status of a service (Down, UP
+Most sensors monitor for one of 3 things:
+- **status** of a device and it's service (Down, Up, Running, Stopped, Warrning, ...)
+- **performance** of a device (responce time, hardware metrics, ...)
+- and **end point data** such as Strings (Words in an email, logs, ...) or Integers (Email volume, File counts, ...).
 
 # Table of Sensors:
 1. Bandwidth Usage Sensor (SNMP Traffic Sensor)
