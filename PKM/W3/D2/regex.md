@@ -45,6 +45,51 @@ Do: \d{3} = \d\d\d
 | + | 1 -> any |
 
 # meta character : optionality `?`
+| what | how |
+| a or nothing | a? |
+| a-c or nothing | [a-c]?
+
+## white space `\s`
+## tab `\t`
+##  new line `\n`
+## Carriage return `\r` [*WINDOWS*]
+## Special characters `\s`
+
+## ends with `$`
+e.g. a$ == END OF LINE character IS `a`
+
+## capture group `(`  `)`
+
+## OR `|`
+
+##  `\D` non digits
+> `\d` digits
+
+## `\S` non white space 
+> `\s` whitespace
+
+## `\W` non-aphalnumeric
+> `\w` alphanumeric (word)
+
+##  `\b` 
+which matches the **boundary** between a *word and a non-word* character
+
+- It's most useful in capturing entire words
+- For example by using the pattern `\w+\b`
+
+## back referencing (group index)
+> Implementation depends on engine
+- `\0` usually the full matched text
+- `\1` first match group.. etc
+- `\2` second match group.. etc
+
+
+
+
+
+
+
+
 
 
 
