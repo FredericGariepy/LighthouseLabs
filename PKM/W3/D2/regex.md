@@ -3,8 +3,8 @@
 
 
 
-`\d` = ONE character from 0-9
-> e.g. `\d\d` =  TWO characters from 0-9
+`\d` = ONE character from 0-9, ONE DIGIT
+> e.g. `\d\d` =  TWO characters from 0-9,  TWO DIGITs
 
 `.` = match any single character
 
@@ -21,7 +21,7 @@
 > 
 > [^a-b] == not a through b == not a or b
 
-## #meta character
+## meta character `\w`
 `\w` == charcter in [A-Za-z0-9_]
 
 ## repetitions {n}
@@ -34,10 +34,17 @@ Do: \d{3} = \d\d\d
 
 > :memo: **note**: Certain regular expression engines will even allow you to specify a *range*.
 > e.g.: w{1,3}
+> 
+> [\w]{1,3}  .{2,6}
 
 
+# Kleene Star (Start or Plus, name convention only)
+| follows | symbol |
+| - | - |
+| * | 0-> any |
+| + | 1 -> any |
 
-
+# meta character : optionality `?`
 
 
 
