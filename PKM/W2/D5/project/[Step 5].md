@@ -290,53 +290,11 @@ Brute forcing attacks could occur since Test Systems might not be as a thoroughl
 - |	Priority (SIL) : Moderate SIL
 - |	Thresholds / Assumptions : Upper bound thresholds response time < 100ms. This sensor is 
 
-IoC: 
 
-
-- | Sensor:
-- | Description: 
-- |	System
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
-
-
-- | Sensor:
-- | Description: 
-- |	System
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
-___
-
-
-
-
-
-
-
-Bandwidth Saturation (potential DDoS)
-
-PRTG Sensor: SNMP Traffic Sensor, NetFlow Sensor
-IoC: Sudden spike in network traffic volume
-
-
-Abnormal System Resource Usage
-
-PRTG Sensor: Windows CPU Load Sensor, Linux CPU Load Sensor
-IoC: Unusually high CPU or memory usage, which could indicate malware or cryptomining
-
-
-Unauthorized File System Changes
-
-PRTG Sensor: [Folder Sensor](https://www.paessler.com/manuals/prtg/folder_sensor)
-IoC: Unexpected changes in critical system folders
-
-
-Suspicious Process Activity
-
-PRTG Sensor: Windows Process Sensor
-IoC: Appearance of unknown processes or unexpected behavior of known processes
-
+- | Sensor: [Packet Sniffer Sensor](https://www.paessler.com/manuals/prtg/packet_sniffer_header_sensor)
+- | Description: Monitors and analyzes network traffic to detect unusual patterns, unauthorized protocols, or suspicious activities within the network. The Packet Sniffer sensor monitors the headers of data packets that pass a local network card using a built-in packet sniffer.
+- |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
+- |	IoCs: [Reconnaissance](https://attack.mitre.org/tactics/TA0043/) and [Exfiltration](https://attack.mitre.org/tactics/TA0010/) attempts, unusual traffic patterns, and unauthorized protocols.
+- |	Associated Rationale: Provides visibility into network traffic to identify potential security threats, such as reconnaissance activities or attempts to exfiltrate data. Identify baseline connections and protocols.
+- |	Priority (SIL): Moderate SIL
+- |	 Thresholds / Assumptions: Alert thresholds set for significant deviations in traffic volume, protocol usage, or packet sizes.
