@@ -243,7 +243,7 @@ Lastly, **IT System** devices also have SSH Port Sensors due to the likelyhood o
 
 # Recommendation Section:
 
-&nbsp; PRTG sensors are powerfull tools for netowrk monitoring and can be used to look for potential IoCs in an organiation. Alone however, sensors can not protect an organization. [Network Segmentation](https://attack.mitre.org/mitigations/M1030/)(MITRE ATT&CK, n.d.) is a industry standard practice which can include IP subneting, VLANs, DMZ for public faceing services (*such as the IIS Server*) and virtual private cloud.
+&nbsp; PRTG sensors are powerfull tools for network monitoring and can be used to look for potential IoCs in an organiation. Alone however, sensors can not protect an organization. [Network Segmentation](https://attack.mitre.org/mitigations/M1030/)(MITRE ATT&CK, n.d.) is a industry standard practice which can include IP subneting, VLANs, DMZ for public faceing services (*such as the IIS Server*) and virtual private cloud.
 
 For windows, set up event-triggered task for specific [Windows Event IDs](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D5/project/COPY%20mitre_v_eventIDs.md)(Johnson E., 7.24) . In Linux set up CRON jobs based on things like: log entries or file changes.
 
