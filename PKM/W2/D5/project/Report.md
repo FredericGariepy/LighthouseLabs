@@ -1,6 +1,5 @@
-> **Notes:**
->
-> TO ASSESSOR: I did not have *time* to add specific CVEs([mitre](https://cve.mitre.org/), [nist](https://nvd.nist.gov/vuln/search)) and [calculate](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) their CVSS score.
+> :memo: **Notes:**
+> TO ASSESSOR, I did not have *time* to add specific CVEs([mitre](https://cve.mitre.org/), [nist](https://nvd.nist.gov/vuln/search)) and [calculate](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) their CVSS score.
 
 # Cat Scan II Big Dog
 Date: 2024-07-08
@@ -17,7 +16,7 @@ Date: 2024-07-08
 
 # Executive Summary:
 
-A total 17 Sensors *types* were added.
+&nbsp; A total 17 Sensors *types* were added.
 Sensors together create a 'baseline' from which anomalies can be detected.
 Such events possing as IoCs are at the attention of our sensors.
 The purpose of these is to enhace security, by monitoring for potential IoCs.
