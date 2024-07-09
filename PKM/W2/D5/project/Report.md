@@ -30,6 +30,7 @@ Though PRTG sensors are themselves powerfull netowork monitoring tools, alone th
 To further secure your organizaiton consult the recommendation section.
 
 # Table of Sensors:
+List of sensor *types* in order of appearance.
 1. Bandwidth Usage Sensor (SNMP Traffic Sensor)
 2. Ping Sensor
 3. WMI Security Center Sensor
