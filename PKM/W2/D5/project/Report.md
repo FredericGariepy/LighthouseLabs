@@ -1,3 +1,7 @@
+> **Notes:**
+>
+> TO ASSESSOR: I did not have *time* to add specific CVEs([mitre](https://cve.mitre.org/), [nist](https://nvd.nist.gov/vuln/search)) and [calculate](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) their CVSS score.
+
 # Cat Scan II Big Dog
 Date: 2024-07-08
 ## Contents:
@@ -10,9 +14,6 @@ Date: 2024-07-08
 4. [Recommendation section](#recommendation-section)
 5. [References](#references)
 
-> **Notes:**
->
-> TO ASSESSOR: I did not have *time* to add specific CVEs([mitre](https://cve.mitre.org/), [nist](https://nvd.nist.gov/vuln/search)) and [calculate](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) their CVSS score.
 
 # Executive Summary:
 > A short, one or two paragraph summary explaining what you have done. Include information about the top five SILs and the sensors and thresholds you are monitoring or recommending.
