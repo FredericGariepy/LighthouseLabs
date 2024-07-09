@@ -56,7 +56,7 @@ ___
 - |	Thresholds / Assumptions : Narrow down to event down to any attribute (type, Event ID, user, message, etc). Additonally Set-up (trap) Task related to important events. Use event ID 104/1102 for Indicator Removal: Clear Windows Event Logs. Use Event ID 33205 for Brute Force attempts.
 
 
-- | Sensor: [Folder Sensor](https://www.paessler.com/manuals/prtg/folder_sensor)
+- | Sensor: Sensitivie folder sensor [Folder Sensor](https://www.paessler.com/manuals/prtg/folder_sensor)
 - | Description: The Folder sensor monitors a folder via Server Message Block (SMB). You can monitor file changes and file ages.
 - |	System : Microsoft Windows 11 Home, version 23H2 (Sun Valley 3)
 - | IoCs : [File and Directory Permissions Modification: Windows File and Directory Permissions Modification](https://attack.mitre.org/techniques/T1222/001/)
@@ -64,11 +64,9 @@ ___
 - |	Priority (SIL) : Moderate
 - |	Thresholds / Assumptions: File Count, Folder Size, file modifications.
 
-
-
   
 ### Linux
-- | Sensor: [File Content Sensor](https://www.paessler.com/manuals/prtg/file_content_sensor)
+- | Sensor: Sensitive file sensor: [File Content Sensor](https://www.paessler.com/manuals/prtg/file_content_sensor)
 - | Description: Monitors changes to files and directories. The File Content sensor checks a text file (for example, a log file) for certain strings.
 - |	Systems : Kali GNU/Linux (debian) version 2024.2 (kali-rolling). Ubuntu Linux (debian) 22.04.4 LTS (Jammy Jellyfish).
 - | IoCs: [Indicator Removal: Clear Linux or Mac System Logs](https://attack.mitre.org/techniques/T1070/002/) ,
