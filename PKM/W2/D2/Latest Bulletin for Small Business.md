@@ -1,5 +1,16 @@
 # Task: Latest Bulletin for Small Business
 
+The threat landscape is composed of multiple layer.
+Taking an eagle eye view, at the center are the Assets's CIA components.
+1. Asset Confidentiality, Integrity, Availability
+2. Security gap. Visibility, Context, Advanced threat protection
+Protecting those CIA are technology tools:
+3. Protections: Firewalls, IPs, SIEM, Web Gateways, Email security, Host Firewall, Anti-spam, NAC, VPN, Encryption, DLP, URL filtering
+4. Attacks: Zero Day threats, APTs, DDOS, Advanced Malware, Ransom and Fraud, DAta theft, Targeted Atacks
+5. Criminals: Cybercriminals, Insider Threats, Nation States, Activists.
+
+
+
 1. [Managing and controlling administrative privileges (ITSAP.10.094)](https://www.cyber.gc.ca/en/guidance/managing-and-controlling-administrative-privileges-itsap10094)
    > TSAP - Awareness series	2024-07-03
    > 
