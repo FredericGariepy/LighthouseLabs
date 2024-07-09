@@ -1,5 +1,5 @@
 > :memo: **Notes:**
-> TO ASSESSOR, I did not have *time* to add specific CVEs([mitre](https://cve.mitre.org/), [nist](https://nvd.nist.gov/vuln/search)) and [calculate](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) their CVSS score.
+> I did not have *time* to add specific CVEs([mitre](https://cve.mitre.org/), [nist](https://nvd.nist.gov/vuln/search)) and [calculate](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) their CVSS score.
 
 # Cat Scan II Big Dog
 Date: 2024-07-08
