@@ -198,23 +198,26 @@ Basic information (sensor context)
 
 # Discussion Section:
 > A discussion of each of the connections between the sensors, IoCs and thresholds.
-1. Bandwidth Usage Sensor (SNMP Traffic Sensor)
-> 
-2. Ping Sensor
-3. WMI Security Center Sensor
-4. WMI Event Log Sensor
-5. Folder Sensor (Sensitive folder sensor)
-6. File Content Sensor (Sensitive file sensor for Syslog)
-7. IMAP Sensor (Email sensor)
-8. MySQL v2 Sensor (Database Query Sensor)
-9. HTTP Apache ModStatus PerfStats Sensor
-10. SSH Sensor (Port Sensor)
-11. SSH Remote Ping Sensor
-12. System Health Sensor
+
+All devices on the network have a Ping Sensor to ensure probe connectivity and device downtime. Together with Bandwidth Usage Sensor, this creates a baseline for traffic on the network, used for IoC detection at a network level.
+
+All Windows devices are probed by WMI Security Center Sensors to check for antivirus software status. WMI Event Log sensors are the bedrock of log-based IoC detection. These sensors are foundational to recording important Event IDs and mainting device security updates.
+Additionally, some Folder Sensor keep track activity related to HVA which occupy windows worksations in Marketing & Sales (PII and Financial data).  
+
+For Linux machines, file Content Sensor are required to centrally monitor Syslog. Just like in Windows, Logs are the bedrock of reconnaissance and intrusion detection. 
+
+Marketing and Sales have IMAP Sensor (Email sensor) to detect IoCs related to the deparment's activities. The sensor performs Email Volume and can Search String in messages to detect Phishing.
+ 
+Developer (VMs) were found to run mySQL and apache 2, hence were equiped with MySQL v2 Sensor (Database Query Sensor) and HTTP Apache ModStatus PerfStats Sensor. Those two sensors monitor IoCs related to availability of services, and integrity of the database.
+Developers benefit from SSH Sensor (Port Sensor) SSH Remote (Ping Sensor), to detect brute force attacks and man-in-the-middle attacks.
+
+The PRTG Managing device's probe has a default System Health Sensor. This is an important monitor due to the system itself relying on the availability of the probe. Such probes can also be manually added, in case load-balancing probes were added.
+
 13. HTTP Load Time Sensor
 14. FTP Sensor
 15. Windows IIS Application Sensor
 16. Windows Process Sensor
 17. Packet Sniffer Sensor
+
 # Recommendation Section:
 > A recommendation section where you should recommend how the client might enhance the security of their systems (for example added sensors); you must cite industry best practices as you make your recommendations.
