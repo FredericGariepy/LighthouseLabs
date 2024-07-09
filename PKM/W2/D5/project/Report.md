@@ -253,42 +253,83 @@ For windows, set up event-triggered task for specific [Windows Event IDs](https:
 # References
 
 Lockheed Martin. (n.d.). The cyber kill chain. Retrieved July 8, 2024, from https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
+
 MITRE ATT&CK. (n.d.). Network denial of service. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1498
+
 MITRE ATT&CK. (n.d.). Exfiltration. Retrieved July 8, 2024, from https://attack.mitre.org/tactics/TA0010/
+
 MITRE ATT&CK. (n.d.). Impair defenses: Disable or modify tools. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1562/001/
+
 MITRE ATT&CK. (n.d.). Indicator removal: Clear Windows event logs. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1070/001/
+
 MITRE ATT&CK. (n.d.). Brute force. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1110/
+
 MITRE ATT&CK. (n.d.). Application log. Retrieved July 8, 2024, from https://attack.mitre.org/datasources/DS0015/
-MITRE ATT&CK. (n.d.). File and directory permissions modification: Windows file and directory permissions modification. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1222/001/
+
+MITRE ATT&CK. (n.d.). File and directory permissions modification: Windows file and directory permissions modification. Retrieved July 8, 2024, from https://attack.mitre.org/
+techniques/T1222/001/
+
 MITRE ATT&CK. (n.d.). Indicator removal: Clear Linux or Mac system logs. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1070/002/
+
 MITRE ATT&CK. (n.d.). Phishing for information. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1598/
+
 MITRE ATT&CK. (n.d.). Phishing for information: Spearphishing attachment. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1598/002/
+
 MITRE ATT&CK. (n.d.). Exploitation of remote services. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1210/
+
 MITRE ATT&CK. (n.d.). Password spraying. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1110/003/
+
 MITRE ATT&CK. (n.d.). Adversary-in-the-middle. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1557/
+
 MITRE ATT&CK. (n.d.). Service stop. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1489/
+
 MITRE ATT&CK. (n.d.). Exfiltration over alternative protocol. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1048/
+
 MITRE ATT&CK. (n.d.). Server software component: IIS components. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1505/004/
+
 MITRE ATT&CK. (n.d.). Exploit public-facing application. Retrieved July 8, 2024, from https://attack.mitre.org/techniques/T1190/
+
 MITRE ATT&CK. (n.d.). Reconnaissance. Retrieved July 8, 2024, from https://attack.mitre.org/tactics/TA0043/
+
 MITRE ATT&CK. (n.d.). Network segmentation. Retrieved July 8, 2024, from https://attack.mitre.org/mitigations/M1030/
+
 MITRE ATT&CK. (n.d.). Filter network traffic. Retrieved July 8, 2024, from https://attack.mitre.org/mitigations/M1037
+
 MITRE ATT&CK. (n.d.). Data backup. Retrieved July 8, 2024, from https://attack.mitre.org/mitigations/M1053/
+
 MITRE ATT&CK. (n.d.). Encrypt sensitive information. Retrieved July 8, 2024, from https://attack.mitre.org/mitigations/M1041/ 
+
 Paessler AG. (n.d.). SNMP traffic sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/snmp_traffic_sensor
+
 Paessler AG. (n.d.). Ping sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/ping_sensor
+
 Paessler AG. (n.d.). WMI security center sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/wmi_security_center_sensor
+
 Paessler AG. (n.d.). WMI event log sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/wmi_event_log_sensor
+
 Paessler AG. (n.d.). Folder sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/folder_sensor
+
 Paessler AG. (n.d.). File content sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/file_content_sensor
+
 Paessler AG. (n.d.). IMAP sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/imap_sensor
+
 Paessler AG. (n.d.). MySQL v2 sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/mysql_v2_sensor
+
 Paessler AG. (n.d.). HTTP Apache ModStatus PerfStats sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/http_apache_modstatus_perfstats_sensor
+
 Paessler AG. (n.d.). Port sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/port_sensor
+
 Paessler AG. (n.d.). SSH remote ping sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/ssh_remote_ping_sensor
+
 Paessler AG. (n.d.). System health sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/system_health_sensor
+
 Paessler AG. (n.d.). FTP sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/ftp_sensor
+
 Paessler AG. (n.d.). Windows IIS application sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor
+
 Paessler AG. (n.d.). Windows process sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/wmi_process_sensor#channels
+
 Paessler AG. (n.d.). Packet sniffer header sensor. Retrieved July 8, 2024, from https://www.paessler.com/manuals/prtg/packet_sniffer_header_sensor
-Johnson E. (7.24). Mitre Att&ck and Potential Windows Event ID's. Retrieved July 8, 2024, from https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D5/project/COPY%20mitre_v_eventIDs.md
+
+Johnson E. (7.24). Mitre Att&ck and Potential Windows Event ID's. Retrieved July 8, 2024, from https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D5/project/
+COPY%20mitre_v_eventIDs.md
