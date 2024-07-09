@@ -126,9 +126,9 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 ### Developer Machines (IP)
 > Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
 >
-> IT Developer Machines SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
->
-> IT Developer Machines SIL = Moderate 
+> IT Developer Machines SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)} 
+> 
+> IT Developer Machines SIL = High 
 >
 > Services with LISTENING PORTS:
 > | Service      | Port            |
@@ -136,6 +136,9 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 > | apache2      | *:80            |
 > | mysqld       | 33060 \| 3306    |
 
+> Developer Machines SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
+>
+>  Developer Machines SIL = High
 
 - | Sensor: [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)
 - | Description:  sensor monitors a database on a MySQL server and executes a query.
@@ -145,8 +148,6 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 - |	Priority (SIL) : Moderate
 - |	Thresholds / Assumptions : Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts.
 
-
-
 - | Sensor: [HTTP Apache ModStatus PerfStats Sensor](https://www.paessler.com/manuals/prtg/http_apache_modstatus_perfstats_sensor)
 - | Description: The HTTP Apache ModStatus PerfStats sensor monitors performance statistics of an Apache web server over HTTP.
 - |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
@@ -155,22 +156,21 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 - |	Priority (SIL) ; 
 - |	Thresholds / Assumptions : CPULoad, Workers Idle/Busy, Requests Per Second, UP/DOWN time
 
+- | Sensor: SSH Sensor [Port Sensor](https://www.paessler.com/manuals/prtg/port_sensor)
+- | Description: Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).
+- |	System: Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
+- | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/), [Password spraying](https://attack.mitre.org/techniques/T1110/003/)
+- | Associated	Rationale : Port 22 is used for remote ssh login. Having a baseline for accessibility will allow to spot spikes in unsual SSh attempts. It is likely that developers use this port for work and it should be monitored.
+- |	Priority (SIL) : Moderate SIL (low Integrity, low Availability)
+- |	Thresholds / Assumptions : Upper bound thresholds response time < 100ms. Developer SSH port allows acces to HVA as should be monitored.
 
-
-> Developer Machines SC = {(confidentiality, High), (integrity, Moderate), (availability, Low)}
->
->  Developer Machines SIL = High
-
-### *default sensor
-- | Sensor: HTTP Load Time
-- | Description: Monitors the time it takes for the page to load.
-- |	System: Linux
-- | IoCs: Malicious Redirects, DDoS Attacks, Content Injection	Unexpected changes in load time can indicate anomalies or performance-related issues that could indicate a security breach or compromise.
-- | Associated	Rationale : Linux web server being internal and outward facing (Assumption)
-- |	Priority (SIL): Medium (SIL of high, see assumptions)
-- |	Thresholds / Assumptions: SIL based on the fact that *BIG DOG does NOT have a large Web Presence*, the Low impact on availability, higher chance of compromise. 
-
-
+- | Sensor: [SSH Remote Ping Sensor](https://www.paessler.com/manuals/prtg/ssh_remote_ping_sensor)
+- | Description: The SSH Remote Ping sensor remotely monitors the connectivity between a system running Linux/macOS X and another device, using Internet Control Message Protocol (ICMP) echo requests ("ping") and Secure Shell (SSH). We're essentially making sure that two devices can establish communication realiably.
+- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
+- | IoCs: [Password spraying](https://attack.mitre.org/techniques/T1110/003/)
+- | Associated	Rationale: Password spraying "Commonly targeted services [...] MySQL (3306/TCP)" 
+- |	Priority (SIL)
+- |	Thresholds / Assumptions
 
 
 - | Sensor: 
@@ -257,6 +257,16 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 >
 > IIS webserver SIL = Moderate
 
+
+- | Sensor: HTTP Load Time
+- | Description: Monitors the time it takes for the page to load.
+- |	System: Microsoft Windows 11 Home, Version 10.0.22631
+- | IoCs: Malicious Redirects, DDoS Attacks, Content Injection	Unexpected changes in load time can indicate anomalies or performance-related issues that could indicate a security breach or compromise.
+- | Associated	Rationale : Linux web server being internal and outward facing (Assumption)
+- |	Priority (SIL): Medium (SIL of high, see assumptions)
+- |	Thresholds / Assumptions: SIL based on the fact that *BIG DOG does NOT have a large Web Presence*, the Low impact on availability, higher chance of compromise.
+
+  
 - | Sensor: [FTP Sensor](https://www.paessler.com/manuals/prtg/ftp_sensor)
 - | Description: he FTP sensor monitors file servers via the File Transfer Protocol (FTP) and FTP over SSL (FTPS). Monitors specified FTP port request response time and status (accepted).
 - |	System:  Microsoft Windows 11 Home, version 23H2, Sun Valley 3
@@ -322,8 +332,7 @@ Brute forcing attacks could occur since Test Systems might not be as a thoroughl
 >
 > IT System SIL = Moderate
 
-
-- | Sensor: SSH Sensor
+- | Sensor: SSH Sensor 
 - | Description: Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).
 - |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
 - | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts.
