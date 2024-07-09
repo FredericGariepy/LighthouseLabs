@@ -43,18 +43,7 @@ ___
 
 | Sensor                  | Description                                                                                               | System                                                | IoCs                                                                                                     | Associated Rationale                                                                                      | Priority (SIL) | Thresholds / Assumptions                                                   |
 |-------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------|
-| [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor) | The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP). It can check email content for specific keywords. | Microsoft Windows 11, version 23H2, (Sun Valley 3). Marketing Workstation | [Phishing for Information](https://attack.mitre.org/techniques/T1598/), [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/) | Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns | High           | Email Count, Search String in email (potentially integrating with AI for detection). |
-
-
-- | Sensor: Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor)
-- | Description: The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP) unlike POP3 sensors.
-i_round_blueThe sensor can check the content of emails for certain keywords. 
-- |	System : Microsoft Windows 11, version 23H2, (Sun Valley 3). Marketing Workstation
-- | IoCs : [Phishing for Information](https://attack.mitre.org/techniques/T1598/) ,[Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
-- | Associated	Rationale : Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns
-- |	Priority (SIL) : High
-- |	Thresholds / Assumptions: Email Count, Search String in email (potentailly integrating with AI for detection).
-
+| Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor) | The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP). It can check the content of emails for certain keywords. | Microsoft Windows 11, version 23H2, (Sun Valley 3). Marketing Workstation | [Phishing for Information](https://attack.mitre.org/techniques/T1598/), [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/) | Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns | High           | Email Count, Search String in email (potentially integrating with AI for detection). |
 
 ### Sales (F) & (P)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
@@ -63,14 +52,9 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 >
 > Sales SIL = High
 
-- | Sensor: Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor)
-- | Description: The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP) unlike POP3 sensors.
-i_round_blueThe sensor can check the content of emails for certain keywords. 
-- |	System : icrosoft Windows 11, version 23H2, (Sun Valley 3). Sales Workstation.
-- | IoCs : [Phishing for Information](https://attack.mitre.org/techniques/T1598/) ,[Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
-- | Associated	Rationale : Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns
-- |	Priority (SIL) : High
-- |	Thresholds / Assumptions: Email Count, Search String in email (potentailly integrating with AI for detection).
+| Sensor                                      | Description                                                                                               | System                                                | IoCs                                                                                                     | Associated Rationale                                                                                      | Priority (SIL) | Thresholds / Assumptions                                                   |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------|
+| Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor) | The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP). It can check the content of emails for certain keywords. | Microsoft Windows 11, version 23H2, (Sun Valley 3). Sales Workstation | [Phishing for Information](https://attack.mitre.org/techniques/T1598/), [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/) | Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns | High           | Email Count, Search String in email (potentially integrating with AI for detection). |
 
  
 ### Developer Machines (IP)
@@ -90,37 +74,12 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 >
 >  Developer Machines SIL = High
 
-- | Sensor: [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)
-- | Description:  sensor monitors a database on a MySQL server and executes a query.
-- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish). Developer Server.
-- | IoCs: [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)
-- | Associated	Rationale : Checks for the Integrity and Availability of the SQL database. As seen in listed ports, the Linux VM has mysqld ports LISTENING.
-- |	Priority (SIL) : High
-- |	Thresholds / Assumptions : Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts.
-
-- | Sensor: [HTTP Apache ModStatus PerfStats Sensor](https://www.paessler.com/manuals/prtg/http_apache_modstatus_perfstats_sensor)
-- | Description: The HTTP Apache ModStatus PerfStats sensor monitors performance statistics of an Apache web server over HTTP.
-- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish). Developer Server.
-- | IoCs: 
-- | Associated	Rationale : Attackers may try to attack the availability of the appache 2 server.
-- |	Priority (SIL) : High
-- |	Thresholds / Assumptions : CPULoad, Workers Idle/Busy, Requests Per Second, UP/DOWN time
-
-- | Sensor: SSH Sensor [Port Sensor](https://www.paessler.com/manuals/prtg/port_sensor)
-- | Description: Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).
-- |	System: Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
-- | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/), [Password spraying](https://attack.mitre.org/techniques/T1110/003/)
-- | Associated	Rationale : Port 22 is used for remote ssh login. Having a baseline for accessibility will allow to spot spikes in unsual SSh attempts. It is likely that developers use this port for work and it should be monitored.
-- |	Priority (SIL) : Moderate SIL (low Integrity, low Availability)
-- |	Thresholds / Assumptions : Upper bound thresholds response time < 100ms. Developer SSH port allows acces to HVA as should be monitored.
-
-- | Sensor: [SSH Remote Ping Sensor](https://www.paessler.com/manuals/prtg/ssh_remote_ping_sensor)
-- | Description: The SSH Remote Ping sensor remotely monitors the connectivity between a system running Linux/macOS X and another device, using Internet Control Message Protocol (ICMP) echo requests ("ping") and Secure Shell (SSH). We're essentially making sure that two devices (Dev & Dev Server) can establish communication realiably.
-- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
-- | IoCs: [Adversary-in-the-Middle](https://attack.mitre.org/techniques/T1557/), [Service Stop](https://attack.mitre.org/techniques/T1489/)
-- | Associated	Rationale: Password spraying "Commonly targeted services [...] MySQL (3306/TCP)" 
-- |	Priority (SIL) : High
-- |	Thresholds / Assumptions: Packet Loss, Response time (average, max, min), Downtime. This is important to measure in order to ensure that developers have steady access to their environment (availability). A baseline can help establish unusal response times which could be IoC for Adversary-in-the-Middle attacks (confidentiality/integrity).
+| Sensor                                                  | Description                                                                                                           | System                                                | IoCs                                                                                                                      | Associated Rationale                                                                                                        | Priority (SIL)        | Thresholds / Assumptions                                                                                                       |
+|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)                       | The sensor monitors a database on a MySQL server and executes a query.                                                | Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish). Developer Server | [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)                                            | Checks for the Integrity and Availability of the SQL database. As seen in listed ports, the Linux VM has mysqld ports LISTENING. | High                  | Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts.                                                                                  |
+| [HTTP Apache ModStatus PerfStats Sensor](https://www.paessler.com/manuals/prtg/http_apache_modstatus_perfstats_sensor) | The HTTP Apache ModStatus PerfStats sensor monitors performance statistics of an Apache web server over HTTP.          | Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish). Developer Server |                                                                                                                           | Attackers may try to attack the availability of the Apache 2 server.                                                         | High                  | CPULoad, Workers Idle/Busy, Requests Per Second, UP/DOWN time                                                                                                                                  |
+| [SSH Sensor Port Sensor](https://www.paessler.com/manuals/prtg/port_sensor)                                             | Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).             | Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish) | [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/), [Password spraying](https://attack.mitre.org/techniques/T1110/003/) | Port 22 is used for remote SSH login. Having a baseline for accessibility will allow to spot spikes in unusual SSH attempts. It is likely that developers use this port for work and it should be monitored. | Moderate SIL (low Integrity, low Availability) | Upper bound thresholds response time < 100ms. Developer SSH port allows access to HVA and should be monitored.                                                                                  |
+| [SSH Remote Ping Sensor](https://www.paessler.com/manuals/prtg/ssh_remote_ping_sensor)                                 | The SSH Remote Ping sensor remotely monitors the connectivity between a system running Linux/macOS X and another device. | Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish) | [Adversary-in-the-Middle](https://attack.mitre.org/techniques/T1557/), [Service Stop](https://attack.mitre.org/techniques/T1489/) | Password spraying "Commonly targeted services [...] MySQL (3306/TCP)"                                                      | High                  | Packet Loss, Response time (average, max, min), Downtime. This is important to measure to ensure that developers have steady access to their environment (availability). A baseline can help establish unusual response times which could be IoC for Adversary-in-the-Middle attacks (confidentiality/integrity). |
 
 
 ### Management functions (A)
@@ -137,15 +96,9 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 > PRTG Network Monitor SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
 >
 > PRTG Network Monitor SIL = Moderate
-
-
-- | Sensor: [System Health Sensor](https://www.paessler.com/manuals/prtg/system_health_sensor)
-- | Description: The System Health sensor monitors the status of the probe system. It checks various system parameters that can affect the quality of the monitoring results. It is automatically created however, but manual creations are possible.
-- |	System : Microsoft Windows 11 Home, version 23H2, Sun Valley 3
-- | IoCs : [Impair Defenses: Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001/)
-- | Associated	Rationale : This sensor is necessary to monitor the health of the Managing device's own probe system.
-- |	Priority (SIL): Moderate
-- |	Thresholds / Assumptions: Available Memory , System CPU Load, Downtine. An attack on the availability of the system would cause serrious harm to the very purpose of the probe device.
+| Sensor                                      | Description                                                                                                           | System                                                | IoCs                                                                                                     | Associated Rationale                                                                                      | Priority (SIL) | Thresholds / Assumptions                                                   |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------|
+| [System Health Sensor](https://www.paessler.com/manuals/prtg/system_health_sensor) | The System Health sensor monitors the status of the probe system. It checks various system parameters that can affect the quality of the monitoring results. It is automatically created, but manual creations are possible. | Microsoft Windows 11 Home, version 23H2, Sun Valley 3 | [Impair Defenses: Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001/)                | This sensor is necessary to monitor the health of the managing device's own probe system.                | Moderate       | Available Memory, System CPU Load, Downtime. An attack on the availability of the system would cause serious harm to the very purpose of the probe device. |
 
 
 ### SQL database (S)
@@ -154,13 +107,9 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 -  SQL database SC = {(confidentiality, Low), (integrity, low), (availability, Moderate)}
 -  SQL database SIL = Moderate
 
-- | Sensor: [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)
-- | Description:  sensor monitors a database on a MySQL server and executes a query.
-- |	System : Microsoft Windows 11 Home, version 23H2, Sun Valley 3
-- | IoCs: [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)
-- | Associated	Rationale : Checks for the Integrity and Availability of the SQL database.
-- |	Priority (SIL) : Moderate
-- |	Thresholds / Assumptions : Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts.
+| Sensor                                                  | Description                                                                                                           | System                                                | IoCs                                                                                                     | Associated Rationale                                                                                      | Priority (SIL) | Thresholds / Assumptions                                                   |
+|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------|
+| [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)                       | The sensor monitors a database on a MySQL server and executes a query.                                                | Microsoft Windows 11 Home, version 23H2, Sun Valley 3 | [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)                               | Checks for the Integrity and Availability of the SQL database.                                            | Moderate       | Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts.                              |
 
 
 ### Internet Information Services (IIS) webserver (S)
@@ -183,41 +132,12 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
     svchost                       135 Listen
   ```
 
-
-- | Sensor: HTTP Load Time
-- | Description: Monitors the time it takes for the page to load.
-- |	System: Microsoft Windows 11 Home, version 23H2 (Sun Valley 3)
-- | IoCs: Malicious Redirects, DDoS Attacks, Content Injection	Unexpected changes in load time can indicate anomalies or performance-related issues that could indicate a security breach or compromise.
-- | Associated	Rationale : Linux web server being internal and outward facing (Assumption)
-- |	Priority (SIL): Medium (SIL of high, see assumptions)
-- |	Thresholds / Assumptions: SIL based on the fact that *BIG DOG does NOT have a large Web Presence*, the Low impact on availability, higher chance of compromise.
-
-  
-- | Sensor: [FTP Sensor](https://www.paessler.com/manuals/prtg/ftp_sensor)
-- | Description: he FTP sensor monitors file servers via the File Transfer Protocol (FTP) and FTP over SSL (FTPS). Monitors specified FTP port request response time and status (accepted).
-- |	System:  Microsoft Windows 11 Home, version 23H2 (Sun Valley 3)
-- | IoCs: [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048/)
-- | Associated Rationale : The IIS server can host FTP services which can be used for exfiltration of data.
-- |	Priority (SIL) : Moderate
-- |	Thresholds / Assumptions : Response time in msec. The Upper bound should indicate a unusual activity.
-
-
-- | Sensor: [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
-- | Description: Motonitors IIS server via Windows Management Instrumentation (WMI). Sensor gives insights into the performance, availability, and usage of the IIS server.
-- |	System : Microsoft Windows 11 Home, version 23H2 (Sun Valley 3).  IS Version 10.0.
-- | IoCs : [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/), [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
-- | Associated	Rationale : The IIS is a webserver public facing, file share server. Such a server can be poisoned and distribute harm internally and externally of the organization.
-- |	Priority (SIL) : Moderate
-- |	Thresholds / Assumptions : IIS sensor can monitor for bytes and Files (data) sent/received, http requests Get/Post, Status Up/Down, Users Known/Anonymous. It is a Very powerfull sensor which should be used to monitor important IIS operations by the organization.
-
-
-- | Sensor: [Windows Process Sensor](https://www.paessler.com/manuals/prtg/wmi_process_sensor#channels)
-- | Description: The Windows Process sensor monitors a Windows process via Windows Management Instrumentation (WMI) or Windows performance counters, as configured in the Windows Compatibility Options of the parent device.
-Microsoft Windows 11 Home, version 23H2 (Sun Valley 3)
-- | IoC : [Service Stop](https://attack.mitre.org/techniques/T1489/),
-- | Associated	Rationale : A baseline is important to monitor the activity of the organization and monitor for potentiall atacks on availability.
-- |	Priority (SIL) : Moderate
-- |	Thresholds / Assumptions : CPU, Handles, Instances, Threads, Working Set. Everything to monitor the performannce of the IIS server, since it has a webserver and FTP (inluding Windows Fileshare).
+| Sensor                                                      | Description                                                                                                           | System                                                | IoCs                                                                                                     | Associated Rationale                                                                                      | Priority (SIL) | Thresholds / Assumptions                                                   |
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------|
+| HTTP Load Time                                               | Monitors the time it takes for the page to load.                                                                       | Microsoft Windows 11 Home, version 23H2 (Sun Valley 3) | Malicious Redirects, DDoS Attacks, Content Injection. Unexpected changes in load time can indicate anomalies or performance-related issues that could indicate a security breach or compromise. | Linux web server being internal and outward facing (Assumption).                                           | Medium (SIL of high, see assumptions) | SIL based on the fact that *BIG DOG does NOT have a large Web Presence*, the Low impact on availability, higher chance of compromise. |
+| [FTP Sensor](https://www.paessler.com/manuals/prtg/ftp_sensor) | The FTP sensor monitors file servers via the File Transfer Protocol (FTP) and FTP over SSL (FTPS). Monitors specified FTP port request response time and status (accepted).              | Microsoft Windows 11 Home, version 23H2 (Sun Valley 3) | [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048/)                      | The IIS server can host FTP services which can be used for exfiltration of data.                         | Moderate       | Response time in msec. The Upper bound should indicate unusual activity.    |
+| [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)                     | Monitors IIS server via Windows Management Instrumentation (WMI). Gives insights into the performance, availability, and usage of the IIS server.                                  | Microsoft Windows 11 Home, version 23H2 (Sun Valley 3). IIS Version 10.0 | [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/), [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/) | The IIS is a webserver public-facing, file share server. Such a server can be compromised and distribute harm internally and externally. | Moderate       | IIS sensor can monitor for bytes and files (data) sent/received, HTTP requests Get/Post, Status Up/Down, Users Known/Anonymous. A very powerful sensor for monitoring critical IIS operations. |
+| [Windows Process Sensor](https://www.paessler.com/manuals/prtg/wmi_process_sensor#channels)                               | The Windows Process sensor monitors a Windows process via Windows Management Instrumentation (WMI) or Windows performance counters.                                             | Microsoft Windows 11 Home, version 23H2 (Sun Valley 3) | [Service Stop](https://attack.mitre.org/techniques/T1489/)                                               | A baseline is important to monitor the activity of the organization and potential attacks on availability. | Moderate       | CPU, Handles, Instances, Threads, Working Set. Everything to monitor the performance of the IIS server, which includes a web server, FTP, and Windows Fileshare. |
 
 
 ### Test System (S)
@@ -227,14 +147,9 @@ Microsoft Windows 11 Home, version 23H2 (Sun Valley 3)
 >
 > Test System SIL = Moderate
 
-- | Sensor: SSH Sensor [Port Sensor](https://www.paessler.com/manuals/prtg/port_sensor)
-- | Description: Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).
-- |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
-- | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts.
-- | Associated	Rationale : Port 22 is used for remote ssh login to IT Systems machines. Having a baseline for accessibility will allow to spot spikes in unsual SSh attempts.
-Brute forcing attacks could occur since Test Systems might not be as a thoroughly configured (passwords, IDs, default settings) hence opening them up for attacks.
-- |	Priority (SIL) : Moderate SIL (low Integrity, low Availability)
-- |	Thresholds / Assumptions : Upper bound thresholds response time < 80ms. This sensor is likely used less often and so the baseline should be tigher in order notice disturbances. Test Services may contain key strategic informaiton for future planning of attackers. 
+| Sensor                                                      | Description                                                                                                           | System                                                | IoCs                                                                                                     | Associated Rationale                                                                                      | Priority (SIL) | Thresholds / Assumptions                                                   |
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------|
+| SSH Sensor [Port Sensor](https://www.paessler.com/manuals/prtg/port_sensor) | Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).              | Kali GNU/Linux (debian) version 2024.2 (kali-rolling) | [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts. | Port 22 is used for remote SSH login to IT Systems machines. Having a baseline for accessibility will allow to spot spikes in unusual SSH attempts. Brute forcing attacks could occur since Test Systems might not be as thoroughly configured (passwords, IDs, default settings) hence opening them up for attacks. | Moderate SIL (low Integrity, low Availability) | Upper bound thresholds response time < 80ms. This sensor is likely used less often, so the baseline should be tighter to notice disturbances. Test Services may contain key strategic information for future planning of attackers. |
 
 
 ### IT System (S)
@@ -244,19 +159,7 @@ Brute forcing attacks could occur since Test Systems might not be as a thoroughl
 >
 > IT System SIL = Moderate
 
-- | Sensor: SSH Sensor 
-- | Description: Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted).
-- |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
-- | IoCs: [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts.
-- | Associated	Rationale : Port 22 is used for remote ssh login to IT Systems machines. Having a baseline for accessibility will allow to spot spikes in unsual SSh attempts.
-- |	Priority (SIL) : Moderate SIL
-- |	Thresholds / Assumptions : Upper bound thresholds response time < 100ms. This sensor is 
-
-
-- | Sensor: [Packet Sniffer Sensor](https://www.paessler.com/manuals/prtg/packet_sniffer_header_sensor)
-- | Description: Monitors and analyzes network traffic to detect unusual patterns, unauthorized protocols, or suspicious activities within the network. The Packet Sniffer sensor monitors the headers of data packets that pass a local network card using a built-in packet sniffer.
-- |	System: Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
-- |	IoCs: [Reconnaissance](https://attack.mitre.org/tactics/TA0043/) and [Exfiltration](https://attack.mitre.org/tactics/TA0010/) attempts, unusual traffic patterns, and unauthorized protocols.
-- |	Associated Rationale: Provides visibility into network traffic to identify potential security threats, such as reconnaissance activities or attempts to exfiltrate data. Identify baseline connections and protocols.
-- |	Priority (SIL): Moderate SIL
-- |	 Thresholds / Assumptions: Alert thresholds set for significant deviations in traffic volume, protocol usage, or packet sizes.
+| Sensor | Description | System | IoCs | Associated Rationale | Priority (SIL) | Thresholds / Assumptions |
+|--------|-------------|--------|------|----------------------|----------------|--------------------------|
+| [SSH Sensor](https://www.paessler.com/manuals/prtg/port_sensor) | Monitors SSH access and usage. Monitors specified TCP/IP port request response time and status (accepted). | Kali GNU/Linux (debian) version 2024.2 (kali-rolling) | [Bruteforcing](https://attack.mitre.org/techniques/T1110/003/) higher response time as machine is sprayed by password attempts. | Port 22 is used for remote ssh login to IT Systems machines. Having a baseline for accessibility will allow to spot spikes in unusual SSH attempts. | Moderate SIL | Upper bound thresholds response time < 100ms. This sensor is used less often, so the baseline should be tighter to detect disturbances. |
+| [Packet Sniffer Sensor](https://www.paessler.com/manuals/prtg/packet_sniffer_header_sensor) | Monitors and analyzes network traffic to detect unusual patterns, unauthorized protocols, or suspicious activities within the network. The Packet Sniffer sensor monitors the headers of data packets that pass a local network card using a built-in packet sniffer. | Kali GNU/Linux (debian) version 2024.2 (kali-rolling) | [Reconnaissance](https://attack.mitre.org/tactics/TA0043/) and [Exfiltration](https://attack.mitre.org/tactics/TA0010/) attempts, unusual traffic patterns, and unauthorized protocols. | Provides visibility into network traffic to identify potential security threats, such as reconnaissance activities or attempts to exfiltrate data. Identify baseline connections and protocols. | Moderate SIL | Alert thresholds set for significant deviations in traffic volume, protocol usage, or packet sizes. |
