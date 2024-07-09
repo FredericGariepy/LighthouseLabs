@@ -50,7 +50,7 @@ ___
 - | Sensor: [WMI Event Log Sensor](https://www.paessler.com/manuals/prtg/wmi_event_log_sensor)
 - | Description: Monitors Windows event logs. The WMI Event Log sensor monitors a Windows log file via Windows Management Instrumentation (WMI).
 - |	System :[Microsoft Windows 11 Home, Version 10.0.22631 Build 22631 | Known as: version 23H2, Sun Valley 3](https://en.wikipedia.org/wiki/Windows_11,_version_23H2#:~:text=The%20Windows%2011%202023%20Update,22631.)
-- | IoCs: [Indicator Removal: Clear Windows Event Logs](https://attack.mitre.org/techniques/T1070/001/), [Brute Force](https://attack.mitre.org/techniques/T1110/)
+- | IoCs: [Indicator Removal: Clear Windows Event Logs](https://attack.mitre.org/techniques/T1070/001/), [Brute Force](https://attack.mitre.org/techniques/T1110/), [Application Log](https://attack.mitre.org/datasources/DS0015/)
 - | Associated	Rationale : Use the sensor to monitor event logs. 
 - |	Priority (SIL) : High. Event logs are the bedrock of reconnaissance & intrusion detection.
 - |	Thresholds / Assumptions : Narrow down to event down to any attribute (type, Event ID, user, message, etc). Additonally Set-up (trap) Task related to important events. Use event ID 104/1102 for Indicator Removal: Clear Windows Event Logs. Use Event ID 33205 for Brute Force attempts.
@@ -69,7 +69,7 @@ ___
 - | Sensor: Sensitive file sensor: [File Content Sensor](https://www.paessler.com/manuals/prtg/file_content_sensor)
 - | Description: Monitors changes to files and directories. The File Content sensor checks a text file (for example, a log file) for certain strings.
 - |	Systems : Kali GNU/Linux (debian) version 2024.2 (kali-rolling). Ubuntu Linux (debian) 22.04.4 LTS (Jammy Jellyfish).
-- | IoCs: [Indicator Removal: Clear Linux or Mac System Logs](https://attack.mitre.org/techniques/T1070/002/) ,
+- | IoCs: [Indicator Removal: Clear Linux or Mac System Logs](https://attack.mitre.org/techniques/T1070/002/), [Application Log](https://attack.mitre.org/datasources/DS0015/)
 - | Associated	Rationale: Logs are the bedrock of reconnaissance and intrusion detection. Linux machines on the network contain IP and System information data.
 - |	Priority (SIL) : High.
 - |	Thresholds / Assumptions : Monitoring of specific files will be in place, this can include syslog file, Access log files, application log files. 
@@ -87,7 +87,7 @@ ___
 - | Sensor: Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor)
 - | Description: The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP) unlike POP3 sensors.
 i_round_blueThe sensor can check the content of emails for certain keywords. 
-- |	System : icrosoft Windows 11, version 23H2, (Sun Valley 3)
+- |	System : Microsoft Windows 11, version 23H2, (Sun Valley 3). Marketing Workstation
 - | IoCs : [Phishing for Information](https://attack.mitre.org/techniques/T1598/) ,[Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
 - | Associated	Rationale : Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns
 - |	Priority (SIL) : High
@@ -104,21 +104,11 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 - | Sensor: Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor)
 - | Description: The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP) unlike POP3 sensors.
 i_round_blueThe sensor can check the content of emails for certain keywords. 
-- |	System : icrosoft Windows 11, version 23H2, (Sun Valley 3)
+- |	System : icrosoft Windows 11, version 23H2, (Sun Valley 3). Sales Workstation.
 - | IoCs : [Phishing for Information](https://attack.mitre.org/techniques/T1598/) ,[Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
 - | Associated	Rationale : Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns
 - |	Priority (SIL) : High
 - |	Thresholds / Assumptions: Email Count, Search String in email (potentailly integrating with AI for detection).
-
-
-- | Sensor:
-- | Description: 
-- |	System
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
-
 
  
 ### Developer Machines (IP)
@@ -140,7 +130,7 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 
 - | Sensor: [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)
 - | Description:  sensor monitors a database on a MySQL server and executes a query.
-- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
+- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish). Developer Server.
 - | IoCs: [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)
 - | Associated	Rationale : Checks for the Integrity and Availability of the SQL database. As seen in listed ports, the Linux VM has mysqld ports LISTENING.
 - |	Priority (SIL) : High
@@ -148,9 +138,9 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 
 - | Sensor: [HTTP Apache ModStatus PerfStats Sensor](https://www.paessler.com/manuals/prtg/http_apache_modstatus_perfstats_sensor)
 - | Description: The HTTP Apache ModStatus PerfStats sensor monitors performance statistics of an Apache web server over HTTP.
-- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
+- |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish). Developer Server.
 - | IoCs: 
-- | Associated	Rationale : Attackers may try to 
+- | Associated	Rationale : Attackers may try to attack the availability of the appache 2 server.
 - |	Priority (SIL) : High
 - |	Thresholds / Assumptions : CPULoad, Workers Idle/Busy, Requests Per Second, UP/DOWN time
 
@@ -171,22 +161,11 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 - |	Thresholds / Assumptions: Packet Loss, Response time (average, max, min), Downtime. This is important to measure in order to ensure that developers have steady access to their environment (availability). A baseline can help establish unusal response times which could be IoC for Adversary-in-the-Middle attacks (confidentiality/integrity).
 
 
-
-
-
 ### Management functions (A)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 >
 > Management SC = {(confidentiality, Moderate), (integrity, low), (availability, low)}
 >
-> Management SIL = High
-- | Sensor:
-- | Description: 
-- |	System
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
 
 
 ### PRTG Network Monitor (SM)
@@ -196,16 +175,15 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 > PRTG Network Monitor SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
 >
 > PRTG Network Monitor SIL = Moderate
-- | Sensor:
-- | Description: 
-- |	System
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
 
-- [Compromise Infrastructure: Server](https://attack.mitre.org/techniques/T1584/004/)
-- [Application Log](https://attack.mitre.org/datasources/DS0015/)
+
+- | Sensor: [System Health Sensor](https://www.paessler.com/manuals/prtg/system_health_sensor)
+- | Description: The System Health sensor monitors the status of the probe system. It checks various system parameters that can affect the quality of the monitoring results. It is automatically created however, but manual creations are possible.
+- |	System : Microsoft Windows 11 Home, version 23H2, Sun Valley 3
+- | IoCs : [Impair Defenses: Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001/)
+- | Associated	Rationale : This sensor is necessary to monitor the health of the Managing device's own probe system.
+- |	Priority (SIL): Moderate
+- |	Thresholds / Assumptions: Available Memory , System CPU Load, Downtine. An attack on the availability of the system would cause serrious harm to the very purpose of the probe device.
 
 
 ### SQL database (S)
@@ -222,18 +200,6 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 - |	Priority (SIL) : Moderate
 - |	Thresholds / Assumptions : Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts.
 
-
-
-
-
-
-- | Sensor: 
-- | Description: 
-- |	System
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
 
 ### Internet Information Services (IIS) webserver (S)
 > On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
