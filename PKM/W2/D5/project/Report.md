@@ -9,8 +9,8 @@ Date: 2024-07-08
 # Executive Summary:
 > A short, one or two paragraph summary explaining what you have done. Include information about the top five SILs and the sensors and thresholds you are monitoring or recommending.
 
-A total 17 Sensors types were added. The purpose of these is to enhace security, by monitoring for potential IoCs.
-Sensors 
+A total 17 Sensors *types* were added. The purpose of these is to enhace security, by monitoring for potential IoCs.
+Most sensors monitor for status of a service (Down, UP
 
 # Table of Sensors:
 1. Bandwidth Usage Sensor (SNMP Traffic Sensor)
