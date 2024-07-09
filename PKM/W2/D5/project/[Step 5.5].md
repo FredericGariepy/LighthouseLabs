@@ -41,6 +41,11 @@ ___
 >
 > Marketing SIL = High
 
+| Sensor                  | Description                                                                                               | System                                                | IoCs                                                                                                     | Associated Rationale                                                                                      | Priority (SIL) | Thresholds / Assumptions                                                   |
+|-------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------|
+| [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor) | The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP). It can check email content for specific keywords. | Microsoft Windows 11, version 23H2, (Sun Valley 3). Marketing Workstation | [Phishing for Information](https://attack.mitre.org/techniques/T1598/), [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/) | Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns | High           | Email Count, Search String in email (potentially integrating with AI for detection). |
+
+
 - | Sensor: Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor)
 - | Description: The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP) unlike POP3 sensors.
 i_round_blueThe sensor can check the content of emails for certain keywords. 
