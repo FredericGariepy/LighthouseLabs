@@ -4,6 +4,7 @@ Workflow:
 3. ~~Assign CIA value to asset~~
 4. ~~Assign SIL value to asset~~
 5.  [Assets](#assets) ~~Add related vulnerabilties (search MITRE, CVE , NVD)~~ Difficult part
+6.  Calculate(vuln + asset SIL) to get CVSS Scores
 ___
 5. Add related vulnerabilties.
 Resources
