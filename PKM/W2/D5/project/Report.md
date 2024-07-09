@@ -2,7 +2,7 @@
 Date: 2024-07-08
 ## Contents:
 
-[Video Presentation minutes](https://youtu.be/lhUcoYOcGR0)
+[Video Presentation](https://youtu.be/lhUcoYOcGR0)
 
 1. [Executive Summar](#executive-summary)
 2. [Table of sensors](#table-of-sensors)
