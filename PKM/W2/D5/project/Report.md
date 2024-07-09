@@ -9,11 +9,19 @@ Date: 2024-07-08
 # Executive Summary:
 > A short, one or two paragraph summary explaining what you have done. Include information about the top five SILs and the sensors and thresholds you are monitoring or recommending.
 
-A total 17 Sensors *types* were added. The purpose of these is to enhace security, by monitoring for potential IoCs.
+A total 17 Sensors *types* were added.
+
+The purpose of these is to enhace security, by monitoring for potential IoCs.
 Most sensors monitor for one of 3 things:
 - **status** of a device and it's service (Down, Up, Running, Stopped, Warrning, ...)
 - **performance** of a device (responce time, hardware metrics, ...)
 - and **end point data** such as Strings (Words in an email, logs, ...) or Integers (Email volume, File counts, ...).
+
+Sensors together create a 'baseline' from which anomalies can be detected. Such events possing as IoCs are at the attention of our sensors.
+
+Though PRTG sensors are themselves powerfull netowork monitoring tools, alone they are not a sufficient security practice to ensure the C.I.A. of devices on this network.
+
+To further secure your organizaiton consult the recommendation section.
 
 # Table of Sensors:
 1. Bandwidth Usage Sensor (SNMP Traffic Sensor)
