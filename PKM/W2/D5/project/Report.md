@@ -218,10 +218,12 @@ The Windows Process Sensor checks on IIS Server performance for potential IoCs r
 
 **Test Systems** have SSH Port Sensors to monitor potential break-ins, as test enviroments are likely to cary default settings and vulnerable to brute force attempts.
 
-Lastly, **IT System** devices also have SSH Port Sensors due to the likelyhood of operators to use remote acces. Packet Sniffer Sensor provides baseline information to recognize IoCs such as reconaisance or Exfiltration.
+Lastly, **IT System** devices also have SSH Port Sensors due to the likelyhood of operators to use remote acces. Packet Sniffer Sensor provides baseline information [filter network traffic](https://attack.mitre.org/mitigations/M1037/) in order to recognize IoCs such as reconaisance or Exfiltration.
 
 # Recommendation Section:
-> A recommendation section where you should recommend how the client might enhance the security of their systems (for example added sensors); you must cite industry best practices as you make your recommendations.
->
+
 PRTG sensors are powerfull tools for netowrk monitoring and can be used to look for potential IoCs in an organiation. Alone however, sensors can not protect an organization. [Network Segmentation](https://attack.mitre.org/mitigations/M1030/) is a industry standard practice which can include IP subneting, VLANs, DMZ for public faceing services (*such as the IIS Server*) and virtual private cloud.
 
+For windows, set up event-triggered task for specific [Windows Event IDs](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W2/D5/project/COPY%20mitre_v_eventIDs.md). In Linux set up CRON jobs based on things like: log entries or file changes.
+
+[Data Backup](https://attack.mitre.org/mitigations/M1053/) are necessary to restore systems and should be kept seperated from the network to prevent compromise. Sensitive data should be kept [encrypted](https://attack.mitre.org/mitigations/M1041/) and segregated.
