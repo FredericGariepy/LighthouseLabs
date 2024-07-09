@@ -222,3 +222,6 @@ Lastly, **IT System** devices also have SSH Port Sensors due to the likelyhood o
 
 # Recommendation Section:
 > A recommendation section where you should recommend how the client might enhance the security of their systems (for example added sensors); you must cite industry best practices as you make your recommendations.
+>
+PRTG sensors are powerfull tools for netowrk monitoring and can be used to look for potential IoCs in an organiation. Alone however, sensors can not protect an organization. [Network Segmentation](https://attack.mitre.org/mitigations/M1030/) is a industry standard practice which can include IP subneting, VLANs, DMZ for public faceing services (*such as the IIS Server*) and virtual private cloud.
+
