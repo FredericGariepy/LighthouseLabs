@@ -18,6 +18,8 @@ Most sensors monitor for at least one of 3 things:
 - **performance** of a device (responce time, hardware metrics, ...)
 - and **end point data** such as Strings (Words in an email, logs, ...) or Integers (Email volume, File counts, ...).
 
+(Syslog) File Content and Event Log Sensors for Linux and Windows machines are the most important sensors regarding security. Logs are the bedrock of detecting attacker reconnaissance which is the first step in the [cyber kill chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html).
+Besides these, Bandwidth Usage Sensor and Ping Sensors are very important in establishing a network baseline, monitoring data volumes and the connectivty in which all devices operate. WMI Security Center Sensor monitoring the security software updates of Windows machines, Port Sensors monitoring for potential attacks at port of entries, Packet Sniffer Sensor in IT Systems giving valuable insight into network traffic communications, these are all complimentary parts of developing a strong monitoring system tailored to detect potential attackers.
 
 Though PRTG sensors are themselves powerfull netowork monitoring tools, alone they are not a sufficient security practice to ensure the C.I.A. of devices on this network.
 
