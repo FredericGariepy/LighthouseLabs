@@ -12,6 +12,24 @@ Date: 2024-07-08
 
 
 # Table of Sensors:
+Bandwidth Usage Sensor (SNMP Traffic Sensor)
+Ping Sensor
+WMI Security Center Sensor
+WMI Event Log Sensor
+Folder Sensor (Sensitive folder sensor)
+File Content Sensor (Sensitive file sensor for Syslog)
+IMAP Sensor (Email sensor)
+MySQL v2 Sensor (Database Query Sensor)
+HTTP Apache ModStatus PerfStats Sensor
+SSH Sensor (Port Sensor)
+SSH Remote Ping Sensor
+System Health Sensor
+HTTP Load Time Sensor
+FTP Sensor
+Windows IIS Application Sensor
+Windows Process Sensor
+Packet Sniffer Sensor
+
 ## Network Asset sensors (All devices)
 
 | Sensor                         | Description                                                                                                 | System                 | IoCs                                                                                                     | Associated Rationale                                                                                          | Priority (SIL) | Thresholds / Assumptions                                                                                       |
