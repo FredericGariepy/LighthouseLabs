@@ -54,8 +54,10 @@ Packet Sniffer Sensor
 
 
 ## Specific Information Asset Sensors
+In order of category importance
 
 ### Marketing (P)
+Basic information (sensor context)
 > Microsoft Windows 11, version 23H2, (Sun Valley 3)
 >
 > Marketing SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
@@ -67,6 +69,7 @@ Packet Sniffer Sensor
 | Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor) | The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP). It can check the content of emails for certain keywords. | Microsoft Windows 11, version 23H2, (Sun Valley 3). Marketing Workstation | [Phishing for Information](https://attack.mitre.org/techniques/T1598/), [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/) | Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns | High           | Email Count, Search String in email (potentially integrating with AI for detection). |
 
 ### Sales (F) & (P)
+Basic information (sensor context)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 >
 > Sales SC = {(confidentiality, High), (integrity, Moderate), (availability, low)}
@@ -79,6 +82,7 @@ Packet Sniffer Sensor
 
  
 ### Developer Machines (IP)
+Basic information (sensor context)
 > Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
 >
 > IT Developer Machines SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)} 
@@ -100,6 +104,7 @@ Packet Sniffer Sensor
 
 
 ### Management functions (A)
+Basic information (sensor context)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 >
 > Management SC = {(confidentiality, Moderate), (integrity, low), (availability, low)}
@@ -107,6 +112,7 @@ Packet Sniffer Sensor
 
 
 ### PRTG Network Monitor (SM)
+Basic information (sensor context)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 > 
 > PRTG Probe 24.2.96.1315 | PRTG Server 24.2.96.1315
@@ -120,10 +126,11 @@ Packet Sniffer Sensor
 
 
 ### SQL database (S)
+Basic information (sensor context)
 > Microsoft Windows 11 Home, version 23H2, Sun Valley 3
 > > The Win 11 VM does not have an mySQL database installed. [fact source](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W2/D5/project/%5BSTEP%201%5D.md)
--  SQL database SC = {(confidentiality, Low), (integrity, low), (availability, Moderate)}
--  SQL database SIL = Moderate
+> SQL database SC = {(confidentiality, Low), (integrity, low), (availability, Moderate)}
+> SQL database SIL = Moderate
 
 | Sensor                                                  | Description                                                                                                           | System                                                | IoCs                                                                                                     | Associated Rationale                                                                                      | Priority (SIL) | Thresholds / Assumptions                                                   |
 |---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------|
@@ -131,6 +138,7 @@ Packet Sniffer Sensor
 
 
 ### Internet Information Services (IIS) webserver (S)
+Basic information (sensor context)
 > On Windows Server : Microsoft Windows 11 Home 10.0.22631 22631
 > 
 > IIS Version 10.0 | IIS webserver SIL = Moderate
@@ -159,6 +167,7 @@ Packet Sniffer Sensor
 
 
 ### Test System (S)
+Basic information (sensor context)
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
 >
 > Test System SC = {(confidentiality, Moderate), (integrity, low), (availability, low)}
@@ -171,6 +180,7 @@ Packet Sniffer Sensor
 
 
 ### IT System (S)
+Basic information (sensor context)
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
 >
 > IT System SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, Moderate)}
