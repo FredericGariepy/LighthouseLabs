@@ -143,15 +143,15 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 - |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
 - | IoCs: [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)
 - | Associated	Rationale : Checks for the Integrity and Availability of the SQL database. As seen in listed ports, the Linux VM has mysqld ports LISTENING.
-- |	Priority (SIL) : Moderate
+- |	Priority (SIL) : High
 - |	Thresholds / Assumptions : Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts.
 
 - | Sensor: [HTTP Apache ModStatus PerfStats Sensor](https://www.paessler.com/manuals/prtg/http_apache_modstatus_perfstats_sensor)
 - | Description: The HTTP Apache ModStatus PerfStats sensor monitors performance statistics of an Apache web server over HTTP.
 - |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
 - | IoCs: 
-- | Associated	Rationale : 
-- |	Priority (SIL) ; 
+- | Associated	Rationale : Attackers may try to 
+- |	Priority (SIL) : High
 - |	Thresholds / Assumptions : CPULoad, Workers Idle/Busy, Requests Per Second, UP/DOWN time
 
 - | Sensor: SSH Sensor [Port Sensor](https://www.paessler.com/manuals/prtg/port_sensor)
@@ -163,25 +163,14 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 - |	Thresholds / Assumptions : Upper bound thresholds response time < 100ms. Developer SSH port allows acces to HVA as should be monitored.
 
 - | Sensor: [SSH Remote Ping Sensor](https://www.paessler.com/manuals/prtg/ssh_remote_ping_sensor)
-- | Description: The SSH Remote Ping sensor remotely monitors the connectivity between a system running Linux/macOS X and another device, using Internet Control Message Protocol (ICMP) echo requests ("ping") and Secure Shell (SSH). We're essentially making sure that two devices can establish communication realiably.
+- | Description: The SSH Remote Ping sensor remotely monitors the connectivity between a system running Linux/macOS X and another device, using Internet Control Message Protocol (ICMP) echo requests ("ping") and Secure Shell (SSH). We're essentially making sure that two devices (Dev & Dev Server) can establish communication realiably.
 - |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
-- | IoCs: [Password spraying](https://attack.mitre.org/techniques/T1110/003/)
+- | IoCs: [Adversary-in-the-Middle](https://attack.mitre.org/techniques/T1557/), [Service Stop](https://attack.mitre.org/techniques/T1489/)
 - | Associated	Rationale: Password spraying "Commonly targeted services [...] MySQL (3306/TCP)" 
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
+- |	Priority (SIL) : High
+- |	Thresholds / Assumptions: Packet Loss, Response time (average, max, min), Downtime. This is important to measure in order to ensure that developers have steady access to their environment (availability). A baseline can help establish unusal response times which could be IoC for Adversary-in-the-Middle attacks (confidentiality/integrity).
 
 
-- | Sensor: 
-- | Description: 
-- |	System
-- | IoCs: [Password spraying](https://attack.mitre.org/techniques/T1110/003/)
-- | Associated	Rationale: Password spraying "Commonly targeted services [...] MySQL (3306/TCP)" 
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
-
-
-- [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
-- [Service Stop](https://attack.mitre.org/techniques/T1489/)
 
 
 
@@ -254,44 +243,6 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
 > IIS webserver SC = {(confidentiality, Moderate), (integrity, Moderate), (availability, low)}
 >
 > IIS webserver SIL = Moderate
-
-
-- | Sensor: HTTP Load Time
-- | Description: Monitors the time it takes for the page to load.
-- |	System: Microsoft Windows 11 Home, Version 10.0.22631
-- | IoCs: Malicious Redirects, DDoS Attacks, Content Injection	Unexpected changes in load time can indicate anomalies or performance-related issues that could indicate a security breach or compromise.
-- | Associated	Rationale : Linux web server being internal and outward facing (Assumption)
-- |	Priority (SIL): Medium (SIL of high, see assumptions)
-- |	Thresholds / Assumptions: SIL based on the fact that *BIG DOG does NOT have a large Web Presence*, the Low impact on availability, higher chance of compromise.
-
-  
-- | Sensor: [FTP Sensor](https://www.paessler.com/manuals/prtg/ftp_sensor)
-- | Description: he FTP sensor monitors file servers via the File Transfer Protocol (FTP) and FTP over SSL (FTPS). Monitors specified FTP port request response time and status (accepted).
-- |	System:  Microsoft Windows 11 Home, version 23H2, Sun Valley 3
-- | IoCs: [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048/)
-- | Associated Rationale : The IIS server can host FTP services which can be used for exfiltration of data.
-- |	Priority (SIL) : Moderate
-- |	Thresholds / Assumptions : Response time in msec. The Upper bound should indicate a unusual activity.
-
-
-- | Sensor: [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
-- | Description: Motonitors IIS server via Windows Management Instrumentation (WMI). Sensor gives insights into the performance, availability, and usage of the IIS server.
-- |	System : Microsoft Windows 11 Home, 23H2: IS Version 10.0
-- | IoCs : [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/)
-- | Associated	Rationale : The IIS is a webserver, file share server. Such a server can be poisoned and distribute harm internally and externally of the organization. A baseline is important to monitor the activity of the organization.
-- |	Priority (SIL) : Moderate
-- |	Thresholds / Assumptions : IIS sensor can monitor for bytes and Files (data) sent/received, http requests Get/Post, Status Up/Down, Users Known/Anonymous. It is a Very powerfull sensor which should be used to monitor important IIS operations by the organization.
-  
-
--  [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
--  [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/)
--  Denial of Service (DoS) Attacks
-   - PRTG Sensor: QoS (Quality of Service) Round Trip Sensor
-   > IoC: Sudden increase in network latency or packet loss
-- Port Scanning and Unauthorized Access Attempts
-   - PRTG Sensor: Port Sensor, SNMP Traffic Sensor
-   > IoC: Unusual number of connection attempts on multiple ports
-  
   Windows VM running services:
   ```cmd
    ProcessName FileVersion LocalPort  State
@@ -304,7 +255,42 @@ i_round_blueThe sensor can check the content of emails for certain keywords.
     svchost                       135 Listen
   ```
 
-  #### Recomendations:
+
+- | Sensor: HTTP Load Time
+- | Description: Monitors the time it takes for the page to load.
+- |	System: Microsoft Windows 11 Home, version 23H2 (Sun Valley 3)
+- | IoCs: Malicious Redirects, DDoS Attacks, Content Injection	Unexpected changes in load time can indicate anomalies or performance-related issues that could indicate a security breach or compromise.
+- | Associated	Rationale : Linux web server being internal and outward facing (Assumption)
+- |	Priority (SIL): Medium (SIL of high, see assumptions)
+- |	Thresholds / Assumptions: SIL based on the fact that *BIG DOG does NOT have a large Web Presence*, the Low impact on availability, higher chance of compromise.
+
+  
+- | Sensor: [FTP Sensor](https://www.paessler.com/manuals/prtg/ftp_sensor)
+- | Description: he FTP sensor monitors file servers via the File Transfer Protocol (FTP) and FTP over SSL (FTPS). Monitors specified FTP port request response time and status (accepted).
+- |	System:  Microsoft Windows 11 Home, version 23H2 (Sun Valley 3)
+- | IoCs: [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048/)
+- | Associated Rationale : The IIS server can host FTP services which can be used for exfiltration of data.
+- |	Priority (SIL) : Moderate
+- |	Thresholds / Assumptions : Response time in msec. The Upper bound should indicate a unusual activity.
+
+
+- | Sensor: [Windows IIS Application Sensor](https://www.paessler.com/manuals/prtg/wmi_iis_application_sensor)
+- | Description: Motonitors IIS server via Windows Management Instrumentation (WMI). Sensor gives insights into the performance, availability, and usage of the IIS server.
+- |	System : Microsoft Windows 11 Home, version 23H2 (Sun Valley 3).  IS Version 10.0.
+- | IoCs : [Server Software Component: IIS Components](https://attack.mitre.org/techniques/T1505/004/), [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
+- | Associated	Rationale : The IIS is a webserver public facing, file share server. Such a server can be poisoned and distribute harm internally and externally of the organization.
+- |	Priority (SIL) : Moderate
+- |	Thresholds / Assumptions : IIS sensor can monitor for bytes and Files (data) sent/received, http requests Get/Post, Status Up/Down, Users Known/Anonymous. It is a Very powerfull sensor which should be used to monitor important IIS operations by the organization.
+
+
+- | Sensor: [Windows Process Sensor](https://www.paessler.com/manuals/prtg/wmi_process_sensor#channels)
+- | Description: The Windows Process sensor monitors a Windows process via Windows Management Instrumentation (WMI) or Windows performance counters, as configured in the Windows Compatibility Options of the parent device.
+Microsoft Windows 11 Home, version 23H2 (Sun Valley 3)
+- | IoC : [Service Stop](https://attack.mitre.org/techniques/T1489/),
+- | Associated	Rationale : A baseline is important to monitor the activity of the organization and monitor for potentiall atacks on availability.
+- |	Priority (SIL) : Moderate
+- |	Thresholds / Assumptions : CPU, Handles, Instances, Threads, Working Set. Everything to monitor the performannce of the IIS server, since it has a webserver and FTP (inluding Windows Fileshare).
+
 
 ### Test System (S)
 > Kali GNU/Linux (debian) version 2024.2 (kali-rolling)
@@ -388,38 +374,3 @@ Suspicious Process Activity
 PRTG Sensor: Windows Process Sensor
 IoC: Appearance of unknown processes or unexpected behavior of known processes
 
-
-DNS Query Anomalies (potential DNS tunneling)
-
-PRTG Sensor: DNS Query Sensor
-IoC: Unusual volume or pattern of DNS queries
-
-
-SSL Certificate Issues
-
-PRTG Sensor: SSL Security Check Sensor
-IoC: Expired certificates, weak encryption, or untrusted CAs
-
-
-Email Server Anomalies
-[IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor)
-PRTG Sensor: IMAP Sensor, POP3 Sensor
-IoC: Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns
-
-
-Database Performance Issues
-
-PRTG Sensor: Microsoft SQL Server Sensor
-IoC: Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts
-
-
-Unusual Network Connections
-
-PRTG Sensor: Ping Sensor, Port Sensor
-IoC: New connections to unfamiliar IP addresses or on unexpected ports
-
-
-Web Server Vulnerabilities
-
-PRTG Sensor: HTTP Advanced Sensor, HTTP Full Web Page Sensor
-IoC: Unusual response codes, increased error rates, or changes in response time
