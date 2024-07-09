@@ -4,9 +4,7 @@
 # Cat Scan II Big Dog
 Date: 2024-07-08
 ## Contents:
-
-[Video Presentation](https://youtu.be/lhUcoYOcGR0)
-
+<!--[Video Presentation](https://youtu.be/lhUcoYOcGR0)-->
 1. [Executive Summary](#executive-summary)
 2. [Table of sensors](#table-of-sensors)
 3. [Discussion section](#discussion-section)
