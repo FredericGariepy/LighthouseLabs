@@ -23,7 +23,13 @@ ___
 - |	Priority (SIL): 
 - |	Thresholds / Assumptions : Thresholds: Traffic In, Traffic Out : 0.03mbits Upper bound. Total Traffic 0.43mbits Upper Bound.
 
-
+- | Sensor:  [Ping](https://www.paessler.com/manuals/prtg/ping_sensor)
+- | Description: The Ping sensor sends an Internet Control Message Protocol (ICMP) echo request ("ping") from the probe system to the parent device to monitor its availability.
+- |	System : ALL
+- | IoCs : DDoS.
+- | Associated Rationale: This is simple, low resource use and reliable PING sensor. It is a default sensor and is used to test network connectivity.
+- |	Priority (SIL): Low
+- |	Thresholds / Assumptions : Device Downtime, Packet Loss, Ping time. Although ping is not a cornerstone of cyber security is helps establish a reliable baseline of network connectivity and can detect interuptions and unusual downtime on the network.
 
 
 
@@ -49,6 +55,17 @@ ___
 - |	Priority (SIL) : High. Event logs are the bedrock of reconnaissance & intrusion detection.
 - |	Thresholds / Assumptions : Narrow down to event down to any attribute (type, Event ID, user, message, etc). Additonally Set-up (trap) Task related to important events. Use event ID 104/1102 for Indicator Removal: Clear Windows Event Logs. Use Event ID 33205 for Brute Force attempts.
 
+
+- | Sensor: [Folder Sensor](https://www.paessler.com/manuals/prtg/folder_sensor)
+- | Description: The Folder sensor monitors a folder via Server Message Block (SMB). You can monitor file changes and file ages.
+- |	System : Microsoft Windows 11 Home, version 23H2 (Sun Valley 3)
+- | IoCs : [File and Directory Permissions Modification: Windows File and Directory Permissions Modification](https://attack.mitre.org/techniques/T1222/001/)
+- | Associated	Rationale : Detect unexpected changes in critical system folders.
+- |	Priority (SIL) : Moderate
+- |	Thresholds / Assumptions: File Count, Folder Size, file modifications.
+
+
+
   
 ### Linux
 - | Sensor: [File Content Sensor](https://www.paessler.com/manuals/prtg/file_content_sensor)
@@ -69,16 +86,14 @@ ___
 >
 > Marketing SIL = High
 
-- | Sensor:
-- | Description: 
-- |	System
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
-
-- [Phishing for Information](https://attack.mitre.org/techniques/T1598/)
-- [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
+- | Sensor: Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor)
+- | Description: The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP) unlike POP3 sensors.
+i_round_blueThe sensor can check the content of emails for certain keywords. 
+- |	System : icrosoft Windows 11, version 23H2, (Sun Valley 3)
+- | IoCs : [Phishing for Information](https://attack.mitre.org/techniques/T1598/) ,[Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
+- | Associated	Rationale : Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns
+- |	Priority (SIL) : High
+- |	Thresholds / Assumptions: Email Count, Search String in email (potentailly integrating with AI for detection).
 
 
 ### Sales (F) & (P)
@@ -88,6 +103,16 @@ ___
 >
 > Sales SIL = High
 
+- | Sensor: Email sensor [IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor)
+- | Description: The IMAP sensor monitors an email server via the Internet Message Access Protocol (IMAP) unlike POP3 sensors.
+i_round_blueThe sensor can check the content of emails for certain keywords. 
+- |	System : icrosoft Windows 11, version 23H2, (Sun Valley 3)
+- | IoCs : [Phishing for Information](https://attack.mitre.org/techniques/T1598/) ,[Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
+- | Associated	Rationale : Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns
+- |	Priority (SIL) : High
+- |	Thresholds / Assumptions: Email Count, Search String in email (potentailly integrating with AI for detection).
+
+
 - | Sensor:
 - | Description: 
 - |	System
@@ -96,8 +121,6 @@ ___
 - |	Priority (SIL)
 - |	Thresholds / Assumptions
 
-- [Phishing for Information](https://attack.mitre.org/techniques/T1598/)
-- [Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
 
  
 ### Developer Machines (IP)
@@ -117,20 +140,20 @@ ___
 - | Sensor: [MySQL v2 Sensor Database Query Sensor](https://www.paessler.com/manuals/prtg/mysql_v2_sensor)
 - | Description:  sensor monitors a database on a MySQL server and executes a query.
 - |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
-- | IoCs: https://attack.mitre.org/techniques/T1210/
-- | Associated	Rationale : 
-- |	Priority (SIL) ; 
-- |	Thresholds / Assumptions :  (State Threshold Change)
+- | IoCs: [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)
+- | Associated	Rationale : Checks for the Integrity and Availability of the SQL database. As seen in listed ports, the Linux VM has mysqld ports LISTENING.
+- |	Priority (SIL) : Moderate
+- |	Thresholds / Assumptions : Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts.
 
 
-- | Sensor:
-- | Description:  sensor monitors a database on a MySQL server and executes a query.
+
+- | Sensor: [HTTP Apache ModStatus PerfStats Sensor](https://www.paessler.com/manuals/prtg/http_apache_modstatus_perfstats_sensor)
+- | Description: The HTTP Apache ModStatus PerfStats sensor monitors performance statistics of an Apache web server over HTTP.
 - |	System : Linux OS: Ubuntu (debian) 22.04.4 LTS (Jammy Jellyfish)
-- | IoCs: Check if query 
+- | IoCs: 
 - | Associated	Rationale : 
 - |	Priority (SIL) ; 
-- |	Thresholds / Assumptions :
-- 
+- |	Thresholds / Assumptions : CPULoad, Workers Idle/Busy, Requests Per Second, UP/DOWN time
 
 
 
@@ -210,17 +233,10 @@ ___
 - | IoCs: [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)
 - | Associated	Rationale : Checks for the Integrity and Availability of the SQL database.
 - |	Priority (SIL) : Moderate
-- |	Thresholds / Assumptions : 
+- |	Thresholds / Assumptions : Sudden changes in query execution times or connection counts, which could indicate SQL injection attempts.
 
 
-- | Sensor:  [Ping](https://www.paessler.com/manuals/prtg/ping_sensor)
-- | Sensor:  [Port](https://www.paessler.com/manuals/prtg/port_sensor)
-- | Description: 
-- |	System
-- | IoCs
-- | Associated	Rationale
-- |	Priority (SIL)
-- |	Thresholds / Assumptions
+
 
 
 
@@ -356,7 +372,7 @@ IoC: Unusually high CPU or memory usage, which could indicate malware or cryptom
 
 Unauthorized File System Changes
 
-PRTG Sensor: Folder Sensor
+PRTG Sensor: [Folder Sensor](https://www.paessler.com/manuals/prtg/folder_sensor)
 IoC: Unexpected changes in critical system folders
 
 
@@ -379,7 +395,7 @@ IoC: Expired certificates, weak encryption, or untrusted CAs
 
 
 Email Server Anomalies
-
+[IMAP Sensor](https://www.paessler.com/manuals/prtg/imap_sensor)
 PRTG Sensor: IMAP Sensor, POP3 Sensor
 IoC: Unusual volume of emails or connection attempts, potentially indicating spam or phishing campaigns
 
