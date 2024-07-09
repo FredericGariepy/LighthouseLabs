@@ -53,7 +53,7 @@ Do: \d{3} = \d\d\d
 ## tab `\t`
 ##  new line `\n`
 ## Carriage return `\r` [*WINDOWS*]
-## Special characters `\s`
+## Special characters `\S`
 
 ## ends with `$`
 e.g. a$ == END OF LINE character IS `a`
