@@ -1,6 +1,6 @@
 # egrep
 `egrep -i 'dude' Dude_wheres_my_car_script.txt | wc -l`
-- `'dude'` dude
+- `'dude'` dude. if dude was (dude), it would be a capture group. I'd be captured dude.
 - `-i`: case insenstive
 - `wc -l` word count (wc) `-l` line number
 Meaning, how many Lines have the word 'dude', in the movie 'Dude where's my car'
