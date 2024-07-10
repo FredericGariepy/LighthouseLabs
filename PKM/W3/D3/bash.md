@@ -8,3 +8,17 @@ The Bash shell includes the following predefined variables:
 - `$!` which stores the PID of the last background process, which helps track the process as work is carried out;
 - `$0`, ..., `$9` which stores the values ​​of all command line parameters separately
   
+## Global Variables
+The LANG environment variable comes pre-defined in several Linux distributions!
+> $ `export LANG=en_US.UTF-8`
+
+- `PATH`: defines search directories for programs executed in the shell;
+- `USER`: informs the name of the shell user;
+- `HOME`: informs the path of the user's home directory;
+- `LANG`: Language/Language, specified as locale;
+- `PWD`: current directory;
+- `TERM`: Current terminal type in use.
+- `UID`: UID of the current user.
+- `RANDOM`: Generates a random number
+
+  
