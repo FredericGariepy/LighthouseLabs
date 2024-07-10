@@ -28,6 +28,12 @@ egrep -i '(dude).*\1' Dude_wheres_my_car_script.txt | wc -l
 - `.*` including anything up until  `\1` capture group 1, which is dude
 Meaning, how many times they say 'dude' at **least 2 times** in the same line, in the movie 'Dude where's my car'
 
+```bash
+dude=$(egrep -i c 'dude' Dude_wheres_my_car_script.txt ) # -c is count
+movie_lines=$(wc -l < Dude_wheres_my_car_script.txt ) # < is important to redirect
+echo "scale=2; ($dude / $movie_lines) * 100" | bc # bc is basic calculator and scale is for decimal
+>> 3.00
+```
 
 ## sed 
 Replace "apple" with "orange" in file.txt
