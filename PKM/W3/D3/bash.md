@@ -15,17 +15,22 @@ fi
 egrep -i 'dude' Dude_wheres_my_car_script.txt | wc -l
 ```
 - `'dude'` dude. if dude was (dude), it would be a capture group. Id be captured dude.
+
 - `-i`: case insenstive
+
 - `wc -l` word count (wc) `-l` line number
+
 Meaning, how many Lines have the word 'dude', in the movie 'Dude where's my car'
 
-egrep -i -c 'dude' Dude_wheres_my_cat_script.txt
+`egrep -i -c 'dude' Dude_wheres_my_cat_script.txt`
+
 - `c` counts number of lines that match insenstive matches-i
 
 ```bash
 egrep -i '(dude).*\1' Dude_wheres_my_car_script.txt | wc -l
 ```
 - `.*` including anything up until  `\1` capture group 1, which is dude
+
 Meaning, how many times they say 'dude' at **least 2 times** in the same line, in the movie 'Dude where's my car'
 
 ```bash
