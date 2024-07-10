@@ -1,3 +1,11 @@
+## awk
+`awk '/regex_pattern/ { action }' file`
+
+- /regex_pattern/: This is where you specify your regex pattern enclosed in slashes (/). awk will match lines where this pattern is found.
+- { action }: Action to perform when the pattern matches. It could be printing the line (print), extracting specific fields ($1, $2, etc.), or any other operation.
+
+
+
 ## Pre-defined Variables
 The Bash shell includes the following predefined variables:
 
