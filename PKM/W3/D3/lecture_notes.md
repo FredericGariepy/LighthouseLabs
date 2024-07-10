@@ -21,3 +21,5 @@
 ### typo squatting - explanation
 > A common way this is leveraged is through 'typo squatting'. 
 By introducing a new package in such repositories, with a name very similar to popular packages, the chance increases that the package can either be referenced unintentionally by a developer, or that the dependency is introduced by the attacker on the original project through a PR, without standing out as an attack. In August 2021, researchers tracked around 8 malicious python libraries, downloaded more than 30,000 times back then340 . Another use case is the use of rogue python libraries to steal information such as credentials. In June 2022 pygrata and loglib were found to extract AWS keys341 . In august 2022, research uncovered more than 10 such packages. AsciI2text is an example of this type of malware; it will look for local passwords and upload them back to the attacker's infrastructure342 .
+
+[Prompt Engineering Guide](https://www.promptingguide.ai/) website - guide
