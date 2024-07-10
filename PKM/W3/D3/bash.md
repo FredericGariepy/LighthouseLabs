@@ -5,6 +5,9 @@
 - `wc -l` word count (wc) `-l` line number
 Meaning, how many Lines have the word 'dude', in the movie 'Dude where's my car'
 
+egrep -i -c 'dude' Dude_wheres_my_cat_script.txt
+- `c` counts number of lines that match insenstive matches-i
+
 
 
 `egrep -i '(dude).*\1' Dude_wheres_my_car_script.txt | wc -l`
