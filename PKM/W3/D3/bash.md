@@ -1,3 +1,17 @@
+# egrep
+`egrep -i '(dude)' Dude_wheres_my_car_script.txt | wc -l`
+- `'(dude)'` capture group
+- `-i`: case insenstive
+- `wc -l` word count (wc) `-l` line number
+Meaning, how many Lines have the word 'dude', in the movie 'Dude where's my car'
+
+
+
+`egrep -i '(dude).*\1' Dude_wheres_my_car_script.txt | wc -l`
+- `.*` including anything up until  `\1` capture group 1, which is dude
+Meaning, how many times they say 'dude' at **least 2 times** in the same line, in the movie 'Dude where's my car'
+
+
 ## sed 
 Replace "apple" with "orange" in file.txt
 `sed 's/apple/orange/g' file.txt`
