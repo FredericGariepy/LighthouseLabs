@@ -1,3 +1,12 @@
+## sed 
+Replace "apple" with "orange" in file.txt
+`sed 's/apple/orange/g' file.txt`
+
+➡️ why s and g ?
+> s = substitute
+>
+> g = global. meaning, all the file
+
 ## awk
 `awk '/regex_pattern/ { action }' file`
 
