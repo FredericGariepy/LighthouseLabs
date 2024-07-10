@@ -14,3 +14,8 @@
 [JupiterOne](https://www.jupiterone.com/?device=c&utm_source=google&utm_medium=cpc&utm_campaign=Branded&utm_content=JupiterOne&utm_term=jupiter%20one&gad_source=1&gclid=EAIaIQobChMI2LC09eichwMV9uHjBx1XWgF0EAAYASAAEgJVNPD_BwE)
 > Cyber Assets Monitored — JupiterOne: Cyber asset analysis for total enterprise visibility. Aggregate and normalize data across all asset
 
+[Enisa: threat landscape 2023](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2023)
+
+### typo squatting
+> A common way this is leveraged is through 'typo squatting'. 
+By introducing a new package in such repositories, with a name very similar to popular packages, the chance increases that the package can either be referenced unintentionally by a developer, or that the dependency is introduced by the attacker on the original project through a PR, without standing out as an attack. In August 2021, researchers tracked around 8 malicious python libraries, downloaded more than 30,000 times back then340 . Another use case is the use of rogue python libraries to steal information such as credentials. In June 2022 pygrata and loglib were found to extract AWS keys341 . In august 2022, research uncovered more than 10 such packages. AsciI2text is an example of this type of malware; it will look for local passwords and upload them back to the attacker's infrastructure342 .
