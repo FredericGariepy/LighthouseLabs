@@ -1,3 +1,4 @@
+## Pre-defined Variables
 The Bash shell includes the following predefined variables:
 
 - `$?` which stores the exit status of the last executed program;
