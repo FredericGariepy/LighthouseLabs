@@ -55,6 +55,15 @@ Related links
 | `/p`   | Prompt for Input             | `set /p Name=Enter your name:` |
 | `/?`   | Help                         | `set /?`                       |
 
+
+`echo %%`
+> %
+
+Usually, variables are %betweeen% percentage signs to be interpreted as a variable
+
+
+
+
 - [select partition command](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/select-partition)
 
 
