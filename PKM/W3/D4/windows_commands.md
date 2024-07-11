@@ -1,3 +1,4 @@
+## Before you begin wizzarding into the windows shell 🪄 
 ## `dos2unix` `unix2dos`
 > dos2unix is a tool to convert text files from DOS line endings (carriage return + line feed) to Unix line endings (line feed)
 > unix2dos is a tool to convert line breaks in a text file from Unix format to DOS format and vice versa.
@@ -42,6 +43,16 @@ Related links
 | `start`  | Starts a separate window to run a program    | `start notepad.exe`                          |
 
 
+## set options (set switch)
+> switch is just another word for option
+| SET | description | example| 
+| - | - | - |
+| `set`    | Defines a variable                           | `set /p name=Enter your name:`               |
+| option | Description                  | Example                        |
+|--------|------------------------------|--------------------------------|
+| `/a`   | Arithmetic Mode              | `set /a Sum=5+3`               |
+| `/p`   | Prompt for Input             | `set /p Name=Enter your name:` |
+| `/?`   | Help                         | `set /?`                       |
 
 - [select partition command](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/select-partition)
 
