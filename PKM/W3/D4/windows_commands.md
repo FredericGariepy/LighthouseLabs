@@ -12,6 +12,17 @@ Related links
 | Ellipsis (…) |	Items that can be repeated and used multiple times. |
 
 
+| Command  | Description                                  | Example                       |
+| -        | -                                            | -                             |
+| `@echo`  | Turns command echoing on/off                 | `@echo off`                   |
+| `echo`   | Displays messages                            | `echo Hello, World!`          |
+| `set`    | Defines a variable                           | `set /p name=Enter your name:`|
+| `if`     | Conditional execution                        | `if %age% GEQ 18 (echo Adult)`|
+| `for`    | Loop through a set of values                 | `for /L %%i in (1,1,5) do echo %%i` |
+| `goto`   | Jump to a labeled line                       | `goto :myLabel`               |
+| `call`   | Calls another batch file or function         | `call :myFunction`            |
+| `pause`  | Pauses execution and waits for a key press   | `pause`                       |
+| `rem`    | Adds a comment                               | `rem This is a comment`       |
 
 - cls
 - del
