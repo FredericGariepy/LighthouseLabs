@@ -45,6 +45,7 @@ Related links
 
 ## set options (set switch)
 > switch is just another word for option
+
 | SET | description | example| 
 | - | - | - |
 | `set`    | Defines a variable                           | `set /p name=Enter your name:`               |
