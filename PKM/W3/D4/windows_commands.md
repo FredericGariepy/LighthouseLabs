@@ -1,3 +1,8 @@
+## `dos2unix` `unix2dos`
+> dos2unix is a tool to convert text files from DOS line endings (carriage return + line feed) to Unix line endings (line feed)
+> unix2dos is a tool to convert line breaks in a text file from Unix format to DOS format and vice versa.
+
+
 [Windows command line](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 Related links
 - [Command-Line Syntax Key](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/command-line-syntax-key)
