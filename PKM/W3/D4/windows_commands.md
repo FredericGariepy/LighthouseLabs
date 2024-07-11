@@ -2,6 +2,14 @@
 > dos2unix is a tool to convert text files from DOS line endings (carriage return + line feed) to Unix line endings (line feed)
 > unix2dos is a tool to convert line breaks in a text file from Unix format to DOS format and vice versa.
 
+| Command   | Description                                | Example                  |
+| -         | -                                          | -                        |
+| dos2unix  | Convert DOS/Windows (CRLF) to Unix (LF)    | `dos2unix myscript.bat`  |
+| unix2dos  | Convert Unix (LF) to DOS/Windows (CRLF)    | `unix2dos myscript.sh`   |
+
+- LF (Line Feed): Represented as \n, it is the Unix and Unix-like systems' line ending character.
+- CRLF (Carriage Return + Line Feed): Represented as \r\n, it is the DOS/Windows line ending character.
+
 
 [Windows command line](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 Related links
