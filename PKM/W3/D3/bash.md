@@ -1,3 +1,7 @@
+[ Bash scripting cheatsheet ](https://devhints.io/bash)
+
+[Bash Scripting Tutorial](https://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php)
+
 ## regular expression match with `=~`
 
 ```bash
