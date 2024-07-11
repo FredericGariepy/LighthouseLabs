@@ -12,29 +12,22 @@ Related links
 | Ellipsis (…) |	Items that can be repeated and used multiple times. |
 
 
-| Command  | Description                                  | Example                       |
-| -        | -                                            | -                             |
-| `@echo`  | Turns command echoing on/off                 | `@echo off`                   |
-| `echo`   | Displays messages                            | `echo Hello, World!`          |
-| `set`    | Defines a variable                           | `set /p name=Enter your name:`|
-| `if`     | Conditional execution                        | `if %age% GEQ 18 (echo Adult)`|
-| `for`    | Loop through a set of values                 | `for /L %%i in (1,1,5) do echo %%i` |
-| `goto`   | Jump to a labeled line                       | `goto :myLabel`               |
-| `call`   | Calls another batch file or function         | `call :myFunction`            |
-| `pause`  | Pauses execution and waits for a key press   | `pause`                       |
-| `rem`    | Adds a comment                               | `rem This is a comment`       |
+| Command  | Description                                  | Example                                      |
+| -        | -                                            | -                                            |
+| `@echo`  | Turns command echoing on/off                 | `@echo off`                                  |
+| `cls`    | Clears the screen                            | `cls`                                        |
+| `del`    | Deletes a file                               | `del filename.txt`                           |
+| `echo`   | Displays messages                            | `echo Hello, World!`                         |
+| `set`    | Defines a variable                           | `set /p name=Enter your name:`               |
+| `if`     | Conditional execution                        | `if %age% GEQ 18 (echo Adult)`               |
+| `for`    | Loop through a set of values                 | `for /L %%i in (1,1,5) do echo %%i`          |
+| `goto`   | Jump to a labeled line                       | `goto :myLabel`                              |
+| `call`   | Calls another batch file or function         | `call :myFunction`                           |
+| `pause`  | Pauses execution and waits for a key press   | `pause`                                      |
+| `rem`    | Adds a comment                               | `rem This is a comment`                      |
+| `move`   | Moves a file to a new location               | `move filename.txt C:\newfolder`             |
+| `start`  | Starts a separate window to run a program    | `start notepad.exe`                          |
 
-- cls
-- del
-- echo
-- for
-- goto
-- if
-- move
-- pause
-- rem
-- set
-- start
 
 
 - [select partition command](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/select-partition)
