@@ -13,6 +13,17 @@ Related links
 
 
 
+- cls
+- del
+- echo
+- for
+- goto
+- if
+- move
+- pause
+- rem
+- set
+- start
 
 
 - [select partition command](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/select-partition)
