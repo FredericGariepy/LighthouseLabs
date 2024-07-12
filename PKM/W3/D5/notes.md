@@ -57,8 +57,11 @@ Why analyzing log files instead of using a network intrusion detection system?
 
 
 # CRON (Linux)
+[CRON CHEAT SHEEEETT ](https://devhints.io/cron)
 > CRON is 🔥 a daemon 🔥
 - **On Windows**, background processes: ‘services’
+
+
 
 
 
