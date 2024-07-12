@@ -40,3 +40,6 @@ Why analyzing log files instead of using a network intrusion detection system?
 - NIDS are designed to work on the TCP/IP level, and thus they may not be as effective on the HTTP layer
 - IDS evasion techniques (HTTP, encoding, fragmenting, ...)
 
+
+### Common Log Format
+[Common Log Format](https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch07s12.html)
