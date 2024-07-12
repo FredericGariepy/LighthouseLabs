@@ -1,8 +1,8 @@
 [Detecting Attacks on Web Applications from Log Files- Roger Meyer](https://sansorg.egnyte.com/dl/jmtbTzYCuX)
 > I love you Roger, so clear
 
-[Configuring syslog-ng on Linux OS](https://www.ibm.com/docs/en/dsm?topic=os-configuring-syslog-ng-linux)
-[Configuring Linux OS to send audit logs](https://www.ibm.com/docs/en/dsm?topic=os-configuring-linux-send-audit-logs)
+- [Configuring syslog-ng on Linux OS](https://www.ibm.com/docs/en/dsm?topic=os-configuring-syslog-ng-linux)
+- [Configuring Linux OS to send audit logs](https://www.ibm.com/docs/en/dsm?topic=os-configuring-linux-send-audit-logs)
 
 
 | acro | def |
