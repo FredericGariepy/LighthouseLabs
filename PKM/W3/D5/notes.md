@@ -1,7 +1,14 @@
+
+
 Self-questions:
 
 Log rotation, older files get their name incremented. 
 - How can access logs increment their files names, whithout changing their associated modfidication dates?
+Answer: `touch -d` option gives the option
+
+### How to centralize logs in Windows?
+[Centralizing Windows Logs](https://www.loggly.com/ultimate-guide/centralizing-windows-logs/)
+
 
 ### How to log monitor (linux)?
 > Setup a syslog-ng server and setup rsyslogd on your other machines to forward their logs to the syslog-ng server.
