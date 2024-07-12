@@ -1,4 +1,8 @@
-
+| acro | def |
+|-|-|
+|NIDS|Network-Based Intrusion Detection System|
+|IDS|Intrusion detection systems|
+|WAF|Web Application Firewall|
 
 Self-questions:
 
@@ -10,13 +14,14 @@ Answer: `touch -d` option gives the option
 [Centralizing Windows Logs](https://www.loggly.com/ultimate-guide/centralizing-windows-logs/)
 
 
-### How to log monitor (linux)?
+
 > Setup a syslog-ng server and setup rsyslogd on your other machines to forward their logs to the syslog-ng server.
 >
 > You can configure the syslog-ng to create a subfolder for each of the machines that are sending logs based on the remote ip or reverse-dns to organize everything.
 >
 > Thank you [nikade87](https://www.reddit.com/user/nikade87/) on reddit [covo](https://www.reddit.com/r/selfhosted/comments/1031chv/simple_way_to_centralize_my_server_logs/)
 
+### How to log monitor (linux)?
 Syslog-ng
 - [Configuring syslog-ng on Linux OS](https://www.ibm.com/docs/en/dsm?topic=os-configuring-syslog-ng-linux)
 - [Configuring Linux OS to send audit logs](https://www.ibm.com/docs/en/dsm?topic=os-configuring-linux-send-audit-logs)
@@ -27,10 +32,6 @@ Syslog-ng
 [Detecting Attacks on Web Applications from Log Files- Roger Meyer](https://sansorg.egnyte.com/dl/jmtbTzYCuX)
 > I love you Roger, so clear
 
-| acro | def |
-|-|-|
-|NIDS|Network-Based Intrusion Detection System|
-|IDS|Intrusion detection systems|
 
 
 Why analyzing log files instead of using a network intrusion detection system?
