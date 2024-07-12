@@ -1,8 +1,11 @@
+## Glossary 
 | acro | def |
 |-|-|
 |NIDS|Network-Based Intrusion Detection System|
 |IDS|Intrusion detection systems|
 |WAF|Web Application Firewall|
+|IPS|Intrusion Prevention System
+
 
 Self-questions:
 
