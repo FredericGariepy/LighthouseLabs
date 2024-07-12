@@ -51,15 +51,12 @@ Why analyzing log files instead of using a network intrusion detection system?
 [Common Log Format](https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch07s12.html)
 
 
-
-## Content (Compas) notes
-> Cyber Security analysts protecting a website should be intimately familiar with standard web server logs corresponding to the normal use of their web apps.
-
-
 # CRON (Linux)
 [CRON CHEAT SHEEEETT ](https://devhints.io/cron)
 > CRON is 🔥 a daemon 🔥
 - **On Windows**, background processes: ‘services’
+
+[Crontab Generator](https://crontab-generator.org/)
 
 
 
