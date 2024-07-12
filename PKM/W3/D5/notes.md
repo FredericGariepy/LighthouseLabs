@@ -7,6 +7,8 @@
 |IPS|Intrusion Prevention System
 
 
+TO get out of `sudo -i` (become root) `exit` 
+
 Self-questions:
 
 Log rotation, older files get their name incremented. 
@@ -56,3 +58,8 @@ Why analyzing log files instead of using a network intrusion detection system?
 
 # CRON (Linux)
 > CRON is 🔥 a daemon 🔥
+- **On Windows**, background processes: ‘services’
+
+
+
+
