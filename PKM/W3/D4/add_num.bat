@@ -1,5 +1,5 @@
 @echo off
-rem Turn off command echoing
+rem Turn off command echoing, @ applies command to its own line
 
 echo Enter two numbers to add:
 rem Prompt the user
