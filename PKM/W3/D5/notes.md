@@ -52,3 +52,7 @@ Why analyzing log files instead of using a network intrusion detection system?
 
 ## Content (Compas) notes
 > Cyber Security analysts protecting a website should be intimately familiar with standard web server logs corresponding to the normal use of their web apps.
+
+
+# CRON (Linux)
+> CRON is 🔥 a daemon 🔥
