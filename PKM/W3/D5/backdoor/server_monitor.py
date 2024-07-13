@@ -1,3 +1,4 @@
+# SERVER SIDE MONITOR
 import socket
 def Main():
   host = socket.gethostname()
