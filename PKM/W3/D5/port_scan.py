@@ -46,5 +46,6 @@ def main():
     # Call find_port function with user input
     find_port(targetIp, timeout)
 
+# Ensures that main() is executed when the script is run directly (not imported as a module).
 if __name__ == "__main__":
     main()
