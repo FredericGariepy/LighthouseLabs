@@ -8,7 +8,7 @@
 
 ### FIND IP addresses to hostnames
 `sudo cat /etc/hosts`
-This command will display the contents of the /etc/hosts file, which typically contains mappings of IP addresses to hostnames used for local hostname resolution.
+> This command will display the contents of the /etc/hosts file, which typically contains mappings of IP addresses to hostnames used for local hostname resolution.
 
 ## Windows
 ### FIND interpreter
