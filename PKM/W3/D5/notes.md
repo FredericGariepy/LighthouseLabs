@@ -7,6 +7,9 @@
 |IPS|Intrusion Prevention System
 
 
+[https://www.ossec.net/docs/log_samples/apache/apache.html#apache-access-log-failure-code-4xx](htps://www.ossec.net/docs/log_samples/apache/apache.html#apache-access-log-failure-code-4xx)
+
+
 TO get out of `sudo -i` (become root) `exit` 
 
 Self-questions:
