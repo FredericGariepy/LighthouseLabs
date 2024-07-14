@@ -1,3 +1,20 @@
+## workflow idea  - HOW TO analyze *logs*
+
+lookup log syntax for services
+https://httpd.apache.org/docs/2.4/logs.html
+
+
+copy syntax into regex syntax with capture groups to make log={key:val}
+https://httpd.apache.org/docs/2.4/logs.html
+
+
+use regex syntax as dictionary in python to write rules for observing
+
+
+
+
+
+
 ## Linux
 ### FIND maximum number of PID
 `cat /proc/sys/kernel/pid_max`
