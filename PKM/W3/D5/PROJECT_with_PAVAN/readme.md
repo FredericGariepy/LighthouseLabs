@@ -1,3 +1,5 @@
+> [!TIP]
+> In Client.py **change** `server_addr` to server IP
 ## dependency
 `sudo apt install inotify-tools`
 ## workflow
@@ -29,8 +31,6 @@
 > > 2. threshold condition, if 'log rate' for *dangerous-logs-file.txt* is too high, then do security related event
 > >
 
-> [!TIP]
-> In Client.py **change** `server_addr` to server IP
 
 ## resources
 [Sample Access logs](https://www.ossec.net/docs/log_samples/apache/apache.html#log-samples-from-apache)
