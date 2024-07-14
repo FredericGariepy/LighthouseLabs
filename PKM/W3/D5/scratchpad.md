@@ -1,3 +1,8 @@
+# Solution 
+SERVER SCRIPT: set host to 0.0.0.0 listening for all.
+CLIENT SCRIPT: set host to server addr.
+____
+
 ## CLIENT
 student@linux-server:~/Documents/python_scripts/server_client$ nc -zv 192.168.56.101 4444
 
@@ -50,4 +55,10 @@ RETURN     0    --  0.0.0.0/0            0.0.0.0/0
 Chain DOCKER-USER (1 references)
 target     prot opt source               destination         
 RETURN     0    --  0.0.0.0/0            0.0.0.0/0     
+```
+Solution found
+```bash
+student@linux-server:~/Documents/python_scripts/server_client$ nc -zv 192.168.56.101 4444
+Connection to 192.168.56.101 4444 port [tcp/*] succeeded!
+student@linux-server:~/Documents/python_scripts/server_client$ 
 ```
