@@ -1,4 +1,5 @@
 ## workflow
+0. fetch.sh should be changed to read from `tail -f`, if the system is to be synchronous. `cat file.log` is asynchronous in security.
 1.  in client.py, use split('\n') on fetch_log.sh, send single log lines as message to server
 > although we agree, in the real world, a max byte size with arbitrary message size would be safer
 >
