@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import socket
 import sys
 import os
@@ -7,15 +8,15 @@ def Main():
   serversocket = socket.socket()
   serversocket.bind((host,port))
   serversocket.listen(1)
-  print('Socket listening')
+  print('Socket listening...')
 
 
   while True:
      conn,addr = serversocket.accept() # 2
-     print("HELLLOOO PAAAAAVVV %s" % str(addr)) 
-     
+     print("Accepted connection from  %s" % str(addr)) 
+
      received = conn.recv(1024).decode('ascii') # receive 1024 bytes
-     print(received+"LOLOLOLOLO")
+     print(received) # this is data
 
      msg = 'Connecting Established'+ "\r\n"
      conn.send(msg.encode('ascii')) #3
