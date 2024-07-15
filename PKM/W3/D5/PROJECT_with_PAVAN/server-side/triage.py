@@ -76,7 +76,7 @@ def match_log_line(log_line):
                 #print(error_log_line) 
                 #print(error_log_line['date'])
                 #print(error_log_line['loglevel'])
-                print(error_log_line['pid'])
+                #print(error_log_line['pid'])
                 #print(error_log_line['message'])
         except:
             pass
