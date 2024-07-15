@@ -1,21 +1,15 @@
+> [!NOTE]
+> Here two log fetching solutions. One for error logs, another for access log.
+>
+> *Run both in background*. They feed to the same client.py file.
+
 > [!TIP]
-> In Client.py **change** `server_addr` to server IP
-## dependency
-`sudo apt install inotify-tools`
-## workflow
-0. fetch.sh should be changed to read from `tail -f`, if the system is to be synchronous. `cat file.log` is asynchronous in security.
-1.  in client.py, use split('\n') on fetch_log.sh, send single log lines as message to server
-> although we agree, in the real world, a max byte size with arbitrary message size would be safer
->
-> This is only to make current project deliverable in < 48h.
-2. in server.py, make a **parse funciton**,  use regex with `?P <key>` ([example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/regex_dict.py)), to create dictionary log objects
-> This will turn received strings into dict-obj={IP:xxx, error_code:xxx, info:xxx, key:value}
->
-> Use [resources](#resources) to build appropriate regex for parse 
-3.  on serverside, using the log obj. , create a logic/algorithm to monitor for IoC.
-> see bellow for logic/algorithm ideas
+> Dependency `sudo apt install inotify-tools`
+> In client.py **change** `server_addr` to server correct IP
 
 #### IoC monitoring Ideas:
+> Use [resources](#resources) to build appropriate regex for parse 
+- in server.py, make a **parse funciton**,  use regex with `?P <key>` ([example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/regex_dict.py)), to create dictionary log objects
 > Parse function will *triage* the logs and store them appropriately
 
 > Parse function *could* contribute to updating a baseline
