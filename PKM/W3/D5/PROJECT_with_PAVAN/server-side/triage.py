@@ -69,10 +69,10 @@ def match_log_line(log_line):
                 error_log_line['ip'] = error_log_ip_match.group('ip')
                 matched = True
                 #print(error_log_line) 
-                print(error_log_line['date'])
-                print(error_log_line['loglevel'])
-                print(error_log_line['ip'])
-                print(error_log_line['message'])
+                #print(error_log_line['date'])
+                #print(error_log_line['loglevel'])
+                #print(error_log_line['ip'])
+                #print(error_log_line['message'])
         except:
             pass
 
@@ -83,9 +83,9 @@ def match_log_line(log_line):
             if error_log_line_other:
                 matched = True
                 #print(error_log_line_other)
-                print(error_log_line_other['date'])
-                print(error_log_line_other['loglevel'])
-                print(error_log_line_other['message'])
+                #print(error_log_line_other['date'])
+                #print(error_log_line_other['loglevel'])
+                #print(error_log_line_other['message'])
         except:
             pass
 
