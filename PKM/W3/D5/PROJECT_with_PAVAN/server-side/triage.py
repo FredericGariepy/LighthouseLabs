@@ -5,7 +5,6 @@
 # 2. logs are parsed
 # 3. logs are categorized/stored (In the real world, this should be done in a database)
 
-
 # impports
 import sys
 import re
@@ -16,10 +15,11 @@ if len(sys.argv) < 2:
 
 # regex parses & formats into dictionary object {?P<key> : value}
 # Regular expressions for parsing Apache error and access logs
+regex_apache2_error_log = r'^(?P<date>\[\w+\s\w+\s\d+\s\d+:\d+:\d+\.\d+\s\d+\])\s(?P<loglevel>\[\w+:\w+\])\s(?P<pid>\[pid\s\d+:tid\s\d+\])\s(?P<message>.*)'
 regex_apache2_access_log =r'^(?P<IP>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s+-\s+-\s+\[(?P<timestamp>[^\]]+)\]\s+"(?P<verb>\w+)\s+(?P<path>[^"]+)\s+(?P<protocol>HTTP/[\d\.]+)"\s+(?P<status_code>\d+)\s+(?P<response_size>[^"]\S*)\s+"(?P<referrer>[^"]*)"\s+"(?P<user_agent>[^"]*)'
-regex_apache2_error_log = r'\[(?P<date>.*?)\] \[(?P<loglevel>.*?)\] \[client (?P<ip>.*?)\] (?P<message>.*)'
-regex_apache2_error_log_other = r'\[(?P<date>(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun) (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{2} \d{2}:\d{2}:\d{2} \d{4})\] \[(?P<log_level>\w+)\] (?P<message>.*?)(?:\s*\[|$)'
 regex_ip = r'(?P<ip>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})'
+
+#-----------------------------------------------------
 
 
 # data received from server.py (main loop)
@@ -34,6 +34,11 @@ def regex_parse(regex_expression, log_line):
         return match.groupdict()
     else:
         return None
+#-----------------------------------------------------
+
+
+
+
 #-----------------------------------------------------
 
 # Main function: match the log line to a regex expression, store it in a file by sub category
@@ -71,23 +76,11 @@ def match_log_line(log_line):
                 #print(error_log_line) 
                 #print(error_log_line['date'])
                 #print(error_log_line['loglevel'])
-                #print(error_log_line['ip'])
+                #print(error_log_line['pip'])
                 #print(error_log_line['message'])
         except:
             pass
 
-    if not matched:
-    # Other error logs (system related: notice, error, warn)
-        try:
-            error_log_line_other = regex_parse(regex_expression=regex_apache2_error_log_other, log_line=log_line)
-            if error_log_line_other:
-                matched = True
-                #print(error_log_line_other)
-                #print(error_log_line_other['date'])
-                #print(error_log_line_other['loglevel'])
-                #print(error_log_line_other['message'])
-        except:
-            pass
 
     if not matched:
         pass
