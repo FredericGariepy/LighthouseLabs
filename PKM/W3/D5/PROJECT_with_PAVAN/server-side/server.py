@@ -6,7 +6,7 @@ import subprocess
 
 # NOTE!: change this path to your triage script path
 # path to triage script
-path_triage_script='/home/student/Documents/python_scripts/server_client/triage_script.py'
+path_triage_script='/home/student/Documents/python_scripts/server_client/triage.py'
 
 def Main():
   host = '0.0.0.0' # listen all interfaces
