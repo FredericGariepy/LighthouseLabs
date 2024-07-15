@@ -9,24 +9,21 @@ def main():
         sys.exit(1)
 
     log_line = sys.argv[1]
-    # debug line: prints out the argv1
     #print(log_line)
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    # Change host (server_addr)
+    # NOTE: make sure to Change host (server_addr)
     server_addr = '192.168.56.101'  # Server address
     port = 4444
-
     s.connect((server_addr, port))
-    print("Sending log...")
-
+    
     # Send log line to server
     s.send(log_line.encode('utf-8'))
 
     msg = s.recv(1024)  # Receive acknowledgment from server
     s.close()
-    print("Received acknowledgment:", msg.decode('utf-8'))
+
+    #print("Received acknowledgment:", msg.decode('utf-8'))
 
 if __name__ == "__main__":
-
     main()
