@@ -12,8 +12,7 @@ LOG_LINE_RegEx = r'^(?P<IP>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}).*\[(?P<timestamp>
 
 # data received from server.py (main loop)
 received_data = sys.argv[1]
-
-print("Triage: "+received_data)
+#print("Triage: "+received_data)
 
 def regex_parse(log_line):
     match = re.match(LOG_LINE_RegEx, log_line)
