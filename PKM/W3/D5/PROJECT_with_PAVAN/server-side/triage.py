@@ -7,7 +7,7 @@ if len(sys.argv) < 2:
     print("Usage: triage_script.py <data>")
     sys.exit(1)  # Exit the script with error code
 
-# this regex line parses string and formats it into dictionary object
+# regex parses & formats into dictionary object {?P<key> : value}
 LOG_LINE_RegEx = r'^(?P<IP>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}).*\[(?P<timestamp>.*)\]\s"(?P<verb>[A-Z]+)\s(?P<path>[\w\/\.-]+)\s+(?P<protocol>[\w\/\.]+)"\s(?P<status_code>\d+)\s(?P<response_size>\d+).*'
 
 # data received from server.py (main loop)
