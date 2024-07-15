@@ -23,3 +23,17 @@ SIEM: AI; correlation
 [Apcache2 sample logs](https://www.ossec.net/docs/log_samples/apache/apache.html)
 
 [Linux inotifywait](https://linux.die.net/man/1/inotifywait)
+
+
+mounting drive and share Linux 
+
+mount share drive linux
+
+or setup SSH server and pull across via SSH as an idea.
+
+
+
+[GCP deployment 300$ credit](https://cloud.google.com/free?hl=en)
+- data proc
+> spit the results as a running code
+[Jupiter labs](https://jupyter.org/)
