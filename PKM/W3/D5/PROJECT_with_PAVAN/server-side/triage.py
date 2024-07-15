@@ -15,9 +15,11 @@ if len(sys.argv) < 2:
 
 # regex parses & formats into dictionary object {?P<key> : value}
 # Regular expressions for parsing Apache error and access logs
+
+
 regex_apache2_error_log = r'^(?P<date>\[\w+\s\w+\s\d+\s\d+:\d+:\d+\.\d+\s\d+\])\s(?P<loglevel>\[\w+:\w+\])\s(?P<pid>\[pid\s\d+:tid\s\d+\])\s(?P<message>.*)'
 regex_apache2_access_log =r'^(?P<IP>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s+-\s+-\s+\[(?P<timestamp>[^\]]+)\]\s+"(?P<verb>\w+)\s+(?P<path>[^"]+)\s+(?P<protocol>HTTP/[\d\.]+)"\s+(?P<status_code>\d+)\s+(?P<response_size>[^"]\S*)\s+"(?P<referrer>[^"]*)"\s+"(?P<user_agent>[^"]*)'
-regex_ip = r'(?P<ip>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})'
+
 
 #-----------------------------------------------------
 
@@ -70,13 +72,11 @@ def match_log_line(log_line):
         try:
             error_log_line = regex_parse(regex_expression=regex_apache2_error_log, log_line=log_line)
             if error_log_line:
-                error_log_ip_match = re.match(pattern=regex_ip, string=error_log_line['ip'])
-                error_log_line['ip'] = error_log_ip_match.group('ip')
                 matched = True
                 #print(error_log_line) 
                 #print(error_log_line['date'])
                 #print(error_log_line['loglevel'])
-                #print(error_log_line['pip'])
+                print(error_log_line['pid'])
                 #print(error_log_line['message'])
         except:
             pass
@@ -87,5 +87,6 @@ def match_log_line(log_line):
         #print(log_line)
 
 #-----------------------------------------------------
+#print(log_line)
 match_log_line(log_line)
 #-----------------------------------------------------
