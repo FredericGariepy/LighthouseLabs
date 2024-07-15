@@ -1,11 +1,5 @@
-> [!NOTE]
-> Here two log fetching solutions. One for error logs, another for access log.
->
-> *Run both in background*. They feed to the same client.py file.
-
 > [!TIP]
 > Dependency `sudo apt install inotify-tools`
-> In client.py **change** `server_addr` to server correct IP
 
 #### IoC monitoring Ideas:
 > Use [resources](#resources) to build appropriate regex for parse 
