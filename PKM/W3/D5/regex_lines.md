@@ -1,4 +1,4 @@
-# Regular expression for parsing Apache error logs
+# Regular expression for parsing Apache error & access logs
 
 ```python
 # Regular expressions for parsing Apache error and access logs
