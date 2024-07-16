@@ -1,5 +1,6 @@
 >[!IMPORTANT]
 > In server.py change `path_triage_script`
+>
 #### IoC monitoring Ideas:
 > Use [resources](#resources) to build appropriate regex for parse 
 - in server.py, make a **parse funciton**,  use regex with `?P <key>` ([example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/regex_dict.py)), to create dictionary log objects
