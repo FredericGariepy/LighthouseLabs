@@ -2,6 +2,18 @@
 > In server.py change `path_triage_script`
 >
 >In triage.py change `Your/path/to/log_storage/type_log.log`
+
+### CRON
+```bash
+@reboot /Your/path/to/server.py &
+* * * * * /Your/path/to/log_monitor.py
+
+#Optional
+# >/dev/null 2>&1
+# to run in silence, standard out and standard error to /dev/null
+```
+
+
 #### IoC monitoring Ideas:
 > Use [resources](#resources) to build appropriate regex for parse 
 - in server.py, make a **parse funciton**,  use regex with `?P <key>` ([example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/regex_dict.py)), to create dictionary log objects
