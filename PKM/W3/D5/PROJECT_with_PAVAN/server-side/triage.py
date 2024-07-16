@@ -20,11 +20,11 @@ class TriageThread(threading.Thread):
         self.match_log_line(self.log_line)
 
     # file write paths
-    urgent_error_log_path='/home/student/Documents/log_storage/error_logs/urgent_error.log'
-    standard_error_log_path='/home/student/Documents/log_storage/error_logs/standard_error.log'
-    urgent_access_log_path='/home/student/Documents/log_storage/access_logs/urgent_access.log'
-    standard_access_log_path='/home/student/Documents/log_storage/access_logs/standard_access.log'
-    standard_unknown_log_path='/home/student/Documents/log_storage/unknown_logs/standard_unknown.log'
+    urgent_error_log_path='/Your/path/to/log_storage/error_logs/urgent_error.log'
+    standard_error_log_path='/Your/path/to/log_storage/error_logs/standard_error.log'
+    urgent_access_log_path='/Your/path/to/log_storage/access_logs/urgent_access.log'
+    standard_access_log_path='/Your/path/to/log_storage/access_logs/standard_access.log'
+    standard_unknown_log_path='/Your/path/to/log_storage/unknown_logs/standard_unknown.log'
 
     # regex parses & formats into dictionary object {?P<key> : value}
     # Regular expressions for parsing Apache error and access logs
