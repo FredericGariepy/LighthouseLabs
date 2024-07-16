@@ -6,7 +6,7 @@
 ### CRON
 ```bash
 @reboot /Your/path/to/server.py &
-* * * * * /Your/path/to/log_monitor.py
+* * * * * /Your/path/to/access_log_monitor.py
 
 #Optional
 # >/dev/null 2>&1
