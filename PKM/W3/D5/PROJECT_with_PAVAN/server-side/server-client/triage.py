@@ -1,4 +1,4 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 
 import threading
 import re
@@ -19,12 +19,12 @@ class TriageThread(threading.Thread):
     def run(self):
         self.match_log_line(self.log_line)
 
-    # file write paths
-    urgent_error_log_path='/Your/path/to/log_storage/error_logs/urgent_error.log'
-    standard_error_log_path='/Your/path/to/log_storage/error_logs/standard_error.log'
-    urgent_access_log_path='/Your/path/to/log_storage/access_logs/urgent_access.log'
-    standard_access_log_path='/Your/path/to/log_storage/access_logs/standard_access.log'
-    standard_unknown_log_path='/Your/path/to/log_storage/unknown_logs/standard_unknown.log'
+    # file write paths | [!] IMPORTANT : CHANGE YOUR PATHS
+    urgent_error_log_path='/home/student/Documents/log_storage/error_logs/urgent_error.log'
+    standard_error_log_path='/home/student/Documents/log_storage/error_logs/standard_error.log'
+    urgent_access_log_path='/home/student/Documents/log_storage/access_logs/urgent_access.log'
+    standard_access_log_path='/home/student/Documents/log_storage/access_logs/standard_access.log'
+    standard_unknown_log_path='/home/student/Documents/log_storage/unknown_logs/standard_unknown.log'
 
     # regex parses & formats into dictionary object {?P<key> : value}
     # Regular expressions for parsing Apache error and access logs
@@ -58,7 +58,7 @@ class TriageThread(threading.Thread):
                     #print(access_log_line['response_size'])
                     #print(access_log_line['referrer'])
                     #print(access_log_line['user_agent'])
-                    print('access log detected')
+                    #print('access log detected')
 
                     status_code = access_log_line['status_code']
 
@@ -69,6 +69,7 @@ class TriageThread(threading.Thread):
                         with open(self.urgent_access_log_path, 'a') as f:
                             f.write(log_line + '\n')
                     else:
+                        #print('standard log detected')
                         with open(self.standard_access_log_path, 'a') as f:
                             f.write(log_line + '\n')
             except:
@@ -84,7 +85,7 @@ class TriageThread(threading.Thread):
                     #print(error_log_line['loglevel'])
                     #print(error_log_line['pid'])
                     #print(error_log_line['message'])
-                    print('error log detected')
+                    #print('error log detected')
 
                     if 'error' in error_log_line['loglevel']:
                         print('urgent error log detected')
