@@ -5,6 +5,7 @@
 > Here two log fetching solutions. One for error logs, another for access log.
 >
 > *Run both in background*. They feed to the same client.py file.
+
 client.py gets called from the two .sh scripts in cron bellow
 ### CRON
 > @reboot /bin/bash /Your/path/to/fetch_access_logs.sh &
