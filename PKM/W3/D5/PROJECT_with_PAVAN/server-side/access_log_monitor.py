@@ -40,12 +40,11 @@ def monitor_logs():
                 break
     
     if all_recent:
-        print(f"Appending 'LOL' to {output_file}")
+        #print(f"Appending to {output_file}")
         with open(output_file, 'a') as out_file:
-            out_file.write("LOL\n")
-    else:
-        print("Not all entries are recent.")
+            out_file.write(f"[INCIDENT TIME : {current_time}] [INCIDENT MESSAGE : 5 NEW ERROR IN LESS THAN 1 MINUTE] [LOG LOCATION : {monitor_file}]")
+    #else:
+        #print("Not all entries are recent.")
 
 if __name__ == "__main__":
-
     monitor_logs()
