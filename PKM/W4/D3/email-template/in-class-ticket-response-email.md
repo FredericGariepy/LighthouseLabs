@@ -1,6 +1,6 @@
 #### Content:
 - [ticket](#ticket-234)
-- 
+- [investigation email](#email)
 
 ---
 #### ticket #234
