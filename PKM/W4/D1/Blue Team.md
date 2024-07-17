@@ -8,9 +8,9 @@ Day of a Cyber Security analyst. Different phases of their shift:
 | time | activity |
 |-|-------|
 | 9:00 a.m. | [Arrival and Read-in](#arrival-and-read-in) |
-| 10:00 a.m. | [Meeting and Consultation Write-ups] |
-| 1:00 pm | In Seat, Monitoring |
-| 4:00 pm | Day-End Reporting for End of Shif | 
+| 10:00 a.m. | [Meeting and Consultation Write-ups](#meeting-and-consultation-write-ups) |
+| 1:00 pm | [In Seat, Monitoring](#in-seat-monitoring) |
+| 4:00 pm | [Day-End Reporting for End of Shift](#day-end-reporting-for-end-of-shift) | 
 
 #### Arrival and Read-in 
 ###### 9:00 a.m.
