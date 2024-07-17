@@ -37,7 +37,7 @@ When the inotifywait events are triggered (new logs are generated), both scripts
 The client script then sends logs to the log monitor server via a socket.
 
 Now, on the server side, [server.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/server.py) is up and running through it's [cron](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/readme.md).
-The server starts up the [access_log_monitor.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/log_monitor/access_log_monitor.py) as a process and then server.py listens for log lines which were sent by the client.
+The server starts up the [access_log_monitor.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/log_monitor/access_log_monitor.py) as a seperate process and then server.py listens for log lines which were sent by the client.
 
 When the server.py script receives a log, it starts a thread [triage.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/triage.py) and passes it the log. Having triage as a thread allows the server to continue receiving logs without blocking.
 
