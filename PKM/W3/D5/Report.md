@@ -8,7 +8,7 @@ Date 07.17.2024
 5. [References](#references)
 
 ## Executive Summary
-This is a log monitor which works on the Linux operating system. It helps keeps track of the activity on a website through the use of logs.
+This is a log monitor which works on the Linux operating system. It helps keep track of the activity on a website through the use of logs.
 
 Log activity that is flagged as an indicator of compromsise results in a security notification.
 
