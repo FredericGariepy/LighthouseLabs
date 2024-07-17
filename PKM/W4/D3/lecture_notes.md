@@ -1,5 +1,8 @@
 https://owasp.org/www-project-top-ten/
 
+https://pauljerimy.com/security-certification-roadmap/
+
+https://cyware.com/cyber-security-news-articles
 
 
 ## Review of Relationships, Workflows and Communication in SOC
