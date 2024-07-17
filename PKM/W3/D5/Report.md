@@ -41,27 +41,19 @@ The server starts up the [access_log_monitor.py](https://github.com/FredericGari
 
 When the server.py script receives a log, it starts a thread [triage.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/triage.py) and passes it the log. Having triage as a thread allows the server to continue receiving logs without blocking.
 
-The triage script's role is to parse, analyze and write the log it received into the approriate directory/file.
+The triage script's role is to parse, analyze and *write* the log it received into the approriate directory/file.
 
 To parse, the log is captured by regex expressions and made into a dicitonary object.
 At this point, the parts of the log can easily be manipulated to test for values, or push through an algorithm.
 In this log monitoring project, error and access logs are simply checked for their values, i.e. triaged based on loglevel or http status code.
 Based on the triage, the logs are ultimately written to endpoints. They are logged according to their security standing (urgent or standard).
 
-Lastly, a log monitorting script, such as [access_log_monitor.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/log_monitor/access_log_monitor.py) runs periodically every minute. It's purpose is to create secuity messages when certain thresholds are met.
+Lastly, a log monitorting script, such as [access_log_monitor.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/log_monitor/access_log_monitor.py) which was spawned from [server.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/server.py) runs periodically every minute. It's purpose is to create secuity messages when certain thresholds are met.
+
 In access_log_monitor.py for example, a message is issued when 5+ new logs are written to urgent_access.log in under one minute.
-
-As security messages are generated, they are added to a log_monitor_messages.txt file. This text file which contains formated security messages, can then be used by other scripts or feed into applications that help notify the organization of potential IoCs.
-
-
-2. Two files which monitor the apache log files for changes adn 
- (https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_access_logs.sh)
-- (https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh)
-
-    Code should include essential commands with explanatory comments.
-    Identify flag elements for manager alerts, linked to Indicators of Compromise (IoCs).
-    
-
+These security messages are appended to an output file (log_monitor_messages.txt).
+The format of these messages includes: the indicent time, indicent message and log location that triggered the message.
+The securitfy messages in turn, can then be used by other scripts or feed into applications that help notify the organization of potential IoCs.
 
 # Potential iterations Section (where you discuss potential improvements) 
 # Conclusion 
