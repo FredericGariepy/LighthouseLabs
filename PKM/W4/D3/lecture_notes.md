@@ -15,4 +15,4 @@ vulnerabilities in systems, including vulnerability scanning, prioritization, pa
 applications, including user provisioning, access reviews, and privileged access management.
 
 **Change Management** Workflow: This outlines the process for evaluating and implementing changes to the
-organization’s IT infrastructure and applications while ensuring security and minimizing risk
+organization’s IT infrastructure and applications while ensuring security and minimizing risk.
