@@ -47,3 +47,6 @@ Should you have any questions or require further clarification, please do not he
 
 Best regards, 
 Kathleen Fellinger, Cybersecurity Specialist, ABC Co.
+Email : contact@ABC.com
+Phone : +1 XXXX-XXXX
+Company profile: https://ABC.com/profile
