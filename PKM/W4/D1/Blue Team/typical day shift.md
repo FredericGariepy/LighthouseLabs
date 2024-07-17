@@ -46,6 +46,7 @@ At the end of the shift, outgoing shift members share updates with the incoming 
 
 
 # Shift Reports and Hand-off (SEAT-SWAP)
+### [SWAT SWAP shift change report sample](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D1/Blue%20Team/SEAT-SWAP%20%5Bshift%20change%20report%5D.md)
 SEAT SWAP form gives a general picture of the status of tasks overall, and assists in prioritizing actions. 
 **SEAT-SWAP** is a shift handover process used in SOCs, as explained below: 
 
