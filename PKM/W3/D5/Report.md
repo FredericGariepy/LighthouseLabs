@@ -58,7 +58,8 @@ The securitfy messages in turn, can then be used by other scripts or feed into a
 # Potential iterations Section (where you discuss potential improvements) 
 
 Frankly, there is *a lot* of potential improvements for this log monitoring solution.
-- **Encryption of log messages**:  Log lines sent from [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py) to [server.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/server.py) should be encrypted as they send out and received between client and log monitor server. 
+- **Encryption of log messages**:  Log lines sent from [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py) to [server.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/server.py) should be encrypted as they send out and received in order to proctect against [Network Sniffing](https://attack.mitre.org/techniques/T1040/).
+- Log lines received by the log monitor server should sanitized in order to protect against [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/).
 - **Code structure**: The  [triage.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/triage.py) file should be improved by addoptiong the [strategy design pattern](https://refactoring.guru/design-patterns/strategy) since it 
 -
 # Conclusion 
