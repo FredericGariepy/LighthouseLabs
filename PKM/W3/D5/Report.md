@@ -3,8 +3,8 @@
 ##  Table of Contents
 1. [Executive Summary](#executive-summary)
 2. [Solution Section](#solutions-section-scripts--how-they-work)
-3. .
-4. 
+3. [Conclusion](#conclusion)
+4. [References](#references)
 
 ## Executive Summary
 This is a log monitor which works on the Linux operating system. It helps keeps track of the activity on a website through the use of logs.
