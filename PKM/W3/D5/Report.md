@@ -60,10 +60,10 @@ The securitfy messages in turn, can then be used by other scripts or feed into a
 Fankly, there is *a lot* of potential improvements for this log monitoring solution.
 
 Here are *some* of the major improvements which should be applied on interation:
-- **Encryption**: Log lines sent from [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py) to [server.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/server.py) should be encrypted as they send out and received in order to proctect against [Network Sniffing](https://attack.mitre.org/techniques/T1040/).
-- **Sanitization**: Log lines received by the log monitor server should sanitized in order to protect against [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/).
-- **Code structure**: The [triage.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/triage.py) file should be improved by addoptiong the [strategy design pattern](https://refactoring.guru/design-patterns/strategy). As more Rules/Algortihms (filters) are developed for triage, these encpasulated filters are then applied appropriately to logs, as opposed to the current script, where developed filters are added to a growing chain of conditions that a log passes through. 
-- **Code permissions**: On the client side, in both [fetch_access_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/) and [fetch_error_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh), the script interacts directly with log files found in /var/log/apache2/. The scripts start in the root user's cron job, as sudo priviledges are required to access the directory. Scripts with such access run a security risk and should instead be run with the principle of [least privilege](https://csrc.nist.gov/glossary/term/least_privilege).
+- **Encryption**: Log lines sent from [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py) to [server.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/server.py) should be encrypted as they send out and received in order to proctect against [Network Sniffing](https://attack.mitre.org/techniques/T1040/)(MITRE, n.d.-a).
+- **Sanitization**: Log lines received by the log monitor server should sanitized in order to protect against [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/)(MITRE, n.d.-b).
+- **Code structure**: The [triage.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/triage.py) file should be improved by addoptiong the [strategy design pattern](https://refactoring.guru/design-patterns/strategy)(Refactoring Guru, n.d.). As more Rules/Algortihms (filters) are developed for triage, these encpasulated filters are then applied appropriately to logs, as opposed to the current script, where developed filters are added to a growing chain of conditions that a log passes through. 
+- **Code permissions**: On the client side, in both [fetch_access_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/) and [fetch_error_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh), the script interacts directly with log files found in /var/log/apache2/. The scripts start in the root user's cron job, as sudo priviledges are required to access the directory. Scripts with such access run a security risk and should instead be run with the principle of [least privilege](https://csrc.nist.gov/glossary/term/least_privilege)(NIST, n.d.).
 - **Improved monitorig**: The log monitor should further have scripts which monitor for diffrent log baselines and corelations of log events. More rules and/or algorithms should be developed and implemented to better analyze/correlate logs, in order to categorize/report their security standing accurately.
 - **Improved log storage**: The storage method should employ a more robust solution such as a database. This will enable using queries to monitor log activity, and unlock a lot of potential for analysis.
 - **Support of Windows**: This project does **not** provide a log monitoring solution for the Windows operating system and new code will required to do so.
@@ -72,18 +72,30 @@ Here are *some* of the major improvements which should be applied on interation:
 Building a log monitoring solution is a very demanding endavour.
 
 This project delivers a rudimentary [working system](https://www.youtube.com/watch?v=FeMmxXmpgfs&feature=youtu.be) for log monitoring on Linux operating systems.
-The organization would greatly benefit from adopting the use of a security information and event management [(SIEM)](https://www.microsoft.com/en-ca/security/business/security-101/what-is-siem) system. Such systems can monitor the organizations's assets (both Linux and Windows machines) and send security notifications.
+The organization would greatly benefit from adopting the use of a security information and event management [(SIEM)](https://www.microsoft.com/en-ca/security/business/security-101/what-is-siem) system (Microsoft, n.d.). Such systems can monitor the organizations's assets (both Linux and Windows machines) and send security notifications.
 
-SIEMs are [not only great tools for log management](https://www.crowdstrike.com/cybersecurity-101/observability/siem-vs-log-management/) but also provide incident monitoring and response as well as log analysis/corellations to detect and respond to potential threats. All functions which fit the organization's needs and offer great return on investment.
+SIEMs are [not only great tools for log management](https://www.crowdstrike.com/cybersecurity-101/observability/siem-vs-log-management/) (CrowdStrike, n.d.) but also provide incident monitoring and response as well as log analysis/corellations to detect and respond to potential threats. All functions which fit the organization's needs and offer great return on investment.
 
-There are many SIEMs available on the market. [Splunk](https://www.splunk.com/) is a SIEM which offers a *free tier* that your organization can test out. Feel free to further contact me in order to implement Splunk as solution to your security needs. There is additonally great [official documentation](https://docs.splunk.com/Documentation) to assist your implementation.
+There are many SIEMs available on the market. [Splunk](https://www.splunk.com/) is a SIEM which offers a *free tier* that your organization can test out (Splunk, n.d.-a). Feel free to further contact me in order to implement Splunk as solution to your security needs. There is additonally great [official documentation](https://docs.splunk.com/Documentation) to assist your implementation (Splunk, n.d.-b).
 
 # References
-References
+MITRE. (n.d.-a). Network sniffing. MITRE ATT&CK. Retrieved July 17, 2024, from https://attack.mitre.org/techniques/T1040/
 
+MITRE. (n.d.-b). Exploitation of remote services. MITRE ATT&CK. Retrieved July 17, 2024, from https://attack.mitre.org/techniques/T1210/
 
-https://www.ossec.net/docs/log_samples/apache/apache.html
+National Institute of Standards and Technology. (n.d.). Information Technology Laboratory Computer Security Resource Center. Glossary - Least privilege. Retrieved July 17, 2024, from https://csrc.nist.gov/glossary/term/least_privilege
 
+Refactoring Guru. (n.d.). Strategy design pattern. Retrieved July 17, 2024, from https://refactoring.guru/design-patterns/strategy
+
+Microsoft. (n.d.-a). What is SIEM? Microsoft Security. Retrieved July 17, 2024, from https://www.microsoft.com/en-ca/security/business/security-101/what-is-siem
+
+CrowdStrike. (n.d.). SIEM vs log management. Cybersecurity 101 - Observability. Retrieved July 17, 2024, from https://www.crowdstrike.com/cybersecurity-101/observability/siem-vs-log-management/
+
+Splunk. (n.d.-a). Splunk. Retrieved July 17, 2024, from https://www.splunk.com/
+
+Splunk. (n.d.-b). Splunk documentation. Retrieved July 17, 2024, from https://docs.splunk.com/Documentation
+
+OSSEC. (n.d.). Log samples from Apache. Retrieved July 17, 2024, from https://www.ossec.net/docs/log_samples/apache/apache.html
 
 
 The widely accepted citation format in the cyber security industry is the APA format. Use this format for all projects in the program. Once you enter the industry, you may follow a different citation style if instructed by your organization.
