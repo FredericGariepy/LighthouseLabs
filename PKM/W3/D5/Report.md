@@ -14,7 +14,7 @@ Log activity that is flagged as an indicator of compromsise results in a securit
 Notifications are important in mainting good security posture and gives visibility to what's happening to your assets.
 
 Building a Log monitoring solution is a very demanding endevour, many iterations will be required to acheive a full-bodied solution.
-Consult the recommendations found at the end and learn how adopting a SIEM may help your organization.
+Consult the recommendations found at the conclusion seciton and learn how adopting a SIEM may help your organization.
 
 
 ## Solutions Section (scripts & how they work)
@@ -55,15 +55,15 @@ These security messages are appended to an output file (log_monitor_messages.txt
 The format of these messages includes: the indicent time, indicent message and log location that triggered the message.
 The securitfy messages in turn, can then be used by other scripts or feed into applications that help notify the organization of potential IoCs.
 
-# Potential iterations Section (where you discuss potential improvements) 
+## Potential iterations Section (where you discuss potential improvements) 
+Fankly, there is *a lot* of potential improvements for this log monitoring solution.
 
-Frankly, there is *a lot* of potential improvements for this log monitoring solution.
-
-Here are the major improvements which should be applied on interation:
+Here are *some* of the major improvements which should be applied on interation:
 - **Encryption**: Log lines sent from [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py) to [server.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/server.py) should be encrypted as they send out and received in order to proctect against [Network Sniffing](https://attack.mitre.org/techniques/T1040/).
 - **Sanitization**: Log lines received by the log monitor server should sanitized in order to protect against [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/).
 - **Code structure**: The [triage.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/triage.py) file should be improved by addoptiong the [strategy design pattern](https://refactoring.guru/design-patterns/strategy). As more Rules/Algortihms (filters) are developed for triage, these encpasulated filters are then applied appropriately to logs, as opposed to the current script, where developed filters are added to a growing chain of conditions that a log passes through. 
-- 
+- **Code permissions**: On the client side, in both [fetch_access_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/and [fetch_error_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh), the script interacts directly with log files found in /var/log/apache2/. The scripts start in the root user's cron job, as sudo priviledges are required to access the directory. Scripts with such access run a security risk and should instead be run with the principle of [least privilege](https://csrc.nist.gov/glossary/term/least_privilege).
+
 # Conclusion 
 # References
 References
