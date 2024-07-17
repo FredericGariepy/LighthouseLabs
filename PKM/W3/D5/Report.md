@@ -71,7 +71,7 @@ Here are *some* of the major improvements which should be applied on interation:
 # Conclusion
 Building a log monitoring solution is a very demanding endavour.
 
-This project delivers a rudimentary working system for log monitoring on Linux operating systems.
+This project delivers a rudimentary [working system](https://www.youtube.com/watch?v=FeMmxXmpgfs&feature=youtu.be) for log monitoring on Linux operating systems.
 The organization would greatly benefit from adopting the use of a security information and event management [SIEM](https://www.microsoft.com/en-ca/security/business/security-101/what-is-siem)system. Such systems can monitor the organizations's assets (both Linux and Windows machines) and send security notifications.
 
 SIEMs are [not only great tools for log management](https://www.crowdstrike.com/cybersecurity-101/observability/siem-vs-log-management/) but also provide incident monitoring and response as well as log analysis/corellations to detect and respond to potential threats. All functions which fit the organization's needs and offer great return on investment.
