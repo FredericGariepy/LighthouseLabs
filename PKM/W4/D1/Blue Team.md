@@ -4,11 +4,15 @@
 [SANS (SysAdmin, Audit, Network, and Security) Institute](https://www.sans.org/media/analyst-program/common-practices-security-operations-centers-results-2019-soc-survey-39060.p)
 Common and Best Practices for Security Operations Centers: Results of the 2019 SOC Survey
 
-Here you will go through the day of a Cyber Security analyst and learn about different phases of their shift:
+Day of a Cyber Security analyst. Different phases of their shift:
 | time | activity |
 |-|-------|
-|9:00 a.m.| Arrival and Read-in |
+| 9:00 a.m. | Arrival and Read-in |
+| 10:00 a.m. | Meeting and Consultation Write-ups |
+| 1:00 pm | In Seat, Monitoring |
+| 4:00 pm | Day-End Reporting for End of Shif | 
 
+#### Arrival and Read-in 
 During this time, the Analyst will first check current reports for new or ongoing incidents.
 This could be a direct hand-off from a night or weekend shift, and may contain incidents that are:
 
