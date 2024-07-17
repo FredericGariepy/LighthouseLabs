@@ -8,6 +8,7 @@ Here you will go through the day of a Cyber Security analyst and learn about dif
 | time | activity |
 |-|-------|
 |9:00 a.m.| Arrival and Read-in |
+
 During this time, the Analyst will first check current reports for new or ongoing incidents.
 This could be a direct hand-off from a night or weekend shift, and may contain incidents that are:
 
