@@ -1,8 +1,19 @@
+## Key Takeaways
+
+- Blue Team members work in shifts;
+> a shift usually has the following phases: Arrival and Read-in, Meeting and Consultation Write-ups, In Seat and Monitoring, and Day-end Reporting for End of Shift.
+- For the purpose of the hand-off, shift reports are created.
+- Shift reports are created using the SEAT-SWAP framework.
+> SEAT stands for Staff, Explanation, Awareness, and Transition, while SWAP stands for Situation, Written, Accurate, and Persistent.
+> 
+> SEAT-SWAP form gives a general picture of the status of tasks overall, and assists in prioritizing actions.
+- Incident Report form gives more detail on a specific incident.
+___
+
 [Blue Team Shifts, Changes and Reporting](https://web.compass.lighthouselabs.ca/p/cyber/days/w04d1/activities/2954)
 
-
 [SANS (SysAdmin, Audit, Network, and Security) Institute](https://www.sans.org/media/analyst-program/common-practices-security-operations-centers-results-2019-soc-survey-39060.p)
-Common and Best Practices for Security Operations Centers: Results of the 2019 SOC Survey
+> Common and Best Practices for Security Operations Centers: Results of the 2019 SOC Survey
 
 # Day of a Cyber Security analyst. Different phases of their shift:
 | time | activity |
