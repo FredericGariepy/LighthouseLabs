@@ -7,7 +7,8 @@
 > *Run both in background*. They feed to the same client.py file.
 
 client.py gets called from the two .sh scripts in cron bellow
-### CRON
+### CRON (as root)
 > @reboot /Your/path/to/fetch_access_logs.sh &
 >
 > @reboot /Your/path/to/fetch_error_logs.sh &
+##### These crons must be configured (`crontab -e`) as **Root**, since scripts access /var/log/apache2/
