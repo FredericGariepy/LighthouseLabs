@@ -49,12 +49,12 @@ At the end of the shift, outgoing shift members share updates with the incoming 
 SEAT-SWAP is a shift handover process used in SOCs, as explained below: 
 
 ##### SEAT
-|-|-|
-|-|-|
-|Staff | Who is involved both coming and going|
-|Explanation | Inform on active situations|
-|Awareness | Details on specific problems - Situational awareness |
-|Transition | Make changeover seamless to all parties concerned. No individual party should have to wait for a specific person's interactions.|
+||||
+|-|--|-----|
+|S|staff | Who is involved both coming and going|
+|E|explanation | Inform on active situations|
+|A|awareness | Details on specific problems - Situational awareness |
+|T|transition | Make changeover seamless to all parties concerned. No individual party should have to wait for a specific person's interactions.|
 
 
 
