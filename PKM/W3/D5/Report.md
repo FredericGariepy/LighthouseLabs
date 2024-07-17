@@ -67,7 +67,7 @@ Here are *some* of the major improvements which should be applied on interation:
 - **Improved monitorig**: The log monitor should further have scripts which monitor for diffrent log baselines and corelations of log events. More rules and/or algorithms should be developed and implemented to better analyze/correlate logs, in order to categorize/report their security standing accurately.
 - **Improved log storage**: The storage method should employ a more robust solution such as a database. This will enable using queries to monitor log activity, and unlock a lot of potential for analysis.
 - **Support of Windows**: This project does **not** provide a log monitoring solution for the Windows operating system and new code will required to do so.
-
+- **Notificaiton system**: This project produces simple security messages based on log analysis. However, intergration of notication systems (emails, SMS, 3rd party alerts) should be implemented to consume the security messages generated, so as to offer better alerts.
 # Conclusion
 Building a log monitoring solution is a very demanding endavour.
 
@@ -80,15 +80,6 @@ There are many SIEMs available on the market. [Splunk](https://www.splunk.com/) 
 
 # References
 References
-
-Workflow: a short description of the steps to be taken to successfully monitor and document the logs in the network
-Consider what you will monitor, when, and how often.
-  
-Programming: Outline what programming tools you will use to successfully complete the task. Be sure to include key commands and/or scripts that you will use or create.
-Expected Output: What are the expected results of the commands or scripts you are planning to use? Why are they important or useful?
-Documentation: How will you capture and document the monitoring process? Consider the timing and how you will share it with your manager.
-Unusual Behaviour: Identify what elements in your monitoring would constitute a “flag” to alert your manager.
-Potential Iterations: What elements of your workflow would you want to improve, and why? Identify some ways you could develop skills to support this improvement.
 
 
 https://www.ossec.net/docs/log_samples/apache/apache.html
