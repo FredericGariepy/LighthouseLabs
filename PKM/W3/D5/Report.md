@@ -1,8 +1,14 @@
+# Log Monitoring Workflow
+07.17.2024
+##  Table of Contents
+1. .
+2. .
+3. .
+4. 
 
-# Table of Contents
-# Executive Summary
-[Video demo of project](https://youtu.be/FeMmxXmpgfs)
-[Project files](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN)
+## Executive Summary
+### [Watch Video demo of project](https://youtu.be/FeMmxXmpgfs)
+### [Project files](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN)
 
 
     Code should include essential commands with explanatory comments.
