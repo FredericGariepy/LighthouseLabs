@@ -27,13 +27,34 @@ please consult the workflow image bellow before continuing.
 
 ### [Project files](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN)
 
-The log monitor consists of two part: a [server-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side) and a [client-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side)
+The log monitor consists of two parts: a [server-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side) and a [client-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side)
 
-The [client-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side) contains
-two bash files, one that will [fetch_access_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_access_logs.sh) and another that will [fetch_error_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh)
+The client-side contains two bash files, one that will [fetch_access_logs](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_access_logs.sh) and another that will [fetch_error_logs](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh).
 
-a [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py),
-which receives  sends logs to the log monitor server.
+Those two bash files are set as [cron jobs](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/readme.md) to start at reboot.
+Both scripts use [inotifywait](https://linux.die.net/man/1/inotifywait) to monitor for access.log and error.log changes (modification and creation in the case of log rotation) inside the /var/log/apache2/ directory.
+
+When the inotifywait events are triggered (new logs are generated), both scripts are made to call on [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py) with the new log as a passed argument.
+
+The client script then sends logs to the log monitor server via a socket.
+
+Now, on the server side, [server.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/server.py) is up and running through it's [cron](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/readme.md).
+The server starts up the [access_log_monitor.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/log_monitor/access_log_monitor.py) and then listens for log lines which were sent by the client.
+
+When the server.py script receives a log, it starts a thread [triage.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/triage.py) and passes it the log. Having triage as a thread allows the server to continue receiving logs without blocking.
+
+The triage script's role is to parse, analyze and write the log it received into the approriate directory/file.
+
+To parse, the log is captured by regex expressions and made into a dicitonary object.
+At this point, the parts of the log can easily be manipulated to test for values, or push through an algorithm.
+In this log monitoring project, error and access logs are simply checked for their values, i.e. triaged based on loglevel or http status code.
+Based on the triage, the logs are ultimately written to endpoints. They are logged according to their security standing (urgent or standard).
+
+Lastly, a log monitorting script, such as [access_log_monitor.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/log_monitor/access_log_monitor.py) runs periodically every minute. It's purpose is to create secuity messages when certain thresholds are met.
+In access_log_monitor.py for example, a message is issued when 5+ new logs are written to urgent_access.log in under one minute.
+
+As security messages are generated, they are added to a log_monitor_messages.txt file. This text file which contains formated security messages, can then be used by other scripts or feed into applications that help notify the organization of potential IoCs.
+
 
 2. Two files which monitor the apache log files for changes adn 
  (https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_access_logs.sh)
