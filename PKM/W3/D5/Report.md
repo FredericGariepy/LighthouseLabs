@@ -20,10 +20,8 @@ Consult the recommendations found at the end and learn how adopting a SIEM may h
 ## Solutions Section (scripts & how they work)
 Please [watch the video demo](https://youtu.be/FeMmxXmpgfs) of this log monitoring project.
 
-After watching the video,
-
-please consult the workflow image bellow before continuing.
 ![log_monitor_solution](https://github.com/user-attachments/assets/f2e57d84-25b8-4fa7-b943-30b3e777df1d)
+###### Please consult the workflow image above.
 
 ### [Project files](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN)
 
