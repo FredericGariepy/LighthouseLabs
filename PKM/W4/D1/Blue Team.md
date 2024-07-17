@@ -60,11 +60,11 @@ At the end of the shift, outgoing shift members share updates with the incoming 
 ||||
 |-|--|-----|
 |S|situation | Discuss the situation in a clear and comprehensive manner.|
-|W|written | Handoff is in written form. No information is passed that is not captured in writing.|
+|W|written | Handoff is in *written form*. No information is passed that is not captured in writing.|
 |A|accurate | All information is accurate; if something is a guess, it is labeled as a guess.|
-|P|persistent | There is always a report, even if nothing has changed or there is nothing to report.|
+|P|persistent | There is *always a report*, even if nothing has changed or there is nothing to report.|
 
-It should be noted that this framework talks about not just what is reported, but to what standard the item is addressed.
+> It should be noted that this framework talks about not just what is reported, but to what standard the item is addressed.
 
-
+[Siemplify SOAR platform software solution](https://www.youtube.com/watch?v=xmusgGAxeWs&feature=youtu.be)
 
