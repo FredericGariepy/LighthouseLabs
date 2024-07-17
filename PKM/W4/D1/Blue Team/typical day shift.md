@@ -46,6 +46,7 @@ At the end of the shift, outgoing shift members share updates with the incoming 
 
 
 # Shift Reports and Hand-off (SEAT-SWAP)
+SEAT SWAP form gives a general picture of the status of tasks overall, and assists in prioritizing actions. 
 **SEAT-SWAP** is a shift handover process used in SOCs, as explained below: 
 
 ##### SEAT
@@ -67,4 +68,14 @@ At the end of the shift, outgoing shift members share updates with the incoming 
 > It should be noted that this framework talks about not just what is reported, but to what standard the item is addressed.
 
 [Siemplify SOAR platform software solution](https://www.youtube.com/watch?v=xmusgGAxeWs&feature=youtu.be)
+
+Common “trigger” events that lead to escalation of an incident.
+Typically anything that shows a high level of effect against the CIA Triad would either escalate the incident or have it marked as “Urgent”.
+
+Relevant Incident Reports will be examined to determine specific actions and statuses.
+
+Playbooks will be assessed and followed. In some cases, where no specific Playbook is available, generic playbooks might be used. 
+
+
+
 
