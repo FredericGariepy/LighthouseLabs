@@ -100,15 +100,3 @@ OSSEC. (n.d.). Log samples from Apache. Retrieved July 17, 2024, from https://ww
 Lighthouse Labs. (n.d.-a). Find security vulnerabilities with Python. Lighthouse Labs. Retrieved July 17, 2024, from https://web.compass.lighthouselabs.ca/p/cyber/days/w03d5/activities/2947
 
 Lighthouse Labs. (n.d.-b). Finding basic security issues in logs. Lighthouse Labs. Retrieved July 17, 2024, from https://web.compass.lighthouselabs.ca/p/cyber/days/w03d5/activities/2945
-
-
-
-
-The widely accepted citation format in the cyber security industry is the APA format. Use this format for all projects in the program. Once you enter the industry, you may follow a different citation style if instructed by your organization.
-Note
-
-Examples: A guide to digital forensics and cybersecurity tools. Forensics Colleges. (2022, May 19). https://www.forensicscolleges.com/blog/resources/guide-digital-forensics-tools
-
-Whitman, M., & Mattord, H. (2017). Principles of information security (6th ed.). CENGAGE Learning Custom Publishing.
-
-
