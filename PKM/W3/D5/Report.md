@@ -31,7 +31,7 @@ The log monitor consists of two parts: a [server-side](https://github.com/Freder
 The client-side contains two bash files, one that will [fetch_access_logs](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_access_logs.sh) and another that will [fetch_error_logs](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh).
 
 Those two bash files are set as [cron jobs](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/readme.md) to start at reboot.
-Both scripts use [inotifywait](https://linux.die.net/man/1/inotifywait) to monitor for access.log and error.log changes (modification and creation in the case of log rotation) inside the /var/log/apache2/ directory.
+Both scripts use [inotifywait](https://linux.die.net/man/1/inotifywait)(die.net, n.d.) to monitor for access.log and error.log changes (modification and creation in the case of log rotation) inside the /var/log/apache2/ directory.
 
 When the inotifywait events are triggered (new logs are generated), both scripts are made to call on [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py) with the new log as a passed argument.
 
@@ -96,6 +96,8 @@ Splunk. (n.d.-a). Splunk. Retrieved July 17, 2024, from https://www.splunk.com/
 Splunk. (n.d.-b). Splunk documentation. Retrieved July 17, 2024, from https://docs.splunk.com/Documentation
 
 OSSEC. (n.d.). Log samples from Apache. Retrieved July 17, 2024, from https://www.ossec.net/docs/log_samples/apache/apache.html
+
+die.net. (n.d.). inotifywait(1) - Linux man page. Retrieved July 17, 2024, from https://linux.die.net/man/1/inotifywait
 
 Lighthouse Labs. (n.d.-a). Find security vulnerabilities with Python. Lighthouse Labs. Retrieved July 17, 2024, from https://web.compass.lighthouselabs.ca/p/cyber/days/w03d5/activities/2947
 
