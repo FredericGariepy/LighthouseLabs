@@ -4,6 +4,8 @@ https://pauljerimy.com/security-certification-roadmap/
 
 https://cyware.com/cyber-security-news-articles
 
+https://www.comptia.org/certifications/security
+
 
 ## Review of Relationships, Workflows and Communication in SOC
 ###### Example Workflows:
