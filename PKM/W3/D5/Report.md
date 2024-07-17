@@ -45,7 +45,7 @@ When the server.py script receives a log, it starts a thread [triage.py](https:/
 The triage script's role is to parse, analyze and *write* the log it received into the approriate directory/file.
 
 To parse, the log is captured by regex expressions and made into a dicitonary object.
-At this point, the parts of the log can easily be manipulated to test for values, or push through an algorithm.
+At this point, the parts of the log can easily be manipulated to test for values, or pushed through an algorithm.
 In this log monitoring project, error and access logs are simply checked for their values, i.e. triaged based on loglevel or http status code.
 Based on the triage, the logs are ultimately written to endpoints. They are logged according to their security standing (urgent or standard).
 
@@ -64,8 +64,12 @@ Here are *some* of the major improvements which should be applied on interation:
 - **Sanitization**: Log lines received by the log monitor server should sanitized in order to protect against [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/).
 - **Code structure**: The [triage.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/triage.py) file should be improved by addoptiong the [strategy design pattern](https://refactoring.guru/design-patterns/strategy). As more Rules/Algortihms (filters) are developed for triage, these encpasulated filters are then applied appropriately to logs, as opposed to the current script, where developed filters are added to a growing chain of conditions that a log passes through. 
 - **Code permissions**: On the client side, in both [fetch_access_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/and [fetch_error_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh), the script interacts directly with log files found in /var/log/apache2/. The scripts start in the root user's cron job, as sudo priviledges are required to access the directory. Scripts with such access run a security risk and should instead be run with the principle of [least privilege](https://csrc.nist.gov/glossary/term/least_privilege).
+- **Improved monitorig**: The log monitor should further have scripts which monitor for diffrent log baselines and corelations of log events. More rules and/or algorithms should be developed and implemented to better analyze logs and categorize their security standing acurrately.
+- **Imporved log storage**: 
+# Conclusion
 
-# Conclusion 
+
+
 # References
 References
 
