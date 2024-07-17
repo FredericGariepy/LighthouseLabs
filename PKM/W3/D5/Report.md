@@ -1,3 +1,1 @@
-
-
-![log_monitor](https://github.com/user-attachments/assets/cb13e292-1b13-49f5-84f1-30f471a95f9d)
+![log_monitor_solution](https://github.com/user-attachments/assets/f2e57d84-25b8-4fa7-b943-30b3e777df1d)
