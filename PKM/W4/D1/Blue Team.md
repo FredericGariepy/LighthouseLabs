@@ -43,3 +43,18 @@ Ongoing monitoring of security information and event management (SIEM), event lo
 #### Day-End Reporting for End of Shift
 ###### 4:00 pm 
 At the end of the shift, outgoing shift members share updates with the incoming shift members.
+
+
+# Shift Reports and Hand-off
+SEAT-SWAP is a shift handover process used in SOCs, as explained below: 
+
+##### SEAT
+|-|-|
+|-|-|
+|Staff | Who is involved both coming and going|
+|Explanation | Inform on active situations|
+|Awareness | Details on specific problems - Situational awareness |
+|Transition | Make changeover seamless to all parties concerned. No individual party should have to wait for a specific person's interactions.|
+
+
+
