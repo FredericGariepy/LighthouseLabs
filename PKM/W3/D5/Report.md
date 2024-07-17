@@ -3,8 +3,9 @@
 ##  Table of Contents
 1. [Executive Summary](#executive-summary)
 2. [Solution Section](#solutions-section-scripts--how-they-work)
-3. [Conclusion](#conclusion)
-4. [References](#references)
+3. [Iterations](#iterations)
+4. [Conclusion](#conclusion)
+5. [References](#references)
 
 ## Executive Summary
 This is a log monitor which works on the Linux operating system. It helps keeps track of the activity on a website through the use of logs.
@@ -55,7 +56,7 @@ These security messages are appended to an output file (log_monitor_messages.txt
 The format of these messages includes: the indicent time, indicent message and log location that triggered the message.
 The securitfy messages in turn, can then be used by other scripts or feed into applications that help notify the organization of potential IoCs.
 
-## Potential iterations Section 
+## Iterations
 Fankly, there is *a lot* of potential improvements for this log monitoring solution.
 
 Here are *some* of the major improvements which should be applied on interation:
