@@ -8,6 +8,6 @@
 
 client.py gets called from the two .sh scripts in cron bellow
 ### CRON
-> @reboot /bin/bash /Your/path/to/fetch_access_logs.sh &
+> @reboot /Your/path/to/fetch_access_logs.sh &
 >
-> @reboot /bin/bash /Your/path/to/fetch_error_logs.sh &
+> @reboot /Your/path/to/fetch_error_logs.sh &
