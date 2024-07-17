@@ -24,6 +24,7 @@ Please [watch the video demo](https://youtu.be/FeMmxXmpgfs) of this log monitori
 ###### Above, log monitor workflow image.
 
 ### [Project files](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN)
+Step-by-step explanation of the project files:
 
 The log monitor consists of two parts: a [server-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side) and a [client-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side).
 
