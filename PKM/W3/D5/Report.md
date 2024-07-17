@@ -35,7 +35,7 @@ Both scripts use [inotifywait](https://linux.die.net/man/1/inotifywait) to monit
 
 When the inotifywait events are triggered (new logs are generated), both scripts are made to call on [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py) with the new log as a passed argument.
 
-The client script then sends logs to the log monitor server via a socket.
+The client script then sends logs to the log monitor server via a socket (Lighthouse Labs, n.d.-a).
 
 Now, on the server side, [server.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/server.py) is up and running through it's [cron](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/readme.md).
 The server starts up the [access_log_monitor.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/log_monitor/access_log_monitor.py) as a seperate process and then server.py listens for log lines which were sent by the client.
@@ -44,7 +44,7 @@ When the server.py script receives a log, it starts a thread [triage.py](https:/
 
 The triage script's role is to parse, analyze and *write* the log it received into the approriate directory/file.
 
-To parse, the log is captured by regex expressions and made into a dicitonary object.
+To parse, the log is captured by regex expressions and made into a dicitonary object(Lighthouse Labs, n.d.-b).
 At this point, the parts of the log can easily be manipulated to test for values, or pushed through an algorithm.
 In this log monitoring project, error and access logs are simply checked for their values, i.e. triaged based on loglevel or http status code.
 Based on the triage, the logs are ultimately written to endpoints. They are logged according to their security standing (urgent or standard).
@@ -96,6 +96,12 @@ Splunk. (n.d.-a). Splunk. Retrieved July 17, 2024, from https://www.splunk.com/
 Splunk. (n.d.-b). Splunk documentation. Retrieved July 17, 2024, from https://docs.splunk.com/Documentation
 
 OSSEC. (n.d.). Log samples from Apache. Retrieved July 17, 2024, from https://www.ossec.net/docs/log_samples/apache/apache.html
+
+Lighthouse Labs. (n.d.-a). Find security vulnerabilities with Python. Lighthouse Labs. Retrieved July 17, 2024, from https://web.compass.lighthouselabs.ca/p/cyber/days/w03d5/activities/2947
+
+Lighthouse Labs. (n.d.-b). Finding basic security issues in logs. Lighthouse Labs. Retrieved July 17, 2024, from https://web.compass.lighthouselabs.ca/p/cyber/days/w03d5/activities/2945
+
+
 
 
 The widely accepted citation format in the cyber security industry is the APA format. Use this format for all projects in the program. Once you enter the industry, you may follow a different citation style if instructed by your organization.
