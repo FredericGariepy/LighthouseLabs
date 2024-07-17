@@ -1,11 +1,9 @@
+RE: Request for Additional Information Regarding Cybersecurity Breach Incident at Date.
+###### this is a sample headline
 
+This message is intended for Name Tittle,
 
-
-RE: Request for Additional Information Regarding Cybersecurity Breach Incident
-
-Dear Name,
-
-I hope this email finds you well. My name is Kathleen Fellinger, and I am currently part of the cybersecurity team at … I am reaching out to you regarding the recent cybersecurity breach incident that was reported in the ticket [#Ticket Number]. As a cybersecurity specialist, your input and insight are crucial in helping us better understand the nature and extent of the breach. 
+I hope this email finds you well. My name , and I am currently part of the cybersecurity team at … I am reaching out to you regarding the recent cybersecurity breach incident that was reported in the ticket [#Ticket Number]. As a cybersecurity specialist, your input and insight are crucial in helping us better understand the nature and extent of the breach. 
 
 In order to effectively address this situation and implement appropriate mitigation measures, we kindly request additional information from you. Specifically, we would appreciate it if you could provide details regarding the following:
 
