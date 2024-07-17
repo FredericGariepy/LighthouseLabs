@@ -86,16 +86,6 @@ https://www.ossec.net/docs/log_samples/apache/apache.html
 
 
 
-Report Format
-
-Organize all the information you gathered into a report and be sure to include the following: * Table of Contents * Introduction * Solutions Section (Where you discuss your script and how it functions) * Potential iterations Section (where you discuss potential improvements) * Conclusion * References
-References
-
-References are crucial for credibility, validating arguments, and avoiding plagiarism. References enable readers to verify information; build on existing knowledge, and uphold ethical standards while promoting transparency. All the resources you access should be listed in a References List at the end of your work.
-
-You may use tools, like Citation Machine, to generate citations for your work.
-Instruction
-
 The widely accepted citation format in the cyber security industry is the APA format. Use this format for all projects in the program. Once you enter the industry, you may follow a different citation style if instructed by your organization.
 Note
 
