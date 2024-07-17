@@ -7,16 +7,32 @@
 4. 
 
 ## Executive Summary
-### [Watch Video demo of project](https://youtu.be/FeMmxXmpgfs)
+This is a log monitor. It helps keeps track of the activity on a website through the use of logs.
+
+Log activity that is flagged as an indicator of compromsise results in a security notification.
+
+Notifications are important in mainting good security posture and gives visibility to what's happening to your assets.
+
+Building a Log monitoring solution is a very demanding endevour, many iterations will be required to acheive a full-bodied solution.
+Consult the recommendations found at the end and learn how adopting a SIEM may help your organization.
+
+
+## Solutions Section (scripts & how they work)
+Please [watch the video demo](https://youtu.be/FeMmxXmpgfs) of this log monitoring project.
+
+After watching the video,
+
+please consult the workflow image bellow before continuing.
+![log_monitor_solution](https://github.com/user-attachments/assets/f2e57d84-25b8-4fa7-b943-30b3e777df1d)
+
 ### [Project files](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN)
-
-
+    
     Code should include essential commands with explanatory comments.
-    Provide sample output demonstrating the script's execution results.
-    Document the monitoring process thoroughly.
     Identify flag elements for manager alerts, linked to Indicators of Compromise (IoCs).
-    Utilize both Bash and Python languages.
-# Solutions Section (Where you discuss your script and how it functions)
+    
+    
+
+
 # Potential iterations Section (where you discuss potential improvements) 
 # Conclusion 
 # References
@@ -31,6 +47,8 @@ Documentation: How will you capture and document the monitoring process? Conside
 Unusual Behaviour: Identify what elements in your monitoring would constitute a “flag” to alert your manager.
 Potential Iterations: What elements of your workflow would you want to improve, and why? Identify some ways you could develop skills to support this improvement.
 
+
+https://www.ossec.net/docs/log_samples/apache/apache.html
 
 
 
@@ -52,4 +70,3 @@ Examples: A guide to digital forensics and cybersecurity tools. Forensics Colleg
 Whitman, M., & Mattord, H. (2017). Principles of information security (6th ed.). CENGAGE Learning Custom Publishing.
 
 
-![log_monitor_solution](https://github.com/user-attachments/assets/f2e57d84-25b8-4fa7-b943-30b3e777df1d)
