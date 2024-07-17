@@ -7,41 +7,39 @@ Common and Best Practices for Security Operations Centers: Results of the 2019 S
 Day of a Cyber Security analyst. Different phases of their shift:
 | time | activity |
 |-|-------|
-| 9:00 a.m. | Arrival and Read-in |
-| 10:00 a.m. | Meeting and Consultation Write-ups |
+| 9:00 a.m. | [Arrival and Read-in](#arrival-and-read-in) |
+| 10:00 a.m. | [Meeting and Consultation Write-ups] |
 | 1:00 pm | In Seat, Monitoring |
 | 4:00 pm | Day-End Reporting for End of Shif | 
 
 #### Arrival and Read-in 
+###### 9:00 a.m.
 During this time, the Analyst will first check current reports for new or ongoing incidents.
-This could be a direct hand-off from a night or weekend shift, and may contain incidents that are:
+This could be a direct hand-off from a night or weekend shift, and may contain incidents that are (New, Open, Closed):
 
 - **New**: No work has yet been done, and initial identification should start
 - **Open**:
     - Ongoing: Investigation has started / Initial remediation and recommendations are ongoing.
     - Escalated: Night or Weekend shifts have requested help on an initial investigation or remediation, or the status or priority of an incident has gone up.
     - Solved: An incident has been remediated and final reports have been generated, immediate incident reports have been responded to, followed by reporting of lessons learned and recommended fixes.
-Closed
+- **Closed**
 
 If new, ongoing, or escalated incidents exist, the Analyst will spend time investigating those incidents.
 
-10:00 a.m. Meeting and Consultation Write-ups
+#### Meeting and Consultation Write-ups
+###### 10:00 a.m.
+- If required, interviews with senior staff, organizational teams, reviews of project statuses
+- If required, research incidents, vulnerabilities, threats, and risks
+- If required, write-up of recommendations and findings
+- Continuing work with open incidents
 
-    If required, interviews with senior staff, organizational teams, reviews of project statuses
-    If required, research incidents, vulnerabilities, threats, and risks
-    If required, write-up of recommendations and findings
-    Continuing work with open incidents
+#### In Seat, Monitoring
+###### 1:00 pm
+Ongoing monitoring of security information and event management (SIEM), event logs, etc.
+- Onboarding of new incidents
+- Continuation of open incidents
+- Closing of incidents
 
-1:00 pm In Seat, Monitoring
-
-    Ongoing monitoring of security information and event management (SIEM), event logs, etc.
-
-(As per NIST SP 800-128, it’s an application that provides the ability to gather security data from information system components and present that data as actionable information via a single interface)
-
-    Onboarding of new incidents
-    Continuation of open incidents
-    Closing of incidents
-
-4:00 pm Day-End Reporting for End of Shift
-
+#### Day-End Reporting for End of Shift
+###### 4:00 pm 
 At the end of the shift, outgoing shift members share updates with the incoming shift members.
