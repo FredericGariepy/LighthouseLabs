@@ -1,8 +1,8 @@
 # Log Monitoring Workflow
 07.17.2024
 ##  Table of Contents
-1. .
-2. [Solution section](#solutions-section-scripts--how-they-work)
+1. [Executive Summary](#executive-summary)
+2. [Solution Section](#solutions-section-scripts--how-they-work)
 3. .
 4. 
 
