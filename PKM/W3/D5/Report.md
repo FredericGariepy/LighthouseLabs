@@ -26,10 +26,21 @@ please consult the workflow image bellow before continuing.
 ![log_monitor_solution](https://github.com/user-attachments/assets/f2e57d84-25b8-4fa7-b943-30b3e777df1d)
 
 ### [Project files](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN)
-    
+
+The log monitor consists of two part: a [server-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side) and a [client-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side)
+
+The [client-side](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side) contains
+two bash files, one that will [fetch_access_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_access_logs.sh) and another that will [fetch_error_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh)
+
+a [client.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/client.py),
+which receives  sends logs to the log monitor server.
+
+2. Two files which monitor the apache log files for changes adn 
+ (https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_access_logs.sh)
+- (https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh)
+
     Code should include essential commands with explanatory comments.
     Identify flag elements for manager alerts, linked to Indicators of Compromise (IoCs).
-    
     
 
 
