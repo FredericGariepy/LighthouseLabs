@@ -7,15 +7,14 @@
 4. 
 
 ## Executive Summary
-This is a log monitor. It helps keeps track of the activity on a website through the use of logs.
+This is a log monitor which works on the Linux operating system. It helps keeps track of the activity on a website through the use of logs.
 
 Log activity that is flagged as an indicator of compromsise results in a security notification.
 
-Notifications are important in mainting good security posture and gives visibility to what's happening to your assets.
+Notifications are important in mainting good security posture and gives visibility on what's happening to your assets.
 
 Building a Log monitoring solution is a very demanding endevour, many iterations will be required to acheive a full-bodied solution.
-Consult the recommendations found at the conclusion seciton and learn how adopting a SIEM may help your organization.
-
+Consult the recommendations found at the conclusion section and learn how adopting a SIEM may help your organization.
 
 ## Solutions Section (scripts & how they work)
 Please [watch the video demo](https://youtu.be/FeMmxXmpgfs) of this log monitoring project.
@@ -64,11 +63,19 @@ Here are *some* of the major improvements which should be applied on interation:
 - **Sanitization**: Log lines received by the log monitor server should sanitized in order to protect against [Exploitation of Remote Services](https://attack.mitre.org/techniques/T1210/).
 - **Code structure**: The [triage.py](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/server-side/server-client/triage.py) file should be improved by addoptiong the [strategy design pattern](https://refactoring.guru/design-patterns/strategy). As more Rules/Algortihms (filters) are developed for triage, these encpasulated filters are then applied appropriately to logs, as opposed to the current script, where developed filters are added to a growing chain of conditions that a log passes through. 
 - **Code permissions**: On the client side, in both [fetch_access_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/and [fetch_error_logs.sh](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W3/D5/PROJECT_with_PAVAN/client-side/fetch_error_logs.sh), the script interacts directly with log files found in /var/log/apache2/. The scripts start in the root user's cron job, as sudo priviledges are required to access the directory. Scripts with such access run a security risk and should instead be run with the principle of [least privilege](https://csrc.nist.gov/glossary/term/least_privilege).
-- **Improved monitorig**: The log monitor should further have scripts which monitor for diffrent log baselines and corelations of log events. More rules and/or algorithms should be developed and implemented to better analyze logs and categorize their security standing acurrately.
-- **Imporved log storage**: 
+- **Improved monitorig**: The log monitor should further have scripts which monitor for diffrent log baselines and corelations of log events. More rules and/or algorithms should be developed and implemented to better analyze/correlate logs, in order to categorize/report their security standing accurately.
+- **Improved log storage**: The storage method should employ a more robust solution such as a database. This will enable using queries to monitor log activity, and unlock a lot of potential for analysis.
+- **Support of Windows**: This project does **not** provide a log monitoring solution for the Windows operating system and new code will required to do so.
+
 # Conclusion
+Building a log monitoring solution is a very demanding endavour.
 
+This project delivers a rudimentary working system for log monitoring on Linux operating systems.
+The organization would greatly benefit from adopting the use of a security information and event management [SIEM](https://www.microsoft.com/en-ca/security/business/security-101/what-is-siem)system. Such systems can monitor the organizations's assets (both Linux and Windows machines) and send security notifications.
 
+SIEMs are [not only great tools for log management](https://www.crowdstrike.com/cybersecurity-101/observability/siem-vs-log-management/) but also provide incident monitoring and response as well as log analysis/corellations to detect and respond to potential threats. All functions which fit the organization's needs and offer great return on investment.
+
+There are many SIEMs available on the market. [Splunk](https://www.splunk.com/) is a SIEM which offers a *free tier* that your organization can test out. Feel free to further contact me in order to implement Splunk as solution to your security needs. There is additonally great [official documentation](https://docs.splunk.com/Documentation) to assist your implementation.
 
 # References
 References
