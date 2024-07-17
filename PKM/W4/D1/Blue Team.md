@@ -45,8 +45,8 @@ Ongoing monitoring of security information and event management (SIEM), event lo
 At the end of the shift, outgoing shift members share updates with the incoming shift members.
 
 
-# Shift Reports and Hand-off
-SEAT-SWAP is a shift handover process used in SOCs, as explained below: 
+# Shift Reports and Hand-off (SEAT-SWAP)
+**SEAT-SWAP** is a shift handover process used in SOCs, as explained below: 
 
 ##### SEAT
 ||||
@@ -55,6 +55,16 @@ SEAT-SWAP is a shift handover process used in SOCs, as explained below:
 |E|explanation | Inform on active situations|
 |A|awareness | Details on specific problems - Situational awareness |
 |T|transition | Make changeover seamless to all parties concerned. No individual party should have to wait for a specific person's interactions.|
+
+##### SWAP
+||||
+|-|--|-----|
+|S|situation | Discuss the situation in a clear and comprehensive manner.|
+|W|written | Handoff is in written form. No information is passed that is not captured in writing.|
+|A|accurate | All information is accurate; if something is a guess, it is labeled as a guess.|
+|P|persistent | There is always a report, even if nothing has changed or there is nothing to report.|
+
+It should be noted that this framework talks about not just what is reported, but to what standard the item is addressed.
 
 
 
