@@ -55,7 +55,7 @@ These security messages are appended to an output file (log_monitor_messages.txt
 The format of these messages includes: the indicent time, indicent message and log location that triggered the message.
 The securitfy messages in turn, can then be used by other scripts or feed into applications that help notify the organization of potential IoCs.
 
-## Potential iterations Section (where you discuss potential improvements) 
+## Potential iterations Section 
 Fankly, there is *a lot* of potential improvements for this log monitoring solution.
 
 Here are *some* of the major improvements which should be applied on interation:
