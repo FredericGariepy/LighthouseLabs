@@ -43,7 +43,6 @@ Stages of a workflow
 5. Review and repeat
 
 #### The 3 basic components of a workflow
-
 While the number of tasks in each workflow can vary from 1 to 99+, every workflow is made up of 3 basic components:
 
 - **Trigger**: The event that begins the workflow. This can be an action, decision, specific time, or a response to something.
@@ -52,6 +51,10 @@ While the number of tasks in each workflow can vary from 1 to 99+, every workflo
 
 - **Results**: What the workflow produces. A result or outcome can be something tangible like purchasing a service or more abstract like accessing certain information.
 
+#### 3 types of workflow
+- Project workflows (one-off workflows, can be reused)
+- Simple process workflows  (predictable, repeatable tasks)
+- Conditional process workflow (_if/then_ logic)
 
 ![small workflow](https://github.com/user-attachments/assets/00126562-2a88-45bc-8a1d-f9921577ab43)
 ```python
