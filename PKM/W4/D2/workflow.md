@@ -52,14 +52,19 @@ p5='end'     #Result
 
 print(workflow[p0]) # look how we start at process 0. we just keep calling the workflow.
 # >>> process1
+
 print(workflow[workflow[p0]]) # and the workflow will lead us to the next process.
 # >>> process2
+
 print(workflow[workflow[workflow[p0]]])
-# >>> [{'process2': 'process3'}, {'process2': 'process4'}]
-print(workflow[workflow[workflow[p0]]][0][p2]) # The same process (p2) can lead to diffrent places depending on conditions we follow (chose 0,1) 
+# >>> [{'process2': 'process3'}, {'process2': 'process4'}]  # here we are given a choice by the workflow
+
+print(workflow[workflow[workflow[p0]]][0][p2]) # let's chose p2 with option 0
 # >>> process3
-print(workflow[workflow[workflow[workflow[p0]]][0][p2]]) 
+
+print(workflow[workflow[workflow[workflow[p0]]][0][p2]]) # keep following the workflow
 # >>>> process 4
+
 print(workflow[workflow[workflow[workflow[workflow[p0]]][0][p2]]])  # we got to the end by following the worflow.  (recursively) 
 # >>>> end 
 ```
