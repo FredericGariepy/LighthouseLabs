@@ -37,19 +37,20 @@ Most common challenges that SOC teams face in fulfilling their roles include:
 
 ## SOC Roles
 
+
 #### SOC Analyst
 
 The analysts are responsible for monitoring security alerts, analyzing security incidents, and responding quickly to potential threats. They use various tools and technologies to investigate alerts, determine their validity, and escalate incidents that require further attention.
 
-‍#### Incident Responder
+#### Incident Responder
 
 They are essential in developing and implementing incident response plans, coordinating with other teams, and ensuring a fast and effective response to security breaches. They are also responsible for incident investigations and writing reports of related incidents.
 
-‍#### Threat Hunter
+#### Threat Hunter
 
 They use advanced techniques and tools to detect threats that may not be identified by automated systems. This helps the SOC to stay ahead of evolving cyber threats and improve the overall security posture of the organization.
 
-‍#### Forensic Analyst
+#### Forensic Analyst
 
 The forensic analyst collects all physical and digital evidence from the crime scene that can be used to solve the case in the future. The accumulated data can be analyzed with special software. The goal is to write a report that will help solve the case with this evidence.
 
