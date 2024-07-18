@@ -95,14 +95,33 @@ The SOC handles the fast processing of events.
 | - | ---- |
 | - | - |
 | Tier 1 | The “new ones” who solve events by means of “learning by doing” and with the help of knowledgebase and their colleagues.|
-
 | Tier 2 | Experienced employees who can handle most events from experience, know the workflows and other procedures well, and to an extent analyze events to a certain depth. |
 | T2 & T1 | Tier 2 train the Tier 1 agents in daily business. |
 | Tier 2**+** |This escalation level/complexity of an event requires Subject Matter Expert support. |
+| CSIRT | If the event can not be solved even in Tier 2+, it will be handed over to the CSIRT by Ticket. |
 
-
-If the event can not be solved even in Tier 2+, it will be handed over to the CSIRT by Ticket.
-
+```
+SOC-constitution (Justify existence of SOC & SOC position in organization)
+  │
+  └── SOC-Organizational_Handbook (Roles, Responsibility, Org. structure, glossary)
+      │
+      ├── SOC-EIR_handbook (Alert plans, phone#, email@, d/escalation proceedures)
+      │
+      ├── SOC-Operational_handbook  (Shift, handover, workflows, tiers, event handling,
+      │   │                         intructions, policies, procedures, processes,
+      │   ├── Tier_1                timing, forms, SOC dictionary)
+      │   ├── Tier_2
+      │   └── Tier_2+               Each tier has event handling instructions
+      │       └──> send to CSIRT    (CSIRT = Last resort)
+      │
+      └── SOC-Technical_handbook (Theater setup, SOC desk/apps/infra)
+          │
+          └── SIEM-Technical_Infrastructure_handbook (Tech info SIEM, use case, alert, threshold)
+              ├── Asset_1 
+              ├── Asset_2    Each asset has a tech & infra handbook
+              └── Asset_3    Each asset feeds into SIEM
+                             Data used to trigger use cases
+```
 
 
 
