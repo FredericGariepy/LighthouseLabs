@@ -38,3 +38,51 @@ By the end of this exercise, you should have created the following assets:
 Go up to menu [⬆️](#menu)
 ___
 
+From [Laura Franks](https://github.com/ldfranks)
+Week4 day 4: Part 2 Lecture: Understanding Playbooks
+When creating a playbook, we consider the following:
+1. Define the Objectives and Scope:
+● Clearly state the objectives of the playbook.
+● Specify the scope, including the types of data breaches it covers (e.g., unauthorized
+access, data exfiltration, insider threats).
+3. Identify the Incident Response Team:
+● List the members of the incident response team and their roles.
+● Ensure clear lines of communication and reporting.
+4. Risk Assessment:
+● Assess the potential impact of a data breach on your organization.
+● Identify critical assets and data
+5. Incident Classification:
+● Define different levels of incidents based on severity and impact.
+Part 2 Lecture: Understanding Playbooks
+6. Detection and Notification:
+● Specify how data breaches will be detected.
+● Define notification procedures, including legal requirements (e.g., GDPR in
+Europe, various data breach notification laws in different Canadian provinces).
+7. Containment and Eradication:
+● Describe steps to contain the breach to prevent further damage.
+● Develop procedures for identifying and removing the root cause.
+8. Investigation and Forensics:
+● Outline the process for investigating the breach.
+● Preserve evidence for potential legal actions.
+9. Communication:
+● Define internal and external communication plans.
+● Specify how to communicate with affected parties and stakeholders.
+Part 2 Lecture: Understanding Playbooks
+10. Legal and Regulatory Compliance:
+● Ensure compliance with data protection and privacy regulations.
+● Consult with legal counsel as needed.
+11. Recovery and Remediation:
+● Detail the steps to restore systems and data to normal operation.
+● Implement security improvements to prevent future breaches.
+12. Documentation:
+● Maintain detailed records of all actions taken during the incident response.
+13. Testing and Training:
+● Regularly test the playbook through simulated exercises.
+● Provide ongoing training to the incident response team.
+14. Post-Incident Review:
+● After each incident, conduct a post-incident review to identify areas for improvement in the playbook and response process.
+15. Updates and Maintenance:
+● Keep the playbook up to date to reflect changes in technology, threats, and regulations.
+16. Public Relations (if applicable):
+● If the breach is public, have a strategy for managing public relations and protecting your organization's reputation.
+
