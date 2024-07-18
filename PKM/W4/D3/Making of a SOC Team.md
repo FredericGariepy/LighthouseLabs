@@ -2,6 +2,7 @@ MENU
 - [SOC Responsibility](#soc-responsibility)
 - [SOC Other responsibilities](#soc-other-responsibilities)
 - [Common SOC Challenges](#common-soc-challenges)
+- [SOC Roles. Select your player.](#soc-roles)
 
 Readings:
 - [Security Operations Center (SOC) Roles and Responsibilities](https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-soc/security-operations-center-soc-roles-and-responsibilities/)
@@ -31,3 +32,31 @@ Most common challenges that SOC teams face in fulfilling their roles include:
 - __Minimizing Operational Impacts__: Not everything suspicious within an organization’s network is malicious and part of a real attack. SOCs must expose and shut down only real attacks, while allowing legitimate business to continue.
 - __Rapidly Responding to Attacks__: The longer an attacker has access to an organization’s network, the greater the cost and damage to the organization. SOC teams must rapidly identify and remediate attacks to minimize the impact on the company.
 - __Collecting and Aggregating Data__: Many organizations have an array of point security solutions. The resulting incomplete and disconnected network visibility impairs effective incident detection and response.
+
+
+
+## SOC Roles
+
+#### SOC Analyst
+
+The analysts are responsible for monitoring security alerts, analyzing security incidents, and responding quickly to potential threats. They use various tools and technologies to investigate alerts, determine their validity, and escalate incidents that require further attention.
+
+‍#### Incident Responder
+
+They are essential in developing and implementing incident response plans, coordinating with other teams, and ensuring a fast and effective response to security breaches. They are also responsible for incident investigations and writing reports of related incidents.
+
+‍#### Threat Hunter
+
+They use advanced techniques and tools to detect threats that may not be identified by automated systems. This helps the SOC to stay ahead of evolving cyber threats and improve the overall security posture of the organization.
+
+‍#### Forensic Analyst
+
+The forensic analyst collects all physical and digital evidence from the crime scene that can be used to solve the case in the future. The accumulated data can be analyzed with special software. The goal is to write a report that will help solve the case with this evidence.
+
+#### Security Engineer
+
+They ensure that security tools are properly configured, up to date, and effectively integrated with the organization's infrastructure. They also work with other IT teams to implement security best practices. Their primary responsibility is to define and implement the organization's security policies and procedures.
+
+#### SOC Manager
+
+The SOC Manager is responsible for leading the SOC and overseeing its overall operation. Their role includes strategic planning, coordination, and ensuring that the team is aligned with the organization's security objectives
