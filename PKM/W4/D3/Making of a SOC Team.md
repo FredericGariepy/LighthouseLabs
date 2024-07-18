@@ -16,11 +16,16 @@ SOC teams must fulfill a number of responsibilities to effectively manage securi
 
 ## SOC Other responsibilities
 Role of the SOC is not limited to incident response. Other roles & responsibilities include:
-- __Stay Relevant__: The cyber threat landscape is evolving, SOC teams need to manage the latest threats to the organization. Keep-up with new/trending attacks. Update Security systems to detect such attacks.
-- __Patching__ Vulnerable Systems: Identifying, applying, and testing patches for vulnerable enterprise systems and software.
-- __Infrastructure Management__: Changes in cyber threat landscape & enterprise network require new security solutions. SOC teams are responsible for identifying, deploying, configuring, and managing their security infrastructure.
-- Addressing Support __Tickets__: Many SOC teams are part of the IT department. This means that SOC analysts may be called upon to address support tickets from an organizations’ employees.
-- __Reporting__ to Management: Security is part of the business, SOC teams report to management. Need to effectively communicate security costs and ROI to business audience.
+- __Stay Relevant__:
+> The cyber threat landscape is evolving, SOC teams need to manage the latest threats to the organization. Keep-up with new/trending attacks. Update Security systems to detect such attacks.
+- __Patching__ Vulnerable Systems:
+> Identifying, applying, and testing patches for vulnerable enterprise systems and software.
+- __Infrastructure Management__:
+> Changes in cyber threat landscape & enterprise network require new security solutions. SOC teams are responsible for identifying, deploying, configuring, and managing their security infrastructure.
+- Addressing Support __Tickets__:
+- > Many SOC teams are part of the IT department. This means that SOC analysts may be called upon to address support tickets from an organizations’ employees.
+- __Reporting__ to Management:
+- > Security is part of the business, SOC teams report to management. Need to effectively communicate security costs and ROI to business audience.
 
 ## Common SOC Challenges
 Most common challenges that SOC teams face in fulfilling their roles include:
