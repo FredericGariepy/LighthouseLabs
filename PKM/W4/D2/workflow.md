@@ -1,4 +1,9 @@
-Glossary 
+Menu
+1. [Glossary](#glossary)
+2. [What's a workflow in cybersecurity]()
+3. [SOC Methodology]
+
+### Glossary 
 |acro|def|
 |-|--|
 | SOC| Security Operations Center |
@@ -6,7 +11,7 @@ Glossary
 >  Remember, as a Junior Analyst, you may be in either or both of these positions from time to time.
 
 
-##### [What is a Workflow?](https://www.process.st/what-is-a-workflow/)
+### [What is a Workflow?](https://www.process.st/what-is-a-workflow/)
 > A workflow is not a process. We can proceed through a workflow by following it (see code analogy bellow).
 To Build a workflow Ask:
 - What exact jobs need to be done?
@@ -69,6 +74,9 @@ print(workflow[workflow[workflow[workflow[p0]]][0][p2]]) # keep following the wo
 print(workflow[workflow[workflow[workflow[workflow[p0]]][0][p2]]])  # we got to the end by following the worflow.  (recursively) 
 # >>>> end 
 ```
+
+### [The SOC Methodology](https://secureglobal.de/the-soc-methodology)
+
 
 | - | - |
 | - | - |
