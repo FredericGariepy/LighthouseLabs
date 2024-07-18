@@ -10,7 +10,10 @@
 |-|--|
 | SOC| Security Operations Center |
 |CSIRT|computer security incident response team|
->  Remember, as a Junior Analyst, you may be in either or both of these positions from time to time.
+|SME |Subject Matter Expert|
+
+
+>  Remember, as a Junior Analyst, you may be in either or both of SOC  positions from time to time.
 
 ### Common Symbols
 <img src="https://github.com/user-attachments/assets/f97bfd1e-0ac8-4fd0-900a-822dba982b7e" alt="6sigmatools-symbols" style="width: 60%;">
@@ -86,6 +89,23 @@ The SOC handles the fast processing of events.
 - If events are not easy to solve or completely unknown, they will be forwarded to the [**CSIRT**](#glossary).
 - SOC **does not** make any changes to IT security assets or the IT infrastructure (responsibility of the relevant division).
 - SOC takes care that tickets are worked on and closed in a timely manner. If not the SOC agents will escalate to their supervisor.
+
+
+| Tier | Description |
+| - | ---- |
+| - | - |
+| Tier 1 | The “new ones” who solve events by means of “learning by doing” and with the help of knowledgebase and their colleagues.|
+
+| Tier 2 | Experienced employees who can handle most events from experience, know the workflows and other procedures well, and to an extent analyze events to a certain depth. |
+| T2 & T1 | Tier 2 train the Tier 1 agents in daily business. |
+| Tier 2**+** |This escalation level/complexity of an event requires Subject Matter Expert support. |
+
+
+If the event can not be solved even in Tier 2+, it will be handed over to the CSIRT by Ticket.
+
+
+
+
 
 | - | - |
 | - | - |
