@@ -122,7 +122,7 @@ SOC-constitution (Justify existence of SOC & SOC position in organization)
       │   ├── Tier_1                timing, forms, SOC dictionary)
       │   ├── Tier_2
       │   └── Tier_2+               Each tier has event handling instructions
-      │       └──> send to CSIRT    (CSIRT = Last resort)
+      │       └──> send to CSIRT-->-(CSIRT = Last resort)----------------------------->>[Enter : CSIRT framework
       │
       └── SOC-Technical_handbook (Theater setup, SOC desk/apps/infra)
           │
