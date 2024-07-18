@@ -1,7 +1,7 @@
 # Menu
 
 1. [Glossary](#glossary)
-2. [Common Symbols]
+2. [Common Symbols](#common-symbols)
 3. [What's a workflow in cybersecurity]()
 4. [SOC Methodology]
 
