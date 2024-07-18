@@ -9,6 +9,7 @@
 |acro|def|
 |-|--|
 | SOC| Security Operations Center |
+|ISOC |Information Security Operations Center |
 |CSIRT|computer security incident response team|
 |SME |Subject Matter Expert|
 |CERT|Computer Emergency Response Team|
@@ -128,7 +129,7 @@ What requires discipline in terms of tickets:
 - write tickets in a manner that others can fully understand what have been done.
 
 ## [The CSIRT Methodology](https://secureglobal.de/the-csirt-methodology)
-
+CSIRT consists of top-class specialists who analyze, evaluate and then make finely-tuned incidents as well as information and artifacts available to the SOC, the company or other important players.
 
 | - | - |
 | - | - |
