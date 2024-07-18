@@ -66,23 +66,23 @@ Europe, various data breach notification laws in different Canadian provinces).
 - Outline the process for investigating the breach.
 - Preserve evidence for potential legal actions.
 8. Communication:
-● Define internal and external communication plans.
-● Specify how to communicate with affected parties and stakeholders
+- Define internal and external communication plans.
+- Specify how to communicate with affected parties and stakeholders
 
 9. Legal and Regulatory Compliance:
-● Ensure compliance with data protection and privacy regulations.
-● Consult with legal counsel as needed.
+- Ensure compliance with data protection and privacy regulations.
+- Consult with legal counsel as needed.
 10. Recovery and Remediation:
-● Detail the steps to restore systems and data to normal operation.
-● Implement security improvements to prevent future breaches.
+- Detail the steps to restore systems and data to normal operation.
+- Implement security improvements to prevent future breaches.
 11. Documentation:
-● Maintain detailed records of all actions taken during the incident response.
+- Maintain detailed records of all actions taken during the incident response.
 12. Testing and Training:
-● Regularly test the playbook through simulated exercises.
-● Provide ongoing training to the incident response team.
+- Regularly test the playbook through simulated exercises.
+- Provide ongoing training to the incident response team.
 13. Post-Incident Review:
-● After each incident, conduct a post-incident review to identify areas for improvement in the playbook and response process.
+- After each incident, conduct a post-incident review to identify areas for improvement in the playbook and response process.
 14. Updates and Maintenance:
-● Keep the playbook up to date to reflect changes in technology, threats, and regulations.
+- Keep the playbook up to date to reflect changes in technology, threats, and regulations.
 15. Public Relations (if applicable):
-● If the breach is public, have a strategy for managing public relations and protecting your organization's reputation
+- If the breach is public, have a strategy for managing public relations and protecting your organization's reputation
