@@ -11,6 +11,7 @@
 | SOC| Security Operations Center |
 |CSIRT|computer security incident response team|
 |SME |Subject Matter Expert|
+|CERT|Computer Emergency Response Team|
 
 
 >  Remember, as a Junior Analyst, you may be in either or both of SOC  positions from time to time.
