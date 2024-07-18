@@ -53,7 +53,7 @@ Ongoing monitoring of security information and event management (SIEM), event lo
 
 #### Day-End Reporting for End of Shift
 ###### 4:00 pm   [⬆️](#day-of-a-cyber-security-analyst-different-phases-of-their-shift)
-At the end of the shift, outgoing shift members share updates with the incoming shift members.
+At the end of the shift, outgoing shift members share updates with the incoming shift members. See Below:
 
 
 # Shift Reports and Hand-off (SEAT-SWAP)
