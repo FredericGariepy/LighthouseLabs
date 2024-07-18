@@ -55,8 +55,8 @@ While the number of tasks in each workflow can vary from 1 to 99+, every workflo
 
 #### 3 types of workflow
 - Project workflows (one-off workflows, can be reused)
-- Simple process workflows  (predictable, repeatable tasks)
-- Conditional process workflow (_if/then_ logic)
+- Simple process workflows  (predictable, repeatable tasks)    SOP (Standard Operating Procedures)
+- Conditional process workflow (_if/then_ logic)               Workflow
 
 ![small workflow](https://github.com/user-attachments/assets/00126562-2a88-45bc-8a1d-f9921577ab43)
 ```python
