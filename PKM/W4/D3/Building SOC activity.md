@@ -32,5 +32,7 @@ By the end of this exercise, you should have created the following assets:
 - Flow charts and documentation to depict the SOC workflows
 - Ransomware workflow (playbook) for your SOC
 - A slideshow to present your findings
+
+Go up to menu [⬆️](#menu)
 ___
 
