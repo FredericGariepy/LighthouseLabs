@@ -1,9 +1,9 @@
 <!--[⬆️](#menu)-->
 ## Menu
-- [LHL Compas Activity Link: Building an SOC Team and Reporting Structure](https://web.compass.lighthouselabs.ca/p/cyber/3853a658-0621-4cc4-a295-b026b0a00b0d)
 - [Activity Guidelines](#activity-guidelines)
 
 ## resources
+- [LHL Compas Activity Link: Building an SOC Team and Reporting Structure](https://web.compass.lighthouselabs.ca/p/cyber/3853a658-0621-4cc4-a295-b026b0a00b0d)
 - [Workflows](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md)
 - [Making a SOC Team](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Making%20of%20a%20SOC%20Team.md)
 
