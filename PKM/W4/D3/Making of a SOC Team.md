@@ -11,6 +11,7 @@ Readings:
 ## SOC Responsibility
 SOC teams must fulfill a number of responsibilities to effectively manage security incidents, (Investigate, Triage, Coordinate):
 - _Investigating_ Potential Incidents:
+
 SOC teams receive a large number of alerts, determine if it is a real attack or a false positive.
 
 - _Triaging_ and Prioritizing Detected Incidents:
