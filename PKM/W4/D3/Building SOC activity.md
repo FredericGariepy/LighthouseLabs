@@ -1,4 +1,7 @@
 # [Building an SOC Team and Reporting Structure](https://web.compass.lighthouselabs.ca/p/cyber/3853a658-0621-4cc4-a295-b026b0a00b0d)
+# Menu
+- [Activity Guidelines](#activity-guidelines)
+
 
 ## Activity Guidelines:
 [The Making of SOC Team contains](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Making%20of%20a%20SOC%20Team.md): diferent levels of roles that might exist in an SOC.
