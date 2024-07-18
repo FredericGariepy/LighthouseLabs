@@ -1,7 +1,8 @@
 Menu
 1. [Glossary](#glossary)
-2. [What's a workflow in cybersecurity]()
-3. [SOC Methodology]
+2. [Common Symbols]
+3. [What's a workflow in cybersecurity]()
+4. [SOC Methodology]
 
 ### Glossary 
 |acro|def|
@@ -9,6 +10,9 @@ Menu
 | SOC| Security Operations Center |
 |CSIRT|computer security incident response team|
 >  Remember, as a Junior Analyst, you may be in either or both of these positions from time to time.
+
+### Common Symbols
+<img src="https://github.com/user-attachments/assets/f97bfd1e-0ac8-4fd0-900a-822dba982b7e" alt="6sigmatools-symbols" style="width: 60%;">
 
 
 ### [What is a Workflow?](https://www.process.st/what-is-a-workflow/)
