@@ -88,3 +88,64 @@ Europe, various data breach notification laws in different Canadian provinces).
 - Keep the playbook up to date to reflect changes in technology, threats, and regulations.
 15. Public Relations (if applicable):
 - If the breach is public, have a strategy for managing public relations and protecting your organization's reputation
+
+ ___
+
+
+The incident response phases are:
+
+    Preparation
+    Identification
+    Containment
+    Eradication
+    Recovery
+    Lessons Learned
+
+1. Preparation
+- Ensure your employees are properly trained regarding their incident response roles and responsibilities in the event of data breach
+- Develop incident response drill scenarios and regularly conduct mock data breaches to evaluate your incident response plan.
+- Ensure that all aspects of your incident response plan (training, execution, hardware and software resources, etc.) are approved and funded in advance
+
+
+2. Identification
+
+ASK: When, What, Where, Who, Why, How.
+
+3. Containment
+- Don't delete evidence.
+- Disconnect
+- Have backups / redundant systems
+- update and patch your systems
+- review your remote access protocols / user permisions
+
+4. Eradication
+- removal of malware
+- harden/patch/update
+- be thourough
+
+5. Recovery
+-restoring and returning affected systems and devices back into your business environment
+
+6. Lessons Learned
+- Post mortem
+- Update knowledge base
+- Evaluate response plan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
