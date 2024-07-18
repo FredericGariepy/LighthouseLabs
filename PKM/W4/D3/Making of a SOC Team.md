@@ -2,14 +2,11 @@ MENU
 - [SOC Responsibility](#soc-responsibility)
 - [SOC Other responsibilities](#soc-other-responsibilities)
 - [Common SOC Challenges](#common-soc-challenges)
-- [SOC Roles. Select your player!](#soc-roles)
+- [SOC Roles](#soc-roles) Select your player!
 
 Readings:
 - [Security Operations Center (SOC) Roles and Responsibilities](https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-soc/security-operations-center-soc-roles-and-responsibilities/)
 - [SOC Team Roles and Responsibilities](https://www.letsdefend.io/blog/soc-team-roles-and-responsibilities)
-
-
-
 
 ## SOC Responsibility
 SOC teams must fulfill a number of responsibilities to effectively manage security incidents, (Investigate, Triage, Coordinate):
