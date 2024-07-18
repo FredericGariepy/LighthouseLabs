@@ -97,7 +97,7 @@ The SOC handles the fast processing of events.
 | Tier 1 | The “new ones” who solve events by means of “learning by doing” and with the help of knowledgebase and their colleagues.|
 | Tier 2 | Experienced employees who can handle most events from experience, know the workflows and other procedures well, and to an extent analyze events to a certain depth. |
 | T2 & T1 | Tier 2 train the Tier 1 agents in daily business. |
-| Tier 2**+** |This escalation level/complexity of an event requires Subject Matter Expert support. |
+| Tier 2 + |This escalation level/complexity of an event requires Subject Matter Expert support. |
 | CSIRT | If the event can not be solved even in Tier 2+, it will be handed over to the CSIRT by Ticket. |
 
 ```
