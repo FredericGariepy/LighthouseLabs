@@ -1,4 +1,5 @@
-Menu
+# Menu
+
 1. [Glossary](#glossary)
 2. [Common Symbols]
 3. [What's a workflow in cybersecurity]()
@@ -80,7 +81,9 @@ print(workflow[workflow[workflow[workflow[workflow[p0]]][0][p2]]])  # we got to 
 ```
 
 ### [The SOC Methodology](https://secureglobal.de/the-soc-methodology)
-
+The SOC handles the fast processing of events.
+- If events are known/easy to solve – these are forwarded from the SOC to the relevant division (IT-Security, Networking, Servers etc.).
+- If events are not easy to solve or completely unknown, they will be forwarded to the **CSIRT**.
 
 | - | - |
 | - | - |
