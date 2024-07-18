@@ -6,13 +6,12 @@ Glossary
 >  Remember, as a Junior Analyst, you may be in either or both of these positions from time to time.
 
 [What is a Workflow?](https://www.process.st/what-is-a-workflow/)
-> Worflow != process. workflow = {p0:p1,p1:p2,[{p2:p3},{p2:p4}]}
-Build a workflow Ask
-What exact jobs need to be done?
-Who is responsible for each job?
-How much time will each task take?
+> A workflow is not a process. We can proceed through a workflow by following it (see code analogy bellow).
+To Build a workflow Ask:
+- What exact jobs need to be done?
+- Who is responsible for each job?
+- How much time will each task take?
 
-A process is not a workflow.
 ```python
 # this is the workflow.
 workflow = {p0:p1,p1:p2,p2:[{p2:p3},{p2:p4}],p3:p4,p4:p5}
