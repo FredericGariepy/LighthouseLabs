@@ -4,7 +4,8 @@
 2. [Common Symbols](#common-symbols)
 3. [What's a workflow in cybersecurity](#what-is-a-workflow)
 4. [SOC Methodology](#the-soc-methodology)
-5. [CSIRT Methodology](#the-csirt-methodology)
+5. [CSIRT Methodology](#the-csirt-methodology) (un-finished)
+6. [Conclusion](#conclusion)
 
 ### Glossary 
 |acro|def|
