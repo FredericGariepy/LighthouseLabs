@@ -14,14 +14,6 @@ How much time will each task take?
 
 A process is not a workflow.
 ```python
-#procceses
-p0='start'
-p1='process1'
-p2='process2'
-p3='process3'
-p4='process4'
-p5='end'
-
 # this is the workflow.
 workflow = {p0:p1,p1:p2,p2:[{p2:p3},{p2:p4}],p3:p4,p4:p5}
 
