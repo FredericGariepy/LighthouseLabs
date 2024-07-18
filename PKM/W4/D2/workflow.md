@@ -15,8 +15,8 @@
 |CSIRT|computer security incident response team| 🧠|
 |CERT|Computer Emergency Response Team| 🧠 |
 |SME |Subject Matter Expert| 🧠|
-|ENISA |European Union Agency for Network and Information Security||
-|CMU-SEI|Carnegie-Mellon University / Software Engineering Institute||
+|ENISA |[European Union Agency for Network and Information Security](https://www.enisa.europa.eu/topics/certification)|🇪🇺 |
+|CMU-SEI|[Carnegie-Mellon University / Software Engineering Institute](https://www.sei.cmu.edu/)|🏫|
 
 
 >  Remember, as a Junior Analyst, you may be in either or both of SOC  positions from time to time.
