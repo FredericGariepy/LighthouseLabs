@@ -24,7 +24,7 @@ ___
 | 4:00 pm | [Day-End Reporting for End of Shift](#day-end-reporting-for-end-of-shift) | 
 
 #### Arrival and Read-in 
-###### 9:00 a.m.
+###### 9:00 a.m. [⬆️](#day-of-a-cyber-security-analyst-different-phases-of-their-shift)
 During this time, the Analyst will first check current reports for new or ongoing incidents.
 This could be a direct hand-off from a night or weekend shift, and may contain incidents that are (New, Open, Closed):
 
@@ -38,21 +38,21 @@ This could be a direct hand-off from a night or weekend shift, and may contain i
 If new, ongoing, or escalated incidents exist, the Analyst will spend time investigating those incidents.
 
 #### Meeting and Consultation Write-ups
-###### 10:00 a.m.
+###### 10:00 a.m.  [⬆️](#day-of-a-cyber-security-analyst-different-phases-of-their-shift)
 - If required, interviews with senior staff, organizational teams, reviews of project statuses
 - If required, research incidents, vulnerabilities, threats, and risks
 - If required, write-up of recommendations and findings
 - Continuing work with open incidents
 
 #### In Seat, Monitoring
-###### 1:00 pm
+###### 1:00 pm  [⬆️](#day-of-a-cyber-security-analyst-different-phases-of-their-shift)
 Ongoing monitoring of security information and event management (SIEM), event logs, etc.
 - Onboarding of new incidents
 - Continuation of open incidents
 - Closing of incidents
 
 #### Day-End Reporting for End of Shift
-###### 4:00 pm 
+###### 4:00 pm   [⬆️](#day-of-a-cyber-security-analyst-different-phases-of-their-shift)
 At the end of the shift, outgoing shift members share updates with the incoming shift members.
 
 
