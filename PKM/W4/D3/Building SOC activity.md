@@ -1,10 +1,13 @@
-# [Building an SOC Team and Reporting Structure](https://web.compass.lighthouselabs.ca/p/cyber/3853a658-0621-4cc4-a295-b026b0a00b0d)
 # Menu
+- [LHL Compas Activity Link: Building an SOC Team and Reporting Structure](https://web.compass.lighthouselabs.ca/p/cyber/3853a658-0621-4cc4-a295-b026b0a00b0d)
 - [Activity Guidelines](#activity-guidelines)
 
+## resources
+- [Workflows](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md)
+- [Making a SOC Team](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Making%20of%20a%20SOC%20Team.md)
 
 ## Activity Guidelines:
-[The Making of SOC Team contains](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Making%20of%20a%20SOC%20Team.md): diferent levels of roles that might exist in an SOC.
+: diferent levels of roles that might exist in an SOC.
 
 In this assignment, we ask you to build an SOC structure to the extent that it allows for the construction of Workflows. This entails enough descriptive content and knowledge of the roles and responsibilities within the SOC that opening, escalating, and closing of tickets can be managed.
 
