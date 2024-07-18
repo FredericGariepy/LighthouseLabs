@@ -2,6 +2,7 @@
 ## Menu
 - [Activity Guidelines](#activity-guidelines)
 - [Questions & Steps for playbook creation](#quetionssteps-in-playbook-creation)
+- [Incident Response Phases]
 
 ## resources
 - [LHL Compas Activity Link: Building an SOC Team and Reporting Structure](https://web.compass.lighthouselabs.ca/p/cyber/3853a658-0621-4cc4-a295-b026b0a00b0d)
@@ -94,12 +95,14 @@ Europe, various data breach notification laws in different Canadian provinces).
 ## Incident response phases
 The incident response phases are:
 
-    Preparation
-    Identification
-    Containment
-    Eradication
-    Recovery
-    Lessons Learned
+| | phase |
+|- |--|
+|1|Preparation|
+|2|Identification|
+|3| Containment|
+|4| Eradication|
+|5| Recovery|
+|6| Lessons Learned|
 
 1. Preparation
 - Ensure your employees are properly trained regarding their incident response roles and responsibilities in the event of data breach
