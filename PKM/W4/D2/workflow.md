@@ -149,8 +149,7 @@ An SOC is primarily responsible for monitoring and defending an organization’s
 | - | - |
 | - | - |
 | - | - |
-
-reflect on each roll:
+Blue team roles:
 - Cyber Security Specialist
 > the Watcher, monitoring, responding to tickets, Infra maintenance, Siem user, reporting, 'on ground'
 
