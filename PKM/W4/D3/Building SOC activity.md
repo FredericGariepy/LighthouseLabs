@@ -9,6 +9,7 @@
 - [Making a SOC Team](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Making%20of%20a%20SOC%20Team.md)
 - [Ransomware playbook](https://www.cyber.gc.ca/en/guidance/ransomware-playbook-itsm00099)
 - [6 Phases in the Incident Response Plan](https://www.securitymetrics.com/blog/6-phases-incident-response-plan)
+- [HIGH TECH: Siemplify SOAR](https://www.youtube.com/watch?v=xmusgGAxeWs&list=LL&index=1)
 
 ## Activity Guidelines: 
 In this assignment, we ask you to build an SOC structure to the extent that it allows for the construction of Workflows. This entails enough descriptive content and knowledge of the roles and responsibilities within the SOC that opening, escalating, and closing of tickets can be managed.
