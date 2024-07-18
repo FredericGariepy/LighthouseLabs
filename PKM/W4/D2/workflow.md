@@ -36,8 +36,9 @@ While the number of tasks in each workflow can vary from 1 to 99+, every workflo
 - **Results**: What the workflow produces. A result or outcome can be something tangible like purchasing a service or more abstract like accessing certain information.
 
 
+![small workflow](https://github.com/user-attachments/assets/00126562-2a88-45bc-8a1d-f9921577ab43)
 ```python
-# this is the workflow.
+# this is the workflow, in the picture above
 workflow = {p0:p1,p1:p2,p2:[{p2:p3},{p2:p4}],p3:p4,p4:p5}
 
 # processes
