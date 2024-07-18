@@ -31,11 +31,16 @@ Role of the SOC is not limited to incident response. Other roles & responsibilit
 
 ## Common SOC Challenges
 Most common challenges that SOC teams face in fulfilling their roles include:
-- __Staffing Critical Roles__: The cybersecurity industry is experiencing a significant skills gap. This makes it difficult for organizations to attract and retain the talent required to protect themselves against cyber threats.
-- Weeding Out __False Positives__: The average SOC receives tens of thousands of alerts each day, but only a small fraction are from real threats. SOC analysts must identify the needles in a large haystack of logs and alerts, which consumes valuable time and resources.
-- __Minimizing Operational Impacts__: Not everything suspicious within an organization’s network is malicious and part of a real attack. SOCs must expose and shut down only real attacks, while allowing legitimate business to continue.
-- __Rapidly Responding to Attacks__: The longer an attacker has access to an organization’s network, the greater the cost and damage to the organization. SOC teams must rapidly identify and remediate attacks to minimize the impact on the company.
-- __Collecting and Aggregating Data__: Many organizations have an array of point security solutions. The resulting incomplete and disconnected network visibility impairs effective incident detection and response.
+- __Staffing Critical Roles__:
+> The cybersecurity industry is experiencing a significant skills gap. This makes it difficult for organizations to attract and retain the talent required to protect themselves against cyber threats.
+- Weeding Out __False Positives__:
+> The average SOC receives tens of thousands of alerts each day, but only a small fraction are from real threats. SOC analysts must identify the needles in a large haystack of logs and alerts, which consumes valuable time and resources.
+- __Minimizing Operational Impacts__:
+> Not everything suspicious within an organization’s network is malicious and part of a real attack. SOCs must expose and shut down only real attacks, while allowing legitimate business to continue.
+- __Rapidly Responding to Attacks__:
+> The longer an attacker has access to an organization’s network, the greater the cost and damage to the organization. SOC teams must rapidly identify and remediate attacks to minimize the impact on the company.
+- __Collecting and Aggregating Data__:
+> Many organizations have an array of point security solutions. The resulting incomplete and disconnected network visibility impairs effective incident detection and response.
 
 
 
