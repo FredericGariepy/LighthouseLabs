@@ -1,6 +1,7 @@
 <!--[⬆️](#menu)-->
 ## Menu
 - [Activity Guidelines](#activity-guidelines)
+- [Questions & Steps for playbook creation](#quetionssteps-in-playbook-creation)
 
 ## resources
 - [LHL Compas Activity Link: Building an SOC Team and Reporting Structure](https://web.compass.lighthouselabs.ca/p/cyber/3853a658-0621-4cc4-a295-b026b0a00b0d)
