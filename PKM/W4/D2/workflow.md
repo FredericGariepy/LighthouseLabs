@@ -144,21 +144,14 @@ CSIRT consists of top-class specialists who analyze, evaluate and then make fine
 ### Conclusion:
 An SOC is primarily responsible for monitoring and defending an organization’s infrastructure and preparing for potential threats while a CSIRT is mainly responsible for responding to Cyber Security incidents that have already occurred.
 
-
-
 ---
-| - | - |
-| - | - |
-| - | - |
+
+Extra
+
 Blue team roles:
-- Cyber Security Specialist
-> the Watcher, monitoring, responding to tickets, Infra maintenance, Siem user, reporting, 'on ground'
-
-- Threat Hunter
-> vulnerabily collector, asset monitor, simulations, controlled testing,
-
-- Vulnerability Analyst
-> take the result from CSS and TH, understand exploits and create patch/solves. create actions plans for CSS (play books,...)
-
-- Cryptanalyst
-> capture the flag, decrypt, review/develop safe communications schemes, forensics, 
+| Role | Description |
+| - | ------ |
+| Cyber Security Specialist | the Watcher, monitoring, responding to tickets, Infra maintenance, Siem user, reporting, 'on ground' |
+| Threat Hunter | vulnerabily collector, asset monitor, simulations, controlled testing |
+| Vulnerability Analyst | take the result from CSS and TH, understand exploits and create patch/solves. create actions plans for CSS (play books,...) |
+| Cryptanalyst | capture the flag, decrypt, review/develop safe communications schemes, forensics |
