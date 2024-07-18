@@ -42,29 +42,29 @@ From [Laura Franks](https://github.com/ldfranks): Week4 day 4: Part 2 Lecture: U
 
 When creating a playbook, we consider the following:
 1. Define the Objectives and Scope:
-● Clearly state the objectives of the playbook.
-● Specify the scope, including the types of data breaches it covers (e.g., unauthorized
+- Clearly state the objectives of the playbook.
+- Specify the scope, including the types of data breaches it covers (e.g., unauthorized
 access, data exfiltration, insider threats).
 2. Identify the Incident Response Team:
-● List the members of the incident response team and their roles.
-● Ensure clear lines of communication and reporting.
+- List the members of the incident response team and their roles.
+-  Ensure clear lines of communication and reporting.
 3. Risk Assessment:
-● Assess the potential impact of a data breach on your organization.
-● Identify critical assets and data
+- Assess the potential impact of a data breach on your organization.
+- Identify critical assets and data
 4. Incident Classification:
-● Define different levels of incidents based on severity and impact.
+- Define different levels of incidents based on severity and impact.
 
 
 5. Detection and Notification:
-● Specify how data breaches will be detected.
-● Define notification procedures, including legal requirements (e.g., GDPR in
+- Specify how data breaches will be detected.
+- Define notification procedures, including legal requirements (e.g., GDPR in
 Europe, various data breach notification laws in different Canadian provinces).
 6. Containment and Eradication:
-● Describe steps to contain the breach to prevent further damage.
-● Develop procedures for identifying and removing the root cause.
+- Describe steps to contain the breach to prevent further damage.
+- Develop procedures for identifying and removing the root cause.
 7. Investigation and Forensics:
-● Outline the process for investigating the breach.
-● Preserve evidence for potential legal actions.
+- Outline the process for investigating the breach.
+- Preserve evidence for potential legal actions.
 8. Communication:
 ● Define internal and external communication plans.
 ● Specify how to communicate with affected parties and stakeholders
