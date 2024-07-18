@@ -138,6 +138,13 @@ What requires discipline in terms of tickets:
 ## [The CSIRT Methodology](https://secureglobal.de/the-csirt-methodology)
 CSIRT consists of top-class specialists who analyze, evaluate and then make finely-tuned incidents as well as information and artifacts available to the SOC, the company or other important players. CSIRT is the heart of the IT security department.
 
+
+### Conclusion:
+An SOC is primarily responsible for monitoring and defending an organization’s infrastructure and preparing for potential threats while a CSIRT is mainly responsible for responding to Cyber Security incidents that have already occurred.
+
+
+
+---
 | - | - |
 | - | - |
 | - | - |
