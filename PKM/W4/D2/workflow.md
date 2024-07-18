@@ -8,15 +8,15 @@
 6. [Conclusion](#conclusion)
 
 ### Glossary 
-|acro|def|
-|-|--|
-| SOC| Security Operations Center |
-|ISOC |Information Security Operations Center |
-|CSIRT|computer security incident response team|
-|SME |Subject Matter Expert|
-|CERT|Computer Emergency Response Team|
-|ENISA |European Union Agency for Network and Information Security|
-|CMU-SEI|Carnegie-Mellon University / Software Engineering Institute|
+|acro|def||
+|-|----|-|
+| SOC| Security Operations Center | 🤓 | 
+|ISOC |Information Security Operations Center | 🤓|
+|CSIRT|computer security incident response team| 🧠|
+|CERT|Computer Emergency Response Team| 🧠 |
+|SME |Subject Matter Expert| 🧠|
+|ENISA |European Union Agency for Network and Information Security||
+|CMU-SEI|Carnegie-Mellon University / Software Engineering Institute||
 
 
 >  Remember, as a Junior Analyst, you may be in either or both of SOC  positions from time to time.
