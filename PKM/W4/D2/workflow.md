@@ -122,8 +122,12 @@ SOC-constitution (Justify existence of SOC & SOC position in organization)
               └── Asset_3    Each asset feeds into SIEM
                              Data used to trigger use cases
 ```
+What requires discipline in terms of tickets:
+- feeding knowledge into the knowledge base
+- watching tickets for escalation
+- write tickets in a manner that others can fully understand what have been done.
 
-
+## [The CSIRT Methodology](https://secureglobal.de/the-csirt-methodology)
 
 
 | - | - |
