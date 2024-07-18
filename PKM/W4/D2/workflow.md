@@ -93,7 +93,6 @@ The SOC handles the fast processing of events.
 
 | Tier | Description |
 | - | ---- |
-| - | - |
 | Tier 1 | The “new ones” who solve events by means of “learning by doing” and with the help of knowledgebase and their colleagues.|
 | Tier 2 | Experienced employees who can handle most events from experience, know the workflows and other procedures well, and to an extent analyze events to a certain depth. |
 | T2 & T1 | Tier 2 train the Tier 1 agents in daily business. |
