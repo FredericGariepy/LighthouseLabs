@@ -91,7 +91,7 @@ Europe, various data breach notification laws in different Canadian provinces).
 
  ___
 
-
+## Incident response phases
 The incident response phases are:
 
     Preparation
