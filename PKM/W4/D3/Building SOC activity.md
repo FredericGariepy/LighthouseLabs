@@ -37,8 +37,8 @@ By the end of this exercise, you should have created the following assets:
 
 Go up to menu [⬆️](#menu)
 ___
-
-From [Laura Franks](https://github.com/ldfranks): Week4 day 4: Part 2 Lecture: Understanding Playbooks
+## Quetions/Steps in playbook creation
+From [Laura Franks](https://github.com/ldfranks): Week 4 day 4: Part 2 Lecture: Understanding Playbooks
 
 When creating a playbook, we consider the following:
 1. Define the Objectives and Scope:
