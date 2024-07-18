@@ -13,6 +13,8 @@
 |CSIRT|computer security incident response team|
 |SME |Subject Matter Expert|
 |CERT|Computer Emergency Response Team|
+|ENISA |European Union Agency for Network and Information Security|
+|CMU-SEI|Carnegie-Mellon University / Software Engineering Institute|
 
 
 >  Remember, as a Junior Analyst, you may be in either or both of SOC  positions from time to time.
@@ -86,6 +88,8 @@ print(workflow[workflow[workflow[workflow[workflow[p0]]][0][p2]]])  # we got to 
 ```
 
 ### [The SOC Methodology](https://secureglobal.de/the-soc-methodology)
+The SOC is used for fast “mass processing” of events to detect whether it is “noise”, false positives or real incidents. Incidents are handled accordingly, “noise” and false positives are registered and must be kept to a minimum by the specialist department that operates the IT security assets (firewalls, proxies, antivirus, etc.).
+
 The SOC handles the fast processing of events.
 - If events are known/easy to solve – these are forwarded from the SOC to the relevant division (IT-Security, Networking, Servers etc.).
 - If events are not easy to solve or completely unknown, they will be forwarded to the [**CSIRT**](#glossary).
@@ -129,7 +133,7 @@ What requires discipline in terms of tickets:
 - write tickets in a manner that others can fully understand what have been done.
 
 ## [The CSIRT Methodology](https://secureglobal.de/the-csirt-methodology)
-CSIRT consists of top-class specialists who analyze, evaluate and then make finely-tuned incidents as well as information and artifacts available to the SOC, the company or other important players.
+CSIRT consists of top-class specialists who analyze, evaluate and then make finely-tuned incidents as well as information and artifacts available to the SOC, the company or other important players. CSIRT is the heart of the IT security department.
 
 | - | - |
 | - | - |
