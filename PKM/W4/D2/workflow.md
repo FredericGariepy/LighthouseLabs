@@ -83,7 +83,9 @@ print(workflow[workflow[workflow[workflow[workflow[p0]]][0][p2]]])  # we got to 
 ### [The SOC Methodology](https://secureglobal.de/the-soc-methodology)
 The SOC handles the fast processing of events.
 - If events are known/easy to solve – these are forwarded from the SOC to the relevant division (IT-Security, Networking, Servers etc.).
-- If events are not easy to solve or completely unknown, they will be forwarded to the **CSIRT**.
+- If events are not easy to solve or completely unknown, they will be forwarded to the [**CSIRT**](#glossary).
+- SOC **does not** make any changes to IT security assets or the IT infrastructure (responsibility of the relevant division).
+- SOC takes care that tickets are worked on and closed in a timely manner. If not the SOC agents will escalate to their supervisor.
 
 | - | - |
 | - | - |
