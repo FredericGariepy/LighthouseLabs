@@ -110,15 +110,15 @@ SOC-constitution (Justify existence of SOC & SOC position in organization)
 ## NIST incident response life cycle model
 ###### Comparison:
 IN [6 Phases in the Incident Response Plan](https://www.securitymetrics.com/blog/6-phases-incident-response-plan): 
-- Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned
+- Preparation*, Identification*, Containment, Eradication, Recovery*, Lessons Learned*
 
 IN [Incident response life cycle model](https://csrc.nist.gov/Projects/incident-response), (image below) Created February 29, 2024.
 ```
-                            Identification*
-Preparation:                      |
+                            Identification*          [Note]: Improvement ≈ Lessons Learned
+Preparation*:                     |
                (Govern ──── Improvement* ─── Protect )
                             /     |     \
-       IRLC:         (Detect-> Respond-> Recovery)
+       IRLC:         (Detect-> Respond-> Recovery*)
 ```
 
 <img src="https://csrc.nist.gov/csrc/media/Projects/incident-response/images-media/life%20cycle.png" alt="Incident Response Life Cycle" style="width: 50%;"/>
