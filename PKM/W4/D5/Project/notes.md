@@ -69,7 +69,8 @@ Percy F., CEO: Contact IFF item is: escalated, urgent, >= 48 hours unresolved.
 
 
 
-Diagram (below): [SOC Methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology)
+## SOC Methodology Diagram:
+Source: [SOC Methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology)
 ```
 SOC-constitution (Justify existence of SOC & SOC position in organization)
   │
