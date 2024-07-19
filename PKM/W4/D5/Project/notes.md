@@ -1,5 +1,59 @@
 
-```D
+```
+
+Box Inc.
+  │
+  ├── CEO: Percy F., Contact IFF item is: escalated, urgent, >= 48 hours unresolved.
+  │                  email@: percy@box.cat
+  │                  phone#: N/A
+  ├── Production
+  │      ├── Manager: Misha F. 9AM - 5PM AST
+  │      │            email@:  mesha@box.cat Phone 902-9836
+  │      │            phone#:  902-9836
+  │      │           
+  │      └── Manager: Minka F. 5PM - 9AM AST + weekends
+  │                   email@:  minka@box.cat
+  │                   phone#:  562-7658     
+  ├───── IT
+  │      ├───── IT support specialist. Lucky:  (assumed 9AM - 5PM AST)
+  │      │                             email@: lucky@box.cat
+  │      │                             phone#: 269-5466
+  │      │
+  │      ├───── Network administratot. Ned:    (assumed 9AM - 5PM AST)
+  │      │                             email@: ned@box.cat
+  │      │                             phone#: 877-4332
+  │      │
+  │      └───── Database specialist.   Dusty:  (assumed 9AM - 5PM AST)
+  │                                    email@: dusty@box.cat
+  │                                    phone#: 462-8952
+  └──── SOC
+         └────── Analyst 1.─────────> YOU:    (assumed Unknown / AST)
+                                      email@: SELF@box.cat
+                                      phone#: xxx-xxxx 
+
+External MSSP & SOC Security Oversight
+3rd party
+  │
+  ├──Consultant: Cat. (assumed 24/7 / AST)
+  │              email@:            cat@soc.cat 
+  │              Phone# on-site:    905-4616
+  │              Phone# Cell#:      902-4321
+  ├── ...
+  │
+  └──SOC
+       ├── Analyst 2
+       ├── Analyst 2+
+       └── ...
+```
+
+Percy F., CEO: Contact IFF item is: escalated, urgent, >= 48 hours unresolved.
+
+
+
+
+
+
+```
 SOC-constitution (Justify existence of SOC & SOC position in organization)
   │
   └── SOC-Organizational_Handbook (Roles, Responsibility, Org. structure, glossary)
