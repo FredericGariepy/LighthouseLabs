@@ -1,5 +1,5 @@
 
-```
+```D
 SOC-constitution (Justify existence of SOC & SOC position in organization)
   │
   └── SOC-Organizational_Handbook (Roles, Responsibility, Org. structure, glossary)
