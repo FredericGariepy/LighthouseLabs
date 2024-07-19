@@ -6,8 +6,9 @@
 - [Case: Group and roles Diagrams](#case-groups-and-roles)
 - [Generic: SOC Methodology Diagram:](#soc-methodology-diagram)
 ##### Resources:
-- GOOGLE [Top Security Playbooks 2022-2023. Google Cloud](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
+- Google Cloud:  [Top Security Playbooks 2022-2023. Google Cloud](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 - CISA [Federal Government Cybersecurity Incident & Vulnerability Response Playbooks](https://www.cisa.gov/sites/default/files/2024-03/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf)
+- NIST [Incident Response](https://csrc.nist.gov/Projects/incident-response)
 
 ## Glossary
 |term| def|
@@ -105,3 +106,6 @@ SOC-constitution (Justify existence of SOC & SOC position in organization)
               └── Asset_3    Each asset feeds into SIEM
                              Data used to trigger use cases
 ```
+## NIST incident response life cycle model
+[Incident response life cycle model](https://csrc.nist.gov/Projects/incident-response), Created February 29, 2024
+<img src="https://csrc.nist.gov/csrc/media/Projects/incident-response/images-media/life%20cycle.png" alt="Incident Response Life Cycle" style="width: 60vw;"/>
