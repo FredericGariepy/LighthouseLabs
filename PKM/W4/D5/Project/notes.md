@@ -1,4 +1,13 @@
- 
+# Menu:
+- [Glossary](#glossary)
+- [Project deliverables](#deliverables)
+
+##### Diargam/Charts:
+- [Case: Group and roles Diagrams](#case-groups-and-roles)
+- [Generic: SOC Methodology Diagram:](#soc-methodology-diagram)
+
+
+
 ## Glossary
 |term| def|
 |-|-|
@@ -15,9 +24,11 @@
 - Stretch: create a flowchart of your workflow.
 
 
+Percy F., CEO: Contact IFF item is: escalated, urgent, >= 48 hours unresolved.
 
+## Case groups and roles
+Casse Groups and occupied roles:
 ```
-
 Box Inc.
   │
   ├── CEO: Percy F., Contact IFF item is: escalated, urgent, >= 48 hours unresolved.
@@ -62,11 +73,6 @@ External MSSP
        ├── Analyst 2+
        └── ...
 ```
-
-Percy F., CEO: Contact IFF item is: escalated, urgent, >= 48 hours unresolved.
-
-
-
 
 
 ## SOC Methodology Diagram:
