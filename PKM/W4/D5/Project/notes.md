@@ -107,5 +107,6 @@ SOC-constitution (Justify existence of SOC & SOC position in organization)
                              Data used to trigger use cases
 ```
 ## NIST incident response life cycle model
-[Incident response life cycle model](https://csrc.nist.gov/Projects/incident-response), Created February 29, 2024
+[Incident response life cycle model](https://csrc.nist.gov/Projects/incident-response), Created February 29, 2024.
+
 <img src="https://csrc.nist.gov/csrc/media/Projects/incident-response/images-media/life%20cycle.png" alt="Incident Response Life Cycle" style="width: 50%;"/>
