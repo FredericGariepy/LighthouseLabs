@@ -31,7 +31,7 @@ Box Inc.
                                       email@: SELF@box.cat
                                       phone#: xxx-xxxx 
 
-External MSSP & SOC Security Oversight
+External MSSP
 3rd party
   │
   ├──Consultant: Cat. (assumed 24/7 / AST)
