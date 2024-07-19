@@ -5,8 +5,9 @@
 ##### Diargam/Charts:
 - [Case: Group and roles Diagrams](#case-groups-and-roles)
 - [Generic: SOC Methodology Diagram:](#soc-methodology-diagram)
-
-
+##### Resources:
+- GOOGLE [Top Security Playbooks 2022-2023. Google Cloud](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
+- CISA [Federal Government Cybersecurity Incident & Vulnerability Response Playbooks](https://www.cisa.gov/sites/default/files/2024-03/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf)
 
 ## Glossary
 |term| def|
