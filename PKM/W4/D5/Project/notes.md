@@ -15,12 +15,17 @@
 |SOP| Standard Operating Procedure, Standardized instructions for routine operations in cybersecurity|
 |Client Playbook| Tailored guidelines for clients to detect, prevent, and respond to cybersecurity threats.|
 
-## deliverables
+## Deliverables
+
 - Technical letter to 3rd party provider
+
 - Non-technical letter to client
+
 - List of trigger items that might affect incident response workflow
+
 - Rationale escalaiton (MSSP); factors that push decision making.
   > At SOC Lvl 1, decision = requesting additional resources and individuals, i.e. escalation.
+
 - Stretch: create a flowchart of your workflow.
 
 
