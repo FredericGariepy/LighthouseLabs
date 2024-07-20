@@ -16,8 +16,7 @@ at the end of the shift and then handover to the incoming shift member.
 #### SEAT
 Staff, Explanation, Awareness, Transition
 
-__Staff__ 
-- When is the handoff scheduled?
+__Staff__  When is the handoff scheduled?
 First, shift-takers need to be there. Possible for incoming staff member to be late.
 
 __Prioritization__ is key here. Prioritizing all active incidents and activities, therefore talking about the most pressing concerns first.
