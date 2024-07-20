@@ -10,13 +10,18 @@
 - CISA [Federal Government Cybersecurity Incident & Vulnerability Response Playbooks](https://www.cisa.gov/sites/default/files/2024-03/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf)
 - NIST [Incident Response](https://csrc.nist.gov/Projects/incident-response)
 - [6 Phases in the Incident Response Plan](https://www.securitymetrics.com/blog/6-phases-incident-response-plan)
-
+- [What's an MSSP?](https://www.beyondtrust.com/resources/glossary/managed-security-services-provider-mssp)
+- 
 ## Glossary
 |term| def|
 |-|-|
 |Playbook | A documented set of procedures for responding to cybersecurity incidents.|
 |SOP| Standard Operating Procedure, Standardized instructions for routine operations in cybersecurity|
 |Client Playbook| Tailored guidelines for clients to detect, prevent, and respond to cybersecurity threats.|
+|NOC| Network operation center|
+| MSSP|Managed security service providers |
+|MSP|Managed services providers|
+
 
 ## Deliverables
 
