@@ -1,8 +1,8 @@
 
 ## Table of Contents (Playbooks)
 - [Reading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
-- [Brute Force Attacks](#brute-force-attacks) 👊
 - [Phishing Attacks](#phishing-attacks)🎣
+- [Brute Force Attacks](#brute-force-attacks) 👊
 > Ransomware,
 > Command-and-Control (C2) Traffic,
 > Insider Threat (Data Leakage),
@@ -20,11 +20,10 @@
 
 ## Phishing :wavy_dash: :fishing_pole_and_fish: :wavy_dash:
 One of the most prevalent attack.
-Through email, text message,
-impersonation of company executive,
-impersonation of cloudbased file storage/sharing site.
 
--Playbook Start-
+Through email, text message, impersonation of company executive, impersonation of cloudbased file storage/sharing site.
+
+-_Playbook Start_-
 #### Enrichment & Context
 - Note the source and destination IP addresses and ports.
 - List all the email addresses against which the alerts were found.
@@ -54,6 +53,7 @@ Generally, the attacker has either:
 a. reverse engineered or
 b. purchased on the dark web legitimate usernames and applies a vast library of potential passwords to gain access
 
+-_Playbook start_-
 #### 1 Enrichment & Context:
 - Source IP address –is it internal or external
 -  Target IP and OS information
@@ -114,6 +114,7 @@ if the host is vulnerable.
 ## Impossible Travel :business_suit_levitating:
 Timely Office 365 feature that enables you to compare a user’s last known location to their current location, then judge whether the trip is normal or not given the time that has elapsed between the two coordinates.
 
+-_Playbook start_- 
 #### 1 Enrichment & Context
 - Enrich the user: Gauge the risk profile of the user (i.e. traveling engineer vs CxO vs domain admin?) Has the user travelled to these countries before?
 - Enrich the IP: Are the countries on a sanction list? Is the IP an approved business VPN exit point?
