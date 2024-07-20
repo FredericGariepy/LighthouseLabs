@@ -33,7 +33,7 @@ __Transition__ consistency. Use automation of shift-end tasks and handoff duties
 Situation, Written, Accurate, Persistence
 
 __Situation__: Clear Picture: detail and share as much information as possible.
-- outgoing and incoming parties actively participate in this discussion.
+outgoing and incoming parties actively participate in this discussion.
 
 __Written__: information is recorded, maintained, record verbal briefs, Video, Picture.
 
