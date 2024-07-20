@@ -14,8 +14,10 @@
 ## Glosary 
 | term | def|
 |-|---|
-|SOAR|Security Orchestration, Automation, Response|
+|CoX |chief experience officer|
 |SecOps |Security Operations|
+|SOAR|Security Orchestration, Automation, Response|
+|
 
 
 ## Brute Force Attacks
@@ -79,3 +81,23 @@ on their assets.
 for the specific port in the case it was unnecessarily open to the public.
 5. If the attacker is an internal IP, search for any malware infections and past malware alerts on the source host to see
 if the host is vulnerable.
+
+
+## Impossible Travel
+Timely Office 365 feature that enables you to compare a user’s last known location to their current location, then judge whether the trip is normal or not given the time that has elapsed between the two coordinates.
+
+#### Enrichment & Context
+- Enrich the user: Gauge the risk profile of the user (i.e. traveling engineer vs CxO vs domain admin?) Has the user travelled to these countries before?
+- Enrich the IP: Are the countries on a sanction list? Is the IP an approved business VPN exit point?
+
+#### Investigation
+**Decide**: Consider the time of day, risk of user and
+SOC analyst opinions to help decide if false positive.
+
+#### Containment and Remidiation
+1. Contain the access: Remove groups/permissions to systems, disable account, block source login IP addresses, escalate user to require two-factor authentication.
+2. Eradicate the access: Reset user password, notify HR/the user’s manager that the
+account needs resetting.
+3. Recover: Initiate automatic communication (e.g. Slack, Teams) to the user/their manager asking them to explain recent actions. Investigate how the incident could happen
+
+
