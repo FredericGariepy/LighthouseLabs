@@ -1,6 +1,7 @@
 
 ## Table of Contents (Playbooks)
-- [Reading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
+- [Reading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf) (contains many more playbooks)
+  
 - [Phishing Attacks](#phishing)🎣
 - [Brute Force Attacks](#brute-force-attacks) 👊
 > Ransomware,
