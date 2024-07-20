@@ -17,19 +17,21 @@ Contact stipulations:
 #
 Playbook Phishing attack in PLAY
 
-#### IP Source, flaged BAD, Destination,Port
-true positive
-
+#### IP Source, flaged **Bad**, Destination,Port : SOAR Automated proceedure. 
+```
+Flagged as **bad**
 Source IP: 154.59.26.3
 
-Flagged as **bad**
+Flagged bad by:
+- [abuseipdb.com](https://www.abuseipdb.com/check/154.59.26.3)
+- [spamhaus.org](https://www.spamhaus.org/ip-reputation?ip=154.59.26.3).
 
-Flagged bad by [abuseipdb.com](https://www.abuseipdb.com/check/154.59.26.3), [spamhaus.org](https://www.spamhaus.org/ip-reputation?ip=154.59.26.3).
-
-Classified as mail server and dictionary attacker by [projecthoneypot](https://www.projecthoneypot.org/ip_154.59.26.3).
+Classified: Spam mail server, Dictionary attacker by
+- [projecthoneypot](https://www.projecthoneypot.org/ip_154.59.26.3).
 destination IP: 203.0.113.10 (Mail Server)
 
 Destination Port: 993 (IMAPS)
+```
 
 #### List all the email addresses against which the alerts were found.
 minka@box.cat, info@box.cat, contact@box.cat, support@web.com, sales@web.com, billing@web.com, feedback@box.cat, hr@cat.com
