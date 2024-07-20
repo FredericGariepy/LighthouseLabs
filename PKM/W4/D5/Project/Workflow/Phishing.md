@@ -1,4 +1,6 @@
-Playbook [Phishing Attack](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/reading/Top%20Security%20Playbooks%202022-23.md#phishing)
+## Resources:
+- [x] Playbook [Phishing Attack](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/reading/Top%20Security%20Playbooks%202022-23.md#phishing)
+- [ ] [InfoStealer logs](https://bolster.ai/blog/stealer-logs)
 
 Storyline:
 
