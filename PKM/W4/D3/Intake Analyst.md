@@ -64,7 +64,7 @@ If in your research you find immediate recommendations for stopping an attack, c
 
 |Step|Action|Completed|
 |-|---------|-|
-||Detection and Analysis||
+||__Detection and Analysis__||
 |1.| Determine whether an incident has occurred||
 |1.1| Analyze the precursors and indicators||
 |1.2| Look for correlating information||
@@ -72,34 +72,26 @@ If in your research you find immediate recommendations for stopping an attack, c
 |1.4 |As soon as the handler believes an incident has occurred, begin documenting the investigation and gathering evidence.||
 ||||
 |2| Prioritize handling the incident based on the relevant factors (functional impact, information impact, recoverability effort, etc.).||
-
-Report the incident to the appropriate internal personnel and external organization’s Containment, Eradication, and Recovery.
-
-Acquire, preserve, secure, and document evidence.
-
-Contain the incident.
-
-Eradicate the incident:
-
-6.1 Identify and mitigate all vulnerabilities that were exploited.
-
-6.2 Remove malware, inappropriate materials, and other components.
-
-6.3 If more affected hosts are discovered (e.g., new malware infections), repeat the Detection and Analysis steps (1.1, 1.2) to identify all other affected hosts, then contain (step 5) and eradicate (step 6) the incident for them.
-
-Recover from the incident:
-
-7.1 Return affected systems to an operationally ready state.
-
-7.2 Confirm that the affected systems are functioning normally.
-
-7.3 If necessary, implement additional monitoring to look for future related activity.
-
-Post-Incident Activity
-
-Create a follow-up report.
-
-Hold a lessons learned meeting (mandatory for major incidents, optional otherwise).
+||||
+|3|Report the incident to the appropriate internal personnel and external organization’s Containment, Eradication, and Recovery.||
+||||
+||__Contianment, Eradication, and Recovery__||
+|4.|Acquire, preserve, secure, and document evidence.||
+|5.|Contain the incident.||
+||||
+|6.|Eradicate the incident:||
+|6.1| Identify and mitigate all vulnerabilities that were exploited.||
+|6.2|Remove malware, inappropriate materials, and other components.||
+|6.3|If more affected hosts are discovered (e.g., new malware infections), repeat the Detection and Analysis steps (1.1, 1.2) to identify all other affected hosts, then contain (step 5) and eradicate (step 6) the incident for them.||
+||||
+|7.|Recover from the incident:||
+|7.1| Return affected systems to an operationally ready state.||
+|7.2| Confirm that the affected systems are functioning normally.||
+|7.3| If necessary, implement additional monitoring to look for future related activity.||
+||||
+||__Post-Incident Activity__||
+|8.Create a follow-up report.||
+|9.|Hold a lessons learned meeting (mandatory for major incidents, optional otherwise).||
 
 
 
