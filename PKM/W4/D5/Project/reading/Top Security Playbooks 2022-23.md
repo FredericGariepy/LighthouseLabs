@@ -18,7 +18,8 @@
 |SecOps |Security Operations|
 |SOAR|Security Orchestration, Automation, Response|
 
-## Phishing :wavy_dash: :fishing_pole_and_fish: :wavy_dash:
+## Phishing
+# :wavy_dash: :fishing_pole_and_fish: :wavy_dash:
 One of the most prevalent attack.
 
 Through email, text message, impersonation of company executive, impersonation of cloudbased file storage/sharing site.
@@ -49,8 +50,9 @@ a) Note any suspicious behavior such as:
 
 ---
 ## Brute Force Attacks 
+# :lock::key:
 Generally, the attacker has either:
-a. reverse engineered or
+a. reverse engineered or 
 b. purchased on the dark web legitimate usernames and applies a vast library of potential passwords to gain access
 
 -_Playbook start_-
@@ -111,7 +113,8 @@ for the specific port in the case it was unnecessarily open to the public.
 5. If the attacker is an internal IP, search for any malware infections and past malware alerts on the source host to see
 if the host is vulnerable.
 ---
-## Impossible Travel :business_suit_levitating:
+## Impossible Travel
+# :hole: :business_suit_levitating:
 Timely Office 365 feature that enables you to compare a user’s last known location to their current location, then judge whether the trip is normal or not given the time that has elapsed between the two coordinates.
 
 -_Playbook start_- 
