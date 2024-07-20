@@ -2,7 +2,7 @@
 ## Table of Contents (Playbooks)
 - [Reading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 - [Brute Force Attacks](#brute-force-attacks) 👊
-> Phishing Attacks,
+- [Phishing Attacks](#phishing-attacks)🎣
 > Ransomware,
 > Command-and-Control (C2) Traffic,
 > Insider Threat (Data Leakage),
@@ -18,7 +18,37 @@
 |SecOps |Security Operations|
 |SOAR|Security Orchestration, Automation, Response|
 
+## Phishing :wavy_dash: :fishing_pole_and_fish: :wavy_dash:
+One of the most prevalent attack.
+Through email, text message,
+impersonation of company executive,
+impersonation of cloudbased file storage/sharing site.
 
+-Playbook Start-
+#### Enrichment & Context
+- Note the source and destination IP addresses and ports.
+- List all the email addresses against which the alerts were found.
+- Go through the email content and filter out all the URLs found.
+
+#### Resolve all URLs to IPs and check the reputation for each IP
+a) Mark ‘true positive’ if bad and escalate the collected information, otherwise
+
+#### Analyze URLs in sandboxed environment by following them
+a) Note any suspicious behavior such as:
+> file downloaded,
+> fake/replica/[fugazy websites](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-online-stores)
+> opens, and unknown redirections Containment & Remediation
+
+^If any of these found, mark `true positive` and escalate.^
+
+#### Containment & Remediation
+1. Once phishing is confirmed, send a security alert email to entire organization, notifying them about the targeted activity going on.
+2. Block all the malicious URLs found in the alerts (and IP addresses) with firewall.
+3. Run thorough anti-malware scans against the users who received the emails (found in alerts)
+
+
+
+---
 ## Brute Force Attacks 
 Generally, the attacker has either:
 a. reverse engineered or
