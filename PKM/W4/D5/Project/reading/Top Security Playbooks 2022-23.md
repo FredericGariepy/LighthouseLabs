@@ -1,7 +1,7 @@
 
 ## Table of Contents
 - [Reaading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
-- Brute Force Attacks
+- [Brute Force Attacks](#brute-force-attacks)
 - Phishing Attacks
 - Ransomware
 - Command-and-Control (C2) Traffic
