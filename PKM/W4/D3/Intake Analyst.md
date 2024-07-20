@@ -1,4 +1,9 @@
- ## Glossary
+## Resources
+- [Data Classification Overview](https://cybersecurity.uillinois.edu/data_classification)
+- [NIST Computer Security Incident Handling Guide ](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf) See Page 42.
+- [Data Classification for Compliance with PCI DSS, NIST, HIPAA and More](https://blog.netwrix.com/2023/12/01/data-classification-for-compliance/)
+
+## Glossary
 | term | def|
 |-|--|
 |Intake Analyst|log a new incident/open ticket/Follow SOP or playbook|
@@ -6,7 +11,7 @@
 | PCI|Payment Card Industry (data)
 |PHI|Protected Health Information |
 
-
+#### Generic SOP (example)
 Source of the Incident: System and Human.
 
 - System: SIEM, SOAR, IDS, IPS, Was an IoC found?
@@ -59,7 +64,7 @@ Items High and Urgent are in most cases escalated.
 
 If in your research you find immediate recommendations for stopping an attack, check your playbook. There might be occasions where monitoring and securing data from exfiltration come first.
 
-
+####  Generic SOP ABOVE follows this guideline BELOW.
 #### [NIST Incident Handling Checklist](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf) **p.42**
 
 |Step|Action|Completed|
@@ -90,7 +95,7 @@ If in your research you find immediate recommendations for stopping an attack, c
 |7.3| If necessary, implement additional monitoring to look for future related activity.||
 ||||
 ||__Post-Incident Activity__||
-|8.Create a follow-up report.||
+|8.|Create a follow-up report.||
 |9.|Hold a lessons learned meeting (mandatory for major incidents, optional otherwise).||
 
 
