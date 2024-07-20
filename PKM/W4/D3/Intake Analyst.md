@@ -44,10 +44,11 @@ Map findings against known attacks and against **Mitre framework***, **Lockheed 
 |Availability |	High |	Medium |	Low|
 
 If from your initial findings, any item is High, then the incident impact is High.
-Item 	Yes 	No
-Is there an ongoing attack? 		
-Is PII PHI PCI at risk? 		
-Is IP data at risk? 		
+|Item |	Yes |	No|
+|-|-|-|
+|Is there an ongoing attack?||| 		
+|Is PII PHI PCI at risk? |||
+|Is IP data at risk? |||
 
 If ANY of these items is marked Yes, enter the item as Urgent.
 
