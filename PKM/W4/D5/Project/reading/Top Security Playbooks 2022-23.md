@@ -2,13 +2,13 @@
 ## Table of Contents (Playbooks)
 - [Reading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 - [Brute Force Attacks](#brute-force-attacks) 👊
-- Phishing Attacks
-- Ransomware
-- Command-and-Control (C2) Traffic
-- Insider Threat (Data Leakage)
-- Impossible Travel
-- Cloud Misconfigurations
-- Suspicious Logins
+> Phishing Attacks,
+> Ransomware,
+> Command-and-Control (C2) Traffic,
+> Insider Threat (Data Leakage),
+- [Impossible Travel](#impossible-travel)
+> Cloud Misconfigurations,
+> Suspicious Logins
 
 
 ## Glosary 
