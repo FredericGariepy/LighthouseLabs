@@ -1,7 +1,7 @@
 ## Resources
 - [x] [Data Classification Overview](https://cybersecurity.uillinois.edu/data_classification)
-- [] [NIST Computer Security Incident Handling Guide ](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf) See Page 42.
-- [] [Data Classification for Compliance with PCI DSS, NIST, HIPAA and More](https://blog.netwrix.com/2023/12/01/data-classification-for-compliance/)
+- [ ] [NIST Computer Security Incident Handling Guide ](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf) See Page 42.
+- [ ] [Data Classification for Compliance with PCI DSS, NIST, HIPAA and More](https://blog.netwrix.com/2023/12/01/data-classification-for-compliance/)
 
 ## Glossary
 | term | def|
