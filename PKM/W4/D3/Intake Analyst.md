@@ -2,6 +2,10 @@
 | term | def|
 |-|--|
 |Intake Analyst|log a new incident/open ticket/Follow SOP or playbook|
+|PII|Personally Identifiable Information|
+| PCI|Payment Card Industry (data)
+|PHI|Protected Health Information |
+
 
 Source of the Incident: System and Human.
 
