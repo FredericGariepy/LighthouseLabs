@@ -84,7 +84,7 @@ for the specific port in the case it was unnecessarily open to the public.
 5. If the attacker is an internal IP, search for any malware infections and past malware alerts on the source host to see
 if the host is vulnerable.
 ---
-## Impossible Travel
+## Impossible Travel 🕴
 Timely Office 365 feature that enables you to compare a user’s last known location to their current location, then judge whether the trip is normal or not given the time that has elapsed between the two coordinates.
 
 #### 1 Enrichment & Context
