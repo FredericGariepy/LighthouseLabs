@@ -1,7 +1,7 @@
 
 ## Table of Contents (Playbooks)
-- [Reaading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
-- [Brute Force Attacks](##brute-force-attacks)
+- [Reading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
+- [Brute Force Attacks](#brute-force-attacks) 👊
 - Phishing Attacks
 - Ransomware
 - Command-and-Control (C2) Traffic
@@ -22,16 +22,16 @@
 |CISA: Cybersecurity and Infrastructure Security Agency
 
 
-## Brute Force Attacks
+## Brute Force Attacks 
 Generally, the attacker has either:
 a. reverse engineered or
 b. purchased on the dark web legitimate usernames and applies a vast library of potential passwords to gain access
 
-#### :one: Enrichment & Context:
+#### 1 Enrichment & Context:
 - Source IP address –is it internal or external
 -  Target IP and OS information
 
-#### :two: Investigation
+#### 2 Investigation
 
 a) If __internal IP__:
 Search of any previous alerts raised on the entity (source IP). 
@@ -49,7 +49,7 @@ Search the IP using IP reputation sites and act accordingly
 (_continue the next steps of this playbook to gather information for Tier 2_).
 
 
-#### 3️⃣ Network based logs:
+#### 3️ Network based logs:
 Here we assume that the product triggering the alert cannot be sure about the traffic it monitors, as it might be encrypted.
 
 -> In this case, we only try to find out indicator of failure.
@@ -64,7 +64,7 @@ c) If the attack port does not match any listening service or and previously run
 
 Escalate the source IP’s information to Tier 2 for further hunting, as this is still considered an indication of a malicious presence trying its ‘luck’ around the network.
 
-#### :four: Host-based logs
+#### 4 Host-based logs
 (or logs from the last step of the previous section)
 
 a) Search the logs for events indicating a ‘failure to login’ or ‘user does not exist’ (depends on the attacked service).
@@ -73,7 +73,7 @@ If such logs exist, measure the time span during which they occurred. If the tim
 
 b) Search the logs for a successful login log entry. If such entry is found, escalate the case to Tier 2 for further investigation.
 
-#### :five: Containment & Remediation
+#### 5 Containment & Remediation
 1. Find out all users that were used in the brute force attack. Look for any suspicious username from this list and search for
 other hosts that these usernames were used on.
 2. Notify the owners of the legitimate accounts and the owners of the targeted machines that a brute force attempt was made
@@ -83,20 +83,19 @@ on their assets.
 for the specific port in the case it was unnecessarily open to the public.
 5. If the attacker is an internal IP, search for any malware infections and past malware alerts on the source host to see
 if the host is vulnerable.
-
-
+---
 ## Impossible Travel
 Timely Office 365 feature that enables you to compare a user’s last known location to their current location, then judge whether the trip is normal or not given the time that has elapsed between the two coordinates.
 
-#### Enrichment & Context
+#### 1 Enrichment & Context
 - Enrich the user: Gauge the risk profile of the user (i.e. traveling engineer vs CxO vs domain admin?) Has the user travelled to these countries before?
 - Enrich the IP: Are the countries on a sanction list? Is the IP an approved business VPN exit point?
 
-#### Investigation
+#### 2 Investigation
 **Decide**: Consider the time of day, risk of user and
 SOC analyst opinions to help decide if false positive.
 
-#### Containment and Remidiation
+#### 3 Containment and Remidiation
 1. Contain the access: Remove groups/permissions to systems, disable account, block source login IP addresses, escalate user to require two-factor authentication.
 2. Eradicate the access: Reset user password, notify HR/the user’s manager that the
 account needs resetting.
