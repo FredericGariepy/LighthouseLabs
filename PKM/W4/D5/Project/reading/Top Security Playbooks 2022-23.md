@@ -1,7 +1,7 @@
 
 ## Table of Contents (Playbooks)
 - [Reaading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
-- [Brute Force Attacks](#brute-force-attacks)
+- [Brute Force Attacks](##brute-force-attacks)
 - Phishing Attacks
 - Ransomware
 - Command-and-Control (C2) Traffic
@@ -17,7 +17,9 @@
 |CoX |chief experience officer|
 |SecOps |Security Operations|
 |SOAR|Security Orchestration, Automation, Response|
-|
+|FCEB: Federal Chief Information Officers Council
+|ICT: Information and Communications Technology
+|CISA: Cybersecurity and Infrastructure Security Agency
 
 
 ## Brute Force Attacks
