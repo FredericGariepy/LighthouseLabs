@@ -7,7 +7,7 @@
 - [Generic: SOC Methodology Diagram:](#soc-methodology-diagram)
 ##### Resources:
 - Google Cloud:  [Top Security Playbooks 2022-2023. Google Cloud](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
-   -  reading notes
+   -  Secuity playbook [reading notes]()
 - CISA [Federal Government Cybersecurity Incident & Vulnerability Response Playbooks](https://www.cisa.gov/sites/default/files/2024-03/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf)
 - NIST [Incident Response](https://csrc.nist.gov/Projects/incident-response)
 - [6 Phases in the Incident Response Plan](https://www.securitymetrics.com/blog/6-phases-incident-response-plan)
