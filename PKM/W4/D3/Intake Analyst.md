@@ -55,8 +55,51 @@ If from your initial findings, any item is High, then the incident impact is Hig
 |Is IP data at risk? |||
 
 If ANY of these items is marked Yes, enter the item as Urgent.
+Items High and Urgent are in most cases escalated. 
+
+If in your research you find immediate recommendations for stopping an attack, check your playbook. There might be occasions where monitoring and securing data from exfiltration come first.
 
 
+#### [NIST Incident Handling Checklist](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf) **p.42**
+
+|Step|Action|Completed|
+|-|---------|-|
+||Detection and Analysis||
+|1.| Determine whether an incident has occurred||
+|1.1| Analyze the precursors and indicators||
+|1.2| Look for correlating information||
+|1.3 |Perform research (e.g., search engines, knowledge base).||
+|1.4 |As soon as the handler believes an incident has occurred, begin documenting the investigation and gathering evidence.||
+||||
+|2| Prioritize handling the incident based on the relevant factors (functional impact, information impact, recoverability effort, etc.).||
+
+Report the incident to the appropriate internal personnel and external organization’s Containment, Eradication, and Recovery.
+
+Acquire, preserve, secure, and document evidence.
+
+Contain the incident.
+
+Eradicate the incident:
+
+6.1 Identify and mitigate all vulnerabilities that were exploited.
+
+6.2 Remove malware, inappropriate materials, and other components.
+
+6.3 If more affected hosts are discovered (e.g., new malware infections), repeat the Detection and Analysis steps (1.1, 1.2) to identify all other affected hosts, then contain (step 5) and eradicate (step 6) the incident for them.
+
+Recover from the incident:
+
+7.1 Return affected systems to an operationally ready state.
+
+7.2 Confirm that the affected systems are functioning normally.
+
+7.3 If necessary, implement additional monitoring to look for future related activity.
+
+Post-Incident Activity
+
+Create a follow-up report.
+
+Hold a lessons learned meeting (mandatory for major incidents, optional otherwise).
 
 
 
