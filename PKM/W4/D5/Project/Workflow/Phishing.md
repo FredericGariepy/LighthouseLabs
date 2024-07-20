@@ -32,7 +32,7 @@ Destination Port: 993 (IMAPS)
 #### List all the email addresses against which the alerts were found.
 minka@box.cat, info@box.cat, contact@box.cat, support@web.com, sales@web.com, billing@web.com, feedback@box.cat, hr@cat.com
 
-Go through the email content and filter out all the URLs found.
+#### Go through the email content and filter out all the URLs found.
 
 One of the most prevalent attack.
 
