@@ -1,7 +1,7 @@
 
 ## Table of Contents (Playbooks)
 - [Reading](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
-- [Phishing Attacks](#phishing-attacks)🎣
+- [Phishing Attacks](#phishing)🎣
 - [Brute Force Attacks](#brute-force-attacks) 👊
 > Ransomware,
 > Command-and-Control (C2) Traffic,
