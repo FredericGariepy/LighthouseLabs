@@ -108,11 +108,52 @@ ORM is guided by four principles:
 ...-> Identify risk -> Assess risk -> Mitigation/Decision -> Implement controls -> Take corrective action/Monitor -> ...
 ```
 
-### ORM
+### ORM -v. Cyber Security Controls
 > ORM is not industry specific
 
-Cyber Security Controls vs. IT ORM
-|Category|ORM|Cyber Security|
+Cyber Security Controls:
+-deals with securing, assessing, and testing an organization’s IT environment against malware and cyber attackers.
+
+IT Risk Management (IT ORM):
+- hardware and software defects, IT-related compliance and regulatory risks, human error, and natural disasters, among others
+
+|Category|IT Risk Management (IT ORM) |Cyber Security Controls|
 | - | -- | --|
 | 1: Serrious, Immediate |Mission Failure, Loss of life, Unacceptable|Total loss, Compromise, Violation|
-| 1: Significant, Potential |Security Failure, Severe injury, Significan Damage|Partial loss, Some compromise,Degredation|
+||||
+| 2: Significant, Potential |Security Failure, Severe injury, Significan Damage|Partial loss, Some compromise,Degredation|
+
+
+## NIST Risk Management Framework
+NIST RMF is an IT-specific implementation of ORM. (NIST SP 800-37)
+- Security as part of SDLC (system development life cycle)
+
+__RMF 6 stages__:
+0. __Prepare__
+    - Essential activities to prepare the organization to manage security and privacy risks 
+2. __Categorize__ the system:
+    - Categorize the system and information processed, stored, and transmitted based on an impact analysis.
+    - Assess risks.
+
+3. __Select__ appropriate controls:
+    - Select the controls to protect the system based on Risk Assessment(s), tailored to the system and environment.
+
+4. __Implement__ the controls:
+    - Implement the controls and document how controls are deployed (system architecture, configuration, and procedures).
+
+5. __Assess__ control application:
+    - Assess to determine if the controls are in place, operating as intended, and producing the desired results (scope and depth of compliance, mitigations).
+
+6. __Authorize__ system operation:
+    - Senior official makes a risk-based decision to authorize the system (to operate) and accept residual risk.
+
+7. Monitor system and environment:
+    - Maintain acceptable security posture.
+    - Continuously monitor control implementation and risks to the system.
+  
+
+
+
+
+
+
