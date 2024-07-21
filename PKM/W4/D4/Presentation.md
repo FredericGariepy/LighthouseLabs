@@ -1,17 +1,17 @@
-## Questions & Answers
+# Questions menu
 -  [Risk Assessment & everyday operations](#q-how-does-a-risk-assessment-checklist-relate-to-an-organizations-everyday-operations)
 -  [Participants in risk assessment](#q-who-might-be-involved-in-completing-a-risk-assessment-checklist)
 -  [Things on a risk assessment checklist.](#q-what-kinds-of-things-are-looked-into-when-completing-a-risk-assessment-checklist)
 -  [Top five categories of things being assessed](#q-what-may-be-the-top-five-categories-of-things-investigated-as-part-of-completing-a-risk-assessment-checklist)
 
-#### Q. How does a Risk Assessment Checklist relate to an organization’s everyday operations?
+## Q. How does a Risk Assessment Checklist relate to an organization’s everyday operations?
 A. Risk Assessment Checklist is tool, and relates to the organization's everyday operations in several ways:
 1. Helps maintain _ongoing_ security awareness (__security posture checks__) and _ongoing_ compliance (__recurring audits__).
 2. Supports compliance requirements by providing documentation of security efforts, good for third-party auditors.
 3. Things change, assesments help to keep security measures up-to-date, prompts for updates when new systems or risks are discovered.
 4. It's also an aid in identifying and mitigating risks that could impact daily operations.
 
-#### Q. Who might be involved in completing a Risk Assessment Checklist?
+## Q. Who might be involved in completing a Risk Assessment Checklist?
 A. Various stakeholders might be involved in completing a Risk Assessment Checklist, including:
 
 1. IT and security teams
@@ -28,7 +28,7 @@ A. Various stakeholders might be involved in completing a Risk Assessment Checkl
     - neutral assesment of organization risk management
     - provide industry benchmarks, best practices, legal advice
 
-#### Q. What kinds of things are looked into when completing a Risk Assessment Checklist?
+## Q. What kinds of things are looked into when completing a Risk Assessment Checklist?
 A. When completing a Risk Assessment Checklist, a wide range of items are typically investigated:
 
 - Assets: poeple, processes, physical assets, digital assets, information assets
@@ -43,7 +43,7 @@ A. When completing a Risk Assessment Checklist, a wide range of items are typica
 - Third-party risks and vendor management
 
 
-#### Q. What may be the _Top five categories_ of things investigated as part of completing a Risk Assessment Checklist?
+## Q. What may be the _Top five categories_ of things investigated as part of completing a Risk Assessment Checklist?
 Based on the [14 families](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/InfoSec%20Risk%20Assessment.md#14-families-of-security-requirements-needed-to-address-nist-sp-800-171-checklist) of security requirement by NIST,
 
 and __Assuming that the categorization step is completed__ (ie. accounting for assets, getting an up-to-date inventory) .
