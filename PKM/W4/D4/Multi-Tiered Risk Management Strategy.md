@@ -132,23 +132,23 @@ NIST RMF is an IT-specific implementation of ORM. (NIST SP 800-37)
     - Essential activities to prepare the organization to manage security and privacy risks 
 
 __RMF 6 stages__:
-2. __Categorize__ the system:
+1. __Categorize__ the system:
     - Categorize the system and information processed, stored, and transmitted based on an impact analysis.
     - Assess risks.
 
-3. __Select__ appropriate controls:
+2. __Select__ appropriate controls:
     - Select the controls to protect the system based on Risk Assessment(s), tailored to the system and environment.
 
-4. __Implement__ the controls:
+3. __Implement__ the controls:
     - Implement the controls and document how controls are deployed (system architecture, configuration, and procedures).
 
-5. __Assess__ control application:
+4. __Assess__ control application:
     - Assess to determine if the controls are in place, operating as intended, and producing the desired results (scope and depth of compliance, mitigations).
 
-6. __Authorize__ system operation:
+5. __Authorize__ system operation:
     - Senior official makes a risk-based decision to authorize the system (to operate) and accept residual risk.
 
-7. Monitor system and environment:
+6. Monitor system and environment:
     - Maintain acceptable security posture.
     - Continuously monitor control implementation and risks to the system.
   
