@@ -24,6 +24,13 @@ SOC-Organizational_Handbook (Roles, Responsibility, Org. structure, glossary)
                          Data used to trigger use cases
 ```
 
+## EIR_handbook 
+phone#, email@
+Alert plans,
+d/escalation proceedures
+
+
+## phone#, email@,
 ```
     Box Manufacturing
     Percy: percy@box.cat
@@ -39,7 +46,13 @@ SOC-Organizational_Handbook (Roles, Responsibility, Org. structure, glossary)
 
 ```
 
-
+## SOC-Operational_handbook
+~~Shift, handover,~~
+workflows,
+~~tiers, event handling, intructions, policies,~~
+procedures,
+~~processes,timing, forms,~~
+SOC dictionary
 
 ---
 ## Phishing Playbook
