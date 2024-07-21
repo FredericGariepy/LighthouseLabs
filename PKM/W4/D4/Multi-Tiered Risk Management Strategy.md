@@ -1,16 +1,14 @@
-Cyber Security Risk Assessment and Management
-
--  OK, this shit is __mostly business perspective/talk__.
-
+# Cyber Security Risk Assessment and Management
 # Menu
 - [Multi-Tiered Risk Management Strategy](#multi-tiered-risk-management) handles: operational risks & strategic risks.
   > More like a business-related 'big picture'
+  > 
+  > __mostly business perspective/talk__.
 - [ORM (operational risk management)](#operational-risk-management-orm) handles operational risks.
-  > More like a Management level process, this is used **ACROSS INDUSTRY**
-  >
+  > Management level process, used **ACROSS INDUSTRY**
+  > 
   > ORM has three levels, four principles, and five steps.
 - [NIST RMF](#nist-risk-management-framework) ALSO handles operational risks.
-
 
 ## Multi-Tiered Risk Management
 #### need to know: Operational risks -v. strategic/tactical risks
