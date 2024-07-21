@@ -1,8 +1,8 @@
 ## Questions & Answers
--  Risk Assessment & everyday operations
--  Participants in risk assessment.
--  Things on a risk assessment checklist.
--  Top five categories of things being assessed
+-  [Risk Assessment & everyday operations](#q-how-does-a-risk-assessment-checklist-relate-to-an-organizations-everyday-operations)
+-  [Participants in risk assessment](#q-who-might-be-involved-in-completing-a-risk-assessment-checklist)
+-  [Things on a risk assessment checklist.](#q-what-kinds-of-things-are-looked-into-when-completing-a-risk-assessment-checklist)
+-  [Top five categories of things being assessed](#q-what-may-be-the-top-five-categories-of-things-investigated-as-part-of-completing-a-risk-assessment-checklist)
 
 #### Q. How does a Risk Assessment Checklist relate to an organization’s everyday operations?
 A. Risk Assessment Checklist is tool, and relates to the organization's everyday operations in several ways:
