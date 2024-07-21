@@ -48,6 +48,9 @@ Based on the [14 families](https://github.com/FredericGariepy/LighthouseLabs/blo
 
 and __Assuming that the categorization step is completed__ (ie. accounting for assets, getting an up-to-date inventory) .
 
+> [!NOTE]
+> Although here are listed the "top five" catergories, all 14 families of security requirements are needed.
+
 1. Risk Assessment (also called Risk Analysis)
 A risk assessment is a key to the development and implementation of effective information security programs.
 Assess the risks to your operations, including mission, functions, image, and reputation.
@@ -63,6 +66,3 @@ Ensure to protect, physically control, and securely store information system med
 
 5. Audit and Accountability
 Keep system audit logs and records, that will allow you or your auditors to monitor, analyze, investigate and report any suspicious activity within your information systems. Ensure individual accessing and authorizing access can be held accountable.
-
-> [!NOTE]
-> Although here are listed the "top five" catergories, all 14 families of security requirements are needed.
