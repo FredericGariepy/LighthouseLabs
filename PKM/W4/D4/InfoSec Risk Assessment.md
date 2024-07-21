@@ -26,9 +26,9 @@ Risk Assesment Basics:
     - People, Procedures, and Technologies put in place and maintained.
 3. Internal/External sources of effect on the organization and its assets
 
-Areas to Address on Your NIST SP 800-171 Checklist
 
-14 families of security requirements needed to address NIST SP 800-171 checklist. 
+# 14 families of security requirements needed to address NIST SP 800-171 checklist. 
+Areas to Address on Your NIST SP 800-171 Checklist
 
 #### Access Controls
 Access control centers around who has access to CUI (Controlled Unclassified Information) in your information systems. 
