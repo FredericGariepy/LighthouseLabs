@@ -37,7 +37,7 @@ a) Mark ‘true positive’ if bad and escalate the collected information, other
 #### Analyze URLs in sandboxed environment by following them
 a) Note any suspicious behavior such as:
 > file downloaded,
-> fake/replica/[fugazy websites](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-online-stores)
+> fake/replica/[fugazy websites](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-online-stores),[fugazy emails](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails)
 > opens, and unknown redirections Containment & Remediation
 
 ^If any of these found, mark `true positive` and escalate.^
