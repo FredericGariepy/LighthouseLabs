@@ -11,7 +11,10 @@ Cyber Security Risk Assessment and Management
   > ORM has three levels, four principles, and five steps.
 - NIST RMF ALSO handles operational risks.
 
-Operational risks -v. strategic risks, two categories: 
+
+## Multi-Tiered Risk Management
+#### need to know: Operational risks -v. strategic/tactical risks
+two categories: 
 - strategic (organization's ability to achieve its goals) AND tactical (impact day-to-day operations)
 - operational
 
@@ -28,7 +31,7 @@ Examples of tactical risks are:
 - Fraud
 - External events, such as natural disasters or pandemics
 
-Multi-Tiered Risk Management Strategy (below):
+#### Multi-Tiered Risk Management Strategy (below):
 ```
     Strategic risk
           /\
@@ -44,7 +47,7 @@ Multi-Tiered Risk Management Strategy (below):
 
       Tactical Risk
 ```
-
+#### level breakdown
 1. Enterprise Tier (Tier 1): Governance
     - Executive Leaders: set priorities, create policies to achieve strategic objectives.
     - $ Investment strategy to achieve mission and risk prioritie
@@ -65,10 +68,8 @@ Multi-Tiered Risk Management Strategy (below):
     - Ensure systems are secure, reliable, and available
     - Information System Tier is expressed as guides, plans, procedures, ... Scope is a system defined by security.
 
-
-> For example,
-> 
-> a company may have identified that one of their biggest risks is
+Multi-Tiered Risk Management Strategy __example__:
+> A company may have identified that one of their biggest risks is
 > the possibility of an employee stealing trade secrets or other confidential information (this corresponds to Tier 1 stage).
 >
 > To reduce this risk, they might implement policies
