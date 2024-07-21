@@ -51,6 +51,7 @@ following the
 the investigation and gathering evidence
 3. Prioritize handling the incident based on the relevant factors (functional impact, information
 impact, recoverability effort, etc.)
+#### Containment, Eradication, and Recovery
 4. Report the incident to the appropriate internal personnel and external organizations
 Containment, Eradication, and Recovery
 5. Acquire, preserve, secure, and document evidence
@@ -61,10 +62,10 @@ Containment, Eradication, and Recovery
 6.3 If more affected hosts are discovered (e.g., new malware infections), repeat
 the Detection and Analysis steps (1.1, 1.2) to identify all other affected hosts, then
 contain (5) and eradicate (6) the incident for them
-8. Recover from the incident
 7.1 Return affected systems to an operationally ready state
 7.2 Confirm that the affected systems are functioning normally
 7.3 If necessary, implement additional monitoring to look for future related activity
-Post-Incident Activity
+#### Post-Incident Activity
+8. Recover from the incident
 9. Create a follow-up report
 10. Hold a lessons learned meeting (mandatory for major incidents, optional otherwise
