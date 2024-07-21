@@ -3,6 +3,25 @@
 
 [Google Playbook p.7](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 
+[SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology)
+
+
+```
+    Box Manufacturing
+    Percy: percy@box.cat
+    Misha: mesha@box.cat Phone 902-9836
+    Minka: minka@box.cat Phone 562-7658
+    YOU: SOCAnalyst1@box.cat Phone 562-7658
+    Dusty: dusty@box.cat Phone 462-8952
+    Lucky: lucky@box.cat Phone 269-5466
+    Ned: ned@box.cat Phone 877-4332
+
+    MSSP & SOC Security Oversight (3rd party) *Think SOC 2,2+, and full SOC*
+    Cat: cat@soc.cat Phone 905-4616 or cell 902-4321
+
+```
+
+
 
 ---
 ## Phishing Playbook
