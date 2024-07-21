@@ -112,5 +112,6 @@ ORM is guided by four principles:
 
 Cyber Security Controls vs. IT ORM
 |Category|ORM|Cyber Security|
+| - | -- | --|
 | 1: Serrious, Immediate |Mission Failure, Loss of life, Unacceptable|Total loss, Compromise, Violation|
 | 1: Significant, Potential |Security Failure, Severe injury, Significan Damage|Partial loss, Some compromise,Degredation|
