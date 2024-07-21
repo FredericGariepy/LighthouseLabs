@@ -43,14 +43,15 @@ A. When completing a Risk Assessment Checklist, a wide range of items are typica
 - Third-party risks and vendor management
 
 
-Q. What are the __Top five categories__ of things investigated as part of completing a Risk Assessment Checklist?
-
-Based on the [14 families](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/InfoSec%20Risk%20Assessment.md#14-families-of-security-requirements-needed-to-address-nist-sp-800-171-checklist) of security requirement by NIST, and assuming that the categorization step (ie. accounting for assets, getting an up-to-date inventory) is fundamental to the entire risk assesment process
+#### Q. What are the __Top five categories__ of things investigated as part of completing a Risk Assessment Checklist?
+Based on the [14 families](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/InfoSec%20Risk%20Assessment.md#14-families-of-security-requirements-needed-to-address-nist-sp-800-171-checklist) of security requirement by NIST, and __Assuming that the categorization step is completed__ (ie. accounting for assets, getting an up-to-date inventory) .
 
 1. Access Controls: Ensuring proper user account management, least privilege principles, and separation of duties.
+
+2. [Incident Response](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/reading/CISA%20Federal%20Government%20Cybersecurity%20Incident%20%26%20Vulnerability%20Response.md#incident-response): having a comprehensive incident plan in place witht the 6 stages of IR, updated playbooks, workflows, processes.
+
 
 3. Security Assessment: Periodically assessing the effectiveness of security controls and implementing continuous improvement plans.
 
 4. Configuration Management: Documenting and monitoring network configurations, hardware, software, and firmware.
 
-5. Incident Response: Ensuring a comprehensive plan is in place for preparation, threat detection, analysis, containment, and recovery.
