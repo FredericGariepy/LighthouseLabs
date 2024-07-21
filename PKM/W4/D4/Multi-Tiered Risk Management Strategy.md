@@ -109,6 +109,7 @@ ORM is guided by four principles:
 
 ### ORM
 > ORM is not industry specific
+
 Cyber Security Controls vs. IT ORM
 |Category|ORM|Cyber Security|
 | 1: Serrious, Immediate |Mission Failure, Loss of life, Unacceptable|Total loss, Compromise, Violation|
