@@ -1,12 +1,13 @@
 Cyber Security Risk Assessment and Management
-see what specific processes and frameworks are used
+
+- Universe of Conversation/Context: OK, this shit is __mostly business perspective/talk__.
 
 operational risks -v. strategic risks. 
 
 Multi-Tiered Risk Management Strategy handles: operational risks & strategic risks.
 
-operational risk management (ORM) handles operational risks.
-NIST RMF handles operational risks.
+- ORM (operational risk management) handles operational risks.
+- NIST RMF ALSO handles operational risks.
 
 Strategic and Operational Risks
 
@@ -101,10 +102,10 @@ ORM is guided by four principles:
 3. Anticipate and manage risk by planning
 4. Make risk decisions at the right level
 
-#### Five Steps of ORM:
+#### Five Steps of ORM: (proactive risk management, for bottom line $)
 ```
 ...-> Identify risk -> Assess risk -> Mitigation/Decision -> Implement controls -> Take corrective action/Monitor -> ...
 
 ```
 
-
+Cyber Security Controls vs. IT ORM
