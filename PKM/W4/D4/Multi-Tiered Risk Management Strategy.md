@@ -125,7 +125,7 @@ IT Risk Management (IT ORM):
 
 
 ## NIST Risk Management Framework
-NIST RMF is an IT-specific implementation of ORM. (NIST SP 800-37)
+[NIST RMF](https://csrc.nist.gov/projects/risk-management/about-rmf) is an IT-specific implementation of ORM. (NIST SP 800-37)
 - Security as part of SDLC (system development life cycle)
 
 0. __Prepare__
