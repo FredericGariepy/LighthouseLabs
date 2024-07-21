@@ -5,7 +5,7 @@ Cyber Security Risk Assessment and Management
 # Menu
 - [Multi-Tiered Risk Management Strategy](#multi-tiered-risk-management) handles: operational risks & strategic risks.
   > More like a business-related 'big picture'
-- ORM (operational risk management) handles operational risks.
+- [ORM (operational risk management)](#operational-risk-management-orm) handles operational risks.
   > More like a Management level process, this is used **ACROSS INDUSTRY**
   >
   > ORM has three levels, four principles, and five steps.
