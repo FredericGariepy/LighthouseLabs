@@ -52,17 +52,24 @@ and __Assuming that the categorization step is completed__ (ie. accounting for a
 > Although here are listed the "top five" catergories, all 14 families of security requirements are needed.
 
 1. Risk Assessment (also called Risk Analysis)
+
 A risk assessment is a key to the development and implementation of effective information security programs.
 Assess the risks to your operations, including mission, functions, image, and reputation.
 - Are you regularly testing your defenses in simulations?
 - How regularly are you verifying operations and individuals for security purposes?
 
-2. Media Protection
+2. Media Protection:
+
 Ensure to protect, physically control, and securely store information system media that contain CUI, both paper and digital. Ensure store of backups securely. Ensure authorized personnel acccess only.
 
-3. Access Controls: Ensuring proper user account management, least privilege principles, and separation of duties. Across both physical and digital assets.
+3. Access Controls:
 
-4. [Incident Response](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/reading/CISA%20Federal%20Government%20Cybersecurity%20Incident%20%26%20Vulnerability%20Response.md#incident-response): having a comprehensive incident plan in place with the 6 stages of IR, updated playbooks, workflows, processes.
+Ensuring proper user account management, least privilege principles, and separation of duties. Across both physical and digital assets.
+
+4. [Incident Response](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/reading/CISA%20Federal%20Government%20Cybersecurity%20Incident%20%26%20Vulnerability%20Response.md#incident-response):
+
+ having a comprehensive incident plan in place with the 6 stages of IR, updated playbooks, workflows, processes.
 
 5. Audit and Accountability
+
 Keep system audit logs and records, that will allow you or your auditors to monitor, analyze, investigate and report any suspicious activity within your information systems. Ensure individual accessing and authorizing access can be held accountable.
