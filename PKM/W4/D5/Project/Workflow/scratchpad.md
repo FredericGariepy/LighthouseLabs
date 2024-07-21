@@ -11,7 +11,7 @@ Automatic Global Log-Out:Force log out of the compromised email account and pote
 Change of Permissions: owngrade permissions or restrict access to sensitive information and resources associated with the compromised email accoun
 Change of Authentication Credentials multi-factor authentication (MFA)
 
-Use the check boxes:
+Follow directives and use the check boxes:
 - [ ] unchecked
 - [x] checked 
 #### Stage: Detection and Analysis
