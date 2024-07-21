@@ -1,4 +1,9 @@
 ## Questions & Answers
+-  Risk Assessment & everyday operations
+-  Participants in risk assessment.
+-  Things on a risk assessment checklist.
+-  Top five categories of things being assessed
+
 #### Q. How does a Risk Assessment Checklist relate to an organization’s everyday operations?
 A. Risk Assessment Checklist is tool, and relates to the organization's everyday operations in several ways:
 1. Helps maintain _ongoing_ security awareness (__security posture checks__) and _ongoing_ compliance (__recurring audits__).
@@ -39,8 +44,7 @@ A. When completing a Risk Assessment Checklist, a wide range of items are typica
 
 
 Q. What are the __Top five categories__ of things investigated as part of completing a Risk Assessment Checklist?
-A. 
-Based on the information provided, the top five categories investigated as part of completing a Risk Assessment Checklist would likely be:
+
 
 1. Access Controls: Ensuring proper user account management, least privilege principles, and separation of duties.
 
@@ -51,5 +55,3 @@ Based on the information provided, the top five categories investigated as part 
 4. Configuration Management: Documenting and monitoring network configurations, hardware, software, and firmware.
 
 5. Incident Response: Ensuring a comprehensive plan is in place for preparation, threat detection, analysis, containment, and recovery.
-
-These categories cover crucial aspects of an organization's security posture and align closely with the NIST SP 800-171 requirements outlined in the document.
