@@ -3,8 +3,7 @@
 |-|---|
 |GRC|Governance, Risk & Compliance|
 
-## Intro: Security Policies in GRC
-
+## GRC Workflow
 Worflow:
 1. Risk Assessment --> Produces: Prioritized risk List.
     1. Identification
@@ -15,9 +14,7 @@ Worflow:
     2. Risk Reporting and Monitoring
     3. Risk Governance
  
-
-
-
+## Intro: Security Policies in GRC
 Scope: Security policies in the context of governance, risk and compliance, or GRC
 
 NIST, security policies define the objectives and constraints for the security program. 
@@ -31,7 +28,7 @@ Lesson Goals:
 - Use RMF to implement security control measures
 - End activity Build a risk management plan for a specific scenario and communicate it to management-level audience.
 
- ## Cyber Security Risk Assessment 
+## Cyber Security Risk Assessment 
 Basics of Cyber Security Risk Assessment and Management.
 - [What is GRC ?](https://aws.amazon.com/what-is/grc/#:%7E:text=help%20with%20GRC%3F-,What%20is%20GRC%3F,its%20technological%20innovation%20and%20adoption)
 GRC = one coordinated model
@@ -42,6 +39,7 @@ Tools and processes unify risk management and governance.
 
 Companies use GRC to achieve organizational goals reliably, remove uncertainty, and meet compliance requirements.
 
+## GRC (3 parts)
 #### Governance
 Governance is the rules, processes, and policies that steer an organization and help it meet goals.
 
@@ -73,7 +71,7 @@ Compliance
 - Apply legal and regulatory requirements set by industrial bodies, internal corporate policies.
 
 
-## Risk Assessment
+## Risk Assessment (RA)
 Risk Assesments (RA) are used to build Indicent Response (IR)
 
 Risk assements are used to create an inventory of all the potential threats.
@@ -99,8 +97,7 @@ Risk Assessment has three key phases:
     2. Draft recommendations to mitigate risks for those controls failing to meet acceptance criteria.
     > * wtf, what: "for those controls failing" ?
 
-
-## Cyber Security Risk Management
+## Cyber Security Risk Management (RM)
 After completion of Risk Assessment process (Identification, Analysis, Evaluation),the next step is to manage the risk. 
 
 Risk Management phases:
@@ -118,10 +115,6 @@ Risk Governance:
 Risk : identified, assessed, and measured. 
 
 [Risk Management Framework (RMF): An Overview](https://www.varonis.com/blog/risk-management-framework)
-
-
-
-
 
 
 #### impact and likelyhood
