@@ -62,6 +62,9 @@ Compliance
 
 ## Risk Assessment
 Risk Assesments (RA) are used to build Indicent Response (IR)
+
+Risk assements are used to create an inventory of all the potential threats.
+
 Organizations can assess risk through a number of methods, such as:
 
 - Assessing operational needs against known threats
@@ -74,10 +77,18 @@ Organizations can assess risk through a number of methods, such as:
 
 Risk Assessment has three key phases: 
 1. Identification
-    Identify assets: people, threats, process, existing controls, and vulnerabilities, technology.
-3. Analysis
-   [Impact and likelihood](#impact-and-likelyhood).
-5. Evaluation
+    1. Identify assets: people, threats, process, existing controls, and vulnerabilities, technology.
+2. Analysis
+    1. Calculate risk from: [Impact and likelihood](#impact-and-likelyhood) of risk.
+3. Evaluation
+    1. Compare calculated risk levels against risk evaluation and risk acceptance.
+    > * wtf, why: "calculated risk levels against **risk evaluation**" ?
+    2. Draft recommendations to mitigate risks for those controls failing to meet acceptance criteria.
+    > * wtf, what: "for those controls failing" ?
+
+Risk : identified, assessed, and measured. 
+
+[Risk Management Framework (RMF): An Overview](https://www.varonis.com/blog/risk-management-framework)
 
 
  
