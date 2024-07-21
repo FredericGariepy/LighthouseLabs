@@ -10,21 +10,25 @@ Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing 
 Automatic Global Log-Out:Force log out of the compromised email account and potentially other associated accounts across different services.
 Change of Permissions: owngrade permissions or restrict access to sensitive information and resources associated with the compromised email accoun
 Change of Authentication Credentials multi-factor authentication (MFA)
+
+Use the check boxes:
+- [ ] unchecked
+- [x] checked 
 #### Stage: Detection and Analysis
 1. From Human or/and System detection sources, determine whether an incident has occurred.
 
-1.1. Gather the reported email. Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails) or otherwise.
+1.1. Gather the reported email. Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails).
 On the email, look for:
-- Spoofed email address
-- Pressures for action, deadlines, rewards
-- Vague, typos, non-direct refferences, inconsistency
+- [ ] Spoofed email address
+- [ ] Pressures for action, deadlines, rewards
+- [ ] Vague, typos, non-direct refferences, inconsistency
 On the potential victim machine, look for:
-- Unsual processes, behaviours, CPU use, Bandwidth use
+- [ ] Unsual processes, behaviours, CPU use, Bandwidth use
 
-1.2. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket for a potential Phishing attack.
-
-1.3. Extract (embedded) URLs from email content. Resolve the URLs to IPs. Check for IP reputation.
+1.2. Extract (embedded) URLs from email content. Resolve the URLs to IPs. Check for IP reputation.
 - [x] Mark ‘true positive’ if bad and escalate the collected information
+
+1.2. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket for a potential Phishing attack, attack collected informaiton.
 
 1.4 Query the email server, find other correlated emails with the reported email.
 
