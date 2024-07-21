@@ -44,7 +44,9 @@ A. When completing a Risk Assessment Checklist, a wide range of items are typica
 
 
 #### Q. What are the __Top five categories__ of things investigated as part of completing a Risk Assessment Checklist?
-Based on the [14 families](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/InfoSec%20Risk%20Assessment.md#14-families-of-security-requirements-needed-to-address-nist-sp-800-171-checklist) of security requirement by NIST, and __Assuming that the categorization step is completed__ (ie. accounting for assets, getting an up-to-date inventory) .
+Based on the [14 families](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/InfoSec%20Risk%20Assessment.md#14-families-of-security-requirements-needed-to-address-nist-sp-800-171-checklist) of security requirement by NIST,
+
+and __Assuming that the categorization step is completed__ (ie. accounting for assets, getting an up-to-date inventory) .
 
 1. Access Controls: Ensuring proper user account management, least privilege principles, and separation of duties.
 
