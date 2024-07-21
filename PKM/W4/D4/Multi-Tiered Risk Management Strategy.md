@@ -128,9 +128,10 @@ IT Risk Management (IT ORM):
 NIST RMF is an IT-specific implementation of ORM. (NIST SP 800-37)
 - Security as part of SDLC (system development life cycle)
 
-__RMF 6 stages__:
 0. __Prepare__
     - Essential activities to prepare the organization to manage security and privacy risks 
+
+__RMF 6 stages__:
 2. __Categorize__ the system:
     - Categorize the system and information processed, stored, and transmitted based on an impact analysis.
     - Assess risks.
