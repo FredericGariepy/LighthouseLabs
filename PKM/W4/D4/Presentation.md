@@ -33,22 +33,21 @@ A. When completing a Risk Assessment Checklist, a wide range of items are typica
 
 - Assets: poeple, processes, physical assets, digital assets, information assets
 - Access controls on assets and user privileges
-- Compliance with external/internal regulations and standards
-- Security policies and procedures
-- Network and system configurations
 - Incident response plans
+- Security policies and procedures
 - Employee training and awareness programs
+- Compliance with external/internal regulations and standards
 - Physical security measures
+- Network and system configurations
 - Data storage and protection methods
 - Third-party risks and vendor management
 
 
 Q. What are the __Top five categories__ of things investigated as part of completing a Risk Assessment Checklist?
 
+Based on the [14 families](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/InfoSec%20Risk%20Assessment.md#14-families-of-security-requirements-needed-to-address-nist-sp-800-171-checklist) of security requirement by NIST, and assuming that the categorization step (ie. accounting for assets, getting an up-to-date inventory) is fundamental to the entire risk assesment process
 
 1. Access Controls: Ensuring proper user account management, least privilege principles, and separation of duties.
-
-2. Risk Assessment (Analysis): Evaluating risks to operations, assets, and individuals stemming from information systems and CUI processing.
 
 3. Security Assessment: Periodically assessing the effectiveness of security controls and implementing continuous improvement plans.
 
