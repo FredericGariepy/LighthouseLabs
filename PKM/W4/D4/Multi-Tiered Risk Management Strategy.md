@@ -105,12 +105,11 @@ ORM is guided by four principles:
 #### Five Steps of ORM: (proactive risk management, for bottom line $)
 ```
 ...-> Identify risk -> Assess risk -> Mitigation/Decision -> Implement controls -> Take corrective action/Monitor -> ...
-
 ```
 
 ### ORM
 > ORM is not industry specific
 Cyber Security Controls vs. IT ORM
 |Category|ORM|Cyber Security|
-| 1: Serrious, Immediate |Failure, Loss||
-| 1: Significant, Potential ||
+| 1: Serrious, Immediate |Mission Failure, Loss of life, Unacceptable|Total loss, Compromise, Violation|
+| 1: Significant, Potential |Security Failure, Severe injury, Significan Damage|Partial loss, Some compromise,Degredation|
