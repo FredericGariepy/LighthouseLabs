@@ -102,6 +102,7 @@ ORM is guided by four principles:
 4. Make risk decisions at the right level
 
 #### Five Steps of ORM: (proactive risk management, for bottom line $)
+> this is like 6 steps of incident response (IR)
 ```
 ...-> Identify risk -> Assess risk -> Mitigation/Decision -> Implement controls -> Take corrective action/Monitor -> ...
 ```
