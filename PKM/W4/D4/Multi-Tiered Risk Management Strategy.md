@@ -103,7 +103,7 @@ ORM is guided by four principles:
 
 #### Five Steps of ORM:
 ```
-Identify risk -> Assess risk -> Mitigation/Decision -> Implement controls -> Take corrective action/Monitor
+...-> Identify risk -> Assess risk -> Mitigation/Decision -> Implement controls -> Take corrective action/Monitor -> ...
 
 ```
 
