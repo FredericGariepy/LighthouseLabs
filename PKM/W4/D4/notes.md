@@ -5,6 +5,19 @@
 
 ## Intro: Security Policies in GRC
 
+Worflow:
+1. Risk Assessment --> Produces: Prioritized risk List.
+    1. Identification
+    2. Analysis
+    3. Evaluation
+2. Risk Management --> Consumes RA List, produces RM mitigations.
+    1. Risk Mitigation
+    2. Risk Reporting and Monitoring
+    3. Risk Governance
+ 
+
+
+
 Scope: Security policies in the context of governance, risk and compliance, or GRC
 
 NIST, security policies define the objectives and constraints for the security program. 
@@ -79,21 +92,32 @@ Risk Assessment has three key phases:
 1. Identification
     1. Identify assets: people, threats, process, existing controls, and vulnerabilities, technology.
 2. Analysis
-    1. Calculate risk from: [Impact and likelihood](#impact-and-likelyhood) of risk.
+    1. Calculate risk from: [Impact and likelihood](#impact-and-likelyhood) of risk. Create prioritized risk list.(?)
 3. Evaluation
     1. Compare calculated risk levels against risk evaluation and risk acceptance.
     > * wtf, why: "calculated risk levels against **risk evaluation**" ?
     2. Draft recommendations to mitigate risks for those controls failing to meet acceptance criteria.
     > * wtf, what: "for those controls failing" ?
 
+
+## Cyber Security Risk Management
+After completion of Risk Assessment process (Identification, Analysis, Evaluation),the next step is to manage the risk. 
+
+Risk Management phases:
+1. Risk Mitigation: Take generated ranked risk list (from RA), map mitigations to these threats, from greatest to the lowest.
+> At some point in the list, the organization can pause mitigations effort on levels deemed not worth addressing.
+>
+> Some reasons: low likelihood, abundace of urgent and high impact threats to manage...
+
+2. Risk Reporting and Monitoring: RMF requires to keep a list of known risks, and monitor known risks for compliance.
+> Statistics on data breaches indicate that many companies still do not report all of the successful attacks they are exposed to, which could impact their peers.
+
+Risk Governance:
+3. Finally, all of the steps above should be codified into a risk governance system.
+
 Risk : identified, assessed, and measured. 
 
 [Risk Management Framework (RMF): An Overview](https://www.varonis.com/blog/risk-management-framework)
-
-
- 
-
-
 
 
 
