@@ -3,7 +3,7 @@
 
 | Framework                                   | Source                              | Notes                                      |
 |---------------------------------------------|-------------------------------------|--------------------------------------------|
-| ISO                                         | International Standards Organization | A framework of best practices for information security management |
+| ISO 270XX                                     | International Standards Organization | A framework of best practices for information security management |
 | NIST SP 800 Series                          | U.S. Government                     | Implements FISMA requirements               |
 | "Orange Book"                               | U.S. Government                     | Risk Management                            |
 | COBIT                                       | Information Systems Audit and Control Organization (ISACA) | Information Technology (IT) governance framework and toolkit |
