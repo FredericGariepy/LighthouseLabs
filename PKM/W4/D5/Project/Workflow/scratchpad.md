@@ -11,9 +11,9 @@ SOC-Organizational_Handbook (Roles, Responsibility)
       ├── SOC-EIR_handbook (Alert plans, phone#, email@, d/escalation proceedures)
       ├── SOC-Operational_handbook  (one workflow from a phishing playbook) 
       │   └── SOC Analyst 1 # <-(you are here)
-      │         │ Detected IoC: No/Yes? 
-      │         │ If Yes:
-      │         └──> send to MSSP-->------------------------------>>[Enter : MSSP SOC framework
+      │         │ Detected Phishing IoC: No/Yes? 
+      │         │ If Yes: Use Phishing Playbook.
+      │         └──> Collect information and escalate to MSSP-->------------------------------>>[Enter : MSSP SOC framework
       └── SOC-Technical_handbook (SOC desktop/apps)
           │   #-- NOTE: likely
           ├── Linux syslogs, Windows Event logs
