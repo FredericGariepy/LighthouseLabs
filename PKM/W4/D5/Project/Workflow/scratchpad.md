@@ -21,7 +21,7 @@ SOC-Organizational_Handbook (Roles, Responsibility)
 ```
 
 ## EIR handbook 
-#### d/escalation proceedures
+#### D/escalation proceedures
 Follow Alert plans and playbook processes.
 #### Alert plans
 On case of suspected breach:
