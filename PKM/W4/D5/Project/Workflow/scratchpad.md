@@ -28,8 +28,8 @@ On case of suspected breach:
 - Client, Box, must receive an executive summary.
 - Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
 - Third-Party provider must a receive full report, with actionable items included.
-#### contacts: phone#, email@
-- [view contacts](#case_contacts)
+#### contacts: 
+- [phone#, email@](#case_contacts)
 
 ## SOC Operational handbook
 ### Phishing Playbook
