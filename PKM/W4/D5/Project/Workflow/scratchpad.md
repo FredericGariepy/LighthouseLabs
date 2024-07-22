@@ -62,7 +62,9 @@ On the email, look for:
 - [ ] Vague, typos, non-direct refferences, inconsistency
 
 On the potential victim machine, look for and ask about:
-- [ ] Unsual processes, behaviours, CPU use, Bandwidth use.
+- [ ] Did they follow any email url, produce any clicks, see any opens.
+- [ ] Did they reply with sensitive informaiton/secrets/access.
+- [ ] Noticed unsual processes, behaviours, CPU use (heat, sound, slowness), Bandwidth use.
 continue to 1.2
 
 1.2. Extract (embedded) URLs from email content. Resolve the URLs to IPs. Check for IP reputation.
@@ -70,18 +72,32 @@ continue to 1.2
 Mark ‘true positive’ if bad IP and escalate the collected information.
 - [ ] True postivie
 
-If true positive,
-- Send out a short notification of vigilance for phishing emails.
+1.3 Notify MSSP
 
-1.3. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket for a potential Phishing attack, forward collected informaiton.
+1.3.1. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket for a potential Phishing attack, forward collected informaiton to MSSP.
 
+<!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
+```
+Ticket Summary
+Phishing attack at <time date>, <UI confirmed, bad ip, possible infection, >
 
+Ticket Description
+Victim opened phishing email and <opened urls with bad ip, reports performance symptoms, replied with sesitive info.>
 
+Included:
+- Reported email (screenshot,code).
+- List of URL resolved IPs. (text)
+- Victim email (text)
 
+Now gathering additonal informaiton.
+```
+1.3.2 Send a short notice of vigiliance for phishing email to production organization members.
 
-1.3 Notify 
+- [!IMPORTANT]
+- Stay alert for contact from MSSP on open ticket. ASAP respond/perform provided requests/guidelines.
 
-1.4 Query the email server, find other correlated emails with the reported email.
+1.4 Gather further infomation
+1.4.1  Query the email server, find other correlated emails with the reported email.
 
 Use automated services if available. If needed, contact IT or/and Database roles. Gather the following information:
 - Recipient
