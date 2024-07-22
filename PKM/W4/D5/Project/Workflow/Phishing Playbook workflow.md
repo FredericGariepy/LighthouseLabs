@@ -76,19 +76,22 @@ Use more than one contact point if needed, ensure timely reponse.
 <!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
 ```
 Ticket Summary
-Phishing attack at <time date>, <UI confirmed, bad ip, possible infection, >
+Phishing attack at <date time>, <UI confirmed, bad ip, possible infection>
 
 Ticket Description
 Phishing plabook currently in PLAY. Current stage 3.1
+
+First reported victim received phishing email at <date time>
 Victim opened phishing email and <opened urls with bad ip, reports performance symptoms, reported replying with sesitive info.>
 
 Information/data included:
-- Reported email (screenshot,code).
-- List of bad IPs. (text)
-- Victim email (text)
+- Reported email (screenshot, code).
+- List of bad IPs.
+- Victim email
+- Time & Date received/openned 
 - Information leaked
 
-Continuing with 3.2
+Continuing with Phishing playbook, stage 3.2
 ```
 3.2 Send a short notice of vigiliance for phishing email to production organization members.
 3.3 Alert plan is now in effect, Client, Box, must receive an executive summary.
