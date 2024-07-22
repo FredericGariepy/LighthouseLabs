@@ -14,9 +14,12 @@ An example of a compliance requirement would be PCI DSS, which affects any compa
 
 In GRC, there is an order of operation:
 1. Risk Assessment (vulnerability assessment)
-2.Risk Management (2 parts):
+2. Risk Management (2 parts):
     - Risk Mitigation
     - Risk Reporting and Monitoring
+
+Risk Governance isn't a set step in risk management it's a business function
+
 
 ### NIST
 - NIST RMF is a risk management framework = This means that is is a framework developed by NIST to help organizations deal with risk inside their organizations.
