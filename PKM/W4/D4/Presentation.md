@@ -5,11 +5,11 @@
 -  [Top five categories of things being assessed](#q-what-may-be-the-top-five-categories-of-things-investigated-as-part-of-completing-a-risk-assessment-checklist)
 
 ## Q. How does a Risk Assessment Checklist relate to an organization’s everyday operations?
-A. Risk Assessment Checklist is tool, and relates to the organization's everyday operations in several ways:
+A. Risk Assessment Checklist is a tool, and relates to the organization's everyday operations in several ways:
 1. Helps maintain _ongoing_ security awareness (__security posture checks__) and _ongoing_ compliance (__recurring audits__).
-2. Supports compliance requirements by providing documentation of security efforts, good for third-party auditors.
+2. Supports compliance requirements by providing __documentation of security efforts__, good for third-party auditors.
 3. Things change, assesments help to keep security measures up-to-date, prompts for updates when new systems or risks are discovered.
-4. It's also an aid in identifying and mitigating risks that could impact daily operations.
+4. It helps spot security gaps, which aids in identifying and mitigating risks that could impact daily operations.
 
 ## Q. Who might be involved in completing a Risk Assessment Checklist?
 A. Various stakeholders might be involved in completing a Risk Assessment Checklist, including:
