@@ -33,6 +33,21 @@ NIST RMF[Implement step Q&A](https://csrc.nist.gov/CSRC/media/Projects/risk-mana
 - Provided cloud responsibility model  [Azure shared responsibility](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility) [AWS Shared Responsibility Mode](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
 
+Slight tangent. Since this might be a Security + question.
+Control expiration:
 
+So, even if a control is some specific set of instruction like : "at time X allow Y to do Z"
+
+That control itself does not expire.
+
+And even spawning a control from within a control, 
+
+Like in programing, calling a class instance from within class.
+
+That spawned control (called class/spawned control), does not expire, in the sense that it exists (script file/process) even if it is not used (called/executed).?
+
+Cloud control matrix (download) 
+
+https://cloudsecurityalliance.org/education/ccsk
 
 https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Flearningimages.lighthouselabs.ca%2FCyber%2BBC%2FCyber%2BBC%2BC5%2FCyber%2BBC%2BC5.1%2FRisk%2BAssessment%2BTemplate%2BTemplate.xlsx&wdOrigin=BROWSELINK
