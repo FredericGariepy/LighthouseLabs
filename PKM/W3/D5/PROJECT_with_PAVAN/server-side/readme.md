@@ -1,10 +1,11 @@
 ### CRON
 ```bash
 @reboot /Your/path/to/server.py &
-
-#Optional
-# >/dev/null 2>&1
-# to run in silence, standard out and standard error to /dev/null
+```
+think `2>> cron_error.txt` instead
+~~Optional
+/dev/null 2>&1
+ to run in silence, standard out and standard error to /dev/null~~
 ```
 Here is the project folder structure 
 ```bash
