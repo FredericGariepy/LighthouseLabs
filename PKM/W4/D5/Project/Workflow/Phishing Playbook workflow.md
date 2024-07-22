@@ -114,7 +114,7 @@ Box SOC Analyst 1
 SOCAnalyst1@box.cat
 Phone 777-6699
 ```
-3.3 Alert plan is now in effect, Client, Box, must receive an executive summary.
+3.3 EIR handbook Alert plan is now in effect, Client, Box, must receive an executive summary.
 
 > [!IMPORTANT]  
 > Stay alert for contact from MSSP on new opened ticket.
