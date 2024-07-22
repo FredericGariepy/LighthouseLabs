@@ -13,3 +13,7 @@ In practice, [IR](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/ve
 
 
 NIST RMF[Implement step Q&A](https://csrc.nist.gov/CSRC/media/Projects/risk-management/documents/04-Implement%20Step/NIST%20RMF%20Implement%20Step-FAQs.pdf)
+
+
+"default router password :admin" - Rubel
+"Calvin is the default password on a lot of default Dell root admins, mostly iDrac interfaces" - Brian
