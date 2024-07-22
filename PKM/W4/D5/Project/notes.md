@@ -8,12 +8,13 @@
 ##### Resources:
 - Google Cloud:  [Top Security Playbooks 2022-2023. Google Cloud](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
    - [reading notes](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/reading/Top%20Security%20Playbooks%202022-23.md)
+
 - CISA [Federal Government Cybersecurity Incident & Vulnerability Response Playbooks](https://www.cisa.gov/sites/default/files/2024-03/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf)
     - [reading notes](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/reading/CISA%20Federal%20Government%20Cybersecurity%20Incident%20%26%20Vulnerability%20Response.md)
+
 - NIST [Incident Response](https://csrc.nist.gov/Projects/incident-response)
 - [6 Phases in the Incident Response Plan](https://www.securitymetrics.com/blog/6-phases-incident-response-plan)
 - [What's an MSSP?](https://www.beyondtrust.com/resources/glossary/managed-security-services-provider-mssp)
-- 
 ## Glossary
 |term| def|
 |-|-|
