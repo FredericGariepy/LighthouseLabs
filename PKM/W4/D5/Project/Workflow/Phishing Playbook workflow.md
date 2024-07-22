@@ -117,7 +117,8 @@ Phone 777-6699
 
 > [!IMPORTANT]  
 > Stay alert for contact from MSSP on new opened ticket.
-> On reply/alert/contact by MSSP go to **step 6**.
+>
+> On reply/alert/contact by MSSP, mark down currents stage, go to **step 6**.
 
 4 Gather further infomation & check for phishing campaign
 4.1 Query the email server, find other correlated emails with the reported email. Contact IT role if needed.
