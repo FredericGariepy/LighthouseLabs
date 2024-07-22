@@ -29,6 +29,10 @@ Examples of tactical risks are:
 - Fraud
 - External events, such as natural disasters or pandemics
 
+[Clarifications from mentor Q&A](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/D1/mentorQ&A.md)
+- Information systems represent the potential to introduce tactical risk to an operation.
+- Policies represent a potential strategic risk as policy documents are considered strategic.
+- Policies and information systems are tactical or operational tools in the company.
 #### Multi-Tiered Risk Management Strategy (below):
 ```
     Strategic risk          risks: Policy, fines, reputation, market relevance, compliance # Risk to both enterprise and business
