@@ -4,7 +4,7 @@ To build a workflow with these [resources](#resources),
 2. Fill it in with techinical points from Google playbooks.
 3. Adjust for client.
 
-The diagram bellow is adjusted from the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology)
+The diagram bellow is adjusted from the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology) diagram
 ```
 # lines begining with `#` are comments.
 SOC-Organizational_Handbook (Roles, Responsibility)
