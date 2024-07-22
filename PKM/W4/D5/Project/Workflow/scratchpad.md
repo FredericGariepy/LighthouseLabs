@@ -8,7 +8,7 @@ The diagram bellow is adjusted from the [SOC methodology](https://github.com/Fre
 ```
 # lines begining with `#` are comments.
 SOC-Organizational_Handbook (Roles, Responsibility)
-      ├── SOC-EIR_handbook (Alert plans, phone#, email@, d/escalation proceedures)
+      ├── SOC-EIR_handbook (D/escalation proceedures, Alert plans, Contacts: phone#, email@)
       ├── SOC-Operational_handbook  (one workflow from a phishing playbook) 
       │   └── SOC Analyst 1 # <-(you are here)
       │         │ Detected Phishing IoC: No/Yes? 
