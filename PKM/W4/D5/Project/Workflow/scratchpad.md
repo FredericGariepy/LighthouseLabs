@@ -44,6 +44,15 @@ d/escalation proceedures
     Cat: cat@soc.cat Phone 905-4616 or cell 902-4321
 
 ```
+## Alert plans
+Communications
+Contact stipulations:
+    On case of suspected breach both Client and Client's Third-Party MSSP provider must be sent specific communications.
+    Percy: percy@box.cat must receive an executive summary.
+    Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
+    Third-Party provider must a receive full report, with actionable items included.
+
+
 
 ## SOC-Operational_handbook
 ~~Shift, handover,~~
