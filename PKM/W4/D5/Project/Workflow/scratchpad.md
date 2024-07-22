@@ -21,26 +21,18 @@ SOC-Organizational_Handbook (Roles, Responsibility)
 ```
 
 ## EIR_handbook 
-### d/escalation proceedures
+#### d/escalation proceedures
 Follow Alert plans and playbook processes.
-### Alert plans
-#### Communications:
+#### Alert plans
 On case of suspected breach:
 - Client, Box, must receive an executive summary.
 - Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
 - Third-Party provider must a receive full report, with actionable items included.
-### contacts: phone#, email@
+#### contacts: phone#, email@
 - [view contacts](#case_contacts)
 
-## Alert plans
-Communications:
-On case of suspected breach,
-- Percy, percy@box.cat must receive an executive summary.
-- Box Production Manager must receive highlighting [major security breach events](), and listed potential impacts on company operations.
-    Third-Party provider must a receive full report, with actionable items included.
-
 ## SOC-Operational_handbook
-## Phishing Playbook
+### Phishing Playbook
 Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
 Automatic Global Log-Out:Force log out of the compromised email account and potentially other associated accounts across different services.
 Change of Permissions: owngrade permissions or restrict access to sensitive information and resources associated with the compromised email accoun
