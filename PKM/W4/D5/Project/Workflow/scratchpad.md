@@ -33,10 +33,6 @@ On case of suspected breach:
 
 ## SOC Operational handbook
 ### Phishing Playbook
-Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
-Automatic Global Log-Out:Force log out of the compromised email account and potentially other associated accounts across different services.
-Change of Permissions: owngrade permissions or restrict access to sensitive information and resources associated with the compromised email accoun
-Change of Authentication Credentials multi-factor authentication (MFA)
 
 Follow directives and use the check boxes:
 - [ ] unchecked
@@ -170,3 +166,9 @@ MSSP will guide organization and SOC Analyst 1 (YOU) through the next two playbo
     MSSP & SOC Security Oversight (3rd party) *Think SOC 2,2+, and full SOC*
     Cat: cat@soc.cat Phone 905-4616 or cell 902-4321
 ```
+
+#### potential stuff a SOAR could do/ MSSP resonpse actions 
+Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
+Automatic Global Log-Out:Force log out of the compromised email account and potentially other associated accounts across different services.
+Change of Permissions: owngrade permissions or restrict access to sensitive information and resources associated with the compromised email accoun
+Change of Authentication Credentials multi-factor authentication (MFA)
