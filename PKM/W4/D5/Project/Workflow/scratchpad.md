@@ -29,7 +29,7 @@ On case of suspected breach:
 - Client, Box, must receive an executive summary.
 - Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
 - Third-Party provider must a receive full report, with actionable items included.
-### phone#, email@
+### contacts: phone#, email@
 - [view contacts](#case_contacts)
 
 ## Alert plans
@@ -76,9 +76,12 @@ If yes, collect leaked information, 'Information Leak', escalate the collected i
 Mark ‘true positive’ if bad IP and escalate the collected information.
 - [ ] True postivie
 
-3 Notify MSSP
+3. Notify MSSP
+Depending on MSSP conduct of communications, use available contacts/means/channels found in [EIR Handbook](#eir_handbook).
 
-3.1. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket for a potential Phishing attack, forward collected informaiton to MSSP.
+Use more than one contact point if needed, ensure timely reponse.
+
+3.1. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket (with MSSP contact found in EIR handbook) for a potential Phishing attack, forward collected informaiton to MSSP.
 
 <!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
 ```
@@ -86,17 +89,27 @@ Ticket Summary
 Phishing attack at <time date>, <UI confirmed, bad ip, possible infection, >
 
 Ticket Description
+Phishing plabook currently in PLAY. Current stage 3.1
 Victim opened phishing email and <opened urls with bad ip, reports performance symptoms, reported replying with sesitive info.>
 
-Included:
+Information/data included:
 - Reported email (screenshot,code).
 - List of bad IPs. (text)
 - Victim email (text)
 - Information leaked
 
-Now at sending a short notice of vigiliance gathering additonal informaiton
+Continuing with 3.2
 ```
 3.2 Send a short notice of vigiliance for phishing email to production organization members.
+3.3 Alert plan is now in effect, Client, Box, must receive an executive summary.
+
+```
+Email
+Cybersecurity Notice: Case of suspected breach
+
+
+
+```
 
 > [!IMPORTANT]  
 > Stay alert for contact from MSSP on new opened ticket.
@@ -130,6 +143,16 @@ following the bad IPs. Record and or report the following:
 
 6. Response from MSSP
 Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner. \
+
+Communications: 
+IF 
+
+ Client, Box, must receive an executive summary.
+- Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
+- Third-Party provider must a receive full report, with actionable items included.
+
+
+
 MSSP will guide organization and SOC Analyst 1 (YOU) through the next two playbook stages:
 - Containment, Eradication, and Recovery
 - Post-Incident Activity
