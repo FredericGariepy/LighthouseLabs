@@ -56,7 +56,7 @@ On the potential victim machine, look for and ask user about:
 
 1.2 If possible, ask user about information leakage.
 
-Did they share/input/reply with sensitive informaiton/secrets/access ?
+Did they share/input/reply with sensitive information/secrets/access ?
 If yes, collect leaked information, 'Information Leak', escalate the collected information.
 - [ ] Information leak
 - [ ] Iformation type: ___________
