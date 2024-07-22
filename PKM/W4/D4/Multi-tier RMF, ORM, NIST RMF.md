@@ -31,19 +31,19 @@ Examples of tactical risks are:
 
 #### Multi-Tiered Risk Management Strategy (below):
 ```
-    Strategic risk          Policy, fines, reputation, market relevance, compliance
+    Strategic risk          risks: Policy, fines, reputation, market relevance, compliance # Risk to both enterprise and business
           /\
-         /  \               whats the width of the triangle for? 
+         /  \               whats the `width` of the triangle for? 
         /     \             is it the number/count of risk/mitigratios by level?
       Enterprise            
      / (Policy)  \          The term `mitigation` changes at each level 
     /             \         between the strategy - tactical poles.
    / Business Areas \       e.g.
-  /    (Processes)   \      mitigation = {Enterprise:Policy, Business:Process, Info Systems:Tool}
- /                    \     dictionary = {Policy: Binding agreements & laws, Process: Ways of doing business,
+  /    (Processes)   \      mitigation = {Enterprise:Policy, Business:Process, Info Systems:Tools}
+ /                    \     dictionary = {Policy: Binding agreements & laws, Process: Ways of doing business $,
 /__Information Systems_\                 Tools: Technology that fits both Policy, Processes, Organization goals}  
 
-      Tactical Risk        compromise (CI), availability(A)
+      Tactical Risk        risks: compromise (CI), availability(A)   # risk to both info and buisiness
 ```
 #### level breakdown
 1. Enterprise Tier (Tier 1): Governance
