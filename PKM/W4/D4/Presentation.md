@@ -16,7 +16,7 @@ A. Various stakeholders might be involved in completing a Risk Assessment Checkl
 
 1. IT and security teams
     - Asset inventory management, vulnerability assesment, testing mitigations
-    - Asses system configurations, security controls
+    - assess system configurations, security controls
     - Indentify operational security gaps
 3. Department managers / Senior management
     - [commissioning, organising and coordinating the assessment](https://oira.osha.europa.eu/en/roles-and-responsibilities)
