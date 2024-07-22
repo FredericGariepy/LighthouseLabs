@@ -54,20 +54,32 @@ Follow directives and use the check boxes:
 
 1.1. Gather the reported email. Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails).
 
+If one box is checked move immediately to step 1.2
+
 On the email, look for:
 - [ ] Spoofed email address
 - [ ] Pressures for action, deadlines, rewards
 - [ ] Vague, typos, non-direct refferences, inconsistency
-On the potential victim machine, look for and ask about:
-- [ ] Unsual processes, behaviours, CPU use, Bandwidth use
 
-Mark each indicator, collect all information, continue to 1.2
+On the potential victim machine, look for and ask about:
+- [ ] Unsual processes, behaviours, CPU use, Bandwidth use.
+continue to 1.2
 
 1.2. Extract (embedded) URLs from email content. Resolve the URLs to IPs. Check for IP reputation.
-Mark ‘true positive’ if bad IP and escalate the collected information
+
+Mark ‘true positive’ if bad IP and escalate the collected information.
 - [ ] True postivie
 
-1.2. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket for a potential Phishing attack, attack collected informaiton.
+If true positive,
+- Send out a short notification of vigilance for phishing emails.
+
+1.3. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket for a potential Phishing attack, forward collected informaiton.
+
+
+
+
+
+1.3 Notify 
 
 1.4 Query the email server, find other correlated emails with the reported email.
 
