@@ -1,6 +1,3 @@
-## Resources
-- [NIST IR Playbook p.42](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
-- [Google Playbook p.7](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 
 To build a workflow with these [resources](#resources),
 1. Use a generic incident handling checklist from NIST IR.
@@ -17,9 +14,10 @@ SOC-Organizational_Handbook (Roles, Responsibility)
       │         │ Detected IoC: No/Yes? 
       │         │ If Yes:
       │         └──> send to MSSP-->------------------------------>>[Enter : MSSP SOC framework
-      └── SOC-Technical_handbook (SOC desktop / apps )
-          │   #-- NOTE: all services below are assumed.
-          └── ELK/SNMP/PRTG      # Since the  reaches out
+      └── SOC-Technical_handbook (SOC desktop/apps)
+          │   #-- NOTE: likely
+          ├── Linux syslogs, Windows Event logs
+          └── ELK/SNMP/PRTG     # No SIEM, No SOAR, No action-integrated monitoring.
 ```
 
 ## EIR_handbook 
@@ -114,6 +112,10 @@ contain (5) and eradicate (6) the incident for them
 8. Recover from the incident
 9. Create a follow-up report
 10. Hold a lessons learned meeting (mandatory for major incidents, optional otherwise
+
+#### Resources
+- [NIST IR Playbook p.42](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
+- [Google Playbook p.7](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 
 #### case_contacts
 ```
