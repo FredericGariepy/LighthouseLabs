@@ -23,49 +23,26 @@ SOC-Organizational_Handbook (Roles, Responsibility)
 ```
 
 ## EIR_handbook 
-phone#, email@
-
-## d/escalation proceedures
+### d/escalation proceedures
+Follow Alert plans, playbook processes.
+### Alert plans
+#### Communications:
+On case of suspected breach:
+- Client, Box, must receive an executive summary.
+- Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
+- Third-Party provider must a receive full report, with actionable items included.
+### phone#, email@
+- [view contacts](#case_contacts)
 
 ## Alert plans
-
-
-
-## phone#, email@,
-```
-    Box Manufacturing
-    Percy: percy@box.cat
-    Misha: mesha@box.cat Phone 902-9836
-    Minka: minka@box.cat Phone 562-7658
-    YOU: SOCAnalyst1@box.cat Phone 562-7658
-    Dusty: dusty@box.cat Phone 462-8952
-    Lucky: lucky@box.cat Phone 269-5466
-    Ned: ned@box.cat Phone 877-4332
-
-    MSSP & SOC Security Oversight (3rd party) *Think SOC 2,2+, and full SOC*
-    Cat: cat@soc.cat Phone 905-4616 or cell 902-4321
-
-```
-## Alert plans
-Communications
-Contact stipulations:
-    On case of suspected breach both Client and Client's Third-Party MSSP provider must be sent specific communications.
-    Percy: percy@box.cat must receive an executive summary.
-    Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
+Communications:
+On case of suspected breach,
+- Percy, percy@box.cat must receive an executive summary.
+- Box Production Manager must receive highlighting [major security breach events](), and listed potential impacts on company operations.
     Third-Party provider must a receive full report, with actionable items included.
 
-
-
 ## SOC-Operational_handbook
-~~Shift, handover,~~
-workflows,
-~~tiers, event handling, intructions, policies,~~
-procedures,
-~~processes,timing, forms,~~
-SOC dictionary
-
----
-## Phishing Playbook
+## #Phishing Playbook
 Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
 Automatic Global Log-Out:Force log out of the compromised email account and potentially other associated accounts across different services.
 Change of Permissions: owngrade permissions or restrict access to sensitive information and resources associated with the compromised email accoun
@@ -137,3 +114,18 @@ contain (5) and eradicate (6) the incident for them
 8. Recover from the incident
 9. Create a follow-up report
 10. Hold a lessons learned meeting (mandatory for major incidents, optional otherwise
+
+#### case_contacts
+```
+    Box Manufacturing
+    Percy: percy@box.cat
+    Misha: mesha@box.cat Phone 902-9836
+    Minka: minka@box.cat Phone 562-7658
+    YOU: SOCAnalyst1@box.cat Phone 562-7658
+    Dusty: dusty@box.cat Phone 462-8952
+    Lucky: lucky@box.cat Phone 269-5466
+    Ned: ned@box.cat Phone 877-4332
+
+    MSSP & SOC Security Oversight (3rd party) *Think SOC 2,2+, and full SOC*
+    Cat: cat@soc.cat Phone 905-4616 or cell 902-4321
+```
