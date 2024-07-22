@@ -20,7 +20,7 @@ SOC-Organizational_Handbook (Roles, Responsibility)
           └── ELK/SNMP/PRTG     # No SIEM, No SOAR, No action-integrated monitoring.
 ```
 
-## EIR_handbook 
+## EIR handbook 
 #### d/escalation proceedures
 Follow Alert plans and playbook processes.
 #### Alert plans
@@ -31,7 +31,7 @@ On case of suspected breach:
 #### contacts: phone#, email@
 - [view contacts](#case_contacts)
 
-## SOC-Operational_handbook
+## SOC Operational handbook
 ### Phishing Playbook
 Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
 Automatic Global Log-Out:Force log out of the compromised email account and potentially other associated accounts across different services.
