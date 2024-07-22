@@ -12,7 +12,7 @@ In practice, [IR](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/ve
 
 
 
-NIST RMF[Implement step Q&A](https://csrc.nist.gov/CSRC/media/Projects/risk-management/documents/04-Implement%20Step/NIST%20RMF%20Implement%20Step-FAQs.pdf)
+NIST RMF[Implement step Q&A](https://csrc.nist.gov/CSRC/media/Projects/risk-management/documents/04-Implement%20Step/NIST%20RMF%20Implement%20Step-FAQs.pdf) 
 
 
 "default router password :admin" - Rubel
@@ -24,5 +24,5 @@ NIST RMF[Implement step Q&A](https://csrc.nist.gov/CSRC/media/Projects/risk-mana
 
 ### Cloud access control implemetation
 - Mulit cloud scenario (No locked in to one provider)
-- Provided cloud responsibility model  [Azure shared responsibility](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
+- Provided cloud responsibility model  [Azure shared responsibility](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility) [AWS Shared Responsibility Mode](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
