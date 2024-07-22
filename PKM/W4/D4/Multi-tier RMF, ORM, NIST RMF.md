@@ -31,17 +31,17 @@ Examples of tactical risks are:
 
 #### Multi-Tiered Risk Management Strategy (below):
 ```
-    Strategic risk                    
+    Strategic risk          Policy, fines, reputation, market relevance, compliance
           /\
-         /  \        whats the width of the 
-        /     \       triangle for? 
-      Enterprise      is it the number/count of risk by level?
+         /  \               whats the width of the 
+        /     \             triangle for? 
+      Enterprise            is it the number/count of risk/mitigratios by level?
      / (Policy)  \    
     /             \
    / Business Areas \ 
   /    (Processes)   \
  /                    \
-/__Information Systems_\ 
+/__Information Systems_\   compromise (CI), availability(A)
 
       Tactical Risk
 ```
