@@ -93,7 +93,7 @@ Information/data included:
 
 Continuing with Phishing playbook, stage 3.2
 ```
-3.2 Send a short notice of vigiliance for phishing email to production organization members.
+3.2 Send a short notice of vigiliance for phishing email to production organization members. In order pre-emptively stop/slow propagation. Reinforce employee risk awareness.
 
 ```Made with AI
 Header: Suspected phishing email circulating within our network
@@ -114,7 +114,6 @@ Box SOC Analyst 1
 SOCAnalyst1@box.cat
 Phone 777-6699
 ```
-3.3 EIR handbook Alert plan is now in effect, Client, Box, must receive an executive summary.
 
 > [!IMPORTANT]  
 > Stay alert for contact from MSSP on new opened ticket.
