@@ -4,9 +4,9 @@ NIST has good langage for mobilizing senior management
 
 <img src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2018/04/12/ipdrr_circle.png?itok=qV5agiH5" width="auto" />
 
-NIST [Cybersecurity and Privacy Reference Tool](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home), from there chose from Control Families
+NIST [Cybersecurity and Privacy Reference Tool](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home), from there, chose from __Control Families__:
 
-e.g:
+e.g.:
 - [Access Control families](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=AC)
 - [Risk Assesment](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=RA)
 
