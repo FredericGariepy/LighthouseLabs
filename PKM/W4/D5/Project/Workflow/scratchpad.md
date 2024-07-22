@@ -4,23 +4,22 @@
 [Google Playbook p.7](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 
 [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology)
+
+
 ```
-SOC-Organizational_Handbook (Roles, Responsibility, Org. structure, glossary)
-      │
+# lines begining with `#` are comments.
+SOC-Organizational_Handbook (Roles, Responsibility)
       ├── SOC-EIR_handbook (Alert plans, phone#, email@, d/escalation proceedures)
-      │
-      ├── SOC-Operational_handbook  (Shift, handover, workflows, tiers, event handling,
-      │   │                         intructions, policies, procedures, processes,
-      │   ├── Tier_1                timing, forms, SOC dictionary)
-      │   ├── Tier_2
-      │   └── Tier_2+               Each tier has event handling instructions
-      │       └──> send to CSIRT-->-(CSIRT = Last resort)----------------------------->>[Enter : CSIRT framework
-      │
-      └── SOC-Technical_handbook (Theater setup, SOC desk/apps/infra)
-          │
-          ├── PRTG ()
-          ├── Asset_2    Each asset has a tech & infra handbook
-          └── Asset_3    Each asset feeds into SIEM
+      ├── SOC-Operational_handbook  (one workflow from a phishing playbook) 
+      │   └── SOC Analyst 1 # <-(you are here)
+      │         │ Detected IoC: No/Yes? 
+      │         │ If Yes:
+      │         └──> send to MSSP-->------------------------------>>[Enter : MSSP SOC framework
+      └── SOC-Technical_handbook (SOC desktop / apps )
+          │   #-- NOTE: all services below are assumed.
+          ├── SNMP/PRTG      # Since the  reaches out 
+          └── ELK    Each asset has a tech & infra handbook
+          # Assumption: This single SOC team would not have   Each asset feeds into SIEM
                          Data used to trigger use cases
 ```
 
