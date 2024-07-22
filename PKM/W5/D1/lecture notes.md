@@ -6,3 +6,6 @@ e.g:
 
 
 NIST and other compliance mechanisms [audit board](https://www.auditboard.com/)
+
+
+In practice, IR (incident response), is a neglected area. As it does not give immediate benefits (unlike immediate access controls benefits, like: MFA, ACCOUNT MANAGEMENT, SESSION TERMINATION, REMOTE ACCESS , LEAST PRIVILEGE, etc...)
