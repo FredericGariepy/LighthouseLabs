@@ -1,5 +1,5 @@
 
-To build a workflow with these [resources](#resources),
+To build a workflow with these [resources](#resources), the idea is;
 1. Use a generic incident handling checklist from NIST IR.
 2. Fill it in with techinical points from Google playbooks.
 3. Adjust for client.
