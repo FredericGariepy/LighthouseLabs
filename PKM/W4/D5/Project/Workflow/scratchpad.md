@@ -22,7 +22,7 @@ SOC-Organizational_Handbook (Roles, Responsibility)
 
 ## EIR_handbook 
 ### d/escalation proceedures
-Follow Alert plans, playbook processes.
+Follow Alert plans and playbook processes.
 ### Alert plans
 #### Communications:
 On case of suspected breach:
@@ -55,26 +55,30 @@ Follow directives and use the check boxes:
 1.1. Gather the reported email. Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails).
 
 If one box is checked move immediately to step 1.2
-
 On the email, look for:
 - [ ] Spoofed email address
 - [ ] Pressures for action, deadlines, rewards
 - [ ] Vague, typos, non-direct refferences, inconsistency
 
-On the potential victim machine, look for and ask about:
+On the potential victim machine, look for and ask user about:
 - [ ] Did they follow any email url, produce any clicks, see any opens.
-- [ ] Did they reply with sensitive informaiton/secrets/access.
 - [ ] Noticed unsual processes, behaviours, CPU use (heat, sound, slowness), Bandwidth use.
-continue to 1.2
 
-1.2. Extract (embedded) URLs from email content. Resolve the URLs to IPs. Check for IP reputation.
+1.2 If possible, ask user about information leakage.
+
+Did they share/input/reply with sensitive informaiton/secrets/access ?
+If yes, collect leaked information, 'Information Leak', escalate the collected information.
+- [ ] Information leak
+- [ ] Iformation type: ___________
+
+2. Extract (embedded) URLs from email content. Resolve the URLs to IPs. Check for IP reputation.
 
 Mark ‘true positive’ if bad IP and escalate the collected information.
 - [ ] True postivie
 
-1.3 Notify MSSP
+3 Notify MSSP
 
-1.3.1. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket for a potential Phishing attack, forward collected informaiton to MSSP.
+3.1. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket for a potential Phishing attack, forward collected informaiton to MSSP.
 
 <!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
 ```
@@ -82,64 +86,59 @@ Ticket Summary
 Phishing attack at <time date>, <UI confirmed, bad ip, possible infection, >
 
 Ticket Description
-Victim opened phishing email and <opened urls with bad ip, reports performance symptoms, replied with sesitive info.>
+Victim opened phishing email and <opened urls with bad ip, reports performance symptoms, reported replying with sesitive info.>
 
 Included:
 - Reported email (screenshot,code).
-- List of URL resolved IPs. (text)
+- List of bad IPs. (text)
 - Victim email (text)
+- Information leaked
 
-Now gathering additonal informaiton.
+Now at sending a short notice of vigiliance gathering additonal informaiton
 ```
-1.3.2 Send a short notice of vigiliance for phishing email to production organization members.
+3.2 Send a short notice of vigiliance for phishing email to production organization members.
 
-- [!IMPORTANT]
-- Stay alert for contact from MSSP on open ticket. ASAP respond/perform provided requests/guidelines.
+> [!IMPORTANT]  
+> Stay alert for contact from MSSP on new opened ticket.
+> On reply/alert/contact by MSSP go to **step 6**.
 
-1.4 Gather further infomation
-1.4.1  Query the email server, find other correlated emails with the reported email.
+4 Gather further infomation & check for phishing campaign
+4.1 Query the email server, find other correlated emails with the reported email. Contact IT role if needed.
+- [ ] Emails with same source address, IP.
+- [ ] Contain same bad URL IPs.
+- [ ] Same content (heading, body).
+4.2. For each attack emails, check for victim replies or/and information leakage.
 
-Use automated services if available. If needed, contact IT or/and Database roles. Gather the following information:
-- Recipient
-- Source IP, Port
-- Destination IP, Port
-- URLs / Embeded URLs
-- Mail text content: Headers, Body
+If victim leaked information/secrets/access, check 'Information leakage'
+- [ ] Information leakage
+Immediately forward informaiton leak to ticket, raise urgency/priority of ticket.
+      
+4.3. For each attack emails, gather:
+- [ ] Source email, IP, Port
+- [ ] Source email IP reputation
+- [ ] Destination email, IP, Port
+- [ ] IP Resolved URLs / Embeded URLs 
+- [ ] Resolved URLs IP reputation
+- [ ] email content (Headers, Body)
+Forward the information collection to the ticket.
 
-1.5. Use automation tools if available to resolve collected URLs to IPs. Check the reputation of collected source IPs, URL IPs.
+5. If possible, Analyze URLs in sandboxed environment by
+following the bad IPs. Record and or report the following:
+- [ ] unusual processes
+- [ ] unusual performance
+- [ ] unusual behaviour
 
-- [x] Mark ‘true positive’ if bad IP and escalate the collected information
+6. Response from MSSP
+Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner.
 
 
-1.5 Analyze URLs in sandboxed environment by
-following the
 
+MSSP will guide organization and SOC Analyst 1 (YOU) through the next two playbook stages:
+- Containment, Eradication, and Recovery
+- Post-Incident Activity
 
-1.1 Analyze the precursors and indicators
-1.2 Look for correlating information
-1.3 Perform research (e.g., search engines, knowledge base)
-1.4 As soon as the handler believes an incident has occurred, begin documenting
-the investigation and gathering evidence
-3. Prioritize handling the incident based on the relevant factors (functional impact, information
-impact, recoverability effort, etc.)
-#### Containment, Eradication, and Recovery
-4. Report the incident to the appropriate internal personnel and external organizations
-Containment, Eradication, and Recovery
-5. Acquire, preserve, secure, and document evidence
-6. Contain the incident
-7. Eradicate the incident
-6.1 Identify and mitigate all vulnerabilities that were exploited
-6.2 Remove malware, inappropriate materials, and other components
-6.3 If more affected hosts are discovered (e.g., new malware infections), repeat
-the Detection and Analysis steps (1.1, 1.2) to identify all other affected hosts, then
-contain (5) and eradicate (6) the incident for them
-7.1 Return affected systems to an operationally ready state
-7.2 Confirm that the affected systems are functioning normally
-7.3 If necessary, implement additional monitoring to look for future related activity
-#### Post-Incident Activity
-8. Recover from the incident
-9. Create a follow-up report
-10. Hold a lessons learned meeting (mandatory for major incidents, optional otherwise
+>  ASAP respond/perform provided requests/guidelines.
+
 
 #### Resources
 - [NIST IR Playbook p.42](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
