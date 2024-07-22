@@ -7,3 +7,8 @@ An example of a compliance requirement would be PCI DSS, which affects any compa
 
 - NIST RMF is a risk management framework = This means that is is a framework developed by NIST to help organizations deal with risk inside their organizations.
 So the framework would mention different controls and other strategies that can be used to deal with risk
+
+
+- it just shows the relation between strategic risk (towards the top) vs tactical risk (towards the bottom) the more you move up the more strategic the risk is
+- Width = # of risks? [Not Certain ], However, there's way more information systems than policies in an organization
+![image](https://github.com/user-attachments/assets/b195e545-bc65-4d74-b086-74c4cb5361a9)
