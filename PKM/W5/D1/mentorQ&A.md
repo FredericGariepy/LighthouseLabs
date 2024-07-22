@@ -31,3 +31,6 @@ So the framework would mention different controls and other strategies that can 
 ![image](https://github.com/user-attachments/assets/b195e545-bc65-4d74-b086-74c4cb5361a9)
 
 
+- Information systems represent the __potential to introduce__ tactical risk to an operation.
+- Policies represent a potential strategic risk as policy documents are considered strategic.
+- Policies and information systems are tactical or operational tools in the company.
