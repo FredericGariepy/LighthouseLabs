@@ -5,7 +5,7 @@ Steps in ORM are not related to Incident Response,
 
 Steps in ORM are related to risk management, these steps would be taken whenever a new risk is identified in the environment.
 
-- ORM is operational risk management = This is essential the field of risk management with in a company.
+- ORM is operational risk management = This is essential in the field of risk management within a company.
 This would be managing the inherent risks associated with doing your business
 
 ### GRC
