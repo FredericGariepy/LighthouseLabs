@@ -148,20 +148,19 @@ following the bad IPs. Record and or report the following:
 6. Response from MSSP
 Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner. \
 
-Communications: 
-IF 
+SOC analyst 1 does not confirm breach, ... 
+IF break confirmed. 
+EIR handbook Alert plan is now in effect, Client, Box, must receive an executive summary.
 
- Client, Box, must receive an executive summary.
-- Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
-- Third-Party provider must a receive full report, with actionable items included.
-
+Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
 
 
+# ...
 MSSP will guide organization and SOC Analyst 1 (YOU) through the next two playbook stages:
 - Containment, Eradication, and Recovery
 - Post-Incident Activity
 
->  ASAP respond/perform provided requests/guidelines.
+---
 
 
 #### Resources
