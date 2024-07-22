@@ -22,3 +22,7 @@ NIST RMF[Implement step Q&A](https://csrc.nist.gov/CSRC/media/Projects/risk-mana
 ### Access controls without documentation do not exist
 'RBAC' Role based access control. define roles clearly.
 
+### Cloud access control implemetation
+- Mulit cloud scenario (No locked in to one provider)
+- Provided cloud responsibility model  [Azure shared responsibility](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
+
