@@ -1,11 +1,13 @@
 ## Resources
 [NIST IR Playbook p.42](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
-
 [Google Playbook p.7](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 
-[SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology)
+To build a workflow with these [resources](#resources),
+1. Use a generic incident handling checklist from NIST IR.
+2. Fill it in with techinical points from Google playbooks.
+3. Adjust for client.
 
-
+The diagram bellow copied from the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology)
 ```
 # lines begining with `#` are comments.
 SOC-Organizational_Handbook (Roles, Responsibility)
@@ -17,16 +19,16 @@ SOC-Organizational_Handbook (Roles, Responsibility)
       │         └──> send to MSSP-->------------------------------>>[Enter : MSSP SOC framework
       └── SOC-Technical_handbook (SOC desktop / apps )
           │   #-- NOTE: all services below are assumed.
-          ├── SNMP/PRTG      # Since the  reaches out 
-          └── ELK    Each asset has a tech & infra handbook
-          # Assumption: This single SOC team would not have   Each asset feeds into SIEM
-                         Data used to trigger use cases
+          └── ELK/SNMP/PRTG      # Since the  reaches out
 ```
 
 ## EIR_handbook 
 phone#, email@
-Alert plans,
-d/escalation proceedures
+
+## d/escalation proceedures
+
+## Alert plans
+
 
 
 ## phone#, email@,
