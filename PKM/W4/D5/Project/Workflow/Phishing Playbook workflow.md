@@ -76,7 +76,7 @@ Use more than one contact point if needed, ensure timely reponse.
 <!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
 ```
 Ticket Summary
-Phishing attack at <date time>, <UI confirmed, bad ip, possible infection>
+Phishing attack at <date time, UI confirmed, bad ip, possible infection>
 
 Ticket Description
 Phishing plabook currently in PLAY. Current stage 3.1
@@ -94,15 +94,27 @@ Information/data included:
 Continuing with Phishing playbook, stage 3.2
 ```
 3.2 Send a short notice of vigiliance for phishing email to production organization members.
+
+```Made with AI
+Header: Phishing email circulating within our network
+Body: To Box Production Organization Members,
+
+We have recently identified a phishing email circulating within our network. This email may appear legitimate but contains links or attachments designed to compromise our systems. To safeguard our organization's security, please exercise caution:
+
+    - Do not click on suspicious links or download attachments from unknown or unexpected sources.
+    - Verify the sender's email address before responding or taking any action.
+    - Report any suspicious emails to our IT Security team immediately.
+
+If you have any doubts about the legitimacy of an email, please contact IT Support for guidance.
+Thank you for your attention to this matter.
+Best regards,
+
+[Your Name]
+Box SOC Analyst 1
+SOCAnalyst1@box.cat
+Phone 777-6699
+```
 3.3 Alert plan is now in effect, Client, Box, must receive an executive summary.
-
-```
-Email
-Cybersecurity Notice: Case of suspected breach
-
-
-
-```
 
 > [!IMPORTANT]  
 > Stay alert for contact from MSSP on new opened ticket.
