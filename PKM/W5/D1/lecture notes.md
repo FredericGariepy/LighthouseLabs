@@ -26,3 +26,5 @@ NIST RMF[Implement step Q&A](https://csrc.nist.gov/CSRC/media/Projects/risk-mana
 - Mulit cloud scenario (No locked in to one provider)
 - Provided cloud responsibility model  [Azure shared responsibility](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility) [AWS Shared Responsibility Mode](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
+
+https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Flearningimages.lighthouselabs.ca%2FCyber%2BBC%2FCyber%2BBC%2BC5%2FCyber%2BBC%2BC5.1%2FRisk%2BAssessment%2BTemplate%2BTemplate.xlsx&wdOrigin=BROWSELINK
