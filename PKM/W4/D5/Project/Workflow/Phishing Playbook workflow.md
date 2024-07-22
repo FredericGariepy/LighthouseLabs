@@ -7,10 +7,12 @@ To build a workflow with these [resources](#resources),
 The diagram bellow is adjusted from the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology) diagram
 ```
 # lines begining with `#` are comments.
-SOC-Organizational_Handbook (Roles, Responsibility)
+Box 
+└─SOC-constitution 
+   └─SOC-Organizational_Handbook (Roles, Responsibility)
       ├── SOC-EIR_handbook (D/escalation proceedures, Alert plans, Contacts: phone#, email@)
       ├── SOC-Operational_handbook  (one workflow from a phishing playbook) 
-      │   └── SOC Analyst 1 # <-(you are here)
+      │   ── SOC Analyst 1 # <-(you are here)
       │         │ Detected Phishing IoC: No/Yes? 
       │         │ If Yes: Use Phishing Playbook.
       │         └──> Collect information and escalate to MSSP-->------------------------------>>[Enter : MSSP SOC framework
