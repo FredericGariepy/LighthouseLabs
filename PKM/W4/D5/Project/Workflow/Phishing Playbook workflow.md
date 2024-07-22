@@ -96,10 +96,10 @@ Continuing with Phishing playbook, stage 3.2
 3.2 Send a short notice of vigiliance for phishing email to production organization members.
 
 ```Made with AI
-Header: Phishing email circulating within our network
+Header: Suspected phishing email circulating within our network
 Body: To Box Production Organization Members,
 
-We have recently identified a phishing email circulating within our network. This email may appear legitimate but contains links or attachments designed to compromise our systems. To safeguard our organization's security, please exercise caution:
+We have recently identified a suspected phishing email circulating within our network. Phishing emails appear legitimate but contains links or attachments designed to compromise our systems. To safeguard our organization's security, please exercise caution:
 
     - Do not click on suspicious links or download attachments from unknown or unexpected sources.
     - Verify the sender's email address before responding or taking any action.
