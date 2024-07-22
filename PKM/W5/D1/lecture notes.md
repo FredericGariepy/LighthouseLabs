@@ -47,6 +47,7 @@ Like in programing, calling a class instance from within class.
 That spawned control (called class/spawned control), does not expire, in the sense that it exists (script file/process) even if it is not used (called/executed).?
 
 # Yes, True.
+# Controlls can re retired, modified, made obselete through system redundancy, but have no expiration.
 ```
 
 #### Additonal material (added to TODO)
