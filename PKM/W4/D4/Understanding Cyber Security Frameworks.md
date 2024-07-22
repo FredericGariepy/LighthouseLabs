@@ -14,6 +14,7 @@ Some of the common Cyber Security frameworks are listed in table given below:
 
 
 - A Cyber Security framework is selected on the basis of the criteria listed in the table below.
+
 Table 2: Criteria used for selecting a Cyber Security Framework
 | Criterion      | Meaning                                                               |
 |----------------|-----------------------------------------------------------------------|
