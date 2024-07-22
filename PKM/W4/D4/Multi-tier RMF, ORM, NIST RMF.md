@@ -33,8 +33,8 @@ Examples of tactical risks are:
 ```
     Strategic risk          risks: Policy, fines, reputation, market relevance, compliance # Risk to both enterprise and business
           /\
-         /  \               whats the `width` of the triangle for? 
-        /     \             is it the number/count of risk/mitigratios by level?
+         /  \               
+        /     \             width of triangle likely the volume of risks
       Enterprise            
      / (Policy)  \          The term `mitigation` changes at each level 
     /             \         between the strategy - tactical poles.
