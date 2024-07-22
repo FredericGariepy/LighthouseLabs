@@ -46,7 +46,13 @@ Like in programing, calling a class instance from within class.
 
 That spawned control (called class/spawned control), does not expire, in the sense that it exists (script file/process) even if it is not used (called/executed).?
 
-[Cloud control matrix (download)](https://cloudsecurityalliance.org/research/cloud-controls-matrix)
-["NIST" for cloud](https://cloudsecurityalliance.org/education/ccsk)
+- [Cloud control matrix (download)](https://cloudsecurityalliance.org/research/cloud-controls-matrix)
+
+- ["NIST" for cloud](https://cloudsecurityalliance.org/education/ccsk)
 
 https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Flearningimages.lighthouselabs.ca%2FCyber%2BBC%2FCyber%2BBC%2BC5%2FCyber%2BBC%2BC5.1%2FRisk%2BAssessment%2BTemplate%2BTemplate.xlsx&wdOrigin=BROWSELINK
+
+
+Central bank digital currency (CBDC) is the digital form of a country's fiat currency, which is regulated by its central bank.
+
+[event: talk about the rapidly evolving AI ecosystem, Ethernet vs. InfiniBand, and creating sustainable AI data centers.](https://www.juniper.net/us/en/events/ai-native-now/seize-the-ai-moment.html?utm_medium=influencer&utm_source=networkchuck&utm_campaign=GLBL_DC_24Q3_VSM_AIDCVirtualLaunchEvent)
