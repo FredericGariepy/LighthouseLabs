@@ -40,7 +40,7 @@ On case of suspected breach,
     Third-Party provider must a receive full report, with actionable items included.
 
 ## SOC-Operational_handbook
-## #Phishing Playbook
+## Phishing Playbook
 Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
 Automatic Global Log-Out:Force log out of the compromised email account and potentially other associated accounts across different services.
 Change of Permissions: owngrade permissions or restrict access to sensitive information and resources associated with the compromised email accoun
@@ -129,10 +129,7 @@ following the bad IPs. Record and or report the following:
 - [ ] unusual behaviour
 
 6. Response from MSSP
-Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner.
-
-
-
+Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner. \
 MSSP will guide organization and SOC Analyst 1 (YOU) through the next two playbook stages:
 - Containment, Eradication, and Recovery
 - Post-Incident Activity
