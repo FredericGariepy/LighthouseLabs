@@ -1,6 +1,6 @@
 ## Understanding Cyber Security Frameworks
 
-
+Some of the common Cyber Security frameworks are listed in table given below:
 | Framework                                   | Source                              | Notes                                      |
 |---------------------------------------------|-------------------------------------|--------------------------------------------|
 | ISO 270XX                                     | International Standards Organization | A framework of best practices for information security management |
