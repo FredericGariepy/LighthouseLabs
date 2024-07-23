@@ -1,0 +1,247 @@
+frederic gariepy
+ — 
+Today at 1:46 PM
+Hi @Shimon242 !
+I find the content on W4 D4 very heavy, and I'd like to make sure I'm "digesting" it correctly, as it seems foundational to near future material (stuff in coming weeks.)
+I was hoping that a mentor could look at the activity presentation, from there use it as a springboard for questions related to:
+GRC (Risk Assessment 3 step-> Risk Management 3 step)
+    Multi-Tiered Risk Management Strategy (3 levels)
+    ORM (3 levels, 4 principles,  5 steps)
+    NIST RMF (prep + 6 stages)
+    Incident Response (6 stages)
+    NIST Incident Response life cycle
+    Incredible amount of readings...
+Maybe delivering me a narrative of how those pieces fit together,  to give me confidence that im learning it right.. It's a lot of material in little time.
+Shimon242
+ — 
+Today at 1:53 PM
+not sure what you mean by activity presentation, can you send me the link?
+frederic gariepy
+ — 
+Today at 1:53 PM
+sure
+https://web.compass.lighthouselabs.ca/p/cyber/days/w04d4/activities/2981
+InfoSec Risk Assessment Checklist
+By Lighthouse Labs
+"Part 2: Create a presentation giving an overview of the following:"
+Shimon242
+ — 
+Today at 1:57 PM
+Okay I follow and what parts do you need clarity on?
+frederic gariepy
+ — 
+Today at 1:58 PM
+I'd like clarify the interplay between GRC, ORM, NIST RMF
+I think I would benefit from a verbal/written 'narrative',  'storyline' , 'How to guide',  on using all the concepts.
+there seems to be so much overlap, and its rather overwhelming for me
+frederic gariepy
+ — 
+Today at 2:05 PM
+I hope this makes sense.
+These two compass pages:
+
+    https://web.compass.lighthouselabs.ca/p/cyber/days/w04d4/activities/2979
+    https://web.compass.lighthouselabs.ca/p/cyber/days/w04d4/activities/2980
+
+
+leading up to the activity 
+Intro to Cyber Security Risk Assessment
+By Lighthouse Labs
+NIST Risk Management Framework
+By Lighthouse Labs
+Shimon242
+ — 
+Today at 2:06 PM
+Yea it does, this is the best way I can think of it
+ORM is operational risk management = This is essential the field of risk management with in a company. This would be managing the inherent risks associated with doing your business
+GRC is governance risk and compliance = Which is related to risk but also includes planning out how risk should be managed and making sure that people are compliant with those external and internal standards. An example of a compliance requirement would be PCI DSS, which affects any company that accepts credit card payments
+NIST RMF is a risk management framework = This means that is is a framework developed by NIST to help organizations deal with risk inside their organizations. So the framework would mention different controls and other strategies that can be used to deal with risk
+frederic gariepy
+ — 
+Today at 2:10 PM
+Okay this is very helpful.
+
+I have a few more questions that I will type out related to those 3 (ORM, GRC, RMF).
+Q1. 
+ORM is not an IT specific framework ? 
+
+Q2.
+ORM has 5 steps:
+
+...-> Identify risk -> Assess risk -> Mitigation/Decision -> Implement controls -> Take corrective action/Monitor -> ...
+
+
+Are those steps related to the steps found in incident response (IR)?
+So IR is an implementation of ORM?
+
+This 'flavor' of steps are also echoed all over the readings, where do they stem from/originate? do they just come from ORM? 
+Shimon242
+ — 
+Today at 2:17 PM
+ORM is not a specific framework
+and no they are not realted to incident response they are related to risk management, this steps would be taken whenever a new risk is identified in the environment
+frederic gariepy
+ — 
+Today at 2:20 PM
+Q3 
+In the reading there is this picture of a triangle
+"Multi-Tiered Risk Management Strategy"
+Image
+Is there a reason for this shape, does width of each level have some meaning ?
+Shimon242
+ — 
+Today at 2:22 PM
+it just shows the relation between strategic risk (towards the top) vs tactical risk (towards the bottom) the more you move up the more strategic the risk is
+frederic gariepy
+ — 
+Today at 2:23 PM
+Is the shape supposed to represent number of risk per level?
+i.e. there exists more (greater volume of) tactical risk than strategic ones (larger width). 
+attack surface?
+Shimon242
+ — 
+Today at 2:25 PM
+I'm not sure if that was there intention when they designed it but I think it is an overall truth, eg there's way more information systems than policies in an organization
+typically
+Shimon242
+ — 
+Today at 2:33 PM
+does that all make sense?>
+?*
+frederic gariepy
+ — 
+Today at 2:34 PM
+Thank you for answering questions, I am making sure to add all of them to my notes
+
+Q4.
+In GRC, there is an order of operation (?):
+
+    Risk Assessment (vulnerability assessment)
+    Risk Management (2 parts):
+        Risk Mitigation
+        Risk Reporting and Monitoring
+
+
+? Risk Governance  (is that a step?) 
+Could you clarify GRC steps. my readings made me believe there were steps. 
+Sorry to ask, but depending on where I look for information I get different answers, I'd like my learning to be in-line with what's provided at LHL.
+Shimon242
+ — 
+Today at 2:49 PM
+not in GRC, I don't believe so
+
+Risk Governance isn't a set step in risk management it's a business function
+frederic gariepy
+ — 
+Today at 2:57 PM
+Q5.
+Are GRC steps (risk assesment, management(mitigation, report & monitoring)) part of RMF ? 
+
+The steps in GRC seem very much to be  compatible/outlined by/subset   of RMF.
+again, thank you for answering my questions. though they may seem trivial, learning their answer helps me check if I am on the right track/or not
+Shimon242
+ — 
+Today at 3:01 PM
+It is not a direct part, but the risk management framework will likely include GRC concepts and have a lot of overlap
+frederic gariepy
+ — 
+Today at 3:04 PM
+I see, 
+so, its not correct to say that:
+
+    GRC risk assessment = RMF categorize step
+    GRC risk mitigation = RMF Select, Implement step
+
+...
+Shimon242
+ — 
+Today at 3:05 PM
+no, there may be some overlap but it's not an exact 1 to 1 situation
+was that all?
+frederic gariepy
+ — 
+Today at 3:11 PM
+Sorry, I was fetching a picture from the Compass material and wanted as a question relating it today's Lecture content, but lecture slides are not uploaded yet.
+This is likely my last question of this AR session, its about this GRC picture
+Image
+Found in the readings. https://web.compass.lighthouselabs.ca/p/cyber/days/w04d4/activities/2979
+Intro to Cyber Security Risk Assessment
+By Lighthouse Labs
+Again, I might be looking too much into visuals, but I do assume they were made with intentions.
+I see that in the diagram about GRC, each component bisect, but none of them trisect.
+So I was curious, what would the intersections have as labels.
+for example:
+frederic gariepy
+ — 
+Today at 3:17 PM
+GRC intersection  = Level in Mutli-tier risk management
+
+Risk - Compliance  =  Information systems
+Compliance - Governance  =  Enterprise
+Governance - Risk  =  Business Areas 
+Do these two diagrams Map onto each other in such fashion?
+Shimon242
+ — 
+Today at 3:19 PM
+No I don't believe so, this is simply meant to show that none of these areas are completely isolated. Their goals have some components that overlap with the others and some that are unique to that area
+frederic gariepy
+ — 
+Today at 3:24 PM
+Is this triangle ("Multi-Tiered Risk Management Strategy") a stand-alone concept, or am I supposed to integrate into GRC, RMF, ORM?
+
+Like where does it fit ?
+Shimon242
+ — 
+Today at 3:26 PM
+You would use that when explaining different types of risk and perhaps your organization's attack surfance. You don't need to integrate with any of those three concepts but if you want to you could use it when explaining risk in the GRC
+Shimon242
+ — 
+Today at 3:34 PM
+does that answer all your questions?
+frederic gariepy
+ — 
+Today at 3:36 PM
+"triangle":
+
+Strategic risk
+Enterprise (policy)
+Business (processes)
+Info Sys.
+Tactical risk
+
+So, I'd use the above as a like a risk dictionary for communication/conceptualization? 
+
+e.g. 
+
+    Governance risks are Strategic risks for the Enterprise and should be mitigated with policy.
+    Compliance risks are both Strategic and Tactical risk for Business and should be migrated with processes
+    IT risks are Tactical risks for Information Systems and should be mitigated with technology.
+
+
+Is that you meant?
+Shimon242
+ — 
+Today at 3:39 PM
+No as in information systems represent the potential to introduce tactical risk to an operation whereas policies represent a potential strategic risk. As policy documents are considered strategic whereas policies and information systems are tactical or operational tools in the company
+although please note this level of detail in distinguishing risk management practices is not needed for the rest of the course
+frederic gariepy
+ — 
+Today at 3:41 PM
+I really appreciate this "potential to introduce"
+Shimon242
+ — 
+Today at 3:43 PM
+lol np
+frederic gariepy
+ — 
+Today at 3:46 PM
+Okay thanks for the clarifications.
+link mentorQ&A notes
+wish you a nice day!
+RudderbotAPP
+ — 
+Today at 3:47 PM
+This assistance has been finished.
+This assistance for @frederic gariepy has been solved. Here is the solution provided:
+
+    Provided clarity on risk management concepts and diagrams
