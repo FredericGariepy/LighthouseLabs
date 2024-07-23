@@ -19,11 +19,11 @@ The second, Operational handbook, contains a workflow from a phishing playbook.
 
 The Operational handbook follows phishing playbook procedures, to the extent afforded by the SOC, \
 meaning, up until MSSP response. \
-Communications templates and directives are found as required along the playbook workflow. \
+Communications templates and directives are found as required along the playbook workflow.
 
 To best enjoy this case, imagine that you are a fresh SOC analyst 1. \
-
-
+Find your location in the organizational chart, look at your EIR handbook, \
+follow the proceedures in the phishing playbook.
 
 
 ## SOC organizational chart
