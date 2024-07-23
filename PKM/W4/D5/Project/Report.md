@@ -104,7 +104,7 @@ Follow directives and use the check boxes:
 Do you have immediate and authorized access to email server? If Yes, collect:
 - [ ] Source and Destination IP/port of reported email.
 
-1.2 Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails) (Government of Canada, n.d.).
+1.2 Quickly analyze the email for indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails) (Government of Canada, n.d.).
 
 If one box is checked move immediately forward to step 1.3
 On the email, look for:
