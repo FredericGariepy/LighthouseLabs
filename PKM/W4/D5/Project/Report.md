@@ -126,6 +126,8 @@ Continue to 3.1
 > 
 > Analyst level 1 __does not confirm the incident__.
 
+Use this ticket template, fill-in and attack required information.
+- [ ] Send completed ticket to MSSP
 <!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
 ```
 Ticket Summary
