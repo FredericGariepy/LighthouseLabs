@@ -34,7 +34,9 @@ SOA = document on proof of work for RMF.
 - Control effectiveness
 - Control Enhancement & Monitoring
 
-- 
+Be aware of laws specific to geography 
+
+
 
 
 
