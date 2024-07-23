@@ -85,16 +85,19 @@ Mark ‘true positive’ if bad IP and escalate the collected information.
 - [ ] True postivie
 
 3. Notify MSSP
-Depending on MSSP conduct of communications, use available contacts/channels found in [EIR Handbook](#eir_handbook).
 
-Use more than one contact point if needed, ensure timely reponse.
+Depending on MSSP conduct of communications, use appropriate and available contacts/channels found in [EIR Handbook](#eir_handbook).
+- [ ] Chose MSSP contact
+- [ ] Chose a communication channel
+###### Note: Use more than one contact point if needed, ensure timely reponse.
+Continue to 3.1
 
-3.1. As an "[intake analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md)" open a ticket (with MSSP contact found in EIR handbook) for a suspected Phishing attack, forward collected informaiton to MSSP.
+3.1 As an [intake analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket (with MSSP contact, communication channel) for a suspected Phishing attack, forward collected informaton to MSSP.
 
 > [!NOTE]
-> Item is currently a suspected breach.
+> Item is currently a __suspected breach__.
 > 
-> Analyst level 1 __does not__ confirm the incident.
+> Analyst level 1 __does not confirm the incident__.
 
 <!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
 ```
