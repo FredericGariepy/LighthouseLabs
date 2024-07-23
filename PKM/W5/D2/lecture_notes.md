@@ -27,12 +27,14 @@ Iterative Testing
 NIST 800 
 
 SOA = document on proof of work for RMF.
-Scope context
-Security controll selection
-Control Rationale 
-Control Implementation
-Control effectiveness
-Control Enhancement & Monitoring
+- Scope context
+- Security controll selection
+- Control Rationale 
+- Control Implementation
+- Control effectiveness
+- Control Enhancement & Monitoring
+
+- 
 
 
 
