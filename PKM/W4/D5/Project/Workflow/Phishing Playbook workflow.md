@@ -191,11 +191,14 @@ Mark 'Incident confirmed', write date time, write named attack.
 
 Continue to 6.1.
 
-6.1 MSSP estabilishes the containment phase.
+6.1 MSSP communicates directives and guidelines. 
+> [!IMPORTANT]
+> MSSP is now leading.
+> Follow MSSP directives and guidelines.
 
-Follow MSSP directives and guidelines. 
+Continue to 6.1, with priority to 6.
 
-On breach, EIR handbook Alert plan is now in effect.
+6.1 On breach, EIR handbook Alert plan is now in effect.
 
 Client, Box, must receive an executive summary.
 
