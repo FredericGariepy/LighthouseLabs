@@ -299,7 +299,8 @@ Continue to 6.1.
 - [ ] Effects of MSSP directives on operations.
 - [ ] Brief on the current stage of incident response.
 
-6.3 On breach, [EIR handbook Alert plan](#alert-plans) is now in effect. \
+6.3 On breach, [EIR handbook Alert plan](#alert-plans) is now in effect.
+
 Use the Following message templates and send them to the indicated recepient(s).
 
 Confirmed incident executive summary template, below.
@@ -325,7 +326,8 @@ Box SOC Analyst 1
 SOCAnalyst1@box.cat
 Phone 777-6699
 ```
-6.4 Notify operations in case of production impact. \
+6.4 Notify operations in case of production impact.
+
 Does the incident pose a potential impact on production? \
 Mark 'Production impact' if Yes.
 - [ ] Production impact
@@ -334,9 +336,15 @@ Mark 'Production impact' if Yes.
  - [ ] Changes to operations ______
  - [ ] Estimate duration of operation changes ______
 
+Operation Impacts template, below.
+- [ ] Find Production manager in EIR Handbook.
+- [ ] Send completed Operation Impacts to Box Production manager.
+```Operation Impacts
+Header: Notice: Confirmed case of cybersecurity breach. Operational impacts.
+Body: To Box Production manager,
 
-Box Production Manager.
-```
+An <Incident name> was confirmed to take place in the organization.
+
 Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
 ```
 
