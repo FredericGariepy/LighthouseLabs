@@ -5,7 +5,7 @@ Date: 07/23/2024
 - [SOC organizational chart](#soc-organizational-chart)
 - [SOC EIR handbook](#eir-handbook)
 - [SOC operational handbook](#soc-operational-handbook)
-- [Conclusion](#conclusion)
+<!--- [Conclusion](#conclusion)-->
 - [References](#references)
 
 ## About this case
