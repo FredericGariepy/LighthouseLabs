@@ -21,13 +21,11 @@ One handbook is the EIR handbook which contains: alert plans, contacts, and d/es
 The second, Operational handbook, contains a workflow from a phishing playbook.
 
 In the Operational handbook, you can follow phishing playbook procedures, to the extent afforded by the SOC, \
-meaning, up until MSSP response. \
+meaning, up until MSSP response. 
 
 For communication, templates and directives are found as required along the workflow.
 
-The playbook was build with a generic incident handling checklist from NIST IR (NIST, n.d.), \
-populated with procedures from Google cloud's phishing playbook (Google Cloud, n.d.), \
-and adjusted for the client (Box).
+The playbook was build with a generic incident handling checklist from NIST IR (NIST, n.d.), populated with procedures from Google cloud's phishing playbook (Google Cloud, n.d.), and adjusted for the client (Box).
 
 To best enjoy this case, imagine that you are an analyst in an 'old-school' SOC. \
 Find your location in the organizational chart, look at your EIR handbook, \
