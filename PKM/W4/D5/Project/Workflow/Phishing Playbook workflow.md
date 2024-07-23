@@ -246,18 +246,20 @@ Continue to 6.1.
 
 6.2 Gather information for report on relevant MSSP directives and guidelines.
 - [ ] Severity of incident
-- [ ] 
+- [ ] Impact of incident
+- [ ] Relevance of incident on operations (effects, durration) 
+- [ ] Effects of MSSP directives on operations.
+- [ ] Brief on the current stage of incident response.
 
 
 6.3 On breach, [EIR handbook Alert plan](#alert-plans) is now in effect.
 
 Use the Following message templates and send them to the indicated recepient(s).
 
-Send Executive summary to Box CEO, Box Production Manager.
-- [ ]
-```
+- [ ] Send Executive summary to Box CEO
+```Executive summary
 Header: Notice: Confirmed case of cybersecurity breach. Phishing attack.
-Body: To Box CEO, Day-time Production Manager,
+Body: To Box CEO,
 
 <Incident name> was confirmed to take place at <date time>.
 
@@ -274,6 +276,7 @@ Further confirmations or descalations to come.
 
 
 ```
+Box Production Manager.
 ```
 Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
 ```
