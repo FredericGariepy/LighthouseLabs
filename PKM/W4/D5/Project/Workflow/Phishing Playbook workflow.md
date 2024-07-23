@@ -1,13 +1,16 @@
 
-To build a workflow with these [resources](#resources), the idea is;
+This workflow was built with [NIST IR and Google playbooks](#resources), the idea is;
 1. Use a generic incident handling checklist from NIST IR.
 2. Fill it in with techinical points from Google playbooks.
 3. Adjust for client.
 
 The diagram bellow is adjusted from the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology) diagram
+
+EIR handbook 
+SOC Operational handbook
+
 ```
-# lines begining with `#` are comments.
-Box 
+Box                                                            # lines begining with `#` are comments.
 └─SOC-constitution 
    └─SOC-Organizational_Handbook (Roles, Responsibility)
       ├── SOC-EIR_handbook (D/escalation proceedures, Alert plans, Contacts: phone#, email@)
@@ -15,7 +18,7 @@ Box
       │   └── SOC Analyst 1 # <-(you are here)
       │         │ Detected Phishing IoC: No/Yes? 
       │         │ If Yes: Use Phishing Playbook.
-      │         └──> Collect information and escalate to MSSP-->------------------------------>>[Enter : MSSP SOC framework
+      │         └──> Collect information and escalate to MSSP-->--------->>[Enter : MSSP SOC framework
       └── SOC-Technical_handbook (SOC desktop/apps)
           │   #-- NOTE: likely
           ├── Linux syslogs, Windows Event logs
