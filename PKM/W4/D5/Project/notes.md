@@ -3,7 +3,7 @@
 - [Project deliverables](#deliverables)
 
 ##### Diargam/Charts:
-- [Case: Group and roles Diagrams](#case-groups-and-roles)
+- [Case: Group and roles Diagrams](#case-groups-and-roles) <-- two organizations
 - [Generic: SOC Methodology Diagram:](#soc-methodology-diagram)
 ##### Resources:
 - Google Cloud:  [Top Security Playbooks 2022-2023. Google Cloud](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
