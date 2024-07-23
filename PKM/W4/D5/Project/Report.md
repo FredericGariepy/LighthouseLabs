@@ -1,10 +1,10 @@
 # Playbook for Cat & Box Scenario 
 Date: 07/23/2024
 ## Contents
-- About this case
-- SOC organizational chart
-- SOC EIR handbook
-- SOC operational handbook
+- [About this case](#about-this-case)
+- [SOC organizational chart](#soc-organizational-chart)
+- [SOC EIR handbook](#eir-handbook)
+- [SOC operational handbook](#soc-operational-handbook)
 
 ## About this case
 The case has [two organizations](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/notes.md#case-groups-and-roles), Box and a third-party MSSP.
