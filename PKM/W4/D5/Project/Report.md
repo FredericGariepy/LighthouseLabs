@@ -49,7 +49,7 @@ Box                                                            # lines begining 
           └── ELK/SNMP/PRTG # assumed
 ```
 
-## EIR handbook 
+## SOC EIR handbook 
 #### D/escalation proceedures
 Follow Alert plans and playbook processes.
 #### Alert plans
