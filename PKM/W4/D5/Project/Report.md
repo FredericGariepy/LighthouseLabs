@@ -432,11 +432,10 @@ Therefore, the single analyst SOC was most reliant on communication.
 Further, a vast majority of the phishing playbook process could have been automated (Google Security Operations, 2019). \
 SOAR tools make it developer friendly to import/export playbooks and automate specific incident response workflows.
 
-To close, here are three automations for a phishing playbook:
-Global Log-Out; Force log out of the compromised email account and potentially other associated accounts across different services.
-Change of Permissions: downgrade permissions or restrict access to sensitive information and resources associated with the compromised email account.
-Check Mail for Internal Propagation: Automatically block insider phishing attacks or campaigns spreading from inside the organization.
-
+To close, here are three automations for a phishing playbook (besides SOPs, such as blocking IP):
+1. Global Log-Out; Force log out of the compromised email account and potentially other associated accounts across different services.
+2. Change of Permissions: downgrade permissions or restrict access to sensitive information and resources associated with the compromised email account.
+3. Check Mail for Internal Propagation: Automatically block insider phishing attacks or campaigns spreading from inside the organization.
 
 ## References
 Google Cloud. (n.d.). Top Security Playbooks 2022-2023. Retrieved July 23, 2024, from [https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
