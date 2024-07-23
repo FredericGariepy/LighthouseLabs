@@ -215,7 +215,7 @@ Collect:
 - [ ] Emails with same source address, IP.
 - [ ] Contain same bad URL IPs.
 - [ ] Same content (heading, body).
-
+When collection is complete.
 - [ ] Attach collection to ticket.
 
 4.3 For each attack emails, check for victim replies or/and information leakage.
@@ -223,29 +223,36 @@ Collect:
 If victim leaked sensitive information/secrets/access, check 'Information leakage'
 - [ ] Information leakage
 
+If 'Information leakage' is checked,
+- [ ] Collect leaked information.
 - [ ] Immediately forward leak to ticket, raise urgency/priority of ticket by leak severity.
 
-4.4 For each attack emails, gather:
+4.4 Check for phishing campaign \
+For each attack emails, gather:
 - [ ] Source email, IP, Port
-- [ ] Source email IP reputation
 - [ ] Destination email, IP, Port
 - [ ] IP Resolved URLs / Embeded URLs 
-- [ ] Resolved URLs IP reputation
 - [ ] email content (Headers, Body)
 
+For all IPs gathered, check reputation.
+- [ ] Resolved URLs IP reputation
+- [ ] Source email IP reputation
+
+Collect phishing campaign analysis and forward it.
 - [ ] Forward the information collection to the ticket.
 
 
 #### 5. If possible, Analyze URLs in sandboxed environment by
-following the bad IPs. Record and or report the following:
+following the bad IPs. Record for the following:
 - [ ] unusual processes
 - [ ] unusual performance
 - [ ] unusual behaviour
-
+- [ ] Collect findings and create report.
 - [ ] Forward report to the ticket.
 
 ### 6. Response from MSSP
-Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner.
+Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner. \
+The MSSP responce on the incident will eventually be one of two outcomes, a or b.
 
 a) MSSP declares that no incident is in place.
 - [ ] Follow MSSP descalations directives and guidelines.
