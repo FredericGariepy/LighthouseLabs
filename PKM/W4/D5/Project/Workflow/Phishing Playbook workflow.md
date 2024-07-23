@@ -40,8 +40,7 @@ Follow Alert plans and playbook processes.
 On use of __playbook__:
 Third-Party MSSP must a receive full report, with actionable items included.
 
-#### contacts: 
-- [phone#, email@](#case_contacts)
+#### contacts: [phone#, email@](#case_contacts)
 
 ## SOC Operational handbook
 ### Phishing Playbook
