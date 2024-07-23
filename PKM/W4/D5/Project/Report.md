@@ -79,7 +79,7 @@ Follow directives and use the check boxes:
 #### 1. Detection and Analysis
 1.0 From Human or/and System detection sources, determine whether an incident has occurred.
 
-1.1. Gather the reported email. Collect and attach email information.
+1.1. Gather the reported email. Collect email information:
 - [ ] Date and time of received email
 - [ ] recepient, sender email adresses
 - [ ] content (code as text)
