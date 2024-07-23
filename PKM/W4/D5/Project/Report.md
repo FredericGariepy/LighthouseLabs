@@ -9,7 +9,7 @@ Date: 07/23/2024
 ## About this case
 The case has [two organizations](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/notes.md#case-groups-and-roles), Box and a third-party MSSP.
 
-You, working at Box, are the sole security operations center (SOC) analyst 1. \
+You, working at Box, are the sole security operations center (SOC) analyst. \
 The SOC you operate has _limited resources and capabilities_. \
 So, your senior management has contracted an MSSP for all risks needing escalation.
 
@@ -17,17 +17,14 @@ This case presents an SOC organizational chart. In it, two handbooks will used b
 One handbook is the EIR handbook which contains: alert plans, contacts, and d/escalation proceedures. \
 The second, Operational handbook, contains a workflow from a phishing playbook.
 
-The Operational handbook follows a phishing playbook proedures to the extent afforded by the SOC, \
-meaning, up until MSSP response. 
+The Operational handbook follows phishing playbook procedures, to the extent afforded by the SOC, \
+meaning, up until MSSP response. \
+Communications templates and directives are found as required along the playbook workflow. \
 
-Communications and phishing pla
-
-
-
+To best enjoy this case, imagine that you are a fresh SOC analyst 1. \
 
 
-- __EIR handbook__ (D/escalation proceedures, Alert plans, Contacts: phone#, email@)
-- __SOC Operational handbook__ (playbook)
+
 
 ## SOC organizational chart
 This SOC organizational chart at the Box company, is based on the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology) by [Andreas Wagner](https://secureglobal.de/the-soc-methodology)
