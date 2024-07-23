@@ -21,19 +21,16 @@ In the Operational handbook, you can follow phishing playbook procedures, to the
 meaning, up until MSSP response. \
 Communication templates and directives are found as required along the playbook workflow.
 
-The playbook was build with a generic NIST incident response checklist (NIST, n.d.), \
+The playbook was build with a generic incident handling checklist from NIST IR (NIST, n.d.), \
 populated with procedures from Google cloud's phishing playbook (Google Cloud, n.d.), \
-and 
-(NIST, n.d.)
-(Wagner, n.d.)
+and adjusted for the client (Box).
 
 To best enjoy this case, imagine that you are a fresh SOC analyst 1. \
 Find your location in the organizational chart, look at your EIR handbook, \
 follow the proceedures in the phishing playbook.
 
-
 ## SOC organizational chart
-This SOC organizational chart at the Box company, is based on the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology) by [Andreas Wagner](https://secureglobal.de/the-soc-methodology)
+This SOC organizational chart at the Box company, is based on the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology) by [Andreas Wagner](https://secureglobal.de/the-soc-methodology)(Wagner, n.d.).
 ```
 Box                                                            # lines begining with `#` are comments.
 └─SOC-constitution 
