@@ -21,6 +21,12 @@ In the Operational handbook, you can follow phishing playbook procedures, to the
 meaning, up until MSSP response. \
 Communication templates and directives are found as required along the playbook workflow.
 
+The playbook was build with a generic NIST incident response checklist (NIST, n.d.), \
+populated with procedures from Google cloud's phishing playbook (Google Cloud, n.d.), \
+and 
+(NIST, n.d.)
+(Wagner, n.d.)
+
 To best enjoy this case, imagine that you are a fresh SOC analyst 1. \
 Find your location in the organizational chart, look at your EIR handbook, \
 follow the proceedures in the phishing playbook.
@@ -412,19 +418,16 @@ If 'Post-Incident Activity' is checked,
 
 ---
 ## References
-
-
-(Google Cloud, n.d.)
-(NIST, n.d.)
-
 Google Cloud. (n.d.). Top Security Playbooks 2022-2023. Retrieved July 23, 2024, from [https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
-
 
 National Institute of Standards and Technology (NIST). (n.d.). Computer Security Incident Handling Guide (NIST Special Publication 800-61 Revision 2). Retrieved July 23, 2024, from [https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
 
+Wagner, A. (n.d.). The SOC Methodology. Retrieved July 23, 2024, from [https://secureglobal.de/the-soc-methodology](https://secureglobal.de/the-soc-methodology)
 
+<!--
 #### potential stuff a SOAR could do/ MSSP resonpse actions 
 Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
 Automatic Global Log-Out:Force log out of the compromised email account and potentially other associated accounts across different services.
 Change of Permissions: owngrade permissions or restrict access to sensitive information and resources associated with the compromised email accoun
 Change of Authentication Credentials multi-factor authentication (MFA)
+-->
