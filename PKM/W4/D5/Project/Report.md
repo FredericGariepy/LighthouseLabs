@@ -421,7 +421,7 @@ Follow the MSSP directives and guidance.
 
 If 'Post-Incident Activity' is checked,
 - [ ] Close the phishing playbook.
-
+- [ ] Report learnings in opperational handbook
 ## Conclusion 
 On encoutering an incident, the SOC was at mercy without an MSSP. \
 Lacking in senior leadership, tools, fictional lack of funds. \
