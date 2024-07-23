@@ -32,6 +32,7 @@ follow the proceedures in the phishing playbook.
 
 ## SOC organizational chart
 This SOC organizational chart at the Box company, is based on the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology) by [Andreas Wagner](https://secureglobal.de/the-soc-methodology)(Wagner, n.d.).
+###### Find your location in the organizational chart
 ```
 Box                                                            # lines begining with `#` are comments.
 └─SOC-constitution 
