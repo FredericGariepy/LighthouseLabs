@@ -49,9 +49,10 @@ This is a manual process playbook.
 
 Follow directives and use the check boxes:
 - [ ] unchecked
-- [x] checked 
-#### Stage: Detection and Analysis
-1. From Human or/and System detection sources, determine whether an incident has occurred.
+- [x] checked
+
+1. Detection and Analysis
+1.0 From Human or/and System detection sources, determine whether an incident has occurred.
 
 1.1. Gather the reported email. Collect and attach email information.
 - [ ] Date and time of received email
@@ -143,7 +144,9 @@ Phone 777-6699
 > On reply/alert/contact by MSSP, mark down current working stage, go to **step 6**.
 
 4. Gather further infomation & check for phishing campaign with access to webserver.
+
 4.0 Check step 1.1 at 'reported email SRC and DST IP/port', if unchecked, gather it now, and attach to ticket.
+
 4.1 Query the email server, find other correlated emails with the reported email. Contact IT role if needed.
 - [ ] Emails with same source address, IP.
 - [ ] Contain same bad URL IPs.
