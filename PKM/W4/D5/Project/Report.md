@@ -56,16 +56,16 @@ Follow Alert plans and playbook processes.
 Send message to recepient if conditions are met.
 
 1. On case of _suspected_ breach: 
-- Box Day-time Production Manager:
+    - Box Day-time Production Manager:
     1. Send an executive summary.
     2. Send information highlighting major security breach events, and listed potential impacts on company operations.
 
 2. On case _escalated_ or _urgent_ item:
-- Box CEO
+    - Box CEO
     1. receives executive summary.
 
 3. On case of _48H+ unresolved_ breach:
-- Box CEO
+    - Box CEO
     1. receive executive summary.
 
 On use of __playbook__:
