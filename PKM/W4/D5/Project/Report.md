@@ -411,9 +411,16 @@ If 'Post-Incident Activity' is checked,
 - [ ] Close the phishing playbook.
 
 ---
-#### Resources
-- [NIST IR Playbook p.42](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
-- [Google Playbook p.7](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
+## References
+
+
+(Google Cloud, n.d.)
+(NIST, n.d.)
+
+Google Cloud. (n.d.). Top Security Playbooks 2022-2023. Retrieved July 23, 2024, from [https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
+
+
+National Institute of Standards and Technology (NIST). (n.d.). Computer Security Incident Handling Guide (NIST Special Publication 800-61 Revision 2). Retrieved July 23, 2024, from [https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
 
 
 #### potential stuff a SOAR could do/ MSSP resonpse actions 
