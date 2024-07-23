@@ -288,6 +288,7 @@ If MSSP confirms incident, mark 'Incident confirmed'.
 
 Write date time.
 - [ ] Incident confirmed on _____
+
 Write named attack.
 - [ ] Incident name _____
 
