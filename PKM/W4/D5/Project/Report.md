@@ -434,7 +434,7 @@ Change of Permissions: downgrade permissions or restrict access to sensitive inf
 Check Mail for Internal Propagation: Automatically block insider phishing attacks or campaigns spreading from inside the organization.
 
 For the SOC in this case, timely communication with the right type of information can allow for the MSSP to use its knowledge and technology in order to mitigate client risk.
----
+
 ## References
 Google Cloud. (n.d.). Top Security Playbooks 2022-2023. Retrieved July 23, 2024, from [https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 
