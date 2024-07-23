@@ -17,7 +17,7 @@ This case presents an SOC organizational chart.  In it, two handbooks will be us
 One handbook is the EIR handbook which contains: alert plans, contacts, and d/escalation proceedures. \
 The second, Operational handbook, contains a workflow from a phishing playbook.
 
-The Operational handbook follows phishing playbook procedures, to the extent afforded by the SOC, \
+In the Operational handbook, you can follow phishing playbook procedures, to the extent afforded by the SOC, \
 meaning, up until MSSP response. \
 Communications templates and directives are found as required along the playbook workflow.
 
