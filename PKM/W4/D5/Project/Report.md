@@ -16,7 +16,7 @@ EIR handbook
 SOC Operational handbook
 
 ## SOC organizational chart
-This chart is the SOC at the Box company, it is based on the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology)
+This SOC organizational chart at the Box company, is based on the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology) by [Andreas Wagner](https://secureglobal.de/the-soc-methodology)
 ```
 Box                                                            # lines begining with `#` are comments.
 └─SOC-constitution 
@@ -24,13 +24,13 @@ Box                                                            # lines begining 
       ├── SOC-EIR_handbook (D/escalation proceedures, Alert plans, Contacts: phone#, email@)
       ├── SOC-Operational_handbook  (one workflow from a phishing playbook) 
       │   └── SOC Analyst 1 # <-(you are here)
-      │         │ Detected Phishing IoC: No/Yes? 
+      │         │ Suspect Phishing IoC: No/Yes? 
       │         │ If Yes: Use Phishing Playbook.
       │         └──> Collect information and escalate to MSSP-->--------->>[Enter : MSSP SOC framework
       └── SOC-Technical_handbook (SOC desktop/apps)
-          │   #-- NOTE: likely
-          ├── Linux syslogs, Windows Event logs
-          └── ELK/SNMP/PRTG     # No SIEM, No SOAR, No action-integrated monitoring.
+          │   # No SIEM, SOAR. Hence reliance on MSSP.
+          ├── Linux syslogs, Windows Event logs # assumed
+          └── ELK/SNMP/PRTG # assumed
 ```
 
 ## EIR handbook 
