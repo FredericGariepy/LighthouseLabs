@@ -153,11 +153,12 @@ Ticket Description
 Box Phishing playbook currently in PLAY. Current stage 3.1
 
 First reported victim received phishing email at <date time>
-Victim opened phishing email and <opened urls with bad ip, reported leaked sensitive information>
+Victim received phishing email and <opened urls with bad ip, reported to have leaked sensitive information>
 
 Information/data included:
-- Time & Date received/openned 
-- <List of bad IPs, information leaked>
+- Time & Date phishing email received/openned 
+- <List of bad IPs>
+- <information leaked>
 - Victim, attacker emails/addresses.
 - Reported email (screenshot, code).
 
