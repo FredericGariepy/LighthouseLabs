@@ -1,19 +1,22 @@
+# Playbook for Cat & Box Scenario 
+Date: 07/23/2024
+## Contents
+- About this case
+
 ## About this case
 The case has [two organizations](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/notes.md#case-groups-and-roles)
 
 
 
 
-This workflow was built with [NIST IR and Google playbooks](#resources), the idea is;
-1. Use a generic incident handling checklist from NIST IR.
-2. Fill it in with techinical points from Google playbooks.
-3. Adjust for client.
 
-The diagram bellow is adjusted from the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology) diagram
+
 
 EIR handbook 
 SOC Operational handbook
 
+## SOC organizational chart
+This chart is the SOC at the Box company, it is based on the [SOC methodology](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D2/workflow.md#the-soc-methodology)
 ```
 Box                                                            # lines begining with `#` are comments.
 └─SOC-constitution 
