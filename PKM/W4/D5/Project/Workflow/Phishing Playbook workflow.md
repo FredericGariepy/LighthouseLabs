@@ -26,16 +26,20 @@ Box
 #### D/escalation proceedures
 Follow Alert plans and playbook processes.
 #### Alert plans
+Send message to recepient if conditions are met.
+
 1. On case of _suspected_ breach: 
-- Box Day-time Production Manager must receive:
-    1. an executive summary.
-    2. information highlighting major security breach events, and listed potential impacts on company operations.
+- Box Day-time Production Manager:
+    1. Send an executive summary.
+    2. Send information highlighting major security breach events, and listed potential impacts on company operations.
 
 2. On case _escalated_ or _urgent_ item:
-- Box CEO must receive executive summary.
+- Box CEO
+    1. receives executive summary.
 
 3. On case of _48H+ unresolved_ breach:
-- Box CEO must receive executive summary.
+- Box CEO
+    1. receive executive summary.
 
 On use of __playbook__:
 Third-Party MSSP must a receive full report, with actionable items included.
@@ -50,7 +54,7 @@ Follow directives and use the check boxes:
 - [ ] unchecked
 - [x] checked
 
-1. Detection and Analysis
+#### 1. Detection and Analysis
 1.0 From Human or/and System detection sources, determine whether an incident has occurred.
 
 1.1. Gather the reported email. Collect and attach email information.
@@ -79,12 +83,12 @@ Did they share/input/reply with sensitive information/secrets/access ?
 If yes, mark 'Information Leak', collect leaked information, escalate the collected information.
 - [ ] Information leak
 
-2. Extract all URLs (embeded) from email content. Resolve the URLs to IPs. Check for all collected IP reputations.
+#### 2. Extract all URLs (embeded) from email content. Resolve the URLs to IPs. Check for all collected IP reputations.
 
 Mark ‘true positive’ if bad IP and escalate the collected information.
 - [ ] True postivie
 
-3. Notify MSSP
+#### 3. Notify MSSP
 
 Depending on MSSP conduct of communications, use appropriate and available contacts/channels found in [EIR Handbook](#eir_handbook).
 - [ ] Chose MSSP contact
@@ -172,50 +176,62 @@ Phone 777-6699
 > [!IMPORTANT]
 > On reply/alert/contact by MSSP, mark down current working stage, go to **step 6**.
 
-4. Gather further infomation & check for phishing campaign with access to webserver.
+#### 4. Gather further infomation & check for phishing campaign with access to webserver.
 
-4.0 Check step 1.1 at 'reported email SRC and DST IP/port', if unchecked, gather it now, and attach to ticket.
+4.1 Check step 1.1 at 'reported email SRC and DST IP/port', if unchecked, gather it now, and attach to ticket.
 
-4.1 Query the email server, find other correlated emails with the reported email. Contact IT role if needed.
+4.2 Query the email server, find other correlated emails with the reported email. Contact IT role if needed.
+
+Collect:
 - [ ] Emails with same source address, IP.
 - [ ] Contain same bad URL IPs.
 - [ ] Same content (heading, body).
-Collect correlated emails and attach to ticket.
 
-4.2. For each attack emails, check for victim replies or/and information leakage.
+- [ ] Attach collection to ticket.
 
-If victim leaked information/secrets/access, check 'Information leakage'
+4.3 For each attack emails, check for victim replies or/and information leakage.
+
+If victim leaked sensitive information/secrets/access, check 'Information leakage'
 - [ ] Information leakage
-Immediately forward found informaiton leak to ticket, raise urgency/priority of ticket.
-      
-4.3. For each attack emails, gather:
+
+- [ ] Immediately forward leak to ticket, raise urgency/priority of ticket by leak severity.
+
+4.4 For each attack emails, gather:
 - [ ] Source email, IP, Port
 - [ ] Source email IP reputation
 - [ ] Destination email, IP, Port
 - [ ] IP Resolved URLs / Embeded URLs 
 - [ ] Resolved URLs IP reputation
 - [ ] email content (Headers, Body)
-Forward the information collection to the ticket.
 
-5. If possible, Analyze URLs in sandboxed environment by
+- [ ] Forward the information collection to the ticket.
+
+
+#### 5. If possible, Analyze URLs in sandboxed environment by
 following the bad IPs. Record and or report the following:
 - [ ] unusual processes
 - [ ] unusual performance
 - [ ] unusual behaviour
 
-6. Response from MSSP
+- [ ] Forward report to the ticket.
+
+### 6. Response from MSSP
 Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner.
 
 a) MSSP declares that no incident is in place.
 - [ ] Follow MSSP descalations directives and guidelines.
+- [ ] Provide descaltion email to contacted members, *if needed*.
 - [ ] Close the Phishing Playbook.
 - [ ] Report learnings in opperational handbook.
 
 b) Incident named and confirmed by MSSP.
 
-Mark 'Incident confirmed', write date time, write named attack.
+If MSSP confirms incident, mark 'Incident confirmed'.
 - [ ] Incident confirmed
+
+Write date time.
 - [ ] Incident confirmed on _____
+Write named attack.
 - [ ] Incident name _____
 
 Continue to 6.1.
@@ -224,22 +240,29 @@ Continue to 6.1.
 > [!IMPORTANT]
 > MSSP is now leading.
 >
-> Follow MSSP directives and guidelines.
+> Follow MSSP, directives and guidelines.
 >
 > Continue to 6.2, with priority to incoming MSSP directives and guidelines.
 
-6.2 On breach, [EIR handbook Alert plan](#alert-plans) is now in effect.
+6.2 Gather information for report on relevant MSSP directives and guidelines.
+- [ ] Severity of incident
+- [ ] 
+
+
+6.3 On breach, [EIR handbook Alert plan](#alert-plans) is now in effect.
 
 Use the Following message templates and send them to the indicated recepient(s).
 
 Send Executive summary to Box CEO, Box Production Manager.
 - [ ]
 ```
-Header: Notice: Suspected case of cybersecurity breach. Phishing attack.
-Body: To Box Day-time Production Manager,
+Header: Notice: Confirmed case of cybersecurity breach. Phishing attack.
+Body: To Box CEO, Day-time Production Manager,
 
-At <date time> occured a suspected phishing indident.
-Suspected phishing victim <interacted, leaked sensitive information> with potential attacker.
+<Incident name> was confirmed to take place at <date time>.
+
+Victim <leaked sensitive information, > 
+with potential attacker.
 We are currently in cooperation with third-party security provider (MSSP).
 
 No operational changes currently required.
