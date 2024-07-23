@@ -71,7 +71,7 @@ Send message to recepient if conditions are met.
 On use of __playbook__:
 Third-Party MSSP must a receive full report, with actionable items included.
 
-#### contacts:
+#### Contacts:
 ```
     Box Manufacturing
     Percy: percy@box.cat
