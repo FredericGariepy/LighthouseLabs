@@ -288,9 +288,9 @@ Continue to 6.1.
 > [!IMPORTANT]
 > MSSP is now leading.
 >
-> Follow MSSP, directives and guidelines.
+> Follow MSSP directives and guidelines.
 >
-> Continue to 6.2, with priority to incoming MSSP directives and guidelines.
+> Continue on this playbook's processes, __with priority to incoming MSSP directives and guidelines.__
 
 6.2 Gather information for report on relevant MSSP directives and guidelines.
 - [ ] Severity of incident
@@ -332,9 +332,9 @@ Does the incident pose a potential impact on production? \
 Mark 'Production impact' if Yes.
 - [ ] Production impact
 
- If production impact is checked, fill out the following:
- - [ ] Changes to operations ______
- - [ ] Estimate duration of operation changes ______
+If production impact is checked, fill out the following:
+- [ ] Changes to operations ______
+- [ ] Estimated duration of operation changes ______
 
 Operation Impacts template, below.
 - [ ] Find Production manager in EIR Handbook.
@@ -344,21 +344,71 @@ Header: Notice: Confirmed case of cybersecurity breach. Operational impacts.
 Body: To Box Production manager,
 
 An <Incident name> was confirmed to take place in the organization.
+The incident will have <Production impact> on operations.
 
-Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
+This will result in the following:
+- <list of Changes to operations>.
+
+These changes are <Estimated duration of operation changes>.
+Observe these changes until resolution of incident.
+
+Reach out for clarifications or questions.
+
+[Your Name]
+Box SOC Analyst 1
+SOCAnalyst1@box.cat
+Phone 777-6699
+```
+6.5 Notify executive in case of 48 hours unresolved breach.
+
+Has 48 hours have elapsed since response from MSSP (step 6)? \
+If yes, mark '48 Hour elapsed'
+- [ ] 48 Hour elapsed
+
+Is the breach still active/open ? \
+If yes, mark 'Breach Unresolved'
+- [ ] Breach Unresolved
+
+Note changes to the following, since MSSP initial response:
+- [ ] Severity of incident: increased / decreased / no change
+- [ ] Impact of incident:   increased / decreased / no change
+- [ ] Current stage of incident response: _______ / no change
+
+If Both '48 Hour elapsed' and 'Breach Unresolved' are checked, \
+Use 48 hours unresolved breach template, below.
+- [ ] Find CEO contact in EIR Handbook.
+- [ ] Send completed template to Box CEO.
+```48 hours+ unresolved breach
+Header: Notice: Unresolved cybersecurity breach.
+Body: To Box CEO,
+
+<Incident name> was confirmed to take place at <date time> by MSSP.
+The breach has now been unresolved for 48 hours.
+
+The incident severity has <current severity status>.
+The indicent impact has <current impact status>.
+
+We are still in cooperation with the third-party security provider (MSSP).
+In the <current stage of incident response>.
+
+Reach out for clarifications or questions.
+
+[Your Name]
+Box SOC Analyst 1
+SOCAnalyst1@box.cat
+Phone 777-6699
 ```
 
+7. The MSSP will provide the next stages and processes to follow.
 
+Follow the MSSP directives and guidance.
+- [ ] Containment
+- [ ] Eradication
+- [ ] Recovery
+- [ ] Post-Incident Activity
 
-7. MSSP will guide organization and SOC Analyst 1 (YOU) through the next two playbook stages:
-- Containment, Eradication, and Recovery
-- Post-Incident Activity
-
-
-```
-On case of 48H+ unresolved breach:
-```
-
+If 'Post-Incident Activity' is checked,
+- [ ] Close the phishing playbook.
 
 ---
 #### Resources
