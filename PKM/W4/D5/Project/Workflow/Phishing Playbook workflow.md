@@ -12,7 +12,7 @@ Box
    └─SOC-Organizational_Handbook (Roles, Responsibility)
       ├── SOC-EIR_handbook (D/escalation proceedures, Alert plans, Contacts: phone#, email@)
       ├── SOC-Operational_handbook  (one workflow from a phishing playbook) 
-      │   ── SOC Analyst 1 # <-(you are here)
+      │   └── SOC Analyst 1 # <-(you are here)
       │         │ Detected Phishing IoC: No/Yes? 
       │         │ If Yes: Use Phishing Playbook.
       │         └──> Collect information and escalate to MSSP-->------------------------------>>[Enter : MSSP SOC framework
@@ -26,15 +26,15 @@ Box
 #### D/escalation proceedures
 Follow Alert plans and playbook processes.
 #### Alert plans
-On case of _suspected_ breach: 
+1. On case of _suspected_ breach: 
 - Box Day-time Production Manager must receive:
     1. an executive summary.
     2. information highlighting major security breach events, and listed potential impacts on company operations.
 
-On case _escalated_ or _urgent_ item:
+2. On case _escalated_ or _urgent_ item:
 - Box CEO must receive executive summary.
 
-On case of _48H+ unresolved_ breach:
+3. On case of _48H+ unresolved_ breach:
 - Box CEO must receive executive summary.
 
 On use of __playbook__:
@@ -90,23 +90,23 @@ Depending on MSSP conduct of communications, use available contacts/channels fou
 
 Use more than one contact point if needed, ensure timely reponse.
 
-3.1. As an "[intake analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md)" open a ticket (with MSSP contact found in EIR handbook) for a potential Phishing attack, forward collected informaiton to MSSP.
+3.1. As an "[intake analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md)" open a ticket (with MSSP contact found in EIR handbook) for a suspected Phishing attack, forward collected informaiton to MSSP.
 
-Directives
-> Remember: Analyst level 1 typicaly __does not__ confirm the incident.
->
-> Follow MSSP replies and directives.
+> [!NOTE]
+> Item is currently a suspected breach.
+> 
+> Analyst level 1 __does not__ confirm the incident.
 
 <!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
 ```
 Ticket Summary
-Phishing attack at <date time, UI confirmed, bad ip, possible infection>
+Suspected Phishing attack <date time, reported leaked information, bad ip confirmed, UI confirmed>
 
 Ticket Description
 Box Phishing playbook currently in PLAY. Current stage 3.1
 
 First reported victim received phishing email at <date time>
-Victim opened phishing email and <opened urls with bad ip, leaked sensitive information>
+Victim opened phishing email and <opened urls with bad ip, reported leaked sensitive information>
 
 Information/data included:
 - Time & Date received/openned 
@@ -116,19 +116,48 @@ Information/data included:
 
 Continuing with Phishing playbook, stage 3.2
 ```
-3.2 Send a short notice of vigiliance for phishing email to production organization members. In order pre-emptively stop/slow propagation. Reinforce employee risk awareness.
+3.2 [Alert plan](#alert-plans) are triggered.
+Day-time Production Manager, receive same executive summary.
+
+```
+Header: Notice: Suspected case of cybersecurity breach. Phishing attack.
+Body: To Box Day-time Production Manager,
+
+At <date time> occured a suspected phishing indident.
+Suspected phishing victim <interacted, leaked sensitive information> with potential attacker.
+We are currently in cooperation with third-party security provider (MSSP).
+
+No operational changes currently required.
+
+Continue as normal with raised vigilance on emails.
+
+Further confirmations or descalations to come.
+Sending vigilance notice to employees.
+
+If you have any doubts about the legitimacy of an email, please contact for Support for guidance.
+Thank you for your attention to this matter.
+Best regards,
+
+[Your Name]
+Box SOC Analyst 1
+SOCAnalyst1@box.cat
+Phone 777-6699
+```
+3.3 Send a generic short notice of vigiliance for phishing email to production organization members. In order pre-emptively stop/slow propagation. Reinforce employee risk awareness.
 
 ```Message made with AI (Chat Gpt 3.5)
 Header: Suspected phishing email circulating within our network
 Body: To Box Production Organization Members,
 
-We have recently identified a suspected phishing email circulating within our network. Phishing emails appear legitimate but contains links or attachments designed to compromise our systems. To safeguard our organization's security, please exercise caution:
+We have recently identified a suspected phishing email circulating within our network. 
+Phishing emails appear legitimate but contains links or attachments designed to compromise our systems.
+To safeguard our organization's security, please exercise caution:
 
     - Do not click on suspicious links or download attachments from unknown or unexpected sources.
     - Verify the sender's email address before responding or taking any action.
     - Report any suspicious emails to our IT Security team immediately.
 
-If you have any doubts about the legitimacy of an email, please contact IT Support for guidance.
+If you have any doubts about the legitimacy of an email, please contact Support for guidance.
 Thank you for your attention to this matter.
 Best regards,
 
@@ -194,29 +223,51 @@ Continue to 6.1.
 6.1 MSSP communicates directives and guidelines. 
 > [!IMPORTANT]
 > MSSP is now leading.
+>
 > Follow MSSP directives and guidelines.
+>
+> Continue to 6.2, with priority to incoming MSSP directives and guidelines.
 
-Continue to 6.1, with priority to 6.
+6.2 On breach, [EIR handbook Alert plan](#alert-plans) is now in effect.
 
-6.1 On breach, [EIR handbook Alert plan](#alert-plans) is now in effect.
+Use the Following message templates and send them to the indicated recepient(s).
 
-Client, Box, must receive an executive summary.
+Send Executive summary to Box CEO, Box Production Manager.
+- [ ]
+```
+Header: Notice: Suspected case of cybersecurity breach. Phishing attack.
+Body: To Box Day-time Production Manager,
 
-Use the Following message templates:
+At <date time> occured a suspected phishing indident.
+Suspected phishing victim <interacted, leaked sensitive information> with potential attacker.
+We are currently in cooperation with third-party security provider (MSSP).
+
+No operational changes currently required.
+
+Continue as normal with raised vigilance on emails.
+
+Further confirmations or descalations to come.
 
 
 
+```
+```
 Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
+```
+
+```
+On case of 48H+ unresolved breach:
+```
 
 
-# ...
-MSSP will guide organization and SOC Analyst 1 (YOU) through the next two playbook stages:
+7. MSSP will guide organization and SOC Analyst 1 (YOU) through the next two playbook stages:
 - Containment, Eradication, and Recovery
 - Post-Incident Activity
 
+
+
+
 ---
-
-
 #### Resources
 - [NIST IR Playbook p.42](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
 - [Google Playbook p.7](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
