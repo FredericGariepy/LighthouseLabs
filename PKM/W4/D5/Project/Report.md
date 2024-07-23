@@ -5,7 +5,8 @@ Date: 07/23/2024
 - [SOC organizational chart](#soc-organizational-chart)
 - [SOC EIR handbook](#eir-handbook)
 - [SOC operational handbook](#soc-operational-handbook)
-<!--- [Conclusion](#conclusion)-->
+- [Conclusion](#conclusion)
+<!--- -->
 - [References](#references)
 
 ## About this case
@@ -422,17 +423,17 @@ If 'Post-Incident Activity' is checked,
 - [ ] Close the phishing playbook.
 
 ## Conclusion 
-On encoutering an incident, the SOC was at mercy without an MSSP intervention. \
-This is because of lack in senior leadership, tools, fictional lack of funds. \
-The SOC lacked knowledge and tools to gather, analyse, inteligence. \
-Although the SOC does not have a cloud system
-The SOC does not have access to software that can take security actions (e.g. SOAR), \
-the process here is writen as a manual. \
+On encoutering an incident, the SOC was at mercy without an MSSP. \
+Lacking in senior leadership, tools, fictional lack of funds. \
+Therefore, the SOC had to rely most on communication.
 
+A vast majority of the phishing playbook process could have been automated (Google Security Operations, 2019). 
 
 ---
 ## References
 Google Cloud. (n.d.). Top Security Playbooks 2022-2023. Retrieved July 23, 2024, from [https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
+
+Google Security Operations. (2019, August 28). How SOAR Playbooks Can Implement Predictable Workflows for Alert Handling [Video]. YouTube. Retrieved July 23, 2024, from [https://www.youtube.com/watch?v=g0sWx_9o_6I](https://www.youtube.com/watch?v=g0sWx_9o_6I)
 
 Government of Canada. (n.d.). Real Examples of Fake Emails. Get Cyber Safe. Retrieved July 23, 2024, from [https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails)
 
