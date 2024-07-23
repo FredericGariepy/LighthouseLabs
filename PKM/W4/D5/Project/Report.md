@@ -14,7 +14,9 @@ You, working at Box, are the sole security operations center (SOC) analyst. \
 The SOC you operate has _limited resources and capabilities_. \
 So, your senior management has contracted an MSSP for all risks needing escalation.
 
-This case presents an SOC organizational chart.  In it, two handbooks will be used by the analyst. \
+This case first presents an SOC organizational chart. 
+
+In this chart, you can find the analyst and two handbooks. \
 One handbook is the EIR handbook which contains: alert plans, contacts, and d/escalation proceedures. \
 The second, Operational handbook, contains a workflow from a phishing playbook.
 
