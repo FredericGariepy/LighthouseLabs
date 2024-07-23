@@ -299,39 +299,47 @@ Continue to 6.1.
 - [ ] Effects of MSSP directives on operations.
 - [ ] Brief on the current stage of incident response.
 
-
-6.3 On breach, [EIR handbook Alert plan](#alert-plans) is now in effect.
-
+6.3 On breach, [EIR handbook Alert plan](#alert-plans) is now in effect. \
 Use the Following message templates and send them to the indicated recepient(s).
 
-- [ ] Send Executive summary to Box CEO
+Confirmed incident executive summary template, below.
+- [ ] Find CEO contact in EIR Handbook.
+- [ ] Send completed executive summary to Box CEO.
 ```Executive summary
 Header: Notice: Confirmed case of cybersecurity breach. Phishing attack.
 Body: To Box CEO,
 
-<Incident name> was confirmed to take place at <date time>.
+<Incident name> was confirmed to take place at <date time> by MSSP.
+Victim <leaked sensitive information, was compromised>. 
 
-Victim <leaked sensitive information, > 
-with potential attacker.
+The incident is <severity level> and <impact level>.
+The incident will <relevance of incident on operations, effects, durration>.
+
 We are currently in cooperation with third-party security provider (MSSP).
+Following procedures with MSSP will <effects of MSSP directives on operations>.
 
-No operational changes currently required.
+We are now in <brief on the current stage of incident response>.
 
-Continue as normal with raised vigilance on emails.
-
-Further confirmations or descalations to come.
-
-
-
+[Your Name]
+Box SOC Analyst 1
+SOCAnalyst1@box.cat
+Phone 777-6699
 ```
+6.4 Notify operations in case of production impact. \
+Does the incident pose a potential impact on production? \
+Mark 'Production impact' if Yes.
+- [ ] Production impact
+
+ If production impact is checked, fill out the following:
+ - [ ] Changes to operations ______
+ - [ ] Estimate duration of operation changes ______
+
+
 Box Production Manager.
 ```
 Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
 ```
 
-```
-On case of 48H+ unresolved breach:
-```
 
 
 7. MSSP will guide organization and SOC Analyst 1 (YOU) through the next two playbook stages:
@@ -339,6 +347,9 @@ On case of 48H+ unresolved breach:
 - Post-Incident Activity
 
 
+```
+On case of 48H+ unresolved breach:
+```
 
 
 ---
