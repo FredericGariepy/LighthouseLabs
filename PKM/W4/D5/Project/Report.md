@@ -225,7 +225,9 @@ Phone 777-6699
 
 #### 4. Gather further infomation & check for phishing campaign with access to webserver.
 
-4.1 Check step 1.1 at 'reported email SRC and DST IP/port', if unchecked, gather it now, and attach to ticket.
+4.1 Check step 1.1 for 'reported email SRC and DST IP/port', if unchecked:
+- [ ] Gather SRC and DST IP/port on reported email.
+- [ ] Forward gathered IP/port information to ticket.
 
 4.2 Query the email server, find other correlated emails with the reported email. Contact IT role if needed.
 
