@@ -5,6 +5,7 @@ Date: 07/23/2024
 - [SOC organizational chart](#soc-organizational-chart)
 - [SOC EIR handbook](#eir-handbook)
 - [SOC operational handbook](#soc-operational-handbook)
+- [Conclusion](#conclusion)
 - [References](#references)
 
 ## About this case
@@ -25,9 +26,9 @@ meaning, up until MSSP response.
 
 For communication, templates and directives are found as required along the workflow.
 
-The playbook was build with a generic incident handling checklist from NIST IR (NIST, n.d.), populated with procedures from Google cloud's phishing playbook (Google Cloud, n.d.), and adjusted for the client (Box).
+The playbook was build with a generic incident handling checklist from NIST IR (NIST, n.d.), populated with procedures from Google cloud's phishing playbook (Google Cloud, n.d.), and adjusted for the client (Box). 
 
-To best enjoy this case, imagine that you are an analyst in an 'old-school' SOC. \
+To try and make this case enjoyable, imagine that you are an analyst in an 'old-school' SOC. \
 Find your location in the organizational chart, look at your EIR handbook, \
 follow the proceedures in the phishing playbook.
 
@@ -47,7 +48,7 @@ Box                                                            # lines begining 
       └── SOC-Technical_handbook (SOC desktop/apps)
           │   # No SIEM, SOAR. Hence reliance on MSSP.
           ├── Linux syslogs, Windows Event logs # assumed
-          └── ELK/SNMP/PRTG # assumed
+          └── ELK/SNMP/ PRTG(free 100 sensors) (Paessler, n.d.) # assumed
 ```
 
 ## SOC EIR handbook 
@@ -420,6 +421,15 @@ Follow the MSSP directives and guidance.
 If 'Post-Incident Activity' is checked,
 - [ ] Close the phishing playbook.
 
+## Conclusion 
+On encoutering an incident, the SOC was at mercy without an MSSP intervention. \
+This is because of lack in senior leadership, tools, fictional lack of funds. \
+The SOC lacked knowledge and tools to gather, analyse, inteligence. \
+Although the SOC does not have a cloud system
+The SOC does not have access to software that can take security actions (e.g. SOAR), \
+the process here is writen as a manual. \
+
+
 ---
 ## References
 Google Cloud. (n.d.). Top Security Playbooks 2022-2023. Retrieved July 23, 2024, from [https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
@@ -428,13 +438,8 @@ Government of Canada. (n.d.). Real Examples of Fake Emails. Get Cyber Safe. Retr
 
 National Institute of Standards and Technology (NIST). (n.d.). Computer Security Incident Handling Guide (NIST Special Publication 800-61 Revision 2). Retrieved July 23, 2024, from [https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
 
-sSplunk. (n.d.). Incident severity levels 1-5 explained. Retrieved July 23, 2024, from https://www.splunk.com/en_us/blog/learn/incident-severity-levels.html
+Paessler. (n.d.). How to use 100 sensors to keep an eye on critical points in your IT – at no cost. Retrieved July 23, 2024, from https://www.paessler.com/howto-free-network-monitoring
+
+Splunk. (n.d.). Incident severity levels 1-5 explained. Retrieved July 23, 2024, from https://www.splunk.com/en_us/blog/learn/incident-severity-levels.html
 
 Wagner, A. (n.d.). The SOC Methodology. Retrieved July 23, 2024, from [https://secureglobal.de/the-soc-methodology](https://secureglobal.de/the-soc-methodology)
-<!--
-#### potential stuff a SOAR could do/ MSSP resonpse actions 
-Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
-Automatic Global Log-Out:Force log out of the compromised email account and potentially other associated accounts across different services.
-Change of Permissions: owngrade permissions or restrict access to sensitive information and resources associated with the compromised email accoun
-Change of Authentication Credentials multi-factor authentication (MFA)
--->
