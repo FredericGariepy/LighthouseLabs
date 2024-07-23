@@ -424,7 +424,7 @@ If 'Post-Incident Activity' is checked,
 - [ ] Report learnings in opperational handbook
 ## Conclusion 
 Lacking in senior leadership, tools, fictional lack of funds, \
-the SOC was at incident mercy without an MSSP. \
+the SOC was at mercy of a significant incident without contact to an MSSP. \
 Therefore, the SOC had to rely most on communication.
 
 A vast majority of the phishing playbook process could have been automated (Google Security Operations, 2019). \
