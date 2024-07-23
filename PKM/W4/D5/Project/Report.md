@@ -423,12 +423,17 @@ If 'Post-Incident Activity' is checked,
 - [ ] Close the phishing playbook.
 - [ ] Report learnings in opperational handbook
 ## Conclusion 
-On encoutering an incident, the SOC was at mercy without an MSSP. \
-Lacking in senior leadership, tools, fictional lack of funds. \
+Lacking in senior leadership, tools, fictional lack of funds, \
+the SOC was at incident mercy without an MSSP. \
 Therefore, the SOC had to rely most on communication.
 
-A vast majority of the phishing playbook process could have been automated (Google Security Operations, 2019). 
+A vast majority of the phishing playbook process could have been automated (Google Security Operations, 2019). \
+SOAR tools make it developer friendly to import/export playbooks and automate specific incident response workflows. For example: \
+Global Log-Out; Force log out of the compromised email account and potentially other associated accounts across different services.
+Change of Permissions: downgrade permissions or restrict access to sensitive information and resources associated with the compromised email account.
+Check Mail for Internal Propagation: Automatically block insider phishing attacks or campaigns spreading from inside the organization.
 
+For the SOC in this case, timely communication with the right type of information can allow for the MSSP to use its knowledge and technology in order to mitigate client risk.
 ---
 ## References
 Google Cloud. (n.d.). Top Security Playbooks 2022-2023. Retrieved July 23, 2024, from [https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
