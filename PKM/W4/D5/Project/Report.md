@@ -401,7 +401,6 @@ Box SOC Analyst 1
 SOCAnalyst1@box.cat
 Phone 777-6699
 ```
-
 7. The MSSP will provide the next stages and processes to follow.
 
 Follow the MSSP directives and guidance.
