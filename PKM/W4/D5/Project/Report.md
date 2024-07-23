@@ -83,8 +83,9 @@ Follow directives and use the check boxes:
 - [ ] Date and time of received email
 - [ ] recepient, sender email adresses
 - [ ] content (code as text)
-Do you have immediate and authorized access to email server? If Yes, collect it.
-- [ ] reported email SRC and DST IP/port.
+
+Do you have immediate and authorized access to email server? If Yes, collect:
+- [ ] Source and Destination IP/port of reported email.
 
 1.2 Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails).
 
