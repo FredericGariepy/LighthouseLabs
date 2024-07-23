@@ -198,7 +198,7 @@ Continue to 6.1.
 
 Continue to 6.1, with priority to 6.
 
-6.1 On breach, EIR handbook Alert plan is now in effect.
+6.1 On breach, [EIR handbook Alert plan](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/Workflow/Phishing%20Playbook%20workflow.md#alert-plans) is now in effect.
 
 Client, Box, must receive an executive summary.
 
