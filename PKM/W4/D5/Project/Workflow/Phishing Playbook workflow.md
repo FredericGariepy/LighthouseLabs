@@ -27,9 +27,15 @@ Box
 Follow Alert plans and playbook processes.
 #### Alert plans
 On case of _suspected_ breach: 
-- Client, Box, must receive an executive summary.
-- Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
-- Third-Party provider must a receive full report, with actionable items included.
+- Box Day-time Production Manager must receive:
+    1. an executive summary.
+    2. information highlighting major security breach events, and listed potential impacts on company operations.
+On case __escalated__ or __urgent__ item:
+- Box CEO must receive executive summary.
+On case of _48H+ unresolved_ breach:
+- Box CEO must receive executive summary.
+
+Third-Party MSSP must a receive full report, with actionable items included.
 #### contacts: 
 - [phone#, email@](#case_contacts)
 
@@ -171,16 +177,16 @@ a) MSSP declares that no incident is in place.
 
 b) Incident named and confirmed by MSSP.
 
-Mark 'Incident confirmed', write named attack.
+Mark 'Incident confirmed', write date time, write named attack.
 - [ ] Incident confirmed
-- [ ] Incident confirmed time _____
+- [ ] Incident confirmed on _____
 - [ ] Incident name _____
+
 Continue to 6.1.
 
 6.1 MSSP estabilishes the containment phase.
 
 Follow MSSP directives and guidelines. 
-
 
 On breach, EIR handbook Alert plan is now in effect.
 
