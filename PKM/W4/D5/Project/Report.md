@@ -126,9 +126,8 @@ Continue to 3.1
 > 
 > Analyst level 1 __does not confirm the incident__.
 
-Use this ticket template, fill-in and attack required information.
+Use the [ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234) below, fill-in and attach required information.
 - [ ] Send completed ticket to MSSP
-<!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
 ```
 Ticket Summary
 Suspected Phishing attack <date time, reported leaked information, bad ip confirmed, UI confirmed>
@@ -148,9 +147,11 @@ Information/data included:
 Continuing with Phishing playbook, stage 3.2
 ```
 3.2 [Alert plan](#alert-plans) are triggered.
-Day-time Production Manager, receive same executive summary.
 
-```
+Use the 'Suspected phishing' executive summary template below, fill-in required information.
+- [ ] Find Day-time Production Manager contact in EIR Handbook
+- [ ] Send completed executive summary to Day-time Production Manager
+```Suspected phishing
 Header: Notice: Suspected case of cybersecurity breach. Phishing attack.
 Body: To Box Day-time Production Manager,
 
@@ -174,8 +175,11 @@ Box SOC Analyst 1
 SOCAnalyst1@box.cat
 Phone 777-6699
 ```
-3.3 Send a generic short notice of vigiliance for phishing email to production organization members. In order pre-emptively stop/slow propagation. Reinforce employee risk awareness.
-
+3.3 Raise organization vigilance for phishing.
+Use the generic short notice template. Send it to production organization members. \
+In order pre-emptively stop/slow propagation. Reinforce employee risk awareness.
+- [ ] Fill-in required information.
+- [ ] Send to relevant production organization employees in EIR handbook.
 ```Message made with AI (Chat Gpt 3.5)
 Header: Suspected phishing email circulating within our network
 Body: To Box Production Organization Members,
