@@ -304,7 +304,7 @@ Continue to 6.1.
 > Continue on this playbook's processes, __with priority to incoming MSSP directives and guidelines.__
 
 6.2 Gather information for report on relevant MSSP directives and guidelines.
-- [ ] Severity of incident [(SVE Lvl.)](https://www.splunk.com/en_us/blog/learn/incident-severity-levels.html)
+- [ ] Severity of incident [(SVE Lvl.)](https://www.splunk.com/en_us/blog/learn/incident-severity-levels.html) (Splunk, n.d.)
 - [ ] Impact of incident
 - [ ] Relevance of incident on operations (effects, durration) 
 - [ ] Effects of MSSP directives on operations.
@@ -424,11 +424,13 @@ If 'Post-Incident Activity' is checked,
 ## References
 Google Cloud. (n.d.). Top Security Playbooks 2022-2023. Retrieved July 23, 2024, from [https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C4/Top_Security_Playbooks_2022.pdf)
 
+Government of Canada. (n.d.). Real Examples of Fake Emails. Get Cyber Safe. Retrieved July 23, 2024, from [https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails)
+
 National Institute of Standards and Technology (NIST). (n.d.). Computer Security Incident Handling Guide (NIST Special Publication 800-61 Revision 2). Retrieved July 23, 2024, from [https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
 
-Wagner, A. (n.d.). The SOC Methodology. Retrieved July 23, 2024, from [https://secureglobal.de/the-soc-methodology](https://secureglobal.de/the-soc-methodology)
+sSplunk. (n.d.). Incident severity levels 1-5 explained. Retrieved July 23, 2024, from https://www.splunk.com/en_us/blog/learn/incident-severity-levels.html
 
-Government of Canada. (n.d.). Real Examples of Fake Emails. Get Cyber Safe. Retrieved July 23, 2024, from [https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails)
+Wagner, A. (n.d.). The SOC Methodology. Retrieved July 23, 2024, from [https://secureglobal.de/the-soc-methodology](https://secureglobal.de/the-soc-methodology)
 <!--
 #### potential stuff a SOAR could do/ MSSP resonpse actions 
 Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
