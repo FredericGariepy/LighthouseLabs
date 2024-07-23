@@ -22,7 +22,8 @@ The second, Operational handbook, contains a workflow from a phishing playbook.
 
 In the Operational handbook, you can follow phishing playbook procedures, to the extent afforded by the SOC, \
 meaning, up until MSSP response. \
-Communication templates and directives are found as required along the playbook workflow.
+
+For communication, templates and directives are found as required along the workflow.
 
 The playbook was build with a generic incident handling checklist from NIST IR (NIST, n.d.), \
 populated with procedures from Google cloud's phishing playbook (Google Cloud, n.d.), \
