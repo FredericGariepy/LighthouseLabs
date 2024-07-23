@@ -31,7 +31,7 @@ On case of _suspected_ breach:
     1. an executive summary.
     2. information highlighting major security breach events, and listed potential impacts on company operations.
 
-On case __escalated__ or __urgent__ item:
+On case _escalated_ or _urgent_ item:
 - Box CEO must receive executive summary.
 
 On case of _48H+ unresolved_ breach:
