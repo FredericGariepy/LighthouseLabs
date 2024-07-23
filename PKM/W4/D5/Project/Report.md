@@ -3,8 +3,8 @@ Date: 07/23/2024
 ## Contents
 - About this case
 - SOC organizational chart
-- __EIR handbook__ (D/escalation proceedures, Alert plans, Contacts: phone#, email@)
-- __SOC Operational handbook__ (playbook)
+- SOC EIR handbook
+- SOC Operational handbook
 
 ## About this case
 The case has [two organizations](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/notes.md#case-groups-and-roles), Box and a third-party MSSP.
