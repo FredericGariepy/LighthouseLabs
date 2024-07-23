@@ -179,7 +179,7 @@ We are currently in cooperation with third-party security provider (MSSP).
 
 No operational changes currently required.
 
-Continue as normal with raised vigilance on emails.
+Continue as normal with raised vigilance.
 
 Further confirmations or descalations to come.
 Sending vigilance notice to employees.
