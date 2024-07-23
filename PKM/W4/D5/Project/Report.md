@@ -5,6 +5,7 @@ Date: 07/23/2024
 - [SOC organizational chart](#soc-organizational-chart)
 - [SOC EIR handbook](#eir-handbook)
 - [SOC operational handbook](#soc-operational-handbook)
+- [References](#references)
 
 ## About this case
 The case has [two organizations](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Project/notes.md#case-groups-and-roles), Box and a third-party MSSP.
@@ -265,7 +266,7 @@ following the bad IPs. Record for the following:
 - [ ] Collect findings and create report.
 - [ ] Forward report to the ticket.
 
-### 6. Response from MSSP
+#### 6. Response from MSSP
 Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner. \
 The MSSP responce on the incident will eventually be one of two outcomes, a or b.
 
@@ -401,7 +402,7 @@ Box SOC Analyst 1
 SOCAnalyst1@box.cat
 Phone 777-6699
 ```
-7. The MSSP will provide the next stages and processes to follow.
+#### 7. The MSSP will provide the next stages and processes to follow.
 
 Follow the MSSP directives and guidance.
 - [ ] Containment
