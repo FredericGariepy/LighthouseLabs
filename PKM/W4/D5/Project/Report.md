@@ -62,11 +62,11 @@ Contact: Box Day-time Production Manager:
 
 2. On case _escalated_ or _urgent_ item: \
 Contact: Box CEO
-    1. receives executive summary.
+    1. Send executive summary.
 
 3. On case of _48H+ unresolved_ breach: \
 Contact: Box CEO
-    1. receive executive summary.
+    1. Send executive summary.
 
 On use of __playbook__:
 Third-Party MSSP must a receive full report, with actionable items included.
