@@ -26,7 +26,7 @@ The playbook was build with a generic incident handling checklist from NIST IR (
 populated with procedures from Google cloud's phishing playbook (Google Cloud, n.d.), \
 and adjusted for the client (Box).
 
-To best enjoy this case, imagine that you are a fresh SOC analyst 1. \
+To best enjoy this case, imagine that you are an analyst in an 'old-school' SOC. \
 Find your location in the organizational chart, look at your EIR handbook, \
 follow the proceedures in the phishing playbook.
 
