@@ -169,9 +169,7 @@ SOCAnalyst1@box.cat
 Phone 777-6699
 ```
 
-> [!IMPORTANT]  
-> Stay alert for contact from MSSP on new opened ticket.
->
+> [!IMPORTANT]
 > On reply/alert/contact by MSSP, mark down current working stage, go to **step 6**.
 
 4. Gather further infomation & check for phishing campaign with access to webserver.
