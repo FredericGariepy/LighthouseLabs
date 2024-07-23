@@ -26,7 +26,7 @@ Box
 #### D/escalation proceedures
 Follow Alert plans and playbook processes.
 #### Alert plans
-On case of suspected breach:
+On case of _suspected_ breach: 
 - Client, Box, must receive an executive summary.
 - Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
 - Third-Party provider must a receive full report, with actionable items included.
@@ -35,6 +35,7 @@ On case of suspected breach:
 
 ## SOC Operational handbook
 ### Phishing Playbook
+This is a manual process playbook.
 
 Follow directives and use the check boxes:
 - [ ] unchecked
@@ -42,9 +43,16 @@ Follow directives and use the check boxes:
 #### Stage: Detection and Analysis
 1. From Human or/and System detection sources, determine whether an incident has occurred.
 
-1.1. Gather the reported email. Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails).
+1.1. Gather the reported email. Collect and attach email information.
+- [ ] Date and time of received email
+- [ ] recepient, sender email adresses
+- [ ] content (code as text)
+Do you have immediate and authorized access to email server? If Yes, collect it.
+- [ ] reported email SRC and DST IP/port.
 
-If one box is checked move immediately to step 1.2
+1.2 Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails).
+
+If one box is checked move immediately forward to step 1.3
 On the email, look for:
 - [ ] Spoofed email address
 - [ ] Pressures for action, deadlines, rewards
@@ -54,24 +62,29 @@ On the potential victim machine, look for and ask user about:
 - [ ] Did they follow any email url, produce any clicks, see any opens.
 - [ ] Noticed unsual processes, behaviours, CPU use (heat, sound, slowness), Bandwidth use.
 
-1.2 If possible, ask user about information leakage.
+1.3 If available, ask user about information leakage.
 
 Did they share/input/reply with sensitive information/secrets/access ?
-If yes, collect leaked information, 'Information Leak', escalate the collected information.
-- [ ] Information leak
-- [ ] Iformation type: ___________
 
-2. Extract (embedded) URLs from email content. Resolve the URLs to IPs. Check for IP reputation.
+If yes, mark 'Information Leak', collect leaked information, escalate the collected information.
+- [ ] Information leak
+
+2. Extract all URLs (embeded) from email content. Resolve the URLs to IPs. Check for all collected IP reputations.
 
 Mark ‘true positive’ if bad IP and escalate the collected information.
 - [ ] True postivie
 
 3. Notify MSSP
-Depending on MSSP conduct of communications, use available contacts/means/channels found in [EIR Handbook](#eir_handbook).
+Depending on MSSP conduct of communications, use available contacts/channels found in [EIR Handbook](#eir_handbook).
 
 Use more than one contact point if needed, ensure timely reponse.
 
-3.1. As an [Intake Analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md) open a ticket (with MSSP contact found in EIR handbook) for a potential Phishing attack, forward collected informaiton to MSSP.
+3.1. As an "[intake analyst](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/Intake%20Analyst.md)" open a ticket (with MSSP contact found in EIR handbook) for a potential Phishing attack, forward collected informaiton to MSSP.
+
+Directives
+> Remember: Analyst level 1 typicaly __does not__ confirm the incident.
+>
+> Follow MSSP replies and directives.
 
 <!--[ticket template](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D3/email-template/in-class-ticket-response-email.md#ticket-234)-->
 ```
@@ -79,23 +92,22 @@ Ticket Summary
 Phishing attack at <date time, UI confirmed, bad ip, possible infection>
 
 Ticket Description
-Phishing plabook currently in PLAY. Current stage 3.1
+Box Phishing playbook currently in PLAY. Current stage 3.1
 
 First reported victim received phishing email at <date time>
-Victim opened phishing email and <opened urls with bad ip, reports performance symptoms, reported replying with sesitive info.>
+Victim opened phishing email and <opened urls with bad ip, leaked sensitive information>
 
 Information/data included:
-- Reported email (screenshot, code).
-- List of bad IPs.
-- Victim email
 - Time & Date received/openned 
-- Information leaked
+- <List of bad IPs, information leaked>
+- Victim, attacker emails/addresses.
+- Reported email (screenshot, code).
 
 Continuing with Phishing playbook, stage 3.2
 ```
 3.2 Send a short notice of vigiliance for phishing email to production organization members. In order pre-emptively stop/slow propagation. Reinforce employee risk awareness.
 
-```Made with AI
+```Message made with AI (Chat Gpt 3.5)
 Header: Suspected phishing email circulating within our network
 Body: To Box Production Organization Members,
 
@@ -118,18 +130,21 @@ Phone 777-6699
 > [!IMPORTANT]  
 > Stay alert for contact from MSSP on new opened ticket.
 >
-> On reply/alert/contact by MSSP, mark down currents stage, go to **step 6**.
+> On reply/alert/contact by MSSP, mark down current working stage, go to **step 6**.
 
-4 Gather further infomation & check for phishing campaign
+4. Gather further infomation & check for phishing campaign with access to webserver.
+4.0 Check step 1.1 at 'reported email SRC and DST IP/port', if unchecked, gather it now, and attach to ticket.
 4.1 Query the email server, find other correlated emails with the reported email. Contact IT role if needed.
 - [ ] Emails with same source address, IP.
 - [ ] Contain same bad URL IPs.
 - [ ] Same content (heading, body).
+Collect correlated emails and attach to ticket.
+
 4.2. For each attack emails, check for victim replies or/and information leakage.
 
 If victim leaked information/secrets/access, check 'Information leakage'
 - [ ] Information leakage
-Immediately forward informaiton leak to ticket, raise urgency/priority of ticket.
+Immediately forward found informaiton leak to ticket, raise urgency/priority of ticket.
       
 4.3. For each attack emails, gather:
 - [ ] Source email, IP, Port
@@ -147,11 +162,33 @@ following the bad IPs. Record and or report the following:
 - [ ] unusual behaviour
 
 6. Response from MSSP
-Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner. \
+Make sure to respond/perform provided requests/guidelines by MSSP in a timely manner.
 
-SOC analyst 1 does not confirm breach, ... 
-IF break confirmed. 
-EIR handbook Alert plan is now in effect, Client, Box, must receive an executive summary.
+a) MSSP declares that no incident is in place.
+- [ ] Follow MSSP descalations directives and guidelines.
+- [ ] Close the Phishing Playbook.
+- [ ] Report learnings in opperational handbook.
+
+b) Incident named and confirmed by MSSP.
+
+Mark 'Incident confirmed', write named attack.
+- [ ] Incident confirmed
+- [ ] Incident confirmed time _____
+- [ ] Incident name _____
+Continue to 6.1.
+
+6.1 MSSP estabilishes the containment phase.
+
+Follow MSSP directives and guidelines. 
+
+
+On breach, EIR handbook Alert plan is now in effect.
+
+Client, Box, must receive an executive summary.
+
+Use the Following message templates:
+
+
 
 Box Production Manager must receive information highlighting major security breach events, and listed potential impacts on company operations.
 
