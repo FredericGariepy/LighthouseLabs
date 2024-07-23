@@ -235,6 +235,7 @@ Collect:
 - [ ] Emails with same source address, IP.
 - [ ] Contain same bad URL IPs.
 - [ ] Same content (heading, body).
+
 When collection is complete.
 - [ ] Attach collection to ticket.
 
