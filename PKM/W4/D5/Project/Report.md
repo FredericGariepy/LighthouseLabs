@@ -104,7 +104,7 @@ Follow directives and use the check boxes:
 Do you have immediate and authorized access to email server? If Yes, collect:
 - [ ] Source and Destination IP/port of reported email.
 
-1.2 Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails).
+1.2 Quickly analyze the email for precursors and indicators of [Phishing](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails) (Government of Canada, n.d.).
 
 If one box is checked move immediately forward to step 1.3
 On the email, look for:
@@ -422,6 +422,7 @@ National Institute of Standards and Technology (NIST). (n.d.). Computer Security
 
 Wagner, A. (n.d.). The SOC Methodology. Retrieved July 23, 2024, from [https://secureglobal.de/the-soc-methodology](https://secureglobal.de/the-soc-methodology)
 
+Government of Canada. (n.d.). Real Examples of Fake Emails. Get Cyber Safe. Retrieved July 23, 2024, from [https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails](https://www.getcybersafe.gc.ca/en/resources/real-examples-fake-emails)
 <!--
 #### potential stuff a SOAR could do/ MSSP resonpse actions 
 Check Sent Mail for Propagation: sent mail folder for any unauthorized outgoing phishing attack spreading
