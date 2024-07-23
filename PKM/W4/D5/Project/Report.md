@@ -153,7 +153,7 @@ Ticket Description
 Box Phishing playbook currently in PLAY. Current stage 3.1
 
 First reported victim received phishing email at <date time>
-Victim received phishing email and <opened urls with bad ip, reported to have leaked sensitive information>
+Victim received phishing email and <followed urls with bad ip, reported to have leaked sensitive information>
 
 Information/data included:
 - Time & Date phishing email received/openned 
@@ -174,7 +174,7 @@ Header: Notice: Suspected case of cybersecurity breach. Phishing attack.
 Body: To Box Day-time Production Manager,
 
 At <date time> occured a suspected phishing indident.
-Suspected phishing victim <interacted, leaked sensitive information> with potential attacker.
+Suspected phishing victim <may have been compromised, leaked sensitive information> with potential attacker.
 We are currently in cooperation with third-party security provider (MSSP).
 
 No operational changes currently required.
