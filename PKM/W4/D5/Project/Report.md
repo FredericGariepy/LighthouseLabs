@@ -304,7 +304,7 @@ Continue to 6.1.
 > Continue on this playbook's processes, __with priority to incoming MSSP directives and guidelines.__
 
 6.2 Gather information for report on relevant MSSP directives and guidelines.
-- [ ] Severity of incident
+- [ ] Severity of incident [(SVE Lvl.)](https://www.splunk.com/en_us/blog/learn/incident-severity-levels.html)
 - [ ] Impact of incident
 - [ ] Relevance of incident on operations (effects, durration) 
 - [ ] Effects of MSSP directives on operations.
