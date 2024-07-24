@@ -1,12 +1,19 @@
 ## Post class
 ### Privacy 
+[https://awesome-selfhosted.net/](https://awesome-selfhosted.net/)
+> Self-hosting is the practice of hosting and managing applications on your own server(s) instead of consuming from SaaSS providers.
+>
+> This is a list of Free Software network services and web applications which can be hosted on your own server(s). Non-Free software is listed on the Non-Free page.
 [https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 [https://github.com/pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)
+> Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS
 
 [https://kagi.com/](https://kagi.com/)
+> High quality search engine with no ads. 5 $ for 300 searches. 10$ unlimited/mo
 
 [https://mysudo.com/](https://mysudo.com/)
+> Speak privately. Browse privately. Pay privately. Create secure digital profiles called Sudos, with phone, handle, email, browser and virtual card.*
 
 Subject: virtual creditcards
 ### ONIST
@@ -19,7 +26,10 @@ Subject: Cloud Browser
 
 [https://pimeyes.com/](https://pimeyes.com/)
 
-### sources
+### sources / news
+
+[https://risky.biz/](https://risky.biz/)
+> Risky Business Media was founded in 2007 by cybersecurity journalist Patrick Gray, who started writing about cybersecurity in 2001. After some time on the ZDNet Australia news desk Patrick went freelance in 2004, writing for publications like SecurityFocus, Wired.com, The Age and The Sydney Morning Herald.
 
 [https://www.eff.org/](https://www.eff.org/)
 > The Electronic Frontier Foundation is an international non-profit digital rights group based in San Francisco, California. It was founded in 1990 to promote Internet civil liberties
