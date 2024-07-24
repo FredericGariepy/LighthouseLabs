@@ -12,3 +12,11 @@ CWE = Commmon Weakness Enumeration \
 
 e.g. [software CWE](https://cwe.mitre.org/data/definitions/699.html)
 
+[CVE](https://www.cve.org/)
+
+VND is based on CVEs
+- [VND search](https://nvd.nist.gov/vuln/search)
+
+
+[](https://csrc.nist.gov/projects/security-content-automation-protocol)
+
