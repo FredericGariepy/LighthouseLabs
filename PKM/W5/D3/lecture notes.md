@@ -9,3 +9,6 @@ CVE = record of a Vulnerability
 
 CWE = Commmon Weakness Enumeration \
 [https://cwe.mitre.org/](https://cwe.mitre.org/)
+
+e.g. [software CWE](https://cwe.mitre.org/data/definitions/699.html)
+
