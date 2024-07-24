@@ -5,6 +5,7 @@
 
 [https://kagi.com/](https://kagi.com/)
 
+[https://mysudo.com/](https://mysudo.com/)
 ### ONIST
 
 Subject: Personal threat model
