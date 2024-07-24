@@ -1,3 +1,4 @@
+## Post class
 ### Privacy 
 [https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
@@ -18,10 +19,20 @@ Subject: Cloud Browser
 
 [https://pimeyes.com/](https://pimeyes.com/)
 
+### sources
+
+[https://www.eff.org/](https://www.eff.org/)
+> The Electronic Frontier Foundation is an international non-profit digital rights group based in San Francisco, California. It was founded in 1990 to promote Internet civil liberties
+
+[center for humane technology](https://www.humanetech.com/)
+> The Center for Humane Technology is a nonprofit organization dedicated to radically reimagining the digital infrastructure. Its mission is to drive a comprehensive shift toward humane technology that supports the collective well-being, democracy and shared information environment.
+
+
 ### Class material
 
-"vulnerability is the 'weak point'.
-risk is the potential 'issue' after an incidient." - Ernie
+"vulnerability is the 'weak point'. risk is the potential 'issue' after an incidient." - Ernie
+
+"Jaron Lanier is another interesting person who talks about data rights and the possible formation of data unions" - Aaron
 
 vulnerability = weakness (potential to harm)/ flaw in soft/hardware, it will affect CIA.
 
@@ -43,4 +54,3 @@ VND is based on CVEs
 
 [OpenVAS vulnerability scanner.](https://www.openvas.org/)
 
-"Jaron Lanier is another interesting person who talks about data rights and the possible formation of data unions" - Aaron Joseph
