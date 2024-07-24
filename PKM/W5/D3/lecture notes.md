@@ -19,3 +19,5 @@ VND is based on CVEs
 
 [SCAP | security-content-automation-protocol](https://csrc.nist.gov/projects/security-content-automation-protocol)
 
+[OpenVAS vulnerability scanner.](https://www.openvas.org/)
+
