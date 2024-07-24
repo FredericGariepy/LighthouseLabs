@@ -6,7 +6,10 @@
 [https://kagi.com/](https://kagi.com/)
 
 ### ONIST
-Cloud Browser
+
+Subject: Personal threat model
+
+Subject: Cloud Browser
 
 [https://www.osint.industries/](https://www.osint.industries/)
 
