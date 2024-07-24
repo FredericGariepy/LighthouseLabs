@@ -17,6 +17,5 @@ e.g. [software CWE](https://cwe.mitre.org/data/definitions/699.html)
 VND is based on CVEs
 - [VND search](https://nvd.nist.gov/vuln/search)
 
-
-[](https://csrc.nist.gov/projects/security-content-automation-protocol)
+[SCAP | security-content-automation-protocol](https://csrc.nist.gov/projects/security-content-automation-protocol)
 
