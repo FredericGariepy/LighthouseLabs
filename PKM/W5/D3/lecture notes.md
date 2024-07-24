@@ -37,3 +37,4 @@ VND is based on CVEs
 
 [OpenVAS vulnerability scanner.](https://www.openvas.org/)
 
+"Jaron Lanier is another interesting person who talks about data rights and the possible formation of data unions" - Aaron Joseph
