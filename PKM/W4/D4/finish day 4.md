@@ -43,6 +43,17 @@ International Organization for Standardization (ISO) \
 international standard framework for creating a comprehensive ISMS.
 
 
+## NIST CSF :couple_with_heart: ISO 27001 - Complete me abby :people_hugging:
+Completed your ISO 27001? you’ve achieved 60% of your NIST CSF. \
+Instead, Complete NIST CSF and then you’re 78% of the way to the ISO 27001 finish line.
+
+An important overlap area, in CSF and ISO 27001, is maintaining an asset register \
+as recognized by Annex A.8.1 of ISO27001 for asset responsibility and ID.AM of NIST CSF for asset management.
+
+<img src="https://media.licdn.com/dms/image/C5612AQFl1Lf19RtX4g/article-inline_image-shrink_1000_1488/0/1636829218313?e=2147483647&v=beta&t=-OvkvKo9IYS-xkZCp5MHh2zF9Gbd-GHsD8BvxEDu4ro" style="width: 320px;">
+
+
+
 
 
 
