@@ -1,11 +1,13 @@
-
+ Federal Information Processing Standards (FIPS)
+ 
+ NIST Internal Reports (IR) 
 
 
 # Intro 
 Are you shoppig for a framework? \
 
 - [ISO Store (fuck that, just get a subsciption)](https://www.iso.org/store.html)
-- [YEAHH FREE NSIT YEAAA](https://www.nist.gov/)
+- [YEAHH! FREE NIST YEAAA!](https://www.nist.gov/)
 You shouldn't get too hung up on Accronyms.
 
 Risk management is three steps:
@@ -65,6 +67,13 @@ NIST CSF is available free, ISO 27001 involves audits and certification, Cert va
 
 So start-ups will usually kick start their InfoSec program with NIST and work their way up to ISO 27001 as they scale.
 
+## Heres a bunch of other frameworks or someshit 
+
+    HITRUST Common Security Framework (HITRUST CSF): the HITRUST CSF is designed to be a comprehensive set of security controls and processes used by healthcare organizations to protect patient information. The framework helps healthcare organizations adhere to HIPAA privacy regulations, as well as other industry-specific laws and standards.
+    Cloud Security Alliance Cloud Controls Matrix (CCM): the Cloud Security Alliance's CCM provides organizations with guidelines on how to effectively manage cloud computing operations from a security perspective. It includes hundreds of best practice recommendations that address everything from user authentication to data storage management.
+    SANS Critical Security Controls: the SANS Institute's Critical Security Controls are designed to provide IT professionals with an actionable roadmap for improving their organization's Cyber Security posture. The 20 critical security controls are grouped into three categories—identify, protect, and detect—making them easier to implement in any organization.
+    CIS Benchmarks: CIS Benchmarks are sets of technical standards created by the Center for Internet Security (CIS). They are used as reference points for system administrators when configuring various types of technology, including OSs, applications, databases, and cloud services.
+    General Data Protection Regulation (GDPR) Compliance Checklist: theGDPR is an EU regulation that applies to any organization processing personal data belonging to EU citizens or residents. This GDPR compliance checklist provides guidelines on how organizations can meet the requirements set out in this legislation regarding protecting the privacy rights of individuals.
 
 
 
