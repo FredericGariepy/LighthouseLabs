@@ -24,8 +24,10 @@ Subject: Personal threat model
 Subject: Cloud Browser
 
 [https://www.osint.industries/](https://www.osint.industries/)
+> Providing unmatched accuracy and real-time data, OSINT Industries supports over 3000 law enforcement departments worldwide.
 
 [https://pimeyes.com/](https://pimeyes.com/)
+> PimEyes is an advanced face recognition search engine, a reverse image search tool, and a photo search mechanism used to find which websites publish your shit
 
 ### sources / news
 
