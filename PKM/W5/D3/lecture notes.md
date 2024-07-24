@@ -56,9 +56,9 @@ CVE = record of a Vulnerability
 CWE = Commmon Weakness Enumeration \
 [https://cwe.mitre.org/](https://cwe.mitre.org/)
 
-e.g. [software CWE](https://cwe.mitre.org/data/definitions/699.html)
+[CVE home page](https://www.cve.org/) \
+[software CWE](https://cwe.mitre.org/data/definitions/699.html)
 
-[CVE](https://www.cve.org/)
 
 VND is based on CVEs
 - [VND search](https://nvd.nist.gov/vuln/search)
