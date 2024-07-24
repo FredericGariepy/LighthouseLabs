@@ -36,7 +36,8 @@ IIS Version 10.0
 
 ## - Windows workstations: (P) (A) -
 #### Windows OS:
-Microsoft Windows 11 Home 10.0.22631 22631
+Microsoft Windows 11 Home 10.0.22631 2263. \
+Other words: Windows version 23H2, Sun Valley 3
 - Sales (F) (P)
 - Marketing (P)
 - Management functions (A)
