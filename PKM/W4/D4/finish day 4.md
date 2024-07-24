@@ -52,7 +52,15 @@ as recognized by Annex A.8.1 of ISO27001 for asset responsibility and ID.AM of N
 
 <img src="https://media.licdn.com/dms/image/C5612AQFl1Lf19RtX4g/article-inline_image-shrink_1000_1488/0/1636829218313?e=2147483647&v=beta&t=-OvkvKo9IYS-xkZCp5MHh2zF9Gbd-GHsD8BvxEDu4ro" style="width: 320px;">
 
+### Diffrences :boxing_glove: NIST CSF -v. ISO 27001 :boom:
+### CSF :baby: :older_man: ISO
+The ISO 27001 offers a good certification choice for organizations that have operational maturity \
+while the NIST CSF may be best suited for organizations that are in the initial stages of developing a cybersecurity risk program or attempting to mitigate breaches.
 
+### CSF :free: :moneybag: ISO
+NIST CSF is available free, ISO 27001 involves audits and certification, Cert valid for three years, surveillance audits for two years and in year three, they’ll complete a recertification audit. 
+
+So start-ups will usually kick start their InfoSec program with NIST and work their way up to ISO 27001 as they scale.
 
 
 
