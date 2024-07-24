@@ -3,6 +3,9 @@
 
 # Intro 
 Are you shoppig for a framework? \
+
+- [ISO Store (fuck that, just get a subsciption)](https://www.iso.org/store.html)
+- [YEAHH FREE NSIT YEAAA](https://www.nist.gov/)
 You shouldn't get too hung up on Accronyms.
 
 Risk management is three steps:
