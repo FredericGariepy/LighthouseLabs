@@ -1,3 +1,8 @@
+### Privacy 
+[https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
+[https://github.com/pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)
+
 ### ONIST
 
 Cloud Browser
