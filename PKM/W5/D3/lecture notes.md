@@ -1,3 +1,5 @@
+https://www.osint.industries/
+
 "vulnerability is the 'weak point'.
 risk is the potential 'issue' after an incidient." - Ernie
 
