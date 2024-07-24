@@ -3,13 +3,16 @@
 
 [https://github.com/pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)
 
-### ONIST
+[https://kagi.com/](https://kagi.com/)
 
+### ONIST
 Cloud Browser
 
 [https://www.osint.industries/](https://www.osint.industries/)
 
 [https://pimeyes.com/](https://pimeyes.com/)
+
+### Class material
 
 "vulnerability is the 'weak point'.
 risk is the potential 'issue' after an incidient." - Ernie
