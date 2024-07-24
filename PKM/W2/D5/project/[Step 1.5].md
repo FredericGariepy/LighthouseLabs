@@ -1,5 +1,6 @@
 Workflow:
 1. [Assets](#assets)~~List assets, describe OS / software versions~~
+    - 1.5 Make data collected about Asset's OS/Software streamlined for step 2   <--You are here
 2. List labeled assets in descending priority, based on category.
 3. Assign CIA value to asset
 4. Assign SIL value to asset
