@@ -1,4 +1,7 @@
-https://www.osint.industries/
+### ONIST
+[https://www.osint.industries/](https://www.osint.industries/)
+
+[https://pimeyes.com/](https://pimeyes.com/)
 
 "vulnerability is the 'weak point'.
 risk is the potential 'issue' after an incidient." - Ernie
