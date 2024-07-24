@@ -6,3 +6,6 @@ vulnerability = weakness (potential to harm)/ flaw in soft/hardware, it will aff
 risk =  impact and likelyhood (harm)/ the effect 
 
 CVE = record of a Vulnerability
+
+CWE = Commmon Weakness Enumeration \
+[https://cwe.mitre.org/](https://cwe.mitre.org/)
