@@ -1,12 +1,18 @@
 
-Frameworks of focus for LHL:
-- NIST SP 800-Series RMF
-- ISO 27001 Information Security Management System (ISMS)
-- NIST Security Frameworks (NIST RMF and NIST Cyber Security Framework [CSF]):
 
 
 # Intro 
 Are you shoppig for a framework? \
+You shouldn't get too hung up on Accronyms.
+
+Risk management is three steps:
+1.   Identify risks to the organization’s information 
+2.   Implement controls appropriate to the risk
+3.   Monitor their performance 
+
+Got that? 3 steps. Risk managment, a.k.a. secure your shit framework. \
+Don't follow an RMF that misses to cover your ends.
+
 well then, you're in luck, this is the toyotathon of frameworks. \
 And don't get your accronyms twisted! Dont confuse things like CSF with CSIRT. [Computer Security Incident Response Team (CSIRT).](https://secureglobal.de/the-csirt-methodology)
 
@@ -18,6 +24,12 @@ First conider what the things you need in a framework:
 - Completeness
 - Flexibility
 - Scalability
+
+Now here's the frameworks we've got here for you today \
+Frameworks of focus for LHL:
+- NIST SP 800-Series RMF
+- ISO 27001 Information Security Management System (ISMS)
+- NIST Security Frameworks (NIST RMF and NIST Cyber Security Framework [CSF]):
 
 ## NIST CSF 
 Set of guidelines and best practices. (voluntary)
