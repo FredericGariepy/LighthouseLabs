@@ -26,7 +26,7 @@ Scope: Establish risk assesment for all assets part of the organization.
 Reference Documents:
 - [Categorize Step](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/RMF/1.%20Categorizing%20Systems.md)
 - [Select & Implementation Steps](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W4/D5/RMF)
-
+- [Risk Assesment Table](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
 Risk Treatment.
 Note: all data is classified as confidential.
 3. Reference Documents
