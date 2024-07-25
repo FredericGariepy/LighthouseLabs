@@ -48,8 +48,10 @@ Large amounts of work will be made on the Risk Assesment and Treatment Table (be
 This table will be refferenced throughout this document. \
 Take a moment to observe it, then continue.
 ## Risk Assesment and Treatment Table
+
 | Function (Category) | Asset Name | Asset Owner(s) | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk ($) | Proposed Risk Response | Description of the Proposed Response | Estimated Cost ($) | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
-| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
+|---------------------|------------|----------------|--------|---------------|--------------|------------------|------------|------------|--------------------------|------------------------|----------------------------------------|--------------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
+
 
 
 
