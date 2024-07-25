@@ -2,19 +2,38 @@
 ###### Document
 Date: 07/25/2024
 
+
+- [Executive Summary](#executive-summary)
+- [Referenced Documents](#referenced-documents)
+- [Purpose, Scope, and Users, Reference Documents](#1-purpose-scope-and-users-reference-documents)
+- [Categorize Inventory (1/2)](#2-categorize-inventory-12)
+- [Asset Management Table](#asset-management-table)
+- [Categorize Inventory (2/2)](#2-categorize-inventory-22)
+- [CIA Values Table](#cia-values-table)
+- [Risk Assessment (1/4)](#4-risk-assessment-14-start-filling-table-with-basic-information-from-step-3)
+- [Risk Assessment and Treatment Table](#risk-assessment-and-treatment-table)
+- [Risk Assessment (2/4)](#4-risk-assessment-24-find-existing-vulnerabilities-in-assets)
+- [Risk Assessment (3/4)](#4-risk-assessment-34-add-threats-risk-owners-likelihood-impact-risk-scores)
+- [Impact and Likelihood Scoring Table](#impact-and-likelihood-scoring-table)
+- [Risk Assessment (4/4)](#4-risk-assessment-44-select-controls-risk-response-treatment-details-monitoring-review)
+- [References](#references)
+
+
 ## Executive Summary
 This plan is for DE to: identify, assess, and manage the risks it faces, while taking into account the company's limited resources and competitive market environment.
 This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service. \
 The plan takes inspiration from the NIST RMF.
 
+## Referenced Documents
+- [Categorize Step](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/RMF/1.%20Categorizing%20Systems.md)
+- [Select & Implementation Steps](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W4/D5/RMF)
+- [Risk Assesment Table Example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
+- NIST  SP 800-53 [Access Controll Familly](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=AC)
+
 ## 1. Purpose, Scope, and Users, Reference Documents:
 __Users__: IT professionals, supply chain experts, and Risk Management specialists. \
 __Purpose__: This document uses the NIST RMF framework. \
 __Scope__: Establish risk assesment for all assets part of the organization. \
-__Referenced Documents__:
-- [Categorize Step](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/RMF/1.%20Categorizing%20Systems.md)
-- [Select & Implementation Steps](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W4/D5/RMF)
-- [Risk Assesment Table Example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
 
 ## 2. Categorize Inventory (1/2)
 #### All systems must be registered and documented.
@@ -96,6 +115,7 @@ To __manually__ look for vulnerabilities Using the Asset Management Table:
        Use [CWE](https://cwe.mitre.org/) for vulnerability category and mitigations. \
        If you found a documented vector, plug it into NVD CVSS v3.x Calculator. \
        Else, Use CVSS NVD CVSS v3.x Calculator to calculate CVS. \
+   3. In the End, you should have: Vulnerabilities, related CVE threat, and CVSs. \
 
 ##### Automated
 To use __Autommated tools__:
@@ -105,8 +125,7 @@ Use the Asset Management Table and feed the relevant informaiton (IP, MAC, Versi
 
 Write down the vulnerabilities found for each assets.
 
-## 4. Risk Assesment (3/4) Add threats, likelyhood, impact, risk scores.
-#### Write down the found vulnerabilities, and 
+## 4. Risk Assesment (3/4) Add threats, risk owners, likelyhood, impact, risk scores.
 
 Roles in charge: Risk Management specialists, Risk Owners
 
@@ -127,29 +146,24 @@ Use the Impact and Likelihood scoring table (below):
 Now __add risk scores__ which are the sum of the Impact and Likelyhood values:
 - Risk = Impact + Likelyhood
 
-## 4. Risk Assesment (4/4) Add Controls (Risk response), treatment details.
+## 4. Risk Assesment (4/4) Select Controls (Risk response), treatment details, monitoring(review).
+#### For each risk, assign an access controll. Write the treatment details.
 
+Roles in charge: Risk Management specialists, IT professionals
 
+The roles in charge will select controls for each risk. \
+Chose the controls from the comprehensive NIST control families:
+- NIST SP 800-53 [Control Families](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home)
+This security plan reccomends using the Access Controll Familly:
+- NIST  SP 800-53 [Access Controll Familly](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=AC)
 
+Once a control has been selected and writen in the Risk Assesment and Treatment Table, \
+The roles in charge must fill in the remaining table collumns: \
+Description of the Proposed Response, Estimated Cost ($), Implementation Priority (1st, 2nd, 3rd), Planned Start, Actual Start, Next Review Date, Implementing Control.
  
-
-
- Effective controls; unlikely | Moderate controls; possible | Weak controls; likely |
-
-
-Treatment Table in line with newly identified risks. The review is conducted at least once a year,
-or more frequently in the case of significant organizational changes, significant change in
-technology, change of business objectives, changes in the business environment, et
-
-
-
-
-
-
-
-Large amounts of work will be made on the Risk Assesment and Treatment Table (below). \
-This table will be refferenced throughout this document. \
-Take a moment to observe it, then continue.
+It is important at this time that a robust monitoring solution is thought out by the Risk Management specialists. \
+The review should be conducted at least once a year, or more frequently in the case of significant organizational changes, significant change in
+technology, change of business objectives, changes in the business environment, etc.
 
 
 
