@@ -6,11 +6,6 @@ This plan is for DE to: identify, assess, and manage the risks it faces, while t
 
 This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
 
-Large amounts of work will be made on the Risk Assesment and Treatment Table (below). Take a moment to observe it, then continue.
-
-## Risk Assesment and Treatment Table
-| Function | Asset Name | Asset Owner(s) | Classification | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk | Proposed Risk Response | Description of the Proposed Response | Estimated Cost | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
-|----------|------------|----------------|----------------|--------|---------------|--------------|------------------|------------|------------|------------------------|------------------------|----------------------------------------|----------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
 
 
 1. Purpose, Scope, and Users, Reference Documents
@@ -27,6 +22,11 @@ Reference Documents:
 - [Risk Assesment Table Example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
 
 
+Large amounts of work will be made on the Risk Assesment and Treatment Table (below). Take a moment to observe it, then continue. \
+This table will be refferenced throughout this document.
+## Risk Assesment and Treatment Table
+| Function | Asset Name | Asset Owner(s) | Classification | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk | Proposed Risk Response | Description of the Proposed Response | Estimated Cost | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
+|----------|------------|----------------|----------------|--------|---------------|--------------|------------------|------------|------------|------------------------|------------------------|----------------------------------------|----------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
 ---
 
 2. Risk Assessmen
