@@ -1,4 +1,4 @@
-# Risk Management Methodology
+# Risk Management Plan
 ###### Document
 Date: 07/25/2024
 
@@ -6,24 +6,27 @@ Date: 07/25/2024
 |-------------|------------------------------------------------------|
 | RMF         | Risk Management Framework                            |
 | ISMS        | Information Security Management System               |
-| ISO/IEC     | International Organization for Standardization/International Electrotechnical Commission |
 | MSA         | Master Service Agreement                             |
 | SoA         | Statement of Applicability                           |
 | DE | Danny’s Enterprise|
 
-our Risk Methodology should be designed to help DE identify, assess, and manage the risks it faces, while taking into account the company's limited resources and competitive market environment. By developing a comprehensive Risk Methodology, DE can ensure that it is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
+This plan is for DE to: identify, assess, and manage the risks it faces, while taking into account the company's limited resources and competitive market environment.
+
+This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
 
 
-RISK ASSESSMENT AND RISK TREATMENT METHODOLOGY
-1. Purpose, Scope, and Users
-The purpose of this document is to define the methodology for assessment and treatment of
-information risks in MHS, and to define the acceptable level of risk according to the ISO/IEC
-27001 standard.
-   
-Risk Assessment and Risk Treatment are applied to the entire scope of the ISMS (i.e., to all
-assets which are used within the organization or which could have an impact on information
-security within the ISMS).
-Users of this document are all employees of ACME INC. who take part in Risk Assessment and
+1. Purpose, Scope, and Users, Reference Documents
+
+Users: IT professionals, supply chain experts, and Risk Management specialists.
+
+Purpose: This document uses the NIST RMF framework.
+
+Scope: Establish risk assesment for all assets part of the organization.
+
+Reference Documents:
+- [Categorize Step](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/RMF/1.%20Categorizing%20Systems.md)
+- [Select & Implementation Steps](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W4/D5/RMF)
+
 Risk Treatment.
 Note: all data is classified as confidential.
 3. Reference Documents
