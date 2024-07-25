@@ -4,7 +4,8 @@ Date: 07/25/2024
 
 ## Executive Summary
 This plan is for DE to: identify, assess, and manage the risks it faces, while taking into account the company's limited resources and competitive market environment.
-This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
+This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service. \
+The plan takes inspiration from the NIST RMF.
 
 ## 1. Purpose, Scope, and Users, Reference Documents:
 __Users__: IT professionals, supply chain experts, and Risk Management specialists. \
@@ -62,24 +63,28 @@ Add the SCS value to the Asset Management Table.
 
 Sort the Asset Management Table by SC score, this will _help* to better reflect_ asset priorities.
 
-## 4. Risk Assesment (1/4)
+## 4. Risk Assesment (1/4) Start filling table with basic information from Step 3
 #### Fill Risk Assesment with information found in Asset Management Table
 With the completed Asset Management Table, \
 Fill in the Risk Assesment and Treatment Table (below) \
 __Add__: Asset ID, SC Score, Function, Asset Name, Asset Owner(s)
 
-Roles in charge: Risk Management specialists, Risk Owners
+Roles in charge: Risk Management specialists
 
 > [!NOTE]
 > Function is based on Asset type. \
 > Function = Hardware, Software, Information (in physical or electronic form) 
-## Risk Assesment and Treatment Table
-| Asset ID | SC Score | Function (based on Asset type) | Asset Name | Asset Owner(s) | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk ($) | Proposed Risk Response | Description of the Proposed Response | Estimated Cost ($) | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
+### Risk Assesment and Treatment Table
+| Asset ID | SC Score | Function (based on Asset type) | Asset Name | Asset Owner(s) | Vulnerability | Threat | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk ($) | Proposed Risk Response | Description of the Proposed Response | Estimated Cost ($) | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
 |----------|----------|---------------------|------------|----------------|--------|---------------|--------------|------------------|------------|------------|--------------------------|------------------------|----------------------------------------|--------------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
 
-## 4. Risk Assesment (1/4)
-#### Find existing vulnerabilities manualy or and with automated tools
-To manually look for vulnerabilities Using the Asset Management Table:
+## 4. Risk Assesment (2/4) Find existing vulnerabilities in assets
+#### For each asset, find existing vulnerabilities (manualy or with automated tools)
+
+Roles in charge: Risk Management specialists
+
+##### Manual
+To __manually__ look for vulnerabilities Using the Asset Management Table:
 1. Reseach the asset name, version number, to find officially documented manifacturer/developer vulnerabilities.
 2. Reseach the asset name, version number in NVD 
     1. Find __asset related CVE__, and CVE details. \
@@ -92,28 +97,52 @@ To manually look for vulnerabilities Using the Asset Management Table:
        If you found a documented vector, plug it into NVD CVSS v3.x Calculator. \
        Else, Use CVSS NVD CVSS v3.x Calculator to calculate CVS. \
 
-Autommated tools:
--  [OpenVas](https://www.openvas.org/)
-> Set up scans to identify vulnerabilities on your network,
+##### Automated
+To use __Autommated tools__:
+Use the Asset Management Table and feed the relevant informaiton (IP, MAC, Version number) to automated vulnerability detection systems:
+-  For systems: [OpenVas](https://www.openvas.org/)
+-  For Web Apps: [Owasp ZAP](https://www.zaproxy.org/)
+
+Write down the vulnerabilities found for each assets.
+
+## 4. Risk Assesment (3/4) Add threats, likelyhood, impact, risk scores.
+#### Write down the found vulnerabilities, and 
+
+Roles in charge: Risk Management specialists, Risk Owners
+
+The roles in charge must now assign Risk Owners to each asset.
+- __Write the Risk Owner__ for each asset in Risk Assesment and Treatment Table.
+
+The roles in charge, must now assign threats to each vulnerability
+- __Write the threat for each vulnerability.__
+
+The roles in charge, must now assign each risk : Impact, Likelihood rating. \
+Use the Impact and Likelihood scoring table (below): 
+### Impact and Likelihood scoring table.
+|           | 0 - Low | 1 - Moderate | 2 - High |
+|-----------|-----------------|---------------------|-----------------|
+| Impact    | No significant effect | Moderate impact on obligations | Severe impact on operations |
+| Likelyhood| unlikely | possible | likely |
+
+Now __add risk scores__ which are the sum of the Impact and Likelyhood values:
+- Risk = Impact + Likelyhood
+
+## 4. Risk Assesment (4/4) Add Controls (Risk response), treatment details.
 
 
 
-With basic asset infomation filled in to the Risk Assesment and Treatment Table, \
+ 
 
 
+ Effective controls; unlikely | Moderate controls; possible | Weak controls; likely |
 
 
-Risk owners must review existing risks and update the Risk Assessment Table and Risk
 Treatment Table in line with newly identified risks. The review is conducted at least once a year,
 or more frequently in the case of significant organizational changes, significant change in
 technology, change of business objectives, changes in the business environment, et
 
 
 
-|           | 0 - Low Impact | 1 - Moderate Impact | 2 - High Impact |
-|-----------|-----------------|---------------------|-----------------|
-| Impact    | No significant effect | Moderate impact on obligations | Severe impact on operations |
-| Likelihood| Effective controls; unlikely | Moderate controls; possible | Weak controls; likely |
 
 
 
