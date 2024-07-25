@@ -5,7 +5,7 @@ Date: 07/25/2024
 This plan is for DE to: identify, assess, and manage the risks it faces, while taking into account the company's limited resources and competitive market environment.
 This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
 
-1. Purpose, Scope, and Users, Reference Documents:
+### 1. Purpose, Scope, and Users, Reference Documents:
 
 __Users__: IT professionals, supply chain experts, and Risk Management specialists. \
 __Purpose__: This document uses the NIST RMF framework. \
@@ -16,28 +16,28 @@ __Referenced Documents__:
 - [Risk Assesment Table Example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
 
 
----
-
-2. Risk Assessment
-
-2.1. Inventory
+### 2. Categorize Inventory
+All systems must be registered and documented. \
+System registration facilitates management of assets and is used as a tracking tool. \
 Using automated or and manual technniques list all assets beloning to the organization. 
 
-Autommated tools to detect devices on your network:
--  [nmap](https://nmap.org/)
-> Use it to scan your network and detect all active devices.
-- [OCS Inventory NG ](https://github.com/OCSInventory-NG)
-> Open Computers and Software Inventory Next Generation is an assets management and deployment solution.
+Autommations and tools to detect and make an inventory devices on your network:
+-  [nmap](https://nmap.org/) Use it to scan your network and detect all active devices.
+- [OCS Inventory NG ](https://github.com/OCSInventory-NG) Open Computers and Software Inventory is an assets management and deployment solution.
+- Content Management System (CMS)
+- Enterprise Mission Assurance Support System (eMASS)
+- Telos XACTA
 
-Fill out the Asset Management Table
-
+Fill out the Asset Management Table, and enter it into your Enterprise IT Registry.
+- Do not yet fill Integrity, Availability, Security, Category Score
 - Asset Type = Software, Hardware, Information (in physical or electronic form)
-
+- Purpose = Use it to add context 
 ## Asset Management Table
-| Asset ID | Asset Name | Asset Type | Category | Asset Owner(s) | Location | Version Number | Purpose |
-|----------|------------|------------|----------|----------------|----------|----------------|---------|
+| Asset ID | Asset Name | Asset Type | Asset Owner(s) | Location | Version Number | Purpose | Confidentiality | Integrity | Availability | Security Category Score |
+|----------|------------|------------|----------------|----------|----------------|---------|----------------|-----------|--------------|-------------------------|
+|          |            |            |                |          |                |         |                |           |              |                         |
 
-
+### 3. 
 
 
 Autommated tools:
