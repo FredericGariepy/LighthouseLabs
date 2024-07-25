@@ -35,7 +35,14 @@ Autommated tools to detect devices on your network:
 - [OCS Inventory NG ](https://github.com/OCSInventory-NG)
 > Open Computers and Software Inventory Next Generation is an assets management and deployment solution.
 
-Enter the asset into the Risk assesment table.
+Fill out the table 
+
+- Asset Type = Software, Hardware, Information (in physical or electronic form)
+
+
+| Asset ID | Asset Name | Asset Type | Category | Asset Owner(s) | Location | Version Number | Purpose |
+|----------|------------|------------|----------|----------------|----------|----------------|---------|
+
 
 
 
