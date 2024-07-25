@@ -44,8 +44,9 @@ Your Risk Methodology for DE should include the following components:
     3. Determining the risk owners: In examination of three different risks, create a “chain” of ownership of the risk from ground level to senior executive level. Explain what and how each owner may contribute to the chain.
     4. Impact and likelihood: Create a table that lists three threats or risks. Reflect and document the effect of these risks on C, I, or A or more than one of these, to what extent (from 0 to 10) and how likely (0 to 5)?
     5. Risk acceptance criteria: Explain how the most likely / highest risk item may impact DE and explain why some items in the table may be “ignored” or “minimized” based on the information provided by DE – reflect back on your risk assignments.
-3.  Risk Treatment: Summarize the 3 main threats you have identified above, what recommended mitigations or responses you recommend for each and what priority you would give each one.
-    1. Be sure to explain your prioritizations and your recommended responses. Don’t forget to reference industry standard frameworks to aid you in deciding on your recommended mitigations or responses.
+3.  Risk Treatment:
+    1. Summarize the 3 main threats you have identified above, what recommended mitigations or responses you recommend for each and what priority you would give each one.
+    2. Be sure to explain your prioritizations and your recommended responses. Don’t forget to reference industry standard frameworks to aid you in deciding on your recommended mitigations or responses.
 
 
 
