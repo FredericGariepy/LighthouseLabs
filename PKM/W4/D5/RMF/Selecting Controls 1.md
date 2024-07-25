@@ -82,11 +82,16 @@ Tailoring includes:
 - supplementing baselines with additional security controls and control enhancements, if needed, and
 - providing additional specification information for control implementation, if needed.
 
+At this point, start thinking about monitoring.. since controlls and monitoring are related. 
 
+#### control Volatility. 
 
+- __High Volatility Controls__:
+These are controls that frequently change or are often subject to new threats. For example, a security control related to software patching may have high volatility because new vulnerabilities are constantly being discovered and need to be patched.
 
-
-
+- __Low Volatility Controls__:
+These are controls that do not change often and are generally stable. An example might be physical security controls like door locks or security guards, which do not need to be monitored or adjusted as frequently.
+---
 
 ##### Access control family  
 | No. |  Access control family                                   |
