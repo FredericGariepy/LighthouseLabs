@@ -82,7 +82,15 @@ Roles in charge: Risk Management specialists, Risk Owners
 To manually look for vulnerabilities Using the Asset Management Table:
 1. Reseach the asset name, version number, to find officially documented manifacturer/developer vulnerabilities.
 2. Reseach the asset name, version number in NVD 
-
+    1. Find __asset related CVE__, and CVE details. \
+       Use: [cvedetails](https://www.cvedetails.com/vulnerability-list/) \
+       Use: [VND search](https://nvd.nist.gov/vuln/search) \
+       Use: Your research skills.
+    2. Read the CVE and look for:
+       CVE for description, listed mitigations, listed CV score, links to CWE. \
+       Use [CWE](https://cwe.mitre.org/) for vulnerability category and mitigations. \
+       If you found a documented vector, plug it into NVD CVSS v3.x Calculator. \
+       Else, Use CVSS NVD CVSS v3.x Calculator to calculate CVS. \
 
 Autommated tools:
 -  [OpenVas](https://www.openvas.org/)
