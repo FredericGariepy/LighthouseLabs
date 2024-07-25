@@ -1,3 +1,9 @@
+> [!NOTE]
+> This project was accepted.
+>
+> Enhancement suggested: create a visual for workflow.
+>
+> For Visuals use [https://app.diagrams.net/](https://app.diagrams.net/)
 # Playbook for Cat & Box Scenario 
 Date: 07/23/2024
 ## Contents
