@@ -19,8 +19,10 @@ __Referenced Documents__:
 ### 2. Categorize Inventory
 All systems must be registered and documented. \
 System registration facilitates management of assets and is used as a tracking tool. \
-Using automated or and manual technniques list all assets beloning to the organization. 
 
+Roles in charge: IT professionals \
+
+Using automated or and manual technniques list all assets beloning to the organization. \
 Autommations and tools to detect and make an inventory devices on your network:
 -  [nmap](https://nmap.org/) Use it to scan your network and detect all active devices.
 - [OCS Inventory NG ](https://github.com/OCSInventory-NG) Open Computers and Software Inventory is an assets management and deployment solution.
@@ -35,7 +37,39 @@ Fill out the Asset Management Table, and enter it into your Enterprise IT Regist
 ## Asset Management Table
 | Asset ID | Asset Name | Asset Type | Asset Owner(s) | Location | Version Number | Purpose | Confidentiality | Integrity | Availability | Security Category Score |
 |----------|------------|------------|----------------|----------|----------------|---------|----------------|-----------|--------------|-------------------------|
-|          |            |            |                |          |                |         |                |           |              |                         |
+
+## 3. Add CIA values and SCS to the Asset Management Table
+Each 
+
+SC<sub>Information</sub> = {(C:val),(I:val),(A:val)} \
+SC<sub>Information System</sub> =  {(C:val),(I:val),(A:val)}
+
+NIST SP 800-53 uses high-water mark (NIST, 2013)
+
+> think of other policy/rmf and their water mark
+
+SC<sub>__System__</sub> =  Max Value from both( SC<sub>Information</sub> AND SC<sub>Information System</sub> )
+
+...
+
+SC<sub>__System__</sub> =   {(C:__max__ val),(I:__max__ val),(A:__max__ val)}
+
+SC<sub>__System__</sub> =  Max Value of ( SC<sub>__System__</sub> ) = highest value over all.
+
+SC<sub>__System__</sub>  =  highest value over all. = SIL(?)
+
+
+Roles in charge: Risk Management specialists
+CIA values are assigned scores according to this table:
+| Attribute       | Low (1)                      | Moderate (2)                  | High (3)                       |
+|-----------------|------------------------------|--------------------------------|--------------------------------|
+| Confidentiality | Public, minimal sensitivity  | Requires protection            | Highly sensitive, severe impact if leaked |
+| Integrity       | Minor impact if altered      | Significant impact if corrupted| Critical, severe impact if altered |
+| Availability    | Minimal impact if unavailable| Moderate impact, some disruption| Major impact, operation failure |
+
+
+
+
 
 ### 3. 
 
@@ -279,6 +313,12 @@ Priority
 Planned
 Start Review Date Planned
 Closure
+
+## Refferences
+
+National Institute of Standards and Technology. (2013). Security and privacy controls for federal information systems and organizations (Special Publication 800-53 Rev. 4). https://csrc.nist.gov/files/pubs/sp/800/53/r4/final/docs/sp800-53-rev4-ipd.pdf
+
+
 
 | Acronym     | Full Form                                            |
 |-------------|------------------------------------------------------|
