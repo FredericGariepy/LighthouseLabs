@@ -18,7 +18,7 @@ __Referenced Documents__:
 
 ### 2. Categorize Inventory
 All systems must be registered and documented. \
-System registration facilitates management of assets and is used as a tracking tool. \
+System registration facilitates management of assets and is used as a tracking tool.
 
 Roles in charge: IT professionals
 
@@ -34,12 +34,12 @@ Fill out the Asset Management Table, and enter it into your Enterprise IT Regist
 - Do not yet fill Integrity, Availability, Security, Category Score
 - Asset Type = Software, Hardware, Information (in physical or electronic form)
 - Purpose = Use it to add context 
-## Asset Management Table
+### Asset Management Table
 | Asset ID | Asset Name | Asset Type | Asset Owner(s) | Location | Version Number | Purpose | Confidentiality | Integrity | Availability | Security Category Score |
 |----------|------------|------------|----------------|----------|----------------|---------|----------------|-----------|--------------|-------------------------|
 
 ## 3. Add CIA values and SCS to the Asset Management Table
-Each asset will now receive a CIA values, the score of each value is based on the respective __loss__ brought by an attack.
+Each asset will now receive a CIA values, the score of each value is based on the respective __loss__ brought to the organization by an attack.
 
 Roles in charge: Risk Management specialists
 
@@ -59,27 +59,44 @@ This follows NIST SP 800-53 ussing a high-water mark (NIST, 2013).
 
 Add the SCS value to the Asset Management Table.
 
+Sort the Asset Management Table by SC score, this will _help* to better reflect_ asset priorities.
 
+## 4 Risk Assesment
+With the completed Asset Management Table, \
+Fill in the Risk Assesment and Treatment Table (below) \
+__Add__: Asset ID, SC Score, Function, Asset Name, Asset Owner(s)
 
-
-
-
-### 3. 
-
+Note: \
+Function is based on Asset type. \
+Function = Hardware, Software, Information (in physical or electronic form) 
+## Risk Assesment and Treatment Table
+| Asset ID | SC Score | Function (based on Asset type) | Asset Name | Asset Owner(s) | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk ($) | Proposed Risk Response | Description of the Proposed Response | Estimated Cost ($) | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
+|----------|----------|---------------------|------------|----------------|--------|---------------|--------------|------------------|------------|------------|--------------------------|------------------------|----------------------------------------|--------------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
 
 Autommated tools:
 -  [OpenVas](https://www.openvas.org/)
 > Set up scans to identify vulnerabilities on your network,
 
+
+
+Risk owners must review existing risks and update the Risk Assessment Table and Risk
+Treatment Table in line with newly identified risks. The review is conducted at least once a year,
+or more frequently in the case of significant organizational changes, significant change in
+technology, change of business objectives, changes in the business environment, et
+
+
+
+|           | 0 - Low Impact | 1 - Moderate Impact | 2 - High Impact |
+|-----------|-----------------|---------------------|-----------------|
+| Impact    | No significant effect | Moderate impact on obligations | Severe impact on operations |
+| Likelihood| Effective controls; unlikely | Moderate controls; possible | Weak controls; likely |
+
+
+
+
 Large amounts of work will be made on the Risk Assesment and Treatment Table (below). \
 This table will be refferenced throughout this document. \
 Take a moment to observe it, then continue.
-## Risk Assesment and Treatment Table
-
-| Function (Category) | Asset Name | Asset Owner(s) | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk ($) | Proposed Risk Response | Description of the Proposed Response | Estimated Cost ($) | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
-|---------------------|------------|----------------|--------|---------------|--------------|------------------|------------|------------|--------------------------|------------------------|----------------------------------------|--------------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
-
-
 
 
 
