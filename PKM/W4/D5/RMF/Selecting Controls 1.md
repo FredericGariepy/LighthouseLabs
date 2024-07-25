@@ -1,3 +1,4 @@
+# ( ͡° ͜ʖ ͡°)
 # RMF Stage 2 - Selecting Controls (Part One)
 ## Stage 2, breakdown:
 - selecting controls
@@ -14,7 +15,6 @@ Security and privacy plans that reflect the control selection, designation, and 
 
 # tasks of the Select stage (1,2,3,4):
 ### Task 1 - Common Control Identification:
-# :family_woman_woman_girl_boy:
 identify the security controls that are provided by the organization as common controls for organizational information systems and document the controls in a security plan (or equivalent document).
 
 ### Task 2 - Security Control Selection/System-Specific Control Selection:
