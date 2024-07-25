@@ -6,4 +6,9 @@ subject: security champion \
 [How to Build a Security Champions Program](https://go.snyk.io/security-champions-playbook.html?utm_medium=paid-search&utm_source=google&utm_campaign=nb_lg_security-champions&utm_content=security_champion&utm_term=security%20champion)
 
 
-[hack the box](https://www.hackthebox.com/)
+Vulnerability research \
+[hack the box](https://www.hackthebox.com/) \
+[https://www.metasploit.com/](https://www.metasploit.com/) \
+
+[https://github.com/digininja/DVWA](https://github.com/digininja/DVWA)
+Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is damn vulnerable.
