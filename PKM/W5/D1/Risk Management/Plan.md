@@ -2,12 +2,11 @@
 ###### Document
 Date: 07/25/2024
 
-### Executive Summary
+## Executive Summary
 This plan is for DE to: identify, assess, and manage the risks it faces, while taking into account the company's limited resources and competitive market environment.
 This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
 
-### 1. Purpose, Scope, and Users, Reference Documents:
-
+## 1. Purpose, Scope, and Users, Reference Documents:
 __Users__: IT professionals, supply chain experts, and Risk Management specialists. \
 __Purpose__: This document uses the NIST RMF framework. \
 __Scope__: Establish risk assesment for all assets part of the organization. \
@@ -16,9 +15,8 @@ __Referenced Documents__:
 - [Select & Implementation Steps](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W4/D5/RMF)
 - [Risk Assesment Table Example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
 
-
-### 2. Categorize Inventory
-All systems must be registered and documented. \
+## 2. Categorize Inventory (1/2)
+#### All systems must be registered and documented.
 System registration facilitates management of assets and is used as a tracking tool.
 
 Roles in charge: IT professionals
@@ -36,10 +34,11 @@ Fill out the Asset Management Table, and enter it into your Enterprise IT Regist
 - Asset Type = Software, Hardware, Information (in physical or electronic form)
 - Purpose = Use it to add context 
 ### Asset Management Table
-| Asset ID | Asset Name | Asset Type | Asset Owner(s) | Location | Version Number | Purpose | Confidentiality | Integrity | Availability | Security Category Score |
-|----------|------------|------------|----------------|----------|----------------|---------|----------------|-----------|--------------|-------------------------|
+| Asset ID | Asset Name | Asset Type | Asset Owner(s) | Location | Version Number | IP Address | MAC Address | Purpose | Confidentiality | Integrity | Availability | Security Category Score |
+|----------|------------|------------|----------------|----------|----------------|------------|-------------|---------|----------------|-----------|--------------|-------------------------|
 
-## 3. Add CIA values and SCS to the Asset Management Table
+## 2. Categorize Inventory (2/2)
+#### Add CIA values and SCS to the Asset Management Table
 Each asset will now receive a CIA values, the score of each value is based on the respective __loss__ brought to the organization by an attack.
 
 Roles in charge: Risk Management specialists
@@ -49,6 +48,7 @@ SC<sub>Information</sub> = {(C:val),(I:val),(A:val)} \
 SC<sub>Information System</sub> =  {(C:val),(I:val),(A:val)} 
 
 CIA values are assigned scores according this table:
+### CIA Values table
 | Attribute       | Low (1)                      | Moderate (2)                  | High (3)                       |
 |-----------------|------------------------------|--------------------------------|--------------------------------|
 | Confidentiality | Public, minimal sensitivity  | Requires protection            | Highly sensitive, severe impact if leaked |
@@ -62,21 +62,36 @@ Add the SCS value to the Asset Management Table.
 
 Sort the Asset Management Table by SC score, this will _help* to better reflect_ asset priorities.
 
-## 4 Risk Assesment
+## 4. Risk Assesment (1/4)
+#### Fill Risk Assesment with information found in Asset Management Table
 With the completed Asset Management Table, \
 Fill in the Risk Assesment and Treatment Table (below) \
 __Add__: Asset ID, SC Score, Function, Asset Name, Asset Owner(s)
 
-Note: \
-Function is based on Asset type. \
-Function = Hardware, Software, Information (in physical or electronic form) 
+Roles in charge: Risk Management specialists, Risk Owners
+
+> [!NOTE]
+> Function is based on Asset type. \
+> Function = Hardware, Software, Information (in physical or electronic form) 
 ## Risk Assesment and Treatment Table
 | Asset ID | SC Score | Function (based on Asset type) | Asset Name | Asset Owner(s) | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk ($) | Proposed Risk Response | Description of the Proposed Response | Estimated Cost ($) | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
 |----------|----------|---------------------|------------|----------------|--------|---------------|--------------|------------------|------------|------------|--------------------------|------------------------|----------------------------------------|--------------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
 
+## 4. Risk Assesment (1/4)
+#### Find existing vulnerabilities manualy or and with automated tools
+To manually look for vulnerabilities Using the Asset Management Table:
+1. Reseach the asset name, version number, to find officially documented manifacturer/developer vulnerabilities.
+2. Reseach the asset name, version number in NVD 
+
+
 Autommated tools:
 -  [OpenVas](https://www.openvas.org/)
 > Set up scans to identify vulnerabilities on your network,
+
+
+
+With basic asset infomation filled in to the Risk Assesment and Treatment Table, \
+
 
 
 
