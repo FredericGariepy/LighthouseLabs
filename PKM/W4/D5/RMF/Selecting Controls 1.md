@@ -36,7 +36,7 @@ System-specific controls provide a capability for a particular system only and a
 - An example: IA-6 AUTHENTICATION FEEDBACK, designed to obscure the feedback of authentication information during the authentication process.
 ---
 
-### Task 1.
+# Task 1 of Select: Identify Common Controls
 - __Identify__ common controls in organization.
 - __document__ the controls in a security plan (or equivalent document).
 
@@ -60,14 +60,14 @@ Hierarchy in control family; begin with a base control family (broadest set). Th
 +----------------------+
 ```
 
-
 ### 3 control implementation approaches
-- __Common controls__: controls that provide a capability for multiple systems
-- __System-specific controls__: controls that provide a capability for a particular system only
-- __Hybrid controls__: controls that have both system-specific and common characteristics
+- __Common controls__: controls that provide a capability for multiple systems  __COMMON__ __INHerited___
+- __System-specific controls__: controls that provide a capability for a particular system only __SPECIFIC__
+- __Hybrid controls__: controls that have both system-specific and common characteristics __HYBRID__
 
-
-
+# Task 2 of Select: Select System-Specific Controls
+- __select__ the security __controls for the information system__ 
+- __document__ the controls in the security plan.
 
 
 
