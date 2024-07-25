@@ -2,19 +2,13 @@
 ###### Document
 Date: 07/25/2024
 
-| Acronym     | Full Form                                            |
-|-------------|------------------------------------------------------|
-| RMF         | Risk Management Framework                            |
-| ISMS        | Information Security Management System               |
-| MSA         | Master Service Agreement                             |
-| SoA         | Statement of Applicability                           |
-| DE | Danny’s Enterprise|
-
 This plan is for DE to: identify, assess, and manage the risks it faces, while taking into account the company's limited resources and competitive market environment.
 
 This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
 
-## Risk Assesment Table
+Large amounts of work will be made on the Risk Assesment and Treatment Table (below). Take a moment to observe it, then continue.
+
+## Risk Assesment and Treatment Table
 | Function | Asset Name | Asset Owner(s) | Classification | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk | Proposed Risk Response | Description of the Proposed Response | Estimated Cost | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
 |----------|------------|----------------|----------------|--------|---------------|--------------|------------------|------------|------------|------------------------|------------------------|----------------------------------------|----------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
 
@@ -277,3 +271,11 @@ Priority
 Planned
 Start Review Date Planned
 Closure
+
+| Acronym     | Full Form                                            |
+|-------------|------------------------------------------------------|
+| RMF         | Risk Management Framework                            |
+| ISMS        | Information Security Management System               |
+| MSA         | Master Service Agreement                             |
+| SoA         | Statement of Applicability                           |
+| DE | Danny’s Enterprise|
