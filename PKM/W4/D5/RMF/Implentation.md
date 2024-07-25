@@ -1,4 +1,5 @@
-# RMF Step 3 implementing security controls.
+# RMF Step 3 - Implementing security controls.
+Resource: page 28-29 [NIST SP800-37r1](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-37r1.pdf)
 Two key tasks:
 1. __Implement security controls__:
     Integrate security early, allocate controls to specific components, and use best practices. Consider independently evaluated products and additional measures for high-impact systems.
