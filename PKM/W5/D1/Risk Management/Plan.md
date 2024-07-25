@@ -14,6 +14,10 @@ This plan is for DE to: identify, assess, and manage the risks it faces, while t
 
 This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
 
+## Risk Assesment Table
+| Function | Asset Name | Asset Owner(s) | Classification | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk | Proposed Risk Response | Description of the Proposed Response | Estimated Cost | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
+|----------|------------|----------------|----------------|--------|---------------|--------------|------------------|------------|------------|------------------------|------------------------|----------------------------------------|----------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
+
 
 1. Purpose, Scope, and Users, Reference Documents
 
@@ -28,19 +32,28 @@ Reference Documents:
 - [Select & Implementation Steps](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W4/D5/RMF)
 - [Risk Assesment Table Example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
 
-| Function | Asset Name | Asset Owner(s) | Classification | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk | Proposed Risk Response | Description of the Proposed Response | Estimated Cost | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
-|----------|------------|----------------|----------------|--------|---------------|--------------|------------------|------------|------------|------------------------|------------------------|----------------------------------------|----------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
 
-Risk Treatment.
-Note: all data is classified as confidential.
-3. Reference Documents
-● ISO/IEC 27001 standard, clauses 6.1.2, 6.1.3, 8.2, and 8.3
-● Information security policy
-● List of legal, regulatory and contractual, and other requirements
-● Master service agreement (MSA)
-● Statement of applicability (SoA)
-4. Risk Assessment and Risk Treatment Methodology
-3.1 Risk Assessment
+---
+
+2. Risk Assessmen
+
+1. Inventory
+Using automated or and manual technniques list all assets beloning to the organization. 
+
+Autommated tools to detect devices on your network:
+-  [nmap](https://nmap.org/)
+> Use it to scan your network and detect all active devices
+- [OCS Inventory NG ](https://github.com/OCSInventory-NG)
+> Open Computers and Software Inventory Next Generation is an assets management and deployment solution.
+
+Enter the asset into the Risk assesment table.
+
+
+
+Autommated tools:
+-  [OpenVas](https://www.openvas.org/)
+> Set up scans to identify vulnerabilities on your network,
+
 3.1.1. The Process
 Risk Assessment is implemented through the Risk Assessment Table. The Risk Assessment
 process is coordinated by the information security analyst, identification of threats and
@@ -133,7 +146,7 @@ The information security analyst will document the results of Risk Assessment an
 Treatment, and all of the subsequent reviews, in the Risk Assessment and Treatment Report.
 The information security analyst will monitor the progress of implementation of the Risk
 Treatment plan and report the results to organizational unit heads each month.
-5. Managing Records Kept on the Basis of this Document
+3. Managing Records Kept on the Basis of this Document
 Record Name Storage Location Person
 Responsible for
 Storage
@@ -220,12 +233,12 @@ period of
 three years
 Only the Information Security Manager can grant other employees’ access to any of the above
 mentioned documents.
-6. Validity and Document Management
+4. Validity and Document Management
 This document is valid as of April 2021.
 The owner of this document is the Information Security Analyst, who must check and, if
 necessary, update the document at least once a year before the regular review of existing Risk
 Assessment.
-7. Appendices
+5. Appendices
 ● Appendix 1: Risk Assessment Table
 ● Appendix 2: Risk Treatment Table
 Appendix A – Risk Assessment Table
