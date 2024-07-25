@@ -16,12 +16,6 @@ __Referenced Documents__:
 - [Risk Assesment Table Example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
 
 
-Large amounts of work will be made on the Risk Assesment and Treatment Table (below). \
-This table will be refferenced throughout this document. \
-Take a moment to observe it, then continue.
-## Risk Assesment and Treatment Table
-| Function (Category) | Asset Name | Asset Owner(s) | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk ($) | Proposed Risk Response | Description of the Proposed Response | Estimated Cost ($) | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
-|----------|------------|----------------|----------------|---------------|--------------|------------------|------------|------------|------------------------|------------------------|----------------------------------------|----------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
 ---
 
 2. Risk Assessment
@@ -31,15 +25,15 @@ Using automated or and manual technniques list all assets beloning to the organi
 
 Autommated tools to detect devices on your network:
 -  [nmap](https://nmap.org/)
-> Use it to scan your network and detect all active devices
+> Use it to scan your network and detect all active devices.
 - [OCS Inventory NG ](https://github.com/OCSInventory-NG)
 > Open Computers and Software Inventory Next Generation is an assets management and deployment solution.
 
-Fill out the table 
+Fill out the Asset Management Table
 
 - Asset Type = Software, Hardware, Information (in physical or electronic form)
 
-
+## Asset Management Table
 | Asset ID | Asset Name | Asset Type | Category | Asset Owner(s) | Location | Version Number | Purpose |
 |----------|------------|------------|----------|----------------|----------|----------------|---------|
 
@@ -49,6 +43,16 @@ Fill out the table
 Autommated tools:
 -  [OpenVas](https://www.openvas.org/)
 > Set up scans to identify vulnerabilities on your network,
+
+Large amounts of work will be made on the Risk Assesment and Treatment Table (below). \
+This table will be refferenced throughout this document. \
+Take a moment to observe it, then continue.
+## Risk Assesment and Treatment Table
+| Function (Category) | Asset Name | Asset Owner(s) | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk ($) | Proposed Risk Response | Description of the Proposed Response | Estimated Cost ($) | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
+| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
+
+
+
 
 3.1.1. The Process
 Risk Assessment is implemented through the Risk Assessment Table. The Risk Assessment
