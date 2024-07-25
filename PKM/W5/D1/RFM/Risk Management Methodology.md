@@ -52,11 +52,10 @@ Your Risk Methodology for DE should include the following components:
 
 Objectives
 
-Your task is to develop a Risk Methodology for DE that will help the company identify and manage the risks it faces. Your methodology should include an explanation on how to create the following components:
+Your task is to develop a Risk Methodology for DE that will help the company identify and manage the risks it faces.
 
-    Risk Identification: identify the potential risks that DE faces, including both internal and external risks.
-    Risk Assessment: assess the likelihood and potential impact of each risk, using a risk matrix or similar tool.
-    Risk Management: develop a set of Risk Management strategies that DE can use to reduce the likelihood and/or impact of each identified risk.
+Your methodology should include an explanation on how to create the following components:
 
-
-
+- Risk Identification: identify the potential risks that DE faces, including both internal and external risks.
+- Risk Assessment: assess the likelihood and potential impact of each risk, using a risk matrix or similar tool.
+= Risk Management: develop a set of Risk Management strategies that DE can use to reduce the likelihood and/or impact of each identified risk.
