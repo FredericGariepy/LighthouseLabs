@@ -7,8 +7,10 @@
 
 > Self
 >
-> Controls are point of contact. Sensors. And are fed to monitoring.
-
+> Controls are actionable point of contact. \
+> They can be \
+> Sensors. And are fed to monitoring.
+> 
 
 
 
@@ -30,7 +32,19 @@ monitoring program includes:
 
 The monitoring frequency reflects the priorities/importance of information system to organizational operations.
 
+The authorizing official approves the security controls, their monitoring frquency.
 
+The approval of the monitoring strategy can be obtained in conjunction with the security plan approval.
 
 # Task 4 of Select: Approve Security Plans
+Independent auditors review and approve the security plan.
+
+Approval allows the Risk Management process to advance to the next step in the RMF (i.e., the implementation of the security controls). 
+
+
+
+
+
+
+
 
