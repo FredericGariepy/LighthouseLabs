@@ -17,6 +17,8 @@ Risk Management Plan includes:
 ## Case Study:
 Risk Management Methodology for Hierarchical Access Ltd (DE)
 
+Team :  IT professionals, supply chain experts, and Risk Management specialists
+
 the most significant risk, potential for a data breach. \
 Impact: Confidentiality (sensitive customer data) \
 Impact: company's reputation.
