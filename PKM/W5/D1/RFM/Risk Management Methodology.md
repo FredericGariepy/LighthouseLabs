@@ -14,7 +14,7 @@ Risk Management Plan includes:
 | SLT         | Senior Leadership Team                               |
 
 
-##Case Study:
+## Case Study:
 Risk Management Methodology for Hierarchical Access Ltd (DE)
 
 the most significant risk, potential for a data breach. \
