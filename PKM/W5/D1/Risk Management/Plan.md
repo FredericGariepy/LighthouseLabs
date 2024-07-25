@@ -29,9 +29,9 @@ This table will be refferenced throughout this document.
 |----------|------------|----------------|----------------|--------|---------------|--------------|------------------|------------|------------|------------------------|------------------------|----------------------------------------|----------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
 ---
 
-2. Risk Assessmen
+2. Risk Assessment
 
-1. Inventory
+2.1. Inventory
 Using automated or and manual technniques list all assets beloning to the organization. 
 
 Autommated tools to detect devices on your network:
