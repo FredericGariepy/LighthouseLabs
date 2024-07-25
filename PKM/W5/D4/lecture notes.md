@@ -12,3 +12,8 @@ Vulnerability research \
 
 [https://github.com/digininja/DVWA](https://github.com/digininja/DVWA)
 Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is damn vulnerable.
+
+
+Quality of Detection (QoD)
+
+network configs and best practices
