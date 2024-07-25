@@ -2,6 +2,7 @@
 ###### Document
 Date: 07/25/2024
 
+### Executive Summary
 This plan is for DE to: identify, assess, and manage the risks it faces, while taking into account the company's limited resources and competitive market environment.
 This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
 
