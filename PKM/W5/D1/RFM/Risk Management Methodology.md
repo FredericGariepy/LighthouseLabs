@@ -58,4 +58,4 @@ Your methodology should include an explanation on how to create the following co
 
 - Risk Identification: identify the potential risks that DE faces, including both internal and external risks.
 - Risk Assessment: assess the likelihood and potential impact of each risk, using a risk matrix or similar tool.
-= Risk Management: develop a set of Risk Management strategies that DE can use to reduce the likelihood and/or impact of each identified risk.
+- Risk Management: develop a set of Risk Management strategies that DE can use to reduce the likelihood and/or impact of each identified risk.
