@@ -15,15 +15,11 @@ security control baseline = set of security controls selected to address the sec
 ## Common (Inheritable) Controls
 Things like: Network Firewalls, Antivirus, Centralized logs, Patch Management Programs, ...
 
+[https://web.compass.lighthouselabs.ca/p/cyber/days/w04d5/activities/2992](https://web.compass.lighthouselabs.ca/p/cyber/days/w04d5/activities/2992)
+~~Underlying Assumption (CNSSI-1253)~~ \
+~~Understanding Security Control Structure~~ \
+~~IR-2 Control Structure~~ \
+~~Control Enhancements~~
 
-## Underlying Assumption (CNSSI-1253)
-
-Understanding Security Control Structure
-
-IR-2 Control Structure
-
-Control Enhancements
-
-Control Parameters
-
-
+## Control Parameters
+Must be documented in the SSP, System Security Plan (SSP).
