@@ -67,7 +67,18 @@ Hierarchy in control family; begin with a base control family (broadest set). Th
 
 # Task 2 of Select: Select System-Specific Controls
 - __select__ the security __controls for the information system__ 
+-__tailoring__
 - __document__ the controls in the security plan.
+
+
+The tailoring process includes:
+
+- identifying and designating common controls in initial security control baselines,
+- applying scoping considerations to the remaining baseline security controls,
+- selecting compensating security controls (if needed),
+- assigning specific values to organization-defined security control parameters via explicit assignment and selection statements,
+- supplementing baselines with additional security controls and control enhancements, if needed, and
+- providing additional specification information for control implementation, if needed.
 
 
 
