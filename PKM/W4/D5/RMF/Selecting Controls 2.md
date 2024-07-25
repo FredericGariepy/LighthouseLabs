@@ -1,0 +1,4 @@
+- ~~Task 1: Common Control Identification~~
+- ~~Task 2: Security Control Selection/ System-specific Control Selection~~
+- Task 3: Monitoring Strategy
+- Task 4: Security Plan Approval 
