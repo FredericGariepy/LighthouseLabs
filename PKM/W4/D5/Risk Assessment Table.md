@@ -1,12 +1,7 @@
-Read and analyze the case study introduced by the instructor.
+# Risk Assessment Table
+Case:
+XYZ Corporation, cloud-based solutions for small businesses. \
+In operation for 3 years, 500+ clients. \
 
-Complete the risk assessment section of the Risk Assessment Table given here.
-
-Complete the yellow shaded columns (columns C-E) of the Risk Assessment Table.
-
-Use the reference given here to determine the different possible asset categories and assets, as a starting point.
-
-Once done, post the Risk Assessment Table in Discord for any peer feedback.
-
-
-Risk Assessment Table
+[Risk Assessment Table (RAT) with Risk Scores](https://docs.google.com/spreadsheets/d/1Bw7h5abQwJIFNv1Ps4UtJusInv7jzfjN1QhJmeg6ptM/edit?gid=857688850#gid=857688850) \
+GO TO: Risk Assesment tab, filled C - K.
