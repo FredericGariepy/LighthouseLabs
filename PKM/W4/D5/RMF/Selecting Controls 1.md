@@ -28,14 +28,17 @@ review and approve the security plan.
 ---
 #### Common Controls vs. System-Specific Controls
 
-Common controls are controls that support multiple systems efficiently and effectively as a common capability. \
+Common controls are controls that support multiple systems efficiently and effectively as a common capability. 
  - Common controls = __inherited controls__
 
-System-specific controls provide a capability for a particular system only and are the primary responsibility of system owners and their respective authorizing officials. \
+System-specific controls provide a capability for a particular system only and are the primary responsibility of system owners and their respective authorizing officials. 
 - An example: IA-6 AUTHENTICATION FEEDBACK, designed to obscure the feedback of authentication information during the authentication process.
 ---
 
+### Task 1.
+- __Identify__ common controls in organization.
+- __document__ the controls in a security plan (or equivalent document).
 
-Let's look at the specific tasks under the Select stage now: 
-
+### Security Control Family (NIST) SP 800-53
+Hierarchy in control family; begin with a base control family (broadest set). Then, branches to one or more sub-control families (sub-sets).
 
