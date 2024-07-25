@@ -28,7 +28,9 @@ Reference Documents:
 - [Select & Implementation Steps](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W4/D5/RMF)
 - [Risk Assesment Table Example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
 
-  
+| Function | Asset Name | Asset Owner(s) | Classification | Threat | Vulnerability | Impact (0-2) | Likelihood (0-2) | Risk (=I+L) | Risk Owner | Computed Value of Risk | Proposed Risk Response | Description of the Proposed Response | Estimated Cost | Implementation Priority (1st, 2nd, 3rd) | Planned Start | Actual Start | Next Review Date | Implementing Control |
+|----------|------------|----------------|----------------|--------|---------------|--------------|------------------|------------|------------|------------------------|------------------------|----------------------------------------|----------------|------------------------------------------|---------------|--------------|-----------------|-----------------------|
+
 Risk Treatment.
 Note: all data is classified as confidential.
 3. Reference Documents
