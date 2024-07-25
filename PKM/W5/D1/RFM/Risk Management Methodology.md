@@ -2,6 +2,18 @@ Risk Management Plan includes:
 > Risk Identification, Risk Assessment, Risk Management and Risk Monitoring
 [sample document](https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C5/Cyber+BC+C5.2/Sample+Risk+Management+Plan.pdf)
 
+
+
+| Acronym     | Full Form                                            |
+|-------------|------------------------------------------------------|
+| RMF         | Risk Management Framework                            |
+| ISMS        | Information Security Management System               |
+| ISO/IEC     | International Organization for Standardization/International Electrotechnical Commission |
+| MSA         | Master Service Agreement                             |
+| SoA         | Statement of Applicability                           |
+| SLT         | Senior Leadership Team                               |
+
+
 Objectives & Deliverables
 Deliverables
 
