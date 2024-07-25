@@ -3,20 +3,14 @@
 Date: 07/25/2024
 
 This plan is for DE to: identify, assess, and manage the risks it faces, while taking into account the company's limited resources and competitive market environment.
-
 This plan will can ensure DE is prepared to respond to the risks it faces and maintain its reputation for reliable and high-quality service.
 
+1. Purpose, Scope, and Users, Reference Documents:
 
-
-1. Purpose, Scope, and Users, Reference Documents
-
-Users: IT professionals, supply chain experts, and Risk Management specialists.
-
-Purpose: This document uses the NIST RMF framework.
-
-Scope: Establish risk assesment for all assets part of the organization.
-
-Reference Documents:
+__Users__: IT professionals, supply chain experts, and Risk Management specialists. \
+__Purpose__: This document uses the NIST RMF framework. \
+__Scope__: Establish risk assesment for all assets part of the organization. \
+__Referenced Documents__:
 - [Categorize Step](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/RMF/1.%20Categorizing%20Systems.md)
 - [Select & Implementation Steps](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W4/D5/RMF)
 - [Risk Assesment Table Example](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D5/Risk%20Assessment%20Table.md)
