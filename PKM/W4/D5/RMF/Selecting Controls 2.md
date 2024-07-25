@@ -5,15 +5,10 @@
 - Task 3: Monitoring Strategy
 - Task 4: Security Plan Approval
 
-> Self
->
-> Controls are actionable point of contact. \
-> They can be \
-> Sensors. And are fed to monitoring.
-> 
-
-
-
+> To Self \
+> Controls are actionable points of contact. \
+> They can be static obstacles (permissions, physical blocks, firewall rules, password, hashes, encryption)
+> They can be dynamic/traps (changes in permission, actuators, automatic reconfigs, conditonal actions) \
  
 # Task 3 of Select: Develop Monitoring Strategy
 - develop a strategy for the continuous monitoring
@@ -22,9 +17,6 @@
 An effective monitoring strategy is developed early in the system development life cycle (SDLC).
 
 monitoring program includes:
-
-
-
 - configuration management and control processes
 - security impact analyses on proposed or actual changes to the information system and its environment of operation
 - assessment of security controls employed within and inherited by the information system (including controls in dynamic subsystems)
@@ -40,11 +32,3 @@ The approval of the monitoring strategy can be obtained in conjunction with the 
 Independent auditors review and approve the security plan.
 
 Approval allows the Risk Management process to advance to the next step in the RMF (i.e., the implementation of the security controls). 
-
-
-
-
-
-
-
-
