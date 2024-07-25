@@ -19,8 +19,23 @@ identify the security controls that are provided by the organization as common c
 ### Task 2 - Security Control Selection/System-Specific Control Selection:
 select the security controls for the information system and document the controls in the security plan.
 
+
 ### Task 3 - Monitoring Strategy:
 develop a strategy for the continuous monitoring of security control effectiveness and any proposed or actual changes to the information system and its environment of operation.
 
 ### Task 4 - Security Plan Approval:
 review and approve the security plan.
+---
+#### Common Controls vs. System-Specific Controls
+
+Common controls are controls that support multiple systems efficiently and effectively as a common capability. \
+ - Common controls = __inherited controls__
+
+System-specific controls provide a capability for a particular system only and are the primary responsibility of system owners and their respective authorizing officials. \
+- An example: IA-6 AUTHENTICATION FEEDBACK, designed to obscure the feedback of authentication information during the authentication process.
+---
+
+
+Let's look at the specific tasks under the Select stage now: 
+
+
