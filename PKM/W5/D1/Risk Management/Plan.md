@@ -20,7 +20,7 @@ __Referenced Documents__:
 All systems must be registered and documented. \
 System registration facilitates management of assets and is used as a tracking tool. \
 
-Roles in charge: IT professionals \
+Roles in charge: IT professionals
 
 Using automated or and manual technniques list all assets beloning to the organization. \
 Autommations and tools to detect and make an inventory devices on your network:
@@ -39,33 +39,26 @@ Fill out the Asset Management Table, and enter it into your Enterprise IT Regist
 |----------|------------|------------|----------------|----------|----------------|---------|----------------|-----------|--------------|-------------------------|
 
 ## 3. Add CIA values and SCS to the Asset Management Table
-Each 
-
-SC<sub>Information</sub> = {(C:val),(I:val),(A:val)} \
-SC<sub>Information System</sub> =  {(C:val),(I:val),(A:val)}
-
-NIST SP 800-53 uses high-water mark (NIST, 2013)
-
-> think of other policy/rmf and their water mark
-
-SC<sub>__System__</sub> =  Max Value from both( SC<sub>Information</sub> AND SC<sub>Information System</sub> )
-
-...
-
-SC<sub>__System__</sub> =   {(C:__max__ val),(I:__max__ val),(A:__max__ val)}
-
-SC<sub>__System__</sub> =  Max Value of ( SC<sub>__System__</sub> ) = highest value over all.
-
-SC<sub>__System__</sub>  =  highest value over all. = SIL(?)
-
+Each asset will now receive a CIA values, the score of each value is based on the respective __loss__ brought by an attack.
 
 Roles in charge: Risk Management specialists
-CIA values are assigned scores according to this table:
+
+Equation: \
+SC<sub>Information</sub> = {(C:val),(I:val),(A:val)} \
+SC<sub>Information System</sub> =  {(C:val),(I:val),(A:val)} 
+
+CIA values are assigned scores according this table:
 | Attribute       | Low (1)                      | Moderate (2)                  | High (3)                       |
 |-----------------|------------------------------|--------------------------------|--------------------------------|
 | Confidentiality | Public, minimal sensitivity  | Requires protection            | Highly sensitive, severe impact if leaked |
 | Integrity       | Minor impact if altered      | Significant impact if corrupted| Critical, severe impact if altered |
 | Availability    | Minimal impact if unavailable| Moderate impact, some disruption| Major impact, operation failure |
+
+Security Category Score (SCS), are calculated by taking the higest value from the SC<sub>Asset</sub>. \
+This follows NIST SP 800-53 ussing a high-water mark (NIST, 2013). 
+
+Add the SCS value to the Asset Management Table.
+
 
 
 
