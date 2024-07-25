@@ -60,6 +60,17 @@ Hierarchy in control family; begin with a base control family (broadest set). Th
 ```
 
 
+### 3 control implementation approaches
+- __Common controls__: controls that provide a capability for multiple systems
+- __System-specific controls__: controls that provide a capability for a particular system only
+- __Hybrid controls__: controls that have both system-specific and common characteristics
+
+
+
+
+
+
+
 ##### Access control family  
 | No. |  Access control family                                   |
 |-----|----------------------------------------------------------|
