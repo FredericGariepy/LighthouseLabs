@@ -13,16 +13,24 @@ For each control, the SOA should detail:
 - The justification(rational) for its inclusion or exclusion.
 
 
+# How to Write an ISO 27001 SOA?  (6 steps)
+## 1. Recognize and Assess Threats to Your ISMS
+List all of your information assets and the potential data security risks associated with each one as part of an ISO 27001 Risk Assessment.
+
+## 2. Define Your Risk Management Strategy
+
+## 3. Settle on the Preventative Measures in Terms of Security
+## 4. Make a Tally of the Controls you Won't be Utilizing and the Reasons Why
+## 5. Finalize Your Application's SOA
+## 6. Make Sure that Your SOA is always up to date
 
 
 
 
 
-</end>
-
-Why ISO 27001?
+#### Why ISO 27001?
 To ensure comprehensive information security management and to gain trust from stakeholders.
-What does an SOA do in ISO 27001?
+#### What does an SOA do in ISO 27001?
 It lists and justifies the security controls implemented in an ISMS.
 
 If you want to get your hands on an ISO 27001 certification, you'll need to submit an SOA. kido.
@@ -54,3 +62,20 @@ You must provide an explanation (or justification) for why an Annex A control is
 | SIEM     | Security Information and Event Management |
 | PKI      | Public Key Infrastructure              |
 | ISACA    | Information Systems Audit and Control Association |
+
+
+It helps in implementing your data security plan.
+
+It acts as a roadmap for both internal and external audits, including those required for certification
+
+It gives you a living record to use in keeping track of and bettering your ISMS.
+
+
+
+
+
+
+
+
+
+
