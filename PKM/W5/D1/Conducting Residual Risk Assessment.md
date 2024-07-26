@@ -23,6 +23,30 @@ Residual risk is the level of risk that remains after controls have been put in 
   - Regularly reviewing and updating residual risk analysis helps identify areas for improvement.
   - Enables organizations to make changes to their risk management processes over time.
 
+---
+
+### How is Residual Risk Estimated?
+
+A residual risk template, or the residual risk section of the Risk Assessment Table, is a tool used to identify and assess the risks that remain after controls have been put in place to mitigate initial risks. To complete a residual risk template, follow these steps:
+
+1. **Identify the Initial Risks:**
+   - Review previous Risk Assessments or conduct a new Risk Assessment to identify all potential risks.
+
+2. **Evaluate the Effectiveness of Existing Controls:**
+   - Determine if the existing controls are effectively mitigating the initial risks and assess whether they can be improved.
+
+3. **Assess Residual Risk:**
+   - Based on the effectiveness of existing controls, assess the residual risk for each initial risk.
+   - Determine the likelihood and impact of the residual risk and assign a residual risk rating.
+
+4. **Develop Risk Mitigation Strategies:**
+   - Identify and prioritize mitigation strategies for the residual risks.
+
+5. **Implement Risk Mitigation Strategies:**
+   - Put in place the risk mitigation strategies that have been identified and prioritized.
+
+6. **Review and Update the Residual Risk Template:**
+   - Regularly review and update the residual risk template to ensure that it remains relevant and accurate.
 
 
 
