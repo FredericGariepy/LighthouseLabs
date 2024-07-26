@@ -101,17 +101,7 @@ class AssessmentObjectives:
     def __init__(self, assessment_object, assessment_method, assessment_coverage, assessment_depth, assessment_findings):
     self. ... = ...
 ```
-Assessment Object = specific items , here it's "controls" \
-Assessment Object = specific items =  (determination statements, specifications, mechanisms, activities, and individuals)
-```python
-for item in Assessment_Object:
-    def explain(item):
-        determination statements :  __What__ qualities to be assessed
-        specifications : __document__ artifacts related to the control; plans, policies, procedures, regulations
-        mechanisms : __system functionality__
-        activities :  __How to use the system__. Actions to be taken in system configuration, operation, or sustainment
-        individuals :  __Peopl who use system__ parties responsible for performing activities
-```
+
 
 Assessment Methods
 
