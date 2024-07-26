@@ -210,6 +210,6 @@ organization assurance requirements defines : appropriate depth and coverage for
 | Evaluate              |   x      |           |  x    |
 
 ## Assessment Tailoring
-" In a manner similar to how the controls are tailored for the organization’s mission, business functions, characteristics of the system, and operating environment, organizations tailor the assessment procedures to meet specific organizational needs."
+Assessment tailoring is the process of adjusting the level of rigor of the assessment
 
 
