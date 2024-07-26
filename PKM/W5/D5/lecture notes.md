@@ -1,11 +1,13 @@
+Catergories of assets: \
+people, hard/soft ware, network/infratructure
+
 Risk management \
 Identify, Assess, Mitigate \
 purpose: minitgate impact/risk
 
-Catergories of assets: \
-people, hard/soft ware, network/infratructure
-
-Vulnerability Assesment \
+Risk/Vulnerability Assesment \
+Who ? GRC manager
+What:
 Asset -> Vulnerability -> Threat ->likelihood/impact -> Risk
 
 
