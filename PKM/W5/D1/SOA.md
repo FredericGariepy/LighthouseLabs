@@ -15,7 +15,8 @@ For each control, the SOA should detail:
 
 # How to Write an ISO 27001 SOA?  (6 steps)
 ## 1. _Recognize_ and _Assess_ Threats to Your ISMS
-List all of your information assets and the potential data security risks associated with each one as part of an ISO 27001 Risk Assessment.
+List all of your information assets \
+and the potential data security risks associated with each one, as part of an ISO 27001 Risk Assessment.
 
 > Following this, you may assign a risk owner, develop a strategy to address any vulnerabilities, and rank and prioritize risks based on their probability and effect. This document serves as a template for conducting a risk analysis in accordance with ISO 27001.
 
