@@ -21,7 +21,7 @@ and the potential data security risks associated with each one, as part of an IS
 > Following this, you may assign a risk owner, develop a strategy to address any vulnerabilities, and rank and prioritize risks based on their probability and effect. This document serves as a template for conducting a risk analysis in accordance with ISO 27001.
 
 ## 2. Define Your Risk Management Strategy
-SO 27001 specifies four methods for handling potential dangers:
+SO 27001 specifies four (4) __methods__ for _handling potential dangers_:
 - __Mitigate__
 > take precautions to lessen the possibility that it will really happen.
 - __Avoid__
