@@ -11,10 +11,38 @@ Security:
 ```
 CISO
 ├── Security Tech
-├── Intern
-└── Vacant
+├── Security Tech (Intern)
+└── [ Vacant ]
 ```
 - $ budget of approximately $500,000 for equipment, personnel, and training
+- Needs: 
+    - systems meet a minimum level of security and that its information is protected from attacks
+    - collect and act on security events from across its digital estate
+    - establish a network infrastructure to provide authentication, authorization, and accounting of its network assets
+    - contingency system in place in a form of load-balancing and cluster management to provide redundancy and risk mitigation.
+
+Existing Environment: 
+
+- Infratructure: DHAEI runs a mix of workloads on Rackspace and AWS.
+- ONE(1) Active Directory domain named DHA.com.
+- All the servers run Windows Server 2019.
+- All of the clients run Windows 10.
+Main office has:
+    - TWO(2) domain controllers named DCI and DC2
+    - ONE(1) file server named FSI
+    - ONE(1) Windows Software Update Services (WSUS) server named WSUSI
+    - ONE(1) Infrastructure that provides DNS services to the network, server named DHADNS.
+
+  Each branch office has one server that is configured as a read-only domain controller (RODC). The branch office servers provide all infrastructure services as well as functioning as a branch office file.
+
+There are 1,500 users in the main office. Each branch office has about 200 users. All of the users in the main office and the branch office use desktop computers.
+
+About 20 programmers work from home offices using company-issued laptops. The remote workers connect to the main office using L2TP VPN connections.
+
+The main office has a central technology department that is responsible for all technical issues within the company. There is one support technician located in each branch office.
+Planned Changes
+
+
 
 
 
@@ -48,6 +76,7 @@ The company needs to ensure that all of its systems meet a minimum level of secu
 The company also needs a way to collect and act on security events from across its digital estate.
 
 DHAEI decided to establish a network infrastructure to provide authentication, authorization, and accounting of its network assets. It will also require a contingency system in place in a form of load-balancing and cluster management to provide redundancy and risk mitigation.
+
 Existing Environment
 
 DHAEI has a single Active Directory domain named DHA.com. All the servers run Windows Server 2019. All of the clients run Windows 10. The main office has two domain controllers named DCI and DC2; one file server named FSI, a Windows Software Update Services (WSUS) server named WSUSI, and an infrastructure server named DHADNS that provides DNS services to the network.
