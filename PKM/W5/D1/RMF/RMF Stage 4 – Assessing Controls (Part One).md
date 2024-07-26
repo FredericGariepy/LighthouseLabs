@@ -55,10 +55,15 @@ Control __Depth__ how rigorously selected controls will be assessed
 #### Assessment Optimization / determine required level of independence.
 1. Step 1: assessment sequencing has internal dependencies in case of control and control enhancements and external dependencies in case of related controls.
 
+___Wtf__ is ^ this saying?_ look a few lines bellow for diffrent types of controls.
+
 2. Step 2: assessment consolidation: * Merges related assessment requirements. * Performs after assessment sequencing. * Eliminates duplicative testing.
 
-___Wtf__ is ^ this saying?_
+___Wtf__ is ^ this saying?_ \
+Assessment Sequencing sets the order for how assessments are performed, considering dependencies and relationships between controls. \
+Assessment Consolidation follows this sequencing to merge related assessments, eliminate redundancy
 
+##### Diffrent types of controls
 Base Control
 > Base control example: A standard access control mechanism requiring strong passwords.
 
@@ -68,7 +73,6 @@ Control Enhancement
 Internal Dependencies: Controls that are interconnected within the system are assessed in a logical order, where the output or effectiveness of one control can affect or be affected by others.
 > Control Dependency Example: If Control A is responsible for logging access attempts and Control B is responsible for reviewing logs, you need to assess Control A before assessing Control B. Control B relies on the data produced by Control A.
 Assesment sequencing is important because of Internal Dependency.
-
 
 External Dependencies: Any dependencies on external controls are identified and assessed to ensure that they do not undermine the effectiveness of the system’s controls.
 > External Dependency Example: If your system depends on a third-party service for authentication, your assessment of the system’s authentication controls (e.g., Control C) would need to consider the security controls implemented by the third-party service (Control D).
