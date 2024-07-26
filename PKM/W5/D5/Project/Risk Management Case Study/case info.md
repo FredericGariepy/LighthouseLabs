@@ -1,12 +1,51 @@
+# info extracted
+Established June 2019.
+
+Business type: software development
+
+Value: provides basic/fast Internet access, Web registration and hosting alternatives for SOHO.
+
+Geolocation: Based in the Durham area. Main office in Oshawa, Ontario. Has everal branch offices.
+
+Security:  
+```
+CISO
+├── Security Tech
+├── Intern
+└── Vacant
+```
+- $ budget of approximately $500,000 for equipment, personnel, and training
+
+
+
+# raw text:
 Company Background
 
 DHAEI is a software development company based in the Durham area. The company has a main office in Oshawa, Ontario and several branch offices.
 
-Established in June 2019, DHAEI provides basic Internet access, fast Internet access, and Web registration and hosting alternatives for small office/home office (SOHO) individuals and organizations. It is a privately-owned company managed by its founder and CEO, Alan Hake.
+Established in June 2019,
 
-The CIO, Amanda Wilson, has 15 years of technical experience and 10 years of experience as a Senior IT Manager. Shortly after taking a position as CIO, Amanda hired Paul Alexander as Manager of Information Security. A reorganization in 2020 resulted in an enhanced recognition of the role of information security at DHAEI. It also resulted in Paul being named Chief Information Security. Along with this increased recognition came a group of dedicated personnel and a budget of approximately $500,000 for equipment, personnel, and training. As shown in the diagram, Paul currently has two full-time security technician positions (one of which is unfilled) and an intern.
+DHAEI provides basic Internet access, fast Internet access, and Web registration and hosting alternatives for small office/home office (SOHO) individuals and organizations.
 
-DHAEI runs a mix of workloads on Rackspace and AWS. The company needs to ensure that all of its systems meet a minimum level of security and that its information is protected from attacks. The company also needs a way to collect and act on security events from across its digital estate.
+It is a privately-owned company managed by its founder and CEO, Alan Hake.
+
+The CIO, Amanda Wilson, has 15 years of technical experience and 10 years of experience as a Senior IT Manager.
+
+Amanda Wilson, Shortly after taking a position as CIO, Amanda Wilson, hired Paul Alexander as Manager of Information Security.
+
+A reorganization in 2020 resulted in an enhanced recognition of the role of information security at DHAEI.
+
+It also resulted in Paul Alexander being named Chief Information Security.
+
+Along with this increased recognition came a group of dedicated personnel and a budget of approximately $500,000 for equipment, personnel, and training.
+
+As shown in the diagram, Paul currently has two full-time security technician positions (one of which is unfilled) and an intern.
+
+DHAEI runs a mix of workloads on Rackspace and AWS.
+
+The company needs to ensure that all of its systems meet a minimum level of security and that its information is protected from attacks.
+
+The company also needs a way to collect and act on security events from across its digital estate.
 
 DHAEI decided to establish a network infrastructure to provide authentication, authorization, and accounting of its network assets. It will also require a contingency system in place in a form of load-balancing and cluster management to provide redundancy and risk mitigation.
 Existing Environment
