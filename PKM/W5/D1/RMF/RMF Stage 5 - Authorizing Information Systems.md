@@ -1,4 +1,13 @@
 # RMF Stage 5 - Authorizing Information Systems
+#Authorize stage tasks
+- Finalize POA&M
+  - Compile and review deficiencies
+- Assemble authorization package
+  - Gather essential security documents
+- Perform risk determination
+  - Assess and finalize risks
+- Make a risk acceptance decision
+  - Decide on system authorization
 
 # glossary
 | Acronym | Expansion |
