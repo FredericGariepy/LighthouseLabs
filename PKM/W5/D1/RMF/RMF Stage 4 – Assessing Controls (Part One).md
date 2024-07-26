@@ -118,6 +118,8 @@ AssessmentObjectives.Methods \
 Assessment methods =  list(examine, interview, test)  # nature of the assessor actions 
 
 examine \
+> this activity involves reviewing documentation, policies, procedures, and other artifacts to determine if they are consistent with the security controls and requirements. This activity is primarily focused on assessing the control design.
+
 _The examine method_ is the process of : reviewing, inspecting, observing, studying, analyzing >>  __i.e. 'check on'__ \
 examine_method = check_on(specifications, mechanisms, activities) \
 examine_method = check_on(AssessmentObjectives.objects.specifications, AssessmentObjectives.objects.mechanisms, AssessmentObjectives.objects.activities) \
@@ -128,6 +130,8 @@ def examine(assesmentObject<specs, mech, activity>) => [evidence, understanding,
 ```
 
 interview \
+>  this activity involves conducting interviews with system administrators, security personnel, and other relevant stakeholders to verify that the controls are implemented and operating as intended. This activity is primarily focused on assessing the control implementation.
+
 "_The interview method_ is the process of: __holding discussions__ to do: facilitate assessor understanding, achieve clarification, or obtain evidence." \
 def interview_method: call (examine method(), people) \
 ```python
@@ -136,6 +140,8 @@ def interview_method(examine(), people) => discussions
 ```
 
 test \
+>  this activity involves testing the security controls to determine if they are effective in mitigating risks and protecting the system. This activity is primarily focused on assessing the control effectiveness.
+
 "The test method is the process of exercising one or more assessment objects (i.e., activities or mechanisms) under specified conditions to compare actual with expected behavior." \
 def test(AssessmentObjective.object.mechanisms, AssessmentObjective.object.activities) \
 ```python
@@ -192,8 +198,15 @@ organization assurance requirements defines : appropriate depth and coverage for
 | Objective   | understand, clarify, obtain evidence | understand, clarify, obtain evidence | Compare actual and expected results to determine control functionality, correctness, completeness |
 
 
-
-
+### Table (activies/objective) : methods <examine, interview, test>
+| Activities/Objectives | examine | interview | test |
+|-----------------------|---------|-----------|------|
+| Identify              |    x    |    x       |  x    |
+| Develop               |    x     |      x     |    x  |
+| Review                |     x    |    x       |      |
+| Verify                |         |      x     |   x   |
+| Validate              |         |     x      |  x    |
+| Evaluate              |   x      |           |  x    |
 
 
 
