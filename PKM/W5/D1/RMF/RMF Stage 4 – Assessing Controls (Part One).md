@@ -80,15 +80,50 @@ Assessment Consolidation follows this sequencing to merge related assessments, e
 # Task 2: Conducting Security Controls Assessment (according to security assessment plan)
 In the second task of the Assess stage, you assess the security controls in accordance with the assessment procedures defined in the security assessment plan.
 
-Assessment Procedures
+#### Assessment Procedures
+We're In the business of validating selected controls. \
+"Assessment __objectives__ are created for each control being validated."
+
 ```python
 def Assesment proceedures(assessment objectives)
-    assessment objectives = (determination statements, methods, objects)
-    return assessment finding
+    assessment_objectives = (determination_statements, methods, objects)
+    return assessment_finding
+```
+assessment procedure(security_control) => assessment finding
+assessment procedure(privacy control) => assessment finding
+
+These findings reflect, or are subsequently used, to help determine the overall effectiveness of the security or privacy control. \
+i.e. function(assessment finding) =>  overall effectiveness # I don't know the function name
+
+"Assessment objectives define assessment object, assessment method, assessment coverage, assessment depth, and assessment findings"
+```python
+class AssessmentObjectives:
+    def __init__(self, assessment_object, assessment_method, assessment_coverage, assessment_depth, assessment_findings):
+    self. ... = ...
+```
+Assessment Object = specific items , here it's "controls" \
+Assessment Object = specific items =  (determination statements, specifications, mechanisms, activities, and individuals)
+```python
+for item in Assessment_Object:
+    def explain(item):
+        determination statements :  __What__ qualities to be assessed
+        specifications : __document__ artifacts related to the control; plans, policies, procedures, regulations
+        mechanisms : __system functionality__
+        activities :  __How to use the system__. Actions to be taken in system configuration, operation, or sustainment
+        individuals :  __Peopl who use system__ parties responsible for performing activities
 ```
 
-security or privacy control 
-assessment procedure to a security or privacy control produces assessment finding
+Assessment Methods
+
+Assessment methods define the nature of the assessor actions and include examine, interview, and test.
+
+The examine method is the process of reviewing, inspecting, observing, studying, or analyzing one or more assessment objects (i.e., specifications, mechanisms, or activities). The purpose of the examine method is to facilitate assessor understanding, achieve clarification, or obtain evidence.
+
+The interview method is the process of holding discussions with individuals or groups of individuals within an organization to once again, facilitate assessor understanding, achieve clarification, or obtain evidence.
+
+The test method is the process of exercising one or more assessment objects (i.e., activities or mechanisms) under specified conditions to compare actual with expected behavior.
+
+In all three assessment methods, the results are used in making specific determinations called for in the determination statements and thereby achieving the objectives for the assessment procedure. 
 
 
 
