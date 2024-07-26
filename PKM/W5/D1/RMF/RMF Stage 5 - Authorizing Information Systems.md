@@ -1,5 +1,5 @@
 # RMF Stage 5 - Authorizing Information Systems
-#Authorize stage tasks
+# Authorize stage tasks
 - Finalize POA&M
   - Compile and review deficiencies
 - Assemble authorization package
