@@ -124,7 +124,7 @@ examine_method = check_on(AssessmentObjectives.objects.specifications, Assessmen
 "The purpose of the examine method is to facilitate assessor understanding, achieve clarification, or obtain evidence" \
 ```python
 #examine method
-def examine(...) => [evidence, understanding, clarificaiton]
+def examine(assesmentObject<specs, mech, activity>) => [evidence, understanding, clarificaiton]
 ```
 
 interview \
@@ -140,7 +140,7 @@ test \
 def test(AssessmentObjective.object.mechanisms, AssessmentObjective.object.activities) \
 ```python
 # test method
-def test(mechanisms or activities, expected)
+def test(mechanisms or activities, expected) => accuracy
 ```
 
 Result of all three assessment methods, are used in making specific determinations <sub>(defined in determination statements)</sub> to succeed in objectives for the assessment procedure.
@@ -176,6 +176,18 @@ organization assurance requirements defines : appropriate depth and coverage for
 | mechanism     |Hard/Software, configs|           |Hard/Software, configs|
 | activities    |Sys op. Admin. maintenance|Sys op. Admin. maintenance|Sys op. Admin. maintenance|
 | individuals   |         |Operators, Admins, maintainers|
+
+| basic       | focused    | comprehensive |
+|-------------|------------|---------------|
+|  black box :black_circle:  | gray box :grey_heart:| white box :white_circle:|
+|             |            | high confidence |
+|             |            |               |
+
+|             | basic       | focused    | comprehensive |
+|-------------|-------------|------------|---------------|
+|   BOX     |   :black_circle:  |  :grey_heart:  | :white_circle:  |
+|   Confidence | some | increased | High |
+| Based on: | high-level process, functional | Architecture, integrations, op env | full knowledge |
 
 
 
