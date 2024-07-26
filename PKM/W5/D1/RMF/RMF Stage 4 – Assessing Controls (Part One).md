@@ -103,7 +103,18 @@ class AssessmentObjectives:
 ```
 
 
-Assessment Methods
+AssessmentObjectives.objects \
+Assessment __objects__ = specific items being assessed \
+Assessment __objects__ = determination statements, specifications, mechanisms, activities, and individuals, as explained below:
+| Word          | Explanation                                                                                  |
+|---------------|----------------------------------------------------------------------------------------------|
+| Determination Statements | Qualities to be assessed in a particular context.                                        |
+| Specifications  | Documentary artifacts related to the control, including plans, policies, procedures, and regulations. |
+| Mechanisms     | System functionality or features that support or enforce the control.                       |
+| Activities     | Actions to be taken in system configuration, operation, or sustainment.                      |
+| Individuals    | Parties responsible for performing activities related to the control.                       |
+
+AssessmentObjectives.Methods \
 
 Assessment methods define the nature of the assessor actions and include examine, interview, and test.
 
@@ -113,16 +124,19 @@ The interview method is the process of holding discussions with individuals or g
 
 The test method is the process of exercising one or more assessment objects (i.e., activities or mechanisms) under specified conditions to compare actual with expected behavior.
 
-In all three assessment methods, the results are used in making specific determinations called for in the determination statements and thereby achieving the objectives for the assessment procedure. 
+In all three assessment methods, the results are used in making specific determinations called for in the determination statements and thereby achieving the objectives for the assessment procedure.
+Note
 
+You will look at an example of assessment procedures (object, objectives, and methods) once you have covered the concept of assessment tailoring later in the reading.
+Testing Coverage and Depth
 
+Assessment methods have a set of associated attributes, depth, and coverage, which help define the level of effort for the assessment. These attributes are hierarchical in nature, providing the means to define the rigor and scope of the assessment for the increased assurances that may be needed for some information systems.
 
+The depth attribute addresses the rigor of and level of detail in the examination, interview, and testing processes. Values for the depth attribute include basic, focused, and comprehensive.
 
+The coverage attribute addresses the scope or breadth of the examination, interview, and testing processes including the number and type of specifications, mechanisms, and activities to be examined or tested, and the number and types of individuals to be interviewed, as shown in the diagram below. Similar to the depth attribute, values for the coverage attribute include basic, focused, and _comprehensive. _
 
-
-
-
-
+The appropriate depth and coverage attribute values for a particular assessment method are based on the assurance requirements specified by the organization. As assurance requirements increase with regard to the development, implementation, and operation of security and privacy controls within or inherited by the information system, the rigor and scope of the assessment activities (as reflected in the selection of assessment methods and objects and the assignment of depth and coverage attribute values) tend to increase as well.
 
 
 
