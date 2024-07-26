@@ -177,17 +177,13 @@ organization assurance requirements defines : appropriate depth and coverage for
 | activities    |Sys op. Admin. maintenance|Sys op. Admin. maintenance|Sys op. Admin. maintenance|
 | individuals   |         |Operators, Admins, maintainers|
 
-| basic       | focused    | comprehensive |
-|-------------|------------|---------------|
-|  black box :black_circle:  | gray box :grey_heart:| white box :white_circle:|
-|             |            | high confidence |
-|             |            |               |
-
+### Assessing Control Compliance
 |             | basic       | focused    | comprehensive |
 |-------------|-------------|------------|---------------|
-|   BOX     |   :black_circle:  |  :grey_heart:  | :white_circle:  |
+|   BOX     |  black :black_circle:  | grey :grey_heart:  | white :white_circle:  |
 |   Confidence | some | increased | High |
 | Based on: | high-level process, functional | Architecture, integrations, op env | full knowledge |
+
 
 
 
