@@ -1,6 +1,6 @@
 # RMF Stage 4 – Assessing Controls (Part One)
-- [ ] finish later.
 
+WOW before you do any of this shit look at [Sample Assesment OBJECT](#sample-assessment-object)
 
 ##### Diffrent types of controls
 Base Control
@@ -210,6 +210,44 @@ organization assurance requirements defines : appropriate depth and coverage for
 | Evaluate              |   x      |           |  x    |
 
 ## Assessment Tailoring
-Assessment tailoring is the process of adjusting the level of rigor of the assessment
+> Assessment tailoring is an essential part of the RMF process 
+
+Assessment tailoring is the process of adjusting the level of rigor of the assessment.
+
+To tailor the assessment, the organization needs to populate the parameters and adapt the generic objectives defined in the assessment procedures. 
+
+__Populating parameters__: assessment boundary, the system environment, and the assessment objectives.
+
+__Adapting generic objectives__:  For example, if the system under assessment stores sensitive information, the confidentiality objective would need to be adapted to ensure that the system adequately protects that information
+
+__Adjusting assessment methods__:  For example, if the system under assessment is a legacy system, the assessment team may need to use manual testing methods instead of automated tools.
+----
+
+# sample assessment object
+With corresponding assessment methods and objectives.
+
+- Assessment __Object__: Network Access Control (NAC)
+
+- __Description__: NAC controls ensure that only authorized devices and users can access the network.
+
+Assessment __Methods__:
+1. Penetration testing: the assessment team will attempt to bypass the NAC controls to gain unauthorized access to the network.
+2. Configuration review: the assessment team will review the NAC configuration to ensure it aligns with the organization's security policies and industry best practices.
+3. Compliance assessment: the assessment team will check the NAC controls against relevant regulations and standards, such as PCI-DSS or HIPAA.
+
+Assessment __Objectives__:
+1. Verify that the NAC controls are effective in preventing unauthorized access to the network.
+2. Ensure that the NAC configuration aligns with the organization's security policies and industry best practices.
+3. Confirm that the NAC controls meet relevant regulations and standards.
+
+
+
+
+
+
+
+
+
+
 
 
