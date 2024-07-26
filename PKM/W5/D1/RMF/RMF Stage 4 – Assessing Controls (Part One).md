@@ -121,17 +121,27 @@ examine \
 _The examine method_ is the process of : reviewing, inspecting, observing, studying, analyzing >>  __i.e. 'check on'__ \
 examine_method = check_on(specifications, mechanisms, activities) \
 examine_method = check_on(AssessmentObjectives.objects.specifications, AssessmentObjectives.objects.mechanisms, AssessmentObjectives.objects.activities) \
-"The purpose of the examine method is to facilitate assessor understanding, achieve clarification, or obtain evidence"
-check_on(...) => [evidence, understanding, clarificaiton]
+"The purpose of the examine method is to facilitate assessor understanding, achieve clarification, or obtain evidence" \
+```python
+#examine method
+def examine(...) => [evidence, understanding, clarificaiton]
+```
 
 interview \
 "_The interview method_ is the process of: __holding discussions__ to do: facilitate assessor understanding, achieve clarification, or obtain evidence." \
 def interview_method: call (examine method(), people) \
+```python
+#interview_method
+def interview_method(examine(), people) => discussions
+```
 
 test \
-"The test method is the process of exercising one or more assessment objects (i.e., activities or mechanisms) under specified conditions to compare actual with expected behavior."
+"The test method is the process of exercising one or more assessment objects (i.e., activities or mechanisms) under specified conditions to compare actual with expected behavior." \
 def test(AssessmentObjective.object.mechanisms, AssessmentObjective.object.activities) \
-
+```python
+# test method
+def test(mechanisms or activities, expected)
+```
 
 Result of all three assessment methods, are used in making specific determinations <sub>(defined in determination statements)</sub> to succeed in objectives for the assessment procedure.
 
