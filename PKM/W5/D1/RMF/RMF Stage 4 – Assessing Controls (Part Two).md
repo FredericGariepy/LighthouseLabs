@@ -41,12 +41,14 @@ Readings:
 │ Unsatisfied controls.txt       │
 │ Inherited controls.txt         │
 | Supporting artifacts.txt       |
-├────────────────────────────────┘             ┌───── System Risk Assesment.txt
-├───System Security plan.sql                   |
+├────────────────────────────────┘
+├───System Security plan.sql                   ┌────System Risk Assesment.txt
 |                                              |
-└───Plan of Action and Milestones.sql          │   Authorization Recomendation.txt
+└───Plan of Action and Milestones.sql          │    Authorization Recomendation.txt
            └───────Security assessment report──┴───────┘
-``
+```
+
+
 
 
 
