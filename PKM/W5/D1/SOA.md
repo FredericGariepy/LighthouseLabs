@@ -62,7 +62,7 @@ Your SOA should be seen as a dynamic document.
 
 > The controls you employ and how you've modified them to enhance your ISMS should be reflected in your SOA, which should be updated on a regular basis.
 
-> [!NOTE]: 
+> [!NOTE] 
 > What Annex(es) of ISO/IEC 27001 apply to a certain organization is detailed in an SOA. A security control may or may not be relevant to your company's ISMS. A justification must be provided if a given control is inapplicable.
 
 #### Why ISO 27001?
