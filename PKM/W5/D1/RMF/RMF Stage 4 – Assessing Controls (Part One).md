@@ -54,7 +54,19 @@ Control __Depth__ how rigorously selected controls will be assessed
 
 #### Assessment Optimization / determine required level of independence.
 
+Base Control
+> Base control example: A standard access control mechanism requiring strong passwords.
+Control Enhancement
+> Enhancement example: Implementing multi-factor authentication (MFA) in addition to the strong passwords.
 
+Internal Dependencies: Controls that are interconnected within the system are assessed in a logical order, where the output or effectiveness of one control can affect or be affected by others.
+> Control Dependency Example: If Control A is responsible for logging access attempts and Control B is responsible for reviewing logs, you need to assess Control A before assessing Control B. Control B relies on the data produced by Control A.
+
+External Dependencies: Any dependencies on external controls are identified and assessed to ensure that they do not undermine the effectiveness of the system’s controls.
+> External Dependency Example: If your system depends on a third-party service for authentication, your assessment of the system’s authentication controls (e.g., Control C) would need to consider the security controls implemented by the third-party service (Control D).
+
+Related Controls: The interactions between related controls are understood, so that the overall security posture is evaluated comprehensively, considering how different controls support or impact one another.
+> Related Controls Example: In a system where encryption (Control E) is used to protect data at rest, and access controls (Control F) are used to manage who can access that data, both controls are related. The effectiveness of Control E (encryption) may be undermined if Control F (access controls) is weak or misconfigured.
 
 
 
