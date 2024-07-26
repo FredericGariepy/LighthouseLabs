@@ -58,7 +58,8 @@ Readings:
 >  any changes to the security controls resulting from the assessment should be documented in the SSP. The updated SSP should reflect the new security posture of the system.
 5. __Update the Plan of Action and Milestones (POA&M)__:
 >  if any control deficiencies are identified, a POA&M should be developed to address them. The POA&M should include specific remediation actions, timelines, and responsible parties.
-6. __Document any residual risk__: the residual risk associated with the assessed controls should be documented. This documentation should include the level of residual risk, the rationale for accepting this risk, and any risk mitigation strategies that will be implemented.
+6. __Document any residual risk__:
+>  the residual risk associated with the assessed controls should be documented. This documentation should include the level of residual risk, the rationale for accepting this risk, and any risk mitigation strategies that will be implemented.
 7. __Prepare the final assessment report__:
 >  the final assessment report should document the assessment results, control deficiencies, and any remediation actions or risk mitigation strategies. The report should be reviewed and approved by the appropriate stakeholders before being submitted for authorization.
 
