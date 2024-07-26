@@ -80,7 +80,7 @@ Assessment Consolidation follows this sequencing to merge related assessments, e
 # Task 2: Conducting Security Controls Assessment (according to security assessment plan)
 In the second task of the Assess stage, you assess the security controls in accordance with the assessment procedures defined in the security assessment plan.
 
-#### Assessment Procedures
+## Assessment Procedures
 We're In the business of validating selected controls. \
 "Assessment __objectives__ are created for each control being validated."
 
@@ -155,7 +155,7 @@ Result of all three assessment methods, are used in making specific determinatio
 
 
 
-### Testing Coverage and Depth
+## Testing Coverage and Depth
 
 Subject: parent class of `Methods` used by AssessmentObjectives.Methods.<examine,intervie,test> \
 Methods base class takes (depth, coverage) # help define the level of effort for the assessment. 
@@ -176,6 +176,7 @@ organization assurance requirements defines : appropriate depth and coverage for
 Δ Assurance requirements = Δ security and privacy controls # in or inherited 
 Δ Assurance requirements = Method.<examine,intervie,test>(Δ depth, Δcoverage, ...)
 
+### Table Assessment methods
 |           | examine | interview | test |
 |-----------|---------|-----------|------|
 | specification |plans, policies, procedures,requirements,designs|           |      |
@@ -183,7 +184,7 @@ organization assurance requirements defines : appropriate depth and coverage for
 | activities    |Sys op. Admin. maintenance|Sys op. Admin. maintenance|Sys op. Admin. maintenance|
 | individuals   |         |Operators, Admins, maintainers|
 
-### Assessing Control Compliance (three testing technique)
+### Table Assessing Control Compliance (three testing technique)
 |             | basic       | focused    | comprehensive |
 |-------------|-------------|------------|---------------|
 |   BOX     |  black :black_circle:  | grey :grey_heart:  | white :white_circle:  |
@@ -191,7 +192,7 @@ organization assurance requirements defines : appropriate depth and coverage for
 | Based on: | high-level process, functional | Architecture, integrations, op env | full knowledge |
 
 
-### Assessment Activities (Activity and objective of Methods)
+### Table Assessment Activities (Activity and objective of Methods)
 |             | examine                             | interview                  | test                                        |
 |-------------|-------------------------------------|----------------------------|---------------------------------------------|
 | activity    | check, Inspect, Review, Observe, study, analyze | conduct discussions        | assess objects under specified conditions |
@@ -208,7 +209,7 @@ organization assurance requirements defines : appropriate depth and coverage for
 | Validate              |         |     x      |  x    |
 | Evaluate              |   x      |           |  x    |
 
-
-
+## Assessment Tailoring
+" In a manner similar to how the controls are tailored for the organization’s mission, business functions, characteristics of the system, and operating environment, organizations tailor the assessment procedures to meet specific organizational needs."
 
 
