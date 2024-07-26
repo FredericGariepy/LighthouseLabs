@@ -3,8 +3,10 @@
 >
 > ## There are six tasks that needs to be completed during the RMF stage:
 
-reading:
+Reading:
 - pages 38-42 [NIST Guide for Applying the Risk Management Framework to Federal Information Systems](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-37r1.pdf)
+
+
 1. Monitor information system and environment changes.
 2. Assess ongoing security control assessments.
 3. Conduct ongoing remediation actions.
