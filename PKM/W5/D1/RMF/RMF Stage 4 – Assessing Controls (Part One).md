@@ -102,7 +102,7 @@ class AssessmentObjectives:
     self. ... = ...
 ```
 
-
+assessment_object\
 AssessmentObjectives.objects \
 Assessment __objects__ = specific items being assessed \
 Assessment __objects__ = determination statements, specifications, mechanisms, activities, and individuals, as explained below:
@@ -115,28 +115,60 @@ Assessment __objects__ = determination statements, specifications, mechanisms, a
 | Individuals    | Parties responsible for performing activities related to the control.                       |
 
 AssessmentObjectives.Methods \
+Assessment methods =  list(examine, interview, test)  # nature of the assessor actions 
 
-Assessment methods define the nature of the assessor actions and include examine, interview, and test.
+examine \
+_The examine method_ is the process of : reviewing, inspecting, observing, studying, analyzing >>  __i.e. 'check on'__ \
+examine_method = check_on(specifications, mechanisms, activities) \
+examine_method = check_on(AssessmentObjectives.objects.specifications, AssessmentObjectives.objects.mechanisms, AssessmentObjectives.objects.activities) \
+"The purpose of the examine method is to facilitate assessor understanding, achieve clarification, or obtain evidence"
+check_on(...) => [evidence, understanding, clarificaiton]
 
-The examine method is the process of reviewing, inspecting, observing, studying, or analyzing one or more assessment objects (i.e., specifications, mechanisms, or activities). The purpose of the examine method is to facilitate assessor understanding, achieve clarification, or obtain evidence.
+interview \
+"_The interview method_ is the process of: __holding discussions__ to do: facilitate assessor understanding, achieve clarification, or obtain evidence." \
+def interview_method: call (examine method(), people) \
 
-The interview method is the process of holding discussions with individuals or groups of individuals within an organization to once again, facilitate assessor understanding, achieve clarification, or obtain evidence.
+test \
+"The test method is the process of exercising one or more assessment objects (i.e., activities or mechanisms) under specified conditions to compare actual with expected behavior."
+def test(AssessmentObjective.object.mechanisms, AssessmentObjective.object.activities) \
 
-The test method is the process of exercising one or more assessment objects (i.e., activities or mechanisms) under specified conditions to compare actual with expected behavior.
 
-In all three assessment methods, the results are used in making specific determinations called for in the determination statements and thereby achieving the objectives for the assessment procedure.
-Note
+Result of all three assessment methods, are used in making specific determinations <sub>(defined in determination statements)</sub> to succeed in objectives for the assessment procedure.
 
-You will look at an example of assessment procedures (object, objectives, and methods) once you have covered the concept of assessment tailoring later in the reading.
-Testing Coverage and Depth
+> Note: example of assessment procedures (object, objectives, and methods) in assessment tailoring later in the reading.
 
-Assessment methods have a set of associated attributes, depth, and coverage, which help define the level of effort for the assessment. These attributes are hierarchical in nature, providing the means to define the rigor and scope of the assessment for the increased assurances that may be needed for some information systems.
 
-The depth attribute addresses the rigor of and level of detail in the examination, interview, and testing processes. Values for the depth attribute include basic, focused, and comprehensive.
 
-The coverage attribute addresses the scope or breadth of the examination, interview, and testing processes including the number and type of specifications, mechanisms, and activities to be examined or tested, and the number and types of individuals to be interviewed, as shown in the diagram below. Similar to the depth attribute, values for the coverage attribute include basic, focused, and _comprehensive. _
+### Testing Coverage and Depth
 
-The appropriate depth and coverage attribute values for a particular assessment method are based on the assurance requirements specified by the organization. As assurance requirements increase with regard to the development, implementation, and operation of security and privacy controls within or inherited by the information system, the rigor and scope of the assessment activities (as reflected in the selection of assessment methods and objects and the assignment of depth and coverage attribute values) tend to increase as well.
+Subject: parent class of `Methods` used by AssessmentObjectives.Methods.<examine,intervie,test> \
+Methods base class takes (depth, coverage) # help define the level of effort for the assessment. 
+class Methods(depth, coverage) # help define the level of effort for the assessment. 
+
+depth \
+depth # the rigor of and level of detail in Methods(i.e. examination, interview, and testing). \
+__Possible Values depth__ = (basic, focused, comprehensive)
+
+coverage \
+coverage # scope or breadth of in Methods(i.e. examination, interview, and testing) \
+scope: count, type in:  [specifications, mechanisms, and activities, individuals] \
+__Possible Values of scope__ = (basic, focused, comprehensive)
+
+
+organization assurance requirements defines : appropriate depth and coverage for Method.<examine,intervie,test> \
+"As assurance requirements increase with regard to the development, implementation, and operation of security and privacy controls within or inherited by the information system" \
+Δ Assurance requirements = Δ security and privacy controls # in or inherited 
+Δ Assurance requirements = Method.<examine,intervie,test>(Δ depth, Δcoverage, ...)
+
+|           | examine | interview | test |
+|-----------|---------|-----------|------|
+| specification |plans, policies, procedures,requirements,designs|           |      |
+| mechanism     |Hard/Software, configs|           |Hard/Software, configs|
+| activities    |Sys op. Admin. maintenance|Sys op. Admin. maintenance|Sys op. Admin. maintenance|
+| individuals   |         |Operators, Admins, maintainers|
+
+
+
 
 
 
