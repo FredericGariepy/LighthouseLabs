@@ -81,4 +81,5 @@ Related Controls: The interactions between related controls are understood, so t
 > Related Controls Example: In a system where encryption (Control E) is used to protect data at rest, and access controls (Control F) are used to manage who can access that data, both controls are related. The effectiveness of Control E (encryption) may be undermined if Control F (access controls) is weak or misconfigured.
 
 
-
+# Task 2: Conducting Security Controls Assessment
+- [ ] keep going here. 
