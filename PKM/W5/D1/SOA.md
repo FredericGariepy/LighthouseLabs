@@ -32,16 +32,38 @@ SO 27001 specifies four (4) __methods__ for _handling potential dangers_:
 > if the possible loss is less than the expense of preventing the risk, you should take it.
 
 Risk Treatment plan
-> After compiling a list of potential threats, you must now choose how to address each one. A Risk Treatment plan is a document that specifies the risks that need to be addressed, who is responsible for them, how they will be addressed (either by avoiding them or accepting them), and when they will be addressed.
+> After compiling a list of potential threats, you must now choose how to address each one. A Risk Treatment plan is a document that specifies the risks that need to be addressed, who is responsible for them, how they will be addressed (mitigate, avoid, transfer, accept), and when they will be addressed.
 
 ## 3. Settle on the Preventative Measures in Terms of Security
+_Chose_ __controls to mitigate__.
+> After you've zeroed in on the threats you wish to eliminate (mitigate), \
+you may choose the controls that will have the most effect. Review the controls suggested in Annex A and ISO 27002 to figure out which ones will work best for your business.
+
+> E.g.
+>
+> Weak or shared passwords between workers, for instance, pose a threat to data security. Implementing a company-wide password management system, such as Password, is one feasible control.
+
 ## 4. Make a Tally of the Controls you Won't be Utilizing and the Reasons Why
+In the (ISO 27001) Risk Treatment strategy, document any hazards that you have decided to ignore.
+> Accepting a risk might be more cost-effective in the long run for a firm than attempting to mitigate it. You shouldn't, for instance, spend $10,000 to avoid a cost of $1,000, or maybe the risk is already manageable since the danger is so unlikely, and/or has such a low potential effect. A Toronto-based company probably doesn't require seismic server racks or other costly earthquake precautions.
+
+> Your auditor will want to see that you have at least considered the potential consequences of completing the SOA and have decided to do so knowingly and voluntarily.
+
 ## 5. Finalize Your Application's SOA
+
+Describe whether or not you implemented each control specified in Annex A and explain your reasoning.
+> You'll detail the date the control was put into place and indicate whether it satisfies a statutory, contractual, operational, or compliance mandate.
+
+> Most individuals utilize a spreadsheet to keep track of the SOA's extensive list of Annex A controls and the data that go along with them. Thus, any written work that can be conveniently divided into chapters will do.
+
 ## 6. Make Sure that Your SOA is always up to date
+Your SOA should be seen as a dynamic document.
+> In order to maintain compliance with ISO 27001 requirements, it is necessary to regularly review and update your security measures.
 
+> The controls you employ and how you've modified them to enhance your ISMS should be reflected in your SOA, which should be updated on a regular basis.
 
-
-
+> [!NOTE]: 
+> What Annex(es) of ISO/IEC 27001 apply to a certain organization is detailed in an SOA. A security control may or may not be relevant to your company's ISMS. A justification must be provided if a given control is inapplicable.
 
 #### Why ISO 27001?
 To ensure comprehensive information security management and to gain trust from stakeholders.
