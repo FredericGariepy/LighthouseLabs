@@ -2,21 +2,25 @@
 ###### Document
 Date: 07/25/2024
 
+# Table of Contents
 
 - [Executive Summary](#executive-summary)
 - [Referenced Documents](#referenced-documents)
-- [Purpose, Scope, and Users, Reference Documents](#1-purpose-scope-and-users-reference-documents)
-- [Categorize Inventory (1/2)](#2-categorize-inventory-12)
-- [Asset Management Table](#asset-management-table)
-- [Categorize Inventory (2/2)](#2-categorize-inventory-22)
-- [CIA Values Table](#cia-values-table)
-- [Risk Assessment (1/4)](#4-risk-assessment-14-start-filling-table-with-basic-information-from-step-3)
-- [Risk Assessment and Treatment Table](#risk-assessment-and-treatment-table)
-- [Risk Assessment (2/4)](#4-risk-assessment-24-find-existing-vulnerabilities-in-assets)
-- [Risk Assessment (3/4)](#4-risk-assessment-34-add-threats-risk-owners-likelihood-impact-risk-scores)
-- [Impact and Likelihood Scoring Table](#impact-and-likelihood-scoring-table)
-- [Risk Assessment (4/4)](#4-risk-assessment-44-select-controls-risk-response-treatment-details-monitoring-review)
+- [1. Purpose, Scope, and Users, Reference Documents](#1-purpose-scope-and-users-reference-documents)
+- [2. Categorize Inventory (1/2)](#2-categorize-inventory-12)
+  - [Asset Management Table](#asset-management-table)
+- [2. Categorize Inventory (2/2)](#2-categorize-inventory-22)
+  - [CIA Values table](#cia-values-table)
+- [4. Risk Assessment (1/4)](#4-risk-assessment-14-start-filling-table-with-basic-information-from-step-3)
+  - [Risk Assessment and Treatment Table](#risk-assessment-and-treatment-table)
+- [4. Risk Assessment (2/4)](#4-risk-assessment-24-find-existing-vulnerabilities-in-assets)
+- [4. Risk Assessment (3/4) ](#4-risk-assessment-34-add-threats-risk-owners-likelihood-impact-risk-scores)
+  - [Impact and Likelihood scoring table](#impact-and-likelihood-scoring-table)
+- [4. Risk Assessment (4/4)](#4-risk-assessment-44-select-controls-risk-response-treatment-details-monitoringreview)
+- [5. Missing parts](#5-missing-parts)
+- [6. Validity and Document Management](#6-validity-and-document-management)
 - [References](#references)
+- [Glossary](#glossary)
 
 
 ## Executive Summary
