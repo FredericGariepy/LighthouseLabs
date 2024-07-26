@@ -29,25 +29,46 @@ CISO
 - All of the clients run Windows 10.
 
 __Main office__ has:
-    - USERS: 1,500 users. use desktop computers.
-    - TWO(2) domain controllers named DCI and DC2
-    - ONE(1) file server named FSI
-    - ONE(1) Windows Software Update Services (WSUS) server named WSUSI
-    - ONE(1) Infrastructure that provides DNS services to the network, server named DHADNS.
-    - ONE(1) Central technology Department: responsible for _all technical issues within the company_.
+- USERS: 1,500 users. use desktop computers.
+- TWO(2) domain controllers named DCI and DC2
+- ONE(1) file server named FSI
+- ONE(1) Windows Software Update Services (WSUS) server named WSUSI
+- ONE(1) Infrastructure that provides DNS services to the network, server named DHADNS.
+- ONE(1) Central technology Department: responsible for _all technical issues within the company_.
 
 __ALL (each) branch offices__ has:
-    - USERS: aprox. 200 users. use desktop computers.
-    - ONE(1) server that is configured as a read-only domain controller (RODC).
-    - Branch office servers provide all _infrastructure services_ AND _branch office file_.
-    - ONE(1) Support Technician.
+- USERS: aprox. 200 users. use desktop computers.
+- ONE(1) server that is configured as a read-only domain controller (RODC).
+- Branch office servers provide all _infrastructure services_ AND _branch office file_.
+- ONE(1) Support Technician.
 
 __REMOTE WORKERS / home offices__ has:
-    - USERS: 20 users. programmers. use company-issued laptops.
-    - __Connect to main office__ using __L2TP VPN__ connections
+- USERS: 20 users. programmers. use company-issued laptops.
+- __Connect to main office__ using __L2TP VPN__ connections
 
 ## Planned Changes:
+- DHAEI plans a new branch office in Brampton, Mississauga.
+- Data for users in the new office will be stored on FSI (file server named FSI) until the new branch office server is installed, then data will more to new branch server.
 
+The changes will include the following technical, security, and user requirements:
+#### Technical Requirements:
+- Ensure that all company-issued computers receive all updates that have been approved for release by the technology department.
+- Minimize Internet bandwidth by providing internal computers with Microsoft updates via internal servers.
+- Minimize traffic across the VPN for remote users.
+- Provide central monitoring of all servers.
+- Generate an email whenever a hardware event occurs on any of the servers in the company.
+- The support technicians located in the branch office must have the rights to perform all local maintenance on the branch office servers in their respective branches.
+- The installation of the new RODC in the Brampton office must minimize active directory replication across the WAN link between Columbus and the main office storage space to store user data must be minimized.
+- All company-issued computers must be configured with Office 365.
+
+#### Security Requirements
+- The branch office technicians should __not__ have any rights to servers not located in their respective branch offices.
+- The installation of the new RODC in the Brampton office must not require any passwords or cached secrets to be stored outside of company servers.
+- Files stored on the company file servers must be protected in the event that a file server or the drives from any file server are stolen.
+
+#### User Requirements
+- Users in the new branch office must access their data using mapped drives.
+- User drives should not need to be remapped when the data is moved from the main office file server to the branch office server.
 
 
 
@@ -94,6 +115,11 @@ There are 1,500 users in the main office. Each branch office has about 200 users
 About 20 programmers work from home offices using company-issued laptops. The remote workers connect to the main office using L2TP VPN connections.
 
 The main office has a central technology department that is responsible for all technical issues within the company. There is one support technician located in each branch office.
+Planned Changes
+
+DHAEI plans a new branch office in Brampton, Mississauga. Data for users in the new office will be stored on FSI until the new branch office server is installed, at which time the data will be moved to the branch office server. The changes will include the following technical, security, and user requirements:
+Technical Requirements
+
 Planned Changes
 
 DHAEI plans a new branch office in Brampton, Mississauga. Data for users in the new office will be stored on FSI until the new branch office server is installed, at which time the data will be moved to the branch office server. The changes will include the following technical, security, and user requirements:
