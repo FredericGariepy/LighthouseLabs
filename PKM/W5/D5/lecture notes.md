@@ -10,4 +10,7 @@ Who ? GRC manager
 What:
 Asset -> Vulnerability -> Threat ->likelihood/impact -> Risk
 
+Common Vulnerabilities and Exposures (CVEs) have: Tactic Techniques Proceedures (TTP)
+
+
 
