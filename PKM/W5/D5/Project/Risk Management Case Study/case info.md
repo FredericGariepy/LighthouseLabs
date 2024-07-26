@@ -7,7 +7,7 @@ Value: provides basic/fast Internet access, Web registration and hosting alterna
 
 Geolocation: Based in the Durham area. Main office in Oshawa, Ontario. Has everal branch offices.
 
-Security:  
+## Security:  
 ```
 CISO
 ├── Security Tech
@@ -21,26 +21,32 @@ CISO
     - establish a network infrastructure to provide authentication, authorization, and accounting of its network assets
     - contingency system in place in a form of load-balancing and cluster management to provide redundancy and risk mitigation.
 
-Existing Environment: 
+## Existing Environment: 
 
 - Infratructure: DHAEI runs a mix of workloads on Rackspace and AWS.
 - ONE(1) Active Directory domain named DHA.com.
 - All the servers run Windows Server 2019.
 - All of the clients run Windows 10.
-Main office has:
+
+__Main office__ has:
+    - USERS: 1,500 users. use desktop computers.
     - TWO(2) domain controllers named DCI and DC2
     - ONE(1) file server named FSI
     - ONE(1) Windows Software Update Services (WSUS) server named WSUSI
     - ONE(1) Infrastructure that provides DNS services to the network, server named DHADNS.
+    - ONE(1) Central technology Department: responsible for _all technical issues within the company_.
 
-  Each branch office has one server that is configured as a read-only domain controller (RODC). The branch office servers provide all infrastructure services as well as functioning as a branch office file.
+__ALL (each) branch offices__ has:
+    - USERS: aprox. 200 users. use desktop computers.
+    - ONE(1) server that is configured as a read-only domain controller (RODC).
+    - Branch office servers provide all _infrastructure services_ AND _branch office file_.
+    - ONE(1) Support Technician.
 
-There are 1,500 users in the main office. Each branch office has about 200 users. All of the users in the main office and the branch office use desktop computers.
+__REMOTE WORKERS / home offices__ has:
+    - USERS: 20 users. programmers. use company-issued laptops.
+    - __Connect to main office__ using __L2TP VPN__ connections
 
-About 20 programmers work from home offices using company-issued laptops. The remote workers connect to the main office using L2TP VPN connections.
-
-The main office has a central technology department that is responsible for all technical issues within the company. There is one support technician located in each branch office.
-Planned Changes
+## Planned Changes:
 
 
 
