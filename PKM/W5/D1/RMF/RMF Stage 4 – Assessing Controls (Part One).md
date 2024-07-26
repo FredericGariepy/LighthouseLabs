@@ -177,12 +177,19 @@ organization assurance requirements defines : appropriate depth and coverage for
 | activities    |Sys op. Admin. maintenance|Sys op. Admin. maintenance|Sys op. Admin. maintenance|
 | individuals   |         |Operators, Admins, maintainers|
 
-### Assessing Control Compliance
+### Assessing Control Compliance (three testing technique)
 |             | basic       | focused    | comprehensive |
 |-------------|-------------|------------|---------------|
 |   BOX     |  black :black_circle:  | grey :grey_heart:  | white :white_circle:  |
 |   Confidence | some | increased | High |
 | Based on: | high-level process, functional | Architecture, integrations, op env | full knowledge |
+
+
+### Assessment Activities (Activity and objective of Methods)
+|             | examine                             | interview                  | test                                        |
+|-------------|-------------------------------------|----------------------------|---------------------------------------------|
+| activity    | check, Inspect, Review, Observe, study, analyze | conduct discussions        | assess objects under specified conditions |
+| Objective   | understand, clarify, obtain evidence | understand, clarify, obtain evidence | Compare actual and expected results to determine control functionality, correctness, completeness |
 
 
 
