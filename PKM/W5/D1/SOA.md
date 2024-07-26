@@ -1,7 +1,22 @@
 # Writing Statement of Applicability (SOA)
 
 ## ISO 27001 SOA: What Is It?
-Certification to ISO 27001 calls for an SOA. Essentially, it's a declaration of which security rules from Annex A apply to your organization's ISMS and which don't.
+ISO 27001: This is an international standard for information security management systems (ISMS).
+
+Annex A: This is a key part of ISO 27001. It contains a list of controls (security measures)
+
+Statement of Applicability (SOA): The SOA is a crucial document that organizations must create as part of their ISMS. It lists all the controls from Annex A and specifies which ones are applicable to the organization.
+
+For each control, the SOA should detail:
+- Whether the control is implemented or not.
+- How it is implemented (if it is).
+- The justification(rational) for its inclusion or exclusion.
+
+
+
+
+
+
 
 </end>
 
