@@ -37,7 +37,7 @@ The plan takes inspiration from the NIST RMF.
 ## 1. Purpose, Scope, and Users, Reference Documents:
 __Users__: IT professionals, supply chain experts, and Risk Management specialists. \
 __Purpose__: This document uses the NIST RMF framework. \
-__Scope__: Establish risk assesment for all assets part of the organization. \
+__Scope__: Establish risk assesment for all assets part of the organization.
 
 ## 2. Categorize Inventory (1/2)
 #### All systems must be registered and documented.
