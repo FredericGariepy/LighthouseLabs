@@ -1,5 +1,6 @@
 | Acronym | Expansion |
 | - | - |
+| COO | Chief Operating Officer|
 | DHAEI | DHA Enterprise Inc. |
 | SOHO | Small Office/Home Office |
 | AWS | Amazon Web Services |
