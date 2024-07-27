@@ -25,7 +25,7 @@ The following types of data and information are subject to Cyber Security compli
 #### Integrated Controls Management
 - [Practical Guidance To Implement GRC](https://complianceforge.com/governance-risk-compliance-grc/)
 ##### GRC Is A Puzzle So Please Be Part of The Solution
-- Ask yourself one question:
+_Ask yourself one question_: \
 If there was a major data breach today and all eyes focused on your company, when the dust settles and root causes are investigated, would your company’s leadership and its technology stakeholders be considered negligent for failing to implement “reasonable” security and privacy practices? \
 __Now__, as a GRC professional, look at your specific role and the responsibilities you have for helping keep data and technology secure. \
 Are you part of the solution or the problem?
