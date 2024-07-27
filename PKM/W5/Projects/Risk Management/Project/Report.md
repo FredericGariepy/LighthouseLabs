@@ -44,7 +44,6 @@ To further bring this report into compliance with ISO 27001 see the recomendatio
 
 
 
-__Include the following components:__
 
 # 0. Purpose, scope, and users
 
@@ -55,11 +54,26 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 
 
 
-> Risk __Assessment__ and Risk __Treatment__ Methodology:
-# 1. Risk Assessment:
+
+### Overview of Three threats
+
+| threat | Risk Owner | Risk score | Mitigation |
+|--------|------------|------------|------------|
+|        |            |            |            |
+|        |            |            |            |
+|        |            |            |            |
+|        |            |            |            |
+
+<!--
+> - The process: Explain what process you might follow. List 3 or more individuals or groups you might involve & why.
+
+> - Assets, vulnerabilities, and threats: Based on the information provided by DE, list the 3 main threats you expect DE to face and the
+
+> - challenges you expect them to face while managing these threats; reflect back on vulnerabilities and threats.
+-->
 
 
-# Three threats
+# each threat format
 <!--Executuve format-->
 Format \
 name, \
@@ -74,6 +88,12 @@ Context:
 As of 14 October 2025, PCs running __Windows 10__ will still function, but Microsoft will no longer provide Security updates or fixes (Microsoft, n.d.).
 1500 __Windows 10__ used by employees for daily tasks will no longer receive Security updates or fixes.
 
+- Impact and likelihood:
+- Create a table that lists three threats or risks.
+-  Reflect and document the effect of these risks on C, I, or A or more than one of these,
+-  to what extent (from 0 to 10) and how likely (0 to 5)?
+
+-  
 Threat:
 The event will happen in less 15 months (14 October 2025). 
 Without security updates or fixes, all devices are now EOL OS vulnerable. 
@@ -89,21 +109,21 @@ The risk response for tstrategy mitigate the
 
 Following the manifacturer's recommendations. The 1,500 Desktop Computers in the Main Office should be investiagated to see if upgrading the OS version is possible under 
 
+-----------
 
-> - The process: Explain what process you might follow. List 3 or more individuals or groups you might involve & why.
 
-> - Assets, vulnerabilities, and threats: Based on the information provided by DE, list the 3 main threats you expect DE to face and the challenges you expect them to face while managing these threats; reflect back on vulnerabilities and threats.
+<!-- format-
+Format \
+name, \
+Asset: description, risk owners.  “chain” of ownership  botom -> top \
+-  Explain what and how each owner may contribute to the chain.
 
-- Determining the risk owners: In examination of three different risks, create a “chain” of ownership of the risk from ground level to senior executive level. Explain what and how each owner may contribute to the chain.
-- Impact and likelihood: Create a table that lists three threats or risks. Reflect and document the effect of these risks on C, I, or A or more than one of these, to what extent (from 0 to 10) and how likely (0 to 5)?
-- Risk acceptance criteria: Explain how the most likely / highest risk item may impact DE and explain why some items in the table may be “ignored” or “minimized” based on the information provided by DE – reflect back on your risk assignments.
-2. Risk Treatment:
-- Summarize the 3 main threats you have identified
-- Recommended mitigations or responses you recommend for each
-- Priority you would give each threat.
-    - Be sure to explain your prioritizations and your recommended responses.
-  
-
+context (vulnerability) \
+threat (likelihood, impact) (use ORM language format)\
+Risk accept, ignore, mitigate, transfer. 
+treatment  (risk response, controls) + Priority w/ reasoning \
+... (control assesment would not be done in this report) \
+-->
 
 # process (workflow)
 
@@ -114,3 +134,48 @@ Following the manifacturer's recommendations. The 1,500 Desktop Computers in the
 Don’t forget to _reference industry standard frameworks_ to aid you in deciding on your recommended mitigations or responses.
 
 Microsoft. (n.d.). End of support for Windows 10, Windows 8.1, and Windows 7. Retrieved from https://www.microsoft.com/en-ca/windows/end-of-support?r=1#:~:text=Support%20for%20Windows%2010%20will,technical%20support%20for%20Windows%2010
+
+
+
+
+#---------------------------
+
+> - The process: Explain what process you might follow. List 3 or more individuals or groups you might involve & why.
+
+> - Assets, vulnerabilities, and threats: Based on the information provided by DE, list the 3 main threats you expect DE to face and the
+> - challenges you expect them to face while managing these threats; reflect back on vulnerabilities and threats.
+
+- Determining the risk owners:
+- In examination of three different risks,
+- create a “chain” of ownership of the risk from ground level to senior executive level.
+-  Explain what and how each owner may contribute to the chain.
+
+
+- Impact and likelihood:
+- Create a table that lists three threats or risks.
+-  Reflect and document the effect of these risks on C, I, or A or more than one of these,
+-  to what extent (from 0 to 10) and how likely (0 to 5)?
+  
+- Risk acceptance criteria:
+- Explain how the most likely / highest risk item may impact DE and explain why some items in the table may be “ignored” or “minimized”
+- based on the information provided by DE – reflect back on your risk assignments.
+  
+2. Risk Treatment:
+- Summarize the 3 main threats you have identified
+- Recommended mitigations or responses you recommend for each
+- Priority you would give each threat.
+- Be sure to explain your prioritizations and your recommended responses.
+  
+
+
+    Purpose, scope, and users
+    Risk Assessment and Risk Treatment Methodology:
+        2.1 Risk Assessment:
+            The process: Explain what process you might follow. List 3 or more individuals or groups you might involve & why.
+            Assets, vulnerabilities, and threats: Based on the information provided by DE, list the 3 main threats you expect DE to face and the challenges you expect them to face while managing these threats; reflect back on vulnerabilities and threats.
+            Determining the risk owners: In examination of three different risks, create a “chain” of ownership of the risk from ground level to senior executive level. Explain what and how each owner may contribute to the chain.
+            Impact and likelihood: Create a table that lists three threats or risks. Reflect and document the effect of these risks on C, I, or A or more than one of these, to what extent (from 0 to 10) and how likely (0 to 5)?
+            Risk acceptance criteria: Explain how the most likely / highest risk item may impact DE and explain why some items in the table may be “ignored” or “minimized” based on the information provided by DE – reflect back on your risk assignments.
+        2.2 Risk Treatment: Summarize the 3 main threats you have identified above, what recommended mitigations or responses you recommend for each and what priority you would give each one. Be sure to explain your prioritizations and your recommended responses. Don’t forget to reference industry standard frameworks to aid you in deciding on your recommended mitigations or responses.
+
+Executive Su
