@@ -60,22 +60,30 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 
 
 # Three threats
+<!--Executuve format-->
+Format \
+name, \
+context (vulnerability) \
+threat (likelihood, impact)\
+treatment  (risk response, \
+
 
 ## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
 Context:
-As of 14 October 2025, PCs running Windows 10 will still function, but Microsoft will no longer provide Security updates or fixes (Microsoft, n.d.).
+As of 14 October 2025, PCs running __Windows 10__ will still function, but Microsoft will no longer provide Security updates or fixes (Microsoft, n.d.).
+1500 __Windows 10__ used by employees for daily tasks will no longer receive Security updates or fixes.
 
 Threat:
-This event will happen in less 15 months. 
+The event will happen in less 15 months (14 October 2025). 
 Without security updates or fixes, all devices are now EOL OS vulnerable. 
-This is a serrious threat that will change from potential to immediate effective on 14 October 2025.
+EOL is a serrious threat that will change from potential to immediate effective on 14 October 2025.
 
 Treatment:
 The manifacturer's official recommendation: transition to the OS version (Windows 11) if existing device can run it. Else replace or upgrade system to meet performance requirements.
 To effectively take advantage of time (15 months), the 
 
 
-The will must be mitigated. 
+The must be be mitigated. 
 The risk response for tstrategy mitigate the 
 
 Following the manifacturer's recommendations. The 1,500 Desktop Computers in the Main Office should be investiagated to see if upgrading the OS version is possible under 
