@@ -1,7 +1,6 @@
 # Source: ernie johnson , ej8899 [users_table.md](https://github.com/ej8899/cyber101/blob/main/lhl-w05d2-project/users_table.md)
 ## Lighthouse Labs - Cybersecurity W05D2 project
-
-### Key Individual Users Table for DHAEI
+### Key Individual Users Table for DHAEI users_table.md
 
 | **Name**         | **Position**          | **Role/Responsibilities**                                             |
 |------------------|-----------------------|-----------------------------------------------------------------------|
