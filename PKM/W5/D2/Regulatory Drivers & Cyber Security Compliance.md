@@ -11,10 +11,9 @@ Questions:
 | PHI|public health information|
 |GRC|Risk Management & Compliance|
 |IRM|Integrated Risk Management|
-|GRC=IRM| ["synonymous" -ComplianceForge](https://complianceforge.com/governance-risk-compliance-grc/) |
+|| GRC=IRM ["synonymous" -ComplianceForge](https://complianceforge.com/governance-risk-compliance-grc/) |
 |ICM| Integrated Controls Management = "How To GRC Playbook"|
-|PDCA| Plan, Do, Check & Act|
-||PDCA Deming Cycle|
+|PDCA| Plan, Do, Check & Act (also known as 'Deming Cycle')|
 
 provisions and regulations may be either mandatory or recommended. \
 Failure to comply with these regulations may result in criminal prosecution, civil liability, or loss of confidence
