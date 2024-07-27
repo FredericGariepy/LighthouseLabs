@@ -37,11 +37,38 @@ __Include the following components:__
 
 # 0. Purpose, scope, and users
 
+purpose: couple of main risks and scope = [Coverage and Depth](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/D1/RMF/RMF%20Stage%204%20%E2%80%93%20Assessing%20Controls%20(Part%20One).md#testing-coverage-and-depth)
+
+### the table
+[Inventory. Risk & Treatment Table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing)
+
+
 
 > Risk __Assessment__ and Risk __Treatment__ Methodology:
 # 1. Risk Assessment:
 
-- [Inventory. Risk & Treatment Table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing)
+
+# Three threats
+
+## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
+Context:
+As of 14 October 2025, PCs running Windows 10 will still function, but Microsoft will no longer provide Security updates or fixes (Microsoft, n.d.).
+
+Threat:
+This event will happen in less 15 months. 
+Without security updates or fixes, all devices are now EOL OS vulnerable. 
+This is a serrious threat that will change from potential to immediate effective on 14 October 2025.
+
+Treatment:
+The manifacturer's official recommendation: transition to the OS version (Windows 11) if existing device can run it. Else replace or upgrade system to meet performance requirements.
+To effectively take advantage of time (15 months), the 
+
+
+The will must be mitigated. 
+The risk response for tstrategy mitigate the 
+
+Following the manifacturer's recommendations. The 1,500 Desktop Computers in the Main Office should be investiagated to see if upgrading the OS version is possible under 
+
 
 > - The process: Explain what process you might follow. List 3 or more individuals or groups you might involve & why.
 
@@ -60,3 +87,4 @@ __Include the following components:__
 # references
 Don’t forget to _reference industry standard frameworks_ to aid you in deciding on your recommended mitigations or responses.
 
+Microsoft. (n.d.). End of support for Windows 10, Windows 8.1, and Windows 7. Retrieved from https://www.microsoft.com/en-ca/windows/end-of-support?r=1#:~:text=Support%20for%20Windows%2010%20will,technical%20support%20for%20Windows%2010
