@@ -92,12 +92,12 @@ treatment  (risk response, controls) + Priority w/ reasoning \
 ## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
 Threat name: End-of-Life (EOL) for OS Vulnerabilities \
 Asset: 1500 hardware machines in main office. \
-Risk owners table: \
+Risk owners table:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
-| Chief Information Officer (CIO)  | Amanda Wilson     | Primary risk owner for the overall management of IT assets. | Oversees IT infrastructure, develops asset management policies, ensures compliance with security standards, and manages overall risk strategy. |
-| Chief Information Security Officer (CISO) | Paul Alexander    | Shares responsibility for security-related aspects.        | Develops and implements security policies, assesses security risks, manages incident response, and ensures security measures for the Windows OS machines. |
-| Manager of Systems               | William Freund    | Supports management and operational oversight.             | Manages day-to-day operations, performs regular maintenance and updates, monitors system performance, and coordinates with the IT team to resolve issues. |
+| CIO  | Amanda Wilson     | Primary risk owner for overall management of IT & Security. | Leads the IT department, oversees information technology and security. |
+| CISO | Paul Alexander    | Secondary risk owner for management of Security | Oversees information security, manages security strategies and policies. |
+| Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
 
 
 Context:
