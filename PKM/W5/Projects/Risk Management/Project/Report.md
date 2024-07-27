@@ -26,8 +26,8 @@ Report is an Executive Summary that captures risk management process.
 
 This document was produced by assessing the [case information](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W5/Projects/Risk%20Management/case%20info.md), [organization struture](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W5/Projects/Risk%20Management/Employees) and [organization assets](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Assets/tangibles.md) to fill the basics in the [risk __assesment__ and __treatment__ table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing).
 
-The Report is not complete, as it focuses on <number> of main threats, and provides the workflow to complete the report. \
-Follow  this documen to read about the reccomned treatmens of main threats. \ 
+The Report is not complete.
+Follow this document to read about the reccomnnded treatmens of main threats, and the workflow used to further generate the risk assesment. \ 
 To further bring this report into compliance with ISO 27001 see the recomendations at the end.
 
 
