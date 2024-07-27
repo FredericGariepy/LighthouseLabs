@@ -59,7 +59,7 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 
 | Priority | threat | Risk Owner | Risk score | Mitigation |
 |----------|--------|------------|------------|------------|
-|     1    | EOL OS|            |     4       |     official fix|
+|     1    | EOL OS|      CIO, Amanda Wilson      |     4       |     official fix |
 |     2     |        |            |            |            |
 |     3     |        |            |            |            |
 |          |        |            |            |            |
@@ -74,17 +74,32 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 -->
 
 
-# each threat format
-<!--Executuve format-->
+<!-- 
+
+# each threat format \
 Format \
 name, \
+Asset: description, 
+risk owners: risk owners.  “chain” of ownership  botom -> top -  Explain what and how each owner may contribute to the chain. \
 context (vulnerability) \
 threat (likelihood, impact) (use ORM language format)\
-treatment  (risk response, controls) \
-... (control assesment would not be done in this report)
+Risk accept, ignore, mitigate, transfer. 
+treatment  (risk response, controls) + Priority w/ reasoning \
+... (control assesment would not be done in this report) \
+-->
 
 
 ## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
+Threat name: End-of-Life (EOL) for OS Vulnerabilities \
+Asset: 1500 hardware machines in main office. \
+Risk owners table: \
+| **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
+|-|-|-|-|
+| Chief Information Officer (CIO)  | Amanda Wilson     | Primary risk owner for the overall management of IT assets. | Oversees IT infrastructure, develops asset management policies, ensures compliance with security standards, and manages overall risk strategy. |
+| Chief Information Security Officer (CISO) | Paul Alexander    | Shares responsibility for security-related aspects.        | Develops and implements security policies, assesses security risks, manages incident response, and ensures security measures for the Windows OS machines. |
+| Manager of Systems               | William Freund    | Supports management and operational oversight.             | Manages day-to-day operations, performs regular maintenance and updates, monitors system performance, and coordinates with the IT team to resolve issues. |
+
+
 Context:
 As of 14 October 2025, PCs running __Windows 10__ will still function, but Microsoft will no longer provide Security updates or fixes (Microsoft, n.d.).
 1500 __Windows 10__ used by employees for daily tasks will no longer receive Security updates or fixes.
