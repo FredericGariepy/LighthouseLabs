@@ -13,6 +13,8 @@ Questions:
 |IRM|Integrated Risk Management|
 |GRC=IRM| ["synonymous" -ComplianceForge](https://complianceforge.com/governance-risk-compliance-grc/) |
 |ICM| Integrated Controls Management = "How To GRC Playbook"|
+|PDCA| Plan, Do, Check & Act|
+||PDCA Deming Cycle|
 
 provisions and regulations may be either mandatory or recommended. \
 Failure to comply with these regulations may result in criminal prosecution, civil liability, or loss of confidence
@@ -45,6 +47,7 @@ __Now__, as a GRC professional, look at your specific role and the responsibilit
 Are you part of the solution or the problem?
 
 
+# GRC Is a Plan, Do, Check & Act (PDCA) Adventure 
 
 
 
