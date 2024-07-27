@@ -59,9 +59,9 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 
 | Priority | threat | Primary Risk Owner | Risk score | Mitigation |
 |----------|--------|------------|------------|------------|
-|     1    | EOL OS|      CIO, Amanda Wilson      |     4       |     official fix |
-|     2     |        |            |            |            |
-|     3     |        |            |            |            |
+|     1<sub>rst</sub>    | EOL OS|      CIO, Amanda Wilson      |     4       |     official fix |
+|     2<sub>nd</sub>     |        |            |            |            |
+|     3<sub>rd</sub>     |        |            |            |            |
 |          |        |            |            |            |
 
 
