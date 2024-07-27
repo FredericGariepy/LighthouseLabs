@@ -11,6 +11,7 @@ Questions:
 | PHI|public health information|
 |GRC|Risk Management & Compliance|
 |IRM|Integrated Risk Management|
+|GRC=IRM| ["synonymous" -ComplianceForge](https://complianceforge.com/governance-risk-compliance-grc/) |
 |ICM| Integrated Controls Management = "How To GRC Playbook"|
 
 provisions and regulations may be either mandatory or recommended. \
