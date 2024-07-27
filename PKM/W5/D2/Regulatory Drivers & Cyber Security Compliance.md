@@ -19,10 +19,6 @@ Failure to comply with these regulations may result in criminal prosecution, civ
 | Data Protection Act                     | U.K. Government | Limits third-party obtaining and use of personal information                           |
 | Graham-Leach-Bliley                     | U.S. Government | Protects personal financial privacy; requires written information security plan       |
 | Sarbanes-Oxley                          | U.S. Government | Requires internal controls for assuring accuracy of financial reports; prohibits manipulation or destruction of records |
-
-
-| Regulation                                                    | Source          | Notes                                                             |
-|---------------------------------------------------------------|-----------------|-------------------------------------------------------------------|
 | Federal Information System Management Act (FISMA)             | U.S. Government | Applies to all federal departments and agencies                   |
 | Personal Information Protection and Electronic Documents Act (PIPEDA) | Canadian Government | Protects consumer privacy                                        |
 | European Data Protection Directive and General Data Protection Regulation | European Union  | Privacy protection with breathtaking scope                        |
