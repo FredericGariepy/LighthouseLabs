@@ -7,6 +7,9 @@ Project Description
 
 Resources: 
 > NIST NVD and/or MITRE ATT&CK
+[IT Team](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Employees/IT%20Team.md)
+
+
 
 Deliverables: 
 > Create a Risk Management Plan
