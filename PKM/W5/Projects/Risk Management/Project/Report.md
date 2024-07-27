@@ -57,12 +57,13 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 
 ### Overview of Three threats
 
-| threat | Risk Owner | Risk score | Mitigation |
-|--------|------------|------------|------------|
-|        |            |            |            |
-|        |            |            |            |
-|        |            |            |            |
-|        |            |            |            |
+| Priority | threat | Risk Owner | Risk score | Mitigation |
+|----------|--------|------------|------------|------------|
+|     1    | EOL OS|            |     4       |     official fix|
+|     2     |        |            |            |            |
+|     3     |        |            |            |            |
+|          |        |            |            |            |
+
 
 <!--
 > - The process: Explain what process you might follow. List 3 or more individuals or groups you might involve & why.
