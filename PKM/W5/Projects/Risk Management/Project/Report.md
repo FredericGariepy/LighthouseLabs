@@ -6,9 +6,9 @@ Project Description
 > _Apply the process of_ __Risk Treatment__ to minimize the damage of such incidents in an organization.
 
 Resources: 
-> NIST NVD and/or MITRE ATT&CK
-[IT Team](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Employees/IT%20Team.md)
-
+-  NIST NVD and/or MITRE ATT&CK
+- [IT Team](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Employees/IT%20Team.md)
+- [Organization memebers](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Employees/users_table.md)
 
 
 Deliverables: 
