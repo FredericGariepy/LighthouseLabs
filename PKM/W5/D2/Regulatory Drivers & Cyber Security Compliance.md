@@ -1,9 +1,11 @@
+
 Questions:
 - What regulatory drivers are?
 - Some common regulatory drivers in the industry
 - How to comply to Cyber Security laws
 - How to implement GRC using the Integrated Controls Management approach
 
+## Dictionary
 |Acronym|Expanded
 |-|-|
 |PCI DSS|Payment Card Industry Data Security Standard|
@@ -14,6 +16,22 @@ Questions:
 || GRC=IRM ["synonymous" -ComplianceForge](https://complianceforge.com/governance-risk-compliance-grc/) |
 |ICM| Integrated Controls Management = "How To GRC Playbook"|
 |PDCA| Plan, Do, Check & Act (also known as 'Deming Cycle')|
+|MCR| Minimum Compliance Criteria|
+|DSR|Discretionary Security Requirements|
+
+
+## Table - Regulations
+| Regulation                              | Source          | Notes                                                                                  |
+|-----------------------------------------|-----------------|----------------------------------------------------------------------------------------|
+| Health Insurance Portability and Accountability Act (HIPAA) | U.S. Government | Protects patients' past, present, and future health records                             |
+| Data Protection Act                     | U.K. Government | Limits third-party obtaining and use of personal information                           |
+| Graham-Leach-Bliley                     | U.S. Government | Protects personal financial privacy; requires written information security plan       |
+| Sarbanes-Oxley                          | U.S. Government | Requires internal controls for assuring accuracy of financial reports; prohibits manipulation or destruction of records |
+| Federal Information System Management Act (FISMA)             | U.S. Government | Applies to all federal departments and agencies                   |
+| Personal Information Protection and Electronic Documents Act (PIPEDA) | Canadian Government | Protects consumer privacy                                        |
+| European Data Protection Directive and General Data Protection Regulation | European Union  | Privacy protection with breathtaking scope                        |
+| Payment Card Industry Data Security Standard (PCI DSS)        | Industry Group  | Primarily focused on preventing and detecting fraud in bankcard transactions |
+
 
 provisions and regulations may be either mandatory or recommended. \
 Failure to comply with these regulations may result in criminal prosecution, civil liability, or loss of confidence
@@ -47,6 +65,59 @@ Are you part of the solution or the problem?
 
 
 # GRC Is a Plan, Do, Check & Act (PDCA) Adventure 
+#### 1. Plan.
+> The overall GRC process beings with planning. This planning will define the policies, standards and controls for the organization. It will also directly influence the tools and services that an organization purchases, since technology purchases should address needs that are defined by policies and standards.
+#### 2. Do.
+> Arguably, this is the most important section for cybersecurity and privacy practitioners. Controls are the “security glue” that make processes, applications, systems and services secure. Procedures (also referred to as control activities) are the processes how the controls are actually implemented and performed. The Secure Controls Framework (SCF) can be an excellent starting point for a control set if your organization lacks a comprehensive set of cybersecurity and privacy controls.
+#### 3. Check.
+> In simple terms, this is situational awareness. Situational awareness is only achieved through reporting through metrics and reviewing the results of audits/assessment.
+#### 4. Act.
+> This is essentially risk management, which is an encompassing area that deals with addressing two main concepts (1) real deficiencies that currently exist and (2) possible threats to the organization.
+
+
+## ICM "compliant" versus "secure"
+ICM specifically focuses on the need to understand and clarify the difference between "compliant" versus "secure" \
+__Unlike GRC/IRM__
+
+ICM categorize its applicable controls according to “must have” vs “nice to have”.
+
+<img src="https://content.complianceforge.com/graphics/compliant-vs-secure.png" alt="Compliant vs Secure" width="300" height="auto">
+
+
+
+### Integrated Controls Management Principles
+#### There are eight (8) principles associated with ICM:
+
+1. **Establish Context**
+   > Multi-Tiered Risk Management Strategy. Ask: 5W1H.
+<img src="https://content.complianceforge.com/graphics/c-scrm-cybersecurity-supply-chain-risk-management.jpg" alt="Cybersecurity Supply Chain Risk Management" width="600" height="auto">
+
+2. **Define Applicable Controls**
+   > Tailor controls to meet both compliance (MCR) and security needs (DSR).
+
+3. **Assign Maturity-Based Criteria**
+   > Tailored maturity level criteria can be used to plan for, budget for and assess against.
+
+4. **Publish Policies, Standards & Procedures**
+   > Documentation must exist, else controls are unenforceable.
+
+5. **Assign Stakeholder Accountability**
+   > Ensure clear ownership and responsibility for controls.
+
+6. **Maintain Situational Awareness**
+   > Monitor and analyze metrics for informed decision-making. Adjust plans to operate within the organization’s risk threshold.
+
+7. **Manage Risk**
+   > Proactive. RM must exist throughout the SDLC. Identify and mitigate risks to securit.
+
+8. **Evolve Processes**
+   > Adapt PDCA/Deming Cycle to meet evolving threat landscape. IR plans.
+
+# GRC Order
+1) compliance influences (2) governance, which influences (3) risk management. \
+1. compliance
+2. governance
+3. risk management
 
 
 
@@ -54,17 +125,3 @@ Are you part of the solution or the problem?
 
 
 
-
-
-
-
-| Regulation                              | Source          | Notes                                                                                  |
-|-----------------------------------------|-----------------|----------------------------------------------------------------------------------------|
-| Health Insurance Portability and Accountability Act (HIPAA) | U.S. Government | Protects patients' past, present, and future health records                             |
-| Data Protection Act                     | U.K. Government | Limits third-party obtaining and use of personal information                           |
-| Graham-Leach-Bliley                     | U.S. Government | Protects personal financial privacy; requires written information security plan       |
-| Sarbanes-Oxley                          | U.S. Government | Requires internal controls for assuring accuracy of financial reports; prohibits manipulation or destruction of records |
-| Federal Information System Management Act (FISMA)             | U.S. Government | Applies to all federal departments and agencies                   |
-| Personal Information Protection and Electronic Documents Act (PIPEDA) | Canadian Government | Protects consumer privacy                                        |
-| European Data Protection Directive and General Data Protection Regulation | European Union  | Privacy protection with breathtaking scope                        |
-| Payment Card Industry Data Security Standard (PCI DSS)        | Industry Group  | Primarily focused on preventing and detecting fraud in bankcard transactions |
