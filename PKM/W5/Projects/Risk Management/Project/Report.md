@@ -79,7 +79,8 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 # each threat format \
 Format \
 name, \
-Asset: description, 
+Asset: description
+Security Category = SC<sub>asset</sub> = {(C:val),(I:val),(A:val)} 
 risk owners: risk owners.  “chain” of ownership  botom -> top -  Explain what and how each owner may contribute to the chain. \
 context (vulnerability) \
 threat (likelihood, impact) (use ORM language format)\
@@ -91,18 +92,31 @@ treatment  (risk response, controls) + Priority w/ reasoning \
 
 ## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
 Threat name: End-of-Life (EOL) for OS Vulnerabilities \
-Asset: 1500 hardware machines in main office. \
+Asset: Main Office 1,500 Desktop Computers: Client machines running Windows 10, used by employees for daily tasks. \
 Risk owners table:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
 | CIO  | Amanda Wilson     | Primary risk owner for overall management of IT & Security. | Leads the IT department, oversees information technology and security. |
 | CISO | Paul Alexander    | Secondary risk owner for management of Security | Oversees information security, manages security strategies and policies. |
 | Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
+Existing vulnerability: \
+End of Life for PCs running __Windows 10__ effective 14 October 2025. Microsoft will no longer provide Security updates or fixes. (Microsoft, n.d.) \
+
+Threat: \
+1500 __Windows 10__ used by employees for daily tasks will no longer receive Security updates or fixes. \
+Entire main office operations will be unprotected from every possible attack targeting Windows 10, after 14 October 2025. \
+The risk would result in the 
+This is aerrious and unavoidable threat.
 
 
-Context:
-As of 14 October 2025, PCs running __Windows 10__ will still function, but Microsoft will no longer provide Security updates or fixes (Microsoft, n.d.).
-1500 __Windows 10__ used by employees for daily tasks will no longer receive Security updates or fixes.
+<!-- 
+context (vulnerability) \
+threat (likelihood, impact) (use ORM language format)\
+Risk accept, ignore, mitigate, transfer. 
+treatment  (risk response, controls) + Priority w/ reasoning \
+... (control assesment would not be done in this report) \
+-->
+
 
 - Impact and likelihood:
 - Create a table that lists three threats or risks.
