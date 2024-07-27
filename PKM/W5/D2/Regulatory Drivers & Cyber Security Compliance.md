@@ -18,6 +18,10 @@ Questions:
 |PDCA| Plan, Do, Check & Act (also known as 'Deming Cycle')|
 |MCR| Minimum Compliance Criteria|
 |DSR|Discretionary Security Requirements|
+|RASCI|Responsibility, Accountability, Supportive, Consulted, and Informed |
+|GIGO|Garbage In = Garbage Out |
+|COTS|Commercial Off The Shelf |
+
 
 
 ## Table - Regulations
@@ -114,14 +118,26 @@ ICM categorize its applicable controls according to “must have” vs “nice t
    > Adapt PDCA/Deming Cycle to meet evolving threat landscape. IR plans.
 
 # GRC Order
-1) compliance influences (2) governance, which influences (3) risk management. \
+1) compliance influences (2) governance, which influences (3) risk management.
 1. compliance
 2. governance
 3. risk management
+    - Reduce the risk to an acceptable level;
+    - Avoid the risk;
+    - Transfer the risk to another party; or
+    - Accept the risk.
+# If GRC Is Not Documented, It Doesn’t Exist 
 
 
+# Garbage In = Garbage Out (GIGO)
+You cannot reasonably expect a GRC solution to dictate what your processes are going to be.
 
+There are tools that exist to automate your existing processes, but if you have bad processes today, automating that will only makes those bad practices faster.
 
+This is the “garbage in = garbage out” issue that plagues many GRC implementations.
 
+__GIGO is especially true with Risk Management.__ \
+Using COTS risk management tools; risk catalog in COTS tools often have little to no tie-in to the organization’s actual cybersecurity and privacy controls, let alone its policies and standards.
+> This often leads to Risk Management teams "going rogue" making up their own risks that have no legitimate tie in - it just looks impressive and analysts are kept busy
 
 
