@@ -57,7 +57,7 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 
 ### Overview of Three threats
 
-| Priority | threat | Risk Owner | Risk score | Mitigation |
+| Priority | threat | Primary Risk Owner | Risk score | Mitigation |
 |----------|--------|------------|------------|------------|
 |     1    | EOL OS|      CIO, Amanda Wilson      |     4       |     official fix |
 |     2     |        |            |            |            |
