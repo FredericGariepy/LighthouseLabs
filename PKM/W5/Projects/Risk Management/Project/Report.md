@@ -1,5 +1,16 @@
 # Risk Management Case Study
-Risk management plan has met the technical, security, and user requirements within the user scenario.
+
+Fucked up stuff
+- Vacant seat/ intern  
+- Windows 10, EOF
+- Windows 2019 server OEF [End of servicing](https://learn.microsoft.com/en-us/windows-server/get-started/windows-server-release-info)
+- [EOS vs EOL](https://www.leanix.net/en/wiki/trm/what-is-end-of-life-vs-end-of-support#What-is-End-of-Support-End-of-Service-Life)
+- L2TP VPN Client (Remote Workers), maybe not the best [nord vpn about l2tp](https://nordvpn.com/blog/l2tp-protocol/)
+- L2TP VPN Client,  [avast](https://www.avast.com/c-vpn-protocols)
+- Security    Speed    Popularity 
+- L2TP    Strong    Slow    Low 
+
+- L2P https://nordvpn.com/blog/l2tp-protocol/
 
 Project Description
 > The purpose of __Risk Management__ is to _systematically find out which incidents can happen_ to an organization.
