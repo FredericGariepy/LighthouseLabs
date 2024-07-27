@@ -120,10 +120,10 @@ Cyber Security Controls:
 IT Risk Management (IT ORM):
 - hardware and software defects, IT-related compliance and regulatory risks, human error, and natural disasters, among others
 
+# ORM table
 |Category|IT Risk Management (IT ORM) |Cyber Security Controls|
 | - | -- | --|
 | 1: Serrious, Immediate |Mission Failure, Loss of life, Unacceptable|Total loss, Compromise, Violation|
-||||
 | 2: Significant, Potential |Security Failure, Severe injury, Significan Damage|Partial loss, Some compromise,Degredation|
 
 
