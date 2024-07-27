@@ -9,7 +9,8 @@ Questions:
 |PCI DSS|Payment Card Industry Data Security Standard|
 |HIPAA| Health Insurance Portability and Accountability Act|
 | PHI|public health information|
-
+|GRC|Risk Management & Compliance|
+|IRM|Integrated Risk Management|
 
 provisions and regulations may be either mandatory or recommended. \
 Failure to comply with these regulations may result in criminal prosecution, civil liability, or loss of confidence
@@ -29,6 +30,13 @@ _Ask yourself one question_: \
 If there was a major data breach today and all eyes focused on your company, when the dust settles and root causes are investigated, would your company’s leadership and its technology stakeholders be considered negligent for failing to implement “reasonable” security and privacy practices? \
 __Now__, as a GRC professional, look at your specific role and the responsibilities you have for helping keep data and technology secure. \
 Are you part of the solution or the problem?
+
+
+
+
+
+
+
 
 
 
