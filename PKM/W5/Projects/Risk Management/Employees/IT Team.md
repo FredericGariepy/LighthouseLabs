@@ -1,6 +1,6 @@
 | Department      | Name          | Position            | Role/Responsibilities                                              |
 |-----------------|---------------|---------------------|-------------------------------------------------------------------|
-| Security        | Amanda Wilson | CIO                 | Leads the IT department, oversees information technology and security. |
+| CIO      | Amanda Wilson | CIO                 | Leads the IT department, oversees information technology and security. |
 | Security        | Paul Alexander| CISO                | Oversees information security, manages security strategies and policies. |
 | Security        | Harold Fry    | Security Tech       | Implements and monitors security measures for the protection of computer systems. |
 | Security        | Lewis Mableton| Intern              | Assists with various security tasks and projects under the guidance of the security team. |
