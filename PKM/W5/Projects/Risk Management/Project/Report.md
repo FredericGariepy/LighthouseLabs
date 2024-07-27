@@ -64,8 +64,9 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 Format \
 name, \
 context (vulnerability) \
-threat (likelihood, impact)\
-treatment  (risk response, \
+threat (likelihood, impact) (use ORM language format)\
+treatment  (risk response, controls) \
+... (control assesment would not be done in this report)
 
 
 ## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
@@ -102,6 +103,12 @@ Following the manifacturer's recommendations. The 1,500 Desktop Computers in the
 - Priority you would give each threat.
     - Be sure to explain your prioritizations and your recommended responses.
   
+
+
+# process (workflow)
+
+# considerations
+
 
 # references
 Don’t forget to _reference industry standard frameworks_ to aid you in deciding on your recommended mitigations or responses.
