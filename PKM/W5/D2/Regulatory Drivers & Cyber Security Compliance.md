@@ -25,6 +25,7 @@ The following types of data and information are subject to Cyber Security compli
 
 #### Integrated Controls Management
 - [Practical Guidance To Implement GRC](https://complianceforge.com/governance-risk-compliance-grc/)
+- The terms GRC = IRM . They are Synonymous.
 ##### GRC Is A Puzzle So Please Be Part of The Solution
 _Ask yourself one question_: \
 If there was a major data breach today and all eyes focused on your company, when the dust settles and root causes are investigated, would your company’s leadership and its technology stakeholders be considered negligent for failing to implement “reasonable” security and privacy practices? \
