@@ -1,6 +1,7 @@
 CVSS v3.1
-Get this course
-	CVSS v3.1
+
+
+Attack Complexity = conditions beyond the attacker's control that must exist in order to exploit the vulnerability
 
 Click the two statements about the Base Metrics that are true.
 
