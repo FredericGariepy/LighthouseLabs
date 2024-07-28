@@ -1,8 +1,7 @@
 CVSS v3.1
 Case: 
 
-Web app auth bypass. Path Traversal. 
-Vulnerable web app.
+Web app auth bypass. Path Traversal. Payload. resource access to configurations.
 
 Attack Complexity = conditions beyond the attacker's control that must exist in order to exploit the vulnerability
 
@@ -34,5 +33,6 @@ The vulnerable component is the web server vulnerable to cross-site scripting, a
 - The Scope is Changed.
  The vulnerable component and the impacted component are not the same thing, so the Scope cannot be Unchanged
 
-
+Availability:
+Attacks that consume network bandwith, processor cycles, diskspace. all effect the availablity 
 
