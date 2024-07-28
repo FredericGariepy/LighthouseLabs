@@ -36,5 +36,14 @@ The vulnerable component is the web server vulnerable to cross-site scripting, a
 Availability:
 Attacks that consume network bandwith, processor cycles, diskspace. all effect the availablity 
 
-The Confidentiality Impact and Integrity Impact metrics measure, respectively, the loss of confidentiality and integrity of ___data___ used by the impacted component. The Availability Impact metric measures the loss of availability of the impacted component itself. 
+The Confidentiality Impact and Integrity Impact metrics measure, respectively, \
+the loss of confidentiality and integrity of ___data___ used by the impacted component. \
+The Availability Impact metric measures the loss of availability of the impacted __component itself__.
+
+
+|-|measures|
+|-|-|
+|C|component's data |
+|I|component's data |
+|A| Component _itself_|
 
