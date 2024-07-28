@@ -121,17 +121,31 @@ Second, find machines that can support Windows 11 at adequate performance, and u
 Third, remaining Windows 10 machines must be either replaced or hardware upgraded to meet performance requirements.
 
 Treatment schedule. \
+Estimate treatment time: 1600 hours, or in single person 8 hour workday: 200 work days. \
+Estimate assumptions: 1500 devices, 1000 upgradable devices, 3 labour hours spent per physical upgrade. \
+Treatment time calculation: \
 Between one IT and one security roles, estimated 80 hours of compatibility testing. \
 Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access.
 Time spend upgrading machine hardware, given by formula below. \
-`y = x * (1 - (n/x)) * t` \
-x = number of devices \
-n = number of upgradable devices \
-t = average labour hours spent per physical upgrade \
-y = total time spent for physical upgrade
-Estimated treatment
+`f(x) = x * (1 - (n/x)) * t`
+> x = number of devices
+> n = number of upgradable devices 
+> t = average labour hours spent per physical upgrade 
+> f(x) = total time spent for physical upgrade
 
-`y = x * (1 - (n/x)) * t`
+Estimated cost of treatment: 181,000$
+Cost assumptions:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage. \
+Treatment cost estimate, given by formula below. \
+`g(x) = (x-n)*c + f(x)*h`
+> x = number of devices
+> n = number of upgradable devices 
+> c = cost per upgrade
+> f(x) = Time spend upgrading machine hardware, labour in hours.
+> h = hourly labour wage
+
+
+Estimated treatment 
+
 
 
 
