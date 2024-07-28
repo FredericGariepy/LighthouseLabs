@@ -91,7 +91,7 @@ treatment  (risk response, controls) + Priority w/ reasoning \
 -->
 
 ## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
-Summary:
+Summary: EOL for 1500 operation computers. Treatment deadline 14 October 2025. Treatment time required 200 days, cost 181,000$.
 
 Asset:\
 Main Office 1,500 Desktop Computers running Windows 10, used by employees for daily tasks. \
