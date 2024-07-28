@@ -128,8 +128,11 @@ Time spent finding upgradable machines, estimated between 8 to 24 hours, given a
 Time spend upgrading machine hardware, given by formula below: \
 `f(x) = x * (1 - (n/x)) * t`
 > x = number of devices
+> 
 > n = number of upgradable devices 
+>
 > t = average labour hours spent per physical upgrade 
+>
 > f(x) = total time spent for physical upgrade
 
 
@@ -140,9 +143,13 @@ __Treatment cost calculaiton__: \
 Treatment cost estimate, given by formula below: \
 `g(x) = (x-n)*c + f(x)*h`
 > x = number of devices
+>
 > n = number of upgradable devices 
+>
 > c = cost per upgrade
+>
 > f(x) = Time spend upgrading machine hardware, labour in hours.
+>
 > h = hourly labour wage
 
 
