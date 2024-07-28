@@ -91,51 +91,53 @@ treatment  (risk response, controls) + Priority w/ reasoning \
 -->
 
 ## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
-Summary: EOL for 1500 operation computers. Treatment deadline 14 October 2025. Treatment time required 200 days, cost 181,000$.
+#### Summary:
+High priority risk, EOL for 1500 operation computers. Treatment deadline 14 October 2025. Treatment time required 200 days, cost 181,000$.
 
-Asset:\
-Main Office 1,500 Desktop Computers running Windows 10, used by employees for daily tasks. \
-Security Category = SC<sub>1,500 Desktops</sub> = {(Confidentiality: High),(Integrity: Moderate),(Availability: High)} \
-Security Category reasoning: asset is a core part of operations. 
-Risk owners table:
+#### Threat profile:
+__Asset__: Main Office 1,500 Desktop Computers running Windows 10, used by employees for daily tasks. \
+__Security Category__: = SC<sub>1,500 Desktops</sub> = {(Confidentiality: High),(Integrity: Moderate),(Availability: High)} \
+__Security Category reasoning__: asset is a core part of operations. 
+__Risk owners table__:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
 | CIO  | Amanda Wilson     | Primary risk owner for overall management of IT & Security. | Leads the IT department, oversees information technology and security. |
 | CISO | Paul Alexander    | Secondary risk owner for management of Security | Oversees information security, manages security strategies and policies. |
 | Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
 
-Existing vulnerability: \
-1500 computers with the __Windows 10__ OS, used by employees for daily tasks, will no longer receive core security updates or fixes after 14 October 2025 (enter EOL). \
+__Existing vulnerability__: 500 computers with the __Windows 10__ OS, used by employees for daily tasks, will no longer receive core security updates or fixes after 14 October 2025 (enter EOL).
 
-Threat: \
-End-of-Life (EOL) for operating system (OS) Vulnerabilities, \
+__Threat__: End-of-Life (EOL) for operating system (OS) Vulnerabilities, \
 has serrious negative _tactical_ effect on the asset. Lack of core security updates entails a weak posture for OS attacks. EOL increases likelihood of all risks. \
-Negative _strategic_ effects on compliance, reputation, operations. \
+Negative _strategic_ effects on compliance, reputation, operations.
 
-Risk strategy: Use mitigations before EOL.
+__Risk strategy__: Use mitigations before EOL.
 
-Treatment: \
+__Treatment__: \
 Following manifacturer's official recommendation, Windows 11 OS is freely avaible from current OS. \
 First, the role of Manager of Systems and Security Techs, will ensure Windows 11 compatibility with organization systems. \
 Second, find machines that can support Windows 11 at adequate performance, and upgrade those machines. \
 Third, remaining Windows 10 machines must be either replaced or hardware upgraded to meet performance requirements.
 
-Treatment schedule. \
-Estimate treatment time: 1600 hours, or in single person 8 hour workday: 200 work days. \
-Estimate assumptions: 1500 devices, 1000 upgradable devices, 3 labour hours spent per physical upgrade. \
-Treatment time calculation: \
+__Treatment schedule__: \
+__Estimate treatment time__: 1600 hours, or in single person 8 hour workday: 200 work days. \
+__Estimate assumptions__: 1500 devices, 1000 upgradable devices, 3 labour hours spent per physical upgrade. \
+__Treatment time calculation__: \
 Between one IT and one security roles, estimated 80 hours of compatibility testing. \
-Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access.
-Time spend upgrading machine hardware, given by formula below. \
+Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access. \
+Time spend upgrading machine hardware, given by formula below: \
 `f(x) = x * (1 - (n/x)) * t`
 > x = number of devices
 > n = number of upgradable devices 
 > t = average labour hours spent per physical upgrade 
 > f(x) = total time spent for physical upgrade
 
-Estimated cost of treatment: 181,000$
-Cost assumptions:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage. \
-Treatment cost estimate, given by formula below. \
+
+__Treatment cost__: \
+__Estimated cost of treatment__: 181,000$ \
+__Estiamte assumptions__:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage. \
+__Treatment cost calculaiton__: \
+Treatment cost estimate, given by formula below: \
 `g(x) = (x-n)*c + f(x)*h`
 > x = number of devices
 > n = number of upgradable devices 
@@ -144,22 +146,7 @@ Treatment cost estimate, given by formula below. \
 > h = hourly labour wage
 
 
-Estimated treatment 
 
-
-
-
-
-
-
-
-<!-- 
-treatment  (risk response, controls) + Priority w/ reasoning \
-... (control assesment would not be done in this report) \
--->
-
-
-Following the manifacturer's recommendations. The 1,500 Desktop Computers in the Main Office should be investiagated to see if upgrading the OS version is possible under 
 
 
 
