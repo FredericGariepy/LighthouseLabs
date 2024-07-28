@@ -1,11 +1,14 @@
 CVSS v3.1
 
-- The Base Metric group:
+
+- The Base Metric group: \
 represents the intrinsic characteristics of a vulnerability that are constant over time and across user environments. 
-- The Temporal Metric group:
+
+- The Temporal Metric group: \
 reflects the characteristics of a vulnerability that may change over time but not across user environments. 
-- The Environmental Metric group represents:
-the characteristics of a vulnerability that are relevant and unique to a particular user’s environment.
+
+- The Environmental Metric group; \
+represents the characteristics of a vulnerability that are relevant and unique to a particular user’s environment.
 
 
 Case: 
