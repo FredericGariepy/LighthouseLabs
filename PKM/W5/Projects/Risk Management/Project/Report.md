@@ -57,9 +57,9 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 
 ### Overview of Three threats
 
-| Priority | threat | Primary Risk Owner | Risk score | Mitigation |
+| Priority | threat | Primary Risk Owner | Priority | Mitigation |
 |----------|--------|------------|------------|------------|
-|     1<sub>rst</sub>    | EOL OS|      CIO, Amanda Wilson      |     4       |     official fix |
+|     1<sub>rst</sub>    | EOL OS|      CIO, Amanda Wilson      |    4      |     official fix |
 |     2<sub>nd</sub>     |        |            |            |            |
 |     3<sub>rd</sub>     |        |            |            |            |
 |          |        |            |            |            |
@@ -75,9 +75,9 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 
 
 <!-- 
-
 # each threat format \
 Format \
+Sumarry:
 name, \
 Asset: description
 Security Category = SC<sub>asset</sub> = {(C:val),(I:val),(A:val)} 
@@ -87,57 +87,67 @@ threat (likelihood, impact) (use ORM language format)\
 Risk accept, ignore, mitigate, transfer. 
 treatment  (risk response, controls) + Priority w/ reasoning \
 ... (control assesment would not be done in this report) \
+
 -->
 
-
 ## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
-Threat name: End-of-Life (EOL) for OS Vulnerabilities \
-Asset: Main Office 1,500 Desktop Computers: Client machines running Windows 10, used by employees for daily tasks. \
+Summary:
+
+Asset:\
+Main Office 1,500 Desktop Computers running Windows 10, used by employees for daily tasks. \
+Security Category = SC<sub>1,500 Desktops</sub> = {(Confidentiality: High),(Integrity: Moderate),(Availability: High)} \
+Security Category reasoning: asset is a core part of operations. 
 Risk owners table:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
 | CIO  | Amanda Wilson     | Primary risk owner for overall management of IT & Security. | Leads the IT department, oversees information technology and security. |
 | CISO | Paul Alexander    | Secondary risk owner for management of Security | Oversees information security, manages security strategies and policies. |
 | Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
+
 Existing vulnerability: \
-End of Life for PCs running __Windows 10__ effective 14 October 2025. Microsoft will no longer provide Security updates or fixes. (Microsoft, n.d.) \
+1500 computers with the __Windows 10__ OS, used by employees for daily tasks, will no longer receive core security updates or fixes after 14 October 2025 (enter EOL). \
 
 Threat: \
-1500 __Windows 10__ used by employees for daily tasks will no longer receive Security updates or fixes. \
-Entire main office operations will be unprotected from every possible attack targeting Windows 10, after 14 October 2025. \
-The risk would result in the 
-This is aerrious and unavoidable threat.
+End-of-Life (EOL) for operating system (OS) Vulnerabilities, \
+has serrious negative _tactical_ effect on the asset. Lack of core security updates entails a weak posture for OS attacks. EOL increases likelihood of all risks. \
+Negative _strategic_ effects on compliance, reputation, operations. \
+
+Risk strategy: Use mitigations before EOL.
+
+Treatment: \
+Following manifacturer's official recommendation, Windows 11 OS is freely avaible from current OS. \
+First, the role of Manager of Systems and Security Techs, will ensure Windows 11 compatibility with organization systems. \
+Second, find machines that can support Windows 11 at adequate performance, and upgrade those machines. \
+Third, remaining Windows 10 machines must be either replaced or hardware upgraded to meet performance requirements.
+
+Treatment schedule. \
+Between one IT and one security roles, estimated 80 hours of compatibility testing. \
+Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access.
+Time spend upgrading machine hardware, given by formula below. \
+`y = x * (1 - (n/x)) * t` \
+x = number of devices \
+n = number of upgradable devices \
+t = average labour hours spent per physical upgrade \
+y = total time spent for physical upgrade
+Estimated treatment
+
+`y = x * (1 - (n/x)) * t`
+
+
+
+
+
 
 
 <!-- 
-context (vulnerability) \
-threat (likelihood, impact) (use ORM language format)\
-Risk accept, ignore, mitigate, transfer. 
 treatment  (risk response, controls) + Priority w/ reasoning \
 ... (control assesment would not be done in this report) \
 -->
 
 
-- Impact and likelihood:
-- Create a table that lists three threats or risks.
--  Reflect and document the effect of these risks on C, I, or A or more than one of these,
--  to what extent (from 0 to 10) and how likely (0 to 5)?
-
--  
-Threat:
-The event will happen in less 15 months (14 October 2025). 
-Without security updates or fixes, all devices are now EOL OS vulnerable. 
-EOL is a serrious threat that will change from potential to immediate effective on 14 October 2025.
-
-Treatment:
-The manifacturer's official recommendation: transition to the OS version (Windows 11) if existing device can run it. Else replace or upgrade system to meet performance requirements.
-To effectively take advantage of time (15 months), the 
-
-
-The must be be mitigated. 
-The risk response for tstrategy mitigate the 
-
 Following the manifacturer's recommendations. The 1,500 Desktop Computers in the Main Office should be investiagated to see if upgrading the OS version is possible under 
+
+
 
 -----------
 
