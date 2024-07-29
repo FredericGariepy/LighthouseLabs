@@ -9,8 +9,8 @@ TO DO 7/30
 - [ ] Write exec, Finish and submit.
 
 
-# some controsl
-
+# some RMF controsl
+RMF - check equivalent in ISO 27001 Apendix A
 [MA-03(06)	maintenance tools are inspected to ensure that the latest software updates and patches are installed.](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=MA-03)
 
 FSI file seerver/ data breach [Contingency planning](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=CP-02)
@@ -21,6 +21,8 @@ FSI file seerver/ data breach [Contingency planning](https://csrc.nist.gov/proje
 
 [CP-10 SYSTEM RECOVERY AND RECONSTITUTION ](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=CP-10)
 
+## ISO controls
+- [Best available free resource](https://www.isms.online/iso-27001/annex-a-controls/)
 
 
 
