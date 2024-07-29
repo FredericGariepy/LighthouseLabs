@@ -10,15 +10,25 @@ Task for /W6/D2/ what's new ? \
 
 Staffing the IR team 
 
-https://secureglobal.de/the-soc-methodology
-
-[CSIRT](https://secureglobal.de/the-csirt-methodology)
+[SOC methodology](https://secureglobal.de/the-soc-methodology) \
+[CSIRT methodology](https://secureglobal.de/the-csirt-methodology)
 
 detection phase:
 - looks at IoC, IoA
 - Tools: IDS, IPS, SIEM,
 - KPI monitoring
 IR planning
+- research
+- employee training
+- landscape research
+Post Incident \
+Engagement with External partners (communicate/learn/use use knowledge):
+- Gov
+- Police
+- researchers
+- community
+
+
 
 [https://www.mandiant.com/](https://www.mandiant.com/advantage) \
 Gemini API is free [Dev Start here](https://ai.google.dev/gemini-api/docs/get-started/tutorial) \
