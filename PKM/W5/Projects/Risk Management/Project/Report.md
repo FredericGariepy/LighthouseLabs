@@ -47,13 +47,26 @@ Report is an Executive Summary that captures risk management process.
 - Executive Summary in the business language
 -->
 This risk management document focuses on existing and important pressing security matters. \
-It was produced by assessing the [case information](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W5/Projects/Risk%20Management/case%20info.md), [organization struture](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W5/Projects/Risk%20Management/Employees) and [organization assets](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Assets/tangibles.md) to furnish the [risk __assesment__ and __treatment__ table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing).
+It was produced by assessing the [case information](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W5/Projects/Risk%20Management/case%20info.md), [organization struture](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W5/Projects/Risk%20Management/Employees) and [organization assets](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Assets/tangibles.md) to make a [risk __assesment__ and __treatment__ table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing).
 
 Follow this document to learn about recommended treatments for three(3) main threats, and the workflow used to further generate the risk assesment. \ 
 To further bring this report into compliance with ISO 27001 see the recomendations at the end.
 
 
 # Purpose, scope, and users
+<!-- 
+The purpose of this document is to define the methodology for assessment and treatment of
+information risks in MHS, and to define the acceptable level of risk according to the ISO/IEC
+27001 standard.
+
+Risk Assessment and Risk Treatment are applied to the entire scope of the ISMS (i.e., to all
+assets which are used within the organization or which could have an impact on information
+security within the ISMS).
+Users of this document are all employees of ACME INC. who take part in Risk Assessment and
+Risk Treatment.
+Note: all data is classified as confidential.
+-->
+The purpose of this document is to identify and present the three main threats to existing vulnerabilities, utilizing risk assessment and treatment methodologies described in the section following this presentation.
 
 purpose: couple of main risks and scope = [Coverage and Depth](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/D1/RMF/RMF%20Stage%204%20%E2%80%93%20Assessing%20Controls%20(Part%20One).md#testing-coverage-and-depth)
 
@@ -179,7 +192,7 @@ treatment  (risk response, controls) + Priority w/ reasoning \
 # process (workflow)
 
 # considerations
-
+Implement an ISMS... u got none
 
 # references
 Don’t forget to _reference industry standard frameworks_ to aid you in deciding on your recommended mitigations or responses.
