@@ -39,6 +39,10 @@ Google Threat Inteligence (TI) Mandiant \
 
 [7 Top Threat Intelligence Platforms & Software in 2024](https://www.esecurityplanet.com/products/threat-intelligence-platforms/)
 
+To quickly make flowcharts \
+Use chatgpt to generate mermaid format flowchart,  \
+display using Draw.io (also free) \
+https://www.youtube.com/watch?v=x8-4vYydLPs
 
 
 
