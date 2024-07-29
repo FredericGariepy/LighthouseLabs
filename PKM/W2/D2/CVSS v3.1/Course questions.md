@@ -68,11 +68,12 @@ CIA modified base metrics are weight changes. Measured according to asset CIA. \
 CIA `Not Defined` is the same as Medium by default.
 
 Other base metric modifiers: \
-Represent implmented protections (controls) measures, alterting configurations assumed when chosing base metrics (E.I hot fixes).
+Represent implmented protections (controls) measures, alterting configurations assumed when chosing base metrics (E.I hot fixes). \
 `Not Defined` = associated base metrics (previously set).
 
 
-
+#### Qualitative Scale is optional. 
+<img src="https://cdn2.talentlms.com/sc/gAAAAABmpuB_e5duC4LruZ6RE8xX4Z_ZuvdauQSnHNFYTtVT-wklTw_R1DdjW4-SwEHbQxkDT5NKcVpYtDLf6f8OWh7Ct74xNPgy_vkbVnzr2XD48LSJqs2ptS8Ly91GgVjz-Lhe9SMkP9lv02X3Zh5lIuvCUxapGQ==/firstdotorg/1695844820_course-v1-FIRST-CVSSv3.1-2020-SCORM-v1.2-20230927/assets/Mod4_Slide106.jpeg" alt="Course Slide Image">
 
 
 
