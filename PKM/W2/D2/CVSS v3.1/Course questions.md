@@ -1,6 +1,6 @@
 CVSS v3.1
 
-### attacker side/perspective
+### attacker/threat side/perspective
 - The Base Metric group: \
 represents the intrinsic characteristics of a vulnerability that are constant over time and across user environments. 
 
@@ -8,7 +8,8 @@ represents the intrinsic characteristics of a vulnerability that are constant ov
 - The Temporal Metric group: \
 reflects the characteristics of a vulnerability that may change over time but not across user environments. 
 
-### asset side/perspective
+### vulnerable component side/perspective 
+__Dont be confused with IMPACTED component, unless scope is unchanged__
 - The Environmental Metric group; \
 represents the characteristics of a vulnerability that are relevant and unique to a particular user’s environment.
 
@@ -106,12 +107,16 @@ https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
 #### case 3:
 A standalone document viewer displays documents that can contain embedded images. The viewer does not correctly check the length of these images before loading them into a memory buffer, allowing malformed images to overflow the buffer A carefully malformed image can contain malicious code that overwrites document-viewer code, gets run, and takes over the document-viewer program, inheriting all its rights and permissions. 
 
-
+Answer \
 Vulnerable component: document viewer \
+https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
 
 
+# Project
+case: \
+You work in the Product Security Incident Response Team (PSIRT) of a firewall vendor. Your company prioritizes work based on CVSS scores. 
 
-
+A security researcher sends details of a vulnerability she found in one of your firewall products. 
 
 
 
