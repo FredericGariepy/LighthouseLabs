@@ -199,8 +199,7 @@ RMF control translation to ISO control:
 
 Control assesment:
 
-# 3. Understaffed Security Team
-
+## 3. Understaffed Security Team
 #### Summary:
 Current staffing levels are inadequate to handle the organization's security needs effectively. The risk is managed by accepting interim coverage while exploring long-term staffing solutions.
 
