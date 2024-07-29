@@ -20,6 +20,14 @@ detection phase:
 - KPI monitoring
 IR planning
 
+[https://www.mandiant.com/](https://www.mandiant.com/advantage)
+Gemini API is free [Dev Start here](https://ai.google.dev/gemini-api/docs/get-started/tutorial) \
+This AI is used by: \
+Google Threat Inteligence (TI) Mandiant \
+[Mandiant YT ](https://www.youtube.com/@Mandiant) \
+[Mandiant TI intro video](https://www.youtube.com/watch?v=0x2-BIJo38I) \
+
+[7 Top Threat Intelligence Platforms & Software in 2024](https://www.esecurityplanet.com/products/threat-intelligence-platforms/)
 
 
 
