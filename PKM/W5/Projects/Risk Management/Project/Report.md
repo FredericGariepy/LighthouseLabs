@@ -121,7 +121,7 @@ __Treatment__: \
 Following manifacturer's official recommendation, Windows 11 OS is freely avaible from current OS. \
 First, the role of Manager of Systems and Security Techs, will ensure Windows 11 compatibility with organization systems. \
 Second, find machines that can support Windows 11 at adequate performance, and upgrade those machines. \
-Third, remaining Windows 10 machines must be either replaced or hardware upgraded to meet performance requirements.
+Third, remaining Windows 10 machines must be either replaced or hardware upgraded to meet performance requirements (MITRE, n.d.).
 
 __Estimated treatment schedule__: 9 months. \
 Treatment time calculation: \
@@ -177,7 +177,7 @@ __Risk owners table__:
 | CIO  | Amanda Wilson     | Primary risk owner for overall management of IT. | Leads and oversees the IT department |
 | Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
 
-__Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure. \
+__Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure (MITRE, n.d.). \
 
 __Threat__: Potential operational halt if the single point fails through human error, configurations, or attack. \
 This SPOF Makes the component a high value asset for attackers. SPOF has a negative _tactical_ effect_ as it halts operations that use the FSI server. \
@@ -250,18 +250,12 @@ Microsoft. (n.d.). End of support for Windows 10, Windows 8.1, and Windows 7. Re
 
 Rocket Software. (n.d.). File system interface. Rocket Software. Retrieved July 29, 2024, from https://www3.rocketsoftware.com/rocketd3/support/documentation/d3nt/102/userguide/File_System_Interface.htm
 
-(MITRE, n.d.)
-
-- EOL OS (mitigation)
 MITRE. (n.d.). Update software. MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/mitigations/M1051/
 
-- Understaffed
 MITRE. (n.d.). Defense evasion (TA0005). MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/tactics/TA0005/
 
--  FSI server SPOF
 MITRE. (n.d.). Service stop (T1489). MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/techniques/T1489/
 
-- Data breach impact, The adversary is trying to manipulate, interrupt, or destroy your systems and data.
 MITRE. (n.d.). Impact (TA0040). MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/tactics/TA0040/
 
 (Cybersecurity and Infrastructure Security Agency, n.d.)
