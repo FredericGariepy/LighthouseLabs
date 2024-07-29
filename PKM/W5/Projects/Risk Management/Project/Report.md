@@ -112,7 +112,7 @@ __Risk owners table__:
 __Existing vulnerability__: 500 computers with the __Windows 10__ OS, used by employees for daily tasks, will no longer receive core security updates or fixes after 14 October 2025 (enter EOL).
 
 __Threat__: End-of-Life (EOL) for operating system (OS) Vulnerabilities, \
-has serrious negative _tactical_ effect on the asset. Lack of core security updates entails a weak posture for OS attacks. EOL increases likelihood of all risks. \
+has serrious negative _tactical_ effect on the asset. Lack of core security updates entails a weak posture for OS attacks. EOL increases likelihood of all risks.
 Negative _strategic_ effects on compliance, reputation, operations.
 
 __Risk strategy__: Use mitigations before EOL.
