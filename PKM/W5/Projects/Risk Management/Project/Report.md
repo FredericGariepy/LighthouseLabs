@@ -60,12 +60,11 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 
 
 ### Overview of three (3) main threats
-| Priority | threat | Primary Risk Owner | Priority | Mitigation |
+| Priority | threat | Primary Risk Owner | Mitigation |
 |----------|--------|------------|------------|------------|
-|     1<sub>rst</sub>    | EOL OS|      CIO, Amanda Wilson      |    4      |     official fix |
-|     2<sub>nd</sub>     |        |            |            |            |
-|     3<sub>rd</sub>     |        |            |            |            |
-|          |        |            |            |            |
+|     1<sub>rst</sub>    | EOL OS|      CIO, Amanda Wilson      |  official mitigation |
+|     2<sub>nd</sub>     | Understaffed Security    |  CISO, Paul Alexander     |           |
+|     3<sub>rd</sub>     | Security insider threat  |  CISO, Paul Alexander   |           |
 
 
 <!--
