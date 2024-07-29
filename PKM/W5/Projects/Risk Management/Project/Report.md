@@ -137,19 +137,20 @@ Treatment cost estimate, given by formula below: \
 # process (workflow)
 
 # recommendations
-DHAEI does not have an ISMS system in place (Chin, n.d.).
+DHAEI has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.).
+The organizaton has a security personnel, budget, resources, security requirements.
 
-Typically, companies that begin their information security programs will start with NIST and work their way up to ISO 27001 as they scale.
+However, the parts are not connected as a whole through an ISMS system and it can not be said that DHAEI is currently ISO 27001 compliant.
+Following this risk management plan here will be _a start_ towards standard level compliance.
+
+As a general observation: \
+Typically, companies that begin their information security programs will [start with NIST and work their way up to ISO 27001](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W4/D4/Compare%20Frameworks/CSF%20v%20ISO.md) as they scale. This industry observation seems it should apply in this case as well.
 
 
-
-Implement an ISMS... u got none
 
 # references
-Don’t forget to _reference industry standard frameworks_ to aid you in deciding on your recommended mitigations or responses.
 
 Microsoft. (n.d.). End of support for Windows 10, Windows 8.1, and Windows 7. Retrieved from https://www.microsoft.com/en-ca/windows/end-of-support?r=1#:~:text=Support%20for%20Windows%2010%20will,technical%20support%20for%20Windows%2010
-
 
 
 (Rocket Software, n.d.)
@@ -177,9 +178,6 @@ Cybersecurity and Infrastructure Security Agency. (n.d.). Defining insider threa
 
 
 Chin, K. (n.d.). What is an ISMS (Information Security Management System)? UpGuard. Retrieved July 29, 2024, from https://www.upguard.com/blog/isms
-
-#--------------
-
 
 
 -------------
