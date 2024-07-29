@@ -1,11 +1,21 @@
 TO DO 7/30
 
+- [ ] In intro mention that typically, companies use NIST RMF, if they dont have securit in place, and then work their way up to ISO (check PKM for ref)
 - [ ] Finish report of main threats 
 - [ ] Add controls
 - [ ] Document relevant ISO/IEC Mapings [example](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=MA-06)
 - [ ] Write a replicable workflow 
 - [ ] finish cosiderations, suggest ISMS (basically get a SIEM), mention security department infancy, ISO 270001 Apendix A checklist. 
 - [ ] Write exec, Finish and submit.
+
+
+# some controsl
+
+[MA-03(06)	maintenance tools are inspected to ensure that the latest software updates and patches are installed.](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=MA-03)
+
+
+
+
 
 # Risk Management Case Study
 
