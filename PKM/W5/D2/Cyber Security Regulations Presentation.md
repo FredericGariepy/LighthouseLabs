@@ -24,7 +24,7 @@ e.g. \
 Actions were driven by a desire to help improve security rather than to exploit vulnerabilities. \
 Show Non-disclosure of vulnerabilities, No harm done, Confusion of legal Boundaries.
 
-## SPAM! \
+## SPAM!
 While not a criminal offence, \
 Canada’s anti-spam legislation (“CASL”), \
 prohibits the sending of unsolicited commercial electronic messages (“CEMs”).
