@@ -33,15 +33,22 @@ Each threat is identified and presented by the same risk assessment and treatmen
 
 This document is intended to 
 
-### Overview of three (3) main threats
+## Executive Summary Analysis
+Overview of three (3) main threats. \
+The top three risks identified are:
+1. End-of-Life (EOL) for OS: High priority due to the risk associated with outdated operating systems that will no longer receive security updates.
+2. Single Point of Failure (FSI): High impact of data loss and operations shutdown by possiblity of single file server failure.
+3. Understaffed Security Team: Moderate risk from inadequate incidents response and monitoring resources.
 
-
-| Priority | threat | Primary Risk Owner | Risk response |
+| Priority | threat | Primary Risk Owner | Risk response | |
 |-|-|-|-|
-|1<sub>rst</sub>    | EOL OS                   |  CIO, Amanda Wilson      |  Mitigate: Official mitigation     |
-|2<sub>nd</sub>     | Single Point of Failure   |  CIO, Amanda Wilson    |  Mitigate: Implement Redundant FSI.         |
-|3<sub>nd</sub>     | Understaffed Security    |  CISO, Paul Alexander    |  Accept: Interim coverage.         |
-|3<sub>rd</sub>     | Security insider threat  |  CISO, Paul Alexander    |  Accept: Training and Education    |
+|1| EOL OS                   |  CIO, Amanda Wilson    |  Mitigate: Official mitigation     |
+|2| Single Point of Failure  |  CIO, Amanda Wilson    |  Mitigate: Implement Redundant FSI.|
+|3| Understaffed Security    |  CISO, Paul Alexander  |  Accept: Interim coverage.         |
+|4| Security insider threat  |  CISO, Paul Alexander  |  Accept: Training and Education    |
+
+Detailed profiles have been created for each risk. 
+The risk strategies identified are mostly focused on mitigation and acceptance.
 
 <!-- 
 # each threat format \
