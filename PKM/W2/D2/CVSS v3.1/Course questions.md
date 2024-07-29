@@ -23,10 +23,13 @@ Click the two statements about the Base Metrics that are true. (check raw .md fo
 - [ ] Privileges Required describes the conditions beyond the attacker's control that must exist in order to exploit the vulnerability.
 - [ ] <!-- --> User Interaction captures the requirement for a user other than the attacker to participate in the successful compromise of the vulnerable component.
  
-
+#### CVSS 3.1 Scope
 "A vulnerable component is the thing that is vulnerable; also it’s the ___security scope___ that ___contains___ the vulnerability."
 
  "An impacted component is the thing that suffers the impact; also it’s the ___security scope___ that is ___affected___ by the vulnerability."
+
+If Vulerable component == Impact component = Scope is Unchanged.
+If Vulnerable component != Impact component = Scope is ___Changed___.
 
 <img src="https://cdn2.talentlms.com/sc/gAAAAABmpsQSaU9gcok83_m5kyMt-6q_RSey4wiY0snvu_aPMjiRFMRD4hoROkWiQDOsrSWNUNnDwD3-JdQcOgw70IeOQo8xxcg0-iDqpw8KFggUyYrPATz7LwHkhmCBP3x0GJjyhf8L-4vvkPNkyBqhUQCQT55Yuw==/firstdotorg/1695844820_course-v1-FIRST-CVSSv3.1-2020-SCORM-v1.2-20230927/assets/cvss_m003s049a.png" alt="CVSS Image">
 
@@ -74,6 +77,27 @@ Represent implmented protections (controls) measures, alterting configurations a
 
 #### Qualitative Scale is optional. 
 <img src="https://cdn2.talentlms.com/sc/gAAAAABmpuB_e5duC4LruZ6RE8xX4Z_ZuvdauQSnHNFYTtVT-wklTw_R1DdjW4-SwEHbQxkDT5NKcVpYtDLf6f8OWh7Ct74xNPgy_vkbVnzr2XD48LSJqs2ptS8Ly91GgVjz-Lhe9SMkP9lv02X3Zh5lIuvCUxapGQ==/firstdotorg/1695844820_course-v1-FIRST-CVSSv3.1-2020-SCORM-v1.2-20230927/assets/Mod4_Slide106.jpeg" alt="Course Slide Image">
+
+
+The CVSS v3.1 vector string is a text representation of a set of CVSS metrics. 
+
+CVSS V3.1 Scoring scenarios.
+
+Case 1:
+
+An airplane in-flight entertainment system allows passengers to watch movies via mobile device over the plane's wi-fi network. \ 
+The entertainment system creates a sandbox environment for each passenger. \
+A flaw in the logic of the entertainment system allows an attacker to break out of the sandbox and access any data stored on the entertainment system. \
+Only in-place wifi network.
+
+
+
+
+
+
+
+
+
 
 
 
