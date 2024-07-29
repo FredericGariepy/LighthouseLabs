@@ -44,14 +44,29 @@ Use chatgpt to generate mermaid format flowchart,  \
 display using Draw.io (also free) \
 https://www.youtube.com/watch?v=x8-4vYydLPs
 
-[Comprehensive CSIRT Plan](https://ised-isde.canada.ca/site/cybersecure-canada/en/certification-tools/develop-incident-response-plan-fillable-template-and-example)
 
 [threat intelligence](https://csrc.nist.gov/glossary/term/threat_intelligence) \
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*izLLyNIsCtXw0SiklaBqYg.jpeg" height="300px" alt="Description">
 
-
+## CSIRT TRAINING AND CERTIFICATIONS
 - [ITCERTS is an independent certification organization](https://www.itcerts.ca/)
 - [SANS Curriculum | 12 credit hours](https://www.sans.edu/cyber-security-programs/graduate-certificate-incident-response/)
-- 
 
+## CSIRT IR Templates, Plans
+- [NIST Computer Security Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
+- [Comprehensive CSIRT Plan](https://ised-isde.canada.ca/site/cybersecure-canada/en/certification-tools/develop-incident-response-plan-fillable-template-and-example)
+    - [Template EMPTY](https://ised-isde.canada.ca/site/cybersecure-canada/sites/default/files/attachments/Incident-Response-Plan-Template.docx)
+    - [Example Full](https://ised-isde.canada.ca/site/cybersecure-canada/sites/default/files/attachments/Incident-Response-Plan-Example.docx)
 
+## CSIRT Best Practices
+- [Slunk CSIRTs: Computer Security Incident Response Teams](https://www.splunk.com/en_us/blog/learn/csirt-computer-security-incident-response-team.html)
+##### Best practices for creating CSIRTs
+The approach to setting up a CSIRT will depend on the organizational context. In another publication by the CMU SEI, some best practice steps to be considered when creating a CSIRT are listed below. Note that they aren’t necessarily sequential, as some steps may be carried out simultaneously or rearranged depending on the situation. \
+- Obtain management support and buy-in.
+- Determine the CSIRT strategic plan.
+- Gather relevant information.
+- Design the CSIRT vision.
+- Communicate the CSIRT vision and operational plan.
+- Begin CSIRT implementation.
+- Announce the operational CSIRT.
+- Evaluate CSIRT effectiveness.
