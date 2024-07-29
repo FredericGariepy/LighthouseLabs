@@ -5,7 +5,7 @@ TO DO
 - [ ] Document relevant ISO/IEC Mapings [example](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=MA-06)
 - [ ] Write a replicable workflow 
 - [ ] finish cosiderations, suggest ISMS (basically get a SIEM), mention security department infancy, ISO 270001 Apendix A checklist. 
-
+- [ ] Write exec, Finish and submit.
 
 # Risk Management Case Study
 
