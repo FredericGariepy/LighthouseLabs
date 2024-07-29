@@ -92,7 +92,7 @@ treatment  (risk response, controls) + Priority w/ reasoning \
 
 ## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
 #### Summary:
-High priority risk, EOL for 1500 operation computers. Treatment deadline 14 October 2025. Treatment time required 200 days, cost 181,000$.
+High priority risk, EOL for 1500 operation computers. Treatment deadline 14 October 2025. Treatment time required 9 months, cost 181,000$.
 
 #### Threat profile:
 __Asset__: Main Office 1,500 Desktop Computers running Windows 10, used by employees for daily tasks. \
@@ -120,7 +120,7 @@ Second, find machines that can support Windows 11 at adequate performance, and u
 Third, remaining Windows 10 machines must be either replaced or hardware upgraded to meet performance requirements.
 
 __Treatment schedule__: \
-__Estimate treatment time__: 1600 hours, or in single person 8 hour workday: 200 work days. \
+__Estimate treatment time__: 1600 hours, as a single person 8 hour workday is 200 work days. 200 total work days, in a typical 5 work week, equals 40 weeks. 40 weeks divided by the average number of weeks per month(4.345), equals aproximately 9 months rounded down.
 __Estimate assumptions__: 1500 devices, 1000 upgradable devices, 3 labour hours spent per physical upgrade. \
 __Treatment time calculation__: \
 Between one IT and one security roles, estimated 80 hours of compatibility testing. \
