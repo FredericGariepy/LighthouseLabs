@@ -125,10 +125,10 @@ Third, remaining Windows 10 machines must be either replaced or hardware upgrade
 
 __Estimated treatment schedule__: 9 months. \
 Treatment time calculation: \
-0. Assumptions: 1500 devices, 1000 upgradable-ready devices, 3 labour hours spent per physical upgrade. \
-1. Between one IT and one security roles, estimated 80 hours of compatibility testing. \
-2. Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access. \
-3. Time spend upgrading machine hardware: `f(x) = x * (1 - (n/x)) * t` \
+0. Assumptions: 1500 devices, 1000 upgradable-ready devices, 3 labour hours spent per physical upgrade.
+1. Between one IT and one security roles, estimated 80 hours of compatibility testing. 
+2. Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access. 
+3. Time spend upgrading machine hardware: `f(x) = x * (1 - (n/x)) * t` 
 > x = number of devices
 > 
 > n = number of upgradable devices 
@@ -140,8 +140,8 @@ Treatment time calculation: \
 
 __Estimated treatment cost__: 181,000$ \
 Treatment cost calculations: \
-0. assumptions:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage. \
-1. Treatment cost estimate: `g(x) = (x-n)*c + f(x)*h` \
+    0. assumptions:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage.
+1. Treatment cost estimate: `g(x) = (x-n)*c + f(x)*h`
 > x = number of devices
 >
 > n = number of upgrade-ready devices 
@@ -163,27 +163,31 @@ Controll assesment: - missing
 
 ## 2. Single Point of Failure (SPOF)
 #### Summary:
-High impact to operations in likelihood of file server failure or data breach. Operational shutdown, non-compliance, reputational harm. 
-The risk of relying on a single system component that could cause operational disruptions. This requires implementing redundant systems to ensure continuity.
-
-Treatment time required, cost 5,000$ ~ 20,000$.
+High impact to operations in likelihood of file server failure or data breach. Operational shutdown, non-compliance, reputational harm. \
+The risk of relying on a single system component that could cause operational disruptions. This requires implementing redundant systems to ensure continuity. \
+Treatment time required to be determined, cost 5,000$ ~ 20,000$.
 
 #### Threat profile:
-__Asset__: File System Interface (FSI). _Not only an Interface, but also a file system_ (Rocket Software, n.d.).
-__Security Category__: SC<sub>FSI</sub> = {(Confidentiality: High), (Integrity: High), (Availability: High)}
-__Security Category reasoning__: The FSI server holds data and is used organization-wide as part of operations. Case details do not indicate exact location of high value information asset, the FSI server is assumed as the central location for sensive data.
+__Asset__: File System Interface (FSI). _Not only an Interface, but also a file system_ (Rocket Software, n.d.). \
+__Security Category__: SC<sub>FSI</sub> = {(Confidentiality: High), (Integrity: High), (Availability: High)} \
+__Security Category reasoning__: The FSI server holds data and is used organization-wide as part of operations. Case details do not indicate exact location of high value information asset, the FSI server is assumed as the central location for sensive data. \
 __Risk owners table__:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
 | CIO  | Amanda Wilson     | Primary risk owner for overall management of IT. | Leads and oversees the IT department |
 | Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
 
-__Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure.
-__Threat__: Potential operational halt if the single point fails through human error, configurations, or attack. This SPOFmMakes the component a high value asset for attackers.
-SPOF has a negative _tactical_ effect_ as it halts operations that use the FSI server. The threat has strong negative _strategic_ effects if the FSI server, if contains sensitive information. This would to a likely loss of compliance, reputation, and operations.
-__Risk Strategy__: Mitigate by adding redundant FSI server.
-__Treatment__: Implement redundancy for FSI to prevent single point failures. In case of failure, the secondary server can take over immediately, ensuring continuous access. Additionally, if the secondary server is in a geographically separate location, the system can serve as a disaster recovery solution.
-__Treatment Schedule and Cost__: Based on purchasing research, the inital estimated cost here is between 5000$ to 20,000$ dollars. The Manager of Systems must determine approprite purchases and the CIO should decide weather to support these purchases. Likewise, both roles must determine and support a schedule for treatment.
+__Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure. \
+__Threat__: Potential operational halt if the single point fails through human error, configurations, or attack. \
+This SPOF Makes the component a high value asset for attackers. SPOF has a negative _tactical_ effect_ as it halts operations that use the FSI server. \
+The threat has strong negative _strategic_ effects if the FSI server, if contains sensitive information. \
+This would to a likely loss of compliance, reputation, and operations. \
+__Risk Strategy__: Mitigate by adding redundant FSI server. \
+__Treatment__: Implement redundancy for FSI to prevent single point failures. In case of failure, the secondary server can take over immediately, ensuring continuous access. \
+Additionally, if the secondary server is in a geographically separate location, the system can serve as a disaster recovery solution. \
+__Treatment Schedule and Cost__: Based on purchasing research, the inital estimated cost here is between 5000$ to 20,000$ dollars. \
+The Manager of Systems must determine approprite purchases and the CIO should decide weather to support these purchases. \
+Likewise, both roles must determine and support a schedule for treatment.
 
 Recomemnded controls: missing
 
