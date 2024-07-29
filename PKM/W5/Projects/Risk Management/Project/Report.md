@@ -5,12 +5,20 @@ Fucked up stuff
 - Windows 10, EOF
 - Windows 2019 server OEF [End of servicing](https://learn.microsoft.com/en-us/windows-server/get-started/windows-server-release-info)
 - [EOS vs EOL](https://www.leanix.net/en/wiki/trm/what-is-end-of-life-vs-end-of-support#What-is-End-of-Support-End-of-Service-Life)
+
+<!-- 
 - L2TP VPN Client (Remote Workers), maybe not the best [nord vpn about l2tp](https://nordvpn.com/blog/l2tp-protocol/)
 - L2TP VPN Client,  [avast](https://www.avast.com/c-vpn-protocols)
 - Security    Speed    Popularity 
 - L2TP    Strong    Slow    Low 
+- L2P https://nordvpn.com/blog/l2tp-protocol/ 
+-->
 
-- L2P https://nordvpn.com/blog/l2tp-protocol/
+Needs: \
+systems meet a minimum level of security and that its information is protected from attacks \
+collect and act on security events from across its digital estate \
+establish a network infrastructure to provide authentication, authorization, and accounting of its network assets \
+contingency system in place in a form of load-balancing and cluster management to provide redundancy and risk mitigation.
 
 Project Description
 > The purpose of __Risk Management__ is to _systematically find out which incidents can happen_ to an organization.
@@ -29,12 +37,13 @@ Deliverables:
 
 
 # Executive Summary
+<!--
 Report is an Executive Summary that captures risk management process.
 - Executive summary that gives _insight_ into the case
 - Risk Assessment and Identification
 - Recommendations for Risk Treatment.
 - Executive Summary in the business language
-
+-->
 This document was produced by assessing the [case information](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W5/Projects/Risk%20Management/case%20info.md), [organization struture](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W5/Projects/Risk%20Management/Employees) and [organization assets](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Assets/tangibles.md) to fill the basics in the [risk __assesment__ and __treatment__ table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing).
 
 The Report is not complete.
@@ -96,8 +105,8 @@ High priority risk, EOL for 1500 operation computers. Treatment deadline 14 Octo
 
 #### Threat profile:
 __Asset__: Main Office 1,500 Desktop Computers running Windows 10, used by employees for daily tasks. \
-__Security Category__: = SC<sub>1,500 Desktops</sub> = {(Confidentiality: High),(Integrity: Moderate),(Availability: High)} \
-__Security Category reasoning__: asset is a core part of operations. 
+__Security Category__: = SC<sub>1,500 Desktops</sub> = {(Confidentiality: Moderate),(Integrity: Moderate),(Availability: High)} \
+__Security Category reasoning__: asset is a core part of operations, requires high availability. While critical data is stored on file servers, desktops may still contain sensitive information, necessitating moderate confidentiality and integrity controls., \
 __Risk owners table__:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
