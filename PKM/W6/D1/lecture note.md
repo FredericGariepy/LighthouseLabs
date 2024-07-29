@@ -44,6 +44,7 @@ Use chatgpt to generate mermaid format flowchart,  \
 display using Draw.io (also free) \
 https://www.youtube.com/watch?v=x8-4vYydLPs
 
+[threat intelligence](https://csrc.nist.gov/glossary/term/threat_intelligence) \
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*izLLyNIsCtXw0SiklaBqYg.jpeg" height="300px" alt="Description">
 
 
