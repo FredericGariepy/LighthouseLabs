@@ -69,7 +69,7 @@ CIA `Not Defined` is the same as Medium by default.
 
 Other base metric modifiers: \
 Represent implmented protections (controls) measures, alterting configurations assumed when chosing base metrics (E.I hot fixes).
-
+`Not Defined` = associated base metrics (previously set).
 
 
 
