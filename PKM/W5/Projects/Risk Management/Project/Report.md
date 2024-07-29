@@ -15,6 +15,13 @@ TO DO 7/30
 
 FSI file seerver/ data breach [Contingency planning](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=CP-02)
 
+[CP-04 CONTINGENCY PLAN TESTING ](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=CP-04)
+
+[CP-09 SYSTEM BACKUP ](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=CP-09)
+
+[CP-10 SYSTEM RECOVERY AND RECONSTITUTION ](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=CP-10)
+
+
 
 
 # Risk Management Case Study
