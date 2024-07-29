@@ -203,6 +203,28 @@ Microsoft. (n.d.). End of support for Windows 10, Windows 8.1, and Windows 7. Re
 
 
 
+(Rocket Software, n.d.)
+- What is FSI? FSI is a somewhat ambiguous term as it refers to both a file system and the interface to that file system.
+
+Rocket Software. (n.d.). File system interface. Rocket Software. Retrieved July 29, 2024, from https://www3.rocketsoftware.com/rocketd3/support/documentation/d3nt/102/userguide/File_System_Interface.htm
+
+(MITRE, n.d.)
+
+- EOL OS (mitigation)
+MITRE. (n.d.). Update software. MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/mitigations/M1051/
+
+- Understaffed
+MITRE. (n.d.). Defense evasion (TA0005). MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/tactics/TA0005/
+
+-  FSI server SPOF
+MITRE. (n.d.). Service stop (T1489). MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/techniques/T1489/
+
+- Data breach impact, The adversary is trying to manipulate, interrupt, or destroy your systems and data.
+MITRE. (n.d.). Impact (TA0040). MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/tactics/TA0040/
+
+(Cybersecurity and Infrastructure Security Agency, n.d.)
+- (unintentioanl) Insider threat
+Cybersecurity and Infrastructure Security Agency. (n.d.). Defining insider threats. Cybersecurity and Infrastructure Security Agency. Retrieved July 29, 2024, from https://www.cisa.gov/topics/physical-security/insider-threat-mitigation/defining-insider-threats
 
 #---------------------------
 
