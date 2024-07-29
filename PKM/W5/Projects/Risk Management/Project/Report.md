@@ -40,7 +40,7 @@ The top three risks identified are:
 2. Single Point of Failure (FSI): High impact of data loss and operations shutdown by possiblity of single file server failure.
 3. Understaffed Security Team: Moderate risk from inadequate incidents response and monitoring resources.
 
-| Priority | threat | Primary Risk Owner | Risk response 
+| Priority | threat | Primary Risk Owner | Risk response  |
 |-|-|-|-|
 |1| EOL OS                   |  CIO, Amanda Wilson    |  Mitigate: Official mitigation     |
 |2| Single Point of Failure  |  CIO, Amanda Wilson    |  Mitigate: Implement Redundant FSI.|
