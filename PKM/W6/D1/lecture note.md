@@ -44,8 +44,14 @@ Use chatgpt to generate mermaid format flowchart,  \
 display using Draw.io (also free) \
 https://www.youtube.com/watch?v=x8-4vYydLPs
 
+[Comprehensive CSIRT Plan](https://ised-isde.canada.ca/site/cybersecure-canada/en/certification-tools/develop-incident-response-plan-fillable-template-and-example)
+
 [threat intelligence](https://csrc.nist.gov/glossary/term/threat_intelligence) \
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*izLLyNIsCtXw0SiklaBqYg.jpeg" height="300px" alt="Description">
 
+
+- [ITCERTS is an independent certification organization](https://www.itcerts.ca/)
+- [SANS Curriculum | 12 credit hours](https://www.sans.edu/cyber-security-programs/graduate-certificate-incident-response/)
+- 
 
 
