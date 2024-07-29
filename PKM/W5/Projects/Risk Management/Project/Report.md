@@ -204,9 +204,9 @@ Control assesment:
 Current staffing levels are inadequate to handle the organization's security needs effectively. The risk is managed by accepting interim coverage while exploring long-term staffing solutions.
 
 #### profile:
-__Asset__: Vacancy in security Team.
-__Security Category__: SC<sub>Vacancy in Security Team</sub> = {(Confidentiality: Moderate), (Integrity: Moderate), (Availability: Moderate)}
-__Security Category reasoning__: As one of three security tech roles, vacancy negatively impacts incident response and monitoring efforts, and introduces a temporary gaps in security operations.
+__Asset__: Vacancy in security Team. \
+__Security Category__: SC<sub>Vacancy in Security Team</sub> = {(Confidentiality: Moderate), (Integrity: Moderate), (Availability: Moderate)} \
+__Security Category reasoning__: As one of three security tech roles, vacancy negatively impacts incident response and monitoring efforts, and introduces a temporary gaps in security operations. \
 __Risk owners table__:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
@@ -222,7 +222,7 @@ Prolonged vacancy will have negative _strategic_ effects on compliance with desi
 
 __Risk strategy__: Accept with interim coverage.
 
-__Treatment__: Assign a temporary or cross-functional team to handle the security tasks until the position is filled.
+__Treatment__: Assign a temporary or cross-functional team to handle the security tasks until the position is filled. \
 __Treatment Schedule and Cost__: Role of CISO should be in charge of candidate selection, CIO in charge of CISO selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months (Statista, 2024) and cost of 76,000$ (ZipRecruiter, 2024).
 
 Recomemnded controls: missing
@@ -232,10 +232,10 @@ RMF control translation to ISO control:
 Control assesment:
 
 # recommendations
-DHAEI has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.).
+DHAEI has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.). \
 The organizaton has a security personnel, budget, resources, security requirements.
 
-However, the parts are not connected as a whole through an ISMS system and it can not be said that DHAEI is currently ISO 27001 compliant.
+However, the parts are not connected as a whole through an ISMS system and it can not be said that DHAEI is currently ISO 27001 compliant. \
 Following this risk management plan here will be _a start_ towards standard level compliance.
 
 As a general observation: \
