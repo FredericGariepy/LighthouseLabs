@@ -1,12 +1,14 @@
 CVSS v3.1
 
-
+### attacker side
 - The Base Metric group: \
 represents the intrinsic characteristics of a vulnerability that are constant over time and across user environments. 
 
+### research , common knowledge  side
 - The Temporal Metric group: \
 reflects the characteristics of a vulnerability that may change over time but not across user environments. 
 
+### asset side
 - The Environmental Metric group; \
 represents the characteristics of a vulnerability that are relevant and unique to a particular user’s environment.
 
@@ -83,12 +85,30 @@ The CVSS v3.1 vector string is a text representation of a set of CVSS metrics.
 
 CVSS V3.1 Scoring scenarios.
 
-Case 1:
-
+#### Case 1:
 An airplane in-flight entertainment system allows passengers to watch movies via mobile device over the plane's wi-fi network. \ 
 The entertainment system creates a sandbox environment for each passenger. \
 A flaw in the logic of the entertainment system allows an attacker to break out of the sandbox and access any data stored on the entertainment system. \
-Only in-place wifi network.
+Only in-place wifi network. \
+Answer: \
+https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L/RL:W/RC:R/CR:L/IR:H/AR:L
+#### Case 2:
+
+A machine-tooling organization’s website uses an embedded SQL database to store user data. \
+The website is on the organization's internal network, not accessible from the Internet. \
+The site creates SQL statements that include data supplied by users and passes these to the database. \
+Insufficient validation of this data allows SQL-injection attacks. \
+Answer \
+Vulnerable component is the website. \
+Impacted component databse in embeded in the software runnign the website, same securit scope. \
+https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:P/RL:T/RC:C/CR:L/IR:M/AR:L/MAV:A/MI:N
+
+#### case 3:
+A standalone document viewer displays documents that can contain embedded images. The viewer does not correctly check the length of these images before loading them into a memory buffer, allowing malformed images to overflow the buffer A carefully malformed image can contain malicious code that overwrites document-viewer code, gets run, and takes over the document-viewer program, inheriting all its rights and permissions. 
+
+
+Vulnerable component: document viewer \
+
 
 
 
