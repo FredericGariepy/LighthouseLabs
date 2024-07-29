@@ -36,12 +36,9 @@ This document is intended to
 ## Executive Summary Analysis
 Overview of three (3) main threats. \
 The top three risks identified are:
-1. End-of-Life (EOL) for OS: \
-    High priority due to the risk associated with outdated operating systems that will no longer receive security updates.
-2. Single Point of Failure (FSI): \
-    High impact of data loss and operations shutdown by possiblity of single file server failure.
-3. Understaffed Security Team: \
-    Moderate risk from inadequate incidents response and monitoring resources.
+1. __End-of-Life (EOL) for OS__: High priority due to the risk associated with outdated operating systems that will no longer receive security updates.
+2. __Single Point of Failure (FSI)__: High impact of data loss and operations shutdown by possiblity of single file server failure.
+3. __Understaffed Security Team__: Moderate risk from inadequate incidents response and monitoring resources.
 
 | Priority | threat | Primary Risk Owner | Risk response  |
 |-|-|-|-|
