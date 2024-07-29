@@ -56,7 +56,7 @@ Template:
 ## Vulnerability
 #### Summary:
 
-#### Threat profile:
+#### profile:
 __Asset__:
 __Security Category__:
 __Security Category reasoning__: 
@@ -98,7 +98,7 @@ Control assesment:
 #### Summary:
 High priority risk, EOL for 1500 operation computers. Treatment deadline 14 October 2025. Treatment time required 9 months, cost 181,000$.
 
-#### Threat profile:
+#### Profile:
 __Asset__: Main Office 1,500 Desktop Computers running Windows 10, used by employees for daily tasks. \
 __Security Category__: = SC<sub>1,500 Desktops</sub> = {(Confidentiality: Moderate),(Integrity: Moderate),(Availability: High)} \
 __Security Category reasoning__: asset is a core part of operations, requires high availability. While critical data is stored on file servers, desktops may still contain sensitive information, necessitating moderate confidentiality and integrity controls., \
@@ -167,7 +167,7 @@ High impact to operations in likelihood of file server failure or data breach. O
 The risk of relying on a single system component that could cause operational disruptions. This requires implementing redundant systems to ensure continuity. \
 Treatment time required to be determined, cost 5,000$ ~ 20,000$.
 
-#### Threat profile:
+#### Profile:
 __Asset__: File System Interface (FSI). _Not only an Interface, but also a file system_ (Rocket Software, n.d.). \
 __Security Category__: SC<sub>FSI</sub> = {(Confidentiality: High), (Integrity: High), (Availability: High)} \
 __Security Category reasoning__: The FSI server holds data and is used organization-wide as part of operations. Case details do not indicate exact location of high value information asset, the FSI server is assumed as the central location for sensive data. \
