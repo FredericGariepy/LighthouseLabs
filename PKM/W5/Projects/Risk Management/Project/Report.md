@@ -65,6 +65,59 @@ treatment  (risk response, controls) + Priority w/ reasoning \
 ... (control assesment would not be done in this report) \
 
 -->
+<--
+Summary:
+
+Risk priority
+Number of affected computers
+Treatment deadline
+Time required for treatment
+Cost
+
+Threat profile:
+
+Asset:
+
+Security Category:
+
+Security Category reasoning:
+
+Risk owners table:
+Role	Name	Responsibility Share	Key Responsibilities
+
+-		
+-			
+-			
+
+Existing vulnerability:
+
+Threat:
+
+Negative tactical effect:
+
+Negative strategic effects:
+
+Risk strategy:
+
+Treatment:
+1.
+2.
+3.
+
+Estimated treatment schedule:
+  Treatment time calculation:
+      Assumptions
+      Time spent on compatibility testing
+      Time spent finding upgradable machines
+      Time spent upgrading machine hardware
+      Estimated total
+
+Estimated treatment cost:
+  Treatment cost calculations:
+      Assumptions
+      Treatment cost estimate 
+-->
+
 
 ## 1. End-of-Life (EOL) for OS Vulnerabilities 
 #### Summary:
