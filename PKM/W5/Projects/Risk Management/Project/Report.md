@@ -9,7 +9,7 @@ Classification of assets was produced by assessing the [case information](https:
 
 Threat assesment and treatment, are documented in the [risk __assesment__ and __treatment__ table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing).
 
-Follow this document to learn about assesment and recommended treatments for three(3) main threats.
+Follow this document to learn about assesment and recommended treatments for three (3) main threats.
 <!-- and the workflow used to further generate the risk assesment. \ -->
 
 Consult the recommendations towards the end of this document to learn about implementing an information security management system (ISMS)
@@ -136,7 +136,13 @@ Treatment cost estimate, given by formula below: \
 
 # process (workflow)
 
-# considerations
+# recommendations
+DHAEI does not have an ISMS system in place (Chin, n.d.).
+
+Typically, companies that begin their information security programs will start with NIST and work their way up to ISO 27001 as they scale.
+
+
+
 Implement an ISMS... u got none
 
 # references
@@ -169,7 +175,14 @@ MITRE. (n.d.). Impact (TA0040). MITRE. Retrieved July 29, 2024, from https://att
 - (unintentioanl) Insider threat
 Cybersecurity and Infrastructure Security Agency. (n.d.). Defining insider threats. Cybersecurity and Infrastructure Security Agency. Retrieved July 29, 2024, from https://www.cisa.gov/topics/physical-security/insider-threat-mitigation/defining-insider-threats
 
-#---------------------------
+
+Chin, K. (n.d.). What is an ISMS (Information Security Management System)? UpGuard. Retrieved July 29, 2024, from https://www.upguard.com/blog/isms
+
+#--------------
+
+
+
+-------------
 
 Resources: 
 -  NIST NVD and/or MITRE ATT&CK
