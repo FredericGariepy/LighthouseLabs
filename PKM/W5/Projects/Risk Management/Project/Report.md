@@ -45,8 +45,8 @@ The top three risks identified are:
 |1| EOL OS                   |  CIO, Amanda Wilson    |  Mitigate: Official mitigation     |
 |2| Single Point of Failure  |  CIO, Amanda Wilson    |  Mitigate: Implement Redundant FSI.|
 |3| Understaffed Security    |  CISO, Paul Alexander  |  Accept: Interim coverage.         |
-|4| Security insider threat  |  CISO, Paul Alexander  |  Accept: Training and Education    |
-###### ... to continue ...
+|-| Security insider threat  |  CISO, Paul Alexander  |  Accept: Training and Education    |
+
 Detailed profiles have been created for each risk. 
 The risk strategies identified are mostly focused on mitigation and acceptance.
 
@@ -97,7 +97,7 @@ Third, remaining Windows 10 machines must be either replaced or hardware upgrade
 
 __Estimated treatment schedule__: 9 months. \
 Treatment time calculation: \
-0. Assumptions: 1500 devices, 1000 upgradable devices, 3 labour hours spent per physical upgrade. \
+0. Assumptions: 1500 devices, 1000 upgradable-ready devices, 3 labour hours spent per physical upgrade. \
 1. Between one IT and one security roles, estimated 80 hours of compatibility testing. \
 2. Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access. \
 3. Time spend upgrading machine hardware: `f(x) = x * (1 - (n/x)) * t` \
@@ -108,22 +108,23 @@ Treatment time calculation: \
 > t = average labour hours spent per physical upgrade 
 >
 > f(x) = total time spent for physical upgrade
-
+4. Estimated total: 80h + 20h + 1500h = 1600h = single employee 9 months standard work schedule. 
 
 __Estimated treatment cost__: 181,000$ \
 Treatment cost calculations: \
-assumptions__:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage. \
-Treatment cost estimate, given by formula below: \
-`g(x) = (x-n)*c + f(x)*h`
+0. assumptions:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage. \
+1. Treatment cost estimate: `g(x) = (x-n)*c + f(x)*h` \
 > x = number of devices
 >
-> n = number of upgradable devices 
+> n = number of upgrade-ready devices 
 >
 > c = cost per upgrade
 >
 > f(x) = Time spend upgrading machine hardware, labour in hours.
 >
 > h = hourly labour wage
+2.  Estimated total: 181,000$
+
 
 ## 2. Single Point of Failure (FSI)
 Summary:
