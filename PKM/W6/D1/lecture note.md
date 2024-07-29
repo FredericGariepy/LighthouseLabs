@@ -17,7 +17,9 @@ https://secureglobal.de/the-soc-methodology
 detection phase:
 - looks at IoC, IoA
 - Tools: IDS, IPS, SIEM,
-IR plan:
+- KPI monitoring
+IR planning
+
 
 
 
