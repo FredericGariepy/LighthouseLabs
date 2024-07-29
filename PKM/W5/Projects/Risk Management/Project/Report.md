@@ -50,72 +50,47 @@ The top three risks identified are:
 Detailed profiles have been created for each risk. 
 The risk strategies identified are mostly focused on mitigation and acceptance.
 
-<!-- 
-# each threat format \
-Format \
-Sumarry:
-name, \
-Asset: description
-Security Category = SC<sub>asset</sub> = {(C:val),(I:val),(A:val)} 
-risk owners: risk owners.  “chain” of ownership  botom -> top -  Explain what and how each owner may contribute to the chain. \
-context (vulnerability) \
-threat (likelihood, impact) (use ORM language format)\
-Risk accept, ignore, mitigate, transfer. 
-treatment  (risk response, controls) + Priority w/ reasoning \
-... (control assesment would not be done in this report) \
-
--->
 <!--
-Summary:
+Template:
 
-Risk priority
-Number of affected computers
-Treatment deadline
-Time required for treatment
-Cost
+## Vulnerability
+#### Summary:
 
-Threat profile:
+#### Threat profile:
+__Asset__:
+__Security Category__:
+__Security Category reasoning__: 
+__Risk owners table__:
+| **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
+|-|-|-|-|
 
-Asset:
+__Existing vulnerability__: 
 
-Security Category:
+__Threat__: 
+_tactical_ effect 
+_strategic_ effects
 
-Security Category reasoning:
+__Risk strategy__: 
 
-Risk owners table:
-Role	Name	Responsibility Share	Key Responsibilities
+__Treatment__: 
 
--		
--			
--			
+__Estimated treatment schedule__: 
+Treatment time calculation: \
+0. Assumptions: 
+...
+n. Estimated total: 
 
-Existing vulnerability:
+__Estimated treatment cost__:
+Treatment cost calculations: \
+0. assumptions: 
+...
+n.  Estimated total: 181,000$
 
-Threat:
+Recomemnded controls: missing
 
-Negative tactical effect:
+RMF control translation to ISO control: 
 
-Negative strategic effects:
-
-Risk strategy:
-
-Treatment:
-1.
-2.
-3.
-
-Estimated treatment schedule:
-  Treatment time calculation:
-      Assumptions
-      Time spent on compatibility testing
-      Time spent finding upgradable machines
-      Time spent upgrading machine hardware
-      Estimated total
-
-Estimated treatment cost:
-  Treatment cost calculations:
-      Assumptions
-      Treatment cost estimate 
+Control assesment:
 -->
 
 
@@ -178,49 +153,46 @@ Treatment cost calculations: \
 > h = hourly labour wage
 2.  Estimated total: 181,000$
 
+Recomemnded controls: -missing
+RMF control <-> ISO control
 
-## 2. Single Point of Failure (FSI)
-Summary:
+Controll assesment: - missing
+
+
+
+
+## 2. Single Point of Failure (SPOF)
+#### Summary:
+High impact to operations in likelihood of file server failure or data breach. Operational shutdown, non-compliance, reputational harm. 
 The risk of relying on a single system component that could cause operational disruptions. This requires implementing redundant systems to ensure continuity.
 
-Threat Profile:
+Treatment time required, cost 5,000$ ~ 20,000$.
 
-  Asset: Critical File System Interface (FSI)
-  Security Category: SC<sub>FSI</sub> = {(Confidentiality: High), (Integrity: High), (Availability: High)}
-  Existing Vulnerability: Dependence on a single FSI component.
-  Threat: Potential operational halt if the single point fails.
-  Risk Strategy: Mitigate by adding redundant FSI.
-  Treatment: Implement redundancy for FSI to prevent single point failures.
-  Treatment Schedule and Cost: To be determined based on FSI implementation.
-<!-- 
+#### Threat profile:
+__Asset__: File System Interface (FSI). _Not only an Interface, but also a file system_ (Rocket Software, n.d.).
+__Security Category__: SC<sub>FSI</sub> = {(Confidentiality: High), (Integrity: High), (Availability: High)}
+__Security Category reasoning__: The FSI server holds data and is used organization-wide as part of operations. Case details do not indicate exact location of high value information asset, the FSI server is assumed as the central location for sensive data.
+__Risk owners table__:
+| **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
+|-|-|-|-|
+| CIO  | Amanda Wilson     | Primary risk owner for overall management of IT. | Leads and oversees the IT department |
+| Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
 
-name, \
-Asset: description
-Security Category = SC<sub>asset</sub> = {(C:val),(I:val),(A:val)} 
-risk owners: risk owners.  “chain” of ownership  botom -> top -  Explain what and how each owner may contribute to the chain. \
-context (vulnerability) \
-threat (likelihood, impact) (use ORM language format)\
-Risk accept, ignore, mitigate, transfer. 
-treatment  (risk response, controls) + Priority w/ reasoning \
-... (control assesment would not be done in this report) \
+__Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure.
+__Threat__: Potential operational halt if the single point fails through human error, configurations, or attack. This SPOFmMakes the component a high value asset for attackers.
+SPOF has a negative _tactical_ effect_ as it halts operations that use the FSI server. The threat has strong negative _strategic_ effects if the FSI server, if contains sensitive information. This would to a likely loss of compliance, reputation, and operations.
+__Risk Strategy__: Mitigate by adding redundant FSI server.
+__Treatment__: Implement redundancy for FSI to prevent single point failures. In case of failure, the secondary server can take over immediately, ensuring continuous access. Additionally, if the secondary server is in a geographically separate location, the system can serve as a disaster recovery solution.
+__Treatment Schedule and Cost__: Based on purchasing research, the inital estimated cost here is between 5000$ to 20,000$ dollars. The Manager of Systems must determine approprite purchases and the CIO should decide weather to support these purchases. Likewise, both roles must determine and support a schedule for treatment.
 
--->
+Recomemnded controls: missing
+
+RMF control translation to ISO control: 
+
+Control assesment:
+
 # 3. Understaffed Security Team
-<!-- 
-# each threat format \
-Format \
-Sumarry:
-name, \
-Asset: description
-Security Category = SC<sub>asset</sub> = {(C:val),(I:val),(A:val)} 
-risk owners: risk owners.  “chain” of ownership  botom -> top -  Explain what and how each owner may contribute to the chain. \
-context (vulnerability) \
-threat (likelihood, impact) (use ORM language format)\
-Risk accept, ignore, mitigate, transfer. 
-treatment  (risk response, controls) + Priority w/ reasoning \
-... (control assesment would not be done in this report) \
 
--->
 Summary:
 Current staffing levels are inadequate to handle the organization's security needs effectively. The risk is managed by accepting interim coverage while exploring long-term staffing solutions.
 
@@ -257,7 +229,7 @@ Typically, companies that begin their information security programs will [start 
 Microsoft. (n.d.). End of support for Windows 10, Windows 8.1, and Windows 7. Retrieved from https://www.microsoft.com/en-ca/windows/end-of-support?r=1#:~:text=Support%20for%20Windows%2010%20will,technical%20support%20for%20Windows%2010
 
 
-(Rocket Software, n.d.)
+
 - What is FSI? FSI is a somewhat ambiguous term as it refers to both a file system and the interface to that file system.
 
 Rocket Software. (n.d.). File system interface. Rocket Software. Retrieved July 29, 2024, from https://www3.rocketsoftware.com/rocketd3/support/documentation/d3nt/102/userguide/File_System_Interface.htm
