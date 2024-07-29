@@ -31,6 +31,7 @@ Resources:
 - [Organization memebers](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Employees/users_table.md)
 - [Inventory. Risk & Treatment Table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing)
 - [ORM](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/Multi-tier%20RMF,%20ORM,%20NIST%20RMF.md#orm-table)
+- [What is FSI?](https://www3.rocketsoftware.com/rocketd3/support/documentation/d3nt/102/userguide/File_System_Interface.htm)
 <!--
 Deliverables: 
 > Risk Management Plan
@@ -77,7 +78,8 @@ purpose: couple of main risks and scope = [Coverage and Depth](https://github.co
 | Priority | threat | Primary Risk Owner | Risk response |
 |-|-|-|-|
 |1<sub>rst</sub>    | EOL OS                   |  CIO, Amanda Wilson      |  Mitigate: Official mitigation     |
-|2<sub>nd</sub>     | Understaffed Security    |  CISO, Paul Alexander    |  Accept: Interim coverage.         |
+|2<sub>nd</sub>     | Single Point of Failure   |  CIO, Amanda Wilson    |  Mitigate: Implement Redundant FSI.         |
+|3<sub>nd</sub>     | Understaffed Security    |  CISO, Paul Alexander    |  Accept: Interim coverage.         |
 |3<sub>rd</sub>     | Security insider threat  |  CISO, Paul Alexander    |  Accept: Training and Education    |
 
 
