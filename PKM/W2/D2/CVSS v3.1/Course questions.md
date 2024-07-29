@@ -28,7 +28,7 @@ Click the two statements about the Base Metrics that are true. (check raw .md fo
 
  "An impacted component is the thing that suffers the impact; also it’s the ___security scope___ that is ___affected___ by the vulnerability."
 
-If Vulerable component == Impact component = Scope is Unchanged.
+If Vulerable component == Impact component = Scope is Unchanged. \
 If Vulnerable component != Impact component = Scope is ___Changed___.
 
 <img src="https://cdn2.talentlms.com/sc/gAAAAABmpsQSaU9gcok83_m5kyMt-6q_RSey4wiY0snvu_aPMjiRFMRD4hoROkWiQDOsrSWNUNnDwD3-JdQcOgw70IeOQo8xxcg0-iDqpw8KFggUyYrPATz7LwHkhmCBP3x0GJjyhf8L-4vvkPNkyBqhUQCQT55Yuw==/firstdotorg/1695844820_course-v1-FIRST-CVSSv3.1-2020-SCORM-v1.2-20230927/assets/cvss_m003s049a.png" alt="CVSS Image">
