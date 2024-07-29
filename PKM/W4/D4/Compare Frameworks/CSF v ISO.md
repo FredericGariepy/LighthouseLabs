@@ -67,7 +67,7 @@ NIST CSF is available free, ISO 27001 involves audits and certification, Cert va
 
 So start-ups will usually kick start their InfoSec program with NIST and work their way up to ISO 27001 as they scale.
 
-## Heres a bunch of other frameworks or someshit 
+## Other frameworks (unprocessesed text)
 
     HITRUST Common Security Framework (HITRUST CSF): the HITRUST CSF is designed to be a comprehensive set of security controls and processes used by healthcare organizations to protect patient information. The framework helps healthcare organizations adhere to HIPAA privacy regulations, as well as other industry-specific laws and standards.
     Cloud Security Alliance Cloud Controls Matrix (CCM): the Cloud Security Alliance's CCM provides organizations with guidelines on how to effectively manage cloud computing operations from a security perspective. It includes hundreds of best practice recommendations that address everything from user authentication to data storage management.
