@@ -59,4 +59,20 @@ The Availability Impact metric measures the loss of availability of the impacted
 |I|component's data |
 |A| Component _itself_|
 
+Temporal Metric group: \
+__Exploit Code Maturity measures the likelihood __of the vulnerable component being attacked. \
+
+Enviromental Metric group: \
+
+CIA modified base metrics are weight changes. Measured according to asset CIA. \
+CIA `Not Defined` is the same as Medium by default.
+
+Other base metric modifiers: \
+Represent implmented protections (controls) measures, alterting configurations assumed when chose base metrics.
+
+
+
+
+
+
 
