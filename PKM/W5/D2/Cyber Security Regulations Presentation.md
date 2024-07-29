@@ -26,7 +26,9 @@ Show Non-disclosure of vulnerabilities, No harm done, Confusion of legal Boundar
 
 ## SPAM! \
 While not a criminal offence, \
-Canada’s anti-spam legislation (“CASL”), prohibits the sending of unsolicited commercial electronic messages (“CEMs”). \
-Under section 20(4) of CASL, any person who contravenes CASL may be subject to a maximum administrative monetary penalty \
-of up to $1 million in the case of an individual, and up to $10 million in the case of any other person.
+Canada’s anti-spam legislation (“CASL”), \
+prohibits the sending of unsolicited commercial electronic messages (“CEMs”).
 
+Under section 20(4) of CASL, any person who contravenes CASL may be subject to a maximum administrative monetary penalty \
+of up to $1 million in the case of an individual, \
+and up to $10 million in the case of any other person.
