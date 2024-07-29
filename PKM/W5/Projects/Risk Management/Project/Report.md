@@ -20,9 +20,10 @@ collect and act on security events from across its digital estate \
 establish a network infrastructure to provide authentication, authorization, and accounting of its network assets \
 contingency system in place in a form of load-balancing and cluster management to provide redundancy and risk mitigation.
 
-Project Description
+<!--
 > The purpose of __Risk Management__ is to _systematically find out which incidents can happen_ to an organization.
 > _Apply the process of_ __Risk Treatment__ to minimize the damage of such incidents in an organization.
+-->
 
 Resources: 
 -  NIST NVD and/or MITRE ATT&CK
