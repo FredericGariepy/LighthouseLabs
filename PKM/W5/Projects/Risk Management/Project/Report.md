@@ -178,13 +178,17 @@ __Risk owners table__:
 | Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
 
 __Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure. \
+
 __Threat__: Potential operational halt if the single point fails through human error, configurations, or attack. \
 This SPOF Makes the component a high value asset for attackers. SPOF has a negative _tactical_ effect_ as it halts operations that use the FSI server. \
 The threat has strong negative _strategic_ effects if the FSI server, if contains sensitive information. \
 This would to a likely loss of compliance, reputation, and operations. \
+
 __Risk Strategy__: Mitigate by adding redundant FSI server. \
+
 __Treatment__: Implement redundancy for FSI to prevent single point failures. In case of failure, the secondary server can take over immediately, ensuring continuous access. \
 Additionally, if the secondary server is in a geographically separate location, the system can serve as a disaster recovery solution. \
+
 __Treatment Schedule and Cost__: Based on purchasing research, the inital estimated cost here is between 5000$ to 20,000$ dollars. \
 The Manager of Systems must determine approprite purchases and the CIO should decide weather to support these purchases. \
 Likewise, both roles must determine and support a schedule for treatment.
@@ -197,24 +201,36 @@ Control assesment:
 
 # 3. Understaffed Security Team
 
-Summary:
+#### Summary:
 Current staffing levels are inadequate to handle the organization's security needs effectively. The risk is managed by accepting interim coverage while exploring long-term staffing solutions.
 
-Threat Profile:
-Asset: Security Team
-Security Category: SC<sub>Security Team</sub> = {(Confidentiality: High), (Integrity: High), (Availability: Moderate)}
-Existing Vulnerability: Limited personnel to address all security needs.
-Threat: Potential delays in addressing security incidents and vulnerabilities.
-Risk Strategy: Accept with interim coverage.
-Treatment: Continue with current staffing while developing a plan for future hiring or resource allocation.
-Treatment Schedule and Cost: Ongoing; cost associated with interim coverage and future recruitment.
+#### profile:
+__Asset__: Vacancy in security Team.
+__Security Category__: SC<sub>Vacancy in Security Team</sub> = {(Confidentiality: Moderate), (Integrity: Moderate), (Availability: Moderate)}
+__Security Category reasoning__: As one of three security tech roles, vacancy negatively impacts incident response and monitoring efforts, and introduces a temporary gaps in security operations.
+__Risk owners table__:
+| **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
+|-|-|-|-|
+| CIO  | Amanda Wilson     | Primary risk owner for overall management of IT & Security. | Leads the IT department, oversees information technology and security. |
+| CISO | Paul Alexander    | Secondary risk owner for management of Security | Oversees information security, manages security strategies and policies. |
+| COO | Richard Xavir      | Risk  owner for daily operations   | Approves budgets and final decisions for new hires in the security team |
 
+__Existing vulnerability__: Vacancy in security Team role.
 
+__Threat__: Inefficient human resources for Incident Response. Inadequate force for monitoring and incident response.
+Threat has negative _tactical_ effect on human resources for incident reponse and monitoring performance. 
+Prolonged vacancy will have negative _strategic_ effects on compliance with desired standard.
 
+__Risk strategy__: Accept with interim coverage.
 
+__Treatment__: Assign a temporary or cross-functional team to handle the security tasks until the position is filled.
+__Treatment Schedule and Cost__: Role of CISO should be in charge of candidate selection, CIO in charge of CISO selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months (Statista, 2024) and cost of 76,000$ (ZipRecruiter, 2024).
 
+Recomemnded controls: missing
 
-# process (workflow)
+RMF control translation to ISO control: 
+
+Control assesment:
 
 # recommendations
 DHAEI has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.).
@@ -231,10 +247,6 @@ Typically, companies that begin their information security programs will [start 
 # references
 
 Microsoft. (n.d.). End of support for Windows 10, Windows 8.1, and Windows 7. Retrieved from https://www.microsoft.com/en-ca/windows/end-of-support?r=1#:~:text=Support%20for%20Windows%2010%20will,technical%20support%20for%20Windows%2010
-
-
-
-- What is FSI? FSI is a somewhat ambiguous term as it refers to both a file system and the interface to that file system.
 
 Rocket Software. (n.d.). File system interface. Rocket Software. Retrieved July 29, 2024, from https://www3.rocketsoftware.com/rocketd3/support/documentation/d3nt/102/userguide/File_System_Interface.htm
 
@@ -260,6 +272,10 @@ Cybersecurity and Infrastructure Security Agency. (n.d.). Defining insider threa
 Chin, K. (n.d.). What is an ISMS (Information Security Management System)? UpGuard. Retrieved July 29, 2024, from https://www.upguard.com/blog/isms
 
 
+Statista. (2024). How long does it take your organization to fill a cybersecurity position with a qualified candidate? Retrieved from https://www.statista.com/statistics/1322366/cybersecurity-staffing-time-to-fill-vacancy-worldwide/
+
+
+ZipRecruiter. (2024). Security technician salary. Retrieved from https://www.ziprecruiter.com/Salaries/Security-Technician-Salary
 -------------
 
 Resources: 
