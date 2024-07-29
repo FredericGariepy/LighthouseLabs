@@ -46,7 +46,7 @@ The top three risks identified are:
 |2| Single Point of Failure  |  CIO, Amanda Wilson    |  Mitigate: Implement Redundant FSI.|
 |3| Understaffed Security    |  CISO, Paul Alexander  |  Accept: Interim coverage.         |
 |4| Security insider threat  |  CISO, Paul Alexander  |  Accept: Training and Education    |
-
+###### ... to continue ...
 Detailed profiles have been created for each risk. 
 The risk strategies identified are mostly focused on mitigation and acceptance.
 
@@ -66,7 +66,7 @@ treatment  (risk response, controls) + Priority w/ reasoning \
 
 -->
 
-## 1. Major threat: End-of-Life (EOL) for OS Vulnerabilities 
+## 1. End-of-Life (EOL) for OS Vulnerabilities 
 #### Summary:
 High priority risk, EOL for 1500 operation computers. Treatment deadline 14 October 2025. Treatment time required 9 months, cost 181,000$.
 
@@ -95,14 +95,12 @@ First, the role of Manager of Systems and Security Techs, will ensure Windows 11
 Second, find machines that can support Windows 11 at adequate performance, and upgrade those machines. \
 Third, remaining Windows 10 machines must be either replaced or hardware upgraded to meet performance requirements.
 
-__Treatment schedule__: \
-__Estimate treatment time__: 1600 hours, as a single person 8 hour workday is 200 work days. 200 total work days, in a typical 5 work week, equals 40 weeks. 40 weeks divided by the average number of weeks per month(4.345), equals aproximately 9 months rounded down.
-__Estimate assumptions__: 1500 devices, 1000 upgradable devices, 3 labour hours spent per physical upgrade. \
-__Treatment time calculation__: \
-Between one IT and one security roles, estimated 80 hours of compatibility testing. \
-Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access. \
-Time spend upgrading machine hardware, given by formula below: \
-`f(x) = x * (1 - (n/x)) * t`
+__Estimated treatment schedule__: 9 months. \
+Treatment time calculation: \
+0. Assumptions: 1500 devices, 1000 upgradable devices, 3 labour hours spent per physical upgrade. \
+1. Between one IT and one security roles, estimated 80 hours of compatibility testing. \
+2. Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access. \
+3. Time spend upgrading machine hardware: `f(x) = x * (1 - (n/x)) * t` \
 > x = number of devices
 > 
 > n = number of upgradable devices 
@@ -112,10 +110,9 @@ Time spend upgrading machine hardware, given by formula below: \
 > f(x) = total time spent for physical upgrade
 
 
-__Treatment cost__: \
-__Estimated cost of treatment__: 181,000$ \
-__Estiamte assumptions__:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage. \
-__Treatment cost calculaiton__: \
+__Estimated treatment cost__: 181,000$ \
+Treatment cost calculations: \
+assumptions__:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage. \
 Treatment cost estimate, given by formula below: \
 `g(x) = (x-n)*c + f(x)*h`
 > x = number of devices
@@ -128,6 +125,59 @@ Treatment cost estimate, given by formula below: \
 >
 > h = hourly labour wage
 
+## 2. Single Point of Failure (FSI)
+Summary:
+The risk of relying on a single system component that could cause operational disruptions. This requires implementing redundant systems to ensure continuity.
+
+Threat Profile:
+
+  Asset: Critical File System Interface (FSI)
+  Security Category: SC<sub>FSI</sub> = {(Confidentiality: High), (Integrity: High), (Availability: High)}
+  Existing Vulnerability: Dependence on a single FSI component.
+  Threat: Potential operational halt if the single point fails.
+  Risk Strategy: Mitigate by adding redundant FSI.
+  Treatment: Implement redundancy for FSI to prevent single point failures.
+  Treatment Schedule and Cost: To be determined based on FSI implementation.
+<!-- 
+
+name, \
+Asset: description
+Security Category = SC<sub>asset</sub> = {(C:val),(I:val),(A:val)} 
+risk owners: risk owners.  “chain” of ownership  botom -> top -  Explain what and how each owner may contribute to the chain. \
+context (vulnerability) \
+threat (likelihood, impact) (use ORM language format)\
+Risk accept, ignore, mitigate, transfer. 
+treatment  (risk response, controls) + Priority w/ reasoning \
+... (control assesment would not be done in this report) \
+
+-->
+# 3. Understaffed Security Team
+<!-- 
+# each threat format \
+Format \
+Sumarry:
+name, \
+Asset: description
+Security Category = SC<sub>asset</sub> = {(C:val),(I:val),(A:val)} 
+risk owners: risk owners.  “chain” of ownership  botom -> top -  Explain what and how each owner may contribute to the chain. \
+context (vulnerability) \
+threat (likelihood, impact) (use ORM language format)\
+Risk accept, ignore, mitigate, transfer. 
+treatment  (risk response, controls) + Priority w/ reasoning \
+... (control assesment would not be done in this report) \
+
+-->
+Summary:
+Current staffing levels are inadequate to handle the organization's security needs effectively. The risk is managed by accepting interim coverage while exploring long-term staffing solutions.
+
+Threat Profile:
+Asset: Security Team
+Security Category: SC<sub>Security Team</sub> = {(Confidentiality: High), (Integrity: High), (Availability: Moderate)}
+Existing Vulnerability: Limited personnel to address all security needs.
+Threat: Potential delays in addressing security incidents and vulnerabilities.
+Risk Strategy: Accept with interim coverage.
+Treatment: Continue with current staffing while developing a plan for future hiring or resource allocation.
+Treatment Schedule and Cost: Ongoing; cost associated with interim coverage and future recruitment.
 
 
 
