@@ -1,8 +1,8 @@
+# CSIRT
 Task for /W6/D2/ what's new ? \
-[NIST CSF 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf)
-![image](https://github.com/user-attachments/assets/c1bd7f16-b5a2-4e36-8ff2-9141d5e31409)
+[NIST CSF 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf) \
+<img src="https://github.com/user-attachments/assets/c1bd7f16-b5a2-4e36-8ff2-9141d5e31409" height="300px" alt="Description">
 
-CSIRT
 
 Staffing the IR team 
 
