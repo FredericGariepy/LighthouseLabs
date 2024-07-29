@@ -1,14 +1,14 @@
 CVSS v3.1
 
-### attacker side
+### attacker side/perspective
 - The Base Metric group: \
 represents the intrinsic characteristics of a vulnerability that are constant over time and across user environments. 
 
-### research , common knowledge  side
+### research , common knowledge  side/perspective
 - The Temporal Metric group: \
 reflects the characteristics of a vulnerability that may change over time but not across user environments. 
 
-### asset side
+### asset side/perspective
 - The Environmental Metric group; \
 represents the characteristics of a vulnerability that are relevant and unique to a particular user’s environment.
 
