@@ -319,7 +319,7 @@ However, the parts are not yet connected as a whole through an ISMS system and i
 Starting by implementing this narrow risk management plan, and addressing further identified gaps using the example methodologies from this document, will be a first step toward achieving standard-level compliance.
 
 As a general observation: \
-Typically, companies that begin their information security programs will [start with NIST (CSF) and work their way up to ISO 27001](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W4/D4/Compare%20Frameworks/CSF%20v%20ISO.md) as they scale. This industry observation seems it should apply in this case as well.
+Typically, companies that begin their information security programs will [start with NIST (CSF) and work their way up to ISO 27001](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/Compare%20Frameworks/CSF%20v%20ISO.md#csf-free-moneybag-iso) as they scale. This industry observation seems it should apply in this case as well.
 
 # References
 Chin, K. (n.d.). What is an ISMS (Information Security Management System)? UpGuard. Retrieved July 29, 2024, from https://www.upguard.com/blog/isms
