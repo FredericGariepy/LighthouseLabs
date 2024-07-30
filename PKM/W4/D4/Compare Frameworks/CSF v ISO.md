@@ -1,25 +1,18 @@
- Federal Information Processing Standards (FIPS)
- 
- NIST Internal Reports (IR) 
-
 
 # Intro 
-Are you shoppig for a framework? \
-
-- [ISO Store (fuck that, just get a subsciption)](https://www.iso.org/store.html)
-- [YEAHH! FREE NIST YEAAA!](https://www.nist.gov/)
-You shouldn't get too hung up on Accronyms.
+Choosing Frameworks
+- [ISO Store (subsciption or pay-per-file)](https://www.iso.org/store.html)
+- [Free NIST](https://www.nist.gov/)
 
 Risk management is three steps:
 1.   Identify risks to the organization’s information 
 2.   Implement controls appropriate to the risk
 3.   Monitor their performance 
 
-Got that? 3 steps. Risk managment, a.k.a. secure your shit framework. \
-Don't follow an RMF that misses to cover your ends.
+3 steps to the Risk managment. Don't follow an RMF that misses to cover your ends.
 
-well then, you're in luck, this is the toyotathon of frameworks. \
-And don't get your accronyms twisted! Dont confuse things like CSF with CSIRT. [Computer Security Incident Response Team (CSIRT).](https://secureglobal.de/the-csirt-methodology)
+Note to self: \
+Dont confuse things like CSF with CSIRT. [Computer Security Incident Response Team (CSIRT).](https://secureglobal.de/the-csirt-methodology)
 
 First conider what the things you need in a framework:
 - Suitability
@@ -30,7 +23,6 @@ First conider what the things you need in a framework:
 - Flexibility
 - Scalability
 
-Now here's the frameworks we've got here for you today \
 Frameworks of focus for LHL:
 - NIST SP 800-Series RMF
 - ISO 27001 Information Security Management System (ISMS)
@@ -75,13 +67,7 @@ So start-ups will usually kick start their InfoSec program with NIST and work th
     CIS Benchmarks: CIS Benchmarks are sets of technical standards created by the Center for Internet Security (CIS). They are used as reference points for system administrators when configuring various types of technology, including OSs, applications, databases, and cloud services.
     General Data Protection Regulation (GDPR) Compliance Checklist: theGDPR is an EU regulation that applies to any organization processing personal data belonging to EU citizens or residents. This GDPR compliance checklist provides guidelines on how organizations can meet the requirements set out in this legislation regarding protecting the privacy rights of individuals.
 
-
-
-
-
-
-
-
-
-
-
+Glosarry
+|Accronym|Expanded| 
+|FIPS|Federal Information Processing Standards |
+|NIST IR| NIST Internal Reports |
