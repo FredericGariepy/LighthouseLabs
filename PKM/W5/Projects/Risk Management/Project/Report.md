@@ -43,10 +43,10 @@ Note: all data is classified as confidential.
 -->
 Intented readers of this document are Executives, CIO, CISO, IT staff, security personnel, and all employees part of Risk Assessment and Risk Treatment.
 
-The purpose of this document is to identify and present the three main threats to the organization.
+The purpose of this document is to identify, assess, and present the three main threats to the organization. Applying treatments and controls to each.
 
-Each threat is identified and presented using the same risk assessment and treatment methodologies. \
-They then also serve as examples of how to systematically address and manage security risks.
+Each threat goes through the same risk assessment and treatment methodologies. \
+All three of then also serve as examples of how to systematically address and manage security risks.
 
 ## Executive Summary Analysis
 The top three risks identified are:
