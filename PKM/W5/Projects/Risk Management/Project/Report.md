@@ -5,18 +5,12 @@ Date 07.29.20224
 - [Executive aumamry](#executive-summary)
 - [Purpose, scope and users of this document](#purpose-scope-and-users)
 - [Executive summary analysis](#executive-summary-analysis)
-- [#1-end-of-life-eol-for-os-vulnerabilities]
-
-#2-single-point-of-failure-spof
-
-#3-understaffed-security-team
-
-#recomended-controls
-
-#recommendations
-
-#references
-
+  - [EOL OS Vulenrability](#1-end-of-life-eol-for-os-vulnerabilities)
+  - [Single Point of Failure](#2-single-point-of-failure-spof)
+  - [Understaffed security team](#3-understaffed-security-team)
+- [recommended controls](#recommended-controls)
+- [recommendations](#recommendations)
+- [References](#references)
 
 # Executive Summary
 This Risk Management Plan aims to address three critical security threats
@@ -241,7 +235,7 @@ __Treatment__: Assign a temporary or cross-functional team to handle the securit
 __Treatment Schedule and Cost__: \
 Role of CISO should be in charge of candidate selection, CIO in charge of CISO selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months (Statista, 2024) and cost of 76,000$ (ZipRecruiter, 2024).
 
-## Recomended controls
+## Recommended controls
 #### What to not expect from the following recommendations: 
 This document does not focus on technical applications of controls. \
 ISO 27001 compliance requires rigorous documentation of control's effectiveness through performance measures, and compliance assesment through scheduled audits. \
