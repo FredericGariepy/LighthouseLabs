@@ -19,7 +19,7 @@ and recommending mitigation strategies (risk treament, associated controls).
 
 Classification of assets was produced by assessing the [case information](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W5/Projects/Risk%20Management/case%20info.md) and [organization struture](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W5/Projects/Risk%20Management/Employees).
 
-Threat assesment and treatment, are documented in the [risk __assesment__ and __treatment__ table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing).
+Threat assesment and treatment, are documented in the [risk __assesment__ and __treatment__ table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing) (Lighthouse Labs, n.d.).
 
 Following this document, the reader will learn about assesment and recommended treatments for three (3) main organization threats.
 <!-- and the workflow used to further generate the risk assesment. \ -->
@@ -266,7 +266,7 @@ Recomended controls table of top 3 presented threats
 |-|-|-|-|
 |Windows 10 machines|1| SI-02 | A.6.8, A.8.32, A.8.8  |
 |FSI server SPOF|3| CP-09 | A.5.29, A.5.33, A.8.13  |
-|Vaccant Security role|4| |  |
+|Vaccant Security role|4| PS-03 |  A.6.1  |
 
 #### Window 10 OS 
 [SI-02 Flaw Remediation](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=SI-02) This control is for correcting system flaws, which includes applying security-relevant software updates. It can include OS updates. It is selected to be applied to the component because of the likely High threat impact.
@@ -275,7 +275,7 @@ SI-02 can further be made to fullfils organization's technical Requirement; \
 "[Ensure that all company-issued computers receive all updates that have been approved for release by the technology department.](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#technical-requirements)". \
 To do this, futher control configurations can enable update release aprovals. 
 
-This NIST control SI-02 cross-refferences to ISO 27001: A.6.8, A.8.32, A.8.8. \
+This NIST control SI-02 cross-refferences to ISO 27001: A.6.8, A.8.32, A.8.8.
 
 The related ISO A.6 is family is important in ISO compliance, \ 
 to establish a management framework to initiate and control the implementation and operation of information security within the organisation. \
@@ -289,7 +289,7 @@ The related ISO A.8 familly regards responsibility for assets, and identifies in
 CP-09 contributes to fufilling the organization's security requirement; \
 "[Files stored on the company file servers must be protected in the event that a file server or the drives from any file server are stolen.](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#security-requirements)".
 
-This NIST CP-09 cross-reffereces to ISO 27001: A.5.29, A.5.33, A.8.13. \
+This NIST CP-09 cross-reffereces to ISO 27001: A.5.29, A.5.33, A.8.13.
 
 The related ISO A.5 regards management direction for information security, \
 it has for purpose to manage direction and support for information security in line with the organisation’s requirements, as well as in accordance with relevant laws and regulations. \
@@ -299,36 +299,27 @@ The related ISO A.8 familly regards responsibility for assets, \
 it serves to identify information assets in scope for the management system and define appropriate protection responsibilities. \
 __Example__: _protect stored data_.
 
- 
+#### Vaccant Security role
+[PS-03 Personnel screening](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=PS-03). This control involves ensuring that personnel are vetted before they are given access to sensitive systems and data. Used here as an initial screening for the staffing gap. Ensuring interim staff are adequately screened and suited for their temporary roles. It is selected to be applied to the component because of the likely Morderate threat impact.
 
+PS-03 does not contribute directly to fullifing a [specifically outlined organization requirement](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#user-requirements).
 
+This NIST PS-03 cross-reffereces to ISO 27001: A.6.1.
 
-
-
-
-
-
-
-Recomemnded controls: missing
-
-RMF control translation to ISO control: 
-
-Control assesment:
+The related ISO A.6 is family serves to establish a management framework to initiate and control the implementation and operation of information security within the organisation. \
+__Example__: _screen interim staff._ \
 
 # recommendations
 DHAEI has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.). \
 The organizaton has a security personnel, budget, resources, security requirements.
 
-However, the parts are not connected as a whole through an ISMS system and it can not be said that DHAEI is currently ISO 27001 compliant. \
-Following this risk management plan here will be _a start_ towards standard level compliance.
+However, the parts are not yet connected as a whole through an ISMS system and it can not be said that DHAEI is currently ISO 27001 compliant. \
+Starting by implementing this narrow risk management plan, and addressing further identified gaps using the example methodologies from this document, will be a first step toward achieving standard-level compliance.
 
 As a general observation: \
-Typically, companies that begin their information security programs will [start with NIST and work their way up to ISO 27001](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W4/D4/Compare%20Frameworks/CSF%20v%20ISO.md) as they scale. This industry observation seems it should apply in this case as well.
-
-
+Typically, companies that begin their information security programs will [start with NIST (CSF) and work their way up to ISO 27001](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W4/D4/Compare%20Frameworks/CSF%20v%20ISO.md) as they scale. This industry observation seems it should apply in this case as well.
 
 # references
-
 Microsoft. (n.d.). End of support for Windows 10, Windows 8.1, and Windows 7. Retrieved from https://www.microsoft.com/en-ca/windows/end-of-support?r=1#:~:text=Support%20for%20Windows%2010%20will,technical%20support%20for%20Windows%2010
 
 Rocket Software. (n.d.). File system interface. Rocket Software. Retrieved July 29, 2024, from https://www3.rocketsoftware.com/rocketd3/support/documentation/d3nt/102/userguide/File_System_Interface.htm
@@ -341,27 +332,19 @@ MITRE. (n.d.). Service stop (T1489). MITRE. Retrieved July 29, 2024, from https:
 
 MITRE. (n.d.). Impact (TA0040). MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/tactics/TA0040/
 
-<!-- (unintentioanl) Insider threat -->
+<!-- (unintentioanl) Insider threat 
 Cybersecurity and Infrastructure Security Agency. (n.d.). Defining insider threats. Cybersecurity and Infrastructure Security Agency. Retrieved July 29, 2024, from https://www.cisa.gov/topics/physical-security/insider-threat-mitigation/defining-insider-threats
-
+-->
 Chin, K. (n.d.). What is an ISMS (Information Security Management System)? UpGuard. Retrieved July 29, 2024, from https://www.upguard.com/blog/isms
 
 Statista. (2024). How long does it take your organization to fill a cybersecurity position with a qualified candidate? Retrieved from https://www.statista.com/statistics/1322366/cybersecurity-staffing-time-to-fill-vacancy-worldwide/
 
 ZipRecruiter. (2024). Security technician salary. Retrieved from https://www.ziprecruiter.com/Salaries/Security-Technician-Salary
 
-
 National Institute of Standards and Technology Computer Security Resource Center. (n.d.). Mappings to NIST documents. Retrieved July 29, 2024, from https://csrc.nist.gov/projects/olir
 
 ISMS.online. (n.d.). ISO 27001 – Annex A controls. ISMS.online. https://www.isms.online/iso-27001/annex-a-controls/
 
--------------
+Lighthouse Labs. (n.d.). Sample risk management methodology document. Retrieved July 29, 2024, from https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C5/Cyber+BC+C5.2/Sample+Risk+Management+Plan.pdf
 
-Resources: 
--  NIST NVD and/or MITRE ATT&CK
-- [IT Team](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Employees/IT%20Team.md)
-- [Organization memebers](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Employees/users_table.md)
-- [Inventory. Risk & Treatment Table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing)
-- [ORM](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W4/D4/Multi-tier%20RMF,%20ORM,%20NIST%20RMF.md#orm-table)
-- [What is FSI?](https://www3.rocketsoftware.com/rocketd3/support/documentation/d3nt/102/userguide/File_System_Interface.htm)
-- [Cybersecurity and Privacy Reference Tool](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home)
+National Institute of Standards and Technology. (2023). Cybersecurity and privacy controls for information systems and organizations (NIST SP 800-53 Rev. 5.1.1). Retrieved from https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home
