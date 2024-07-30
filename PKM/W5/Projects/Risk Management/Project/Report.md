@@ -224,8 +224,7 @@ __Treatment Schedule and Cost__: \
 Role of CISO should be in charge of candidate selection, CIO in charge of CISO selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months (Statista, 2024) and cost of 76,000$ (ZipRecruiter, 2024).
 
 ## Recomended controls
-#### Recomended controls table of top 3 presented threats
-What to not expect from the following recommendations: 
+#### What to not expect from the following recommendations: 
 This document does not focus on technical applications of controls. \
 ISO 27001 compliance requires rigorous documentation of control's effectiveness through performance measures, and compliance assesment through scheduled audits. \
 This level of riggor will not be found here.
@@ -241,6 +240,7 @@ These control mappings are used in the `ISO/IEC 27001:2022` collumn below.
 ISO control documents are _pay-to-access_, information about ISO controls come ISMS.online (n.d.).
 For `Asset IDs, see assets table 
 
+Recomended controls table of top 3 presented threats
 |Asset| Asset IDs | Recomended controls: NIST RMF | ISO/IEC 27001:2022 |
 |Windows 10 machines|1| SI-02 | A.6.8, A.8.32, A.8.8  |
 |FSI server SPOF|3| CP-02 | 7.5.1, 7.5.2, 7.5.3, A.5.2, A.5.29, A.8.14 |
@@ -256,8 +256,6 @@ To do this, futher control configurations can enable update release aprovals.
 This NIST control cross-refferences to ISO 27001: A.6.8, A.8.32, A.8.8.
 The related ISO A.6 is family is important in ISO compliance, and servers to establish a management framework to initiate and control the implementation and operation of information security within the organisation. __Example__: _schedule updates that have been released._ \
 The related ISO A.8 familly regards responsibility for assets, and identifies information assets in scope for the management system and define appropriate protection responsibilities. __Example__: _Apply security updates to computers we manage_.
-
-
 
 #### FSI Server SPOF
 CP-02 Contingency planning.
