@@ -9,7 +9,7 @@ Date 07.30.2024
   - [Single Point of Failure](#2-single-point-of-failure-spof)
   - [Understaffed security team](#3-understaffed-security-team)
 - [recommended controls](#recommended-controls)
-- [recommendations](#recommendations)
+- [Conclusion](#conclusion)
 - [References](#references)
 
 # Executive Summary
@@ -311,8 +311,11 @@ This NIST PS-03 cross-reffereces to ISO 27001: A.6.1.
 The related ISO A.6 is family serves to establish a management framework to initiate and control the implementation and operation of information security within the organisation. \
 __Example__: _screen interim staff._ 
 
-# recommendations
-DHAEI has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.). \
+# Conclusion
+Creating a security management plan which posses risk assesment and treatment in line with ISO 27001 Apendix A, requires a lot effort. \
+The document presented here lacks many features of a full plan, noticeably, SOA, gap assessment, residual risk analysys. 
+
+The DHAEI organization has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.). \
 The organizaton has a security personnel, budget, resources, security requirements.
 
 However, the parts are not yet connected as a whole through an ISMS system and it can not be said that DHAEI is currently ISO 27001 compliant. \
