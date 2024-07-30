@@ -153,14 +153,6 @@ Treatment cost calculations: \
 > h = hourly labour wage
 2.  Estimated total: 181,000$
 
-Recomemnded controls: -missing
-RMF control <-> ISO control
-
-Controll assesment: - missing
-
-
-
-
 ## 2. Single Point of Failure (SPOF)
 #### Summary:
 High impact to operations in likelihood of file server failure or data breach. Operational shutdown, non-compliance, reputational harm.
@@ -198,12 +190,6 @@ __Treatment Schedule and Cost__: \
 Based on purchasing research, the inital estimated cost here is between 5000$ to 20,000$ dollars.
 The Manager of Systems must determine approprite purchases and the CIO should decide weather to support these purchases.
 Likewise, both roles must determine and support a schedule for treatment.
-
-Recomemnded controls: missing
-
-RMF control translation to ISO control: 
-
-Control assesment:
 
 ## 3. Understaffed Security Team
 #### Summary:
