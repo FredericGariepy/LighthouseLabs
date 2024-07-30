@@ -252,7 +252,7 @@ As can be found in the [case information](https://github.com/FredericGariepy/Lig
 Some of these requirements will be met through the controls presented here. This is because security needs can overlap across diffrent selected controls.
 
 > [!NOTE]
->  NIST RMF _freely available_ documented controls have cross-refference mappings to NIST Documents. \
+>  NIST _freely available_ documented controls have cross-refference mappings to NIST Documents. \
 > (NIST Computer Security Resource Center, n.d.)
 > 
 > These control mappings are used in the `ISO/IEC 27001:2022` collumn below. 
