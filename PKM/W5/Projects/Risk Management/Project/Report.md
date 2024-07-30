@@ -271,7 +271,7 @@ Recomended controls table of top 3 presented threats
 #### Window 10 OS 
 [SI-02 Flaw Remediation](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=SI-02) This control is for correcting system flaws, which includes applying security-relevant software updates. It can include OS updates. It is selected to be applied to the component because of the likely High threat impact.
 
-SI-02 can further be made to fulfil one organization's technical Requirement; \
+SI-02 can further be made to fulfil a technical Requirement; \
 "[Ensure that all company-issued computers receive all updates that have been approved for release by the technology department.](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#technical-requirements)". \
 To do this, futher control configurations can enable update release aprovals. 
 
