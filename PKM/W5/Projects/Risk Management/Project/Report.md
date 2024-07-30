@@ -310,14 +310,14 @@ The related ISO A.6 is family serves to establish a management framework to init
 __Example__: _screen interim staff._ 
 
 # Conclusion
-Creating a security management plan which posses risk assesment and treatment in line with ISO 27001 Apendix A, requires a lot effort. \
-An orgnaization need to be past a security maturity (e.i. more policy, controls implemented) in order to engage meaningfully in an SOA.
+Creating a security management plan for risk assesment and treatment in line with ISO 27001 Apendix A, requires a lot effort. \
+An orgnaization needs to be past a security maturity threshold (e.i. more policy, controls implemented) in order to engage meaningfully in an SoA.
 
 SoA states what ISO 27001 controls and policies are being applied by the organisation. \
 It benchmarks against the Annex A control set in the ISO 27001 standard (ISMS.online n.d.). \
-The document presented here lacks many features of a full plan: gap assessment, residual risk analysys, SOA, control assesment, _lacks access to the ISO 27100 resources_. 
+The document presented here lacks many features of a full plan: gap assessment, residual risk analysys, SoA, control assesment, _lacks access to the ISO 27100 resources_. 
 
-The case's organization (DHAEI) has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.). \
+The case organization (DHAEI) has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.). \
 The organizaton has a security personnel, budget, resources, security requirements.
 
 However, the parts are not yet connected as a whole through an ISMS system. \
