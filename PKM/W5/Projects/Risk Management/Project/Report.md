@@ -15,14 +15,15 @@ Date 07.29.20224
 # Executive Summary
 This Risk Management Plan aims to address three critical security threats
 identified within the organization by evaluating current vulnerabilities (classifying), assessing potential impacts (treat assesment),
-and recommending mitigation strategies (risk treament). 
+and recommending mitigation strategies (risk treament, associated controls). 
 
 Classification of assets was produced by assessing the [case information](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W5/Projects/Risk%20Management/case%20info.md) and [organization struture](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W5/Projects/Risk%20Management/Employees).
 
 Threat assesment and treatment, are documented in the [risk __assesment__ and __treatment__ table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?usp=sharing).
 
-Follow this document to learn about assesment and recommended treatments for three (3) main threats.
+Following this document, the reader will learn about assesment and recommended treatments for three (3) main organization threats.
 <!-- and the workflow used to further generate the risk assesment. \ -->
+Futher, one control per threat will examined.
 
 Consult the recommendations towards the end of this document to learn about implementing an information security management system (ISMS)
 and aligning with ISO/IEC 27001 standards.
@@ -40,10 +41,12 @@ Users of this document are all employees of ACME INC. who take part in Risk Asse
 Risk Treatment.
 Note: all data is classified as confidential.
 -->
-The purpose of this document is to identify and present the three main threats to the organization.
-Each threat is identified and presented by the same risk assessment and treatment methodologies described in the section following the presentations.
+Intented readers of this document are Executives, CIO, CISO, IT staff, security personnel, and all employees part of Risk Assessment and Risk Treatment.
 
-This document is intended to --- ...
+The purpose of this document is to identify and present the three main threats to the organization.
+
+Each threat is identified and presented using the same risk assessment and treatment methodologies. \
+They then also serve as examples of how to systematically address and manage security risks.
 
 ## Executive Summary Analysis
 The top three risks identified are:
