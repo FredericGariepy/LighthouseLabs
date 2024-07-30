@@ -281,7 +281,8 @@ This NIST control SI-02 cross-refferences to ISO 27001: A.6.8, A.8.32, A.8.8.
 
 The related ISO A.6 is family is important in ISO compliance, \ 
 to establish a management framework to initiate and control the implementation and operation of information security within the organisation. \
-__Example__: _schedule updates that have been released._ \
+__Example__: _schedule updates that have been released._ 
+
 The related ISO A.8 familly regards responsibility for assets, and identifies information assets in scope for the management system and define appropriate protection responsibilities. \
  __Example__: _Apply security updates to computers we manage_.
 
