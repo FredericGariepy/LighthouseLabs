@@ -125,7 +125,7 @@ Third, remaining Windows 10 machines must be either replaced or hardware upgrade
 
 __Estimated treatment schedule__: 9 months. \
 Treatment time calculation: \
-0. Assumptions: 1500 devices, 1000 upgradable-ready devices, 3 labour hours spent per physical upgrade.
+Assumptions: 1500 devices, 1000 upgradable-ready devices, 3 labour hours spent per physical upgrade.
 1. Between one IT and one security roles, estimated 80 hours of compatibility testing.
 2. Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access. 
 3. Time spend upgrading machine hardware: `f(x) = (x-n) * t` 
@@ -140,7 +140,7 @@ Treatment time calculation: \
 
 __Estimated treatment cost__: 181,000$ \
 Treatment cost calculations: \
-0. assumptions:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage.
+Assumptions:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage.
 1. Treatment cost estimate: `g(x) = (x-n)*c + f(x)*h`
 > x = number of devices
 >
@@ -236,7 +236,8 @@ As can be found in the [case information](https://github.com/FredericGariepy/Lig
 Some of these requirements will be met through the controls presented here. This is because security needs can overlap across diffrent selected controls.
 
 > [!NOTE]
->  NIST RMF _freely available_ documented controls have cross-refference mappings to NIST Documents (NIST Computer Security Resource Center, n.d.).
+>  NIST RMF _freely available_ documented controls have cross-refference mappings to NIST Documents. \
+> (NIST Computer Security Resource Center, n.d.)
 > 
 > These control mappings are used in the `ISO/IEC 27001:2022` collumn below. 
 >
@@ -254,16 +255,19 @@ Recomended controls table of top 3 presented threats
 #### Window 10 OS 
 [SI-02 Flaw Remediation](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=SI-02) This control is for correcting system flaws, which includes applying security-relevant software updates. It can include OS updates.
 
-SI-02 can further be made to fullfils organization's technical Requirements;
-"[Ensure that all company-issued computers receive all updates that have been approved for release by the technology department.](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#technical-requirements)". 
+SI-02 can further be made to fullfils organization's technical Requirements; \
+"[Ensure that all company-issued computers receive all updates that have been approved for release by the technology department.](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#technical-requirements)". \
 To do this, futher control configurations can enable update release aprovals. 
 
-This NIST control cross-refferences to ISO 27001: A.6.8, A.8.32, A.8.8.
-The related ISO A.6 is family is important in ISO compliance, and servers to establish a management framework to initiate and control the implementation and operation of information security within the organisation. __Example__: _schedule updates that have been released._ \
-The related ISO A.8 familly regards responsibility for assets, and identifies information assets in scope for the management system and define appropriate protection responsibilities. __Example__: _Apply security updates to computers we manage_.
+This NIST control cross-refferences to ISO 27001: A.6.8, A.8.32, A.8.8. \
+The related ISO A.6 is family is important in ISO compliance, \ 
+to establish a management framework to initiate and control the implementation and operation of information security within the organisation. \
+__Example__: _schedule updates that have been released._ \
+The related ISO A.8 familly regards responsibility for assets, and identifies information assets in scope for the management system and define appropriate protection responsibilities. \
+ __Example__: _Apply security updates to computers we manage_.
 
 #### FSI Server SPOF
-CP-02 Contingency planning.
+CP-02 Contingency planning. 
 A control Develop, Distribute, Coordinate, Review, Update, Communicate, Incorporate lessons learned from, Protect 
 
 https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=CP-02
