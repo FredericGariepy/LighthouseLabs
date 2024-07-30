@@ -1,6 +1,6 @@
 OpenVAS (OpenVAS or "GVM") is an open-source Linux-based vulnerability scanner supported by a community spearheaded by the German organization [Greenbone Networks](https://www.greenbone.net/en/)
 
-https://www.openvas.org/
+- [Greenbone OpenVAS](https://www.openvas.org/) scannner
 
 
 The major tool modules are all open source, \
