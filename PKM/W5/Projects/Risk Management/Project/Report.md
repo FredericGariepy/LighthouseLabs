@@ -24,7 +24,7 @@ Threat assesment and treatment, are documented in the [risk __assesment__ and __
 
 Following this document, the reader will learn about assesment and recommended treatments for three (3) main organization threats.
 <!-- and the workflow used to further generate the risk assesment. \ -->
-Futher, one control per threat will examined.
+Further, one control per threat will examined.
 
 Consult the recommendations towards the end of this document to learn about implementing an information security management system (ISMS)
 and aligning with ISO/IEC 27001 standards.
