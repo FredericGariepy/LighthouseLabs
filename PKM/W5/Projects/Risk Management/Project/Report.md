@@ -128,7 +128,8 @@ __Risk owners table__:
 
 __Existing vulnerability__: 500 computers with the __Windows 10__ OS, used by employees for daily tasks, will no longer receive core security updates or fixes after 14 October 2025 (enter EOL).
 
-__Threat__: End-of-Life (EOL) for operating system (OS) Vulnerabilities, has serrious negative _tactical_ effect on the asset. Lack of core security updates entails a weak posture for OS attacks. EOL increases likelihood of all risks. Negative _strategic_ effects on compliance, reputation, operations.
+__Threat__: End-of-Life (EOL) for operating system (OS) Vulnerabilities, has serrious negative 
+_tactical_ effect on the asset. Lack of core security updates entails a weak posture for OS attacks. EOL increases likelihood of all risks. Negative _strategic_ effects on compliance, reputation, operations.
 
 __Risk strategy__: Use mitigations before EOL.
 
@@ -187,11 +188,11 @@ __Risk owners table__:
 | CIO  | Amanda Wilson     | Primary risk owner for overall management of IT. | Leads and oversees the IT department |
 | Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
 
-__Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure (MITRE, n.d.).
+__Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure.
 
 __Threat__: \
-Potential operational halt if the single point fails through human error, configurations, or attack.
-This SPOF Makes the component a high value asset for attackers. SPOF has a negative _tactical_ effect_ as it halts operations that use the FSI server.
+Potential operational halt if the single point fails through human error, configurations, or attack. (MITRE. n.d.)
+This SPOF Makes the component a high value asset for attackers. SPOF has a negative _tactical_ effect as it halts operations that use the FSI server.
 The threat has strong negative _strategic_ effects if the FSI server, if contains sensitive information. 
 This would to a likely loss of compliance, reputation, and operations. 
 
