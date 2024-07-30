@@ -2,7 +2,7 @@
 Date 07.30.2024
 
 # Table of contents
-- [Executive aumamry](#executive-summary)
+- [Executive summary](#executive-summary)
 - [Purpose, scope and users of this document](#purpose-scope-and-users)
 - [Executive summary analysis](#executive-summary-analysis)
   - [EOL OS Vulenrability](#1-end-of-life-eol-for-os-vulnerabilities)
