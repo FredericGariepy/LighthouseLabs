@@ -128,7 +128,7 @@ Treatment time calculation: \
 0. Assumptions: 1500 devices, 1000 upgradable-ready devices, 3 labour hours spent per physical upgrade.
 1. Between one IT and one security roles, estimated 80 hours of compatibility testing.
 2. Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access. 
-3. Time spend upgrading machine hardware: `f(x) = x * (1 - (n/x)) * t` 
+3. Time spend upgrading machine hardware: `f(x) = (x-n) * t` 
 > x = number of devices
 > 
 > n = number of upgradable devices 
