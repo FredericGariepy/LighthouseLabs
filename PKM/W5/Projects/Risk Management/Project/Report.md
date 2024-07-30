@@ -44,7 +44,7 @@ The top three risks identified are:
 |1| EOL OS                   |  CIO, Amanda Wilson    |  Mitigate: Official mitigation     |
 |2| Single Point of Failure  |  CIO, Amanda Wilson    |  Mitigate: Implement Redundant FSI.|
 |3| Understaffed Security    |  CISO, Paul Alexander  |  Accept: Interim coverage.         |
-|-| Security insider threat  |  CISO, Paul Alexander  |  Accept: Training and Education    |
+<!--|-| Security insider threat  |  CISO, Paul Alexander  |  Accept: Training and Education    |-->
 
 Detailed profiles have been created for each risk. 
 The risk strategies identified are mostly focused on mitigation and acceptance.
@@ -237,6 +237,23 @@ __Treatment__: Assign a temporary or cross-functional team to handle the securit
 __Treatment Schedule and Cost__: \
 Role of CISO should be in charge of candidate selection, CIO in charge of CISO selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months (Statista, 2024) and cost of 76,000$ (ZipRecruiter, 2024).
 
+## Recomended controls
+#### Recomended controls table of top3 presented threats
+
+Note: NIST RMF _freely available_ documented controls have cross-refference mappings to NIST Documents (NIST Computer Security Resource Center, n.d.).
+These control mappings are used in the ISO collumn below. 
+ISO control documents are _pay-to-access_, infomation about ISO controls come ISMS.online (n.d.).
+
+|Asset| Asset IDs | Recomended controls: NIST RMF | ISO cross-refference |
+|Windows 10 OS|1,2| | |
+|FSI server SPOF|3| | |
+|Vaccant Security role|4| | |
+
+
+
+
+
+
 Recomemnded controls: missing
 
 RMF control translation to ISO control: 
@@ -277,6 +294,11 @@ Chin, K. (n.d.). What is an ISMS (Information Security Management System)? UpGua
 Statista. (2024). How long does it take your organization to fill a cybersecurity position with a qualified candidate? Retrieved from https://www.statista.com/statistics/1322366/cybersecurity-staffing-time-to-fill-vacancy-worldwide/
 
 ZipRecruiter. (2024). Security technician salary. Retrieved from https://www.ziprecruiter.com/Salaries/Security-Technician-Salary
+
+
+National Institute of Standards and Technology Computer Security Resource Center. (n.d.). Mappings to NIST documents. Retrieved July 29, 2024, from https://csrc.nist.gov/projects/olir
+
+ISMS.online. (n.d.). ISO 27001 – Annex A controls. ISMS.online. https://www.isms.online/iso-27001/annex-a-controls/
 
 -------------
 
