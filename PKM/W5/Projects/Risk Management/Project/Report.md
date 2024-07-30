@@ -1,5 +1,5 @@
 # Risk Management Case Study
-Date 07.30.20224
+Date 07.30.2024
 
 # Table of contents
 - [Executive aumamry](#executive-summary)
