@@ -99,9 +99,12 @@ Control assesment:
 High priority risk, EOL for 1500 operation computers. Treatment deadline 14 October 2025. Treatment time required 9 months, cost 181,000$.
 
 #### Profile:
-__Asset__: Main Office 1,500 Desktop Computers running Windows 10, used by employees for daily tasks. \
-__Security Category__: = SC<sub>1,500 Desktops</sub> = {(Confidentiality: Moderate),(Integrity: Moderate),(Availability: High)} \
-__Security Category reasoning__: asset is a core part of operations, requires high availability. While critical data is stored on file servers, desktops may still contain sensitive information, necessitating moderate confidentiality and integrity controls., \
+__Asset__: Main Office 1,500 Desktop Computers running Windows 10, used by employees for daily tasks.
+
+__Security Category__: = SC<sub>1,500 Desktops</sub> = {(Confidentiality: Moderate),(Integrity: Moderate),(Availability: High)}
+
+__Security Category reasoning__: asset is a core part of operations, requires high availability. While critical data is stored on file servers, desktops may still contain sensitive information, necessitating moderate confidentiality and integrity controls.
+
 __Risk owners table__:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
@@ -111,9 +114,7 @@ __Risk owners table__:
 
 __Existing vulnerability__: 500 computers with the __Windows 10__ OS, used by employees for daily tasks, will no longer receive core security updates or fixes after 14 October 2025 (enter EOL).
 
-__Threat__: End-of-Life (EOL) for operating system (OS) Vulnerabilities, \
-has serrious negative _tactical_ effect on the asset. Lack of core security updates entails a weak posture for OS attacks. EOL increases likelihood of all risks.
-Negative _strategic_ effects on compliance, reputation, operations.
+__Threat__: End-of-Life (EOL) for operating system (OS) Vulnerabilities, has serrious negative _tactical_ effect on the asset. Lack of core security updates entails a weak posture for OS attacks. EOL increases likelihood of all risks. Negative _strategic_ effects on compliance, reputation, operations.
 
 __Risk strategy__: Use mitigations before EOL.
 
@@ -126,7 +127,7 @@ Third, remaining Windows 10 machines must be either replaced or hardware upgrade
 __Estimated treatment schedule__: 9 months. \
 Treatment time calculation: \
 0. Assumptions: 1500 devices, 1000 upgradable-ready devices, 3 labour hours spent per physical upgrade.
-1. Between one IT and one security roles, estimated 80 hours of compatibility testing. 
+1. Between one IT and one security roles, estimated 80 hours of compatibility testing.
 2. Time spent finding upgradable machines, estimated between 8 to 24 hours, given automated tools, scripting, and access. 
 3. Time spend upgrading machine hardware: `f(x) = x * (1 - (n/x)) * t` 
 > x = number of devices
@@ -140,7 +141,7 @@ Treatment time calculation: \
 
 __Estimated treatment cost__: 181,000$ \
 Treatment cost calculations: \
-    0. assumptions:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage.
+0. assumptions:  1500 devices, 1000 upgradable devices, 250$ cost per upgrade, 1600 labour hours, 35$ hourly wage.
 1. Treatment cost estimate: `g(x) = (x-n)*c + f(x)*h`
 > x = number of devices
 >
@@ -163,34 +164,40 @@ Controll assesment: - missing
 
 ## 2. Single Point of Failure (SPOF)
 #### Summary:
-High impact to operations in likelihood of file server failure or data breach. Operational shutdown, non-compliance, reputational harm. \
-The risk of relying on a single system component that could cause operational disruptions. This requires implementing redundant systems to ensure continuity. \
+High impact to operations in likelihood of file server failure or data breach. Operational shutdown, non-compliance, reputational harm.
+The risk of relying on a single system component that could cause operational disruptions. This requires implementing redundant systems to ensure continuity.
 Treatment time required to be determined, cost 5,000$ ~ 20,000$.
 
 #### Profile:
-__Asset__: File System Interface (FSI). _Not only an Interface, but also a file system_ (Rocket Software, n.d.). \
-__Security Category__: SC<sub>FSI</sub> = {(Confidentiality: High), (Integrity: High), (Availability: High)} \
-__Security Category reasoning__: The FSI server holds data and is used organization-wide as part of operations. Case details do not indicate exact location of high value information asset, the FSI server is assumed as the central location for sensive data. \
+__Asset__: File System Interface (FSI). _Not only an Interface, but also a file system_ (Rocket Software, n.d.).
+
+__Security Category__: SC<sub>FSI</sub> = {(Confidentiality: High), (Integrity: High), (Availability: High)}
+
+__Security Category reasoning__: The FSI server holds data and is used organization-wide as part of operations. Case details do not indicate exact location of high value information asset, the FSI server is assumed as the central location for sensive data.
+
 __Risk owners table__:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
 | CIO  | Amanda Wilson     | Primary risk owner for overall management of IT. | Leads and oversees the IT department |
 | Manager of Systems | William Freund | Secondary risk owner for management of systems.| Operation and maintenance of IT infrastructure. |
 
-__Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure (MITRE, n.d.). \
+__Existing Vulnerability__: Dependence on a single FSI component, narrows the organization-wide file system to a single point of failure (MITRE, n.d.).
 
-__Threat__: Potential operational halt if the single point fails through human error, configurations, or attack. \
-This SPOF Makes the component a high value asset for attackers. SPOF has a negative _tactical_ effect_ as it halts operations that use the FSI server. \
-The threat has strong negative _strategic_ effects if the FSI server, if contains sensitive information. \
-This would to a likely loss of compliance, reputation, and operations. \
+__Threat__: \
+Potential operational halt if the single point fails through human error, configurations, or attack.
+This SPOF Makes the component a high value asset for attackers. SPOF has a negative _tactical_ effect_ as it halts operations that use the FSI server.
+The threat has strong negative _strategic_ effects if the FSI server, if contains sensitive information. 
+This would to a likely loss of compliance, reputation, and operations. 
 
-__Risk Strategy__: Mitigate by adding redundant FSI server. \
+__Risk Strategy__: Mitigate by adding redundant FSI server. 
 
-__Treatment__: Implement redundancy for FSI to prevent single point failures. In case of failure, the secondary server can take over immediately, ensuring continuous access. \
-Additionally, if the secondary server is in a geographically separate location, the system can serve as a disaster recovery solution. \
+__Treatment__: \
+Implement redundancy for FSI to prevent single point failures. In case of failure, the secondary server can take over immediately, ensuring continuous access.
+Additionally, if the secondary server is in a geographically separate location, the system can serve as a disaster recovery solution.
 
-__Treatment Schedule and Cost__: Based on purchasing research, the inital estimated cost here is between 5000$ to 20,000$ dollars. \
-The Manager of Systems must determine approprite purchases and the CIO should decide weather to support these purchases. \
+__Treatment Schedule and Cost__: \
+Based on purchasing research, the inital estimated cost here is between 5000$ to 20,000$ dollars.
+The Manager of Systems must determine approprite purchases and the CIO should decide weather to support these purchases.
 Likewise, both roles must determine and support a schedule for treatment.
 
 Recomemnded controls: missing
@@ -204,9 +211,12 @@ Control assesment:
 Current staffing levels are inadequate to handle the organization's security needs effectively. The risk is managed by accepting interim coverage while exploring long-term staffing solutions.
 
 #### profile:
-__Asset__: Vacancy in security Team. \
-__Security Category__: SC<sub>Vacancy in Security Team</sub> = {(Confidentiality: Moderate), (Integrity: Moderate), (Availability: Moderate)} \
-__Security Category reasoning__: As one of three security tech roles, vacancy negatively impacts incident response and monitoring efforts, and introduces a temporary gaps in security operations. \
+__Asset__: Vacancy in security Team.
+
+__Security Category__: SC<sub>Vacancy in Security Team</sub> = {(Confidentiality: Moderate), (Integrity: Moderate), (Availability: Moderate)}
+
+__Security Category reasoning__: As one of three security tech roles, vacancy negatively impacts incident response and monitoring efforts, and introduces a temporary gaps in security operations.
+
 __Risk owners table__:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
 |-|-|-|-|
@@ -216,14 +226,17 @@ __Risk owners table__:
 
 __Existing vulnerability__: Vacancy in security Team role.
 
-__Threat__: Inefficient human resources for Incident Response. Inadequate force for monitoring and incident response.
+__Threat__: \
+Inefficient human resources for Incident Response. Inadequate force for monitoring and incident response.
 Threat has negative _tactical_ effect on human resources for incident reponse and monitoring performance. 
 Prolonged vacancy will have negative _strategic_ effects on compliance with desired standard.
 
 __Risk strategy__: Accept with interim coverage.
 
-__Treatment__: Assign a temporary or cross-functional team to handle the security tasks until the position is filled. \
-__Treatment Schedule and Cost__: Role of CISO should be in charge of candidate selection, CIO in charge of CISO selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months (Statista, 2024) and cost of 76,000$ (ZipRecruiter, 2024).
+__Treatment__: Assign a temporary or cross-functional team to handle the security tasks until the position is filled.
+
+__Treatment Schedule and Cost__: \
+Role of CISO should be in charge of candidate selection, CIO in charge of CISO selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months (Statista, 2024) and cost of 76,000$ (ZipRecruiter, 2024).
 
 Recomemnded controls: missing
 
