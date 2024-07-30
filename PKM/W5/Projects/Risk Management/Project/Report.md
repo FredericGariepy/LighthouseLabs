@@ -297,7 +297,7 @@ it has for purpose to manage direction and support for information security in l
 
 The related ISO A.8 familly regards responsibility for assets, \
 it serves to identify information assets in scope for the management system and define appropriate protection responsibilities. \
-__Example__: _protect stored data_.
+__Example__: _protect stored data we manage_.
 
 #### Vaccant Security role
 [PS-03 Personnel screening](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=PS-03). This control involves ensuring that personnel are vetted before they are given access to sensitive systems and data. Used here as an initial screening for the staffing gap. Ensuring interim staff are adequately screened and suited for their temporary roles. It is selected to be applied to the component because of the likely Morderate threat impact.
