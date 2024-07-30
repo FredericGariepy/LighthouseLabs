@@ -308,7 +308,7 @@ PS-03 does not contribute directly to fullifing a [specifically outlined organiz
 This NIST PS-03 cross-reffereces to ISO 27001: A.6.1.
 
 The related ISO A.6 is family serves to establish a management framework to initiate and control the implementation and operation of information security within the organisation. \
-__Example__: _screen interim staff._ \
+__Example__: _screen interim staff._ 
 
 # recommendations
 DHAEI has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.). \
@@ -321,9 +321,13 @@ As a general observation: \
 Typically, companies that begin their information security programs will [start with NIST (CSF) and work their way up to ISO 27001](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W4/D4/Compare%20Frameworks/CSF%20v%20ISO.md) as they scale. This industry observation seems it should apply in this case as well.
 
 # references
+Chin, K. (n.d.). What is an ISMS (Information Security Management System)? UpGuard. Retrieved July 29, 2024, from https://www.upguard.com/blog/isms
+
+ISMS.online. (n.d.). ISO 27001 – Annex A controls. ISMS.online. https://www.isms.online/iso-27001/annex-a-controls/
+
 Microsoft. (n.d.). End of support for Windows 10, Windows 8.1, and Windows 7. Retrieved from https://www.microsoft.com/en-ca/windows/end-of-support?r=1#:~:text=Support%20for%20Windows%2010%20will,technical%20support%20for%20Windows%2010
 
-Rocket Software. (n.d.). File system interface. Rocket Software. Retrieved July 29, 2024, from https://www3.rocketsoftware.com/rocketd3/support/documentation/d3nt/102/userguide/File_System_Interface.htm
+Lighthouse Labs. (n.d.). Sample risk management methodology document. Retrieved July 29, 2024, from https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C5/Cyber+BC+C5.2/Sample+Risk+Management+Plan.pdf
 
 MITRE. (n.d.). Update software. MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/mitigations/M1051/
 
@@ -333,19 +337,16 @@ MITRE. (n.d.). Service stop (T1489). MITRE. Retrieved July 29, 2024, from https:
 
 MITRE. (n.d.). Impact (TA0040). MITRE. Retrieved July 29, 2024, from https://attack.mitre.org/tactics/TA0040/
 
+National Institute of Standards and Technology Computer Security Resource Center. (n.d.). Mappings to NIST documents. Retrieved July 29, 2024, from https://csrc.nist.gov/projects/olir
+
+National Institute of Standards and Technology. (2023). Cybersecurity and privacy controls for information systems and organizations (NIST SP 800-53 Rev. 5.1.1). Retrieved from https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home
+
+Rocket Software. (n.d.). File system interface. Rocket Software. Retrieved July 29, 2024, from https://www3.rocketsoftware.com/rocketd3/support/documentation/d3nt/102/userguide/File_System_Interface.htm
+
 <!-- (unintentioanl) Insider threat 
 Cybersecurity and Infrastructure Security Agency. (n.d.). Defining insider threats. Cybersecurity and Infrastructure Security Agency. Retrieved July 29, 2024, from https://www.cisa.gov/topics/physical-security/insider-threat-mitigation/defining-insider-threats
 -->
-Chin, K. (n.d.). What is an ISMS (Information Security Management System)? UpGuard. Retrieved July 29, 2024, from https://www.upguard.com/blog/isms
 
 Statista. (2024). How long does it take your organization to fill a cybersecurity position with a qualified candidate? Retrieved from https://www.statista.com/statistics/1322366/cybersecurity-staffing-time-to-fill-vacancy-worldwide/
 
 ZipRecruiter. (2024). Security technician salary. Retrieved from https://www.ziprecruiter.com/Salaries/Security-Technician-Salary
-
-National Institute of Standards and Technology Computer Security Resource Center. (n.d.). Mappings to NIST documents. Retrieved July 29, 2024, from https://csrc.nist.gov/projects/olir
-
-ISMS.online. (n.d.). ISO 27001 – Annex A controls. ISMS.online. https://www.isms.online/iso-27001/annex-a-controls/
-
-Lighthouse Labs. (n.d.). Sample risk management methodology document. Retrieved July 29, 2024, from https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C5/Cyber+BC+C5.2/Sample+Risk+Management+Plan.pdf
-
-National Institute of Standards and Technology. (2023). Cybersecurity and privacy controls for information systems and organizations (NIST SP 800-53 Rev. 5.1.1). Retrieved from https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home
