@@ -248,7 +248,7 @@ Some of these requirements will be met through the controls presented here. This
 > For `Asset IDs`, see asset ID in the [Risk Assesment Table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?gid=1152325635#gid=1152325635). 
 
 Recomended controls table of top 3 presented threats
-|Asset| Asset IDs | Recomended controls: NIST RMF | ISO/IEC 27001:2022 |
+|Asset| Asset IDs | NIST CPRT control | ISO/IEC 27001:2022 |
 |-|-|-|-|
 |Windows 10 machines|1| SI-02 | A.6.8, A.8.32, A.8.8  |
 |FSI server SPOF|3| CP-09 | A.5.29, A.5.33, A.8.13  |
