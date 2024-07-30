@@ -1,5 +1,23 @@
 # Risk Management Case Study
 Date 07.29.20224
+
+# Table of contents
+- [Executive aumamry](#executive-summary)
+- [Purpose, scope and users of this document](#purpose-scope-and-users)
+- [Executive summary analysis](#executive-summary-analysis)
+- [#1-end-of-life-eol-for-os-vulnerabilities]
+
+#2-single-point-of-failure-spof
+
+#3-understaffed-security-team
+
+#recomended-controls
+
+#recommendations
+
+#references
+
+
 # Executive Summary
 This Risk Management Plan aims to address three critical security threats
 identified within the organization by evaluating current vulnerabilities (classifying), assessing potential impacts (treat assesment),
