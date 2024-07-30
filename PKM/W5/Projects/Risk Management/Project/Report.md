@@ -13,7 +13,7 @@ Date 07.29.20224
 - [References](#references)
 
 # Executive Summary
-This Risk Management Plan aims to address three critical security threats
+This narrow risk management plan aims to address three critical security threats \
 identified within the organization by evaluating current vulnerabilities (classifying), assessing potential impacts (treat assesment),
 and recommending mitigation strategies (risk treament, associated controls). 
 
