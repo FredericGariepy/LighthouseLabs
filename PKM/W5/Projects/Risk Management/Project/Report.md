@@ -59,7 +59,6 @@ Executive overview of risk ownership and response
 |1| EOL OS                   |  CIO, Amanda Wilson    |  Mitigate: Official mitigation     |
 |2| Single Point of Failure  |  CIO, Amanda Wilson    |  Mitigate: Implement Redundant FSI.|
 |3| Understaffed Security    |  CISO, Paul Alexander  |  Accept: Interim coverage.         |
-<!--|-| Security insider threat  |  CISO, Paul Alexander  |  Accept: Training and Education    |-->
 
 Detailed profiles have been created for each risk. 
 The risk strategies identified are mostly focused on mitigation and acceptance.
@@ -192,9 +191,8 @@ __Existing Vulnerability__: Dependence on a single FSI component, narrows the or
 
 __Threat__: \
 Potential operational halt if the single point fails through human error, configurations, or attack. (MITRE. n.d.)
-This SPOF Makes the component a high value asset for attackers. SPOF has a negative _tactical_ effect as it halts operations that use the FSI server.
-The threat has strong negative _strategic_ effects if the FSI server, if contains sensitive information. 
-This would to a likely loss of compliance, reputation, and operations. 
+This SPOF Makes the component a high value asset for attackers. Impact on SPOF has a negative _tactical_ effect, it halts operations that use the FSI server.
+The threat has strong negative _strategic_ effects if the FSI server contains sensitive information. Such as loss of compliance, reputation, data loss.
 
 __Risk Strategy__: Mitigate by adding redundant FSI server. 
 
@@ -216,7 +214,7 @@ __Asset__: Vacancy in security Team.
 
 __Security Category__: SC<sub>Vacancy in Security Team</sub> = {(Confidentiality: Moderate), (Integrity: Moderate), (Availability: Moderate)}
 
-__Security Category reasoning__: As one of three security tech roles, vacancy negatively impacts incident response and monitoring efforts, and introduces a temporary gaps in security operations.
+__Security Category reasoning__: As one of three security tech roles, a vacancy negatively impacts incident response and monitoring efforts, and introduces temporary gaps in security operations. Especially since, of the two security tech roles, one is an intern.
 
 __Risk owners table__:
 | **Role** | **Name** | **Responsibility Share** | **Key Responsibilities** |
