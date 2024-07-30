@@ -13,9 +13,10 @@ Date 07.30.20224
 - [References](#references)
 
 # Executive Summary
-This narrow risk management plan aims to address three critical security threats \
-identified within the organization by evaluating current vulnerabilities (classifying), \
-assessing potential impacts (treat assesment), and recommending mitigation strategies (risk treament, associated controls). 
+This narrow risk management plan aims to address three critical security threats.
+
+Each threat is identified within the organization by evaluating current vulnerabilities (classifying), \
+then assessing potential impacts (treat assesment), and finally recommending mitigation strategies (risk treament, associated controls). 
 
 Classification of assets was produced by assessing the [case information](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W5/Projects/Risk%20Management/case%20info.md) and [organization struture](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W5/Projects/Risk%20Management/Employees).
 
