@@ -8,7 +8,7 @@ Date 07.30.2024
   - [EOL OS Vulenrability](#1-end-of-life-eol-for-os-vulnerabilities)
   - [Single Point of Failure](#2-single-point-of-failure-spof)
   - [Understaffed security team](#3-understaffed-security-team)
-- [recommended controls](#recommended-controls)
+- [Recommended controls](#recommended-controls)
 - [Conclusion](#conclusion)
 - [References](#references)
 
