@@ -228,20 +228,25 @@ Role of CISO should be in charge of candidate selection, CIO in charge of CISO s
 This document does not focus on technical applications of controls. \
 ISO 27001 compliance requires rigorous documentation of control's effectiveness through performance measures, and compliance assesment through scheduled audits. \
 This level of riggor will not be found here.
-
+#### What can be expected: 
 The recomendations here will only be about the three presented major threats. \
 However, it is important to underline that controls can also be _applied to_ and _guided by_ the organization's security requirements. \
 As can be found in the [case information](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#technical-requirements), the organization has __Technical, Security and User Requirements.__
 
 Some of these requirements will be met through the controls presented here. This is because security needs can overlap across diffrent selected controls.
 
-Note: NIST RMF _freely available_ documented controls have cross-refference mappings to NIST Documents (NIST Computer Security Resource Center, n.d.).
-These control mappings are used in the `ISO/IEC 27001:2022` collumn below. 
-ISO control documents are _pay-to-access_, information about ISO controls come ISMS.online (n.d.).
-For `Asset IDs, see assets table 
+> [!NOTE]
+>  NIST RMF _freely available_ documented controls have cross-refference mappings to NIST Documents (NIST Computer Security Resource Center, n.d.).
+> 
+> These control mappings are used in the `ISO/IEC 27001:2022` collumn below. 
+>
+> ISO control documents are _pay-to-access_, information about ISO controls come ISMS.online (n.d.).
+>
+> For `Asset IDs`, see asset ID in the [Risk Assesment Table](https://docs.google.com/spreadsheets/d/1tdwJMT4QcLoH7Z3jlgjyE5qsRtAtCaPpqXVqKaXtYuU/edit?gid=1152325635#gid=1152325635). 
 
 Recomended controls table of top 3 presented threats
 |Asset| Asset IDs | Recomended controls: NIST RMF | ISO/IEC 27001:2022 |
+|-|-|-|-|
 |Windows 10 machines|1| SI-02 | A.6.8, A.8.32, A.8.8  |
 |FSI server SPOF|3| CP-02 | 7.5.1, 7.5.2, 7.5.3, A.5.2, A.5.29, A.8.14 |
 |Vaccant Security role|4| | |
