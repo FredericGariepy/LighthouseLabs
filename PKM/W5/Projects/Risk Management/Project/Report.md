@@ -320,7 +320,7 @@ Starting by implementing this narrow risk management plan, and addressing furthe
 As a general observation: \
 Typically, companies that begin their information security programs will [start with NIST (CSF) and work their way up to ISO 27001](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W4/D4/Compare%20Frameworks/CSF%20v%20ISO.md) as they scale. This industry observation seems it should apply in this case as well.
 
-# references
+# References
 Chin, K. (n.d.). What is an ISMS (Information Security Management System)? UpGuard. Retrieved July 29, 2024, from https://www.upguard.com/blog/isms
 
 ISMS.online. (n.d.). ISO 27001 – Annex A controls. ISMS.online. https://www.isms.online/iso-27001/annex-a-controls/
