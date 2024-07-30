@@ -238,16 +238,49 @@ __Treatment Schedule and Cost__: \
 Role of CISO should be in charge of candidate selection, CIO in charge of CISO selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months (Statista, 2024) and cost of 76,000$ (ZipRecruiter, 2024).
 
 ## Recomended controls
-#### Recomended controls table of top3 presented threats
+#### Recomended controls table of top 3 presented threats
+What to not expect from the following recommendations: 
+This document does not focus on technical applications of controls. \
+ISO 27001 compliance requires rigorous documentation of control's effectiveness through performance measures, and compliance assesment through scheduled audits. \
+This level of riggor will not be found here.
+
+The recomendations here will only be about the three presented major threats. \
+However, it is important to underline that controls can also be _applied to_ and _guided by_ the organization's security requirements. \
+As can be found in the [case information](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#technical-requirements), the organization has __Technical, Security and User Requirements.__
+
+Some of these requirements will be met through the controls presented here. This is because security needs can overlap across diffrent selected controls.
 
 Note: NIST RMF _freely available_ documented controls have cross-refference mappings to NIST Documents (NIST Computer Security Resource Center, n.d.).
-These control mappings are used in the ISO collumn below. 
-ISO control documents are _pay-to-access_, infomation about ISO controls come ISMS.online (n.d.).
+These control mappings are used in the `ISO/IEC 27001:2022` collumn below. 
+ISO control documents are _pay-to-access_, information about ISO controls come ISMS.online (n.d.).
+For `Asset IDs, see assets table 
 
-|Asset| Asset IDs | Recomended controls: NIST RMF | ISO cross-refference |
-|Windows 10 OS|1,2| | |
-|FSI server SPOF|3| | |
+|Asset| Asset IDs | Recomended controls: NIST RMF | ISO/IEC 27001:2022 |
+|Windows 10 machines|1| SI-02 | A.6.8, A.8.32, A.8.8  |
+|FSI server SPOF|3| CP-02 | 7.5.1, 7.5.2, 7.5.3, A.5.2, A.5.29, A.8.14 |
 |Vaccant Security role|4| | |
+
+#### Window 10 OS 
+[SI-02 Flaw Remediation](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=SI-02) This control is for correcting system flaws, which includes applying security-relevant software updates. It can include OS updates.
+
+SI-02 can further be made to fullfils organization's technical Requirements;
+"[Ensure that all company-issued computers receive all updates that have been approved for release by the technology department.](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#technical-requirements)". 
+To do this, futher control configurations can enable update release aprovals. 
+
+This NIST control cross-refferences to ISO 27001: A.6.8, A.8.32, A.8.8.
+The related ISO A.6 is family is important in ISO compliance, and servers to establish a management framework to initiate and control the implementation and operation of information security within the organisation. __Example__: _schedule updates that have been released._ \
+The related ISO A.8 familly regards responsibility for assets, and identifies information assets in scope for the management system and define appropriate protection responsibilities. __Example__: _Apply security updates to computers we manage_.
+
+
+
+#### FSI Server SPOF
+CP-02 Contingency planning.
+A control Develop, Distribute, Coordinate, Review, Update, Communicate, Incorporate lessons learned from, Protect 
+
+https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=CP-02
+
+
+
 
 
 
