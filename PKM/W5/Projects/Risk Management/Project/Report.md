@@ -15,7 +15,7 @@ Follow this document to learn about assesment and recommended treatments for thr
 Consult the recommendations towards the end of this document to learn about implementing an information security management system (ISMS)
 and aligning with ISO/IEC 27001 standards.
 
-# Purpose, scope, and users
+## Purpose, scope, and users
 <!-- 
 The purpose of this document is to define the methodology for assessment and treatment of
 information risks in MHS, and to define the acceptable level of risk according to the ISO/IEC
