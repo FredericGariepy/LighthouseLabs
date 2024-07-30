@@ -235,7 +235,7 @@ __Risk strategy__: Accept with interim coverage.
 __Treatment__: Assign a temporary or cross-functional team to handle the security tasks until the position is filled.
 
 __Treatment Schedule and Cost__: \
-Role of CISO should be in charge of candidate selection, CIO in charge of CISO selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months (Statista, 2024) and cost of 76,000$ (ZipRecruiter, 2024).
+Role of CISO should be in charge of candidate selection, CIO in charge of selection support, and COO in charge of budget aproval decision for new hire. The initial estimated average time is 3 ~ 6 months to staff (Statista, 2024) and cost of 76,000$ per year (ZipRecruiter, 2024) for a new hire.
 
 ## Recommended controls
 #### What to not expect from the following recommendations: 
