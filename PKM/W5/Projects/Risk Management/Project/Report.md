@@ -31,10 +31,9 @@ Note: all data is classified as confidential.
 The purpose of this document is to identify and present the three main threats to the organization.
 Each threat is identified and presented by the same risk assessment and treatment methodologies described in the section following the presentations.
 
-This document is intended to 
+This document is intended to --- ...
 
 ## Executive Summary Analysis
-Overview of three (3) main threats. \
 The top three risks identified are:
 1. __End-of-Life (EOL) for OS__: High priority due to the risk associated with outdated operating systems that will no longer receive security updates.
 2. __Single Point of Failure (FSI)__: High impact of data loss and operations shutdown by possiblity of single file server failure.
