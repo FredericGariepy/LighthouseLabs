@@ -41,19 +41,18 @@ Users of this document are all employees of ACME INC. who take part in Risk Asse
 Risk Treatment.
 Note: all data is classified as confidential.
 -->
-Intented readers of this document are Executives, CIO, CISO, IT staff, security personnel, and all employees part of Risk Assessment and Risk Treatment.
+This document is intended for Executives, CIOs, CISOs, IT staff, security personnel, and all employees involved in Risk Assessment and Risk Treatment.
 
-The purpose of this document is to identify, assess, and present the three main threats to the organization. Applying treatments and controls to each.
-
-Each threat goes through the same risk assessment and treatment methodologies. \
-All three of then also serve as examples of how to systematically address and manage security risks.
+The purpose of this document is to identify, assess, and address the three primary threats facing the organization.
+It provides a risk assessment and treatment methodology for each threat, including the application of relevant treatments and controls.
 
 ## Executive Summary Analysis
-The top three risks identified are:
+Here is short list of the top three risks identified:
 1. __End-of-Life (EOL) for OS__: High priority due to the risk associated with outdated operating systems that will no longer receive security updates.
 2. __Single Point of Failure (FSI)__: High impact of data loss and operations shutdown by possiblity of single file server failure.
 3. __Understaffed Security Team__: Moderate risk from inadequate incidents response and monitoring resources.
 
+Executive overview of risk ownership and response
 | Priority | threat | Primary Risk Owner | Risk response  |
 |-|-|-|-|
 |1| EOL OS                   |  CIO, Amanda Wilson    |  Mitigate: Official mitigation     |
