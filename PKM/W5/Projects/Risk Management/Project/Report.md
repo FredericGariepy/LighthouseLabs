@@ -312,12 +312,17 @@ __Example__: _screen interim staff._
 
 # Conclusion
 Creating a security management plan which posses risk assesment and treatment in line with ISO 27001 Apendix A, requires a lot effort. \
-The document presented here lacks many features of a full plan, noticeably, SOA, gap assessment, residual risk analysys. 
+An orgnaization need to be past a security maturity (e.i. more policy, controls implemented) in order to engage meaningfully in an SOA.
 
-The DHAEI organization has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.). \
+SoA states what ISO 27001 controls and policies are being applied by the organisation. \
+It benchmarks against the Annex A control set in the ISO 27001 standard (ISMS.online n.d.). \
+The document presented here lacks many features of a full plan: gap assessment, residual risk analysys, SOA, control assesment, _lacks access to the ISO 27100 resources_. 
+
+The case's organization (DHAEI) has the key elements for an ISMS required by ISO 27001 compliance (Chin, n.d.). \
 The organizaton has a security personnel, budget, resources, security requirements.
 
-However, the parts are not yet connected as a whole through an ISMS system and it can not be said that DHAEI is currently ISO 27001 compliant. \
+However, the parts are not yet connected as a whole through an ISMS system. \
+It can be said DHAEI is currently only at the very begining of a path towards ISO 27001 compliance. \
 Starting by implementing this narrow risk management plan, and addressing further identified gaps using the example methodologies from this document, will be a first step toward achieving standard-level compliance.
 
 As a general observation: \
