@@ -26,7 +26,7 @@ Following this document, the reader will learn about assesment and recommended t
 <!-- and the workflow used to further generate the risk assesment. \ -->
 Further, one control per threat will examined.
 
-Consult the recommendations towards the end of this document to learn about implementing an information security management system (ISMS)
+Consult the conclusion at the end of this document to learn about implementing an information security management system (ISMS)
 and aligning with ISO/IEC 27001 standards.
 
 ## Purpose, scope, and users
