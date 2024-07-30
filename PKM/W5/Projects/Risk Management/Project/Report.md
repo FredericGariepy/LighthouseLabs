@@ -15,7 +15,7 @@ Date 07.30.20224
 # Executive Summary
 This narrow risk management plan aims to address three critical security threats.
 
-Each threat is identified within the organization by evaluating current vulnerabilities (classifying), \
+Each threat is identified within the organization (DHAEI) by evaluating its current vulnerabilities (classifying), \
 then assessing potential impacts (treat assesment), and finally recommending mitigation strategies (risk treament, associated controls). 
 
 Classification of [assets](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/Assets/tangibles.md) was produced by assessing the [case information](https://github.com/FredericGariepy/LighthouseLabs/edit/main/PKM/W5/Projects/Risk%20Management/case%20info.md) and [organization struture](https://github.com/FredericGariepy/LighthouseLabs/tree/main/PKM/W5/Projects/Risk%20Management/Employees).
@@ -32,7 +32,7 @@ and aligning with ISO/IEC 27001 standards.
 ## Purpose, scope, and users
 <!-- 
 The purpose of this document is to define the methodology for assessment and treatment of
-information risks in MHS, and to define the acceptable level of risk according to the ISO/IEC
+information risks in DHAEI, and to define the acceptable level of risk according to the ISO/IEC
 27001 standard.
 
 Risk Assessment and Risk Treatment are applied to the entire scope of the ISMS (i.e., to all
@@ -42,7 +42,7 @@ Users of this document are all employees of ACME INC. who take part in Risk Asse
 Risk Treatment.
 Note: all data is classified as confidential.
 -->
-This document is intended for Executives, CIOs, CISOs, IT staff, security personnel, and all employees involved in Risk Assessment and Risk Treatment.
+This document is intended for Executives, CIOs, CISOs, IT staff, security personnel, and all DHAEI employees involved in Risk Assessment and Risk Treatment.
 
 The purpose of this document is to identify, assess, and address the three primary threats facing the organization.
 It provides a risk assessment and treatment methodology for each threat, including the application of relevant treatments and controls.
