@@ -12,3 +12,5 @@ How to Develop a Cybersecurity Playbook in 5 Steps
 5.   Measure success
 6.  Consider an experienced Cyber Security partner
 
+Playbook should be standardized yet flexible.
+For SOC, define roles, responsibilities, how to report the event (communicate), and how to follow the chain of command (steps).
