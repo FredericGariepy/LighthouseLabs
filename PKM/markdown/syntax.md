@@ -1,7 +1,14 @@
-`$foo$` $foo$ \
+Use: `$foo$` $foo$ 
 
 e.g. \
-$f(x)=x^1/2$
+$f(x)=x^n + 2$ 
+
+e.g. \
+$c/b=a*b$ 
+
+$...$
+
+$:.$ $c=a*n$
 
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
