@@ -15,9 +15,9 @@ Open the code to see the mermaid script \
 - fill:#ccf: This sets the background color of nodes, Hex.
 - stroke:#333: This sets the border color, Hex.
 - stroke-width:2px: This sets the border thickness, Pixel.
-
+- TD : top down , LR: left to right 
 ```mermaid
-graph TD
+graph LR
     A[Green square no border] --> B(Blue rounded border)
     B --> C{Diamond default style}
     C --> D[square default style]
@@ -33,5 +33,13 @@ graph TD
   class A classA;
   class B classB;
   class F,E classC;
+```
+```mermaid 
+flowchart TD
+    A[Start] --> B{Decision}
+    B -->|Yes| C[Result 1]
+    B -->|No| D[Result 2]
+    C --> E[End]
+    D --> E[End]
 ```
 
