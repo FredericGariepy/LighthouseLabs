@@ -246,7 +246,7 @@ In selecting controls from the [NIST CPRT](https://csrc.nist.gov/projects/cprt/c
 This level of application will not be found here.
 
 #### What can be expected: 
-One recomendations will be made per presented major threat. \
+One control recomendation will be made per presented major threat. \
 However, it is important to underline that controls can also be _applied to_ and _guided by_ the organization's security requirements. \
 As can be found in the [case information](https://github.com/FredericGariepy/LighthouseLabs/blob/main/PKM/W5/Projects/Risk%20Management/case%20info.md#technical-requirements), the organization has __Technical, Security and User Requirements.__ \
 Some of these requirements will be met through the controls presented here. This is because security needs can overlap across diffrent selected controls.
