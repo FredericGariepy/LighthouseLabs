@@ -4,11 +4,12 @@ The Incident Escalation Process
 Incident Escalation (process SO 2.6) \
 | Process ID | Procedure or Decision | Description | Role|
 | - | -| -| -|
+
 Incident Escalation (process SO 2.6) \
 https://docs.microfocus.com/SM/9.60/Hybrid/Content/BestPracticesGuide_PD/IncidentManagmentBestPractice/Incident_Escalation.htm \
 e.g.
-| Process ID | Procedure or Decision                  | Description                                                                                                                                                          | Role              |
-|------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| Process ID | Procedure or Decision | Description | Role|
+| - | -| -| -|
 | SO 2.6.1   | Determine how to resolve Incident       | The Incident Coordinator gathers information from the Incident Analyst(s) about the status of the incident resolution and determines how the incident can best be resolved. The Incident Coordinator verifies that the expected resolution time matches any agreed on level, such as that specified in an SLA. | Incident Coordinator |
 | SO 2.6.2   | Problem Management required?            | Is problem management required to solve the incident? If yes, continue with SO 2.6.3. If no, go to SO 2.6.4.                                                        | Incident Coordinator |
 | SO 2.6.3   | Escalate to Problem                     | Go to SO 2.6.1 to determine how to resolve the Incident.                                                                                                               | Incident Coordinator |
