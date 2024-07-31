@@ -1,12 +1,16 @@
-The Incident Escalation Process
-
+# The Incident Escalation Process
+### Key points:
+Escalation occurs when a first level responder cannot meet service level agreements (SLAs). \
+- Escalation normal. part of playbook, workflows.
+- Escalations can take many forms and often not due to a particular urgency, but can be simply dependent on job specialization or team member function that is required.
+- Escalations are not a sign of the inability to achieve a goal, but can be a normal and required step in the process of completing a particular procedure.
 
 Incident Escalation (process SO 2.6) \
 | Process ID | Procedure or Decision | Description | Role|
 | - | -| -| -|
 
-
 Escalation occurs when a first level responder cannot meet service level agreements (SLAs). \
+
 __What does this mean?__ \
 An SLA often outlines items like response times and times to fix.
 
@@ -15,7 +19,6 @@ The understanding is, given a relatively straight forward playbook, the analyst 
 There are other causes of escalation to consider as well. The incident might be out of scope for the analyst; that is, too high a level or too damaging, though the playbook should include this and have escalation as part of its actions.
 
 Escalation may also occur if the analyst does not have sufficient resources to handle a specific incident. This might occur if, for example, the analyst has to pass the ticket on to a data or network analyst.
-
 
 Incident Escalation (process SO 2.6) \
 https://docs.microfocus.com/SM/9.60/Hybrid/Content/BestPracticesGuide_PD/IncidentManagmentBestPractice/Incident_Escalation.htm \
