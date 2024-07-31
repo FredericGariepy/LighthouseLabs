@@ -12,26 +12,26 @@ Arrange > Insert > Advanced > Mermaid \
 mermaid files automatically generate in github .md ! \
 Open the code to see the mermaid script \
 [Mermaid Docs](https://mermaid.js.org/intro/getting-started.html) \
-fill:#ccf: This sets the background color of nodes.
-stroke:#333: This sets the border color.
-stroke-width:2px: This sets the border thickness.
+- fill:#ccf: This sets the background color of nodes, Hex.
+- stroke:#333: This sets the border color, Hex.
+- stroke-width:2px: This sets the border thickness, Pixel.
 
 ```mermaid
 graph TD
-    A[Green ] --> B(Preview)
-    B --> C{decide}
-    C --> D[Keep]
-    C --> E[Edit Definition]
+    A[Green square no border] --> B(Blue rounded border)
+    B --> C{Diamond default style}
+    C --> D[square default style]
+    C --> E[White square no border]
     E --> B
-    D --> F[Save Image and Code]
+    D --> F[White square no border]
     F --> B
 
   classDef classA fill:#58eb34,stroke-width:0px
-  classDef classB fill:#ccf,stroke:#333,stroke-width:2px;
-  classDef classC fill:#cfc,stroke:#333,stroke-width:2px
+  classDef classB fill:#ffffff,stroke:#75aaff,stroke-width:2px;
+  classDef classC fill:#ffffff,stroke:#ffffff,stroke-width:0px
 
   class A classA;
   class B classB;
-  class D,F classC;
+  class F,E classC;
 ```
 
