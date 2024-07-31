@@ -1,7 +1,13 @@
 TRAFFIC LIGHT PROTOCOL (TLP)
 https://www.first.org/tlp/
 
-SLA : trigger points for escalations.
+Service Level Agreement (SLA) : trigger points for escalations.
+
+Policies sample:
+https://www.sans.org/information-security-policy/
+
+policies are related to trigger points
+
 
 
 
