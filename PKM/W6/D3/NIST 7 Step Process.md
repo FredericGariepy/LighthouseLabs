@@ -1,6 +1,7 @@
 # Resources
 - [Notes on RMF Stage 5 - Authorizing Information Systems](https://github.com/FredericGariepy/LighthouseLabs/blob/26b7a232035fe338a614686c0459e73eeaf79e79/PKM/W5/D1/RMF/RMF%20Stage%205%20-%20Authorizing%20Information%20Systems.md)
 - [NIST Risk Management Framework (RMF)](https://csrc.nist.gov/Projects/risk-management)
+- [NIST intro. Course Duration: THREE Hours](https://csrc.nist.gov/projects/risk-management/rmf-courses)
 
 he NIST RMF outlines an approach which integrates security, privacy, and cyber supply chain risk management into the system development life cycle. 
 
