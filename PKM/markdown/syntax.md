@@ -1,3 +1,8 @@
+`$foo$` $foo$ \
+
+e.g. \
+$f(x)=x^1/2$
+
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
 
