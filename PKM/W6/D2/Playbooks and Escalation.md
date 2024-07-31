@@ -12,12 +12,12 @@ How to Develop a Cybersecurity Playbook in 5 Steps
     - Define Security vs Productivity Needs
 2.   Define the responsible parties
 3.   Refine the culture \
-    - C-level -> (goals, vision, tech $, oeprations$) -> Team lead -> Team
+    - C-level -> (goals, vision, tech $, oeprations $ ) -> Team lead -> Team
 4.   Measure success \
     - Periodically Reevaluate Metrics of Success \
     - Internal Stakeholders’ Metrics Must Align with the Organization’s Vision
-5.  Consider an experienced Cyber Security partner \
-    - Leverage Your Partner’s Institutional Knowledge and Tools \
+5.  Consider an experienced Cyber Security partner
+    - Leverage Your Partner’s Institutional Knowledge and Tools
     - managed detection and response (MDR), Services Help Quickly Identify and Eliminate Cyber Threats
 
 Don’t Procrastinate: Develop Your Playbook ASAP
