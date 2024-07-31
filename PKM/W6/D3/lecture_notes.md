@@ -8,13 +8,15 @@ Flowchart automation: Use Mermaid files
 
 
 https://app.diagrams.net/ \
-Arrange > Insert > Advanced > Mermaid
+Arrange > Insert > Advanced > Mermaid \
+mermaid files automatically generate in github .md ! \
+Open the code to see the mermaid script
 ```mermaid
 graph TD;
-  A-->B[Text];
+  A-->B[Example text];
   A-->C;
   B-->D;
   C-->D;
-  A<-->A;
+  A[old text]<-->A[self-ref];
 ```
 
