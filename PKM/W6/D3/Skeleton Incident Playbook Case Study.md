@@ -6,6 +6,7 @@ https://web.compass.lighthouselabs.ca/p/cyber/days/w06d3/activities/3053
 - Incident Response Plan
 -  Date
 -  Table of contents
+
 __Revision History__
 |Date|Version|Modification|Modifier|
 |-|-|-|-|
@@ -37,6 +38,13 @@ graph TD;
 - Other Stakeholder Contact (Role, Organization,name, title, #,@)
 - Incident type(Type, Description)
 - Severity Matrix
+
+| |2|1|0|
+|-|-|-|-|
+|2|H|H|M|
+|1|H|M|L|
+|0|M|L|L|
+
 - Incident Handling
 - Overview (Diagram) NIST RMF 7 step || NIST IRLC 4 steps
 - Steps Explanation:
