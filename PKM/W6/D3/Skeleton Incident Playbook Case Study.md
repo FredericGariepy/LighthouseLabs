@@ -41,12 +41,40 @@ graph TD;
 
 | |2|1|0|
 |-|-|-|-|
-|2|H|H|M|
+|2|__H__|H|M|
 |1|H|M|L|
 |0|M|L|L|
 
 - Incident Handling
-- Overview (Diagram) NIST RMF 7 step || NIST IRLC 4 steps
+- Overview (Diagram) NIST RMF 7 step || NIST IRLC 4 step
+
+```mermaid
+graph LR;
+  A[preperation];
+  B[Detection & Analysis];
+  C[Contain,Erradicate,Recovery];
+  D[Post-Incident Activity];
+
+  A -->|Policy and Procedures| B;
+  B-->C;
+  C -->|SOP, Playbooks| B;
+  C --> D;
+  D -->|implement feedback|A;
+
+  classDef green fill:#d4f1d4,stroke:#0f0,color:#004d00;
+  classDef yellow fill:#fffacd,stroke:#ff0,color:#555;
+  classDef red fill:#fdd,stroke:#f00,color:#a00;
+  classDef blue fill:#e0f7fa,stroke:#00f,color:#00796b;
+
+  linkStyle 4 stroke:#004d00,stroke-width:2px; 
+
+  class B yellow;
+  class C red;
+  class D blue;
+```
+
+
+
 - Steps Explanation:
 - 1,2,3,4… N
 - Playbooks, workflows, SOP
