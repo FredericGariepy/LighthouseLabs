@@ -26,67 +26,30 @@ __Imapact / Likelihood__ = I/L
 |1| _SVE 2_| SVE 3| SVE 4|
 |0|SVE 3|SVE 4|SVE 5|
 
-# :rabbit: :hole: 
-- [Rabbit hole: SRE](https://www.atlassian.com/incident-management/devops/sre#the-devops-incident-management-process)
-SRE teams have service-level agreement (SLA), error budget
-- minutes of downtime
-Error budget can be spent
-- SREs and developers have a strong incentive to work together to minimize the number of errors.
-```python
-uptime = sys.arg[1] # some vital feed
-development =  sys.arg[2] # errors introduced
-
-error_margin = 0.01  # e.g. 1% error: OK
-tolerance = 1 - error_margin
-
-budget = uptime - tolerance # this is the clincher
-
-def spend(development): # we can pend 
-    uptime -= development.error # new errors, lower uptime
-    budget = uptime - tolerance # new budget
-    return feature # we get feature shipped
-
-def run(budget): # we're in operation
-    while budget >= 0: 
-        spend(development)
-    fix()
-
-def fix(budget):
-    while budget < 0
-        development.feature.launch.stop()
-        uptime = fix(uptime) # get rid of errors
-    run()
-```
- 
-
-
-
- “An escalation policy answers the question of how your organization handles these handoffs.
+### Escalation Policy
+ “An escalation policy answers the question of how your organization handles __handoffs__.
  It outlines who should be notified when an incident alert comes in,
  who an incident should escalate to if the first responder isn’t available,
  who should take over if or when the responder can’t resolve the issue on their own,
  and how those handoffs should happen.”
 
-They further go on to explain that an escalation policy is used to address how a company will escalate incident, and to whom.
-Instructions
+The escalation matrix
 
-    Read the blog from Atlassian entitled, “Escalation policies for effective incident management".
+### Good practices for developing an escalation policy 
+- Treat your escalation policy as guidelines—not a hard and fast set of rules 
+- Audit your on-call schedule regularly
+- Set smart thresholds for escalation
+- Set clear processes for escalation 
 
-Focus on Atlassian’s Best Practices for Developing Escalation Policies as well as their Types of Escalation Policies.
-
-Use this as a starting point in your research and answer the following questions. Be prepared to discuss these in Lecture:
-
-    List five best practices in Escalation Policy
-    List five events that might require escalation
-    List three reasons why an Escalation Policy should be established as a clear process in a playbook.
-    Explain how the use of escalation might be used to help inform changes to 
 ### Key points:
 Escalation occurs when a first level responder cannot meet service level agreements (SLAs). \
 - Escalation normal. part of playbook, workflows.
 - Escalations can take many forms and often not due to a particular urgency, but can be simply dependent on job specialization or team member function that is required.
 - Escalations are not a sign of the inability to achieve a goal, but can be a normal and required step in the process of completing a particular procedure.
 
-Incident Escalation (process SO 2.6) \
+
+
+## Incident Escalation (process SO 2.6)
 | Process ID | Procedure or Decision | Description | Role|
 | - | -| -| -|
 
@@ -124,3 +87,35 @@ e.g.
 | SO 2.6.16  | Reassign incident                       | The Incident Coordinator reassigns the incident to another 2nd-line or 3rd-line support group.                                                                         | Incident Coordinator |
 | SO 2.6.17  | Determine/ Agree appropriate assignment  | The Incident Manager reviews the Incident to determine the appropriate Assignment Group based on the skills/ knowledge or permissions required to resolve the Incident. | Incident Manager    |
 | SO 2.6.18  | Reassign incident                       | The Incident Manager reassigns the incident to another 2nd-line or 3rd-line support group.                                                                           | Incident Manager    |
+
+# :rabbit: :hole: 
+- [Rabbit hole: SRE](https://www.atlassian.com/incident-management/devops/sre#the-devops-incident-management-process)
+SRE teams have service-level agreement (SLA), error budget
+- minutes of downtime
+Error budget can be spent
+- SREs and developers have a strong incentive to work together to minimize the number of errors.
+```python
+uptime = sys.arg[1] # some vital feed
+development =  sys.arg[2] # errors introduced
+
+error_margin = 0.01  # e.g. 1% error: OK
+tolerance = 1 - error_margin
+
+budget = uptime - tolerance # this is the clincher
+
+def spend(development): # we can pend 
+    uptime -= development.error # new errors, lower uptime
+    budget = uptime - tolerance # new budget
+    return feature # we get feature shipped
+
+def run(budget): # we're in operation
+    while budget >= 0: 
+        spend(development)
+    fix()
+
+def fix(budget):
+    while budget < 0
+        development.feature.launch.stop()
+        uptime = fix(uptime) # get rid of errors
+    run()
+```
