@@ -8,6 +8,7 @@
 4. Post Incident Activity
 
 #### NIST Incident Response Life Cycle
+
 ```mermaid
 graph LR;
   A[preperation];
