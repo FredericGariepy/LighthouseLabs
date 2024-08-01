@@ -33,7 +33,7 @@ graph LR;
 ```
 
 ## Key components of Preperation
-# :key: :checkered_flag:
+# :key: :checkered_flag: :racing_car:
 
 - __Policy and Procedure Development__: Establish clear incident response policies and procedures that outline roles, responsibilities, and actions to take during an incident.
 - __Team Formation__: Set up a Computer Security Incident Response Team (CSIRT) with defined roles and responsibilities.
