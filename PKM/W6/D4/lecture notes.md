@@ -1,4 +1,6 @@
-[Game day](https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.concept.gameday.en.html)
+[AWS Game day](https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.concept.gameday.en.html)
+
+[AWS Concepts](https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.concepts.wa-concepts.en.html)
 
 [Search NIST](https://www.nist.gov/search?s=Incident+response)
 
@@ -11,3 +13,12 @@
 
 #### [__7__ Step NIST RMF](https://blog.grclab.com/p/nist-risk-management-framework)
 <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8786f895-3522-435f-bd4d-155ac76297f6_1539x1472.png" width="400" alt="Description of image">
+
+# Escalations
+- __Automatic__: based on asset classification, Service level agreement (SLA)
+- __Functional__: Handoff to another team/responder to leverage expertise
+- __Hierarchical__: Escalation up chain of command
+
+
+
+
