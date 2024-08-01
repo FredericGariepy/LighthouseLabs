@@ -1,5 +1,5 @@
 ## NIST Incident Response Life Cycle (IRLC)
-#### p.12-45 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+#### - [ ] p.12-45 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
 1. Preparation
     - The home of Policy and Procedure preparation
 2. Detection and Analysis
