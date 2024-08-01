@@ -1,5 +1,23 @@
 chat gpt3.5
+
 A generic Security Orchestration, Automation, and Response (SOAR) platform typically involves a diverse tech stack to address its core functionalities. Here's a broad overview of the components you might find in a SOAR system:
+
+### Example Tech Stack for a SOAR Platform
+
+| Component         | Example Technologies                             |
+|-------------------|---------------------------------------------------|
+| **Orchestration** | Python, Celery, RESTful APIs                      |
+| **Automation**    | Ansible, Python, PowerShell                       |
+| **Incident Mgmt** | Jira, ServiceNow                                  |
+| **Response**      | pfSense, CrowdStrike, Splunk                      |
+| **Integrations**  | Python, Kafka, RabbitMQ, PostgreSQL               |
+| **UI/UX**         | React, D3.js, Grafana                             |
+| **Security**      | OAuth2, Keycloak                                  |
+| **Monitoring**    | ELK Stack, Prometheus, Grafana                    |
+| **Development**   | Git, Jenkins, Docker                              |
+| **ML & Analytics** | scikit-learn, TensorFlow                          |
+
+This tech stack can be customized based on specific use cases, scale, and existing infrastructure.
 
 ### 1. **Core Components:**
 
@@ -70,19 +88,3 @@ A generic Security Orchestration, Automation, and Response (SOAR) platform typic
 - **Threat Intelligence**:
   - **Sources**: Open-source threat intelligence feeds, commercial feeds
 
-### Example Tech Stack for a SOAR Platform
-
-| Component         | Example Technologies                             |
-|-------------------|---------------------------------------------------|
-| **Orchestration** | Python, Celery, RESTful APIs                      |
-| **Automation**    | Ansible, Python, PowerShell                       |
-| **Incident Mgmt** | Jira, ServiceNow                                  |
-| **Response**      | pfSense, CrowdStrike, Splunk                      |
-| **Integrations**  | Python, Kafka, RabbitMQ, PostgreSQL               |
-| **UI/UX**         | React, D3.js, Grafana                             |
-| **Security**      | OAuth2, Keycloak                                  |
-| **Monitoring**    | ELK Stack, Prometheus, Grafana                    |
-| **Development**   | Git, Jenkins, Docker                              |
-| **ML & Analytics** | scikit-learn, TensorFlow                          |
-
-This tech stack can be customized based on specific use cases, scale, and existing infrastructure.
