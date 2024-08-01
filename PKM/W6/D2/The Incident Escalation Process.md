@@ -1,4 +1,85 @@
 # The Incident Escalation Process
+https://www.atlassian.com/incident-management/on-call/escalation-policies#what-is-an-escalation-policy
+
+Subject:  Actions or events that may require an escalation of an Event Ticket.
+Question: How that set of events could be caught in Policy or Process?
+
+An escalation policy
+- Processes,
+- Roles involved,
+- Type of incident,
+- SEV level,
+- Duration,
+- Scope 
+
+[Voccabulary matrix](https://www.splunk.com/en_us/blog/learn/incident-severity-levels.html): \
+__Imapact / Likelihood__ = I/L
+|I/L|2|1|0|
+|-|-|-|-|
+|2| __Critial__ |Significant|Moderate|
+|1| Significant| Moderate| minor |
+|0|Moderate|minor |low-level|
+
+|I/L|2|1|0|
+|-|-|-|-|
+|2| __SVE 1__ |_SVE 2_|SVE 3|
+|1| _SVE 2_| SVE 3| SVE 4|
+|0|SVE 3|SVE 4|SVE 5|
+
+# :rabbit: :hole: 
+- [Rabbit hole: SRE](https://www.atlassian.com/incident-management/devops/sre#the-devops-incident-management-process)
+SRE teams have service-level agreement (SLA), error budget
+- minutes of downtime
+Error budget can be spent
+- SREs and developers have a strong incentive to work together to minimize the number of errors.
+```python
+uptime = sys.arg[1] # some vital feed
+development =  sys.arg[2] # errors introduced
+
+error_margin = 0.01  # e.g. 1% error: OK
+tolerance = 1 - error_margin
+
+budget = uptime - tolerance # this is the clincher
+
+def spend(development): # we can pend 
+    uptime -= development.error # new errors, lower uptime
+    budget = uptime - tolerance # new budget
+    return feature # we get feature shipped
+
+def run(budget): # we're in operation
+    while budget >= 0: 
+        spend(development)
+    fix()
+
+def fix(budget):
+    while budget < 0
+        development.feature.launch.stop()
+        uptime = fix(uptime) # get rid of errors
+    run()
+```
+ 
+
+
+
+ “An escalation policy answers the question of how your organization handles these handoffs.
+ It outlines who should be notified when an incident alert comes in,
+ who an incident should escalate to if the first responder isn’t available,
+ who should take over if or when the responder can’t resolve the issue on their own,
+ and how those handoffs should happen.”
+
+They further go on to explain that an escalation policy is used to address how a company will escalate incident, and to whom.
+Instructions
+
+    Read the blog from Atlassian entitled, “Escalation policies for effective incident management".
+
+Focus on Atlassian’s Best Practices for Developing Escalation Policies as well as their Types of Escalation Policies.
+
+Use this as a starting point in your research and answer the following questions. Be prepared to discuss these in Lecture:
+
+    List five best practices in Escalation Policy
+    List five events that might require escalation
+    List three reasons why an Escalation Policy should be established as a clear process in a playbook.
+    Explain how the use of escalation might be used to help inform changes to 
 ### Key points:
 Escalation occurs when a first level responder cannot meet service level agreements (SLAs). \
 - Escalation normal. part of playbook, workflows.
