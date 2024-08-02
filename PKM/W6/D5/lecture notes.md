@@ -22,3 +22,5 @@ https://www.loggly.com/ultimate-guide/linux-logging-basics/ \
 > stores kernel events, errors, and warning logs, which are particularly helpful for troubleshooting custom kernels.
 
 
+https://www.gov.scot/binaries/content/documents/govscot/publications/advice-and-guidance/2019/10/cyber-resilience-incident-management/documents/cyber-incident-response-phishing-playbook/cyber-incident-response-phishing-playbook/govscot%3Adocument/Cyber%2BIncident%2BResponse%2B-%2BGeneric%2BPhishing%2BPlaybook%2Bv2.3.docx
+
