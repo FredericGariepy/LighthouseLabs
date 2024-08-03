@@ -10,3 +10,12 @@ e.g.
 `C:\SysinternalsSuite\PsExec.exe -s -i cmd.exe` \
 `-s` runs the command under the System account. \
 `-i` allows the command prompt to interact with the desktop.
+
+TrustedInstaller
+
+NT SERVIVCE 
+
+Security Service Identifier (SID)
+
+https://www.youtube.com/watch?v=Vj1uh89v-Sc
+
