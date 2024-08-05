@@ -1,4 +1,6 @@
-On talks, get attention of audience
+On talks, get attention of audience \
+Do ONIST on audience
+
 
 Get a rank on tryhack me \
 https://tryhackme.com/p/Xqrdt
