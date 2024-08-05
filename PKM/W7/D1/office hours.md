@@ -1,6 +1,9 @@
 On talks, get attention of audience \
 Do ONIST on audience
 
+For final LHL project \
+focus on the case, you got 5 minutes. Think big picture.
+
 
 Get a rank on tryhack me \
 https://tryhackme.com/p/Xqrdt
