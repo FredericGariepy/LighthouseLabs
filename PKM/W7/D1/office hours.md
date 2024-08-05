@@ -2,7 +2,13 @@ On talks, get attention of audience \
 Do ONIST on audience
 
 For final LHL project \
-focus on the case, you got 5 minutes. Think big picture.
+Root cause analysys \
+don't get lost in the sauce. dont fall into rabit holes. \
+On the 5 minute presentation, lazer focus. 5 minutes.
+
+Project \
+Make a Lab Environment \
+Use Monitoring tools. Document the process. \
 
 
 Get a rank on tryhack me \
