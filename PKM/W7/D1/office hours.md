@@ -1,3 +1,11 @@
+Order of certifications
+1. Network+ (CompTIA Network+)
+2. Security+ (CompTIA Security+)
+3. CompTIA Cybersecurity Analyst (CySA+)
+4. CISSP (Certified Information Systems Security Professional)
+
+https://www.neverbounce.com/email-verification
+
 On talks, get attention of audience \
 Do ONIST on audience
 
