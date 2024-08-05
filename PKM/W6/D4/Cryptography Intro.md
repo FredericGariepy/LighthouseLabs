@@ -17,7 +17,7 @@ Watch
 > Key also goes through recursive iteration...
 >
 > Repetitive process creates the cypher
-- [] https://www.youtube.com/watch?v=GSIDS_lvRv4
+- [x] https://www.youtube.com/watch?v=GSIDS_lvRv4
 > James H. Ellis 1970, Clifford Cocks 1973, Malcolm J. Williamson 1974, declassified in 1997
 > 
 > key pair (private, public)
