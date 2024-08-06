@@ -1,5 +1,6 @@
-### news
-https://x.com/BleepinComputer
+### blackbox listed
+https://mxtoolbox.com/blacklists.aspx
+
 
 ### synchronize 
 Use: medical time sync \
@@ -22,4 +23,23 @@ __botnet__ \
 https://en.wikipedia.org/wiki/Botnet \
 https://www.cloudflare.com/learning/ddos/what-is-a-ddos-botnet/ \
 https://www.bleepingcomputer.com/news/microsoft/microsoft-says-massive-azure-outage-was-caused-by-ddos-attack/ \
-x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
