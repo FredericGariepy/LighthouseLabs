@@ -34,8 +34,8 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-says-massive-azure-out
 
 
 
-
-
+Brian
+> just a desktop computer with Proxmox (free open source Virtual Environment) installed, then deploy a Linux VM and install SAMBA to create a file share server. Then worry about backups, then adding more storage, then adding a VM to torrent data off the internet, then deploy PLEX media server as a Virutal Device, not VM, and have a home media server. Etc.Etc.Etc.
 
 
 
