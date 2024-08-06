@@ -4,6 +4,9 @@ https://en.wikipedia.org/wiki/LevelBlue
 ### ossim
 https://cybersecurity.att.com/products/ossim \
 
+# emulated virtual environemnt
+https://www.eve-ng.net/index.php/community/
+
 ### blackbox listed
 https://mxtoolbox.com/blacklists.aspx
 
