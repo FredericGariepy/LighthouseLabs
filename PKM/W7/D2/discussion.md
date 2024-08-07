@@ -4,3 +4,14 @@ https://www.docusign.com/en-ca/how-it-works/electronic-signature/digital-signatu
 
 WINDOWS \
 certlm.msc
+
+https://www.docusign.com/en-ca/how-it-works/electronic-signature/digital-signature/digital-signature-faq DocuSign Diagram
+
+---
+
+- [ ]  look more into windows 
+
+WINDOWS
+certlm.msc
+
+---
