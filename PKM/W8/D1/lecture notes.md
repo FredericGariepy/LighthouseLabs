@@ -1,3 +1,9 @@
+
+https://cybersecurity.att.com/products/ossim
+
+Telemetry \
+is the automated process of collecting and transmitting data from remote sources for monitoring and analysis
+
 ## Detection
 __signature__ - known item \
 __behavior__ - outside a baseline
