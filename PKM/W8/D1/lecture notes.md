@@ -26,5 +26,7 @@ https://www.acrylicwifi.com/en/wifi-analyzer/
 
 subject: paste sites
 
+https://www.virustotal.com/gui/file/19907fba39b0065fea0047b533d3d1f61d46c49e8ad78f65f7ad6d5d906d2d7b/behavior/ELF%20DIGEST \
 https://www.virustotal.com/gui/home/upload
+
 Hide your wireless
