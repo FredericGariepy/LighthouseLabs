@@ -2,7 +2,7 @@
 __signature__ - known item \
 __behavior__ - outside a baseline
 
-## Coreelation
+## Corelation
 #### time!
 - Use `NTP` to sync systems (for investigations), there are trusted NTP services out there
 - Map time properly to its ZONE
@@ -15,6 +15,16 @@ Wireless Break association - set new SSID for contained machine
 _without VLAN_ disconnect from network
 
 Restrict access to the machine, Kick off users from machines, does not accept new user logins
+
+
+
+___
+
+## Extra 
+
+https://www.acrylicwifi.com/en/wifi-analyzer/
+
+
 
 
 
