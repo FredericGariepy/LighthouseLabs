@@ -24,3 +24,6 @@ https://www.youtube.com/watch?v=Vj1uh89v-Sc
 
 https://www.youtube.com/watch?v=zEk3mi4Pt_E
 htthttps://www.youtube.com/watch?v=zEk3mi4Pt_Eps://www.youtube.com/watch?v=zEk3mi4Pt_E
+
+# 4
+- [ ] https://www.ssh.com/academy/ssh/cia-bothanspy-gyrfalcon
