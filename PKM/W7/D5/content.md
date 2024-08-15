@@ -3,7 +3,9 @@ ex-CIA and author of “Psychology of Intelligence Analysis”
 > ‘‘Intelligence analysts should be self-conscious about their reasoning process. They should think about how they make judgments and reach conclusions, not just about the judgments and conclusions themselves.”
 
 ## Do
-- [ ] https://mitre-attack.github.io/attack-navigator/
+- [x] https://mitre-attack.github.io/attack-navigator/
+- [ ] https://github.com/mitre/caldera
+- [ ] https://www.youtube.com/watch?v=Vdd4lRXB7zE
 
 ## readings
 - [x] https://medium.com/cycraft/cycraft-classroom-mitre-att-ck-vs-cyber-kill-chain-vs-diamond-model-1cc8fa49a20f#:%7E:text=Perhaps%20the%20biggest%20difference%20between,threat%20actor%20over%20multiple%20intrusions.
