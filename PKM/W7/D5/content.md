@@ -57,4 +57,14 @@ Caldera automates and tests systems against selected techniques in the ATT&CK Ma
 - Your attack can be customized and configured through the Caldera GUI.
 
 
+Cybersecurity and Infrastructure Security Agency (CISA) has developed a best practices guide to map MITRE ATT&CK against incidents.
+
+map adversary behavior to the MITRE ATT&CK framework
+- [x] https://www.cisa.gov/sites/default/files/publications/Best%20Practices%20for%20MITRE%20ATTCK%20Mapping.pdf trickbot example
+- [ ] https://attack.mitre.org/mitigations/enterprise/ mitigations
+- [ ] https://attack.mitre.org/techniques/enterprise/ techiniques
+- [ ] https://mitre-attack.github.io/attack-navigator/ vairgator tool
+
+    Once you have attributed a set of behaviours to a specific type of attack(s), next you need to map them to specific mitigations. The MITRE Framework makes this easy, review the following page and click on a few of these mitigations to see all of the attacks that can be prevented by that mitigation. MITRE ATT&CK Mitigation List
+    Alternatively, you can always search a specific attack and at the bottom of it's description you will see a list of mitigations you can use to defend against it, here is brute forcing for as an example. MITRE ATT&CK brute force
 
