@@ -11,6 +11,10 @@ ex-CIA and author of “Psychology of Intelligence Analysis”
 - [x] https://medium.com/cycraft/cycraft-classroom-mitre-att-ck-vs-cyber-kill-chain-vs-diamond-model-1cc8fa49a20f#:%7E:text=Perhaps%20the%20biggest%20difference%20between,threat%20actor%20over%20multiple%20intrusions.
 - [ ] https://www.mitre.org/sites/default/files/2021-11/getting-started-with-attack-october-2019.pdf
 
+## red teaming, caldera, mimikatz
+- [ ] https://www.youtube.com/watch?v=Vdd4lRXB7zE
+- [ ] https://github.com/ParrotSec/mimikatz/tree/master
+
 
 |Security control|Difficulty|
 |-|-|
