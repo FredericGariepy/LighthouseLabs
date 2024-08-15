@@ -6,11 +6,13 @@ ex-CIA and author of “Psychology of Intelligence Analysis”
 - [x] https://mitre-attack.github.io/attack-navigator/
 - [ ] https://github.com/mitre/caldera
 - [ ] https://www.youtube.com/watch?v=Vdd4lRXB7zE
+- [ ] https://github.com/mitre/cascade-server
 
 ## readings
 - [x] https://medium.com/cycraft/cycraft-classroom-mitre-att-ck-vs-cyber-kill-chain-vs-diamond-model-1cc8fa49a20f#:%7E:text=Perhaps%20the%20biggest%20difference%20between,threat%20actor%20over%20multiple%20intrusions.
 - [ ] https://www.mitre.org/sites/default/files/2021-11/getting-started-with-attack-october-2019.pdf
-
+- [ ] https://attack.mitre.org/software/S0030/
+- [ ] https://www.cloudflare.com/learning/security/what-is-stix-and-taxii/
 ## red teaming, caldera, mimikatz
 - [ ] https://www.youtube.com/watch?v=Vdd4lRXB7zE
 - [ ] https://github.com/ParrotSec/mimikatz/tree/master
@@ -46,4 +48,13 @@ TTP \
 Tech Domain > Tactic > Techniques > Sub-techniques > Procedures
 
 ATT&CK Framework adds value to cyber threat intelligence through the study of used tactics, techniques, and tools
+
+## Caldera
+https://github.com/mitre/caldera \
+Caldera automates and tests systems against selected techniques in the ATT&CK Matrix.
+- You begin by installing Caldera on your network.
+- Then install service agents on your network that you would like to test.
+- Your attack can be customized and configured through the Caldera GUI.
+
+
 
