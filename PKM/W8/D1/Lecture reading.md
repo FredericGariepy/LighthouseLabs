@@ -44,5 +44,6 @@ This is mode of what IBM defines as _unorganized_ hunt
 >
 > If our scan shows obfuscated data inside legitimate binaries, we should look for signs of establishing a connection with a C2 server so we can conclude that those files are malware. 
 
-__
+___
+
 Learn computer science subjects like networks, low-level languages, and application architecture to feel more comfortable with specific terms and numeric values (like port numbers, etc.) Anyway, there’s always lots of information to deal with – don’t feel discouraged if you don’t understand everything you come across.
