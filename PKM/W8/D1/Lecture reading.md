@@ -37,12 +37,12 @@ Malware X:
 - Runs a local .NET binary
 - Uses setenv() function to add the variable to the environment
 ### Crown Jewels Analysis (CJA)
-... continue
+This is mode of what IBM defines as _unorganized_ hunt
+> A state-sponsored threat actor A uses the same C2 servers as threat actor B, so they might be part of the same botnet.
+>
+> They use a software pipeline infection and plant malware with a 1-2 weeks dormant period before triggering reconnaissance which lasts 2-6 months.
+>
+> If our scan shows obfuscated data inside legitimate binaries, we should look for signs of establishing a connection with a C2 server so we can conclude that those files are malware. 
 
-
-
-
-
-
-
-
+__
+Learn computer science subjects like networks, low-level languages, and application architecture to feel more comfortable with specific terms and numeric values (like port numbers, etc.) Anyway, there’s always lots of information to deal with – don’t feel discouraged if you don’t understand everything you come across.
