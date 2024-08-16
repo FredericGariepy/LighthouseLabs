@@ -7,9 +7,11 @@
 | TAXII| Trusted Automated eXchange of Indicator Information |
 | CTI APIs | Cyber Threat Intelligence Application Programming Interfaces |
 | SIEM|Security Information and Event Management|
+| TIPS |Threat Intelligence Providers |
+| FSIAC |Financial Services Information Sharing and Analysis Center|
 
 ## Do
-- [ ] https://oasis-open.github.io/cti-documentation/stix/examples
+- [x] https://oasis-open.github.io/cti-documentation/stix/examples STIX in practice (JSON API, Python constructor and consumer)
 
 ## Reading
 - [x] https://www.crowdstrike.com/cybersecurity-101/threat-hunting/#:%7E:text=Threat%20hunting%20is%20the%20practice,your%20initial%20endpoint%20security%20defenses
@@ -81,7 +83,3 @@ Modern adversaries automate TTP to evade preventative defenses
 ## Optimize Human Expertise Through Human Machine Teaming
 - Never expect machines to be ethical or strategic
 - Never expect humans to be good at searching large volumes of data at speed and scale or perform complex pattern matching.
-
-
-
-
