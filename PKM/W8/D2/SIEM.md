@@ -1,8 +1,8 @@
 ####  readings
 - [x] YO that was cool asf: https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf
-- [ ] SIEM = ? https://www.crowdstrike.com/cybersecurity-101/security-information-and-event-management-siem/
+- [x] SIEM = ? https://www.crowdstrike.com/cybersecurity-101/security-information-and-event-management-siem/
 #### Do
-- [ ] https://mitre-attack.github.io/attack-navigator/
+- [x] https://mitre-attack.github.io/attack-navigator/
 #### Side
 - [ ] https://www.pathfactory.com/ web beacons
 
@@ -18,4 +18,23 @@
 > because of the high volume of alerts and data provided by the SIEM.
 
 - Responses to alerts can be delayed or overlooked because analysts lack an understanding of which alerts need attention.
+
+# SIEM v SIM v SEM
+|term|def|
+|-|-|
+|SIEM |Security information and event management|
+|SEM|security events management |
+|SIM| security information management |
+
+- __SIM__ focuses on collecting & managing: logs and other security data. + Log retention, analysis, reporting, and correlation with threat intelligence sources.
+- __SEM__ is for real-time analysis and reporting. Advanced operations: event aggregation, correlation, and notification triggering for endpoint and network devices like Firewalls, Linux, and Windows servers, etc.
+
+__SIEM__ = set of tools/services that combine __SEM + SIM__.
+
+
+
+<img src="https://learningimages.lighthouselabs.ca/Cyber+BC/Cyber+BC+C9/Cyber+BC+C9.4/CyberBC+09.04.01.01.png" width="400" alt="SIEM v SIM v SEM">
+
+
+
 
