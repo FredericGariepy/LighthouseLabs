@@ -47,3 +47,9 @@ your organization can indicate a compromised account.
 - impossible travel
 - [ ] [geo fencing](https://www.paubox.com/blog/the-role-of-geofencing-in-cybersecurity)
 - [ ] [custom dictionary attack](https://www.hackers-arise.com/post/password-cracking-creating-a-custom-wordlist-with-crunch) 
+
+Fileless malware
+
+On hibernate, RAM gets writen to disk and on wake memory gets reloaded to RAM.
+
+https://en.m.wikipedia.org/wiki/Hibernation_(computing)#:~:text=When%20hibernation%20begins%2C%20the%20computer,or%20other%20non%2Dvolatile%20storage.
