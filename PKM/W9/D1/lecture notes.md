@@ -45,7 +45,5 @@ that the account has been compromised.
 - Geographic Irregularities: Logins or actions from locations that are unusual for
 your organization can indicate a compromised account.
 - impossible travel
-- [geo fencing](https://www.paubox.com/blog/the-role-of-geofencing-in-cybersecurity)
-- [custom dictionary attack](https://www.hackers-arise.com/post/password-cracking-creating-a-custom-wordlist-with-crunch) 
-
-
+- [ ] [geo fencing](https://www.paubox.com/blog/the-role-of-geofencing-in-cybersecurity)
+- [ ] [custom dictionary attack](https://www.hackers-arise.com/post/password-cracking-creating-a-custom-wordlist-with-crunch) 
