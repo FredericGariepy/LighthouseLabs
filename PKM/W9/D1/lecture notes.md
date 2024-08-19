@@ -3,6 +3,8 @@
 - [ ] Microsoft [Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
 - [ ] [What is Active Directory](https://www.quest.com/solutions/active-directory/what-is-active-directory.aspx)
 - [ ] [What is NAT ](https://www.comptia.org/content/guides/what-is-network-address-translation)
+- [ ] [What is a Proxy Server and How Does it Work?](https://www.varonis.com/blog/what-is-a-proxy-server)
+
 
 ### extra
 - [ ] https://docs.zeek.org/en/current/about.html#what-is-zeek
@@ -11,7 +13,8 @@
       - Run a script to update it. Or pay a fee for a PUSH service.
 
 ### Do
-
+- [ ] [What are DMARC, DKIM, and SPF?](https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/)
+    - [ ] Related tool: https://mxtoolbox.com/EmailHeaders.aspx
 - [ ] Inside Command and Control (C2) servers: Unveiling the secrets https://www.youtube.com/watch?v=cPYJrmz7gN4
 
 |term|def|
