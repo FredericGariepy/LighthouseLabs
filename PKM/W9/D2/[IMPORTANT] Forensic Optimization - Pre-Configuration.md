@@ -129,77 +129,79 @@ R- otate service accounts and apply password best practices without service, deg
 
 ### Disable Unnecessary Remote Network Administration Tools
 - If an attacker (or malware) gains access to a remote user’s computer, steals authentication data (login/password), hijacks an active remote administration session, or successfully attacks a vulnerability in the remote administration tool’s software, the attacker (or malware) will gain unrestricted control of the enterprise network environment. Attackers can use compromised hosts as a relay server for reverse connections, which could enable them to connect to these remote administration tools from anywhere.
-Remove all remote administration tools that are not required for day-to-day IT operations. Closely monitor and log events for each remote-control session required by department IT operations.
+- __Remove all remote administration tools that are not required for day-to-day IT operations__. Closely monitor and log events for each remote-control session required by department IT operations.
 
-Manage Unsecure Remote Desktop Services
-
+### Manage Unsecure Remote Desktop Services
 Allowing unrestricted RDP access can increase opportunities for malicious activity such as on path and Pass-the-Hash (PtH) attacks.
 
-Implement secure remote desktop gateway solutions.
-Restrict RDP service trust across multiple network zones.
-Implement privileged account monitoring and short time password lease for RDP service use.
-Implement enhanced and continuous monitoring of RDP services by enabling logging and ensure RDP logins are captured in the logs.
+- Implement secure remote desktop gateway solutions.
+- Restrict RDP service trust across multiple network zones.
+- Implement privileged account monitoring and short time password lease for RDP service use.
+- Implement enhanced and continuous monitoring of RDP services by enabling logging and ensure RDP logins are captured in the logs.
 
-Credential Reset and Access Policy Review
-
+### Credential Reset and Access Policy Review
 Credential resets need to be done to strategically ensure that all the compromised accounts and devices are included and to reduce the likelihood that the attacker is able to adapt in response to this.
+- Force password resets; revoke and issue new certificates for affected accounts/devices.
+- If it is suspected that the attacker has gained access to the Domain Controller, then the passwords for all local accounts—such as Guest, HelpAssistant, DefaultAccount, System, Administrator, and `kbrtgt` — should be reset. It is essential that the password for the [`kbrtgt` account](https://blog.quest.com/what-is-krbtgt-and-why-should-you-change-the-password/) is reset as this account is responsible for handling Kerberos ticket requests as well as encrypting and signing them. The account should be reset twice (as the account has a two-password history).
+> The first account reset for the kbrtgt needs to be allowed to replicate prior to the second reset to avoid any issues.
+- If it is suspected that the `ntds.dit` file has been exfiltrated, then all domain user passwords will need to be reset.
+- Review access policies to temporarily revoke privileges/access for affected accounts/devices. If it is necessary to not alert the attacker (e.g., for intelligence purposes), then privileges can be reduced for affected accounts/devices to “contain” them.
 
-Force password resets; revoke and issue new certificates for affected accounts/devices.
-If it is suspected that the attacker has gained access to the Domain Controller, then the passwords for all local accounts—such as Guest, HelpAssistant, DefaultAccount, System, Administrator, and kbrtgt—should be reset. It is essential that the password for the kbrtgt account is reset as this account is responsible for handling Kerberos ticket requests as well as encrypting and signing them. The account should be reset twice (as the account has a two-password history).
-The first account reset for the kbrtgt needs to be allowed to replicate prior to the second reset to avoid any issues.
-If it is suspected that the ntds.dit file has been exfiltrated, then all domain user passwords will need to be reset.
-Review access policies to temporarily revoke privileges/access for affected accounts/devices. If it is necessary to not alert the attacker (e.g., for intelligence purposes), then privileges can be reduced for affected accounts/devices to “contain” them.
-
-Patch Vulnerabilities
-
+### Patch Vulnerabilities
 Attackers frequently exploit software or hardware vulnerabilities to gain access to a targeted system.
 
-Known vulnerabilities in external facing devices and servers should be patched immediately, starting with the point of compromise, if known.
-Ensure external-facing devices have not been previously compromised while going through the patching process.
-If the point of compromise (i.e., the specific software, device, server) is known, but how the software, device, or server was exploited is unknown, notify the vendor so they can begin analysis and develop a new patch.
-Follow vendor remediation guidance including the installation of new patches as soon as they become available.
+- Known vulnerabilities in external facing devices and servers should be patched immediately, starting with the point of compromise, if known.
+> Ensure external-facing devices have not been previously compromised while going through the patching process.
 
-General Recommendations and Best Practices Prior to an Incident
+- If the point of compromise (i.e., the specific software, device, server) is known, but how the software, device, or server was exploited is unknown, notify the vendor so they can begin analysis and develop a new patch.
+- Follow vendor remediation guidance including the installation of new patches as soon as they become available.
 
-Properly implemented defensive techniques and programs make it more difficult for a threat actor to gain access to a network and remain persistent yet undetected. When an effective defensive program is in place, attackers should encounter complex defensive barriers. Attacker activity should also trigger detection and prevention mechanisms that enable organizations to identify, contain, and respond to the intrusion quickly. There is no single technique, program, or set of defensive techniques or programs that will completely prevent all attacks. The network administrator should adopt and implement multiple defensive techniques and programs in a layered approach to provide a complex barrier to entry, increase the likelihood of detection, and decrease the likelihood of a successful attack. This layered mitigation approach is known as defense-in-depth.
-User Education
+# General Recommendations and Best Practices Prior to an Incident
 
+Properly implemented defensive techniques and programs make it more difficult for a threat actor to gain access to a network and remain persistent yet undetected.
+
+When an effective defensive program is in place, attackers should encounter complex defensive barriers.
+
+Attacker activity should also trigger detection and prevention mechanisms that enable organizations to identify, contain, and respond to the intrusion quickly.
+
+There is no single technique, program, or set of defensive techniques or programs that will completely prevent all attacks. The network administrator should adopt and implement multiple defensive techniques and programs in a layered approach to provide a complex barrier to entry, increase the likelihood of detection, and decrease the likelihood of a successful attack. This layered mitigation approach is known as defense-in-depth.
+
+## User Education
 End users are the frontline security of the organizations. Educating them in security principles as well as actions to take and not take during an incident will increase the organization’s resilience and might prevent easily avoidable compromises.
 
-Educate users to be cautious of any downloads from third-party sites or vendors.
-Train users on recognizing phishing emails. There are several systems and services (free and otherwise) that can be deployed or leveraged.
-Train users on identifying which groups/individuals to contact when they suspect an incident.
-Train users on the actions they can and cannot take if they suspect an incident and why (some users will attempt to remediate and might make things worst).
+- Educate users to be cautious of any downloads from third-party sites or vendors.
+- Train users on recognizing phishing emails. There are several systems and services (free and otherwise) that can be deployed or leveraged.
+- Train users on identifying which groups/individuals to contact when they suspect an incident.
+- Train users on the actions they can and cannot take if they suspect an incident and why (some users will attempt to remediate and might make things worst).
 
-Allowlisting
+## Allowlisting
+- Enable application directory allowlisting through Microsoft Software Restriction Policy or AppLocker.
+- Use directory allowlisting rather than attempting to list every possible permutation of applications in a network environment. =
+Safe defaults allow applications to run from `PROGRAMFILES`, `PROGRAMFILES(X86)`, and `SYSTEM32`. Disallow all other locations unless an exception is granted.
+- Prevent the execution of unauthorized software by using application allowlisting as part of the OS installation and security hardening process.
 
-Enable application directory allowlisting through Microsoft Software Restriction Policy or AppLocker.
-Use directory allowlisting rather than attempting to list every possible permutation of applications in a network environment. Safe defaults allow applications to run from PROGRAMFILES, PROGRAMFILES(X86), and SYSTEM32. Disallow all other locations unless an exception is granted.
-Prevent the execution of unauthorized software by using application allowlisting as part of the OS installation and security hardening process.
+## Account Control
+- Decrease a threat actor’s ability to access key network resources by implementing the principle of least privilege.
+- Limit the ability of a local administrator account to log in from a local interactive session (e.g., Deny access to this computer from the network) and prevent access via an RDP session.
+- Remove unnecessary accounts and groups; restrict root access.
+- Control and limit local administration; e.g. implementing Just Enough Administration (JEA), just-in-time (JIT) administration, or enforcing PowerShell Constrained Language mode via a User Mode Code Integrity (UMCI) policy.
+- Make use of the Protected Users Active Directory group in Windows domains to further secure privileged user accounts against pass-the-hash attacks.
 
-Account Control
+## Backups
 
-Decrease a threat actor’s ability to access key network resources by implementing the principle of least privilege.
-Limit the ability of a local administrator account to log in from a local interactive session (e.g., Deny access to this computer from the network) and prevent access via an RDP session.
-Remove unnecessary accounts and groups; restrict root access.
-Control and limit local administration; e.g. implementing Just Enough Administration (JEA), just-in-time (JIT) administration, or enforcing PowerShell Constrained Language mode via a User Mode Code Integrity (UMCI) policy.
-Make use of the Protected Users Active Directory group in Windows domains to further secure privileged user accounts against pass-the-hash attacks.
+- Identify what data is essential to keeping operations running; make regular backup copies.
+- Test that backups are working to ensure they can restore the data in the event of an incident.
+- Create offline backups to help recover from a ransomware attack or from disasters (fire, flooding, etc.).
+- Securely store offline backups at an offsite location. If feasible, choose an offsite location that is at a distance from the primary location that would be unaffected in the event of a regional natural disaster.
 
-Backups
+## Workstation Management
 
-Identify what data is essential to keeping operations running; make regular backup copies.
-Test that backups are working to ensure they can restore the data in the event of an incident.
-Create offline backups to help recover from a ransomware attack or from disasters (fire, flooding, etc.).
-Securely store offline backups at an offsite location. If feasible, choose an offsite location that is at a distance from the primary location that would be unaffected in the event of a regional natural disaster.
+- Create and deploy a secure system baseline image to all workstations.
+- Mitigate potential exploitation by threat actors by following a normal patching cycle for all OSs, applications, and software, with exceptions for emergency patches.
+- Apply asset and patch management processes.
+- Reduce the number of cached credentials to one (if a laptop) or zero (if a desktop or fixed asset).
 
-Workstation Management
-
-Create and deploy a secure system baseline image to all workstations.
-Mitigate potential exploitation by threat actors by following a normal patching cycle for all OSs, applications, and software, with exceptions for emergency patches.
-Apply asset and patch management processes.
-Reduce the number of cached credentials to one (if a laptop) or zero (if a desktop or fixed asset).
-
-Host-Based Intrusion Detection / Endpoint Detection and Response
+### Host-Based Intrusion Detection / Endpoint Detection and Response
 
 Configure and monitor workstation system logs through a host-based endpoint detection and response platform and firewall.
 Deploy an anti-malware solution on workstations to prevent spyware, adware, and malware as part of the OS security baseline.
