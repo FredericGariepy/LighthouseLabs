@@ -1,9 +1,17 @@
-
+# read/resources
 - [x] [Starting a New Digital Forensic Investigation Case in Autopsy 4.19+](https://www.youtube.com/watch?v=fEqx0MeCCHg&t=123s)
 - [x] [Forensic Report](https://online.fliphtml5.com/rllbc/zdmn/#p=1)
 - [ ] [FREE 7+ Sample Forensic Report Templates in MS Word | PDF](https://www.sampletemplates.com/business-templates/forensic-report.html#google_vignette)
 - [ ] [Write a Forensic Report Step by Step [Examples Inside]](https://www.salvationdata.com/work-tips/write-a-forensic-report/)
-
+# tools
+Digital Forensics Tools:
+- [Write blocker hardware while imaging](https://digitalintelligence.com/store/t/solutions/forensic-imaging/write-blockers) 
+- [faraday for mobile](https://godarkbags.com/products/godark-faraday-bags-stop-hacking-and-location-tracking-of-your-cell-phone-and-tablet?variant=42081913766101)
+- [Autopsy](https://www.autopsy.com/) <- we are going to use this one.
+- [Praben](https://paraben.com/)
+- The [E3 Forensic Platform](https://paraben.com/paraben-e3-forensic-platform/), offered by Paraben Corporation
+- [FTK](https://www.exterro.com/digital-forensics-software/forensic-toolkit)
+- [EnCase](https://www.opentext.com/products/encase-forensic) acquired by OpenText in 2017
 
 
 ## Basic Format of a Forensic Report
