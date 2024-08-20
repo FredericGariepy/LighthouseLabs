@@ -1,6 +1,6 @@
 
-- [ ] [Starting a New Digital Forensic Investigation Case in Autopsy 4.19+](https://www.youtube.com/watch?v=fEqx0MeCCHg&t=123s)
-- [ ] [Forensic Report ](https://online.fliphtml5.com/rllbc/zdmn/#p=1)
+- [x] [Starting a New Digital Forensic Investigation Case in Autopsy 4.19+](https://www.youtube.com/watch?v=fEqx0MeCCHg&t=123s)
+- [x] [Forensic Report](https://online.fliphtml5.com/rllbc/zdmn/#p=1)
 - [ ] [FREE 7+ Sample Forensic Report Templates in MS Word | PDF](https://www.sampletemplates.com/business-templates/forensic-report.html#google_vignette)
 - [ ] [Write a Forensic Report Step by Step [Examples Inside]](https://www.salvationdata.com/work-tips/write-a-forensic-report/)
 
