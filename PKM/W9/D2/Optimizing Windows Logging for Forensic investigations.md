@@ -3,6 +3,7 @@
 - [ ] [WINDOWS LOGGING CHEAT SHEET](https://static1.squarespace.com/static/552092d5e4b0661088167e5c/t/5c586681f4e1fced3ce1308b/1549297281905/Windows+Logging+Cheat+Sheet_ver_Feb_2019.pdf)
 - [x] [How to optimize Windows event logging to better investigate attacks](https://www.csoonline.com/article/569759/how-to-optimize-windows-event-logging-to-better-investigate-attacks.html)
 - [x] Video [How to tweak Windows logs to better investigate attacks ](https://www.youtube.com/watch?v=i3HShJqLpE8)
+- [ ] [Microsoft DNS Logging and Diagnostics](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn800669(v=ws.11))
 ## Do
 - [ ] [Sysmon v15.15](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 > System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.
@@ -20,13 +21,12 @@ Audit Other Object Access Events allows you to monitor operations with scheduled
 __Why is it recommended to to log both DNS and DHCP events?__ \
 Logging DNS and DHCP events with a focus on detailed packet information provides a comprehensive view of network activities, which is essential for effective network security monitoring. It helps in detecting anomalies, troubleshooting issues, investigating incidents, and maintaining overall network health. By capturing outgoing and incoming traffic, UDP and TCP packets, request and response types, and both queries/transfers and updates, you ensure a thorough approach to monitoring and analysis
 
-### Install Sysmon on outward-facing machine
-### Increase the log size with 200 gigs of hard drive space.
-### Log DNS and DHCP events:
-    - Log packets for debugging
-    - Outgoing and incoming
-    - UDP and TCP
-    - Packet type request and response
-    - Queries/transfers and updates
-
-## Set audit policies
+### 0. Install Sysmon on outward-facing machine
+### 1. Increase the log size with 200 gigs of hard drive space.
+### 2. Log DNS and DHCP events:
+- Log packets for debugging
+- Outgoing and incoming
+- UDP and TCP
+- Packet type request and response
+- Queries/transfers and updates
+## 3. Set audit policies
