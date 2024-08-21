@@ -8,7 +8,9 @@
 - [x] [The Ultimate PCAP](https://weberblog.net/the-ultimate-pcap/)
 - [ ] [Volatility Foundation](https://volatilityfoundation.org/volatility-training/)
 - [ ] [Volatility 3](https://volatility3.readthedocs.io/en/latest/)
-
+- [x] [Starting a New Digital Forensic Investigation Case in Autopsy 4.19+](https://www.youtube.com/watch?v=fEqx0MeCCHg)
+- [x] [Recovering Deleted Files using Autopsy || Practical Digital Forensics](https://youtu.be/sSLinAlFow0?t=125)
+- [x] [Important Wireshark filters](https://www.securityinbits.com/tools/wireshark-filters/)
 # EnCase Forensic
 To get a copy of the data without altering the original, you can use EnCase Forensic. \
 EnCase to gather evidence and mitigate the potential breach.
@@ -38,18 +40,15 @@ Uncover the hidden malware in the RAM and investigate its activities.
 - scan the memory image for known malware signatures or patterns and identify any malicious code or injected processes
 
 # Autopsy
+- Acquiring evidence such as disk images, memory dumps and files from affected systems
+- Analyzing email files including attachments and examining email headers
+- Detecting malware by scanning attachments or links to malicious websites
+- Analyzing browser artifacts and understanding the attack vector
+- Analyzing links, IP addresses and files among many others
 
+Autopsy can help to recover deleted data, analyze web history, emails, and other artifacts from the affected systems. Its powerful keyword searching feature can help quickly locate the email artifacts related to the phishing incident. 
 
-
-
-
-
-
-
-
-
-
-
-
-
+# OSForensics
+OSForensics can acquire data from various sources, analyze file systems, perform memory analysis, crack passwords, and conduct keyword searches.
+https://www.osforensics.com/faqs-and-tutorials/video_demonstrations.html
 
