@@ -228,7 +228,41 @@ however we observed a running connection towards an external IP used by this ver
 ### 4. `procdump` , `memdump`
 `volatility -f cridex.vmem --profile=WinXPSP2x86 procdump -p 1640 --dump-dir .`
 ```
-man v
+Volatility Foundation Volatility Framework 2.6
+Process(V) ImageBase  Name                 Result
+---------- ---------- -------------------- ------
+0x81e7bda0 0x00400000 reader_sl.exe        OK: executable.1640.exe
+```
+The `executable.1640.exe` is a restitution of the executable `reader_sl.exe`.
+
+`volatility -f cridex.vmem --profile=WinXPSP2x86 memdump -p 1640 --dump-dir .`
+```
+Volatility Foundation Volatility Framework 2.6
+************************************************************************
+Writing reader_sl.exe [  1640] to 1640.dmp
+```
+The dump extracted `1640.dmp` represents the addressable memory of the process.
+
+#### 5. `strings`
+A simple analysis of these files can be done by using the “strings” linux command. \
+`strings 1640.dmp` Extracts printable strings from the binary file `1640.dmp` \
+`-F` fixed string , `i` case-insensitive \
+`-C 5` displays 5 lines of __context around__ each match. \
+`strings 1640.dmp | grep -Fi "41.168.5.140" -C 5`
+```
+ABACFPFPENFDECFCEPFHFDEFFPFPACAB
+DpI8
+POST /zb/v_01_a/in/ HTTP/1.1
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)
+Host: 41.168.5.140:8080
+Content-Length: 229
+Connection: Keep-Alive
+Cache-Control: no-cache
+>mtvR
+`06!
+```
+
 
 
 
