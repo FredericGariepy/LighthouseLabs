@@ -15,3 +15,9 @@ Meraki aimed at cloud/web management
 
 https://www.sans.org/digital-forensics-incident-response/
 
+- Volatility Workbench is a graphical user interface (GUI) for the Volatility tool.
+https://www.osforensics.com/tools/volatility-workbench.html
+
+#### Expand Physical Space:
+1. In hypervisor2 add physical space
+2. Windows: Disk Management> Select drive, right click, expand volume
