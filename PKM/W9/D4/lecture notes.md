@@ -1,0 +1,17 @@
+Sans Memory Forensics 3 
+- https://sansorg.egnyte.com/dl/4QwNVeoj02
+
+Email forensics, check email header
+- https://mxtoolbox.com/
+
+What is the main reason for forensics tools?
+> Incident Response
+
+Azure IoT Hub to collect IoT logging
+- https://learn.microsoft.com/en-us/azure/iot-hub/monitor-iot-hub
+
+Meraki aimed at cloud/web management
+- https://meraki.cisco.com/
+
+https://www.sans.org/digital-forensics-incident-response/
+
