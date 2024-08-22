@@ -293,7 +293,7 @@ Trojan detected
 `cridex.vmem` dump is concluded to be from a trojan infected computer.
 
 # Prevention
-
+... continue https://medium.com/@zemelusa/first-steps-to-volatile-memory-analysis-dcbd4d2d56a1
 
 
 
