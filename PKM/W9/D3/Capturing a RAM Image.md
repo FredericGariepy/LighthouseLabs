@@ -1,4 +1,4 @@
-- [x][ DFS101: 10.2 Forensic Memory Acquisition in Windows - FTK Imager](https://www.youtube.com/watch?v=1XK86to03-Q)
+- [x] [ DFS101: 10.2 Forensic Memory Acquisition in Windows - FTK Imager](https://www.youtube.com/watch?v=1XK86to03-Q)
 
 GUI version : `VolatilityWorkbench.exe` \
 CLI : `vol.exe.`
