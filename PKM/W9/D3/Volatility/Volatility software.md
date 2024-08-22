@@ -262,6 +262,39 @@ Cache-Control: no-cache
 >mtvR
 `06!
 ```
+Here we can clearly see that the executable “Reader_sl.exe” is communicating towards the destination IP 41.168.5.140 using POST requests, potentially exfiltrating information from the victim’s computer.
+
+`strings 1640.dmp | less`
+```
+...
+*hsbc.co.uk*
+*ablv.com*
+*accessbankplc.com*
+*alphabank.com.cy*
+*baltikums.com*
+*baltikums.eu*
+*banesco.com.pa*
+...
+```
+A list of Bank domain websites. \
+By looking at the process memory we now have more reasons to be suspicious about `Reader_sl.exe`.
+
+Let’s now see if the executable is malicious or not.
+
+Analyze the files using VirusTotal, or HybridAnalysis. \
+Trojan detected
+
+#### Summary
+- An odd process Reader_sl.exe PID 1640 with Explorer as a ParentPID 1484
+- An opened connection towards 41.168.5.140:8080 used by the PID 1484
+- Bank domains and 41.168.5.140 found in the dump of the process 1640
+- 1640 executable detected as malicious Trojan by Sandboxing websites
+
+`cridex.vmem` dump is concluded to be from a trojan infected computer.
+
+# Prevention
+
+
 
 
 
