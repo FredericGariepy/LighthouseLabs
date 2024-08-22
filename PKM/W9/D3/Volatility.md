@@ -226,7 +226,9 @@ however we observed a running connection towards an external IP used by this ver
 ###### do not jump to conclusions too quickly
 
 ### 4. `procdump` , `memdump`
-
+`volatility -f cridex.vmem --profile=WinXPSP2x86 procdump -p 1640 --dump-dir .`
+```
+man v
 
 
 
