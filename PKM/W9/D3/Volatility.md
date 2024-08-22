@@ -6,7 +6,10 @@ Vocabulary: \
 "plugin" meaning command for `volatility` \
 e.g : `volatility ... <plugin>`
 
-`-f` = file
+`-f` = file \
+`-p` = PID \
+`--dump-dir <location>` = where to dump
+
 
 ### 0 `volatility -f cridex.vmem imageinfo`
 `volatility -f cridex.vmem imageinfo`
@@ -116,8 +119,11 @@ Offset(P)  Name                    PID pslist psscan thrdproc pspcid csrss sessi
 0x024a0598 csrss.exe               584 True   True   True     True   False True    True
 ```
 
-### 3 ` connscan` `netscan` `sockets`
-Check the running sockets and open connections on the computer, plugins: connscan, netscan and sockets.
+### 3 ` connscan` , `netscan` , `sockets`
+Check the running sockets and open connections on the computer, plugins: connscan, netscan and sockets. \
+
+#### `connscan`
+`connscan` plugin is a scanner for TCP connections \
 `volatility -f cridex.vmem --profile=WinXPSP2x86 connscan`
 ```
 Volatility Foundation Volatility Framework 2.6
@@ -126,7 +132,11 @@ Offset(P)  Local Address             Remote Address            Pid
 0x02087620 172.16.112.128:1038       41.168.5.140:8080         1484
 0x023a8008 172.16.112.128:1037       125.19.103.198:8080       1484
 ```
-
+Two TCP connections are used by the process with PID 1484 \
+We can see that one of this TCP connection is still open, \
+the one using port 1038 and communicating with the destination IP address 41.168.5.140.
+#### `sockets`
+`sockets` will print a list of open sockets \
 `volatility -f cridex.vmem --profile=WinXPSP2x86 sockets`
 ```
 Volatility Foundation Volatility Framework 2.6
@@ -148,5 +158,81 @@ Offset(V)       PID   Port  Proto Protocol        Address         Create Time
 0x82172c50      664   4500     17 UDP             0.0.0.0         2012-07-22 02:42:53 UTC+0000
 0x821f0d00        4    445     17 UDP             0.0.0.0         2012-07-22 02:42:31 UTC+0000
 ```
+### 4.`cmdline`, `cmdscan` , `consoles`
+`volatility -f cridex.vmem --profile=WinXPSP2x86 cmdline`
+```
+Volatility Foundation Volatility Framework 2.6
+************************************************************************
+System pid:      4
+************************************************************************
+smss.exe pid:    368
+Command line : \SystemRoot\System32\smss.exe
+************************************************************************
+csrss.exe pid:    584
+Command line : C:\WINDOWS\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,3072,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16
+************************************************************************
+winlogon.exe pid:    608
+Command line : winlogon.exe
+************************************************************************
+services.exe pid:    652
+Command line : C:\WINDOWS\system32\services.exe
+************************************************************************
+lsass.exe pid:    664
+Command line : C:\WINDOWS\system32\lsass.exe
+************************************************************************
+svchost.exe pid:    824
+Command line : C:\WINDOWS\system32\svchost -k DcomLaunch
+************************************************************************
+svchost.exe pid:    908
+Command line : C:\WINDOWS\system32\svchost -k rpcss
+************************************************************************
+svchost.exe pid:   1004
+Command line : C:\WINDOWS\System32\svchost.exe -k netsvcs
+************************************************************************
+svchost.exe pid:   1056
+Command line : C:\WINDOWS\system32\svchost.exe -k NetworkService
+************************************************************************
+svchost.exe pid:   1220
+Command line : C:\WINDOWS\system32\svchost.exe -k LocalService
+************************************************************************
+explorer.exe pid:   1484
+Command line : C:\WINDOWS\Explorer.EXE
+************************************************************************
+spoolsv.exe pid:   1512
+Command line : C:\WINDOWS\system32\spoolsv.exe
+************************************************************************
+reader_sl.exe pid:   1640
+Command line : "C:\Program Files\Adobe\Reader 9.0\Reader\Reader_sl.exe"
+************************************************************************
+alg.exe pid:    788
+Command line : C:\WINDOWS\System32\alg.exe
+************************************************************************
+wuauclt.exe pid:   1136
+Command line : "C:\WINDOWS\system32\wuauclt.exe" /RunStoreAsComServer Local\[3ec]SUSDSb81eb56fa3105543beb3109274ef8ec1
+************************************************************************
+wuauclt.exe pid:   1588
+Command line : "C:\WINDOWS\system32\wuauclt.exe"
+```
+`consoles` extracts command history by scanning for `_CONSOLE_INFORMATION` \
+`cmdscan` extracts command history by scanning for `_COMMAND_HISTORY`
+
+From `cmdline` we now have the full path of the processes launched with PID 1484 and 1640. \
+The “Reader_sl.exe” process is getting more and more suspicious…
+
+So far, we know that this process was launched by the explorer process, \
+is supposed to be a classic Adobe reader application, \
+however we observed a running connection towards an external IP used by this very same process…
+
+###### do not jump to conclusions too quickly
+
+### 4. `procdump` , `memdump`
+
+
+
+
+
+
+
+
 
 
