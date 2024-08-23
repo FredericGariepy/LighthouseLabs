@@ -175,18 +175,4 @@ The Security Accounts Manager (SAM) is a database file in the Microsoft Windows 
 The SAM hive contains __user account information, login information, and group information__.
 
 `SAM\Domains\Account\Users`
-> relative identifier (RID) of the user, number of times the user logged in, last login time, last failed login, last password change, password expiry, password policy and password hint, and any groups that the user is a part o
-
-# Usage or knowledge of files/folders
-## Recent Files
-Windows maintains a list of recently opened files for each user. \
-This information is stored in the NTUSER hive in: \
-`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs`
-
-> Recent documents tab arranges the Most Recently Used (MRU) file at the top of the list.
-
-... continue here 
-
-
-
-
+> relative identifier (RID) of the user, number of times the user logged in, last login time, last failed login, last password change, password expiry, password policy and password hint, and any groups that the user is a part of
