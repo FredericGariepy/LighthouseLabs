@@ -158,8 +158,24 @@ __Past networks__ a given machine was connected to can be found in the following
 - `SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Signatures\Managed`
 > These registry keys contain past networks as well as the last time they were connected. The last write time of the registry key points to the last time these networks were connected.
 
+## Autostart Programs (Autoruns)
+These registry keys include information about __programs or commands that run when a user logs on__:
+- `NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Run`
+- `NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+- `SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce`
+- `SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer\Run`
+- `SOFTWARE\Microsoft\Windows\CurrentVersion\Run`
 
+This registry key contains __information about services__:
+- `SYSTEM\CurrentControlSet\Services`
+If start key is set to 0x02 (2), this means that this service will start at boot.
 
+## SAM hive and user information
+The Security Accounts Manager (SAM) is a database file in the Microsoft Windows OS that contains usernames and passwords. \
+The SAM hive contains __user account information, login information, and group information__.
+
+`SAM\Domains\Account\Users`
+> relative identifier (RID) of the user, number of times the user logged in, last login time, last failed login, last password change, password expiry, password policy and password hint, and any groups that the user is a part o
 
 
 
