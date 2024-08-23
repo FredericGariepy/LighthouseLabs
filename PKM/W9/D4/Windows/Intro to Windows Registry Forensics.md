@@ -1,3 +1,4 @@
+- [x] [Registry Editor: Practical Windows Registry Explanation](https://www.youtube.com/watch?v=tBwAHqqPoQY)
 Windows registry forensic investigations requires specialized knowledge, tools, and caution to avoid unintended modifications or damage to the system.
 
 Windows Registry is crucial in tracing the source of a security breach because it contains detailed information about system configurations, installed software, and user activities. 
