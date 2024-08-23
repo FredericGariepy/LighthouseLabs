@@ -1,5 +1,6 @@
 - [ ] https://tryhackme.com/r/room/windowsforensics1
 
+# Windows Registry and Forensics
 'artifact' = activity left on the computer system
 
 `⊞ + R` to _open_ `regedit.exe` Windows utility to view and edit the registry
@@ -46,12 +47,14 @@ The registry on any Windows system contains the following five (5) root keys:
 __NTUSER.DAT hive__ is located in the directory `C:\Users\<username>\` \
 __USRCLASS.DAT hive__ is located in the directory `C:\Users\<username>\AppData\Local\Microsoft\Windows`
 
-# `C \Windows\AppCompat\Programs\Amcache.hve`
+# `C:\Windows\AppCompat\Programs\Amcache.hve`
+Accessing registry hives offline
 #### The Amcache Hive
-_AmCache_ is located in the directory `C \Windows\AppCompat\Programs\Amcache.hve` \
 Windows creates this hive to save information on programs that were recently run on the system. 
+_AmCache_ is located in the directory `C \Windows\AppCompat\Programs\Amcache.hve` \
 
 # Transaction Logs & Backups:
+Accessing registry hives offline
 ## transaction logs
 - The __transaction logs__ can be considered as the __journal of the changelog of the registry hive__
 - __transaction logs__ can often have the latest changes in the registry that _haven't made their way to the registry hives themselves_ .
@@ -64,6 +67,11 @@ e.g. the transaction log for the SAM hive will be located in `C:\Windows\System3
 - backups of the registry hives are located in the `C:\Windows\System32\Config`
 - These hives are copied to the C:\Windows\System32\Config\RegBack directory _every (10) ten days_.
 > It might be an excellent place to look if you suspect that some registry keys might have been deleted/modified recently.
+
+# Data Acquisition | KAPE
+Good practice in forensics, use a copy of live system or image taken of the system.
+
+KAPE: Kroll Artifact Parser and Extractor by  Eric Zimmerman
 
  
 
