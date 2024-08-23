@@ -68,16 +68,44 @@ e.g. the transaction log for the SAM hive will be located in `C:\Windows\System3
 - These hives are copied to the C:\Windows\System32\Config\RegBack directory _every (10) ten days_.
 > It might be an excellent place to look if you suspect that some registry keys might have been deleted/modified recently.
 
-# Data Acquisition | KAPE
+# Data Acquisition (extract Registry Hive)
+## KAPE | Autopsy | FTK Imager
 Good practice in forensics, use a copy of live system or image taken of the system.
 
-KAPE: Kroll Artifact Parser and Extractor by  Eric Zimmerman
+- KAPE: Kroll Artifact Parser and Extractor by  Eric Zimmerman \
+https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape
 
- 
+KAPE is a live data acquisition and analysis tool which can be used to acquire registry data.
 
+- Autopsy: gives you the option to acquire data from both live systems or from a disk image. \
+https://www.autopsy.com/
 
+- FTK Imager: allows you to extract files from a disk image or a live system by mounting the said disk image or drive in FTK Imager \
+https://www.exterro.com/ftk-imager
 
+# Explore Windows Registry
+## Registry Viewer | Registry Explorer | RegRipper 
+0. Once we have extracted the registry hives
+1. View these files as we would in the registry editor.
+> Since the registry editor only works with live systems and can't load exported hives, we can use the following tools..
 
+- Registry Viewer
+> [!NOTE]
+> Only loads one hive at a time, and it can't take the transaction logs into account.
+
+- Zimmerman's Registry Explorer \
+EZ tools https://ericzimmerman.github.io/#!index.md for Digital Forensics and Incident Response.
+>  It can load multiple hives simultaneously and add data from transaction logs into the hive to make a more 'cleaner' hive with more up-to-date data
+>
+> It also has a handy 'Bookmarks' option containing forensically important registry keys often sought by forensics investigators.
+
+- RegRipper https://github.com/keydet89/RegRipper3.0
+Utility that takes a registry hive as input and outputs a report that extracts data from some of the forensically important keys and values in that hive.
+
+> [!NOTE]
+> RegRipper does not take the transaction logs into account
+> 
+> Use Registry Explorer to merge transaction logs with the respective registry hives before sending the output to RegRipper for a more accurate result.
 
 
 
