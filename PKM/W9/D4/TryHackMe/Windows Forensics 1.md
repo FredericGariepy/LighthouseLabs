@@ -36,8 +36,8 @@ The registry on any Windows system contains the following five (5) root keys:
 4. SOFTWARE (mounted on HKEY_LOCAL_MACHINE\Software)
 5. SYSTEM (mounted on HKEY_LOCAL_MACHINE\System)
 
-#### (2) two Hives containing user information:
-IN `C:\Users\<username>\`:
+# `C:\Users\<username>\`
+(2) two Hives containing user information in `C:\Users\<username>\`:
 1. NTUSER.DAT (mounted on HKEY_CURRENT_USER when a user logs in)
 2. USRCLASS.DAT (mounted on HKEY_CURRENT_USER\Software\CLASSES)
 
@@ -46,11 +46,13 @@ IN `C:\Users\<username>\`:
 __NTUSER.DAT hive__ is located in the directory `C:\Users\<username>\` \
 __USRCLASS.DAT hive__ is located in the directory `C:\Users\<username>\AppData\Local\Microsoft\Windows`
 
+# `C \Windows\AppCompat\Programs\Amcache.hve`
 #### The Amcache Hive
-_AmCache_ is located in the directory `C:\Windows\AppCompat\Programs\Amcache.hve` \
+_AmCache_ is located in the directory `C \Windows\AppCompat\Programs\Amcache.hve` \
 Windows creates this hive to save information on programs that were recently run on the system. 
 
-## Transaction Logs and Backups:
+# Transaction Logs & Backups:
+## transaction logs
 - The __transaction logs__ can be considered as the __journal of the changelog of the registry hive__
 - __transaction logs__ can often have the latest changes in the registry that _haven't made their way to the registry hives themselves_ .
 - The transaction log for each hive is __stored as a .LOG file__ in the same directory as the hive itself.
