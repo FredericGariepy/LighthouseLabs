@@ -46,8 +46,23 @@ However, programs that were run using the command line can't be found in the Use
 
 `NTUSER.DAT\Software\Microsoft\Windows\Currentversion\Explorer\UserAssist\{GUID}\Count`
 
+## ShimCache | AppCompatCache Parser
+ShimCache is a mechanism used to keep track of application compatibility with the OS and tracks all applications launched on the machine. \
+-  ensure backward compatibility of applications.
 
+`SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache`
 
+ShimCache stores file name, file size, and last modified time of the executables.
+
+> [!NOTE]
+> Registry Explorer, doesn't parse ShimCache data in a human-readable format.
+
+#### AppCompatCache Parser
+`AppCompatCacheParser.exe --csv <path to save output> -f <path to SYSTEM hive for data parsing> -c <control set to parse>`
+
+EZ Tools' Application Compatibility Cache (AppCompatCache)
+-  input = SYSTEM give, outputs a CSV file.
+## AmCache
 
 
 
