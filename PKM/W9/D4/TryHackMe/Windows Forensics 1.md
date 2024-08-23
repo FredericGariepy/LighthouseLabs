@@ -107,12 +107,56 @@ Utility that takes a registry hive as input and outputs a report that extracts d
 > 
 > Use Registry Explorer to merge transaction logs with the respective registry hives before sending the output to RegRipper for a more accurate result.
 
+# System Information and System Accounts
+## Os Version
+0. first step is to find out about the system information (machine's System and Account information)
+1. determine the OS version from which this data was pulled through the registry
 
+To find the OS version, we can use the following registry key:
+`SOFTWARE\Microsoft\Windows NT\CurrentVersion`
+> Has a lot of info about the Machine
 
+## Current control set
+__Control Sets__ = hives containing the machine’s configuration data for controlling system startup.
 
+Commonly, we will see 92) two Control Sets, \
+ControlSet001 and ControlSet002, in the SYSTEM hive on a machine.
 
+- __ControlSet001__ will point to : the Control Set that the machine booted with \
+in `SYSTEM\ControlSet001`
 
+- __ControlSet002__ will be : the __last known good__ configuration \
+in`SYSTEM\ControlSet002`
 
+most accurate system information: \
+Windows creates a volatile Control Set when the machine is live, \
+called the CurrentControlSet : `HKLM\SYSTEM\CurrentControlSet`
+
+Control Set used as the CurrentControlSet is in `SYSTEM\Select\Current`
+
+__last known good__ configuration is in `SYSTEM\Select\LastKnownGood`
+
+> many forensic artifacts we collect will be collected from the Control Sets.
+
+## Computer Name
+_Computer Name_ is in `SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName`
+
+## Time Zone Information
+Timezone info is in `SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
+> timestamp can be in UTC/GMT and others in the local time zone
+>
+> Knowledge of the local time zone helps in establishing a timeline when merging data from all the sources.
+
+## Network Interfaces and Past Networks
+
+list of network interfaces : `SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces` \
+- Each Interface is represented with a unique identifier (GUID) subkey. (interface’s TCP/IP configuration)
+- IP addresses, DHCP IP address and Subnet Mask, DNS Servers, and more.
+
+__Past networks__ a given machine was connected to can be found in the following locations: \
+- `SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Signatures\Unmanaged`
+- `SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Signatures\Managed`
+> These registry keys contain past networks as well as the last time they were connected. The last write time of the registry key points to the last time these networks were connected.
 
 
 
