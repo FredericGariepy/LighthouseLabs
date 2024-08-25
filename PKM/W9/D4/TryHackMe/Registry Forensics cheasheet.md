@@ -47,6 +47,9 @@
 - `NTUSER.DAT\Software\Microsoft\Windows\Shell\BagMRU`
 - `NTUSER.DAT\Software\Microsoft\Windows\Shell\Bags`
 ### Open/Save and LastVisited Dialog MRUs:
+> The Windows OpenSaveMRU stores references to files that were selected by a user when using a standard Windows dialog to open or save a file.
+>
+> It is in the “Data Accessed” artifact category, which stores what files a user opened
 - `NTUSER.DAT\Software\Microsoft\Windows`
 - `\CurrentVersion\Explorer\ComDlg32\OpenSavePIDlMRU`
 - `NTUSER.DAT\Software\Microsoft\Windows`
