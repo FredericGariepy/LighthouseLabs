@@ -76,8 +76,8 @@
 # External/USB device forensics
 # :floppy_disk: :cd: :alien:
 ### Device identification:
-- `SYSTEM\CurrentControlSet\Enum\USBSTOR
-- `SYSTEM\CurrentControlSet\Enum\USB
+- `SYSTEM\CurrentControlSet\Enum\USBSTOR`
+- `SYSTEM\CurrentControlSet\Enum\USB`
 ### First/Last Times:
 - `SYSTEM\CurrentControlSet\Enum\USBSTOR`
 - `\Ven_Prod_Version\USBSerial#\Properties`
