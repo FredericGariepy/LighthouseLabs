@@ -32,12 +32,11 @@
 # File/folder usage or knowledge
 # :file_folder: :cityscape: 
 ### Recent Files:
-- `NTUSER.DAT\Software\Microsoft\Windows`
-- `\CurrentVersion\Explorer\RecentDocs`
+- `NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs`
 #### Office Recent Files:
-- `NTUSER.DAT\Software\Microsoft\Office\VERSION
-- `NTUSER.DAT\Software\Microsoft\Office\VERSION
-- `\UserMRU\LiveID_####\FileMRU
+- `NTUSER.DAT\Software\Microsoft\Office\VERSION`
+- `NTUSER.DAT\Software\Microsoft\Office\VERSION`
+- `\UserMRU\LiveID_####\FileMRU`
 ### ShellBags:
 > information about how a folder has been used, such as the date and time of access, the files that have been opened, and the order in which files have been opened.
 - `USRCLASS.DAT\Local Settings\Software\Microsoft`
