@@ -1,15 +1,17 @@
 ### Secuity First Thinking
+__continuous Learning and Improvement__: non-stop.
+
 __CIA objectives__
 
 __proactive__ risk(vuln scan & test), controls, monitor, update measures & policies.
 
 __risk aware__ threatlandscape, risk assesmnet(CVSS), resource allotmnet
 
-__integrate__ 
-<img src="https://www.ciat.edu/wp-content/uploads/2022/07/devops-netops-secops.png" width=400px />
-<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*UN3_vDPpkqhznJfXO4VmvA.png" width=400px />
+__integrate :__ \
+_see images bellow_
 
-__continuous Learning and Improvement__: non-stop.
+<img src="https://www.ciat.edu/wp-content/uploads/2022/07/devops-netops-secops.png" width=400px alt="Software development lifecycle Schema" />
+<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*UN3_vDPpkqhznJfXO4VmvA.png" width=400px alt="Software development lifecycle TOOlS/SOFTWARE"/>
 
 ### Security Principles
 ##### Defense in Depth
@@ -30,7 +32,7 @@ Layers:
 Temporary access to necessary and required parties to complete operations.
 1. Access rights: (role,JIT)
 2. Hardening: remove vulneralble serices (cut/slim down attack surface)
-3. priviledge creep: Monitor access rights, Modify access rights
+3. priviledge creep: Monitor access rights, Modify access rights, asses acces rights
 4. Just in Case: Review access rights, do not overextend attribution.
 
 ##### Seperation of Duties
@@ -39,10 +41,10 @@ No single individual has complete control or authority over critical process or 
 - concept of _forced collusion_
 
 ##### Secure by Design
-Developement, Operations, Maintenance _left shift_
-Developement, Operations, __left shift__, Maintenance
-Developement, __left shift__, Operations, Maintenance
- __Left Shift__, Developement, Operations, Maintenance
+Developement, Operations, Maintenance __left shift__ \
+Developement, Operations, __left shift__, Maintenance \
+Developement, ___left shift___, Operations, Maintenance \
+ ___Left Shift___, Developement, Operations, Maintenance 
 
  
 
