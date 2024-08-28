@@ -39,6 +39,7 @@ Example:
 
 Firewalls, in linux `ufw`:
 - Go to 1:35: https://web.compass.lighthouselabs.ca/activities/3267/lectures/14544
+- read man pages : https://manpages.ubuntu.com/manpages/focal/en/man8/ufw.8.html
 Examples: \
 `sudo ufw status` \
 `sudo ufw allow <something>` \
