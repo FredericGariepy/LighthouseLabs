@@ -18,6 +18,9 @@ _see images bellow_
 also knownn as KISS \
 Path of least resistance \
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Path_of_least_resistance.jpg/1024px-Path_of_least_resistance.jpg" width=400px alt="Path of least resistance"/>
+#### - [Kerckhoffs's principle](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
+- _Glass_ box Security :window:
+
 ##### Defense in Depth
 NO single point of Failure.
 
@@ -63,7 +66,13 @@ Start to Finish \
 Secure out-of-the-box (OOTB)
 
  # designs to avoid
-- Complexity
+- Complexity ___for the user___
+- Obscurity
+    - e.g. Black Box Security :black_large_square:
+
+
+
+
 
 
 
