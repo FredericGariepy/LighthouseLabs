@@ -14,6 +14,10 @@ _see images bellow_
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*UN3_vDPpkqhznJfXO4VmvA.png" width=400px alt="Software development lifecycle TOOlS/SOFTWARE"/>
 
 ### Security Principles
+#### 0. Key it Simple and Secure, Keep it stupid simple, Keep it simple, stupid.
+also knownn as KISS \
+Path of least resistance \
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Path_of_least_resistance.jpg/1024px-Path_of_least_resistance.jpg" width=400px alt="Path of least resistance"/>
 ##### Defense in Depth
 NO single point of Failure.
 
@@ -41,11 +45,25 @@ No single individual has complete control or authority over critical process or 
 - concept of _forced collusion_
 
 ##### Secure by Design
+```
+Production ---- Requirements
+    /      \   /    \
+Test ------ SEC ----- Design
+    \    /      \    /
+    Install ---- Code
+```
 Developement, Operations, Maintenance __left shift__ \
 Developement, Operations, __left shift__, Maintenance \
 Developement, ___left shift___, Operations, Maintenance \
  ___Left Shift___, Developement, Operations, Maintenance 
 
- 
+__Objective__: \
+Secure by Design \
+Start to Finish \
+Secure out-of-the-box (OOTB)
+
+ # designs to avoid
+- Complexity
+
 
 
