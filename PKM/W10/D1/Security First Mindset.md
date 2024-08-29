@@ -1,3 +1,5 @@
+Defense in Depth, Least Priviledge, Seperation of Duties, Secure by Design
+
 ### Secuity First Thinking
 __continuous Learning and Improvement__: non-stop.
 
