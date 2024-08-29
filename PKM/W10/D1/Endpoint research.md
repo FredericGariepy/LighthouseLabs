@@ -10,5 +10,28 @@
 4.Save your work as you will be using it for the next assignment.
 
 # A.
-0.
+0. trading shop topology, for a shop on wallstreet.
+
+- security policy/protocol enforcement
+- network security
+- insider threat
+- Threat landscape target
+- Incident response plan
+
+Enforcement of BYO-D/IT/C policies.
+Asset management & endpoint sec. mgnmt. ESM. Review of existing plan if any. Conduct current profile.
+
+Physical layer network security, networking security. firewall (nextgen, wap, ...). network monitoring, baselines, log monitors, secure topology. network vulnerability test.
+
+personnel vetting, training, éducation, organizational management, security culture, good access controls practice (IAM,RBAC,0TRUST),Secure architectecture.
+
+Resources: \
+MITRE&ATTK threat modeling, 
+NVD,CWE,CVE,OS MANUFACTURER \
+Antivirus, patch, social engineering training, IR Playbooks,SOC,MSP,MSSP, push policy updates, 
+
+sold as strategic focus,\
+Playbooks, policies, asseesments (audit,cert), roles employed, plan: testing, updated, reviewed&assesed, employed 
+
+
 
