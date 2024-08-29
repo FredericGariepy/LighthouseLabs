@@ -21,3 +21,7 @@ e.g. PM-6, SMART activities, PKIs, The security plan
 - [ ] https://www.cyber.gc.ca/en/education-community/learning-hub/courses/625-cyber-security-small-medium-organizations
 ### Azure RB
 - [ ] https://learn.microsoft.com/en-us/azure/role-based-access-control/overview
+
+### hacking
+- [ ] https://www.techspot.com/news/104436-previously-unknown-hardware-backdoors-could-turn-rfid-cards.html
+- [ ] https://www.youtube.com/@mattbrwn/videos
