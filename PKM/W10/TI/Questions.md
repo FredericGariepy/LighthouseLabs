@@ -25,6 +25,8 @@ Prepare, Detection + Analysis, Containment + Eradication + Recovery, Post-Incide
 
 Logging in Windows & Linux (general)
 - Windows: Event Viewer (`eventvwr.msc`), Event IDs, etc..
+Windows event log location is C:\WINDOWS\system32\config\ folder. \
+https://www.solarwinds.com/resources/it-glossary/windows-event-log
 - Linux: `/var/log/syslog`, log rotation, etc.. 
 
 Risk Assessment 
