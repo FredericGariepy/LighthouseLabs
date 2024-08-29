@@ -9,9 +9,12 @@ Helpful tools for NIST CSF and Privacy Framework (PF) more understandable and ac
 - page.8 control family
 - page.9 explanation of control page
 
-Examples:
-##### PM
-program management (HR related-ish) \
+Controls \
+Code-01 = policy \
+*NIST tried to order the implementations in order of dependency*
+
+Example: \
+__PM__ program management (HR related-ish) \
 e.g. PM-6, SMART activities, PKIs, The security plan 
  
 ## Extra
