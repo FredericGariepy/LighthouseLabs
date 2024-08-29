@@ -16,7 +16,10 @@ Code-01 = policy \
 Example: \
 __PM__ program management (HR related-ish) \
 e.g. PM-6, SMART activities, PKIs, The security plan 
- 
+## related
+- [ ] Gap Analysis https://www.cybermaxx.com/cybersecurity-services/governance-risk-and-compliance/cybersecurity-gap-analysis/ 
+- [ ] SWOT Analysis https://www.investopedia.com/terms/s/swot.asp
+
 ## Extra
 ### CAN/CIOSC 104: 2021
 - [ ] https://ised-isde.canada.ca/site/cybersecure-canada/en
