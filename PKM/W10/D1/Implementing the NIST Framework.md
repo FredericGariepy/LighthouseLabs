@@ -22,7 +22,17 @@ Key Takeaways
 - Implementing the NIST Framework requires \
   understanding the organization's unique risk landscape \
   and tailoring the framework to effectively manage these risks.
+# Small Business
+A small business with limited resources can effectively implement the NIST Framework by:
+- Prioritizing their assets and focusing on protecting the most critical ones first.
+- Utilizing the Identify function to understand and document their risk landscape.
+- Implementing basic and cost-effective safeguards under the Protect function, such as strong password policies and regular software updates.
+- Setting up simple monitoring tools under the Detect function to identify abnormal activities.
+- Developing a clear and straightforward incident response plan under the Respond function.
+- Creating a basic recovery plan under the Recover function to ensure they can quickly restore operations after an incident.
+- Leveraging free resources and guidelines provided by NIST and other cybersecurity organizations to guide their implementation efforts.
 
+___
 On the network there are:
 - [ ] https://www.trendmicro.com/en_us/what-is/network-security/network-security-basics.html
 - firewalls
