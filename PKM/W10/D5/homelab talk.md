@@ -29,6 +29,10 @@ Was:	$319.99
 Price:	$258.87
 ```
 __
-Check on: \
-XEON processor
+
+```
+Check on: XEON processor
+```
+price? durability ?
+
 __
