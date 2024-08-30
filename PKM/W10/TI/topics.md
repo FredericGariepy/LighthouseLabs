@@ -1,3 +1,8 @@
+OSI layers:
+|model|1|2|3|4|
+| - | - |- |-|-|
+|TCP/IP|Network Interface| Internet | Transport Layer| Application Layer|
+|OSI|Physical, Data Link| Network| Transport Layer| Session, Presentation, and Application|
 __________
 Encryption:
 
