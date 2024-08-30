@@ -46,7 +46,7 @@ Examples: \
 `sudo ufw status` \
 `sudo ufw allow <something>` \
 `sudo ufw enable` \
-`sudo ufw allow from <IP> protocol tcp to any port 22` \
+`sudo ufw allow from <IP> to any port 22 proto tcp`
 
 Programing:
 - syntax flaws (python, bash)
