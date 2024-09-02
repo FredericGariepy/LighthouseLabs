@@ -5,6 +5,8 @@
 
 ### Demo Day Presentation Topic: Reconnaissance (external)
 - [ ] https://book.hacktricks.xyz/generic-methodologies-and-resources/external-recon-methodology
+- [ ] https://www.osinttechniques.com/osint-tools.html
+
 - First part of kill chain
 - Attacker success is highly dependent on recon
 - Technical recon (ports, services, CVEs, etc)
