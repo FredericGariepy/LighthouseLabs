@@ -17,7 +17,8 @@ ASK:
 - The audit requirements for that data
 
 ### Data Classification Matrix (Tool)
-> Public, Internal, Confidential, Restricted__
+> Public, Internal, Confidential, Restricted
+
 | | __Public__| __Internal__ | __Confidential__|__Restricted__|
 |-|-|-|-|-|
 |Risk level| No risk| Low |Medium |High|
