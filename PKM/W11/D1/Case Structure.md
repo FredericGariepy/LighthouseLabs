@@ -1,6 +1,10 @@
-
 #### reads
 - [x] https://web.mit.edu/smadnick/www/wp/2020-16.pdf
+#### resource
+- [ ] [NIST RMF CONTROLS](https://csf.tools/reference/nist-sp-800-53/r5/) 
+- [ ] [NIST __CSF__ CONTROLS](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/) <-
+- [ ] https://csf.tools/framework/csf-v2-0/
+
 
 |parts|reading|
 |-|-|
@@ -55,6 +59,7 @@ ___...___
 
 - [ ] [NIST RMF CONTROLS](https://csf.tools/reference/nist-sp-800-53/r5/) 
 - [ ] [NIST __CSF__ CONTROLS](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/) <-
+- [ ] https://csf.tools/framework/csf-v2-0/
 > Table of FAILED Controls CSF NIST:
 
 | MITRE Tactic "Stage" | Step of the attack| _Mitigation_ "Technical Controls"| CSF NIST Controls (that failed)|
