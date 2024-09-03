@@ -1,4 +1,6 @@
 - [x] https://www.digitalguardian.com/blog/what-data-classification-matrix
+- [ ] https://blog.rsisecurity.com/what-are-the-20-cis-critical-security-controls/
+
 
 ### Data Classificaiton, Why, How, What
 WHY Classify data:
@@ -41,3 +43,9 @@ ASK:
 
 ### CIS Security Controls
 CIS (Center for Internet Security)
+
+Public data \
+Private data \
+Internal data \
+Confidential data \
+Restricted data \
