@@ -65,7 +65,7 @@ ___...___
 |Innitial access|__4.__<br>T1078|Monitor , Auddit:<br>Admin acc.|PR-AC-1,PR-AC-4,PR-AC-6,PR-AC-67<br>PR.IP-1<br>PR-PT-1,PR-PT-3<br>DE.CM-6,DE.CM-7<br>DE.DP-2|
 |Execution|__4.__<br>T1059|Track commands on AWS acc. |...|
 |Discovery|__5__<br>T1007|Track commands on AWS acc.|same as ^above _+plus_ PR.DS-5|
-|Exfiltration|__6__|T1048|...|
+|Exfiltration|__6__<br>T1048|Outbound traffic monitor|...|
 
 ___...___
 |parts|reading|
