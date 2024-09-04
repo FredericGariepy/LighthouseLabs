@@ -1,7 +1,7 @@
 Needs:
 - Virtualization [proxmox](https://www.proxmox.com/en/) &other 
 - Portability is a + (form factor)
-- [running OLLAMA](https://hostkey.com/documentation/technical/gpu/ollama/#introduction-to-ollama)
+- [running OLLAMA](https://hostkey.com/documentation/technical/gpu/ollama/#introduction-to-ollama) * _that would be nice_
 - learning about networks
 - developing apps/services
 - easy to use!
