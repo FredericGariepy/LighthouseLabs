@@ -1,5 +1,5 @@
 Needs:
-- Virtualization
+- Virtualization [proxmox](https://www.proxmox.com/en/) &other 
 - Portability is a + (form factor)
 - [running OLLAMA](https://hostkey.com/documentation/technical/gpu/ollama/#introduction-to-ollama)
 - learning about networks
@@ -22,6 +22,7 @@ Price: $325 approx
 
 - [ ] https://www.amazon.ca/Beelink-4-4GHz-Computer-Desktop-Display/dp/B08PBGC763
 - [ ] https://www.amazon.ca/Beelink-Pro-Desktop-Computers-1000Mbps/dp/B0C89TQ1YF/
+______
 
 ```
 HP Z640 Tower - Intel Xeon E5-2670 V3 2.3GHz 12 Core - 96GB DDR4 RAM - LSI 9217 4i4e SAS SATA Raid Card - 1.2TB (2X 600GB SAS New HDD) - NVIDIA Quadro M4000 8GB - 925W PSU - Windows 10 PRO (Renewed)
@@ -44,9 +45,4 @@ Price:	$258.87
 
 ____
 
-```
-Check on: XEON processor
-```
-price? durability ?
-
-__
+> "Check on XEON processor
