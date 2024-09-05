@@ -1,5 +1,5 @@
 ```mermaid
-graph TD
+graph LR
 
     AttackerC2["Attacker C2 Server<br>138.68.92.163:4444/tcp"]
     AttackerExfil["Attacker Exfiltration Host<br>178.62.228.28"]
