@@ -36,9 +36,9 @@ Tools Used: \
 [![Wireshark 4.4.0](https://img.shields.io/badge/Wireshark-4.4.0-1679A7?style=flat-square&logo=Wireshark&logoColor=white)](https://www.wireshark.org/)
 [![Autopsy 4.21.0](https://img.shields.io/badge/Autopsy-4.21.0-blue?style=flat-square)](https://www.sleuthkit.org/autopsy/)
 [![Event Viewer 1.0](https://img.shields.io/badge/Event_Viewer-1.0-blue?style=flat-square)](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-viewer)
-[![FTK Imager 4.7.1](https://img.shields.io/badge/FTK_Imager-4.7.1-blue?style=flat-square)](https://accessdata.com/product-download)
-[![Registry Explorer v.2.0](https://img.shields.io/badge/Registry_Explorer-v.2.0-blue?style=flat-square)](https://www.regripper.net/)
-[![Volatility 3](https://img.shields.io/badge/Volatility-3-blue?style=flat-square)](https://volatilityfoundation.org/)
+[![FTK Imager 4.7.1](https://img.shields.io/badge/FTK_Imager-4.7.1-blue?style=flat-square)](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1)
+[![Registry Explorer v.2.0](https://img.shields.io/badge/Registry_Explorer-v.2.0-blue?style=flat-square)](https://ericzimmerman.github.io/#!index.md)
+[![Volatility 3](https://img.shields.io/badge/Volatility-3-blue?style=flat-square)](https://github.com/volatilityfoundation/volatility3)
 [![Cloudflare Radar](https://img.shields.io/badge/Cloudflare_Radar-blue?style=flat-square)](https://radar.cloudflare.com/)
 [![Virustotal.com](https://img.shields.io/badge/Virustotal.com-blue?style=flat-square)](https://www.virustotal.com/)
 
@@ -63,4 +63,3 @@ Tools Used: \
 [![Virustotal.com](https://img.shields.io/badge/Virustotal.com-blue?style=flat-square)](https://www.virustotal.com/)
 
 Link: [Capstone Project](https://docs.google.com/document/d/15XAxN-OCbwSgKBdbf_cQxWmzaZJRY-X5dgWBu6TYiGY/edit?usp=sharing)
-
