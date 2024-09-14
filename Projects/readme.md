@@ -27,9 +27,3 @@ Link: https://docs.google.com/document/d/1Yk5yEMgKemMsQzBTp4_r_LtOR_e80yaZidTtcG
 ---
 ### Capstone
 Link: https://docs.google.com/document/d/15XAxN-OCbwSgKBdbf_cQxWmzaZJRY-X5dgWBu6TYiGY/edit?usp=sharing
-
----
-
-<details><summary><BIG><b>Experience...</b></BIG></summary>
-- sss 
-</details>
