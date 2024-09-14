@@ -40,7 +40,7 @@ Tools Used: \
 [![Registry Explorer v.2.0](https://img.shields.io/badge/Registry_Explorer-v.2.0-blue?style=flat-square)](https://ericzimmerman.github.io/#!index.md)
 [![Volatility 3](https://img.shields.io/badge/Volatility-3-blue?style=flat-square)](https://github.com/volatilityfoundation/volatility3)
 [![Cloudflare Radar](https://img.shields.io/badge/Cloudflare_Radar-blue?style=flat-square)](https://radar.cloudflare.com/)
-[![Virustotal.com](https://img.shields.io/badge/Virustotal.com-blue?style=flat-square)](https://www.virustotal.com/)
+[![Virustotal](https://img.shields.io/badge/Virustotal.com-blue?style=flat-square)](https://www.virustotal.com/)
 
 Link: [Forensics Report and Documentation](https://docs.google.com/document/d/1s6jdHmpUb_kudZgY2VCmKdViL0VR8DVJf2L8tmV4WTE/edit?usp=sharing)
 
