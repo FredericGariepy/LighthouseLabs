@@ -10,6 +10,7 @@ Here is a list of selected projects completed for the Lighthouse Labs Cyber Secu
 Tools used: \
 [![OpenVAS](https://img.shields.io/badge/OpenVAS-transparent?style=flat-square)](https://www.openvas.org/)
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-red?style=flat-square)](https://attack.mitre.org/)
+[![CVSS 3.1](https://img.shields.io/badge/CVSS-3.1-darkgreen?style=flat-square)](https://www.first.org/cvss/calculator/3.1)
 
 Link: [Vulnerability Assessment Report](https://docs.google.com/document/d/14qBuG2yTraYEtfFWgqYWqdsXMEGtBi25S6ve4MtTTYc/edit?usp=sharing)
 
