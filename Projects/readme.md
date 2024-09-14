@@ -25,7 +25,7 @@ Link: [Log Monitoring Workflow](https://github.com/FredericGariepy/LighthouseLab
 ---
 ### IR Plan, Playbook and Policy
 Tools Used: \
-[![SANS Institute](https://img.shields.io/badge/SANS_Institute-000000?style=flat-square&logo=sans&logoColor=white)](https://www.sans.org/)
+[![SANS Institute](https://img.shields.io/badge/SANS_Institute-000000?style=flat-square&logo=sans&logoColor=white)](https://www.sans.org/information-security-policy/)
 [![NIST 800-61 Incident Response](https://img.shields.io/badge/NIST_800--61_Incident_Response-003d7d?style=flat-square&logo=nist&logoColor=white)](https://csrc.nist.gov/pubs/sp/800/61/r2/final)
 
 Link: [IR Plan, Playbook and Policy](https://docs.google.com/document/d/1Xc7KcfH1X_6_gXpwJ76etJ5COnZTvPzoQKrX9fsxWjc/edit?usp=sharing)
